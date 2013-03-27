@@ -1,0 +1,78 @@
+[
+  {
+    "bounds": {
+      "left": 180,
+      "top": 230,
+      "right": 460,
+      "bottom": 240
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 8
+      },
+      "key": "RTRN",
+      "hue": "gold",
+      "style": "large"
+    }
+  },
+  {
+    "bounds": {
+      "left": 180,
+      "top": 270,
+      "right": 460,
+      "bottom": 280
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 15
+      },
+      "key": "Q",
+      "hue": "salmon",
+      "style": "large"
+    }
+  },
+  {
+    "bounds": {
+      "left": 160,
+      "top": 150,
+      "right": 480,
+      "bottom": 250
+    },
+    "text": {
+      "id": 2007,
+      "hue": "aqua",
+      "style": "large"
+    }
+  },
+  {
+    "bounds": {
+      "left": 140,
+      "top": 150,
+      "right": 500,
+      "bottom": 290
+    },
+    "rect": {
+      "hue": "aqua",
+      "style": "large"
+    }
+  },
+  {
+    "bounds": {
+      "left": 180,
+      "top": 190,
+      "right": 460,
+      "bottom": 200
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 14
+      },
+      "key": "ESC",
+      "hue": "pale-green",
+      "style": "large"
+    }
+  }
+]

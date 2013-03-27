@@ -1,0 +1,16 @@
+[
+  "#SHIP_OR_OBJECT",
+  "#SHIP_TYPE",
+  "#MASS",
+  "#SHIELD",
+  "#HAS_LIGHT",
+  "#MAX_SPEED",
+  "#THRUST",
+  "#TURN",
+  "#WPN_NUMBER",
+  "#WPN_NAME",
+  "#WPN_GUIDED",
+  "#WPN_RANGE",
+  "#WPN_DAMAGE",
+  "#WPN_AUTO"
+]

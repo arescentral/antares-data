@@ -1,0 +1,28 @@
+\be6\fef       SHIP
+\bf3\ffe\i #ACC \i ACCELERATE\t\i #DEC \i DECELERATE
+\bf4\fff\i #TCC \i TURN COUNTER-CLOCKWISE\t\i #TNC \i TURN CLOCKWISE
+\bf3\ffe\i #FW1 \i FIRE WEAPON 1\t\i #FW2 \i FIRE WEAPON 2
+\bf4\fff\i #FW3 \i ACTIVATE SPECIAL\t\i #WRP \i WARP/AUTOPILOT
+\bf3\ffe\i #WRP \i + \i #DST \i = autopilot to target/destination
+
+\be6\fef       COMMAND
+\bf3\ffe\i #SFD \i SELECT FRIEND\t\i #SFO \i SELECT FOE
+\bf4\fff\i #SBS \i SELECT BASE\t\i #DST \i TARGET/DESTINATION
+\bf3\ffe\i #ORD \i ORDER TO GO
+\bf4\fff\i #SC+ \i SCALE IN\t\i #SC- \i SCALE OUT
+\bf3\ffe\i #DST \i + any select key or mouse = select as target
+
+\be6\fef       COMPUTER
+\bf3\ffe\i #PRV \i PREVIOUS\t\i #NXT \i NEXT
+\bf4\fff\i #ACT \i ACCEPT/SELECT/DO\t\i #CNC \i CANCEL/BACKUP
+\bf3\ffe
+\be6\fef       MISCELLANEOUS
+\bf3\ffe\i #HLP \i SHOW/HIDE HELP\t\i #VLD \i VOLUME DOWN
+\bf4\fff\i #VLU \i VOLUME UP\t\i #MUT \i MUTE MUSIC
+\bf3\ffe\i #NET \i EXPERT NET SETTINGS\t\i #XFR \i TRANSFER CONTROL
+\bf4\fff\i #FST \i FAST MOTION
+\bf3\ffe\i #S11 \i 1:1 SCALE\t\i #S12 \i 1:2 SCALE
+\bf4\fff\i #S14 \i 1:4 SCALE\t\i #S16 \i 1:16 SCALE
+\bf3\ffe\i #SHS \i ZOOM TO CLOSEST HOSTILE\t\i #SOB \i ZOOM TO CLOSEST OBJECT
+\bf4\fff\i #SAL \i ZOOM TO ALL\t\i #MSC \i NEXT PAGE/CLEAR MESSAGE
+\bf3\ffe\i CAPS \i PAUSE\t\i ESC  \i EXIT/RESTART
