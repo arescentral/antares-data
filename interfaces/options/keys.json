@@ -858,7 +858,7 @@
       "bottom": 407
     },
     "text": {
-      "id": 2004,
+      "resource": "text/2004.txt",
       "hue": "tan",
       "style": "small"
     }
@@ -883,7 +883,7 @@
       "bottom": 481
     },
     "picture": {
-      "id": 504
+      "resource": "pictures/504.png"
     }
   },
   {
@@ -894,7 +894,7 @@
       "bottom": 100
     },
     "picture": {
-      "id": 505
+      "resource": "pictures/505.png"
     }
   },
   {
@@ -905,7 +905,7 @@
       "bottom": 480
     },
     "picture": {
-      "id": 506
+      "resource": "pictures/506.png"
     }
   },
   {
@@ -916,7 +916,7 @@
       "bottom": 556
     },
     "picture": {
-      "id": 507
+      "resource": "pictures/507.png"
     }
   }
 ]

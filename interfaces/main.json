@@ -126,7 +126,7 @@
       "bottom": 471
     },
     "picture": {
-      "id": 508
+      "resource": "pictures/508.png"
     }
   },
   {
@@ -137,7 +137,7 @@
       "bottom": 245
     },
     "picture": {
-      "id": 509
+      "resource": "pictures/509.png"
     }
   },
   {
@@ -148,7 +148,7 @@
       "bottom": 471
     },
     "picture": {
-      "id": 511
+      "resource": "pictures/511.png"
     }
   },
   {
@@ -159,7 +159,7 @@
       "bottom": 480
     },
     "picture": {
-      "id": 510
+      "resource": "pictures/510.png"
     }
   }
 ]

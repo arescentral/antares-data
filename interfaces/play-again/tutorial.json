@@ -41,7 +41,7 @@
       "bottom": 250
     },
     "text": {
-      "id": 2008,
+      "resource": "text/2008.txt",
       "hue": "indigo",
       "style": "large"
     }

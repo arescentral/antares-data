@@ -41,7 +41,7 @@
       "bottom": 250
     },
     "text": {
-      "id": 2007,
+      "resource": "text/2007.txt",
       "hue": "aqua",
       "style": "large"
     }

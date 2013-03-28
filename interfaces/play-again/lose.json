@@ -41,7 +41,7 @@
       "bottom": 250
     },
     "text": {
-      "id": 2006,
+      "resource": "text/2006.txt",
       "hue": "orange",
       "style": "large"
     }
