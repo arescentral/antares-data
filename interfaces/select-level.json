@@ -12,6 +12,7 @@
         "index": 7
       },
       "key": "RTRN",
+      "gamepad": "A",
       "hue": "pale-green",
       "style": "large"
     }
@@ -29,6 +30,7 @@
         "index": 0
       },
       "key": "ESC",
+      "gamepad": "B",
       "hue": "yellow",
       "style": "large"
     }
@@ -46,6 +48,7 @@
         "index": 16
       },
       "key": "LEFT",
+      "gamepad": "LEFT",
       "hue": "aqua",
       "style": "large"
     }
@@ -63,6 +66,7 @@
         "index": 17
       },
       "key": "RGHT",
+      "gamepad": "RGHT",
       "hue": "aqua",
       "style": "large"
     }

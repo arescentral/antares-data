@@ -12,6 +12,7 @@
         "index": 2
       },
       "key": "RTRN",
+      "gamepad": "A",
       "hue": "pale-green",
       "style": "large"
     }
@@ -29,6 +30,7 @@
         "index": 16
       },
       "key": "LEFT",
+      "gamepad": "LEFT",
       "hue": "gray",
       "style": "large"
     }
@@ -46,6 +48,7 @@
         "index": 17
       },
       "key": "RGHT",
+      "gamepad": "RGHT",
       "hue": "gray",
       "style": "large"
     }

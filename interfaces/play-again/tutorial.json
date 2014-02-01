@@ -12,6 +12,7 @@
         "index": 55
       },
       "key": "RTRN",
+      "gamepad": "X",
       "hue": "gold",
       "style": "large"
     }
@@ -29,6 +30,7 @@
         "index": 15
       },
       "key": "Q",
+      "gamepad": "Y",
       "hue": "salmon",
       "style": "large"
     }
@@ -71,6 +73,7 @@
         "index": 54
       },
       "key": "ESC",
+      "gamepad": "A",
       "hue": "pale-green",
       "style": "large"
     }
@@ -88,6 +91,7 @@
         "index": 56
       },
       "key": "S",
+      "gamepad": "B",
       "hue": "pale-purple",
       "style": "large"
     }

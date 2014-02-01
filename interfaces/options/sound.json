@@ -92,6 +92,7 @@
         "index": 0
       },
       "key": "ESC",
+      "gamepad": "B",
       "hue": "yellow",
       "style": "large"
     }
@@ -109,6 +110,7 @@
         "index": 2
       },
       "key": "RTRN",
+      "gamepad": "A",
       "hue": "pale-green",
       "style": "large"
     }

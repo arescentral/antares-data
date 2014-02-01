@@ -12,6 +12,7 @@
         "index": 6
       },
       "key": "S",
+      "gamepad": "A",
       "hue": "gold",
       "style": "large"
     }
@@ -29,6 +30,7 @@
         "index": 51
       },
       "key": "N",
+      "gamepad": "B",
       "hue": "green",
       "style": "large"
     }
@@ -46,6 +48,7 @@
         "index": 9
       },
       "key": "O",
+      "gamepad": "LEFT",
       "hue": "pale-green",
       "style": "large"
     }
@@ -63,6 +66,7 @@
         "index": 12
       },
       "key": "Q",
+      "gamepad": "BACK",
       "hue": "salmon",
       "style": "large"
     }
@@ -80,6 +84,7 @@
         "index": 11
       },
       "key": "A",
+      "gamepad": "RGHT",
       "hue": "tan",
       "style": "large"
     }
@@ -97,6 +102,7 @@
         "index": 45
       },
       "key": "D",
+      "gamepad": "Y",
       "hue": "tan",
       "style": "large"
     }
@@ -114,6 +120,7 @@
         "index": 52
       },
       "key": "R",
+      "gamepad": "X",
       "hue": "gray",
       "style": "large"
     }
