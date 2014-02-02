@@ -43,6 +43,7 @@
         "id": 2000,
         "index": 41
       },
+      "gamepad": "UP",
       "hue": "pale-purple",
       "style": "large"
     }
@@ -59,6 +60,7 @@
         "id": 2000,
         "index": 42
       },
+      "gamepad": "DOWN",
       "hue": "pale-purple",
       "style": "large"
     }
