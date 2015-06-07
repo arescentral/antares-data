@@ -1,0 +1,922 @@
+[
+  {
+    "bounds": {
+      "left": 46,
+      "top": 427,
+      "right": 126,
+      "bottom": 437
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 0
+      },
+      "hue": "yellow",
+      "style": "small"
+    }
+  },
+  {
+    "bounds": {
+      "left": 516,
+      "top": 427,
+      "right": 596,
+      "bottom": 437
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 2
+      },
+      "hue": "green",
+      "style": "small"
+    }
+  },
+  {
+    "bounds": {
+      "left": 407,
+      "top": 427,
+      "right": 487,
+      "bottom": 437
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 44
+      },
+      "hue": "green",
+      "style": "small"
+    }
+  },
+  {
+    "bounds": {
+      "left": 56,
+      "top": 62,
+      "right": 584,
+      "bottom": 296
+    },
+    "tab-box": {
+      "hue": "aqua",
+      "style": "large",
+      "tabs": [
+        {
+          "width": 39,
+          "label": {
+            "id": 2009,
+            "index": 0
+          },
+          "content": [
+            {
+              "bounds": {
+                "left": 101,
+                "top": 115,
+                "right": 301,
+                "bottom": 125
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 0
+                },
+                "key": "KP 8",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 101,
+                "top": 155,
+                "right": 301,
+                "bottom": 165
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 1
+                },
+                "key": "KP 5",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 101,
+                "top": 195,
+                "right": 301,
+                "bottom": 205
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 2
+                },
+                "key": "KP 4",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 101,
+                "top": 235,
+                "right": 301,
+                "bottom": 245
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 3
+                },
+                "key": "KP 6",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 341,
+                "top": 115,
+                "right": 541,
+                "bottom": 125
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 4
+                },
+                "key": "OPTN",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 341,
+                "top": 155,
+                "right": 541,
+                "bottom": 165
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 5
+                },
+                "key": "CMND",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 341,
+                "top": 195,
+                "right": 541,
+                "bottom": 205
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 6
+                },
+                "key": "SPAC",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 341,
+                "top": 235,
+                "right": 541,
+                "bottom": 245
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 7
+                },
+                "key": "TAB",
+                "hue": "aqua",
+                "style": "small"
+              }
+            }
+          ]
+        },
+        {
+          "width": 72,
+          "label": {
+            "id": 2009,
+            "index": 1
+          },
+          "content": [
+            {
+              "bounds": {
+                "left": 80,
+                "top": 75,
+                "right": 300,
+                "bottom": 85
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 8
+                },
+                "key": "Q",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 80,
+                "top": 115,
+                "right": 300,
+                "bottom": 125
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 9
+                },
+                "key": "A",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 80,
+                "top": 155,
+                "right": 300,
+                "bottom": 165
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 10
+                },
+                "key": "Z",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 80,
+                "top": 196,
+                "right": 300,
+                "bottom": 206
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 11
+                },
+                "key": "SHFT",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 80,
+                "top": 236,
+                "right": 300,
+                "bottom": 246
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 12
+                },
+                "key": "CNTL",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 339,
+                "top": 75,
+                "right": 560,
+                "bottom": 85
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 13
+                },
+                "key": "KP +",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 340,
+                "top": 115,
+                "right": 560,
+                "bottom": 125
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 14
+                },
+                "key": "KP -",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 339,
+                "top": 155,
+                "right": 560,
+                "bottom": 165
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 15
+                },
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 339,
+                "top": 195,
+                "right": 560,
+                "bottom": 205
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 16
+                },
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 339,
+                "top": 235,
+                "right": 560,
+                "bottom": 245
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 17
+                },
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 339,
+                "top": 275,
+                "right": 560,
+                "bottom": 285
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 18
+                },
+                "hue": "aqua",
+                "style": "small"
+              }
+            }
+          ]
+        },
+        {
+          "width": 72,
+          "label": {
+            "id": 2009,
+            "index": 2
+          },
+          "content": [
+            {
+              "bounds": {
+                "left": 71,
+                "top": 95,
+                "right": 291,
+                "bottom": 105
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 19
+                },
+                "key": "KP 8",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 71,
+                "top": 135,
+                "right": 291,
+                "bottom": 145
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 20
+                },
+                "key": "KP 5",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 71,
+                "top": 175,
+                "right": 291,
+                "bottom": 185
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 21
+                },
+                "key": "KP 4",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 71,
+                "top": 215,
+                "right": 291,
+                "bottom": 225
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 22
+                },
+                "key": "KP 6",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 71,
+                "top": 255,
+                "right": 291,
+                "bottom": 265
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 23
+                },
+                "key": "OPTN",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 331,
+                "top": 95,
+                "right": 571,
+                "bottom": 105
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 24
+                },
+                "key": "CMND",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 331,
+                "top": 135,
+                "right": 571,
+                "bottom": 145
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 25
+                },
+                "key": "SPAC",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 331,
+                "top": 175,
+                "right": 571,
+                "bottom": 185
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 26
+                },
+                "key": "TAB",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 331,
+                "top": 215,
+                "right": 571,
+                "bottom": 225
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 27
+                },
+                "key": "Q",
+                "hue": "aqua",
+                "style": "small"
+              }
+            }
+          ]
+        },
+        {
+          "width": 72,
+          "label": {
+            "id": 2009,
+            "index": 3
+          },
+          "content": [
+            {
+              "bounds": {
+                "left": 100,
+                "top": 134,
+                "right": 300,
+                "bottom": 144
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 28
+                },
+                "key": "KP 8",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 100,
+                "top": 174,
+                "right": 300,
+                "bottom": 184
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 29
+                },
+                "key": "KP 5",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 100,
+                "top": 214,
+                "right": 300,
+                "bottom": 224
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 30
+                },
+                "key": "KP 4",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 340,
+                "top": 134,
+                "right": 540,
+                "bottom": 144
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 31
+                },
+                "key": "KP 6",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 340,
+                "top": 174,
+                "right": 540,
+                "bottom": 184
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 32
+                },
+                "key": "OPTN",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 340,
+                "top": 214,
+                "right": 540,
+                "bottom": 224
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 33
+                },
+                "key": "F7",
+                "hue": "aqua",
+                "style": "small"
+              }
+            }
+          ]
+        },
+        {
+          "width": 68,
+          "label": {
+            "id": 2009,
+            "index": 4
+          },
+          "content": [
+            {
+              "bounds": {
+                "left": 100,
+                "top": 94,
+                "right": 300,
+                "bottom": 104
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 34
+                },
+                "key": "1",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 100,
+                "top": 134,
+                "right": 300,
+                "bottom": 144
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 35
+                },
+                "key": "2",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 100,
+                "top": 174,
+                "right": 300,
+                "bottom": 184
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 36
+                },
+                "key": "3",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 100,
+                "top": 214,
+                "right": 300,
+                "bottom": 224
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 37
+                },
+                "key": "4",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 100,
+                "top": 254,
+                "right": 300,
+                "bottom": 264
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 38
+                },
+                "key": "5",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 340,
+                "top": 94,
+                "right": 540,
+                "bottom": 104
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 39
+                },
+                "key": "6",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 340,
+                "top": 134,
+                "right": 540,
+                "bottom": 144
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 40
+                },
+                "key": "7",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 340,
+                "top": 174,
+                "right": 540,
+                "bottom": 184
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 41
+                },
+                "key": "8",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 340,
+                "top": 214,
+                "right": 540,
+                "bottom": 224
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 42
+                },
+                "key": "9",
+                "hue": "aqua",
+                "style": "small"
+              }
+            },
+            {
+              "bounds": {
+                "left": 340,
+                "top": 254,
+                "right": 540,
+                "bottom": 264
+              },
+              "button": {
+                "label": {
+                  "id": 2005,
+                  "index": 43
+                },
+                "key": "0",
+                "hue": "aqua",
+                "style": "small"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "bounds": {
+      "left": 44,
+      "top": 351,
+      "right": 599,
+      "bottom": 407
+    },
+    "text": {
+      "resource": "text/2004.txt",
+      "hue": "tan",
+      "style": "small"
+    }
+  },
+  {
+    "bounds": {
+      "left": 46,
+      "top": 313,
+      "right": 594,
+      "bottom": 339
+    },
+    "text": {
+      "hue": "orange",
+      "style": "small"
+    }
+  },
+  {
+    "bounds": {
+      "left": 2,
+      "top": 0,
+      "right": 102,
+      "bottom": 481
+    },
+    "picture": {
+      "resource": "pictures/504"
+    }
+  },
+  {
+    "bounds": {
+      "left": 35,
+      "top": 0,
+      "right": 615,
+      "bottom": 100
+    },
+    "picture": {
+      "resource": "pictures/505"
+    }
+  },
+  {
+    "bounds": {
+      "left": 607,
+      "top": 0,
+      "right": 707,
+      "bottom": 480
+    },
+    "picture": {
+      "resource": "pictures/506"
+    }
+  },
+  {
+    "bounds": {
+      "left": 35,
+      "top": 456,
+      "right": 615,
+      "bottom": 556
+    },
+    "picture": {
+      "resource": "pictures/507"
+    }
+  }
+]

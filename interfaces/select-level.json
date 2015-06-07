@@ -1,0 +1,146 @@
+[
+  {
+    "bounds": {
+      "left": 419,
+      "top": 422,
+      "right": 559,
+      "bottom": 432
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 7
+      },
+      "key": "RTRN",
+      "gamepad": "A",
+      "hue": "pale-green",
+      "style": "large"
+    }
+  },
+  {
+    "bounds": {
+      "left": 80,
+      "top": 422,
+      "right": 220,
+      "bottom": 432
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 0
+      },
+      "key": "ESC",
+      "gamepad": "B",
+      "hue": "yellow",
+      "style": "large"
+    }
+  },
+  {
+    "bounds": {
+      "left": 80,
+      "top": 302,
+      "right": 220,
+      "bottom": 312
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 16
+      },
+      "key": "LEFT",
+      "gamepad": "LEFT",
+      "hue": "aqua",
+      "style": "large"
+    }
+  },
+  {
+    "bounds": {
+      "left": 419,
+      "top": 302,
+      "right": 559,
+      "bottom": 312
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 17
+      },
+      "key": "RGHT",
+      "gamepad": "RGHT",
+      "hue": "aqua",
+      "style": "large"
+    }
+  },
+  {
+    "bounds": {
+      "left": 70,
+      "top": 129,
+      "right": 570,
+      "bottom": 269
+    },
+    "rect": {
+      "hue": "aqua",
+      "style": "small"
+    }
+  },
+  {
+    "bounds": {
+      "left": 2,
+      "top": 0,
+      "right": 102,
+      "bottom": 481
+    },
+    "picture": {
+      "resource": "pictures/504"
+    }
+  },
+  {
+    "bounds": {
+      "left": 35,
+      "top": 0,
+      "right": 615,
+      "bottom": 100
+    },
+    "picture": {
+      "resource": "pictures/505"
+    }
+  },
+  {
+    "bounds": {
+      "left": 607,
+      "top": 0,
+      "right": 707,
+      "bottom": 480
+    },
+    "picture": {
+      "resource": "pictures/506"
+    }
+  },
+  {
+    "bounds": {
+      "left": 35,
+      "top": 456,
+      "right": 615,
+      "bottom": 556
+    },
+    "picture": {
+      "resource": "pictures/507"
+    }
+  },
+  {
+    "bounds": {
+      "left": 54,
+      "top": 105,
+      "right": 587,
+      "bottom": 346
+    },
+    "rect": {
+      "label": {
+        "id": 2001,
+        "index": 27
+      },
+      "hue": "aqua",
+      "style": "large"
+    }
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "bounds": {
+      "left": 446,
+      "top": 435,
+      "right": 586,
+      "bottom": 445
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 2
+      },
+      "key": "RTRN",
+      "gamepad": "A",
+      "hue": "pale-green",
+      "style": "large"
+    }
+  },
+  {
+    "bounds": {
+      "left": 54,
+      "top": 435,
+      "right": 194,
+      "bottom": 445
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 16
+      },
+      "key": "LEFT",
+      "gamepad": "LEFT",
+      "hue": "gray",
+      "style": "large"
+    }
+  },
+  {
+    "bounds": {
+      "left": 234,
+      "top": 435,
+      "right": 374,
+      "bottom": 445
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 17
+      },
+      "key": "RGHT",
+      "gamepad": "RGHT",
+      "hue": "gray",
+      "style": "large"
+    }
+  },
+  {
+    "bounds": {
+      "left": 2,
+      "top": 0,
+      "right": 102,
+      "bottom": 481
+    },
+    "picture": {
+      "resource": "pictures/504"
+    }
+  },
+  {
+    "bounds": {
+      "left": 35,
+      "top": 0,
+      "right": 615,
+      "bottom": 100
+    },
+    "picture": {
+      "resource": "pictures/505"
+    }
+  },
+  {
+    "bounds": {
+      "left": 607,
+      "top": 0,
+      "right": 707,
+      "bottom": 480
+    },
+    "picture": {
+      "resource": "pictures/506"
+    }
+  },
+  {
+    "bounds": {
+      "left": 35,
+      "top": 456,
+      "right": 615,
+      "bottom": 556
+    },
+    "picture": {
+      "resource": "pictures/507"
+    }
+  },
+  {
+    "bounds": {
+      "left": 54,
+      "top": 58,
+      "right": 587,
+      "bottom": 419
+    },
+    "rect": {
+      "label": {
+        "id": 2001,
+        "index": 7
+      },
+      "hue": "tan",
+      "style": "large"
+    }
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "bounds": {
+      "left": 180,
+      "top": 230,
+      "right": 460,
+      "bottom": 240
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 55
+      },
+      "key": "RTRN",
+      "gamepad": "X",
+      "hue": "gold",
+      "style": "large"
+    }
+  },
+  {
+    "bounds": {
+      "left": 180,
+      "top": 310,
+      "right": 460,
+      "bottom": 320
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 15
+      },
+      "key": "Q",
+      "gamepad": "Y",
+      "hue": "salmon",
+      "style": "large"
+    }
+  },
+  {
+    "bounds": {
+      "left": 160,
+      "top": 150,
+      "right": 480,
+      "bottom": 250
+    },
+    "text": {
+      "resource": "text/2008.txt",
+      "hue": "indigo",
+      "style": "large"
+    }
+  },
+  {
+    "bounds": {
+      "left": 140,
+      "top": 150,
+      "right": 500,
+      "bottom": 330
+    },
+    "rect": {
+      "hue": "pale-purple",
+      "style": "large"
+    }
+  },
+  {
+    "bounds": {
+      "left": 180,
+      "top": 190,
+      "right": 460,
+      "bottom": 200
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 54
+      },
+      "key": "ESC",
+      "gamepad": "A",
+      "hue": "pale-green",
+      "style": "large"
+    }
+  },
+  {
+    "bounds": {
+      "left": 180,
+      "top": 270,
+      "right": 460,
+      "bottom": 280
+    },
+    "button": {
+      "label": {
+        "id": 2000,
+        "index": 56
+      },
+      "key": "S",
+      "gamepad": "B",
+      "hue": "pale-purple",
+      "style": "large"
+    }
+  }
+]

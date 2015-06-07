@@ -1,0 +1,8 @@
+\i #SHIP_OR_OBJECT DATA:\i
+\b41Type:\t#SHIP_TYPE
+\b42Mass:\t#MASS
+\b41Shield:\t#SHIELD
+\b42Light Drive:\t#HAS_LIGHT
+\b41Max Vel:\t#MAX_SPEED
+\b42Thrust:\t#THRUST
+\b41Turn:\t#TURN

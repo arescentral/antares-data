@@ -1,0 +1,7 @@
+
+\i #WPN_NUMBER DATA:\i
+\b41Type:\t#WPN_NAME
+\b42Guided:\t#WPN_GUIDED
+\b41Autotarget:\t#WPN_AUTO
+\b42Range:\t#WPN_RANGE
+\b41Damage:\t#WPN_DAMAGE

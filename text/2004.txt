@@ -1,0 +1,1 @@
+To change a key control, click on its button. Any key you then press will be assigned to that function. The next button will automatically be selected. <ESC>, <RETURN>, and <CAPS LOCK> are pre-assigned and cannot be used.
