@@ -53,6 +53,8 @@ Contents:
   (6500.txt) was modified to add a disclaimer required by the terms of
   the CC-BY-NC-SA license.
 
+Older, now-unneeded resources are kept in the "attic" branch.
+
 [antares]:          https://github.com/arescentral/antares
 [build-font]:       https://github.com/arescentral/antares/blob/develop/scripts/build-font
 [build-interface]:  https://github.com/arescentral/antares/blob/develop/scripts/build-interface
