@@ -47,16 +47,16 @@
 		style:  "large"
 *	bounds:  {left: 2, top: 0, right: 102, bottom: 481}
 	picture:
-		resource:  "pictures/504"
+		resource:  "interfaces/tablet/left"
 *	bounds:  {left: 35, top: 0, right: 615, bottom: 100}
 	picture:
-		resource:  "pictures/505"
+		resource:  "interfaces/tablet/top"
 *	bounds:  {left: 607, top: 0, right: 707, bottom: 480}
 	picture:
-		resource:  "pictures/506"
+		resource:  "interfaces/tablet/right"
 *	bounds:  {left: 35, top: 456, right: 615, bottom: 556}
 	picture:
-		resource:  "pictures/507"
+		resource:  "interfaces/tablet/bottom"
 *	bounds:  {left: 53, top: 92, right: 588, bottom: 293}
 	rect:
 		label:  {id: 2001, index: 17}
