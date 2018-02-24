@@ -1,0 +1,1 @@
+You have now selected the drone as the CONTROL object--the ship which is under your indirect control--and the buoy as the TARGET object--the object to which you're ordering the drone to go. Press the Order to Go Key, \i_#ORD_\i to send the drone to the buoy.

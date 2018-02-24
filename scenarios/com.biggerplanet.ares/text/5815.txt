@@ -1,0 +1,4 @@
+Good.
+
+Now let’s try selecting one ship out of many with the keyboard.
+\i_[more]_\i_

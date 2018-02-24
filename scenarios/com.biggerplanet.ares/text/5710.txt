@@ -1,0 +1,5 @@
+The Zoom In key, \i_#SC+_\i, has now been activated.
+
+Press it several times now to zoom in to \f0c2:1\r mode, where everything will appear twice as large.
+
+Notice that as you change zoom levels, the current mode is displayed at the top of the screen.

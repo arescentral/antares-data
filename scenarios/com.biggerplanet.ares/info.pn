@@ -1,0 +1,9 @@
+title:           "Ares"
+download_url:    "http://www.arescentral.com"
+author:          "Bigger Planet"
+author_url:      "http://www.biggerplanet.com"
+version:         "1.1.1"
+warp_in_flare:   32
+warp_out_flare:  33
+player_body:     22
+energy_blob:     28

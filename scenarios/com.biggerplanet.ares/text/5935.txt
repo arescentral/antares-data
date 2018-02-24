@@ -1,0 +1,6 @@
+#L181##112,235#All ships have targets. This newly built
+ship’s target is indicated here, in the
+Control Display.
+
+Its target is the planet.
+[more]

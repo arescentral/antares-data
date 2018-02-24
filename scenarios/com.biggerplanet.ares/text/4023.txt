@@ -1,0 +1,1 @@
+^P1020^This base can also produce defense drones, gunships and transports. The heavily armored gunships are slow, and they rely entirely on energy weapons .^P1055^

@@ -1,0 +1,3 @@
+#L322##116,340#Good.
+Now execute the Next Page/Clear command
+by pressing the #ACT key.

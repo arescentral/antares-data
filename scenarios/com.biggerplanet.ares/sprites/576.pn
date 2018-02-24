@@ -1,0 +1,30 @@
+image:    "sprites/576/image.png"
+overlay:  "sprites/576/overlay.png"
+rows:     4
+cols:     6
+center:   {x: 34, y: 35}
+frames:
+	*	{left: -16, top: -33, right: 16, bottom: 26}
+	*	{left: -23, top: -34, right: 21, bottom: 29}
+	*	{left: -28, top: -34, right: 28, bottom: 29}
+	*	{left: -31, top: -33, right: 33, bottom: 28}
+	*	{left: -32, top: -31, right: 36, bottom: 28}
+	*	{left: -31, top: -29, right: 37, bottom: 27}
+	*	{left: -30, top: -27, right: 34, bottom: 25}
+	*	{left: -32, top: -29, right: 32, bottom: 27}
+	*	{left: -32, top: -32, right: 36, bottom: 28}
+	*	{left: -30, top: -34, right: 34, bottom: 28}
+	*	{left: -26, top: -35, right: 30, bottom: 29}
+	*	{left: -20, top: -34, right: 24, bottom: 28}
+	*	{left: -17, top: -33, right: 19, bottom: 26}
+	*	{left: -24, top: -34, right: 20, bottom: 29}
+	*	{left: -30, top: -35, right: 26, bottom: 29}
+	*	{left: -33, top: -34, right: 31, bottom: 28}
+	*	{left: -34, top: -32, right: 34, bottom: 28}
+	*	{left: -33, top: -29, right: 31, bottom: 27}
+	*	{left: -31, top: -27, right: 33, bottom: 25}
+	*	{left: -33, top: -29, right: 31, bottom: 27}
+	*	{left: -33, top: -32, right: 31, bottom: 28}
+	*	{left: -31, top: -34, right: 33, bottom: 28}
+	*	{left: -27, top: -35, right: 29, bottom: 29}
+	*	{left: -21, top: -34, right: 23, bottom: 29}

@@ -1,0 +1,6 @@
+Many ships are capable of faster-than-light speeds.
+
+To enter warp speed, press and hold down the warp key, \i_#WRP_\i. It takes a moment for the engines to engage, so keep holding the key down.
+
+You will stay in warp for as long as you hold down the key. Releasing the key returns you to normal speed.
+\i_[more]_\i_

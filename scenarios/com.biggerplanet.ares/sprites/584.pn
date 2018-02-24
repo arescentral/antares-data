@@ -1,0 +1,12 @@
+image:    "sprites/584/image.png"
+overlay:  "sprites/584/overlay.png"
+rows:     2
+cols:     3
+center:   {x: 11, y: 11}
+frames:
+	*	{left: -8, top: -8, right: 12, bottom: 11}
+	*	{left: -11, top: -7, right: 13, bottom: 10}
+	*	{left: -11, top: -10, right: 13, bottom: 10}
+	*	{left: -11, top: -11, right: 13, bottom: 10}
+	*	{left: -10, top: -9, right: 14, bottom: 8}
+	*	{left: -7, top: -9, right: 13, bottom: 12}

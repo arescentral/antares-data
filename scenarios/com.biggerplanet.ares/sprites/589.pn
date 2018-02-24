@@ -1,0 +1,11 @@
+image:    "sprites/589/image.png"
+overlay:  "sprites/589/overlay.png"
+rows:     1
+cols:     5
+center:   {x: 7, y: 5}
+frames:
+	*	{left: -3, top: -4, right: 5, bottom: 4}
+	*	{left: -4, top: -4, right: 8, bottom: 4}
+	*	{left: -5, top: -5, right: 7, bottom: 4}
+	*	{left: -4, top: -5, right: 8, bottom: 4}
+	*	{left: -7, top: -5, right: 5, bottom: 3}

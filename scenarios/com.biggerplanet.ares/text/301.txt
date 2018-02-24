@@ -1,0 +1,1 @@
+The game ended because the network games were no longer synchronized.

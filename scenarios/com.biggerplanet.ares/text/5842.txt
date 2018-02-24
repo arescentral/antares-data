@@ -1,0 +1,3 @@
+You’ll continue to follow this ship -- or any other target you care to select -- until you press one of your movement keys. Accelerating or turning immediately deactivates the autopilot.
+
+Try turning off the autopilot now, by pressing one of your rotation keys (\i_#TCC_\i, \i_#TNC_\i), or your acceleration or deceleration (\i_#ACC_\i, \i_#DEC_\i)keys.

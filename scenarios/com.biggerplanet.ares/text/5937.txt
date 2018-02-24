@@ -1,0 +1,8 @@
+#O2#Target this Heavy Cruiser by clicking on it
+while holding down the Target Key,
+#DST.
+
+You could also point at it with your ship
+and hold down the Target Key, #DST,
+and press the Select Friend Key,
+#SFD.

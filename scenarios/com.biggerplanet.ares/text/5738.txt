@@ -1,0 +1,2 @@
+One of the transports is cloaked. Normally, Cantharan transports can’t cloak, but since this is a simulation, it will help illustrate the use of your radar.
+\i_[more]_\i_

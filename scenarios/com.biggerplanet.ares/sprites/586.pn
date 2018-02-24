@@ -1,0 +1,7 @@
+image:    "sprites/586/image.png"
+overlay:  "sprites/586/overlay.png"
+rows:     1
+cols:     1
+center:   {x: 38, y: 61}
+frames:
+	*	{left: -38, top: -61, right: 34, bottom: 61}

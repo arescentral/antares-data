@@ -1,0 +1,6 @@
+#O3#Diamonds represent large military vessels,
+like carriers.
+
+Green symbols represent ships that are
+friendly to you.
+[more]

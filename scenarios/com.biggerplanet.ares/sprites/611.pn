@@ -1,0 +1,12 @@
+image:    "sprites/611/image.png"
+overlay:  "sprites/611/overlay.png"
+rows:     2
+cols:     3
+center:   {x: 6, y: 6}
+frames:
+	*	{left: -6, top: -6, right: 6, bottom: 6}
+	*	{left: -6, top: -6, right: 6, bottom: 6}
+	*	{left: -5, top: -6, right: 7, bottom: 6}
+	*	{left: -6, top: -6, right: 6, bottom: 6}
+	*	{left: -6, top: -6, right: 6, bottom: 6}
+	*	{left: -6, top: -6, right: 6, bottom: 6}

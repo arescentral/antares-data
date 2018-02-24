@@ -1,0 +1,3 @@
+Here are several ships. Try selecting the farthest one, the transport, by facing them all and repeatedly hitting the \i_#SFD_\i key.
+
+Notice how each time you hit the key, the next farthest ship is selected.

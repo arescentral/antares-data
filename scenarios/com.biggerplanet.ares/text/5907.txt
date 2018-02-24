@@ -1,0 +1,3 @@
+#L322##62,338#Now use the computer control keys or the
+mouse to execute the <Build> item and get
+to the Build Menu.

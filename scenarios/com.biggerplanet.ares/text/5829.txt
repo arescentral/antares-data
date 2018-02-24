@@ -1,0 +1,8 @@
+#L254##119,289#This is the Target Display. When you have
+a Target Object selected, it is displayed
+here.
+
+The Target Display provides the same
+information about a ship or base as the
+Control Display.
+[more]

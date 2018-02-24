@@ -1,0 +1,8 @@
+#L322##116,337#The Heavy Cruiser is your Current
+Control Object.
+
+Try transferring control to it.
+
+Double click
+the Transfer Control item or press the
+#ACT key.

@@ -1,0 +1,3 @@
+We put the display at \f0c1:1\r scale.
+
+Try to select the transport by turning toward it (remember, it’s at about one o’clock) and repeatedly hitting the Select Friend key, \i_#SFD_\i.

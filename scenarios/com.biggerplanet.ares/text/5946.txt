@@ -1,0 +1,8 @@
+#O6#When this ship left the planet, you had
+the Heavy Cruiser selected as a target, so
+the new ship adopted your target as its
+own.
+
+Ships will do anything to get to their
+targets.
+[more]

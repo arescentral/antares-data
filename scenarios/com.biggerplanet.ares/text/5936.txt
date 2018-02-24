@@ -1,0 +1,9 @@
+#L181##117,270#When a ship is built, it adopts whatever
+target you have selected at the time of the
+ship’s creation.
+
+You had the planet as your target, and when the
+ship was built, it was given the same target.
+
+Let’s demonstrate.
+[more]

@@ -1,0 +1,1 @@
+At these two buoys, you can practice commanding a ship by sending it to a destination. First, select the practice drone as the CONTROL object by using the mouse to click on it, or by pointing your ship at it and pressing the \i #SFD \i key.

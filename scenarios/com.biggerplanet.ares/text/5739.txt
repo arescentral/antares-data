@@ -1,0 +1,7 @@
+#L8##121,66#This is your radar. Its range is fixed.
+
+Try scaling in and out, and notice the
+lighter box which shrinks and grows in the
+radar. That box represents the area visible
+in the main display.
+[more]

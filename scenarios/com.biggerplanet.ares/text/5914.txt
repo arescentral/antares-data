@@ -1,0 +1,5 @@
+#R50##619,55#In the unlikely event that you have too many
+resources to display in the green column,
+these yellow bars will light up, each
+representing one full column of resources.
+[more]

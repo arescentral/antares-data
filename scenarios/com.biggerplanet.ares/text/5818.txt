@@ -1,0 +1,8 @@
+#O2#Point yourself at this cluster, using the
+triangular sight to gauge your direction.
+
+The sight doesn't have to touch the ships--
+it only shows which way you're facing.
+
+Repeatedly hit the Select Friend key,
+#SFD, to select the gunship.

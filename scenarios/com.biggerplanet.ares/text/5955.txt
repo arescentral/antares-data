@@ -1,0 +1,9 @@
+#L181##112,235#OK, we’re about to give an order.
+
+You have a Control Object selected -- the
+Heavy Cruiser.
+
+Since there’s no target displayed here in
+the Control display, we know the Heavy
+Cruiser has no assigned target.
+[more]

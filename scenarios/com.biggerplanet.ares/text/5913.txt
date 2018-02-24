@@ -1,0 +1,6 @@
+#R160##636,68#This thin column of dots shows
+your available resources.
+
+The lower down the screen the green and blue
+dots go, the more resources you have.
+[more]

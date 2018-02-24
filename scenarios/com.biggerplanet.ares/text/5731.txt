@@ -1,0 +1,6 @@
+Your weapons are now enabled.
+
+The \i_#FW1_\i key will fire your pulse weapon. Try it now. You can hold the key down to fire continuously.
+
+Zoom in to \f0c1:1\r for a better look.
+\i_[more]_\i_

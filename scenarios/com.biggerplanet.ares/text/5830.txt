@@ -1,0 +1,4 @@
+#O6#Any friendly object can be targeted.
+
+Try clicking on this planet while
+holding down the #DST key.

@@ -1,0 +1,7 @@
+#R160##632,82#Notice that when you select an item that you
+can’t afford, the resource indicator shows
+how many more resources you’d need.
+
+The green dots show how many you have, and
+the orange dots show how many you require.
+[more]

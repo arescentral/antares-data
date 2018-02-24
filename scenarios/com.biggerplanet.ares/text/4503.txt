@@ -1,0 +1,3 @@
+^P1129^Don't allow any of the escape pods to be destroyed while you engage the Gaitori, or the mission will be aborted.
+
+When the Secorem system is clear, recover all six escape pods from the Banadee. 

@@ -1,0 +1,5 @@
+#L452##104,468#To back up to the main menu, click
+the Main Menu button here, or press the
+#CNC key.
+
+Try backing up to the main menu now.

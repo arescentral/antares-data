@@ -1,0 +1,3 @@
+To give a ship a new target, press the Order To Go key, \i_#ORD_\i.
+
+Press the \i_#ORD_\i key now to order the Control Object, the Heavy Cruiser, to go to the Target Object, the planet.

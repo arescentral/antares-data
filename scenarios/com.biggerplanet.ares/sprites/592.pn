@@ -1,0 +1,13 @@
+image:    "sprites/592/image.png"
+overlay:  "sprites/592/overlay.png"
+rows:     1
+cols:     7
+center:   {x: 26, y: 53}
+frames:
+	*	{left: -18, top: -20, right: 22, bottom: 22}
+	*	{left: -19, top: -38, right: 21, bottom: 22}
+	*	{left: -23, top: -40, right: 21, bottom: 22}
+	*	{left: -26, top: -48, right: 22, bottom: 22}
+	*	{left: -23, top: -53, right: 25, bottom: 22}
+	*	{left: -22, top: -44, right: 22, bottom: 22}
+	*	{left: -20, top: -43, right: 24, bottom: 22}

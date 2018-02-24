@@ -1,0 +1,4 @@
+#O1#To select a ship with the mouse, just click on
+the ship.
+
+Use the mouse to click on this ship.

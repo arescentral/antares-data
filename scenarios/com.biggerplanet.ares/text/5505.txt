@@ -1,0 +1,1 @@
+You've already got the right buoy selected as the TARGET object, so now select the practice drone as the CONTROL object by using the mouse to click on it, or by pointing your ship at it and pressing the \i_#SFO_\i key.

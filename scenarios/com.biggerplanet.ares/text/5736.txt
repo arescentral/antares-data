@@ -1,0 +1,9 @@
+#L159##110,163#The standard cruiser you are in has no
+special weapon.
+
+If it did, that weapon’s ammo would be
+displayed here.
+
+The special weapon is triggered by the
+#FW3 key.
+[more]

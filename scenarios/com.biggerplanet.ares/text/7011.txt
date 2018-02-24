@@ -1,0 +1,8 @@
+#L322##116,375#Selecting the <Mission Status> item brings
+up a screen which displays information about
+your current objective.
+
+For instance, when you had to destroy three
+relay stations, this option told you how
+many you had remaining.
+[more]

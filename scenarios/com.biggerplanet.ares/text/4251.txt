@@ -1,0 +1,2 @@
+The Gaitori have a planet base on Aeneas Beta, one of the two planets in the system. Their planet is defended by a flak drone.
+^P1094^Flak drones are indestructible. In addition to having guided rockets, they can fire deadly flak over a wide area. The only way to gain control of a flak drone is with an engineering pod.

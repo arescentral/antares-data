@@ -1,0 +1,3 @@
+Now, use the \i_#SC+_\i key to zoom in to \f0c1:1\r mode again.
+
+The zoom modes, from smallest to largest, are: \f0cZoom to All\r, \f0cZoom to Closest\r, \f0cZoom to Hostile\r, \f0c1:16\r, \f0c1:4\r, \f0c1:2\r, \f0c1:1\r, and \f0c2:1\r.

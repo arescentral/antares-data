@@ -1,0 +1,13 @@
+image:    "sprites/606/image.png"
+overlay:  "sprites/606/overlay.png"
+rows:     1
+cols:     7
+center:   {x: 15, y: 15}
+frames:
+	*	{left: -13, top: -13, right: 15, bottom: 14}
+	*	{left: -14, top: -14, right: 14, bottom: 14}
+	*	{left: -14, top: -14, right: 18, bottom: 15}
+	*	{left: -14, top: -14, right: 18, bottom: 15}
+	*	{left: -14, top: -14, right: 18, bottom: 15}
+	*	{left: -15, top: -14, right: 17, bottom: 15}
+	*	{left: -15, top: -15, right: 17, bottom: 16}

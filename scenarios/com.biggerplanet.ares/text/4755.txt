@@ -1,0 +1,1 @@
+The transport can carry all five Obiards contained in a deep space cell. When the transport has picked up the prisoners at a cell, command it to return to this waiting Obish passenger liner. The Obiards will exit the transport and enter the liner.

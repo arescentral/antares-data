@@ -1,0 +1,1 @@
+^P1102^Assault Transports are the only ships designed to gain control of bunker stations. Our assault transports carry twelve extravehicular assault troopers. Six EVA troopers can exit the transport at once, and the assault transport will automatically dispatch them when it arrives at a hostile barrack station. At least five troopers must enter the station to control it.

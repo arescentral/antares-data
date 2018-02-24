@@ -1,0 +1,6 @@
+Very good.
+
+Anything you can do with the mouse, you can also do with the keyboard. In fact, using the keyboard has some advantages.
+
+Let’s try the keyboard now. We’ll temporarily disable the ability to select ships with the mouse.
+\i_[more]_\i_

@@ -1,0 +1,5 @@
+#O1#Let’s set the autopilot to follow this ship.
+
+First target this ship. You can use the
+mouse (#DST + click) or
+keyboard (#DST + #SFD).

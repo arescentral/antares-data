@@ -1,0 +1,6 @@
+The display has been returned to \f0c1:1\r.
+
+Now try the thrust key, \i_#ACC_\i to move your ship forward. Different ships have different acceleration rates and different top speeds.
+
+Try the \i_#DEC_\i key to bring your ship to a halt. Decelerating works regardless of what direction you are facing.
+\i_[more]_\i_

@@ -41,6 +41,12 @@ Contents:
   Original data: 'rot ' resource 500 from the application.  No
   conversion was done.
 
+- scenarios
+
+  Original data: most resources from "Ares Scenarios", "Ares Sounds",
+  and "Ares Sprites". Sounds that are not available in the CC-BY-NC-SA
+  release were replaced by new sounds generated with sfxr.
+
 - strings/
 
   Original data: 'STR#' resources from the application and "Ares

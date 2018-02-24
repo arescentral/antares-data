@@ -1,0 +1,9 @@
+To complete this training mission, you must destroy both transports. Don’t worry -- the cloaked transport and the visible transport are near each other.
+
+Try zooming to the \f0cZoom to Hostile\r mode, and finding the red transport symbol. Then point your ship toward it, and press and hold the warp key.
+
+When you get close, release the warp key, and close in for the kill.
+
+Use the radar to find the cloaked ship.
+
+Good luck!

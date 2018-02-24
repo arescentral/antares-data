@@ -1,0 +1,3 @@
+The practice drones here are programmed to simulate combat with enemy ships. "Killing" a drone will temporarily deactivate it. Likewise, if your ship takes too much "damage," it will temporarily deactivate.
+
+The nearby buoys farther out from Omisha Station have more drones stationed at them.

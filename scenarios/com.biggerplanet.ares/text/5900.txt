@@ -1,0 +1,8 @@
+Welcome to Lesson 3.
+
+In this final lesson, you will be shown how to build ships and give them orders.
+
+Again, we’ll be controlling the zoom, and turning on and off functions as they apply.
+
+Let’s start by building a ship.
+\i_[more]_\i_

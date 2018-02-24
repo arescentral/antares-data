@@ -1,0 +1,30 @@
+image:    "sprites/597/image.png"
+overlay:  "sprites/597/overlay.png"
+rows:     4
+cols:     6
+center:   {x: 3, y: 5}
+frames:
+	*	{left: -3, top: -5, right: 5, bottom: 4}
+	*	{left: -3, top: -5, right: 5, bottom: 4}
+	*	{left: -3, top: -5, right: 5, bottom: 4}
+	*	{left: -3, top: -5, right: 5, bottom: 4}
+	*	{left: -3, top: -5, right: 5, bottom: 4}
+	*	{left: -3, top: -5, right: 9, bottom: 4}
+	*	{left: -3, top: -5, right: 9, bottom: 4}
+	*	{left: -3, top: -5, right: 9, bottom: 4}
+	*	{left: -3, top: -5, right: 9, bottom: 4}
+	*	{left: -3, top: -5, right: 9, bottom: 4}
+	*	{left: -3, top: -5, right: 9, bottom: 4}
+	*	{left: -3, top: -5, right: 9, bottom: 4}
+	*	{left: -3, top: -5, right: 9, bottom: 4}
+	*	{left: -3, top: -5, right: 9, bottom: 4}
+	*	{left: -3, top: -5, right: 9, bottom: 4}
+	*	{left: -3, top: -5, right: 9, bottom: 4}
+	*	{left: -3, top: -5, right: 9, bottom: 4}
+	*	{left: -3, top: -5, right: 9, bottom: 4}
+	*	{left: -3, top: -5, right: 9, bottom: 4}
+	*	{left: -3, top: -5, right: 5, bottom: 4}
+	*	{left: -3, top: -5, right: 5, bottom: 4}
+	*	{left: -3, top: -5, right: 5, bottom: 4}
+	*	{left: -3, top: -5, right: 5, bottom: 4}
+	*	{left: -3, top: -5, right: 5, bottom: 4}

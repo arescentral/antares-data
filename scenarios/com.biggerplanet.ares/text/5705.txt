@@ -1,0 +1,8 @@
+Good. As you learned, you can use the mouse or the keyboard to navigate the computer menu.
+
+Press \i_ESC_\i at any time if you wish to skip this tutorial. Press \i_#HLP_\i at any time for a listing of all key functions.
+
+During the game, messages will normally appear here in this fashion. However, for the purposes of this tutorial, messages will pop up in a variety of useful locations on the screen.
+
+You’ll no longer be prompted to execute the Next Page/Clear command from the Message Menu. Instead, messages will simply end with \i_[more]_\i if there’s additional text to be displayed. You can simply hit \i_#MSC_\i to continue.
+\i_[more]_\i_

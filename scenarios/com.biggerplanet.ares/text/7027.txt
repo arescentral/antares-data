@@ -1,0 +1,5 @@
+#L322##116,363#Executing the Go To My Position item will
+cause your current Control Object to
+come to your present location and stay
+there until otherwise ordered.
+[more]

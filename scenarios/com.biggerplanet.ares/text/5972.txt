@@ -1,0 +1,4 @@
+#O1#This planet is now hostile. We’ll show you
+how to land a transport on it to reclaim
+it.
+[more]

@@ -1,0 +1,5 @@
+^P1087^Destroy any of their transports you find making its way towards our base on Alpha. If our base is lost, the mission will be aborted.
+
+The Gaitori base can also construct gunships.
+^P1065^
+Good luck.

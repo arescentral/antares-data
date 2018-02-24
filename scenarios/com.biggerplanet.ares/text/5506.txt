@@ -1,0 +1,1 @@
+At this moon, you can practice building ships. Before you can build at a base that you own, it first must be selected. Select the moon by clicking on it with the mouse, or by pointing your ship at it and pressing the Select Friendly Base Key, \i_#SBS_\i.

@@ -1,0 +1,8 @@
+#R160##632,62#You can afford the cruiser, so the Resource
+Indicator shows you how much you’d have
+left if you built one.
+
+The green dots represent the resources
+you’d have left; the blue dots represent
+the amount you would spend.
+[more]

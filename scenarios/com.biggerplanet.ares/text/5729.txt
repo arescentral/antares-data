@@ -1,0 +1,9 @@
+#R359##618,412#This is your shield power. When your ship
+takes damage, the shield power goes down.
+
+If the shields are depleted, your ship will
+explode.
+
+Your shields are automatically recharged
+from the available power, up to 50% strength.
+[more]

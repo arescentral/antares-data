@@ -1,0 +1,4 @@
+#O6#Any friendly object can be selected with the
+mouse.
+
+Try clicking on this planet.

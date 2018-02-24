@@ -1,0 +1,8 @@
+#O1#Good. This ship has been selected as the
+Target Object.
+
+The Target Object is the ship or planet
+to which you wish to send other ships.
+We’ll talk about sending ships to target
+objects later.
+[more]

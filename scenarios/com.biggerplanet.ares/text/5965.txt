@@ -1,0 +1,11 @@
+#O1#We want to have the Cruiser target the
+planet.
+
+You don’t need to reselect a target to give
+it to multiple ships.
+
+The planet is still your Target Object, so
+you’re ready to give the order.
+
+Press the Order To Go key, #ORD,
+now.

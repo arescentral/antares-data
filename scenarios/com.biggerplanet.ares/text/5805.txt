@@ -1,0 +1,4 @@
+#L181##119,213#This is the Control Display. When you have
+a Control Object selected, it is displayed
+here.
+[more]

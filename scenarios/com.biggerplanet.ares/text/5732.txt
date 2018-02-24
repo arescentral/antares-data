@@ -1,0 +1,8 @@
+#L159##36,163#Some weapons, like the fusion pulse, have a
+limited number of shots. The number of shots
+you have left is displayed here.
+
+Your ammo will slowly be replenished from
+your available power, but only up to 50%
+of its original amount.
+[more]

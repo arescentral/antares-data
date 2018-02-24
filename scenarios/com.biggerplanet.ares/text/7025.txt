@@ -1,0 +1,9 @@
+#O2#Good.
+
+Now you’ve assumed control of this
+Heavy Cruiser.
+
+Transferring control is an essential
+function, especially if your ship gets
+destroyed!
+[more]

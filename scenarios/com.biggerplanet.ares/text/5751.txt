@@ -1,0 +1,2 @@
+#L322##72,363#Now press the Computer Accept key,
+#ACT, to go to the Message Menu.

@@ -1,0 +1,5 @@
+Good work.  To go back to the computer's main menu, press the \i_#CNC_\i key.
+
+Now try the scaling keys, \i_#SC-_\i and \i_#SC+_\i. You'll need to manually scale in for some operations, but in combat you can usually leave the scaling on the automatic setting of "Scale to Closest Hostile."
+
+Navigate to the \i_Message_\i menu and select \i_Next Page/Clear_\i again for more information, or, as a short cut, just press the \i_#MSC_\i key.

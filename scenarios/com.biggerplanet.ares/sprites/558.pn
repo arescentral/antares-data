@@ -1,0 +1,35 @@
+image:    "sprites/558/image.png"
+overlay:  "sprites/558/overlay.png"
+rows:     1
+cols:     29
+center:   {x: 39, y: 35}
+frames:
+	*	{left: -7, top: -7, right: 9, bottom: 10}
+	*	{left: -9, top: -8, right: 11, bottom: 9}
+	*	{left: -10, top: -9, right: 10, bottom: 10}
+	*	{left: -12, top: -11, right: 12, bottom: 12}
+	*	{left: -14, top: -12, right: 14, bottom: 13}
+	*	{left: -16, top: -14, right: 16, bottom: 15}
+	*	{left: -18, top: -16, right: 18, bottom: 17}
+	*	{left: -21, top: -18, right: 23, bottom: 19}
+	*	{left: -22, top: -21, right: 26, bottom: 21}
+	*	{left: -26, top: -21, right: 26, bottom: 24}
+	*	{left: -28, top: -23, right: 28, bottom: 26}
+	*	{left: -31, top: -25, right: 33, bottom: 30}
+	*	{left: -33, top: -28, right: 35, bottom: 33}
+	*	{left: -36, top: -35, right: 36, bottom: 36}
+	*	{left: -39, top: -35, right: 41, bottom: 39}
+	*	{left: -37, top: -34, right: 35, bottom: 33}
+	*	{left: -31, top: -29, right: 29, bottom: 32}
+	*	{left: -28, top: -23, right: 28, bottom: 27}
+	*	{left: -26, top: -22, right: 22, bottom: 26}
+	*	{left: -24, top: -20, right: 24, bottom: 22}
+	*	{left: -21, top: -18, right: 23, bottom: 20}
+	*	{left: -19, top: -16, right: 21, bottom: 18}
+	*	{left: -16, top: -15, right: 16, bottom: 16}
+	*	{left: -14, top: -13, right: 14, bottom: 16}
+	*	{left: -13, top: -12, right: 15, bottom: 13}
+	*	{left: -11, top: -10, right: 13, bottom: 11}
+	*	{left: -10, top: -9, right: 10, bottom: 10}
+	*	{left: -8, top: -8, right: 8, bottom: 9}
+	*	{left: -7, top: -7, right: 9, bottom: 10}

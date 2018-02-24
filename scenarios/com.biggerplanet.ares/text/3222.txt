@@ -1,0 +1,1 @@
+Capture opponent's flag by flying over it & ordering it back to your planet. Ships transported to opponent's "jail" moor instead of dying. Shoot moor to free your ships. No warping.

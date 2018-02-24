@@ -1,0 +1,2 @@
+Great! Now you know how to select ships even when you can’t see them.
+\i_[more]_\i_

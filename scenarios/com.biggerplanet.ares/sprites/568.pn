@@ -1,0 +1,21 @@
+image:    "sprites/568/image.png"
+overlay:  "sprites/568/overlay.png"
+rows:     3
+cols:     5
+center:   {x: 8, y: 7}
+frames:
+	*	{left: -8, top: -6, right: 8, bottom: 7}
+	*	{left: -8, top: -6, right: 8, bottom: 7}
+	*	{left: -8, top: -6, right: 8, bottom: 7}
+	*	{left: -8, top: -7, right: 8, bottom: 7}
+	*	{left: -8, top: -7, right: 8, bottom: 7}
+	*	{left: -8, top: -6, right: 8, bottom: 7}
+	*	{left: -8, top: -6, right: 8, bottom: 7}
+	*	{left: -8, top: -7, right: 8, bottom: 7}
+	*	{left: -8, top: -6, right: 8, bottom: 7}
+	*	{left: -8, top: -6, right: 8, bottom: 7}
+	*	{left: -8, top: -6, right: 8, bottom: 7}
+	*	{left: -8, top: -6, right: 8, bottom: 7}
+	*	{left: -8, top: -6, right: 8, bottom: 7}
+	*	{left: -8, top: -6, right: 8, bottom: 7}
+	*	{left: -8, top: -6, right: 8, bottom: 7}
