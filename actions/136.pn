@@ -5,4 +5,4 @@ bin:
 reflexive:        true
 initial_subject:  7
 initial_object:   7
-value:            1
+player:           1

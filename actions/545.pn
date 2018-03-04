@@ -4,4 +4,4 @@ bin:
 	$	00205365 74506963 74427574 746f6e4d
 reflexive:        true
 initial_subject:  3
-value:            1
+player:           1

@@ -4,4 +4,4 @@ bin:
 	$	83e20000 48000001 5460063e 2c000000
 reflexive:        true
 initial_subject:  4
-value:            0
+player:           0

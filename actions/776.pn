@@ -4,4 +4,4 @@ bin:
 	$	00000000 00000000 00000000 00000000
 reflexive:        true
 initial_subject:  1
-value:            1
+player:           1

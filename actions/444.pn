@@ -3,4 +3,4 @@ bin:
 	$	03010000 00000000 00000000 00000000 ffffffff 00000000 0c00ffff ffff0000
 	$	00005455 00a29f9c 00a25a38 00a28d94
 reflexive:  true
-value:      -1
+player:     -1

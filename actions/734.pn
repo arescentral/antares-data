@@ -5,4 +5,4 @@ bin:
 reflexive:        true
 delay:            160
 initial_subject:  1
-value:            0
+player:           0

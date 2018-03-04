@@ -1,5 +1,5 @@
-type:   "capture"
+type:    "capture"
 bin:
 	$	03000000 00000000 00000000 00000000 ffffffff 00000000 0c000000 00010000
 	$	0000ffff 047c746f 74616c4c 6f616443
-value:  1
+player:  1
