@@ -1,6 +1,3 @@
 type:       "kill"
-bin:
-	$	0b010000 00000000 00000000 00000000 ffffffff 00000000 01000001 00000000
-	$	00ad144c 00ad0f9c 00ad0f9c 00000000
 reflexive:  true
 kind:       "expire"

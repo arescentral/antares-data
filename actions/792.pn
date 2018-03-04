@@ -1,7 +1,4 @@
 type:  "message"
-bin:
-	$	08000000 00000000 00000000 00000000 ffffffff 00000000 1b580002 00000000
-	$	00000000 00000000 00000000 00000000
 id:    7000
 pages:
 	*	>	Great. Now the transport has three friendly escorts.

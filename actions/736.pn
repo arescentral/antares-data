@@ -1,7 +1,4 @@
 type:  "message"
-bin:
-	$	08000000 00000000 00000000 00000000 ffffffff 00000000 17110003 00000000
-	$	00000000 00000000 00000000 00000000
 id:    5905
 pages:
 	*	>	To build at a particular base, it must be selected first.

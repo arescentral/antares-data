@@ -1,7 +1,4 @@
 type:              "kill"
-bin:
-	$	0b000000 00020000 0000ffff 00000000 ffffffff 00000000 0200fffe 5400063f
-	$	40820030 3b7b0001 7f600734 2c00000f
 inclusive_filter:  {can_be_engaged: true}
 owner:             "different"
 kind:              "destroy"

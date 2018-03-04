@@ -1,6 +1,3 @@
 type:       "disable"
-bin:
-	$	03010000 00000000 00000000 00000000 ffffffff b0010038 0f61ffff e2000000
-	$	3c000040 7c0803a6 4e800020 00bd2984
 reflexive:  true
 value:      {begin: -30.0, end: 30.0}

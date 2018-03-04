@@ -1,6 +1,3 @@
 type:            "order"
-bin:
-	$	0c000000 00000000 00000000 00000003 ffff0000 00a29b44 00a270bc 0000008c
-	$	0d032708 00a29b54 00b07fc4 00000094
 delay:           3
 initial_object:  0

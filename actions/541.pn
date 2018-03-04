@@ -1,7 +1,4 @@
 type:                "create"
-bin:
-	$	01010000 00000000 00000000 00000000 ffffffff 00000000 00000109 00000001
-	$	00000002 74420000 10006e41 6363656c
 reflexive:           true
 base:                265
 count:               {begin: 1, end: 3}

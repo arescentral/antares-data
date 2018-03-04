@@ -1,7 +1,4 @@
 type:       "condition"
-bin:
-	$	03010000 00000000 00000000 00000960 ffffffff 5460063e 12000000 000d0000
-	$	000029f0 806304fa 801e0000 7c030000
 reflexive:  true
 delay:      2400
 enable:     13

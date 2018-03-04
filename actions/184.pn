@@ -1,6 +1,3 @@
 type:              "kill"
-bin:
-	$	0b006000 0000ffff ffff0000 00000000 ffffffff 00000000 01020511 80410014
-	$	3b600001 48000018 7fc3f378 7f640734
 level_key_filter:  "6"
 kind:              "expire"

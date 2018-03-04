@@ -1,7 +1,4 @@
 type:       "push"
-bin:
-	$	03010000 00000000 00000000 00000000 ffffffff 00000000 01840000 00000000
-	$	02000214 4bff0a31 60000000 808100d2
 reflexive:  true
 kind:       "boost"
 value:      0.0

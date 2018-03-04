@@ -1,7 +1,4 @@
 type:  "message"
-bin:
-	$	08000000 00000000 00000000 00000000 ffffffff 00000000 16b90002 48000001
-	$	60000000 807f0000 48000001 60000000
 id:    5817
 pages:
 	*	>	Good. Let’s try it again, but this time we’ll move the ships far away.

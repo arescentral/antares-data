@@ -1,7 +1,4 @@
 type:       "win"
-bin:
-	$	0a010000 00000000 00000000 00000000 ffffffff 38210040 00000000 0000000f
-	$	00002bc1 00a29e24 00a28f58 0000000c
 reflexive:  true
 player:     0
 next:       15

@@ -1,7 +1,4 @@
 type:              "occupy"
-bin:
-	$	0300a000 0000ffff ffffffff 00000000 ffffffff 00000000 13010000 00010000
-	$	00000014 38a10146 4801488d 60000000
 level_key_filter:  "a"
 owner:             "different"
 value:             1

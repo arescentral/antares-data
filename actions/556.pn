@@ -1,7 +1,4 @@
 type:              "sound"
-bin:
-	$	0200f030 0000ffff ffff0000 00000000 ffffffff 00000000 05000000 00140100
-	$	000000ff 00000000 00000201 00000000
 level_key_filter:  "f"
 absolute:          true
 id:                513

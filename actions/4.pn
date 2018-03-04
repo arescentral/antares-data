@@ -1,7 +1,4 @@
 type:       "thrust"
-bin:
-	$	03010000 00000000 0000ffff 00000000 ffffffff 00000000 02010000 000c0000
-	$	00000000 00010000 00000000 07000000
 reflexive:  true
 owner:      "different"
 relative:   true

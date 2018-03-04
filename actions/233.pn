@@ -1,7 +1,4 @@
 type:                "create"
-bin:
-	$	01010000 00000000 00000000 00000000 ffffffff 00000000 00000093 00000001
-	$	00000000 4e800000 000002a6 93e1fffc
 reflexive:           true
 base:                147
 relative_velocity:   true

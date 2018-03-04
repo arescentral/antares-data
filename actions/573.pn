@@ -1,7 +1,4 @@
 type:            "move"
-bin:
-	$	03010000 00000000 00000000 00000000 ffff0002 00000000 061a0000 02580000
-	$	00000003 50803e30 98030003 881a05b7
 reflexive:       true
 initial_object:  2
 origin:          "object"

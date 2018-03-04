@@ -1,7 +1,4 @@
 type:  "message"
-bin:
-	$	08000000 00000000 00000000 00000000 ffffffff 00000000 16a80003 2c000000
-	$	41820008 3ba00001 b37e0018 881e001f
 id:    5800
 pages:
 	*	>	Welcome to Lesson 2.

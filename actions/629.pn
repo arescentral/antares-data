@@ -1,7 +1,4 @@
 type:  "message"
-bin:
-	$	08000000 00000000 00000000 00000000 ffffffff 00000000 16590015 4e800020
-	$	00c1e4f8 00c07364 00c05e68 0000000c
 id:    5721
 pages:
 	*	>	Now let’s get to the control of your ship.

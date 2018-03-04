@@ -1,6 +1,3 @@
 type:              "energize"
-bin:
-	$	03000000 04000000 00000000 00000000 ffffffff 00000000 0b010000 00960000
-	$	00640b74 00ad0b9c 00000000 00000000
 inclusive_filter:  {can_be_destination: true}
 value:             150

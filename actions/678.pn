@@ -1,7 +1,4 @@
 type:             "move"
-bin:
-	$	03010000 00000000 00000000 00000000 0003ffff 00000000 1a000000 173effff
-	$	f8620000 00c07ba4 00c05e68 00000064
 reflexive:        true
 initial_subject:  3
 to:               {x: 5950, y: -1950}

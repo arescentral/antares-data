@@ -1,6 +1,3 @@
 type:             "order"
-bin:
-	$	0c000000 00000000 00000000 00000000 0003000a 00000000 a87d005a 388000ef
-	$	48020071 80410014 7f63db78 a89d0058
 initial_subject:  3
 initial_object:   10

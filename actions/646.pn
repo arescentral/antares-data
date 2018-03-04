@@ -1,7 +1,4 @@
 type:  "key"
-bin:
-	$	13000000 00000000 00000000 00000000 ffffffff 00000000 78207ff3 7c0803a6
-	$	bb61ffec 4e800020 00dac110 00c075dc
 disable:
 	*	"up"
 	*	"down"

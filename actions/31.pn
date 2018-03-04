@@ -1,7 +1,4 @@
 type:                "create"
-bin:
-	$	01010000 00000000 00000000 00000000 ffffffff 00000000 00000023 00000001
-	$	00000000 00010000 0000007e 00aceecc
 reflexive:           true
 base:                35
 relative_direction:  true

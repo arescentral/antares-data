@@ -1,7 +1,4 @@
 type:       "morph"
-bin:
-	$	03010000 00000000 00000000 00000000 ffffffff 00000000 11010000 00480000
-	$	00001c06 02112e5f 47657450 69637442
 reflexive:  true
 base:       72
 keep_ammo:  true

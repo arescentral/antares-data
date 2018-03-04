@@ -1,7 +1,4 @@
 type:  "message"
-bin:
-	$	08000000 00000000 00000000 00000000 ffffffff 00000000 172f0003 00000000
-	$	00000000 00000000 00000000 00000000
 id:    5935
 pages:
 	*	>	#L181##112,235#All ships have targets. This newly built

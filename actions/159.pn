@@ -1,7 +1,4 @@
 type:              "sound"
-bin:
-	$	0200a000 0000ffff ffffffff 00000000 ffffffff 00000000 04010000 003c0100
-	$	000000ff 00000000 00007cf5 00000000
 level_key_filter:  "a"
 owner:             "different"
 absolute:          true

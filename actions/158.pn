@@ -1,7 +1,4 @@
 type:              "kill"
-bin:
-	$	0b00a000 0000ffff ffffffff 00000000 ffffffff 00000000 01000000 00000000
-	$	00000014 38a10146 4801488d 60000000
 level_key_filter:  "a"
 owner:             "different"
 kind:              "expire"

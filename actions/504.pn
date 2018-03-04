@@ -1,7 +1,4 @@
 type:       "spark"
-bin:
-	$	04010000 00000000 00000000 00000000 ffffffff 80000000 00000002 00000014
-	$	00000300 02bd2bc0 00000000 00000000
 reflexive:  true
 count:      2
 hue:        "yellow"

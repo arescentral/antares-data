@@ -1,7 +1,4 @@
 type:       "reveal"
-bin:
-	$	03010000 00000000 00000000 000000b4 ffffffff 00000000 0dff0000 00070000
-	$	00021b78 7fc00735 4081001c 7fa3eb78
 reflexive:  true
 delay:      180
 which:      {begin: 7, end: 10}

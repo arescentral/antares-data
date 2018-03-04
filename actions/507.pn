@@ -1,7 +1,4 @@
 type:             "heal"
-bin:
-	$	03010000 00000000 00000000 00000000 0003ffff 80000000 0000ffff d8f00000
-	$	00000000 00bd2bc0 00000000 00000000
 reflexive:        true
 initial_subject:  3
 value:            -10000

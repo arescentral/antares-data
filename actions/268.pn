@@ -1,6 +1,3 @@
 type:       "reveal"
-bin:
-	$	03010000 00000000 00000000 00000000 ffffffff 00000000 0d200000 001c0000
-	$	0004fb78 48019f5d 60000000 386100ac
 reflexive:  true
 which:      {begin: 28, end: 33}

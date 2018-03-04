@@ -1,7 +1,4 @@
 type:  "message"
-bin:
-	$	08000000 00000000 00000000 00000000 ffffffff 00000000 1b670002 00000000
-	$	00000000 00000000 00000000 00000000
 id:    7015
 pages:
 	*	>	#L322##116,337#Transfer Control is the most useful--

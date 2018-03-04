@@ -1,7 +1,4 @@
 type:             "morph"
-bin:
-	$	03010000 00000000 00000000 00000000 0001ffff 00a29b14 11b20000 00810000
-	$	0000a8de 00a29b24 00b19c64 00000070
 reflexive:        true
 initial_subject:  1
 base:             129

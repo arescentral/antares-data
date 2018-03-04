@@ -1,7 +1,4 @@
 type:       "push"
-bin:
-	$	03010000 00000000 00000000 00000007 ffffffff 00000000 01000000 00000000
-	$	00000098 b0010038 a861003a 380300a0
 reflexive:  true
 delay:      7
 kind:       "stop"

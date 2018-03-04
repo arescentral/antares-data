@@ -1,6 +1,3 @@
 type:              "capture"
-bin:
-	$	0300f030 0000ffff ffffffff 00000000 ffffffff 00000000 0c010000 00000000
-	$	0000f378 7fe4fb78 4801dff1 60000000
 level_key_filter:  "f"
 owner:             "different"

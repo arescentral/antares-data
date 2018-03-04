@@ -1,7 +1,4 @@
 type:              "fire"
-bin:
-	$	0d00a000 0000ffff ffffffff 00000000 ffffffff 00000000 a87d0012 a89d0014
-	$	38a0ffa5 48014809 60000000 48000018
 level_key_filter:  "a"
 owner:             "different"
 which:             "special"

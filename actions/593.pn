@@ -1,7 +1,4 @@
 type:         "sound"
-bin:
-	$	02010000 00000000 00000000 00000000 ffffffff 00000000 03c00000 000a009c
-	$	000000ff 00000000 0000022d 00000000
 reflexive:    true
 id:           557
 priority:     3

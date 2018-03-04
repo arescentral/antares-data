@@ -1,7 +1,4 @@
 type:              "score"
-bin:
-	$	0900e000 0000ffff ffff0000 00000000 ffffffff 48000001 00000000 00000000
-	$	00000001 7c0803a6 bba1fff4 4e800020
 level_key_filter:  "e"
 which:             0
 value:             1

@@ -1,7 +1,4 @@
 type:  "message"
-bin:
-	$	08000000 00000000 00000000 00000000 ffffffff 00000000 1b6c0001 00000000
-	$	00000000 00000000 00000000 00000000
 id:    7020
 pages:
 	*	>	#L322##116,337#The Heavy Cruiser is your Current

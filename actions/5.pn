@@ -1,7 +1,4 @@
 type:       "spin"
-bin:
-	$	03010000 00000000 0000ffff 00000000 ffffffff 00000000 1001ffff fe000000
-	$	04000000 00010000 00000000 07000000
 reflexive:  true
 owner:      "different"
 value:      {begin: -2.0, end: 2.0}

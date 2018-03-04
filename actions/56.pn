@@ -1,7 +1,4 @@
 type:              "equip"
-bin:
-	$	03000000 04000000 00000000 00000000 ffffffff 00000000 0a010000 00060000
-	$	00000000 00000000 01000000 00000000
 inclusive_filter:  {can_be_destination: true}
 which:             "special"
 base:              6

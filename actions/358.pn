@@ -1,6 +1,3 @@
 type:       "condition"
-bin:
-	$	03010000 00000000 00000000 00000000 ffffffff 00000000 12000000 000f0000
-	$	0002f771 80410014 807e0000 4801e7a5
 reflexive:  true
 enable:     {begin: 15, end: 18}

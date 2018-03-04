@@ -1,7 +1,4 @@
 type:         "sound"
-bin:
-	$	02010000 00000000 00000000 00000000 ffffffff 00000000 04a20000 000a1763
-	$	000000ff 00000000 00000227 00000000
 reflexive:    true
 absolute:     true
 id:           551

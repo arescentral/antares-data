@@ -1,7 +1,4 @@
 type:    "win"
-bin:
-	$	0a000000 00000000 00000000 00000000 ffffffff 00000000 00000001 ffffffff
-	$	00002c25 90010136 480001e4 418101e0
 player:  1
 text:
 	>	The Cantharan Order landed a transport on our base on Fansi Alpha.

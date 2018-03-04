@@ -1,7 +1,4 @@
 type:  "message"
-bin:
-	$	08000000 00000000 00000000 00000000 ffffffff 00000000 16ab0008 00000000
-	$	00c6f954 00000000 00dab83c 7c0802a6
 id:    5803
 pages:
 	*	>	#O1#Good. This ship has been selected as the

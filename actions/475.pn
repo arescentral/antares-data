@@ -1,7 +1,4 @@
 type:       "flash"
-bin:
-	$	10010000 00000000 00000000 00000000 ffffffff 00a290c8 00000080 020f0000
-	$	00a2a2f8 00a2a2e8 0000000c 00000000
 reflexive:  true
 hue:        "yellow"
 length:     128

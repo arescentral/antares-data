@@ -1,6 +1,3 @@
 type:       "kill"
-bin:
-	$	0b010000 00000000 00000000 00000000 ffffffff 00000000 ffffffff 04b06765
-	$	74566f6c 756d6543 6d640038 00ad10f0
 reflexive:  true
 kind:       "none"

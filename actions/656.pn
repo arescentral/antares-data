@@ -1,7 +1,4 @@
 type:             "kill"
-bin:
-	$	0b010000 00000000 00000000 00000000 0003ffff 00000000 00840050 38840001
-	$	48000001 60000000 7c7e1b78 7fc00734
 reflexive:        true
 initial_subject:  3
 kind:             "none"

@@ -1,7 +1,4 @@
 type:       "win"
-bin:
-	$	0a010000 00000000 00000000 00000000 ffffffff 00000000 00000001 ffffffff
-	$	00001807 48000001 5460063e 2c000000
 reflexive:  true
 player:     1
 text:

@@ -1,7 +1,4 @@
 type:       "message"
-bin:
-	$	08010000 00000000 00000000 00000000 ffffffff 00a291c8 15870003 0e00992c
-	$	00a29970 00a887dc 00000028 0d03b604
 reflexive:  true
 id:         5511
 pages:

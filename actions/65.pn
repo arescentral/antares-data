@@ -1,7 +1,4 @@
 type:       "score"
-bin:
-	$	09010000 00000000 00000000 00000000 ffffffff 00000000 00000000 00000000
-	$	00000001 00010400 00ad0d9c 00ad0dc0
 reflexive:  true
 which:      0
 value:      1

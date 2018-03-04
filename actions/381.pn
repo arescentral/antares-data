@@ -1,6 +1,3 @@
 type:       "condition"
-bin:
-	$	03010000 00000000 00000000 00000000 ffffffff 0e000001 12000000 00070000
-	$	00000198 0e000000 00a29798 00b1cec0
 reflexive:  true
 enable:     7

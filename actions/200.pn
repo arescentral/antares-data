@@ -1,7 +1,4 @@
 type:       "push"
-bin:
-	$	03010000 00000000 00000000 00000000 ffffffff 00000000 0100ffff f1000000
-	$	00000040 a8610042 3803006e b0010046
 reflexive:  true
 kind:       "cruise"
 value:      -15.0

@@ -1,7 +1,4 @@
 type:              "sound"
-bin:
-	$	02000010 00000000 0000ffff 00000000 ffffffff 00000000 05000000 00140100
-	$	000000ff 00000000 00000201 00000000
 inclusive_filter:  {is_destination: true}
 owner:             "different"
 absolute:          true

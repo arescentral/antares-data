@@ -1,7 +1,4 @@
 type:    "win"
-bin:
-	$	0a000000 00000000 00000000 00000000 ffffffff 00000000 00000001 ffffffff
-	$	00002e1a 61626c65 50696374 42757474
 player:  1
 text:
 	>	Out base on Lelande Alpha was captured.

@@ -1,7 +1,4 @@
 type:       "message"
-bin:
-	$	08010000 00000000 00000000 00000078 ffffffff 00000000 10720001 000d0000
-	$	000086dc ffffffff 01687469 6d627265
 reflexive:  true
 delay:      120
 id:         4210

@@ -1,7 +1,4 @@
 type:             "capture"
-bin:
-	$	03010000 00000000 00000000 00000000 0004ffff 00000000 0c000000 00002b78
-	$	83e20000 48000001 5460063e 2c000000
 reflexive:        true
 initial_subject:  4
 player:           0

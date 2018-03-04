@@ -1,7 +1,4 @@
 type:  "message"
-bin:
-	$	08000000 00000000 00000000 00000000 ffffffff 00000000 16d30001 00000000
-	$	00000000 00000000 00000000 00000000
 id:    5843
 pages:
 	*	>	To complete this lesson, you must get to the planet. We’ve turned off

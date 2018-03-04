@@ -1,5 +1,2 @@
 type:       "capture"
-bin:
-	$	03010000 00000000 00000000 00000000 ffffffff 00000000 0cc0ffff ffff0000
-	$	000001f4 0e009084 00c06a98 00ced3a4
 reflexive:  true

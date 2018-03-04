@@ -1,7 +1,4 @@
 type:    "win"
-bin:
-	$	0a000000 00000000 00000000 00000000 ffffffff 00000000 00000001 ffffffff
-	$	00002906 7fa4eb78 7fc5f378 4801db2d
 player:  1
 text:
 	>	You rescued more than two thirds of the Obish hostages. Ambassador
