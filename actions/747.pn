@@ -1,0 +1,12 @@
+type:  "message"
+bin:
+	$	08000000 00000000 00000000 00000000 ffffffff 00000000 172a0002 00000000
+	$	00000000 00000000 00000000 00000000
+id:    5930
+pages:
+	*	>	#O5#Good -- the ship was built.
+		>
+		>	Now, select this ship by clicking on it
+		|	with the mouse or by pointing yourself
+		|	at it and pressing the Select Friend key,
+		|	#SFD.

@@ -1,0 +1,11 @@
+type:  "message"
+bin:
+	$	08000000 00000000 00000000 00000000 ffffffff 00000000 107c0001 00140130
+	$	000000ff 00000000 00000201 00000000
+id:    4220
+pages:
+	*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+		|	SOURCE: RICS 681121 Astrominer
+		|	Welcome to the Philemon System, humans. We have been assured that you
+		>	won’t allow our miner to be damaged. Please see that it isn’t. We await
+		>	your orders. \i<EOT>\i 

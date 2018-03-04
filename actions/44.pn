@@ -1,0 +1,7 @@
+type:              "land"
+bin:
+	$	0600f030 0000ffff ffffffff 00000000 ffffffff 00000000 00000020 01000000
+	$	00000000 007a0001 00ad0a84 00ad0aa8
+level_key_filter:  "f"
+owner:             "different"
+speed:             32

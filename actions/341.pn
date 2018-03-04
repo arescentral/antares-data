@@ -1,0 +1,6 @@
+type:       "kill"
+bin:
+	$	0b010000 00000000 00000000 00000000 ffffffff 00000000 02ff06e9 60000000
+	$	3b9c0001 7f830734 8001024a 7c030000
+reflexive:  true
+kind:       "destroy"

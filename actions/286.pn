@@ -1,0 +1,7 @@
+type:    "win"
+bin:
+	$	0a000000 00000000 00000000 00000000 ffffffff 00000000 00000001 ffffffff
+	$	0000283e 4bffde29 60000000 480000b4
+player:  1
+text:
+	>	You lost your heavy cruiser, failing to destroy all four relay dishes.

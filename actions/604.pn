@@ -1,0 +1,17 @@
+type:  "message"
+bin:
+	$	08000000 00000000 00000000 00000000 ffffffff 00000000 16440001 5460063e
+	$	2c000000 41820024 7fc3f378 80820000
+id:    5700
+pages:
+	*	>	#L322##72,363#Welcome to lesson 1.
+		>
+		>	To proceed, you need to learn to use the
+		|	ship’s computer, here on the left of your
+		|	display.
+		>
+		>	To select an option from the main menu, you
+		|	can double click on it.
+		>
+		>	Use the mouse to double click the <Message>
+		|	item now.

@@ -1,0 +1,6 @@
+type:   "disable"
+bin:
+	$	03000000 00000000 0000ffff 00000000 ffffffff 00000000 0f000000 00000000
+	$	00050000 00ad144c 00ad12b4 00ad12b4
+owner:  "different"
+value:  {begin: 0.0, end: 0.02}

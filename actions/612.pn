@@ -1,0 +1,9 @@
+type:  "key"
+bin:
+	$	14000000 00000000 00000000 00000000 ffffffff 00000000 16486000 48000001
+	$	5460063e 2c000000 41820078 807f0000
+enable:
+	*	"zoom_in"
+	*	"zoom_out"
+	*	"comp_message"
+	*	"comp_build"

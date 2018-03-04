@@ -1,0 +1,13 @@
+type:       "message"
+bin:
+	$	08010000 00000000 00000000 00000000 ffffffff 00a6df48 15850001 0e001666
+	$	00000000 00b092dc 000000c8 0e009964
+reflexive:  true
+id:         5509
+pages:
+	*	>	The practice drones here are programmed to simulate combat with enemy
+		>	ships. "Killing" a drone will temporarily deactivate it. Likewise, if
+		>	your ship takes too much "damage," it will temporarily deactivate.
+		>
+		>	The nearby buoys farther out from Omisha Station have more drones
+		>	stationed at them.

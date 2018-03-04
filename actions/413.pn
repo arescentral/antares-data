@@ -1,0 +1,6 @@
+type:       "condition"
+bin:
+	$	03010000 00000000 00000000 00000000 ffffffff 00a6df48 12000000 00100000
+	$	00010000 00b092dc 000000c8 0e009964
+reflexive:  true
+enable:     {begin: 16, end: 18}

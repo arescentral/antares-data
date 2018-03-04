@@ -1,0 +1,12 @@
+type:  "key"
+bin:
+	$	14000000 00000000 00000000 00000000 ffffffff 00000000 94278000 48000001
+	$	5460063e 2c000000 4182001c 80620000
+enable:
+	*	"comp_up"
+	*	"comp_down"
+	*	"comp_accept"
+	*	"comp_back"
+	*	"comp_message"
+	*	"comp_build"
+	*	"mouse"

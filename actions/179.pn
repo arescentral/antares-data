@@ -1,0 +1,12 @@
+type:       "message"
+bin:
+	$	08010000 00000000 00000000 00000168 ffffffff 00000000 18380001 48000245
+	$	60000000 4801db41 60000000 387e04b8
+reflexive:  true
+delay:      360
+id:         6200
+pages:
+	*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+		|	SOURCE: Placeholder Text
+		|	Miserere mei Deus/Secundum magnam misericordiam tuam...et secundum
+		>	multitudinem miserationum tuarum/Dele iniquitatem meam. \i<EOT>\i 

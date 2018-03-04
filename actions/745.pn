@@ -1,0 +1,12 @@
+type:  "message"
+bin:
+	$	08000000 00000000 00000000 00000000 ffffffff 00000000 17250001 00000000
+	$	00000000 00000000 00000000 00000000
+id:    5925
+pages:
+	*	>	#R9##617,22#This is the Build Progress Indicator.
+		>
+		>	The purple bar shows you how long it will
+		|	take for the current ship to be built.
+		>
+		>	When the ship is ready, we’ll continue.

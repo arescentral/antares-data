@@ -1,0 +1,25 @@
+type:  "message"
+bin:
+	$	08000000 00000000 00000000 00000000 ffffffff 00000000 170c0002 00000000
+	$	00000000 00000000 00000000 00000000
+id:    5900
+pages:
+	*	>	Welcome to Lesson 3.
+		>
+		>	In this final lesson, you will be shown how to build ships and give them
+		>	orders.
+		>
+		>	Again, we’ll be controlling the zoom, and turning on and off functions
+		>	as they apply.
+		>
+		>	Let’s start by building a ship.
+		|	\i_[more]_\i_
+	*	>	#O1#In many scenarios, you will own a base --
+		|	such as a planet -- which is capable of
+		|	building additional ships.
+		>
+		>	A base must be selected before you can build
+		|	at it.
+		>
+		>	Select this planet as a Control Object now.
+		|	You can simply click on it with the mouse.

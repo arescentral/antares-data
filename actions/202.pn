@@ -1,0 +1,11 @@
+type:       "message"
+bin:
+	$	08010000 00000000 00000000 00000000 ffffffff 00000000 14fa0001 a8610042
+	$	3803ffb0 b0010042 a8610040 3803ffb0
+reflexive:  true
+id:         5370
+pages:
+	*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+		|	SOURCE: Human/Ishiman Coord. Control
+		|	Ambassador Thrntz wishes to convey his heartfelt gratitude. Obain is
+		>	grateful. \i<EOT>\i

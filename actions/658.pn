@@ -1,0 +1,7 @@
+type:             "kill"
+bin:
+	$	0b010000 00000000 00000000 00000000 0005ffff 00000000 00c07808 00c05e8c
+	$	00000024 0d030000 00000000 00c5f290
+reflexive:        true
+initial_subject:  5
+kind:             "none"

@@ -1,0 +1,7 @@
+type:       "morph"
+bin:
+	$	03010000 00000000 00000000 0000003c ffffffff 00000000 11000000 00bc0000
+	$	0000055c 4bff0c9d 60000000 7c7b0734
+reflexive:  true
+delay:      60
+base:       188

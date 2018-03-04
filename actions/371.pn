@@ -1,0 +1,11 @@
+type:       "message"
+bin:
+	$	08010000 00000000 00000000 00000000 ffffffff 90010058 157f0001 a8010054
+	$	2c007fff 40820014 8061004c 80010050
+reflexive:  true
+id:         5503
+pages:
+	*	>	You have now selected the drone as the CONTROL object--the ship which is
+		>	under your indirect control--and the buoy as the TARGET object--the
+		>	object to which you're ordering the drone to go. Press the Order to Go
+		>	Key, \i_#ORD_\i to send the drone to the buoy.

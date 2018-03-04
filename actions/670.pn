@@ -1,0 +1,7 @@
+type:             "move"
+bin:
+	$	03010000 00000000 00000000 00000000 0003ffff 00000000 1a000000 003cffff
+	$	fda80018 807e00ac 48000001 60000000
+reflexive:        true
+initial_subject:  3
+to:               {x: 60, y: -600}

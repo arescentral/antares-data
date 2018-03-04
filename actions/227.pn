@@ -1,0 +1,9 @@
+type:         "sound"
+bin:
+	$	02010000 00000000 00000000 00000000 ffffffff 00000000 04000000 00140014
+	$	000000ff 00000000 00002648 00000000
+reflexive:    true
+id:           9800
+priority:     4
+persistence:  20
+volume:       255

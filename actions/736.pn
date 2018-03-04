@@ -1,0 +1,26 @@
+type:  "message"
+bin:
+	$	08000000 00000000 00000000 00000000 ffffffff 00000000 17110003 00000000
+	$	00000000 00000000 00000000 00000000
+id:    5905
+pages:
+	*	>	To build at a particular base, it must be selected first.
+		>
+		>	Once you’ve selected a base capable of building ships, you don’t need to
+		>	select it again, even if you select another ship, or another base that
+		>	can’t build. All subsequent build commands will be processed by the last
+		>	capable base you selected.
+		|	\i_[more]_\i_
+	*	>	#O1#In most scenarios, you’ll only have one base
+		|	capable of building, so you won’t usually
+		|	have to worry about selecting it first.
+		>
+		>	When a scenario begins, your primary base
+		|	gets selected by default.
+		>
+		>	This planet has been automatically
+		|	selected.
+		|	[more]
+	*	>	#L322##62,338#Now use the computer control keys or the
+		|	mouse to execute the <Build> item and get
+		|	to the Build Menu.

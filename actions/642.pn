@@ -1,0 +1,9 @@
+type:       "win"
+bin:
+	$	0a010000 00000000 00000000 00000000 ffffffff 00000000 00000000 00000002
+	$	00001b8a 7f630734 a81e0018 7c030000
+reflexive:  true
+player:     0
+next:       2
+text:
+	>	Good work. You completed the first tutorial.

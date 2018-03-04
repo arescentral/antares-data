@@ -1,0 +1,8 @@
+type:             "morph"
+bin:
+	$	03010000 00000000 00000000 00000000 0001ffff 000000a4 11010000 00580000
+	$	00000000 00000000 74747874 00000000
+reflexive:        true
+initial_subject:  1
+base:             88
+keep_ammo:        true

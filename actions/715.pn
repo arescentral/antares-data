@@ -1,0 +1,8 @@
+type:             "zoom"
+bin:
+	$	15010000 00000000 00000000 00000000 00010005 00000000 00000006 00000000
+	$	00000000 00000000 00000000 00000000
+reflexive:        true
+initial_subject:  1
+initial_object:   5
+value:            "object"

@@ -1,0 +1,7 @@
+type:    "win"
+bin:
+	$	0a000000 00000000 00000000 00000000 ffffffff 00000000 00000001 ffffffff
+	$	000029cd 38600001 7c641b78 4801db55
+player:  1
+text:
+	>	A Gaitori transport landed on Hades Alpha.

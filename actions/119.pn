@@ -1,0 +1,9 @@
+type:                "create"
+bin:
+	$	01010000 00000000 00000000 00000000 ffffffff 00000000 00000055 00000003
+	$	00000000 a87d0000 0000fffd 2800000a
+reflexive:           true
+base:                85
+count:               3
+relative_velocity:   true
+relative_direction:  true

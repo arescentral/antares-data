@@ -1,0 +1,8 @@
+type:       "win"
+bin:
+	$	0a010000 00000000 00000000 00000000 ffffffff 00000000 00000000 ffffffff
+	$	00002f45 7c001838 5400063e 2c000000
+reflexive:  true
+player:     0
+text:
+	>	Earth is free! The Cantharans have been defeated!

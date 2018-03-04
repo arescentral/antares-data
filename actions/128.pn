@@ -1,0 +1,14 @@
+type:       "message"
+bin:
+	$	08010000 00000000 00000000 00000168 ffffffff 00000000 14d20001 80410014
+	$	7f83e378 480208a1 80410014 a87d005a
+reflexive:  true
+delay:      360
+id:         5330
+pages:
+	*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+		|	SOURCE: Human/Ishiman Coord. Control
+		|	\i WARNING \i We have confirmed that one of the Gaitori escorts is being
+		>	manned by Cantharan loyalists. A lone unidentified fighter has been
+		>	detected on an intercept course for the convoy. We suspect an attempt
+		>	will be made to sabotage this mission. \i<EOT>\i

@@ -1,0 +1,9 @@
+type:              "sound"
+bin:
+	$	02000000 04000000 00000000 00000000 ffffffff 00000000 03000000 000a0000
+	$	000000ff 00000000 00000202 00000000
+inclusive_filter:  {can_be_destination: true}
+id:                514
+priority:          3
+persistence:       10
+volume:            255

@@ -1,0 +1,7 @@
+type:             "heal"
+bin:
+	$	03010000 00000000 00000000 00000000 0004ffff 00000000 0000ffff d8f00000
+	$	00006dfc 00d76e40 00c06100 00c5ce90
+reflexive:        true
+initial_subject:  4
+value:            -10000

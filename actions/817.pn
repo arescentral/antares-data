@@ -1,0 +1,8 @@
+type:    "win"
+bin:
+	$	0a000000 00000000 00000000 00000000 ffffffff 00000000 00000000 00000006
+	$	00001b8c 00000000 00000000 00000000
+player:  0
+next:    6
+text:
+	>	Good work. You completed the third tutorial.

@@ -1,0 +1,8 @@
+type:       "win"
+bin:
+	$	0a010000 00000000 00000000 00000000 ffffffff 00000000 00000001 ffffffff
+	$	00002bc3 0e000000 00c06a68 00c05ebc
+reflexive:  true
+player:     1
+text:
+	>	Without your modified destroyer, you can’t rescue the humans.

@@ -1,0 +1,6 @@
+type:              "kill"
+bin:
+	$	0b00e000 0000ffff ffff0000 00000000 ffffffff 00a29ae4 01a28f58 00000018
+	$	0e000000 00a29af4 00a85598 0000002c
+level_key_filter:  "e"
+kind:              "expire"

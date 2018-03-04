@@ -1,0 +1,9 @@
+type:       "win"
+bin:
+	$	0a010000 00000000 00000000 00000000 ffffffff 80000000 00000001 ffffffff
+	$	00002bc2 00000000 00000000 00000000
+reflexive:  true
+player:     1
+text:
+	>	You allowed too many of the human captives to die for this mission to be
+	>	considered a success.

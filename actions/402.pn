@@ -1,0 +1,11 @@
+type:       "message"
+bin:
+	$	08010000 00000000 00000000 00000000 ffffffff bba1fff4 15860001 00a298f4
+	$	00a29940 00a2a748 00000010 0d03263c
+reflexive:  true
+id:         5510
+pages:
+	*	>	When you've gotten some experience selecting objects, the ships at this
+		>	buoy are at your disposal. For practice, select one of them, then try
+		>	transferring control from the \i_Special Orders_\i menu or selecting a
+		>	target object and sending the ship there.

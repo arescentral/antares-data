@@ -1,0 +1,7 @@
+type:             "move"
+bin:
+	$	03010000 00000000 00000000 00000000 0002ffff 00000000 1a000000 1770ffff
+	$	f8300000 00c07b74 00ced3b8 00000024
+reflexive:        true
+initial_subject:  2
+to:               {x: 6000, y: -2000}

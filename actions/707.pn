@@ -1,0 +1,13 @@
+type:  "message"
+bin:
+	$	08000000 00000000 00000000 00000000 ffffffff 00000000 16cc0001 00000000
+	$	00000000 00000000 00000000 00000000
+id:    5836
+pages:
+	*	>	#O7#OK, now try this Cantharan Transport, using
+		|	the Select Foe key, #SFO.
+		>
+		>	Enemy ships can’t be selected as Control
+		|	Objects, so there’s no need to hold down
+		|	the Target key to select them with the
+		|	keyboard.

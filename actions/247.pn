@@ -1,0 +1,7 @@
+type:             "order"
+bin:
+	$	0c000000 00000000 00000000 000004b0 00030000 00000000 60000000 7fe3fb78
+	$	48013ef5 60000000 3c80534d 38844956
+delay:            1200
+initial_subject:  3
+initial_object:   0

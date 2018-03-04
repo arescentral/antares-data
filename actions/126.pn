@@ -1,0 +1,13 @@
+type:       "message"
+bin:
+	$	08010000 00000000 00000000 00000078 ffffffff 00000000 14c80001 000f0000
+	$	0000e378 480208a1 80410014 a87d005a
+reflexive:  true
+delay:      120
+id:         5320
+pages:
+	*	>	\i INCOMING TRANSMISSION \i SECURE KEY: \iNONE\i - NW3 TIGHT BEAM
+		|	SOURCE: Gaitori Cruiser GMM5-5821 \i TRANSLATE ON \i
+		|	Welcome Obiards, Ishimans, and Humans. Today Obain and Gaitor take their
+		>	first step towards true peace in this historic exchange. Prepare to
+		>	commence approach toward Elysium Station.\i<EOT>\i

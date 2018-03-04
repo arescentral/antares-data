@@ -1,0 +1,7 @@
+type:    "win"
+bin:
+	$	0a000000 00000000 00000000 00000000 ffffffff 00000000 00000001 ffffffff
+	$	00002d51 90010062 88010050 28000005
+player:  1
+text:
+	>	The Salrilians captured our base on Alpha.

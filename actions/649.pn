@@ -1,0 +1,38 @@
+type:  "message"
+bin:
+	$	08000000 00000000 00000000 00000000 ffffffff 00000000 16ab0008 00000000
+	$	00c6f954 00000000 00dab83c 7c0802a6
+id:    5803
+pages:
+	*	>	#O1#Good. This ship has been selected as the
+		|	Control Object.
+		>
+		>	The Control Object is the ship or planet
+		|	which is under your indirect control. We’ll
+		|	talk more about how to control the Control
+		|	Object later.
+		|	[more]
+	*	>	#O1#For now, note the yellow label which
+		|	designates this ship as your Control Object.
+		|	[more]
+	*	>	#L181##119,213#This is the Control Display. When you have
+		|	a Control Object selected, it is displayed
+		|	here.
+		|	[more]
+	*	>	#L181##66,199#The abbreviated name of the Control Object
+		|	is displayed here.
+		|	[more]
+	*	>	#L181##29,217#This is a small image of the Control
+		|	Object.
+		|	[more]
+	*	>	#L181##65,217#The blue bar represents the Control Object’s
+		|	shield power, and the yellow bar shows the
+		|	Control Object’s available power.
+		|	[more]
+	*	>	#L181##120,217#The Control Object’s weapons, if any, are
+		|	listed here.
+		|	[more]
+	*	>	#O6#Any friendly object can be selected with the
+		|	mouse.
+		>
+		>	Try clicking on this planet.

@@ -1,0 +1,11 @@
+type:       "message"
+bin:
+	$	08010000 00000000 00000000 00000000 ffffffff 2c190000 15810001 5780063e
+	$	2c000000 41820018 7f23cb78 38800000
+reflexive:  true
+id:         5505
+pages:
+	*	>	You've already got the right buoy selected as the TARGET object, so now
+		>	select the practice drone as the CONTROL object by using the mouse to
+		>	click on it, or by pointing your ship at it and pressing the \i_#SFO_\i
+		>	key.

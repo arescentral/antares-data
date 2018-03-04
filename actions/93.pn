@@ -1,0 +1,8 @@
+type:                "create"
+bin:
+	$	01010000 00000000 00000000 00000000 ffffffff 00000000 0000000b 00000008
+	$	00000008 00b60000 00000000 00ad144c
+reflexive:           true
+base:                11
+count:               {begin: 8, end: 16}
+relative_direction:  true

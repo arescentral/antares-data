@@ -1,0 +1,11 @@
+type:       "message"
+bin:
+	$	08010000 00000000 00000000 00000000 ffffffff 00000000 157c0001 807e0000
+	$	4801f771 80410014 807e0000 4801e7a5
+reflexive:  true
+id:         5500
+pages:
+	*	>	At these two buoys, you can practice commanding a ship by sending it to
+		>	a destination. First, select the practice drone as the CONTROL object by
+		>	using the mouse to click on it, or by pointing your ship at it and
+		>	pressing the \i #SFD \i key.

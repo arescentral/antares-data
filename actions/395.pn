@@ -1,0 +1,13 @@
+type:       "message"
+bin:
+	$	08010000 00000000 00000000 00000000 ffffffff 7c640214 15830001 807f0000
+	$	8803009f 2c000000 41820010 807f0000
+reflexive:  true
+id:         5507
+pages:
+	*	>	Use the computer control keys (\i_#PRV_\i and \i_#NXT_\i to select,
+		>	\i_#ACT_\i to accept and \i_#CNC_\i to back up) to navigate to the
+		>	\i_Build_\i menu. Although at some bases you may have a choice of ships
+		>	to build, at this moon, your only choice is to build a practice drone.
+		>	From the build menu press the Computer Accept Key \i_#ACT_\i to build a
+		>	drone.

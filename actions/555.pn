@@ -1,0 +1,6 @@
+type:              "land"
+bin:
+	$	0600f030 0000ffff ffff0000 00000000 ffffffff 00000000 00000020 00bfd508
+	$	00c064f0 00c05e8c 00000014 0d030000
+level_key_filter:  "f"
+speed:             32

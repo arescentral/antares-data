@@ -1,0 +1,13 @@
+type:       "message"
+bin:
+	$	08010000 00000000 00000000 00000168 ffffffff 00000000 14330001 00000000
+	$	00d70094 7c0802a6 bfa1fff4 90010008
+reflexive:  true
+delay:      360
+id:         5171
+pages:
+	*	>	\i INCOMING TRANSMISSION \i NO KEY - NW2 BROAD BEAM
+		|	SOURCE: UNS Musgrave
+		|	Unbelievable. We’re about to come into Sol through thanks to the Ishiman
+		>	gateship, and I can’t believe our sensors! We’re not picking up any
+		>	hostile ships. You did it! \i<EOT>\i 

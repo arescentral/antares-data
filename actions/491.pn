@@ -1,0 +1,8 @@
+type:       "win"
+bin:
+	$	0a010000 00000000 00000000 00000000 ffffffff 00a29170 00000001 ffffffff
+	$	00002c8b 00a2a588 0000000c 00000000
+reflexive:  true
+player:     1
+text:
+	>	The Elejeetian liner was destroyed.

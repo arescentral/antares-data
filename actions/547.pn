@@ -1,0 +1,6 @@
+type:       "reveal"
+bin:
+	$	03010000 00000000 00000000 00000000 ffffffff 00000000 0d000000 00090000
+	$	00010000 00000101 00c4c69c 00001c18
+reflexive:  true
+which:      {begin: 9, end: 11}

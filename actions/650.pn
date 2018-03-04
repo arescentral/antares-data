@@ -1,0 +1,18 @@
+type:  "message"
+bin:
+	$	08000000 00000000 00000000 00000000 ffffffff 00000000 16b30002 7c000026
+	$	54000ffe 68000001 7c630038 7fe00734
+id:    5811
+pages:
+	*	>	Sometimes, several ships are crowded together. How can you select the
+		>	ship you want when there are other ships covering it?
+		>
+		>	We’ll scale the display way out and show you.
+		|	\i_[more]_\i_
+	*	>	#O5#If several ships are on top of one another,
+		|	you can get at the ship you want by clicking
+		|	on the cluster repeatedly.
+		>
+		>	Try to select this transport, hidden under
+		|	three other ships. You’ll have to click three
+		|	or four times.

@@ -1,0 +1,13 @@
+type:       "message"
+bin:
+	$	08010000 00000000 00000000 0000001e ffffffff 00000000 15180001 000a0000
+	$	0000034c 386216ac 57a0103a 7c63002e
+reflexive:  true
+delay:      30
+id:         5400
+pages:
+	*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+		|	SOURCE: RICS 105508 Tractor Tug
+		|	We've entered the Secorem System and are now en route to the Elejeetian
+		>	liner. We've been informed that several Salrilian ships are jumping into
+		>	this system. We require escort. \i<EOT>\i 

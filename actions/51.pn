@@ -1,0 +1,6 @@
+type:              "kill"
+bin:
+	$	0b000000 04000000 00000000 00000000 ffffffff 00000000 016c756d 65000000
+	$	00ad07cc 00000000 00ad0f84 00ad0bd4
+inclusive_filter:  {can_be_destination: true}
+kind:              "expire"

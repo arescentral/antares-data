@@ -1,0 +1,10 @@
+type:       "message"
+bin:
+	$	08010000 00000000 00000000 00000000 ffffffff 60000000 15800001 2c000000
+	$	4182000c 3b400001 4800002c 38610054
+reflexive:  true
+id:         5504
+pages:
+	*	>	Good job. The drone successfully reached the buoy. You can send your
+		>	ships almost anywhere--to planets, to other ships, or even to your own
+		>	ship.

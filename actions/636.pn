@@ -1,0 +1,6 @@
+type:             "cloak"
+bin:
+	$	03010000 00000000 00000000 00000000 0008ffff 00000000 0e9b07ff ffff2b78
+	$	83e20000 48000001 5460063e 2c000000
+reflexive:        true
+initial_subject:  8

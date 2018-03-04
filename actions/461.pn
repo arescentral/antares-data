@@ -1,0 +1,7 @@
+type:             "fire"
+bin:
+	$	0d010000 00000000 00000000 00000000 0007ffff 0e000000 11000000 00d70000
+	$	0000002c 0e000000 00a2a188 00a854f0
+reflexive:        true
+initial_subject:  7
+which:            "special"

@@ -1,0 +1,9 @@
+type:       "key"
+bin:
+	$	14010000 00000000 00000000 00000000 ffffffff 00000000 00000070 00c05f1c
+	$	00000044 0e000000 00c0761c 00c7ecac
+reflexive:  true
+enable:
+	*	"fire_1"
+	*	"fire_2"
+	*	"fire_s"

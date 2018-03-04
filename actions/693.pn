@@ -1,0 +1,9 @@
+type:       "key"
+bin:
+	$	13010000 00000000 00000000 00000000 ffffffff 00000000 00000700 00130000
+	$	00000046 8001004a 9061003e 90010042
+reflexive:  true
+disable:
+	*	"select_friend"
+	*	"select_foe"
+	*	"select_base"

@@ -1,0 +1,22 @@
+type:  "message"
+bin:
+	$	08000000 00000000 00000000 00000000 ffffffff 00000000 16a80003 2c000000
+	$	41820008 3ba00001 b37e0018 881e001f
+id:    5800
+pages:
+	*	>	Welcome to Lesson 2.
+		>
+		>	In this lesson, you will be shown how to select other ships and objects.
+		>
+		>	We’ll be controlling the zoom, and turning on and off functions as they
+		>	apply.
+		|	\i_[more]_\i_
+	*	>	There are two ways to select objects: with the mouse, and with the
+		>	keyboard.
+		>
+		>	Let’s try the mouse first.
+		|	\i_[more]_\i_
+	*	>	#O1#To select a ship with the mouse, just click on
+		|	the ship.
+		>
+		>	Use the mouse to click on this ship.

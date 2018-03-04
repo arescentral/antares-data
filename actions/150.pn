@@ -1,0 +1,8 @@
+type:              "cap-speed"
+bin:
+	$	03015000 0000ffff ffffffff 00000000 ffffffff 00000000 04000000 00000000
+	$	000000ff 00000000 0000023a 00000000
+reflexive:         true
+level_key_filter:  "5"
+owner:             "different"
+value:             0.0

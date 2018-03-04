@@ -1,0 +1,8 @@
+type:    "win"
+bin:
+	$	0a000000 00000000 00000000 00000000 ffffffff 00000000 00000001 ffffffff
+	$	000027db 00000000 00000102 00ad0fdc
+player:  1
+text:
+	>	You allowed the transports to dock at Charon station. You need to
+	>	destroy the transports more quickly.

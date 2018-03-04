@@ -1,0 +1,6 @@
+type:       "spin"
+bin:
+	$	03010000 00000000 00000000 00000000 ffffffff 5460063e 1001ffff ff000000
+	$	01000000 48000001 60000000 7c630734
+reflexive:  true
+value:      {begin: -1.0, end: 0.0}

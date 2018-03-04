@@ -1,0 +1,9 @@
+type:       "win"
+bin:
+	$	0a010000 00000000 00000000 00000000 ffffffff 00000000 00000000 00000015
+	$	00002e19 0000a836 00000000 00001c1b
+reflexive:  true
+player:     0
+next:       21
+text:
+	>	You captured the base on Lelande Beta, and it is again in human hands.

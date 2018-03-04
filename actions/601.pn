@@ -1,0 +1,25 @@
+type:  "key"
+bin:
+	$	13000000 00000000 00000000 00000000 ffffffff 00000000 f9007fff 00c06e1c
+	$	00c05e68 00000018 0e000001 00c06e2c
+disable:
+	*	"up"
+	*	"down"
+	*	"left"
+	*	"right"
+	*	"fire_1"
+	*	"fire_2"
+	*	"fire_s"
+	*	"warp"
+	*	"select_friend"
+	*	"select_foe"
+	*	"select_base"
+	*	"target"
+	*	"order"
+	*	"zoom_in"
+	*	"zoom_out"
+	*	"comp_special"
+	*	"comp_build"
+	*	"zoom_shortcut"
+	*	"send_message"
+	*	"mouse"

@@ -1,0 +1,7 @@
+type:       "condition"
+bin:
+	$	03010000 00000000 00000000 00000168 ffffffff 00000000 12000000 00040000
+	$	00000150 7c0803a6 83e1fffc 83c1fff8
+reflexive:  true
+delay:      360
+enable:     4

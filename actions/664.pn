@@ -1,0 +1,9 @@
+type:  "message"
+bin:
+	$	08000000 00000000 00000000 00000000 ffffffff 00000000 16770001 00000050
+	$	00000000 00040000 80000000 00000000
+id:    5751
+pages:
+	*	>	#L322##72,363#Now press the Computer Accept key,
+		|	#ACT, to go to the Message Menu.
+		>

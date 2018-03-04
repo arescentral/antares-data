@@ -1,0 +1,12 @@
+type:       "message"
+bin:
+	$	08010000 00000000 00000000 00000168 ffffffff 00000000 147b0001 60000000
+	$	7c600735 41800010 7c600734 901e0518
+reflexive:  true
+delay:      360
+id:         5243
+pages:
+	*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+		|	SOURCE: Human/Ishiman Coord. Control
+		|	The Audemedons are sending additional ships to meet our carriers.
+		>	Destroy all hostile vessels and protect our carriers. \i<EOT>\i 

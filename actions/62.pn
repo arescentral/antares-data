@@ -1,0 +1,9 @@
+type:       "spark"
+bin:
+	$	04010000 00000000 00000000 00000000 ffffffff 00000000 0000000a 00000014
+	$	00000200 01ad0d58 00ad0d58 00000000
+reflexive:  true
+count:      10
+hue:        "orange"
+decay:      20
+velocity:   2.0

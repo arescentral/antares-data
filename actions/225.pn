@@ -1,0 +1,7 @@
+type:       "reveal"
+bin:
+	$	03010000 00000000 00000000 0000000a ffffffff 00000000 0d000000 00130000
+	$	000005ed 80410014 7fa3eb78 38810038
+reflexive:  true
+delay:      10
+which:      19

@@ -1,0 +1,9 @@
+type:    "win"
+bin:
+	$	0a000000 00000000 00000000 00000000 ffffffff 00000000 00000001 ffffffff
+	$	00002a32 4182006c 40800010 2c000001
+player:  1
+text:
+	>	DEBUG Chapter 8, computer wins.
+	|	Computer got enough asteroid fragments that player could never win (this
+	>	should never happen).

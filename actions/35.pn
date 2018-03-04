@@ -1,0 +1,6 @@
+type:       "kill"
+bin:
+	$	0b010000 00000000 00000000 00000000 ffffffff 00000000 01b87380 00000000
+	$	00ad0f84 00ad0944 00ad0944 00000000
+reflexive:  true
+kind:       "expire"

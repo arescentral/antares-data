@@ -1,0 +1,8 @@
+type:       "win"
+bin:
+	$	0a010000 00000000 00000000 00000000 ffffffff 00000000 00000000 ffffffff
+	$	000017d4 80010048 38210040 7c0803a6
+reflexive:  true
+player:     0
+text:
+	>	Player 1 captured Palyos Beta.

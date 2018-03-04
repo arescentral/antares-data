@@ -1,0 +1,12 @@
+type:   "message"
+bin:
+	$	08000000 00000000 00000000 00000078 ffffffff 00000000 107d0001 00070000
+	$	0002696f 6e436d64 00010000 00b29dc0
+delay:  120
+id:     4221
+pages:
+	*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+		|	SOURCE: Human/Ishiman Coord. Control
+		|	We’ve just confirmed that three hostile vessels are approaching this
+		>	system: a Cantharan gunship and two schooner escorts. Prevent them from
+		>	interfering with your retrieval of the asteroid samples. \i<EOT>\i 

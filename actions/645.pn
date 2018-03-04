@@ -1,0 +1,7 @@
+type:             "push"
+bin:
+	$	03010000 00000000 00000000 00000000 0001ffff 00000000 01000000 00000000
+	$	00000000 57a0063e 2c000000 41820018
+reflexive:        true
+initial_subject:  1
+kind:             "stop"

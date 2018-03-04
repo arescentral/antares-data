@@ -1,0 +1,9 @@
+type:  "message"
+bin:
+	$	08000000 00000000 00000000 00000000 ffffffff 00000000 176b0001 00000000
+	$	00000000 00000000 00000000 00000000
+id:    5995
+pages:
+	*	>	#O2#Now, one more time for this Heavy Cruiser.
+		>
+		>	Select it and press #ORD.

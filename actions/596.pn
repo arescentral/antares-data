@@ -1,0 +1,9 @@
+type:       "win"
+bin:
+	$	0a010000 00000000 00000000 00000000 ffffffff 00000000 00000001 000000bc
+	$	0000189d 00040000 80000000 00000000
+reflexive:  true
+player:     1
+next:       188
+text:
+	>	Player 2 captured the center base.

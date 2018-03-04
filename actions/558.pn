@@ -1,0 +1,8 @@
+type:            "move"
+bin:
+	$	03010000 00000000 00000000 00000000 ffff0003 00000000 06c00000 02580000
+	$	00000000 00000000 00c06a08 00c06570
+reflexive:       true
+initial_object:  3
+origin:          "object"
+distance:        600

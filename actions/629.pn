@@ -1,0 +1,148 @@
+type:  "message"
+bin:
+	$	08000000 00000000 00000000 00000000 ffffffff 00000000 16590015 4e800020
+	$	00c1e4f8 00c07364 00c05e68 0000000c
+id:    5721
+pages:
+	*	>	Now let’s get to the control of your ship.
+		|	\i_[more]_\i_
+	*	>	The \i_#TCC_\i and \i_#TNC_\i keys turn your ship counter-clockwise and
+		>	clockwise. Try them now.
+		>
+		>	The green hollow triangle is your sight; it shows which way your ship is
+		>	pointing.
+		|	\i_[more]_\i_
+	*	>	The display is now zoomed to \f0c1:16\r. Try rotating some more with the
+		>	\i_#TCC_\i and \i_#TNC_\i keys.
+		>
+		>	At this scale, you must rely on your sight to determine what direction
+		>	you are facing.
+		|	\i_[more]_\i_
+	*	>	The display has been returned to \f0c1:1\r.
+		>
+		>	Now try the thrust key, \i_#ACC_\i to move your ship forward. Different
+		>	ships have different acceleration rates and different top speeds.
+		>
+		>	Try the \i_#DEC_\i key to bring your ship to a halt. Decelerating works
+		>	regardless of what direction you are facing.
+		|	\i_[more]_\i_
+	*	>	Many ships are capable of faster-than-light speeds.
+		>
+		>	To enter warp speed, press and hold down the warp key, \i_#WRP_\i. It
+		>	takes a moment for the engines to engage, so keep holding the key down.
+		>
+		>	You will stay in warp for as long as you hold down the key. Releasing
+		>	the key returns you to normal speed.
+		|	\i_[more]_\i_
+	*	>	#R231##618,280#Warping drains energy from
+		|	your ship’s available power, shown here. Your
+		|	available power must be at least 1/8th full
+		|	to enter warp.
+		>
+		>	Let’s take a moment to look at all the power
+		|	indicators.
+		|	[more]
+	*	>	#R102##618,152#This is your reserve power indicator.
+		>
+		>	This represents how much total energy you
+		|	have available.
+		|	[more]
+	*	>	#R231##618,280#Whenever you use energy, it comes from
+		|	here, the available power.
+		>
+		>	Energy is used for warping, restocking
+		|	ammo, recharging the shields, and for some
+		|	weapons.
+		>
+		>	The available power is recharged over time
+		|	from the reserve power.
+		|	[more]
+	*	>	#R359##618,412#This is your shield power. When your ship
+		|	takes damage, the shield power goes down.
+		>
+		>	If the shields are depleted, your ship will
+		|	explode.
+		>
+		>	Your shields are automatically recharged
+		|	from the available power, up to 50% strength.
+		|	[more]
+	*	>	Next we’re going to look the ship’s weapon systems.
+		|	\i_[more]_\i_
+	*	>	Your weapons are now enabled.
+		>
+		>	The \i_#FW1_\i key will fire your pulse weapon. Try it now. You can hold
+		>	the key down to fire continuously.
+		>
+		>	Zoom in to \f0c1:1\r for a better look.
+		|	\i_[more]_\i_
+	*	>	#L159##36,163#Some weapons, like the fusion pulse, have a
+		|	limited number of shots. The number of shots
+		|	you have left is displayed here.
+		>
+		>	Your ammo will slowly be replenished from
+		|	your available power, but only up to 50%
+		|	of its original amount.
+		|	[more]
+	*	>	Now try the beam cannon using the \i_#FW2_\i key.
+		|	\i_[more]_\i_
+	*	>	#L159##74,163#The beam cannon is an energy weapon, and
+		|	therefore does not have an ammo count.
+		>
+		>	Some secondary weapons do have a limited
+		|	number of shots. When they do, the number
+		|	of shots is displayed here.
+		|	[more]
+	*	>	#R231##618,281#Every time the beam weapon is fired, a
+		|	small amount of your available power is
+		|	used.
+		>
+		>	The available power gets automatically
+		|	replenished by the reserve power.
+		|	[more]
+	*	>	#L159##110,163#The standard cruiser you are in has no
+		|	special weapon.
+		>
+		>	If it did, that weapon’s ammo would be
+		|	displayed here.
+		>
+		>	The special weapon is triggered by the
+		|	#FW3 key.
+		|	[more]
+	*	>	You’re almost done with your first lesson. All you need to do now is
+		>	find and destroy two simulated Cantharan transports.
+		>
+		>	But there’s a catch...
+		|	\i_[more]_\i_
+	*	>	One of the transports is cloaked. Normally, Cantharan transports can’t
+		>	cloak, but since this is a simulation, it will help illustrate the use
+		>	of your radar.
+		|	\i_[more]_\i_
+	*	>	#L8##121,66#This is your radar. Its range is fixed.
+		>
+		>	Try scaling in and out, and notice the
+		|	lighter box which shrinks and grows in the
+		|	radar. That box represents the area visible
+		|	in the main display.
+		|	[more]
+	*	>	#L8##121,66#Any object within range will appear as a
+		|	flashing dot on your radar. It’s a good
+		|	way to keep track of objects in your vicinity
+		|	even if they’re not visible in your main
+		|	display.
+		>
+		>	Even cloaked objects will appear on
+		|	your radar.
+		|	[more]
+	*	>	To complete this training mission, you must destroy both transports.
+		>	Don’t worry -- the cloaked transport and the visible transport are near
+		>	each other.
+		>
+		>	Try zooming to the \f0cZoom to Hostile\r mode, and finding the red
+		>	transport symbol. Then point your ship toward it, and press and hold the
+		>	warp key.
+		>
+		>	When you get close, release the warp key, and close in for the kill.
+		>
+		>	Use the radar to find the cloaked ship.
+		>
+		>	Good luck!

@@ -1,0 +1,22 @@
+type:       "message"
+bin:
+	$	08010000 00000000 00000000 00000000 ffffffff 00000000 16b50002 00000000
+	$	00000000 00000000 7c0802a6 bfc1fff8
+reflexive:  true
+id:         5813
+pages:
+	*	>	Very good.
+		>
+		>	Anything you can do with the mouse, you can also do with the keyboard.
+		>	In fact, using the keyboard has some advantages.
+		>
+		>	Let’s try the keyboard now. We’ll temporarily disable the ability to
+		>	select ships with the mouse.
+		|	\i_[more]_\i_
+	*	>	#O1#
+		|	To select an object with the keyboard, you
+		|	have to point your ship at it, then press
+		|	the appropriate key.
+		>
+		>	Aim yourself at this ship, then press the
+		|	Select Friend key, #SFD.

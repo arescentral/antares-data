@@ -1,0 +1,6 @@
+type:       "age"
+bin:
+	$	03010000 00000000 00000000 00000000 ffffffff 00000000 1500ffff ffff0000
+	$	00001b78 7e830734 48000001 60000000
+reflexive:  true
+value:      -1

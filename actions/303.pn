@@ -1,0 +1,8 @@
+type:    "win"
+bin:
+	$	0a000000 00000000 00000000 00000000 ffffffff 00000000 00000000 00000010
+	$	00002c26 3b800000 480000bc 38610050
+player:  0
+next:    16
+text:
+	>	You captured the Cantharan base on Fansi Beta.

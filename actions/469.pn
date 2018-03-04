@@ -1,0 +1,10 @@
+type:               "create"
+bin:
+	$	01010000 00000000 00000000 00000014 ffffffff 00000000 00000022 00000000
+	$	00000004 01000000 00800000 00b89b58
+reflexive:          true
+delay:              20
+base:               34
+count:              {begin: 0, end: 4}
+relative_velocity:  true
+distance:           128
