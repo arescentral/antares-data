@@ -1,0 +1,14 @@
+type:        "owner"
+bin:
+	$	04520000 0001ffff ffffffff ffff0000 0000ffff ffff0000 01210000 00010000
+	$	00000000 0000
+op:          "eq"
+subject:     0
+action:
+	*	type:    "win"
+		player:  1
+		text:
+			>	The Order captured our base on Proteus Alpha.
+persistent:  true
+disabled:    false
+player:      1

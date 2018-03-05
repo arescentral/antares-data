@@ -1,0 +1,40 @@
+type:        "distance"
+bin:
+	$	03ff0000 c350ffff ffffffff ffffffff fffe0000 00010000 01640000 00080000
+	$	00010000 0000
+op:          "lt"
+subject:     "player"
+object:      1
+action:
+	*	type:       "condition"
+		reflexive:  true
+		enable:     13
+	*	type:       "condition"
+		reflexive:  true
+		disable:    14
+	*	type:       "condition"
+		reflexive:  true
+		enable:     {begin: 15, end: 18}
+	*	type:       "message"
+		reflexive:  true
+		id:         5500
+		pages:
+			*	>	At these two buoys, you can practice commanding a ship by sending it to
+				>	a destination. First, select the practice drone as the CONTROL object by
+				>	using the mouse to click on it, or by pointing your ship at it and
+				>	pressing the \i #SFD \i key.
+	*	type:       "condition"
+		reflexive:  true
+		disable:    0
+	*	type:       "condition"
+		reflexive:  true
+		disable:    1
+	*	type:       "condition"
+		reflexive:  true
+		enable:     11
+	*	type:       "condition"
+		reflexive:  true
+		enable:     12
+persistent:  false
+disabled:    false
+value:       50000

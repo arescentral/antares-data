@@ -1,0 +1,30 @@
+type:        "subject"
+bin:
+	$	0a000000 00000000 00000000 00000000 0002ffff ffff0000 03280000 00040000
+	$	00030000 0000
+op:          "eq"
+subject:     2
+action:
+	*	type:  "message"
+		id:    7020
+		pages:
+			*	>	#L322##116,337#The Heavy Cruiser is your Current
+				|	Control Object.
+				>
+				>	Try transferring control to it.
+				>
+				>	Double click
+				|	the Transfer Control item or press the
+				|	#ACT key.
+	*	type:  "key"
+		enable:
+			*	"comp_special"
+	*	type:    "select"
+		screen:  "special"
+		line:    1
+	*	type:    "condition"
+		enable:  39
+persistent:  false
+disabled:    true
+player:      0
+value:       "control"

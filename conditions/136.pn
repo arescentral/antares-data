@@ -1,0 +1,47 @@
+type:        "zoom"
+bin:
+	$	13ff0000 0007ffff 08000b00 0000ffff ffffffff ffff0000 026f0000 00010000
+	$	00030000 0000
+op:          "eq"
+action:
+	*	type:       "message"
+		reflexive:  true
+		id:         5715
+		pages:
+			*	>	As you saw with the transport, when the display is on a very small scale
+				>	(anything below \f0c1:4\r), symbols are used to represent the objects in
+				>	the scenario.
+				>
+				>	Let’s look at these symbols.
+				|	\i_[more]_\i_
+			*	>	#O1#Triangles represent small-to-medium sized
+				|	military ships.
+				>
+				>	Larger symbols indicate larger ships.
+				|	[more]
+			*	>	#O2#Crosses represent transports and other
+				|	specialty ships.
+				>
+				>	Pulsing symbols represent objects that are
+				|	severely damaged.
+				|	[more]
+			*	>	#O3#Diamonds represent large military vessels,
+				|	like carriers.
+				>
+				>	Green symbols represent ships that are
+				|	friendly to you.
+				|	[more]
+			*	>	#O4#Squares represent planets and stars.
+				>
+				>	When a symbol is blue, it indicates that the
+				|	object is not under anyone’s control.
+				|	[more]
+			*	>	Now, use the \i_#SC+_\i key to zoom in to \f0c1:1\r mode again.
+				>
+				>	The zoom modes, from smallest to largest, are: \f0cZoom to All\r,
+				>	\f0cZoom to Closest\r, \f0cZoom to Hostile\r, \f0c1:16\r, \f0c1:4\r,
+				>	\f0c1:2\r, \f0c1:1\r, and \f0c2:1\r.
+persistent:  false
+disabled:    true
+player:      0
+value:       "all"

@@ -1,0 +1,17 @@
+type:        "counter"
+bin:
+	$	0cff0000 00000000 00010000 000affff ffffffff ffff0000 01d10000 00010000
+	$	00000000 0000
+op:          "ge"
+action:
+	*	type:    "win"
+		player:  0
+		next:    12
+		text:
+			>	Mission completed. You collected enough asteroid samples for a thorough
+			>	analysis.
+persistent:  true
+disabled:    false
+player:      0
+counter:     1
+value:       10

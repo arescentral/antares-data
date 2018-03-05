@@ -1,0 +1,40 @@
+type:        "distance"
+bin:
+	$	03ff0004 e2000000 0000ffff ffff0000 00070000 00050000 007e0000 00040000
+	$	00010000 0000
+op:          "lt"
+subject:     7
+object:      5
+action:
+	*	type:       "message"
+		reflexive:  true
+		delay:      120
+		id:         5320
+		pages:
+			*	>	\i INCOMING TRANSMISSION \i SECURE KEY: \iNONE\i - NW3 TIGHT BEAM
+				|	SOURCE: Gaitori Cruiser GMM5-5821 \i TRANSLATE ON \i
+				|	Welcome Obiards, Ishimans, and Humans. Today Obain and Gaitor take their
+				>	first step towards true peace in this historic exchange. Prepare to
+				>	commence approach toward Elysium Station.\i<EOT>\i
+	*	type:             "order"
+		delay:            480
+		initial_subject:  5
+		initial_object:   9
+	*	type:       "message"
+		reflexive:  true
+		delay:      360
+		id:         5330
+		pages:
+			*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+				|	SOURCE: Human/Ishiman Coord. Control
+				|	\i WARNING \i We have confirmed that one of the Gaitori escorts is being
+				>	manned by Cantharan loyalists. A lone unidentified fighter has been
+				>	detected on an intercept course for the convoy. We suspect an attempt
+				>	will be made to sabotage this mission. \i<EOT>\i
+	*	type:       "reveal"
+		reflexive:  true
+		delay:      120
+		which:      15
+persistent:  false
+disabled:    false
+value:       320000

@@ -1,0 +1,36 @@
+type:        "health"
+bin:
+	$	0900ffff ffffffff 08ad3454 00000000 0001ffff ffff0000 01340000 00070000
+	$	00010000 0000
+op:          "le"
+subject:     1
+action:
+	*	type:       "order"
+		reflexive:  true
+	*	type:       "push"
+		reflexive:  true
+		kind:       "stop"
+	*	type:       "create"
+		reflexive:  true
+		base:       183
+	*	type:       "land"
+		reflexive:  true
+		speed:      128
+	*	type:       "morph"
+		reflexive:  true
+		base:       224
+	*	type:       "heal"
+		reflexive:  true
+		value:      80000
+	*	type:       "message"
+		reflexive:  true
+		delay:      60
+		id:         5520
+		pages:
+			*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+				|	SOURCE: Human/Ishiman Coord. Control
+				|	The Cantharan Gate Ship is forming a jump gate and withdrawing-- we'll
+				>	try to determine where its jump stream terminates. \i<EOT>\i 
+persistent:  false
+disabled:    false
+value:       0.5

@@ -1,0 +1,22 @@
+type:        "counter"
+bin:
+	$	0cff0000 00000000 00000000 0001ffff ffffffff ffff0000 02eb0000 00020000
+	$	00030000 0000
+op:          "ge"
+action:
+	*	type:  "message"
+		id:    5930
+		pages:
+			*	>	#O5#Good -- the ship was built.
+				>
+				>	Now, select this ship by clicking on it
+				|	with the mouse or by pointing yourself
+				|	at it and pressing the Select Friend key,
+				|	#SFD.
+	*	type:    "condition"
+		enable:  11
+persistent:  false
+disabled:    true
+player:      0
+counter:     0
+value:       1

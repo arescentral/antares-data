@@ -1,0 +1,19 @@
+type:        "computer"
+bin:
+	$	12ff0000 00010000 0003ffff ffffffff ffffffff ffff0000 02980000 00020000
+	$	00030000 0000
+op:          "eq"
+action:
+	*	type:  "message"
+		id:    5751
+		pages:
+			*	>	#L322##72,363#Now press the Computer Accept key,
+				|	#ACT, to go to the Message Menu.
+				>
+	*	type:    "condition"
+		enable:  23
+persistent:  false
+disabled:    true
+player:      0
+screen:      "main"
+line:        3

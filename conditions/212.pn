@@ -1,0 +1,19 @@
+type:        "subject"
+bin:
+	$	0a000000 00000000 00000000 00000000 0006ffff ffff0000 03100000 00020000
+	$	00030000 0000
+op:          "eq"
+subject:     6
+action:
+	*	type:  "message"
+		id:    5980
+		pages:
+			*	>	#O4#Good.
+				>
+				>	Now target this transport.
+	*	type:    "condition"
+		enable:  26
+persistent:  false
+disabled:    true
+player:      0
+value:       "control"

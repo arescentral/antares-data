@@ -1,0 +1,20 @@
+type:        "health"
+bin:
+	$	09ffffff ffffffff ffffffff ffff0000 0002ffff ffff0000 02260000 00010000
+	$	00010000 0000
+op:          "le"
+subject:     2
+action:
+	*	type:       "message"
+		reflexive:  true
+		id:         5170
+		pages:
+			*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+				|	SOURCE: UNS Musgrave
+				|	We regret to inform you that the Cantharan carriers we were engaging at
+				>	Upsilon Andromeda have withdrawn. About four escaped through a
+				>	Cantharan-constructed jumpgate, and we were unable to pursue. Looks like
+				>	they’re headed your way. \i<EOT>\i 
+persistent:  false
+disabled:    false
+value:       0.5

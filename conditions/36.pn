@@ -1,0 +1,15 @@
+type:        "owner"
+bin:
+	$	04ff0000 0000ffff ffff0800 00040000 000dffff ffff0000 012d0000 00010000
+	$	00010000 0000
+op:          "eq"
+subject:     13
+action:
+	*	type:    "win"
+		player:  0
+		next:    10
+		text:
+			>	You captured the Gaitori base on Hades Beta.
+persistent:  false
+disabled:    false
+player:      0

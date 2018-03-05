@@ -1,0 +1,15 @@
+type:        "message"
+bin:
+	$	11660000 17160000 000affff ffffffff ffffffff ffff0000 02e70000 00020000
+	$	00010000 0000
+op:          "eq"
+action:
+	*	type:  "key"
+		enable:
+			*	"comp_build"
+	*	type:    "condition"
+		enable:  {begin: 9, end: 11}
+persistent:  false
+disabled:    false
+player:      0
+value:       5919

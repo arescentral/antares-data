@@ -1,0 +1,15 @@
+type:        "owner"
+bin:
+	$	04ff0000 0000ffff ffffffff ffff0000 0005ffff ffff0000 01270000 00010000
+	$	00010000 0000
+op:          "eq"
+subject:     5
+action:
+	*	type:    "win"
+		player:  0
+		next:    7
+		text:
+			>	You took the Gaitori base on Demeter Beta. The mission was a success.
+persistent:  false
+disabled:    false
+player:      0

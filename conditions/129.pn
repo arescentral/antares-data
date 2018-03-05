@@ -1,0 +1,30 @@
+type:        "computer"
+bin:
+	$	12ff0000 0001ffff ffff080c 0000ffff ffffffff ffff0000 025f0000 00030000
+	$	00030000 0000
+op:          "eq"
+action:
+	*	type:  "message"
+		id:    5750
+		pages:
+			*	>	#L322##72,363#Good. You can also use the #PRV
+				|	and #NXT keys to select commands
+				|	from the ship’s computer.
+				>
+				>	Use those keys now to hilite the
+				|	<Message> item in the Main Menu again.
+	*	type:  "key"
+		enable:
+			*	"comp_up"
+			*	"comp_down"
+			*	"comp_accept"
+			*	"comp_back"
+			*	"comp_message"
+			*	"comp_build"
+			*	"mouse"
+	*	type:    "condition"
+		enable:  22
+persistent:  false
+disabled:    true
+player:      0
+screen:      "main"

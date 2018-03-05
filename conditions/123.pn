@@ -1,0 +1,16 @@
+type:        "counter"
+bin:
+	$	0cd80000 00010000 00000000 0003ffff ffffffff ffff0000 02500000 00010000
+	$	00000000 0000
+op:          "ge"
+action:
+	*	type:       "win"
+		reflexive:  true
+		player:     0
+		text:
+			>	Player 1 wins!
+persistent:  true
+disabled:    false
+player:      1
+counter:     0
+value:       3

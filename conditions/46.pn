@@ -1,0 +1,40 @@
+type:        "destroyed"
+bin:
+	$	056e0000 00000000 0000ffff ffffffff ffffffff ffff0000 00f90000 00070000
+	$	00010000 0000
+op:          "eq"
+action:
+	*	type:       "condition"
+		reflexive:  true
+		disable:    0
+	*	type:       "condition"
+		reflexive:  true
+		disable:    1
+	*	type:       "condition"
+		reflexive:  true
+		disable:    2
+	*	type:       "message"
+		reflexive:  true
+		delay:      360
+		id:         5243
+		pages:
+			*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+				|	SOURCE: Human/Ishiman Coord. Control
+				|	The Audemedons are sending additional ships to meet our carriers.
+				>	Destroy all hostile vessels and protect our carriers. \i<EOT>\i 
+	*	type:       "reveal"
+		reflexive:  true
+		delay:      360
+		which:      {begin: 20, end: 25}
+	*	type:       "reveal"
+		reflexive:  true
+		delay:      360
+		which:      {begin: 14, end: 20}
+	*	type:       "condition"
+		reflexive:  true
+		delay:      360
+		enable:     4
+persistent:  false
+disabled:    false
+initial:     0
+value:       true

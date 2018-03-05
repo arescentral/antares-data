@@ -1,0 +1,48 @@
+type:        "subject"
+bin:
+	$	18000000 00000000 00000000 00000000 0002ffff ffff0000 032c0000 00010000
+	$	00030000 0000
+op:          "eq"
+subject:     2
+action:
+	*	type:  "message"
+		id:    7025
+		pages:
+			*	>	#O2#Good.
+				>
+				>	Now you’ve assumed control of this
+				|	Heavy Cruiser.
+				>
+				>	Transferring control is an essential
+				|	function, especially if your ship gets
+				|	destroyed!
+				|	[more]
+			*	>	#L322##116,350#Executing the Hold Position item will
+				|	cause your current Control Object to
+				|	stay at its current location, wherever that
+				|	may be, until otherwise ordered.
+				|	[more]
+			*	>	#L322##116,363#Executing the Go To My Position item will
+				|	cause your current Control Object to
+				|	come to your present location and stay
+				|	there until otherwise ordered.
+				|	[more]
+			*	>	#L322##116,374#The three firing commands allow you to
+				|	trigger your Control Object’s weapons
+				|	and devices remotely.
+				>
+				>	You might use this, for instance, to
+				|	cause a carrier to launch its fighters.
+				|	[more]
+			*	>	Good work. These three lessons have taught you almost everything you
+				>	need to know about controlling your ship and giving orders to others.
+				>
+				>	To complete this final lesson, you must destroy the ten simulated
+				>	Transports.
+				>
+				>	Of course, you could personally shoot them all, but it would be much
+				>	faster if you brought along some help...
+persistent:  false
+disabled:    true
+player:      0
+value:       "player"

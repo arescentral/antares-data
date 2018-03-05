@@ -1,0 +1,24 @@
+type:        "time"
+bin:
+	$	07ff0000 12acffff ffffffff ffffffff ffffffff ffff0000 021f0000 00040000
+	$	00010000 0000
+op:          "ge"
+action:
+	*	type:       "reveal"
+		reflexive:  true
+		which:      {begin: 5, end: 12}
+	*	type:             "capture"
+		reflexive:        true
+		initial_subject:  2
+		player:           0
+	*	type:             "capture"
+		reflexive:        true
+		initial_subject:  3
+		player:           1
+	*	type:             "pay"
+		initial_subject:  3
+		value:            10000.0
+		player:           1
+persistent:  false
+disabled:    false
+value:       4780

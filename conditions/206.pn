@@ -1,0 +1,30 @@
+type:        "distance"
+bin:
+	$	03000000 c3500000 00000000 00000000 00010000 00020000 03030000 00020000
+	$	00030000 0000
+op:          "lt"
+subject:     1
+object:      2
+action:
+	*	type:  "message"
+		id:    5960
+		pages:
+			*	>	#O6#Good.
+				>
+				>	Did you notice that the standard Cruiser
+				|	that had the Heavy Cruiser as its target
+				|	followed along?
+				>
+				>	Until you give it a new target, this
+				|	standard Cruiser will follow the Heavy
+				|	Cruiser everywhere.
+				>
+				>	Let’s give the Cruiser a new target.
+				|	[more]
+			*	>	#O6#First, select this cruiser. You can just
+				|	click on it.
+	*	type:    "condition"
+		enable:  20
+persistent:  false
+disabled:    true
+value:       50000

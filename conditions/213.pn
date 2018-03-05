@@ -1,0 +1,19 @@
+type:        "subject"
+bin:
+	$	0b000000 00000000 00000000 00000000 0004ffff ffff0000 03120000 00020000
+	$	00030000 0000
+op:          "eq"
+subject:     4
+action:
+	*	type:  "message"
+		id:    5985
+		pages:
+			*	>	#O6#Now send this ship to the Transport.
+				>
+				>	Press the Order to Go key, #ORD.
+	*	type:    "condition"
+		enable:  27
+persistent:  false
+disabled:    true
+player:      0
+value:       "target"

@@ -1,0 +1,22 @@
+type:        "subject"
+bin:
+	$	0bffffff ffffffff ffffffff 08ff0000 0001ffff ffff0000 01760000 00020000
+	$	00030000 0000
+op:          "eq"
+subject:     1
+action:
+	*	type:       "message"
+		reflexive:  true
+		id:         5505
+		pages:
+			*	>	You've already got the right buoy selected as the TARGET object, so now
+				>	select the practice drone as the CONTROL object by using the mouse to
+				>	click on it, or by pointing your ship at it and pressing the \i_#SFO_\i
+				>	key.
+	*	type:       "condition"
+		reflexive:  true
+		enable:     10
+persistent:  false
+disabled:    true
+player:      0
+value:       "target"

@@ -1,0 +1,25 @@
+type:        "time"
+bin:
+	$	07ff0000 c738ffff 07d46c65 6674ffff ffffffff ffff0000 01fa0000 00040000
+	$	00010000 0000
+op:          "ge"
+action:
+	*	type:             "heal"
+		reflexive:        true
+		initial_subject:  2
+		value:            -10000
+	*	type:             "heal"
+		reflexive:        true
+		initial_subject:  3
+		value:            -10000
+	*	type:             "heal"
+		reflexive:        true
+		initial_subject:  4
+		value:            -10000
+	*	type:             "heal"
+		reflexive:        true
+		initial_subject:  5
+		value:            -10000
+persistent:  false
+disabled:    false
+value:       51000

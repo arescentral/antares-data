@@ -1,0 +1,18 @@
+type:        "subject"
+bin:
+	$	0b00ffff ffffffff ffffffff ffff0000 0001ffff ffff0000 02c80000 00010000
+	$	00030000 0000
+op:          "eq"
+subject:     1
+action:
+	*	type:  "message"
+		id:    5840
+		pages:
+			*	>	To activate the autopilot, hold down the Target key, \i_#DST_\i as you
+				>	press and release the Warp key, \i_#WRP_\i.
+				>
+				>	Try it now.
+persistent:  false
+disabled:    true
+player:      0
+value:       "target"

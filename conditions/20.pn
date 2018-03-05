@@ -1,0 +1,38 @@
+type:        "distance"
+bin:
+	$	03ff0004 e200ffff ffffffff ffff0000 00090000 00050000 00820000 00060000
+	$	00010000 0000
+op:          "lt"
+subject:     9
+object:      5
+action:
+	*	type:             "order"
+		delay:            360
+		initial_subject:  10
+		initial_object:   6
+	*	type:             "order"
+		initial_subject:  3
+		initial_object:   10
+	*	type:             "order"
+		initial_subject:  4
+		initial_object:   10
+	*	type:             "order"
+		initial_subject:  8
+		initial_object:   10
+	*	type:       "message"
+		reflexive:  true
+		delay:      360
+		id:         5360
+		pages:
+			*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+				|	SOURCE: Human/Ishiman Coord. Control
+				|	\i WARNING. WARNING. \i The Gaitori government seems to be unable to
+				>	control its military. A Gaitori carrier, the Chained Triumph, is making
+				>	an unauthorized jump into this system. We expect the worse. Defend the
+				>	Obish transport and  the Obish battleship at all cost. \i<EOT>\i
+	*	type:       "reveal"
+		reflexive:  true
+		which:      {begin: 11, end: 15}
+persistent:  false
+disabled:    false
+value:       320000

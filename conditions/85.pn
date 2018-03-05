@@ -1,0 +1,30 @@
+type:        "counter"
+bin:
+	$	0cff0000 00000000 00000000 00010000 0001ffff ffff0000 01aa0000 00040000
+	$	00030000 0000
+op:          "ge"
+subject:     1
+action:
+	*	type:                "create"
+		reflexive:           true
+		base:                207
+		relative_velocity:   true
+		relative_direction:  true
+	*	type:       "score"
+		reflexive:  true
+		which:      0
+		value:      -1
+		player:     0
+	*	type:       "condition"
+		reflexive:  true
+		enable:     0
+	*	type:             "morph"
+		reflexive:        true
+		initial_subject:  1
+		base:             206
+		keep_ammo:        true
+persistent:  false
+disabled:    true
+player:      0
+counter:     0
+value:       1

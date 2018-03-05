@@ -1,0 +1,16 @@
+type:        "message"
+bin:
+	$	11ff0000 16590000 000b0001 ffffffff ffffffff ffff0000 027a0000 00010000
+	$	00010000 0000
+op:          "eq"
+action:
+	*	type:       "key"
+		reflexive:  true
+		enable:
+			*	"fire_1"
+			*	"fire_2"
+			*	"fire_s"
+persistent:  false
+disabled:    false
+player:      0
+value:       5731

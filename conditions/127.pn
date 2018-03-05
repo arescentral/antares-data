@@ -1,0 +1,27 @@
+type:        "computer"
+bin:
+	$	12ff0000 0004ffff ffffffff ffffffff ffffffff ffff0000 025d0000 00010000
+	$	00010000 0000
+op:          "eq"
+action:
+	*	type:  "message"
+		id:    5701
+		pages:
+			*	>	#L322##116,337#Good.
+				>
+				>	Now, to see the next page of this message,
+				|	double click on the Next Page/Clear item.
+			*	>	#L322#As a shortcut, you can press the
+				|	#MSC key at any time to see the
+				|	next page of a message.
+				>
+				>	Try it now.
+			*	>	#L452##104,468#To back up to the main menu, click
+				|	the Main Menu button here, or press the
+				|	#CNC key.
+				>
+				>	Try backing up to the main menu now.
+persistent:  false
+disabled:    false
+player:      0
+screen:      "message"

@@ -1,0 +1,38 @@
+type:        "distance"
+bin:
+	$	03ff0000 c350f988 00000000 ffff0000 00000000 000a0000 00d10000 00060000
+	$	00010000 0000
+op:          "lt"
+subject:     0
+object:      10
+action:
+	*	type:             "morph"
+		reflexive:        true
+		initial_subject:  0
+		base:             126
+	*	type:         "sound"
+		reflexive:    true
+		id:           17406
+		priority:     4
+		persistence:  30
+		volume:       255
+	*	type:       "condition"
+		reflexive:  true
+		enable:     2
+	*	type:             "order"
+		initial_subject:  0
+		initial_object:   10
+	*	type:       "message"
+		reflexive:  true
+		id:         5401
+		pages:
+			*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+				|	SOURCE: RICS 105508 Tractor Tug
+				|	We've locked on to the Elejeetian liner and are now towing it to the
+				>	jump gate. \i<EOT>\i 
+	*	type:             "order"
+		initial_subject:  10
+		initial_object:   7
+persistent:  false
+disabled:    false
+value:       50000

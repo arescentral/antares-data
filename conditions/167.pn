@@ -1,0 +1,26 @@
+type:        "subject"
+bin:
+	$	0adc736d 4d61ffff ffffffff ffff0000 0006ffff ffff0000 02b30000 00010000
+	$	00030000 0000
+op:          "eq"
+subject:     6
+action:
+	*	type:       "message"
+		reflexive:  true
+		id:         5825
+		pages:
+			*	>	Good.
+				>
+				>	Now let’s try targeting. We’ll disable the keyboard selection keys for
+				>	now and turn the mouse selection back on.
+				|	\i_[more]_\i_
+			*	>	#O1#To target a ship with the mouse, hold down
+				|	the target key, #DST, then
+				|	click on the ship.
+				>
+				>	Use the mouse to click on this ship while
+				|	holding down the #DST key.
+persistent:  false
+disabled:    true
+player:      0
+value:       "control"

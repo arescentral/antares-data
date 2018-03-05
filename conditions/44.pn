@@ -1,0 +1,19 @@
+type:        "time"
+bin:
+	$	07ff0000 003cffff 08726365 0000ffff ffffffff ffff0000 00f40000 00010000
+	$	00010000 0000
+op:          "ge"
+action:
+	*	type:       "message"
+		reflexive:  true
+		id:         5240
+		pages:
+			*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+				|	SOURCE: Science Vessel ISN 0917996
+				|	There are several large hostile Audemedon vessels stationed around the
+				>	massive object. There are also five smaller ships on an intercept
+				>	course. We remind you that the success of this mission depends on the
+				>	safety of this ship.\i<EOT>\i 
+persistent:  false
+disabled:    false
+value:       60

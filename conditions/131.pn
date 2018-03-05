@@ -1,0 +1,38 @@
+type:        "zoom"
+bin:
+	$	13ff0000 0000382c 00000015 ffffffff ffffffff ffff0000 02650000 00010000
+	$	00030000 0000
+op:          "eq"
+action:
+	*	type:  "message"
+		id:    5711
+		pages:
+			*	>	Very good.
+				>
+				>	Now let’s look at the dynamic zooming modes.
+				|	\i_[more]_\i_
+			*	>	The display is now in the dynamic \f0cZoom to Closest Hostile\r mode.
+				>	The display has automatically scaled to show the nearest hostile object,
+				>	in this case, a simulated Cantharan Transport.
+				>
+				>	Since the transport is far away, the display automatically sets itself
+				>	to a very small scale, where the images of the ships are replaced by
+				>	symbols. Since this is an enemy transport, its symbol is red.
+				|	\i_[more]_\i_
+			*	>	Notice that, as the enemy transport apporoaches, the display
+				>	automatically zooms in. When it moves away, the display automatically
+				>	zooms out.
+				>
+				>	The Zoom to Closest Hostile mode is the default zoom mode, and is
+				>	recommended for combat.
+				>
+				>	When you’re done watching the transport, go to the next page.
+				|	\i_[more]_\i_
+			*	>	Now Zoom all the way out to the \f0cZoom to All\r mode by hitting the
+				>	\i_#SC-_\i key several times.
+				>
+				>	This mode always shows all the objects in a scenario.
+persistent:  false
+disabled:    true
+player:      0
+value:       "2:1"

@@ -1,0 +1,37 @@
+type:        "subject"
+bin:
+	$	0aff0018 00dc00dc 02b00000 00000000 0005ffff ffff0000 02ef0000 00010000
+	$	00030000 0000
+op:          "eq"
+subject:     5
+action:
+	*	type:  "message"
+		id:    5935
+		pages:
+			*	>	#L181##112,235#All ships have targets. This newly built
+				|	ship’s target is indicated here, in the
+				|	Control Display.
+				>
+				>	Its target is the planet.
+				|	[more]
+			*	>	#L181##117,270#When a ship is built, it adopts whatever
+				|	target you have selected at the time of the
+				|	ship’s creation.
+				>
+				>	You had the planet as your target, and when the
+				|	ship was built, it was given the same target.
+				>
+				>	Let’s demonstrate.
+				|	[more]
+			*	>	#O2#Target this Heavy Cruiser by clicking on it
+				|	while holding down the Target Key,
+				|	#DST.
+				>
+				>	You could also point at it with your ship
+				|	and hold down the Target Key, #DST,
+				|	and press the Select Friend Key,
+				|	#SFD.
+persistent:  false
+disabled:    true
+player:      0
+value:       "control"

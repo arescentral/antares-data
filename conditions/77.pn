@@ -1,0 +1,31 @@
+type:        "distance"
+bin:
+	$	03ff0000 c350ffff ffffffff ffffffff fffe0000 00050000 01860000 00050000
+	$	00010000 0000
+op:          "lt"
+subject:     "player"
+object:      5
+action:
+	*	type:       "condition"
+		reflexive:  true
+		enable:     {begin: 0, end: 2}
+	*	type:       "condition"
+		reflexive:  true
+		disable:    {begin: 2, end: 13}
+	*	type:       "condition"
+		reflexive:  true
+		enable:     {begin: 15, end: 18}
+	*	type:       "message"
+		reflexive:  true
+		id:         5506
+		pages:
+			*	>	At this moon, you can practice building ships. Before you can build at a
+				>	base that you own, it first must be selected. Select the moon by
+				>	clicking on it with the mouse, or by pointing your ship at it and
+				>	pressing the Select Friendly Base Key, \i_#SBS_\i.
+	*	type:       "condition"
+		reflexive:  true
+		enable:     14
+persistent:  false
+disabled:    false
+value:       50000

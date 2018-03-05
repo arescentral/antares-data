@@ -1,0 +1,34 @@
+type:        "subject"
+bin:
+	$	0b0c0000 00020000 0001ffff ffff0000 00070000 00010000 02bd0000 00010000
+	$	00030000 0000
+op:          "eq"
+subject:     7
+object:      1
+action:
+	*	type:       "message"
+		reflexive:  true
+		id:         5833
+		pages:
+			*	>	Perfect.
+				>
+				>	You can also target ships and planets with the keyboard.
+				>
+				>	To select Target Objects with the keyboard, you use the Target key,
+				>	\i_#DST_\i, in conjunction with the selection keys.
+				>
+				>	Mouse selection has been deactivated, and the keyboard selection has
+				>	been reactivated.
+				|	\i_[more]_\i_
+			*	>	#O1#To target a ship with the keyboard, point
+				|	yourself at the ship, hold down the target
+				|	key, #DST, then press the
+				|	Select Friend key, #SFD.
+				>
+				>	Select this ship as a target, so it
+				|	is labeled in blue and appears on the
+				|	target screen.
+persistent:  false
+disabled:    true
+player:      0
+value:       "target"

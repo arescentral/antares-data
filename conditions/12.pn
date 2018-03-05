@@ -1,0 +1,15 @@
+type:        "destroyed"
+bin:
+	$	05ff0000 00110000 0f010000 ffffffff ffffffff ffff0000 01240000 00010000
+	$	00010000 0000
+op:          "eq"
+action:
+	*	type:    "win"
+		player:  0
+		next:    14
+		text:
+			>	You destoyed the Constant Voice of Zom, and the mastermind Som with it.
+persistent:  false
+disabled:    false
+initial:     17
+value:       true

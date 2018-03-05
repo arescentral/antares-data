@@ -1,0 +1,51 @@
+type:        "time"
+bin:
+	$	07ff0000 0000ffff ffffffff ffffffff ffffffff ffff0000 02590000 00040000
+	$	00010000 0000
+op:          "ge"
+action:
+	*	type:  "key"
+		disable:
+			*	"up"
+			*	"down"
+			*	"left"
+			*	"right"
+			*	"fire_1"
+			*	"fire_2"
+			*	"fire_s"
+			*	"warp"
+			*	"select_friend"
+			*	"select_foe"
+			*	"select_base"
+			*	"target"
+			*	"order"
+			*	"zoom_in"
+			*	"zoom_out"
+			*	"comp_special"
+			*	"comp_build"
+			*	"zoom_shortcut"
+			*	"send_message"
+			*	"mouse"
+	*	type:   "zoom"
+		value:  "1:1"
+	*	type:             "push"
+		reflexive:        true
+		initial_subject:  0
+		kind:             "stop"
+	*	type:  "message"
+		id:    5700
+		pages:
+			*	>	#L322##72,363#Welcome to lesson 1.
+				>
+				>	To proceed, you need to learn to use the
+				|	ship’s computer, here on the left of your
+				|	display.
+				>
+				>	To select an option from the main menu, you
+				|	can double click on it.
+				>
+				>	Use the mouse to double click the <Message>
+				|	item now.
+persistent:  false
+disabled:    false
+value:       0

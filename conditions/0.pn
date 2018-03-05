@@ -1,0 +1,16 @@
+type:        "counter"
+bin:
+	$	02000000 00000000 00000000 0004ffff ffffffff ffff0000 011d0000 00010000
+	$	00000000 0000
+op:          "eq"
+action:
+	*	type:    "win"
+		player:  0
+		next:    5
+		text:
+			>	Mission completed. You destroyed all four of the sensor relay dishes.
+persistent:  true
+disabled:    false
+player:      0
+counter:     0
+value:       4

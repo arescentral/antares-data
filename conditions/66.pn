@@ -1,0 +1,27 @@
+type:        "subject"
+bin:
+	$	0affffff ffffffff ffff08ad 375c0000 0003ffff ffff0000 016c0000 00030000
+	$	00030000 0000
+op:          "eq"
+subject:     3
+action:
+	*	type:       "message"
+		reflexive:  true
+		id:         5501
+		pages:
+			*	>	Now select "Command Buoy A" as the TARGET object. This is where you will
+				>	tell the drone to go. While holding down the Target Key \i_#DST_\i
+				>	either click on Command Buoy A, or point at the buoy with your ship and
+				>	press the \i_#SBS_\i key while holding down the \i_#DST_\i key. Command
+				>	Buoy A is the nearby buoy that is closer to Omisha Station. You may have
+				>	to scale the display to see it.
+	*	type:       "condition"
+		reflexive:  true
+		disable:    8
+	*	type:       "condition"
+		reflexive:  true
+		enable:     4
+persistent:  false
+disabled:    true
+player:      0
+value:       "control"

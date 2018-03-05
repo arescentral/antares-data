@@ -1,0 +1,13 @@
+type:        "message"
+bin:
+	$	110d0000 16a80000 00030000 0104ffff ffffffff ffff0000 02880000 00010000
+	$	00010000 0000
+op:          "eq"
+action:
+	*	type:       "condition"
+		reflexive:  true
+		enable:     2
+persistent:  false
+disabled:    false
+player:      0
+value:       5802

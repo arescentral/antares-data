@@ -1,0 +1,43 @@
+type:        "ordered"
+bin:
+	$	17000000 00000000 00000000 00000000 00060000 00010000 03070000 00010000
+	$	00030000 0000
+op:          "eq"
+subject:     6
+object:      1
+action:
+	*	type:  "message"
+		id:    5970
+		pages:
+			*	>	Good.
+				>
+				>	The Cruiser will now stay by the planet, even if the Heavy Cruiser is
+				>	ordered somewhere else.
+				>
+				>	Because you already had the planet selected as a target, you didn’t need
+				>	to target it before you assigned it to the Cruiser.
+				|	\i_more_\i_
+			*	>	Frequently, you’ll be required to capture bases, like planets.
+				>
+				>	The only way to capture a planet is to land a transport on it.
+				>
+				>	To land a transport on an unfriendly planet, you simply give the
+				>	transport the planet as a target.
+				|	\i_more_\i_
+			*	>	#O1#This planet is now hostile. We’ll show you
+				|	how to land a transport on it to reclaim
+				|	it.
+				|	[more]
+			*	>	#O3#Here’s a transport to use.
+				>
+				>	You still have the planet selected as a
+				|	target, so all you need to do is select
+				|	this transport and hit the Order to Go
+				|	key, #ORD.
+				>
+				>	The transport will go to your target,
+				|	the planet, and land on it.
+persistent:  false
+disabled:    true
+player:      0
+value:       true

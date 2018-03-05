@@ -1,0 +1,42 @@
+type:        "distance"
+bin:
+	$	03ff0000 c3500807 73634368 616e0000 00010000 00050000 02d00000 00040000
+	$	00030000 0000
+op:          "lt"
+subject:     1
+object:      5
+action:
+	*	type:  "message"
+		id:    5842
+		pages:
+			*	>	You’ll continue to follow this ship -- or any other target you care to
+				>	select -- until you press one of your movement keys. Accelerating or
+				>	turning immediately deactivates the autopilot.
+				>
+				>	Try turning off the autopilot now, by pressing one of your rotation keys
+				>	(\i_#TCC_\i, \i_#TNC_\i), or your acceleration or deceleration
+				>	(\i_#ACC_\i, \i_#DEC_\i)keys.
+	*	type:             "key"
+		initial_subject:  0
+		enable:
+			*	"up"
+			*	"down"
+			*	"left"
+			*	"right"
+			*	"warp"
+			*	"select_friend"
+			*	"select_foe"
+			*	"select_base"
+			*	"target"
+			*	"zoom_in"
+			*	"zoom_out"
+			*	"zoom_shortcut"
+			*	"mouse"
+	*	type:             "condition"
+		initial_subject:  0
+		enable:           36
+	*	type:    "condition"
+		enable:  35
+persistent:  false
+disabled:    true
+value:       50000

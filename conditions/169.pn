@@ -1,0 +1,38 @@
+type:        "subject"
+bin:
+	$	0bffffff ffffffff ffffffff ffff0000 0001ffff ffff0000 02b80000 00010000
+	$	00030000 0000
+op:          "eq"
+subject:     1
+action:
+	*	type:       "message"
+		reflexive:  true
+		id:         5827
+		pages:
+			*	>	#O1#Good. This ship has been selected as the
+				|	Target Object.
+				>
+				>	The Target Object is the ship or planet
+				|	to which you wish to send other ships.
+				|	We’ll talk about sending ships to target
+				|	objects later.
+				|	[more]
+			*	>	#O1#For now, note the blue label which
+				|	designates this ship as your Target Object.
+				|	[more]
+			*	>	#L254##119,289#This is the Target Display. When you have
+				|	a Target Object selected, it is displayed
+				|	here.
+				>
+				>	The Target Display provides the same
+				|	information about a ship or base as the
+				|	Control Display.
+				|	[more]
+			*	>	#O6#Any friendly object can be targeted.
+				>
+				>	Try clicking on this planet while
+				|	holding down the #DST key.
+persistent:  false
+disabled:    true
+player:      0
+value:       "target"

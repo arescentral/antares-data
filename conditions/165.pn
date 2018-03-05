@@ -1,0 +1,22 @@
+type:        "subject"
+bin:
+	$	0affffff 08746174 7573000d 32240000 0005ffff ffff0000 02b10000 00010000
+	$	00030000 0000
+op:          "eq"
+subject:     5
+action:
+	*	type:       "message"
+		reflexive:  true
+		id:         5823
+		pages:
+			*	>	Great! Now you know how to select ships even when you can’t see them.
+				|	\i_[more]_\i_
+			*	>	Selecting bases and space stations with the keyboard works the same way,
+				>	except you use the Select Base key, \i_#SBS_\i.
+				>
+				>	Select the planet now by pointing your ship at it and pressing the
+				>	\i_#SBS_\i key.
+persistent:  false
+disabled:    true
+player:      0
+value:       "control"

@@ -1,0 +1,16 @@
+type:        "counter"
+bin:
+	$	02ff0000 00000000 00000000 0005ffff ffffffff ffff0000 01320000 00010000
+	$	00010000 0000
+op:          "eq"
+action:
+	*	type:    "win"
+		player:  0
+		next:    19
+		text:
+			>	You captured the Salrilian base on Beta.
+persistent:  false
+disabled:    false
+player:      0
+counter:     0
+value:       5

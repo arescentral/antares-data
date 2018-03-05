@@ -1,0 +1,26 @@
+type:        "distance"
+bin:
+	$	03ff0004 e2000802 00000000 00000000 000a0000 00060000 00ca0000 00020000
+	$	00010000 0000
+op:          "lt"
+subject:     10
+object:      6
+action:
+	*	type:       "message"
+		reflexive:  true
+		id:         5370
+		pages:
+			*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+				|	SOURCE: Human/Ishiman Coord. Control
+				|	Ambassador Thrntz wishes to convey his heartfelt gratitude. Obain is
+				>	grateful. \i<EOT>\i
+	*	type:    "win"
+		delay:   360
+		player:  0
+		next:    8
+		text:
+			>	Chapter 5, player wins.
+			|	Player escorts Thrntz transport back to the battleship.
+persistent:  false
+disabled:    false
+value:       320000

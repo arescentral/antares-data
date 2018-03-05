@@ -1,0 +1,47 @@
+type:        "autopilot"
+bin:
+	$	1406ffff ffffffff ffff088c 010dffff ffffffff ffff0000 02ca0000 00060000
+	$	00030000 0000
+op:          "eq"
+action:
+	*	type:  "message"
+		id:    5841
+		pages:
+			*	>	Now watch what happens when your target decides to go somewhere.
+	*	type:             "zoom"
+		reflexive:        true
+		initial_subject:  1
+		initial_object:   5
+		value:            "object"
+	*	type:    "condition"
+		enable:  34
+	*	type:  "key"
+		disable:
+			*	"up"
+			*	"down"
+			*	"left"
+			*	"right"
+			*	"fire_1"
+			*	"fire_2"
+			*	"fire_s"
+			*	"warp"
+			*	"select_friend"
+			*	"select_foe"
+			*	"select_base"
+			*	"target"
+			*	"order"
+			*	"zoom_in"
+			*	"zoom_out"
+			*	"zoom_shortcut"
+			*	"send_message"
+			*	"mouse"
+	*	type:             "order"
+		delay:            120
+		initial_subject:  1
+		initial_object:   5
+	*	type:    "condition"
+		enable:  34
+persistent:  false
+disabled:    true
+player:      0
+value:       true

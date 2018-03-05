@@ -1,0 +1,20 @@
+type:        "ordered"
+bin:
+	$	17000000 00000000 00000000 00000000 00050000 00040000 03160000 00020000
+	$	00030000 0000
+op:          "eq"
+subject:     5
+object:      4
+action:
+	*	type:  "message"
+		id:    5995
+		pages:
+			*	>	#O2#Now, one more time for this Heavy Cruiser.
+				>
+				>	Select it and press #ORD.
+	*	type:    "condition"
+		enable:  29
+persistent:  false
+disabled:    true
+player:      0
+value:       true

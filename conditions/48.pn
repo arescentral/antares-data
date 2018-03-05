@@ -1,0 +1,41 @@
+type:        "time"
+bin:
+	$	07ff0000 0e10ffff ffffffff ffffffff ffffffff ffff0000 01000000 00070000
+	$	00010000 0000
+op:          "ge"
+action:
+	*	type:       "message"
+		reflexive:  true
+		id:         6200
+		pages:
+			*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+				|	SOURCE: Placeholder Text
+				|	Miserere mei Deus/Secundum magnam misericordiam tuam...et secundum
+				>	multitudinem miserationum tuarum/Dele iniquitatem meam. \i<EOT>\i 
+	*	type:       "reveal"
+		reflexive:  true
+		delay:      600
+		which:      {begin: 23, end: 28}
+	*	type:       "reveal"
+		reflexive:  true
+		delay:      1200
+		which:      {begin: 5, end: 7}
+	*	type:       "reveal"
+		reflexive:  true
+		delay:      1200
+		which:      {begin: 7, end: 9}
+	*	type:       "reveal"
+		reflexive:  true
+		delay:      1200
+		which:      {begin: 9, end: 11}
+	*	type:       "reveal"
+		reflexive:  true
+		delay:      1200
+		which:      {begin: 11, end: 13}
+	*	type:       "reveal"
+		reflexive:  true
+		delay:      1200
+		which:      {begin: 13, end: 15}
+persistent:  false
+disabled:    false
+value:       3600

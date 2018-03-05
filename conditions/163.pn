@@ -1,0 +1,26 @@
+type:        "message"
+bin:
+	$	11910000 16bb0000 0002ffff 0800ffff ffffffff ffff0000 02ab0000 00040000
+	$	00010000 0000
+op:          "eq"
+action:
+	*	type:             "move"
+		reflexive:        true
+		initial_subject:  2
+		to:               {x: 500, y: -6000}
+	*	type:             "move"
+		reflexive:        true
+		initial_subject:  3
+		to:               {x: 500, y: -6100}
+	*	type:             "move"
+		reflexive:        true
+		initial_subject:  4
+		to:               {x: 500, y: -6200}
+	*	type:             "move"
+		reflexive:        true
+		initial_subject:  5
+		to:               {x: 500, y: -6300}
+persistent:  false
+disabled:    false
+player:      0
+value:       5820

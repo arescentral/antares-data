@@ -1,0 +1,22 @@
+type:        "destroyed"
+bin:
+	$	05ff0000 0001ffff ffffffff ffffffff ffffffff ffff0000 024c0000 00030000
+	$	00010000 0000
+op:          "eq"
+action:
+	*	type:       "score"
+		reflexive:  true
+		which:      0
+		value:      1
+		player:     1
+	*	type:       "reveal"
+		reflexive:  true
+		delay:      360
+		which:      1
+	*	type:       "condition"
+		reflexive:  true
+		enable:     1
+persistent:  false
+disabled:    false
+initial:     1
+value:       true

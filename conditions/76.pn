@@ -1,0 +1,23 @@
+type:        "distance"
+bin:
+	$	03ff0000 c350ffff ffffffff ffff0000 00030000 00020000 017e0000 00040000
+	$	00030000 0000
+op:          "lt"
+subject:     3
+object:      2
+action:
+	*	type:       "condition"
+		reflexive:  true
+		enable:     2
+	*	type:       "condition"
+		reflexive:  true
+		enable:     8
+	*	type:       "condition"
+		reflexive:  true
+		enable:     6
+	*	type:       "condition"
+		reflexive:  true
+		disable:    11
+persistent:  false
+disabled:    true
+value:       50000

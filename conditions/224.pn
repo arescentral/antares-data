@@ -1,0 +1,12 @@
+type:        "message"
+bin:
+	$	11000000 1b670000 00020000 0000ffff ffffffff ffff0000 03270000 00010000
+	$	00010000 0000
+op:          "eq"
+action:
+	*	type:    "condition"
+		enable:  38
+persistent:  false
+disabled:    false
+player:      0
+value:       7016

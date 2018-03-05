@@ -1,0 +1,27 @@
+type:        "subject"
+bin:
+	$	0a000000 00000000 00000000 00000000 0002ffff ffff0000 02fc0000 00030000
+	$	00030000 0000
+op:          "eq"
+subject:     2
+action:
+	*	type:  "message"
+		id:    5950
+		pages:
+			*	>	#O1#Now target this planet.
+				>
+				>	Hold down the Target key, #DST,
+				|	while you click on the planet.
+				>
+				>	Or, point your ship at the planet,
+				|	hold down #DST and
+				|	press the Select Base key,
+				|	#SBS.
+	*	type:   "zoom"
+		value:  "1:2"
+	*	type:    "condition"
+		enable:  18
+persistent:  false
+disabled:    true
+player:      0
+value:       "control"

@@ -1,0 +1,15 @@
+type:        "owner"
+bin:
+	$	04ff0000 0001ffff ffffffff ffff0000 0000ffff ffff0000 01260000 00010000
+	$	00010000 0000
+op:          "eq"
+subject:     0
+action:
+	*	type:    "win"
+		player:  1
+		text:
+			>	The Gaitori have taken our base on Demeter Alpha. The system is now
+			>	controlled by them.
+persistent:  false
+disabled:    false
+player:      1

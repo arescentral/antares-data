@@ -1,0 +1,16 @@
+type:        "destroyed"
+bin:
+	$	05ff0000 0008ffff ffffffff ffffffff ffffffff ffff0000 02820000 00010000
+	$	00030000 0000
+op:          "eq"
+action:
+	*	type:       "win"
+		reflexive:  true
+		player:     0
+		next:       2
+		text:
+			>	Good work. You completed the first tutorial.
+persistent:  false
+disabled:    true
+initial:     8
+value:       true

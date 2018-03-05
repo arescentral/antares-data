@@ -1,0 +1,18 @@
+type:        "message"
+bin:
+	$	11ff0000 17160000 0006ffff ffffffff ffffffff ffff0000 02e40000 00020000
+	$	00010000 0000
+op:          "eq"
+action:
+	*	type:             "pay"
+		initial_subject:  0
+		initial_object:   0
+		value:            -23437.5
+		player:           0
+	*	type:    "select"
+		screen:  "build"
+		line:    3
+persistent:  false
+disabled:    false
+player:      0
+value:       5915

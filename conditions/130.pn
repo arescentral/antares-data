@@ -1,0 +1,20 @@
+type:        "message"
+bin:
+	$	11000000 16480000 0006010d 31fcffff ffffffff ffff0000 02620000 00030000
+	$	00010000 0000
+op:          "eq"
+action:
+	*	type:   "zoom"
+		value:  "1:4"
+	*	type:    "condition"
+		enable:  5
+	*	type:  "key"
+		enable:
+			*	"zoom_in"
+			*	"zoom_out"
+			*	"comp_message"
+			*	"comp_build"
+persistent:  false
+disabled:    false
+player:      0
+value:       5709

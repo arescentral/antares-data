@@ -1,0 +1,23 @@
+type:        "time"
+bin:
+	$	07000000 0e10ffff ffff0800 0000ffff ffffffff ffff0000 00c30000 00020000
+	$	00010000 0000
+op:          "ge"
+action:
+	*	type:       "message"
+		reflexive:  true
+		id:         5310
+		pages:
+			*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+				|	SOURCE: Human/Ishiman Coord. Control
+				|	\iWARNING. WARNING.\i We were apparently mislead regarding the Gaitori's
+				>	readiness for our offensive. A Gaitori carrier has just been detected in
+				>	the Elysium/Demeter jumpstream. We believe it's the GCS Caretaker.
+				>	Destroy the carrier if possible.\i<EOT>\i 
+	*	type:       "reveal"
+		reflexive:  true
+		delay:      400
+		which:      4
+persistent:  false
+disabled:    false
+value:       3600

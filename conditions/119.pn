@@ -1,0 +1,16 @@
+type:        "distance"
+bin:
+	$	03000000 c3503bfc ffffffff ffff0000 00050000 00000000 02480000 00010000
+	$	00010000 0000
+op:          "lt"
+subject:     5
+object:      0
+action:
+	*	type:       "win"
+		reflexive:  true
+		player:     0
+		text:
+			>	Player 1 captured the flagpod!
+persistent:  false
+disabled:    false
+value:       50000

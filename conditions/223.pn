@@ -1,0 +1,26 @@
+type:        "computer"
+bin:
+	$	12000000 0003ffff ffff0000 0000ffff ffffffff ffff0000 03260000 00010000
+	$	00030000 0000
+op:          "eq"
+action:
+	*	type:  "message"
+		id:    7015
+		pages:
+			*	>	#L322##116,337#Transfer Control is the most useful--
+				|	and powerful-- command.
+				>
+				>	It allows you to change which ship you’re
+				|	currently using. Usually, you can
+				|	personally command any ship that you own.
+				>
+				>	Let’s try it now.
+				|	[more]
+			*	>	#O2#Try transferring control to the Heavy
+				|	Cruiser.
+				>
+				>	First select it.
+persistent:  false
+disabled:    true
+player:      0
+screen:      "special"

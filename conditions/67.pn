@@ -1,0 +1,27 @@
+type:        "subject"
+bin:
+	$	0a00ffff ffff0800 0000ffff ffff0000 0003ffff ffff0000 016f0000 00030000
+	$	00030000 0000
+op:          "eq"
+subject:     3
+action:
+	*	type:       "message"
+		reflexive:  true
+		id:         5502
+		pages:
+			*	>	Now select "Command Buoy B" as the TARGET object. This is where you will
+				>	tell the drone to go. While holding down the \i_#DST_\i key, either
+				>	click on Command Buoy B, or point at the buoy with your ship and press
+				>	the \i_#SBS_\i key (still while holding down the \i_#DST_\i key).
+				>	Command Buoy B is the nearby buoy that is farther from Omisha. You may
+				>	have to scale the display to see it.
+	*	type:       "condition"
+		reflexive:  true
+		disable:    9
+	*	type:       "condition"
+		reflexive:  true
+		enable:     5
+persistent:  false
+disabled:    true
+player:      0
+value:       "control"

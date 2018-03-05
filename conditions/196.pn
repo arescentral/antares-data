@@ -1,0 +1,22 @@
+type:        "building"
+bin:
+	$	16ffffff ffffffff ffff00db fa50ffff ffffffff ffff0000 02e90000 00020000
+	$	00030000 0000
+op:          "eq"
+action:
+	*	type:  "message"
+		id:    5925
+		pages:
+			*	>	#R9##617,22#This is the Build Progress Indicator.
+				>
+				>	The purple bar shows you how long it will
+				|	take for the current ship to be built.
+				>
+				>	When the ship is ready, we’ll continue.
+	*	type:  "key"
+		disable:
+			*	"comp_build"
+persistent:  false
+disabled:    true
+player:      0
+value:       true

@@ -1,0 +1,12 @@
+type:        "time"
+bin:
+	$	07ff0000 12acffff ffffffff ffffffff ffffffff ffff0000 02230000 00010000
+	$	00010000 0000
+op:          "ge"
+action:
+	*	type:       "reveal"
+		reflexive:  true
+		which:      {begin: 9, end: 11}
+persistent:  false
+disabled:    false
+value:       4780

@@ -1,0 +1,42 @@
+type:        "message"
+bin:
+	$	11ff0000 16b50000 000208b3 560cffff ffffffff ffff0000 028f0000 00080000
+	$	00010000 0000
+op:          "eq"
+action:
+	*	type:             "kill"
+		reflexive:        true
+		initial_subject:  2
+		kind:             "none"
+	*	type:             "kill"
+		reflexive:        true
+		initial_subject:  3
+		kind:             "none"
+	*	type:             "kill"
+		reflexive:        true
+		initial_subject:  4
+		kind:             "none"
+	*	type:             "kill"
+		reflexive:        true
+		initial_subject:  5
+		kind:             "none"
+	*	type:             "condition"
+		initial_subject:  5
+		enable:           8
+	*	type:       "zoom"
+		reflexive:  true
+		value:      "1:2"
+	*	type:       "key"
+		reflexive:  true
+		enable:
+			*	"select_friend"
+			*	"select_foe"
+			*	"select_base"
+	*	type:       "key"
+		reflexive:  true
+		disable:
+			*	"mouse"
+persistent:  false
+disabled:    false
+player:      0
+value:       5814

@@ -1,0 +1,22 @@
+type:        "destroyed"
+bin:
+	$	05ff0000 0001ffff ffffffff 0800ffff ffffffff ffff0000 00f10000 00030000
+	$	00010000 0000
+op:          "eq"
+action:
+	*	type:       "win"
+		reflexive:  true
+		player:     1
+		text:
+			>	The science vessel was destroyed before it could collect enough data on
+			>	the Audemedon construction.
+	*	type:       "condition"
+		reflexive:  true
+		disable:    1
+	*	type:       "condition"
+		reflexive:  true
+		disable:    2
+persistent:  false
+disabled:    false
+initial:     1
+value:       true

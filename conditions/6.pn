@@ -1,0 +1,17 @@
+type:        "counter"
+bin:
+	$	02ff0000 00010000 00010000 0007ffff ffffffff ffff0000 01200000 00010000
+	$	00000000 0000
+op:          "eq"
+action:
+	*	type:    "win"
+		player:  1
+		text:
+			>	DEBUG Chapter 8, computer wins.
+			|	Computer got enough asteroid fragments that player could never win (this
+			>	should never happen).
+persistent:  true
+disabled:    false
+player:      1
+counter:     1
+value:       7

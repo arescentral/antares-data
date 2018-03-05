@@ -1,0 +1,25 @@
+type:        "distance"
+bin:
+	$	03ff0000 c3500000 ffffffff ffff0000 00020000 00030000 00dd0000 00020000
+	$	00010000 0000
+op:          "lt"
+subject:     2
+object:      3
+action:
+	*	type:       "message"
+		reflexive:  true
+		delay:      120
+		id:         4570
+		pages:
+			*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+				|	SOURCE: Human/Ishiman Coord. Control
+				|	\i WARNING \i Three large signals have been detected in the Thasero/Ser
+				>	jumpstream. One of the objects appears to be the Salrilian carrier
+				>	Horrible Flies. The other objects are unidentified. \i<EOT>\i 
+	*	type:       "reveal"
+		reflexive:  true
+		delay:      180
+		which:      {begin: 7, end: 10}
+persistent:  false
+disabled:    false
+value:       50000

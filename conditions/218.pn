@@ -1,0 +1,27 @@
+type:        "subject"
+bin:
+	$	0b000000 00000000 00000000 00000000 0000ffff ffff0000 031c0000 00040000
+	$	00030000 0000
+op:          "eq"
+subject:     0
+action:
+	*	type:  "message"
+		id:    7005
+		pages:
+			*	>	Now order the two standard Cruisers and the Heavy Cruiser to follow you. 
+				>
+				>	Select each of them (the mouse has been turned back on) and press the
+				>	Order to Go key, \i_#ORD_\i..
+				>
+				>	We’ll continue when all three ships have you as their target.
+	*	type:    "condition"
+		enable:  32
+	*	type:  "key"
+		enable:
+			*	"mouse"
+	*	type:   "zoom"
+		value:  "all"
+persistent:  false
+disabled:    true
+player:      0
+value:       "target"
