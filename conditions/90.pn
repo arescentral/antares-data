@@ -8,4 +8,4 @@ action:
 	*	type:       "condition"
 		reflexive:  true
 		enable:     2
-value:    1280
+value:    5.0
