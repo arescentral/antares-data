@@ -1,9 +1,9 @@
-type:        "subject"
+type:                "subject"
 bin:
 	$	0affffff ffffffff ffffffff 08740000 0001ffff ffff0000 02e00000 00010000
 	$	00030000 0000
-op:          "eq"
-subject:     1
+op:                  "eq"
+subject:             1
 action:
 	*	type:  "message"
 		id:    5905
@@ -28,7 +28,6 @@ action:
 			*	>	#L322##62,338#Now use the computer control keys or the
 				|	mouse to execute the <Build> item and get
 				|	to the Build Menu.
-persistent:  false
-disabled:    true
-player:      0
-value:       "control"
+initially_disabled:  true
+player:              0
+value:               "control"

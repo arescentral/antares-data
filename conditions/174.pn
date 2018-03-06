@@ -18,6 +18,5 @@ action:
 			*	"select_foe"
 			*	"select_base"
 persistent:  true
-disabled:    false
 player:      0
 value:       5834

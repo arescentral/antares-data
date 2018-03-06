@@ -1,8 +1,8 @@
-type:        "message"
+type:    "message"
 bin:
 	$	11ff0000 164f0000 0004ffff 0873ffff ffffffff ffff0000 026d0000 00020000
 	$	00010000 0000
-op:          "eq"
+op:      "eq"
 action:
 	*	type:             "kill"
 		reflexive:        true
@@ -10,7 +10,5 @@ action:
 		kind:             "none"
 	*	type:    "condition"
 		enable:  10
-persistent:  false
-disabled:    false
-player:      0
-value:       5714
+player:  0
+value:   5714

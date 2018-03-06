@@ -1,8 +1,8 @@
-type:        "message"
+type:    "message"
 bin:
 	$	11ff0000 16530000 0006ffff ffffffff ffffffff ffff0000 02730000 00020000
 	$	00010000 0000
-op:          "eq"
+op:      "eq"
 action:
 	*	type:    "condition"
 		enable:  14
@@ -12,7 +12,5 @@ action:
 			*	"zoom_out"
 			*	"comp_message"
 			*	"comp_build"
-persistent:  false
-disabled:    false
-player:      0
-value:       5720
+player:  0
+value:   5720

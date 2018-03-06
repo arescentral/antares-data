@@ -1,12 +1,10 @@
-type:        "time"
+type:   "time"
 bin:
 	$	07ff0000 157c4c69 7374ffff ffffffff ffffffff ffff0000 01450000 00010000
 	$	00010000 0000
-op:          "ge"
+op:     "ge"
 action:
 	*	type:       "reveal"
 		reflexive:  true
 		which:      7
-persistent:  false
-disabled:    false
-value:       5500
+value:  5500

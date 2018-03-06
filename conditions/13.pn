@@ -1,16 +1,14 @@
-type:        "counter"
+type:     "counter"
 bin:
 	$	02ff0000 00000000 00000000 00030000 00010000 00010000 00700000 00010000
 	$	00010000 0000
-op:          "eq"
-subject:     1
-object:      1
+op:       "eq"
+subject:  1
+object:   1
 action:
 	*	type:       "morph"
 		reflexive:  true
 		base:       67
-persistent:  false
-disabled:    false
-player:      0
-counter:     0
-value:       3
+player:   0
+counter:  0
+value:    3

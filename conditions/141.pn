@@ -1,14 +1,12 @@
-type:        "message"
+type:    "message"
 bin:
 	$	11ff0000 16590000 0002ffff ffffffff ffffffff ffff0000 02760000 00010000
 	$	00010000 0000
-op:          "eq"
+op:      "eq"
 action:
 	*	type:  "key"
 		enable:
 			*	"left"
 			*	"right"
-persistent:  false
-disabled:    false
-player:      0
-value:       5722
+player:  0
+value:   5722

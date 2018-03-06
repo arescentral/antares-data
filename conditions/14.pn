@@ -1,16 +1,14 @@
-type:        "owner"
+type:     "owner"
 bin:
 	$	04ff0000 0000ffff ffffffff ffff0000 00060000 00070000 00710000 00020000
 	$	00010000 0000
-op:          "eq"
-subject:     6
-object:      7
+op:       "eq"
+subject:  6
+object:   7
 action:
 	*	type:       "condition"
 		reflexive:  true
 		enable:     2
 	*	type:    "capture"
 		player:  0
-persistent:  false
-disabled:    false
-player:      0
+player:   0

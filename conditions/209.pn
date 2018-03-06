@@ -1,8 +1,8 @@
-type:        "message"
+type:    "message"
 bin:
 	$	11000000 17520000 00030000 0000ffff ffffffff ffff0000 03080000 00050000
 	$	00010000 0000
-op:          "eq"
+op:      "eq"
 action:
 	*	type:             "capture"
 		reflexive:        true
@@ -19,7 +19,5 @@ action:
 		which:  3
 	*	type:    "condition"
 		enable:  23
-persistent:  false
-disabled:    false
-player:      0
-value:       5972
+player:  0
+value:   5972

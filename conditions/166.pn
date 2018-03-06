@@ -1,13 +1,11 @@
-type:        "message"
+type:    "message"
 bin:
 	$	11000000 16bf0000 0002ffff ffffffff ffffffff ffff0000 02b20000 00010000
 	$	00010000 0000
-op:          "eq"
+op:      "eq"
 action:
 	*	type:       "condition"
 		reflexive:  true
 		enable:     17
-persistent:  false
-disabled:    false
-player:      0
-value:       5824
+player:  0
+value:   5824

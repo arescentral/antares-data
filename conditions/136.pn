@@ -1,8 +1,8 @@
-type:        "zoom"
+type:                "zoom"
 bin:
 	$	13ff0000 0007ffff 08000b00 0000ffff ffffffff ffff0000 026f0000 00010000
 	$	00030000 0000
-op:          "eq"
+op:                  "eq"
 action:
 	*	type:       "message"
 		reflexive:  true
@@ -41,7 +41,6 @@ action:
 				>	The zoom modes, from smallest to largest, are: \f0cZoom to All\r,
 				>	\f0cZoom to Closest\r, \f0cZoom to Hostile\r, \f0c1:16\r, \f0c1:4\r,
 				>	\f0c1:2\r, \f0c1:1\r, and \f0c2:1\r.
-persistent:  false
-disabled:    true
-player:      0
-value:       "all"
+initially_disabled:  true
+player:              0
+value:               "all"

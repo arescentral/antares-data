@@ -1,10 +1,10 @@
-type:        "distance"
+type:                "distance"
 bin:
 	$	03ff0000 c35031fc 00ad436c ffffffff fffe0000 00060000 02d40000 00010000
 	$	00030000 0000
-op:          "lt"
-subject:     "player"
-object:      6
+op:                  "lt"
+subject:             "player"
+object:              6
 action:
 	*	type:             "win"
 		initial_subject:  0
@@ -13,6 +13,5 @@ action:
 		next:             4
 		text:
 			>	Good work. You completed the second tutorial.
-persistent:  false
-disabled:    true
-value:       50000
+initially_disabled:  true
+value:               50000

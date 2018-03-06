@@ -1,10 +1,10 @@
-type:        "distance"
+type:     "distance"
 bin:
 	$	03ff0000 c350f988 00000000 ffff0000 00000000 000a0000 00d10000 00060000
 	$	00010000 0000
-op:          "lt"
-subject:     0
-object:      10
+op:       "lt"
+subject:  0
+object:   10
 action:
 	*	type:             "morph"
 		reflexive:        true
@@ -33,6 +33,4 @@ action:
 	*	type:             "order"
 		initial_subject:  10
 		initial_object:   7
-persistent:  false
-disabled:    false
-value:       50000
+value:    50000

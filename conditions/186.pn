@@ -1,8 +1,8 @@
-type:        "autopilot"
+type:                "autopilot"
 bin:
 	$	15010000 16d20000 0002ffff ffffffff ffffffff ffff0000 02d50000 00030000
 	$	00030000 0000
-op:          "eq"
+op:                  "eq"
 action:
 	*	type:  "key"
 		disable:
@@ -21,7 +21,6 @@ action:
 				>
 				>	Target the planet with the mouse or keyboard, then turn on the autopilot
 				>	(hold down \i_#DST_\i then press \i_#WRP_\i).
-persistent:  false
-disabled:    true
-player:      0
-value:       false
+initially_disabled:  true
+player:              0
+value:               false

@@ -1,10 +1,10 @@
-type:        "ordered"
+type:                "ordered"
 bin:
 	$	17000000 00000000 00000000 00000000 00060000 00000000 03220000 00020000
 	$	00030000 0000
-op:          "eq"
-subject:     6
-object:      0
+op:                  "eq"
+subject:             6
+object:              0
 action:
 	*	type:  "message"
 		id:    7010
@@ -31,7 +31,6 @@ action:
 	*	type:    "select"
 		screen:  "main"
 		line:    4
-persistent:  false
-disabled:    true
-player:      0
-value:       true
+initially_disabled:  true
+player:              0
+value:               true

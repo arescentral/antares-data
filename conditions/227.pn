@@ -1,12 +1,10 @@
-type:        "message"
+type:    "message"
 bin:
 	$	11000000 17520000 00040000 0000ffff ffffffff ffff0000 031f0000 00010000
 	$	00010000 0000
-op:          "eq"
+op:      "eq"
 action:
 	*	type:   "zoom"
 		value:  "all"
-persistent:  false
-disabled:    false
-player:      0
-value:       5973
+player:  0
+value:   5973

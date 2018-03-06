@@ -10,7 +10,6 @@ action:
 		text:
 			>	Mission completed. You destroyed all four of the sensor relay dishes.
 persistent:  true
-disabled:    false
 player:      0
 counter:     0
 value:       4

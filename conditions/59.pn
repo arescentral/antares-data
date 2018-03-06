@@ -1,9 +1,9 @@
-type:        "health"
+type:     "health"
 bin:
 	$	0900ffff ffffffff 08ad3454 00000000 0001ffff ffff0000 01340000 00070000
 	$	00010000 0000
-op:          "le"
-subject:     1
+op:       "le"
+subject:  1
 action:
 	*	type:       "order"
 		reflexive:  true
@@ -31,6 +31,4 @@ action:
 				|	SOURCE: Human/Ishiman Coord. Control
 				|	The Cantharan Gate Ship is forming a jump gate and withdrawing-- we'll
 				>	try to determine where its jump stream terminates. \i<EOT>\i 
-persistent:  false
-disabled:    false
-value:       0.5
+value:    0.5

@@ -11,5 +11,4 @@ action:
 		text:
 			>	You captured the Cantharan base on Proteus Gamma.
 persistent:  true
-disabled:    false
 player:      0

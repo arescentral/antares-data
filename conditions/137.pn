@@ -1,8 +1,8 @@
-type:        "message"
+type:    "message"
 bin:
 	$	11ff0000 16530000 00016563 6f72ffff ffffffff ffff0000 02700000 00020000
 	$	00010000 0000
-op:          "eq"
+op:      "eq"
 action:
 	*	type:  "key"
 		disable:
@@ -13,7 +13,5 @@ action:
 			*	"mouse"
 	*	type:   "zoom"
 		value:  "all"
-persistent:  false
-disabled:    false
-player:      0
-value:       5715
+player:  0
+value:   5715

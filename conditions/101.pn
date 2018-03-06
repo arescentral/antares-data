@@ -1,9 +1,9 @@
-type:        "owner"
+type:                "owner"
 bin:
 	$	04ff0000 0001ffff ffffffff ffff0000 0003ffff ffff0000 01e20000 00020000
 	$	00030000 0000
-op:          "eq"
-subject:     3
+op:                  "eq"
+subject:             3
 action:
 	*	type:       "condition"
 		reflexive:  true
@@ -11,6 +11,5 @@ action:
 	*	type:       "condition"
 		reflexive:  true
 		enable:     1
-persistent:  false
-disabled:    true
-player:      1
+initially_disabled:  true
+player:              1

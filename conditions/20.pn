@@ -1,10 +1,10 @@
-type:        "distance"
+type:     "distance"
 bin:
 	$	03ff0004 e200ffff ffffffff ffff0000 00090000 00050000 00820000 00060000
 	$	00010000 0000
-op:          "lt"
-subject:     9
-object:      5
+op:       "lt"
+subject:  9
+object:   5
 action:
 	*	type:             "order"
 		delay:            360
@@ -33,6 +33,4 @@ action:
 	*	type:       "reveal"
 		reflexive:  true
 		which:      {begin: 11, end: 15}
-persistent:  false
-disabled:    false
-value:       320000
+value:    320000

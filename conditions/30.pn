@@ -1,8 +1,8 @@
-type:        "counter"
+type:     "counter"
 bin:
 	$	02040000 00000000 00000000 0005ffff ffffffff ffff0000 00c10000 00020000
 	$	00010000 0000
-op:          "eq"
+op:       "eq"
 action:
 	*	type:       "reveal"
 		reflexive:  true
@@ -15,8 +15,6 @@ action:
 				|	SOURCE: Human/Ishiman Coord. Control
 				|	Construction on the Obish destroyer has been completed. The destroyer is
 				>	available for your use at the Fansi Orbital Shipyard.\i<EOT>\i 
-persistent:  false
-disabled:    false
-player:      0
-counter:     0
-value:       5
+player:   0
+counter:  0
+value:    5

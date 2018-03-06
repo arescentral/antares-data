@@ -1,15 +1,13 @@
-type:        "destroyed"
+type:     "destroyed"
 bin:
 	$	053d0000 00010000 00020000 000affff ffffffff ffff0000 02450000 00010000
 	$	00010000 0000
-op:          "eq"
+op:       "eq"
 action:
 	*	type:       "win"
 		reflexive:  true
 		player:     1
 		text:
 			>	Without your modified destroyer, you can’t rescue the humans.
-persistent:  false
-disabled:    false
-initial:     1
-value:       true
+initial:  1
+value:    true

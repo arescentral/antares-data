@@ -1,8 +1,8 @@
-type:        "autopilot"
+type:                "autopilot"
 bin:
 	$	1406ffff ffffffff ffff088c 010dffff ffffffff ffff0000 02ca0000 00060000
 	$	00030000 0000
-op:          "eq"
+op:                  "eq"
 action:
 	*	type:  "message"
 		id:    5841
@@ -41,7 +41,6 @@ action:
 		initial_object:   5
 	*	type:    "condition"
 		enable:  34
-persistent:  false
-disabled:    true
-player:      0
-value:       true
+initially_disabled:  true
+player:              0
+value:               true

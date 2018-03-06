@@ -1,10 +1,10 @@
-type:        "ordered"
+type:                "ordered"
 bin:
 	$	17000000 00000000 00000000 00000000 00060000 00010000 03070000 00010000
 	$	00030000 0000
-op:          "eq"
-subject:     6
-object:      1
+op:                  "eq"
+subject:             6
+object:              1
 action:
 	*	type:  "message"
 		id:    5970
@@ -37,7 +37,6 @@ action:
 				>
 				>	The transport will go to your target,
 				|	the planet, and land on it.
-persistent:  false
-disabled:    true
-player:      0
-value:       true
+initially_disabled:  true
+player:              0
+value:               true

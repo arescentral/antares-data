@@ -1,10 +1,10 @@
-type:        "distance"
+type:     "distance"
 bin:
 	$	03ff0000 c350ffff ffffffff ffffffff fffe0000 00020000 01640000 00080000
 	$	00010000 0000
-op:          "lt"
-subject:     "player"
-object:      2
+op:       "lt"
+subject:  "player"
+object:   2
 action:
 	*	type:       "condition"
 		reflexive:  true
@@ -35,6 +35,4 @@ action:
 	*	type:       "condition"
 		reflexive:  true
 		enable:     12
-persistent:  false
-disabled:    false
-value:       50000
+value:    50000

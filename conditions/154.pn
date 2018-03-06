@@ -1,9 +1,9 @@
-type:        "subject"
+type:                "subject"
 bin:
 	$	0aff0000 0000ffff ffffffff ffff0000 0006ffff ffff0000 028a0000 00020000
 	$	00030000 0000
-op:          "eq"
-subject:     6
+op:                  "eq"
+subject:             6
 action:
 	*	type:  "message"
 		id:    5811
@@ -22,7 +22,6 @@ action:
 				|	or four times.
 	*	type:   "reveal"
 		which:  {begin: 2, end: 6}
-persistent:  false
-disabled:    true
-player:      0
-value:       "control"
+initially_disabled:  true
+player:              0
+value:               "control"

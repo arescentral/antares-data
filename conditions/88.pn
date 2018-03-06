@@ -1,8 +1,8 @@
-type:        "counter"
+type:     "counter"
 bin:
 	$	023d0000 00000000 00020000 000affff ffffffff ffff0000 01e70000 00010000
 	$	00010000 0000
-op:          "eq"
+op:       "eq"
 action:
 	*	type:       "win"
 		reflexive:  true
@@ -10,8 +10,6 @@ action:
 		text:
 			>	You allowed too many of the human captives to die for this mission to be
 			>	considered a success.
-persistent:  false
-disabled:    false
-player:      0
-counter:     2
-value:       10
+player:   0
+counter:  2
+value:    10

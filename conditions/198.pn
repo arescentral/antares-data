@@ -1,9 +1,9 @@
-type:        "subject"
+type:                "subject"
 bin:
 	$	0aff0018 00dc00dc 02b00000 00000000 0005ffff ffff0000 02ef0000 00010000
 	$	00030000 0000
-op:          "eq"
-subject:     5
+op:                  "eq"
+subject:             5
 action:
 	*	type:  "message"
 		id:    5935
@@ -31,7 +31,6 @@ action:
 				|	and hold down the Target Key, #DST,
 				|	and press the Select Friend Key,
 				|	#SFD.
-persistent:  false
-disabled:    true
-player:      0
-value:       "control"
+initially_disabled:  true
+player:              0
+value:               "control"

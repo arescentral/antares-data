@@ -1,9 +1,9 @@
-type:        "owner"
+type:                "owner"
 bin:
 	$	04000000 00000000 00000000 00000000 0001ffff ffff0000 030d0000 00020000
 	$	00030000 0000
-op:          "eq"
-subject:     1
+op:                  "eq"
+subject:             1
 action:
 	*	type:   "message"
 		delay:  280
@@ -22,6 +22,5 @@ action:
 				>	Select it.
 	*	type:   "reveal"
 		which:  4
-persistent:  false
-disabled:    true
-player:      0
+initially_disabled:  true
+player:              0

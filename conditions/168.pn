@@ -1,8 +1,8 @@
-type:        "message"
+type:    "message"
 bin:
 	$	11ff0000 16c10000 0002ffff ffffffff ffffffff ffff0000 02b40000 00040000
 	$	00010000 0000
-op:          "eq"
+op:      "eq"
 action:
 	*	type:       "condition"
 		reflexive:  true
@@ -21,7 +21,5 @@ action:
 	*	type:       "zoom"
 		reflexive:  true
 		value:      "1:2"
-persistent:  false
-disabled:    false
-player:      0
-value:       5826
+player:  0
+value:   5826

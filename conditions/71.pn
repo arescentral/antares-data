@@ -1,10 +1,10 @@
-type:        "distance"
+type:                "distance"
 bin:
 	$	03840000 c350ffff ffffffff ffff0000 00030000 00020000 01750000 00010000
 	$	00030000 0000
-op:          "lt"
-subject:     3
-object:      2
+op:                  "lt"
+subject:             3
+object:              2
 action:
 	*	type:       "message"
 		reflexive:  true
@@ -13,6 +13,5 @@ action:
 			*	>	Good job. The drone successfully reached the buoy. You can send your
 				>	ships almost anywhere--to planets, to other ships, or even to your own
 				>	ship.
-persistent:  false
-disabled:    true
-value:       50000
+initially_disabled:  true
+value:               50000

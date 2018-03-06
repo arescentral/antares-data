@@ -1,10 +1,10 @@
-type:        "distance"
+type:     "distance"
 bin:
 	$	03ff0004 e200ffff ffffffff ffff0000 00040000 00020000 00af0000 00030000
 	$	00010000 0000
-op:          "lt"
-subject:     4
-object:      2
+op:       "lt"
+subject:  4
+object:   2
 action:
 	*	type:         "sound"
 		reflexive:    true
@@ -26,6 +26,4 @@ action:
 		delay:            120
 		initial_subject:  4
 		initial_object:   3
-persistent:  false
-disabled:    false
-value:       320000
+value:    320000

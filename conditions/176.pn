@@ -7,6 +7,5 @@ action:
 	*	type:    "condition"
 		enable:  27
 persistent:  true
-disabled:    false
 player:      0
 value:       5835

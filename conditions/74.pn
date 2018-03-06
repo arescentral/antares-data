@@ -1,9 +1,9 @@
-type:        "subject"
+type:                "subject"
 bin:
 	$	0affffff 08010001 00ad3848 010d0000 0003ffff ffff0000 01790000 00010000
 	$	00030000 0000
-op:          "eq"
-subject:     3
+op:                  "eq"
+subject:             3
 action:
 	*	type:       "message"
 		reflexive:  true
@@ -13,7 +13,6 @@ action:
 				>	under your indirect control--and the buoy as the TARGET object--the
 				>	object to which you're ordering the drone to go. Press the Order to Go
 				>	Key, \i_#ORD_\i to send the drone to the buoy.
-persistent:  false
-disabled:    true
-player:      0
-value:       "control"
+initially_disabled:  true
+player:              0
+value:               "control"

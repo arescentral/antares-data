@@ -1,10 +1,10 @@
-type:        "distance"
+type:     "distance"
 bin:
 	$	03ff0004 e2000000 0000ffff ffff0000 00070000 00050000 007e0000 00040000
 	$	00010000 0000
-op:          "lt"
-subject:     7
-object:      5
+op:       "lt"
+subject:  7
+object:   5
 action:
 	*	type:       "message"
 		reflexive:  true
@@ -35,6 +35,4 @@ action:
 		reflexive:  true
 		delay:      120
 		which:      15
-persistent:  false
-disabled:    false
-value:       320000
+value:    320000

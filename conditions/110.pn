@@ -1,14 +1,12 @@
-type:        "owner"
+type:     "owner"
 bin:
 	$	04ff0000 0001ffff ffffffff ffff0000 0002ffff ffff0000 02240000 00010000
 	$	00010000 0000
-op:          "eq"
-subject:     2
+op:       "eq"
+subject:  2
 action:
 	*	type:    "win"
 		player:  1
 		text:
 			>	Out base on Lelande Alpha was captured.
-persistent:  false
-disabled:    false
-player:      1
+player:   1

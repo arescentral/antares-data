@@ -1,8 +1,8 @@
-type:        "computer"
+type:                "computer"
 bin:
 	$	12000000 0003ffff ffff0000 0000ffff ffffffff ffff0000 03260000 00010000
 	$	00030000 0000
-op:          "eq"
+op:                  "eq"
 action:
 	*	type:  "message"
 		id:    7015
@@ -20,7 +20,6 @@ action:
 				|	Cruiser.
 				>
 				>	First select it.
-persistent:  false
-disabled:    true
-player:      0
-screen:      "special"
+initially_disabled:  true
+player:              0
+screen:              "special"

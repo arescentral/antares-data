@@ -1,9 +1,9 @@
-type:        "subject"
+type:                "subject"
 bin:
 	$	0aff0000 000000ad ffffffff ffff0000 0005ffff ffff0000 02a30000 00010000
 	$	00030000 0000
-op:          "eq"
-subject:     5
+op:                  "eq"
+subject:             5
 action:
 	*	type:  "message"
 		id:    5817
@@ -18,7 +18,6 @@ action:
 				>
 				>	Repeatedly hit the Select Friend key,
 				|	#SFD, to select the gunship.
-persistent:  false
-disabled:    true
-player:      0
-value:       "control"
+initially_disabled:  true
+player:              0
+value:               "control"

@@ -1,8 +1,8 @@
-type:        "time"
+type:   "time"
 bin:
 	$	07000000 0000ffff ffffffff ffffffff ffffffff ffff0000 02d90000 00060000
 	$	00010000 0000
-op:          "ge"
+op:     "ge"
 action:
 	*	type:             "push"
 		initial_subject:  0
@@ -51,6 +51,4 @@ action:
 		delay:            160
 		initial_subject:  1
 		player:           0
-persistent:  false
-disabled:    false
-value:       0
+value:  0

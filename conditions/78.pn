@@ -1,9 +1,9 @@
-type:        "subject"
+type:                "subject"
 bin:
 	$	0affffff ffffffff ffffffff ffff0000 0005ffff ffff0000 018b0000 00010000
 	$	00030000 0000
-op:          "eq"
-subject:     5
+op:                  "eq"
+subject:             5
 action:
 	*	type:       "message"
 		reflexive:  true
@@ -15,7 +15,6 @@ action:
 				>	to build, at this moon, your only choice is to build a practice drone.
 				>	From the build menu press the Computer Accept Key \i_#ACT_\i to build a
 				>	drone.
-persistent:  false
-disabled:    true
-player:      0
-value:       "control"
+initially_disabled:  true
+player:              0
+value:               "control"

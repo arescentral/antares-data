@@ -1,8 +1,8 @@
-type:        "ships"
+type:                "ships"
 bin:
 	$	10ff0000 0001ffff ffff08ad 3be8ffff ffffffff ffff0000 02270000 00020000
 	$	00030000 0000
-op:          "eq"
+op:                  "eq"
 action:
 	*	type:       "message"
 		reflexive:  true
@@ -18,7 +18,6 @@ action:
 		reflexive:  true
 		delay:      360
 		which:      {begin: 12, end: 33}
-persistent:  false
-disabled:    true
-player:      1
-value:       0
+initially_disabled:  true
+player:              1
+value:               0

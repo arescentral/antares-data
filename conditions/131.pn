@@ -1,8 +1,8 @@
-type:        "zoom"
+type:                "zoom"
 bin:
 	$	13ff0000 0000382c 00000015 ffffffff ffffffff ffff0000 02650000 00010000
 	$	00030000 0000
-op:          "eq"
+op:                  "eq"
 action:
 	*	type:  "message"
 		id:    5711
@@ -32,7 +32,6 @@ action:
 				>	\i_#SC-_\i key several times.
 				>
 				>	This mode always shows all the objects in a scenario.
-persistent:  false
-disabled:    true
-player:      0
-value:       "2:1"
+initially_disabled:  true
+player:              0
+value:               "2:1"

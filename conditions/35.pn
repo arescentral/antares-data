@@ -1,14 +1,12 @@
-type:        "owner"
+type:     "owner"
 bin:
 	$	04ff0000 0001ffff ffffffff ffff0000 000cffff ffff0000 012c0000 00010000
 	$	00010000 0000
-op:          "eq"
-subject:     12
+op:       "eq"
+subject:  12
 action:
 	*	type:    "win"
 		player:  1
 		text:
 			>	A Gaitori transport landed on Hades Alpha.
-persistent:  false
-disabled:    false
-player:      1
+player:   1

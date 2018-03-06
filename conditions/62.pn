@@ -1,13 +1,11 @@
-type:        "time"
+type:   "time"
 bin:
 	$	07ff0000 0003ffff ffffffff ffffffff ffffffff ffff0000 01460000 00010000
 	$	00010000 0000
-op:          "ge"
+op:     "ge"
 action:
 	*	type:             "push"
 		reflexive:        true
 		initial_subject:  0
 		kind:             "stop"
-persistent:  false
-disabled:    false
-value:       3
+value:  3

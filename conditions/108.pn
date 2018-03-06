@@ -1,8 +1,8 @@
-type:        "time"
+type:   "time"
 bin:
 	$	07000000 b6d000ad 3b1cffff ffffffff ffffffff ffff0000 01fe0000 00010000
 	$	00010000 0000
-op:          "ge"
+op:     "ge"
 action:
 	*	type:       "message"
 		reflexive:  true
@@ -10,6 +10,4 @@ action:
 		pages:
 			*	>	\f2e- THIS NET GAME WILL END IN ONE MINUTE -\r
 				|	Unregistered copies of Ares have a ten minute time limit for net games.
-persistent:  false
-disabled:    false
-value:       46800
+value:  46800

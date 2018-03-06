@@ -1,8 +1,8 @@
-type:        "counter"
+type:     "counter"
 bin:
 	$	02ff0000 00000000 00010000 0004ffff ffffffff ffff0000 011f0000 00010000
 	$	00010000 0000
-op:          "eq"
+op:       "eq"
 action:
 	*	type:    "win"
 		player:  0
@@ -10,8 +10,6 @@ action:
 		text:
 			>	You captured enough samples of the artificial asteroid for a thorough
 			>	analysis.
-persistent:  false
-disabled:    false
-player:      0
-counter:     1
-value:       4
+player:   0
+counter:  1
+value:    4

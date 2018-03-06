@@ -1,14 +1,12 @@
-type:        "owner"
+type:     "owner"
 bin:
 	$	04ff0000 00010000 010d0000 00000000 0009ffff ffff0000 012e0000 00010000
 	$	00010000 0000
-op:          "eq"
-subject:     9
+op:       "eq"
+subject:  9
 action:
 	*	type:    "win"
 		player:  1
 		text:
 			>	The Cantharan Order landed a transport on our base on Fansi Alpha.
-persistent:  false
-disabled:    false
-player:      1
+player:   1

@@ -1,8 +1,8 @@
-type:        "counter"
+type:     "counter"
 bin:
 	$	02ff0000 00000000 00000000 0002ffff ffffffff ffff0000 01150000 00020000
 	$	00010000 0000
-op:          "eq"
+op:       "eq"
 action:
 	*	type:             "capture"
 		reflexive:        true
@@ -11,8 +11,6 @@ action:
 	*	type:    "pay"
 		value:   10000.0
 		player:  0
-persistent:  false
-disabled:    false
-player:      0
-counter:     0
-value:       2
+player:   0
+counter:  0
+value:    2

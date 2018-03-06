@@ -1,8 +1,8 @@
-type:        "time"
+type:   "time"
 bin:
 	$	07ff0000 0e10ffff ffffffff ffffffff ffffffff ffff0000 01000000 00070000
 	$	00010000 0000
-op:          "ge"
+op:     "ge"
 action:
 	*	type:       "message"
 		reflexive:  true
@@ -36,6 +36,4 @@ action:
 		reflexive:  true
 		delay:      1200
 		which:      {begin: 13, end: 15}
-persistent:  false
-disabled:    false
-value:       3600
+value:  3600

@@ -1,10 +1,10 @@
-type:        "distance"
+type:     "distance"
 bin:
 	$	03ff0027 1000ffff ffffffff ffff0000 00070000 000f0000 00880000 00070000
 	$	00010000 0000
-op:          "lt"
-subject:     7
-object:      15
+op:       "lt"
+subject:  7
+object:   15
 action:
 	*	type:             "capture"
 		reflexive:        true
@@ -45,6 +45,4 @@ action:
 				|	The fighter and cruiser apparently had self-destruct mechanisms which
 				>	dispersed Cantharan-made cluster cells. Fortunately, they caused little
 				>	damage. \i<EOT>\i
-persistent:  false
-disabled:    false
-value:       2560000
+value:    2560000

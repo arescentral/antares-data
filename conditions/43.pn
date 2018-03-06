@@ -1,8 +1,8 @@
-type:        "destroyed"
+type:     "destroyed"
 bin:
 	$	05ff0000 0001ffff ffffffff 0800ffff ffffffff ffff0000 00f10000 00030000
 	$	00010000 0000
-op:          "eq"
+op:       "eq"
 action:
 	*	type:       "win"
 		reflexive:  true
@@ -16,7 +16,5 @@ action:
 	*	type:       "condition"
 		reflexive:  true
 		disable:    2
-persistent:  false
-disabled:    false
-initial:     1
-value:       true
+initial:  1
+value:    true

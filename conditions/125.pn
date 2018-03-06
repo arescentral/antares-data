@@ -1,9 +1,9 @@
-type:        "owner"
+type:     "owner"
 bin:
 	$	04ff0000 00013920 00adffff ffff0000 0008ffff ffff0000 02540000 00010000
 	$	00010000 0000
-op:          "eq"
-subject:     8
+op:       "eq"
+subject:  8
 action:
 	*	type:       "win"
 		reflexive:  true
@@ -11,6 +11,4 @@ action:
 		next:       188
 		text:
 			>	Player 2 captured the center base.
-persistent:  false
-disabled:    false
-player:      1
+player:   1

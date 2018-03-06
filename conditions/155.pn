@@ -1,8 +1,8 @@
-type:        "message"
+type:    "message"
 bin:
 	$	11ff0000 16b30000 0002ffff ffffffff ffffffff ffff0000 028b0000 00030000
 	$	00010000 0000
-op:          "eq"
+op:      "eq"
 action:
 	*	type:   "reveal"
 		which:  {begin: 2, end: 6}
@@ -12,7 +12,5 @@ action:
 	*	type:       "condition"
 		reflexive:  true
 		enable:     6
-persistent:  false
-disabled:    false
-player:      0
-value:       5812
+player:  0
+value:   5812

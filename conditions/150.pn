@@ -1,8 +1,8 @@
-type:        "time"
+type:   "time"
 bin:
 	$	07ff0000 0000ffff ffffffff 0800ffff ffffffff ffff0000 02830000 00050000
 	$	00010000 0000
-op:          "ge"
+op:     "ge"
 action:
 	*	type:  "message"
 		id:    5800
@@ -52,6 +52,4 @@ action:
 			*	"send_message"
 	*	type:   "zoom"
 		value:  "1:2"
-persistent:  false
-disabled:    false
-value:       0
+value:  0

@@ -1,9 +1,9 @@
-type:        "subject"
+type:                "subject"
 bin:
 	$	0affffff 08746174 7573000d 32240000 0005ffff ffff0000 02b10000 00010000
 	$	00030000 0000
-op:          "eq"
-subject:     5
+op:                  "eq"
+subject:             5
 action:
 	*	type:       "message"
 		reflexive:  true
@@ -16,7 +16,6 @@ action:
 				>
 				>	Select the planet now by pointing your ship at it and pressing the
 				>	\i_#SBS_\i key.
-persistent:  false
-disabled:    true
-player:      0
-value:       "control"
+initially_disabled:  true
+player:              0
+value:               "control"

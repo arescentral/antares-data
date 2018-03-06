@@ -1,15 +1,13 @@
-type:        "destroyed"
+type:     "destroyed"
 bin:
 	$	05ff0000 0005ffff ffffffff ffffffff ffffffff ffff0000 01280000 00010000
 	$	00010000 0000
-op:          "eq"
+op:       "eq"
 action:
 	*	type:    "win"
 		player:  1
 		text:
 			>	Too many of the Obiards were killed in your rescue attempt for this
 			>	mission to be considered successful.
-persistent:  false
-disabled:    false
-initial:     5
-value:       true
+initial:  5
+value:    true

@@ -1,9 +1,9 @@
-type:        "subject"
+type:                "subject"
 bin:
 	$	0a00ffff ffff0800 0000ffff ffff0000 0003ffff ffff0000 016f0000 00030000
 	$	00030000 0000
-op:          "eq"
-subject:     3
+op:                  "eq"
+subject:             3
 action:
 	*	type:       "message"
 		reflexive:  true
@@ -21,7 +21,6 @@ action:
 	*	type:       "condition"
 		reflexive:  true
 		enable:     5
-persistent:  false
-disabled:    true
-player:      0
-value:       "control"
+initially_disabled:  true
+player:              0
+value:               "control"

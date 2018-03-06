@@ -1,8 +1,8 @@
-type:        "computer"
+type:                "computer"
 bin:
 	$	12ff0000 0001ffff ffff080c 0000ffff ffffffff ffff0000 025f0000 00030000
 	$	00030000 0000
-op:          "eq"
+op:                  "eq"
 action:
 	*	type:  "message"
 		id:    5750
@@ -24,7 +24,6 @@ action:
 			*	"mouse"
 	*	type:    "condition"
 		enable:  22
-persistent:  false
-disabled:    true
-player:      0
-screen:      "main"
+initially_disabled:  true
+player:              0
+screen:              "main"

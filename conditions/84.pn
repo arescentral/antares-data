@@ -9,5 +9,4 @@ action:
 	*	type:    "condition"
 		enable:  7
 persistent:  true
-disabled:    false
 value:       50000

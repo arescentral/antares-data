@@ -1,9 +1,9 @@
-type:        "subject"
+type:                "subject"
 bin:
 	$	0affffff ffffffff ffffffff ffff0000 0005ffff ffff0000 028e0000 00010000
 	$	00030000 0000
-op:          "eq"
-subject:     5
+op:                  "eq"
+subject:             5
 action:
 	*	type:       "message"
 		reflexive:  true
@@ -24,7 +24,6 @@ action:
 				>
 				>	Aim yourself at this ship, then press the
 				|	Select Friend key, #SFD.
-persistent:  false
-disabled:    true
-player:      0
-value:       "control"
+initially_disabled:  true
+player:              0
+value:               "control"

@@ -1,9 +1,9 @@
-type:        "subject"
+type:                "subject"
 bin:
 	$	0affffff 08ff07d8 436f6e76 65720000 0001ffff ffff0000 02890000 00010000
 	$	00030000 0000
-op:          "eq"
-subject:     1
+op:                  "eq"
+subject:             1
 action:
 	*	type:  "message"
 		id:    5803
@@ -40,7 +40,6 @@ action:
 				|	mouse.
 				>
 				>	Try clicking on this planet.
-persistent:  false
-disabled:    true
-player:      0
-value:       "control"
+initially_disabled:  true
+player:              0
+value:               "control"

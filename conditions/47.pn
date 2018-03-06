@@ -1,8 +1,8 @@
-type:        "ships"
+type:                "ships"
 bin:
 	$	106e0000 00010000 0000ffff ffffffff ffffffff ffff0000 01f00000 00010000
 	$	00030000 0000
-op:          "eq"
+op:                  "eq"
 action:
 	*	type:       "win"
 		reflexive:  true
@@ -11,7 +11,6 @@ action:
 		text:
 			>	You decimated the Audemedon fleet and destroyed the jumpstream
 			>	inhibitor.
-persistent:  false
-disabled:    true
-player:      1
-value:       0
+initially_disabled:  true
+player:              1
+value:               0

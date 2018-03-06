@@ -1,8 +1,8 @@
-type:        "building"
+type:                "building"
 bin:
 	$	16ffffff ffffffff ffff00db fa50ffff ffffffff ffff0000 02e90000 00020000
 	$	00030000 0000
-op:          "eq"
+op:                  "eq"
 action:
 	*	type:  "message"
 		id:    5925
@@ -16,7 +16,6 @@ action:
 	*	type:  "key"
 		disable:
 			*	"comp_build"
-persistent:  false
-disabled:    true
-player:      0
-value:       true
+initially_disabled:  true
+player:              0
+value:               true

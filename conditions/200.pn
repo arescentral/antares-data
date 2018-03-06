@@ -1,9 +1,9 @@
-type:        "subject"
+type:     "subject"
 bin:
 	$	0b000000 00000000 00000000 00020000 0002ffff ffff0000 02f20000 00060000
 	$	00010000 0000
-op:          "eq"
-subject:     2
+op:       "eq"
+subject:  2
 action:
 	*	type:  "message"
 		id:    5940
@@ -30,7 +30,5 @@ action:
 	*	type:  "key"
 		enable:
 			*	"comp_build"
-persistent:  false
-disabled:    false
-player:      0
-value:       "target"
+player:   0
+value:    "target"

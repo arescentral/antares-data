@@ -1,10 +1,10 @@
-type:        "distance"
+type:     "distance"
 bin:
 	$	03ff0004 e2000802 00000000 00000000 000a0000 00060000 00ca0000 00020000
 	$	00010000 0000
-op:          "lt"
-subject:     10
-object:      6
+op:       "lt"
+subject:  10
+object:   6
 action:
 	*	type:       "message"
 		reflexive:  true
@@ -21,6 +21,4 @@ action:
 		text:
 			>	Chapter 5, player wins.
 			|	Player escorts Thrntz transport back to the battleship.
-persistent:  false
-disabled:    false
-value:       320000
+value:    320000

@@ -1,13 +1,11 @@
-type:        "message"
+type:    "message"
 bin:
 	$	11ff0000 17160000 0005ffff ffffffff ffffffff ffff0000 02e30000 00010000
 	$	00010000 0000
-op:          "eq"
+op:      "eq"
 action:
 	*	type:    "pay"
 		value:   23437.5
 		player:  0
-persistent:  false
-disabled:    false
-player:      0
-value:       5914
+player:  0
+value:   5914

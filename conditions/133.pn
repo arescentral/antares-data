@@ -1,10 +1,10 @@
-type:        "distance"
+type:                "distance"
 bin:
 	$	03ff0000 c350ffff ffffffff ffff0000 00000000 00050000 02690000 00020000
 	$	00030000 0000
-op:          "lt"
-subject:     0
-object:      5
+op:                  "lt"
+subject:             0
+object:              5
 action:
 	*	type:             "order"
 		initial_subject:  5
@@ -12,6 +12,5 @@ action:
 	*	type:    "condition"
 		delay:   120
 		enable:  8
-persistent:  false
-disabled:    true
-value:       50000
+initially_disabled:  true
+value:               50000

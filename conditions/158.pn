@@ -1,9 +1,9 @@
-type:        "subject"
+type:                "subject"
 bin:
 	$	0a74ffff ffff087a 00000004 00ad0000 0001ffff ffff0000 029b0000 00010000
 	$	00030000 0000
-op:          "eq"
-subject:     1
+op:                  "eq"
+subject:             1
 action:
 	*	type:  "message"
 		id:    5815
@@ -17,7 +17,6 @@ action:
 				>
 				>	Notice how each time you hit the key, the next farthest ship is
 				>	selected.
-persistent:  false
-disabled:    true
-player:      0
-value:       "control"
+initially_disabled:  true
+player:              0
+value:               "control"

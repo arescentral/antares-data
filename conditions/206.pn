@@ -1,10 +1,10 @@
-type:        "distance"
+type:                "distance"
 bin:
 	$	03000000 c3500000 00000000 00000000 00010000 00020000 03030000 00020000
 	$	00030000 0000
-op:          "lt"
-subject:     1
-object:      2
+op:                  "lt"
+subject:             1
+object:              2
 action:
 	*	type:  "message"
 		id:    5960
@@ -25,6 +25,5 @@ action:
 				|	click on it.
 	*	type:    "condition"
 		enable:  20
-persistent:  false
-disabled:    true
-value:       50000
+initially_disabled:  true
+value:               50000

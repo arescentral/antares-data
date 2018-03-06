@@ -1,9 +1,9 @@
-type:        "subject"
+type:                "subject"
 bin:
 	$	0bffffff ffff08c8 00000004 00000000 0006ffff ffff0000 02ba0000 00010000
 	$	00030000 0000
-op:          "eq"
-subject:     6
+op:                  "eq"
+subject:             6
 action:
 	*	type:       "message"
 		reflexive:  true
@@ -16,7 +16,6 @@ action:
 			*	>	#O7#Try targeting this Cantharan Transport by
 				|	clicking on it while holding down the
 				|	#DST key.
-persistent:  false
-disabled:    true
-player:      0
-value:       "target"
+initially_disabled:  true
+player:              0
+value:               "target"

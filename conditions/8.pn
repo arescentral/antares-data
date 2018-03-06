@@ -10,5 +10,4 @@ action:
 		text:
 			>	The Order captured our base on Proteus Alpha.
 persistent:  true
-disabled:    false
 player:      1

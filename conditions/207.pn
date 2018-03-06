@@ -1,9 +1,9 @@
-type:        "subject"
+type:                "subject"
 bin:
 	$	0a000000 00000000 00000000 00000000 0006ffff ffff0000 03050000 00020000
 	$	00030000 0000
-op:          "eq"
-subject:     6
+op:                  "eq"
+subject:             6
 action:
 	*	type:  "message"
 		id:    5965
@@ -21,7 +21,6 @@ action:
 				|	now.
 	*	type:    "condition"
 		enable:  21
-persistent:  false
-disabled:    true
-player:      0
-value:       "control"
+initially_disabled:  true
+player:              0
+value:               "control"

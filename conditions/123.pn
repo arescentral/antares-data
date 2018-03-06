@@ -10,7 +10,6 @@ action:
 		text:
 			>	Player 1 wins!
 persistent:  true
-disabled:    false
 player:      1
 counter:     0
 value:       3

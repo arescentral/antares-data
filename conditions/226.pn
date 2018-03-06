@@ -1,9 +1,9 @@
-type:        "subject"
+type:                "subject"
 bin:
 	$	18000000 00000000 00000000 00000000 0002ffff ffff0000 032c0000 00010000
 	$	00030000 0000
-op:          "eq"
-subject:     2
+op:                  "eq"
+subject:             2
 action:
 	*	type:  "message"
 		id:    7025
@@ -42,7 +42,6 @@ action:
 				>
 				>	Of course, you could personally shoot them all, but it would be much
 				>	faster if you brought along some help...
-persistent:  false
-disabled:    true
-player:      0
-value:       "player"
+initially_disabled:  true
+player:              0
+value:               "player"

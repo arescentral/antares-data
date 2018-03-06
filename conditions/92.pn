@@ -10,5 +10,4 @@ action:
 		reflexive:  true
 		enable:     2
 persistent:  true
-disabled:    false
 value:       50000

@@ -1,8 +1,8 @@
-type:        "time"
+type:   "time"
 bin:
 	$	07000000 00b40000 00010000 0001ffff ffffffff ffff0000 00300000 00010000
 	$	00010000 0000
-op:          "ge"
+op:     "ge"
 action:
 	*	type:  "message"
 		id:    4220
@@ -12,6 +12,4 @@ action:
 				|	Welcome to the Philemon System, humans. We have been assured that you
 				>	won’t allow our miner to be damaged. Please see that it isn’t. We await
 				>	your orders. \i<EOT>\i 
-persistent:  false
-disabled:    false
-value:       180
+value:  180

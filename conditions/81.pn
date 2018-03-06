@@ -1,10 +1,10 @@
-type:        "distance"
+type:     "distance"
 bin:
 	$	03ff0000 c3500800 000400ad 3720ffff fffe0000 00000000 01930000 00060000
 	$	00010000 0000
-op:          "lt"
-subject:     "player"
-object:      0
+op:       "lt"
+subject:  "player"
+object:   0
 action:
 	*	type:       "condition"
 		reflexive:  true
@@ -57,6 +57,4 @@ action:
 				>	first combat mission.
 				>
 				>	Clear this message by selecting \i_Next Page/Clear_\i.
-persistent:  false
-disabled:    false
-value:       50000
+value:    50000
