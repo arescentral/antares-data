@@ -7,4 +7,5 @@ action:
 	*	type:   "zoom"
 		value:  "1:16"
 player:  0
-value:   5723
+id:      5721
+page:    3

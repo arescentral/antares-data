@@ -39,4 +39,5 @@ action:
 	*	type:   "zoom"
 		value:  "foe"
 player:  0
-value:   7029
+id:      7025
+page:    5

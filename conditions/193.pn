@@ -13,4 +13,5 @@ action:
 		screen:  "build"
 		line:    3
 player:  0
-value:   5915
+id:      5910
+page:    6

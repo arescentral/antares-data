@@ -7,4 +7,5 @@ action:
 	*	type:   "zoom"
 		value:  "all"
 player:  0
-value:   5946
+id:      5945
+page:    2

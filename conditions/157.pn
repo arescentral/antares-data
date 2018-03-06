@@ -37,4 +37,5 @@ action:
 		disable:
 			*	"mouse"
 player:  0
-value:   5814
+id:      5813
+page:    2

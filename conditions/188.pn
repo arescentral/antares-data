@@ -8,4 +8,5 @@ action:
 	*	type:    "condition"
 		enable:  2
 player:   0
-value:    5901
+id:       5900
+page:     2

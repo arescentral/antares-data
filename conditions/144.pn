@@ -11,4 +11,5 @@ action:
 			*	"fire_2"
 			*	"fire_s"
 player:  0
-value:   5731
+id:      5721
+page:    11

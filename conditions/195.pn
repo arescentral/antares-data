@@ -10,4 +10,5 @@ action:
 	*	type:    "condition"
 		enable:  {begin: 9, end: 11}
 player:  0
-value:   5919
+id:      5910
+page:    10

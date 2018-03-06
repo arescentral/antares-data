@@ -10,4 +10,5 @@ action:
 		screen:  "main"
 		line:    2
 player:  0
-value:   7012
+id:      7010
+page:    3

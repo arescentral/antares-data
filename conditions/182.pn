@@ -7,4 +7,5 @@ action:
 	*	type:    "condition"
 		enable:  33
 player:  0
-value:   5840
+id:      5840
+page:    1

@@ -15,4 +15,5 @@ action:
 			*	"comp_message"
 			*	"comp_build"
 player:  0
-value:   5709
+id:      5704
+page:    6

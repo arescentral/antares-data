@@ -21,4 +21,5 @@ action:
 		initial_subject:  5
 		to:               {x: 500, y: -6300}
 player:  0
-value:   5820
+id:      5819
+page:    2

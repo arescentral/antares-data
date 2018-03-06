@@ -7,4 +7,5 @@ action:
 	*	type:    "condition"
 		enable:  4
 player:  0
-value:   5810
+id:      5803
+page:    8

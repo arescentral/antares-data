@@ -8,4 +8,5 @@ action:
 		screen:  "build"
 		line:    2
 player:  0
-value:   5917
+id:      5910
+page:    8
