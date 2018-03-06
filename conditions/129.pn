@@ -1,7 +1,4 @@
 type:                "computer"
-bin:
-	$	12ff0000 0001ffff ffff080c 0000ffff ffffffff ffff0000 025f0000 00030000
-	$	00030000 0000
 op:                  "eq"
 action:
 	*	type:  "message"

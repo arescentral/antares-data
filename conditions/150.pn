@@ -1,7 +1,4 @@
 type:   "time"
-bin:
-	$	07ff0000 0000ffff ffffffff 0800ffff ffffffff ffff0000 02830000 00050000
-	$	00010000 0000
 op:     "ge"
 action:
 	*	type:  "message"

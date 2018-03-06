@@ -1,7 +1,4 @@
 type:     "distance"
-bin:
-	$	03ff0004 e2000000 0000ffff ffff0000 00070000 00050000 007e0000 00040000
-	$	00010000 0000
 op:       "lt"
 subject:  7
 object:   5

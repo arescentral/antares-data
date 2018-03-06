@@ -1,7 +1,4 @@
 type:     "distance"
-bin:
-	$	03ff0001 86a000ad 38ac0000 ffffffff fffe0000 00120000 01a30000 00020000
-	$	00010000 0000
 op:       "lt"
 subject:  "player"
 object:   18

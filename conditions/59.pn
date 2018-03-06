@@ -1,7 +1,4 @@
 type:     "health"
-bin:
-	$	0900ffff ffffffff 08ad3454 00000000 0001ffff ffff0000 01340000 00070000
-	$	00010000 0000
 op:       "le"
 subject:  1
 action:

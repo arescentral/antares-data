@@ -1,7 +1,4 @@
 type:    "message"
-bin:
-	$	11ff0000 16b90000 0002ffff ffffffff ffffffff ffff0000 02a40000 00060000
-	$	00010000 0000
 op:      "eq"
 action:
 	*	type:    "condition"

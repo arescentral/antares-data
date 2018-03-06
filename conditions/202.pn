@@ -1,7 +1,4 @@
 type:    "message"
-bin:
-	$	11000000 17390000 00020000 0000ffff ffffffff ffff0000 02f90000 00010000
-	$	00010000 0000
 op:      "eq"
 action:
 	*	type:   "zoom"

@@ -1,7 +1,4 @@
 type:                "autopilot"
-bin:
-	$	15010000 16d20000 0002ffff ffffffff ffffffff ffff0000 02d50000 00030000
-	$	00030000 0000
 op:                  "eq"
 action:
 	*	type:  "key"

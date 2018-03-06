@@ -1,7 +1,4 @@
 type:        "distance"
-bin:
-	$	0eff0000 c350ffff ffffffff 08000000 00010000 00000000 01ae0000 00020000
-	$	00000000 0000
 op:          "ge"
 subject:     1
 object:      0

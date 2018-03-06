@@ -1,7 +1,4 @@
 type:     "destroyed"
-bin:
-	$	05ff0000 0010ffff ffffffff ffffffff ffffffff ffff0000 010b0000 00020000
-	$	00010000 0000
 op:       "eq"
 action:
 	*	type:       "reveal"

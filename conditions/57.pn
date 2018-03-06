@@ -1,7 +1,4 @@
 type:     "owner"
-bin:
-	$	04ff0000 0000ffff ffffffff ffff0000 0005ffff ffff0000 01270000 00010000
-	$	00010000 0000
 op:       "eq"
 subject:  5
 action:

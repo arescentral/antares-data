@@ -1,7 +1,4 @@
 type:    "message"
-bin:
-	$	11660000 17160000 000affff ffffffff ffffffff ffff0000 02e70000 00020000
-	$	00010000 0000
 op:      "eq"
 action:
 	*	type:  "key"

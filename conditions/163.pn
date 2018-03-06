@@ -1,7 +1,4 @@
 type:    "message"
-bin:
-	$	11910000 16bb0000 0002ffff 0800ffff ffffffff ffff0000 02ab0000 00040000
-	$	00010000 0000
 op:      "eq"
 action:
 	*	type:             "move"

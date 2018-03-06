@@ -1,7 +1,4 @@
 type:                "subject"
-bin:
-	$	0affffff ffffffff ffff08ad 375c0000 0003ffff ffff0000 016c0000 00030000
-	$	00030000 0000
 op:                  "eq"
 subject:             3
 action:

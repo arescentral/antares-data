@@ -1,7 +1,4 @@
 type:                "counter"
-bin:
-	$	0cff0000 00000000 00000000 0001ffff ffffffff ffff0000 02eb0000 00020000
-	$	00030000 0000
 op:                  "ge"
 action:
 	*	type:  "message"

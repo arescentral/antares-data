@@ -1,7 +1,4 @@
 type:     "counter"
-bin:
-	$	02ff0000 00000000 00000000 0002ffff ffffffff ffff0000 01150000 00020000
-	$	00010000 0000
 op:       "eq"
 action:
 	*	type:             "capture"

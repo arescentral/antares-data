@@ -1,7 +1,4 @@
 type:    "message"
-bin:
-	$	11c80000 16530000 0003ffff ffffffff ffffffff ffff0000 02720000 00010000
-	$	00010000 0000
 op:      "eq"
 action:
 	*	type:             "heal"

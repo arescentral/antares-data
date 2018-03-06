@@ -1,7 +1,4 @@
 type:   "time"
-bin:
-	$	07ff0000 6e07ffff ffff0800 0000ffff ffffffff ffff0000 01190000 00010000
-	$	00010000 0000
 op:     "ge"
 action:
 	*	type:       "reveal"

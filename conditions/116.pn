@@ -1,7 +1,4 @@
 type:                "ships"
-bin:
-	$	10ff0000 0001ffff ffff08ad 3be8ffff ffffffff ffff0000 02270000 00020000
-	$	00030000 0000
 op:                  "eq"
 action:
 	*	type:       "message"

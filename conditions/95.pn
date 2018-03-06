@@ -1,7 +1,4 @@
 type:     "counter"
-bin:
-	$	02ff0000 00000000 00010000 000bffff ffffffff ffff0000 01c50000 00010000
-	$	00010000 0000
 op:       "eq"
 action:
 	*	type:       "win"

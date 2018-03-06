@@ -1,7 +1,4 @@
 type:                "autopilot"
-bin:
-	$	1406ffff ffffffff ffff088c 010dffff ffffffff ffff0000 02ca0000 00060000
-	$	00030000 0000
 op:                  "eq"
 action:
 	*	type:  "message"

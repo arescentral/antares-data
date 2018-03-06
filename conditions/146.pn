@@ -1,7 +1,4 @@
 type:                "destroyed"
-bin:
-	$	05ff0000 0007ffff ffffffff ffffffff ffffffff ffff0000 02810000 00010000
-	$	00030000 0000
 op:                  "eq"
 action:
 	*	type:    "condition"

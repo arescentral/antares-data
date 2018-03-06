@@ -1,7 +1,4 @@
 type:     "speed"
-bin:
-	$	0f3d0000 05000000 00020000 000a0000 0001ffff ffff0000 01a90000 00010000
-	$	00010000 0000
 op:       "lt"
 subject:  1
 action:
