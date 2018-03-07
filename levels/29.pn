@@ -1,0 +1,879 @@
+type:         "solo"
+bin:
+	$	00000002 00000064 10680001 ffffffff 00000002 00000000 000200c8 10680002
+	$	ffffffff 00000100 00000000 ffffffff ffffffff ffffffff 00000000 00000000
+	$	ffffffff ffffffff ffffffff 00000000 00000000 1b5901fd ffff0008 0fa20096
+	$	ffff0025 014a0000 011f0500 ffffffff ffff0003 ffffff00 ffff8000
+chapter:      3
+title:
+	>	\i Tutorial Lesson 2
+	|	\iSection on Selection
+	!
+players:
+	*	type:           "human"
+		race:           1
+		name:           "The Human/Ishiman Cooperative"
+		earning_power:  0.008
+	*	type:           "cpu"
+		race:           5
+		name:           "The Cantharan Order"
+		earning_power:  1.0
+score:
+	*	"-Destroy all 5"
+	*	"_-transports."
+	*	"4\\0\\0\\5\\f\\t\\Remaining: \\/5"
+song:         4002
+initials:
+	*	base:        0
+		owner:       0
+		at:          {x: 0, y: 0}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {is_player_ship: true}
+	*	base:        61
+		owner:       0
+		at:          {x: 60, y: -400}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {static_destination: true}
+	*	base:        19
+		owner:       0
+		at:          {x: 6000, y: -100}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		target:      2
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        13
+		owner:       0
+		at:          {x: 6000, y: 0}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		target:      3
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        0
+		owner:       0
+		at:          {x: 6000, y: 100}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		target:      4
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        24
+		owner:       0
+		at:          {x: 6000, y: 200}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		target:      5
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:    23
+		owner:   0
+		rename:  "Simulated Planet"
+		at:      {x: -200, y: -100}
+		build:   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+	*	base:        287
+		owner:       1
+		at:          {x: 0, y: 200}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		target:      7
+		attributes:  {fixed_race: true, initially_hidden: true, static_destination: true}
+conditions:
+	*	type:   "time"
+		op:     "ge"
+		action:
+			*	type:  "message"
+				id:    5800
+				pages:
+					*	>	Welcome to Lesson 2.
+						>
+						>	In this lesson, you will be shown how to select other ships and objects.
+						>
+						>	We’ll be controlling the zoom, and turning on and off functions as they
+						>	apply.
+						|	\i_[more]_\i_
+					*	>	There are two ways to select objects: with the mouse, and with the
+						>	keyboard.
+						>
+						>	Let’s try the mouse first.
+						|	\i_[more]_\i_
+					*	>	#O1#To select a ship with the mouse, just click on
+						|	the ship.
+						>
+						>	Use the mouse to click on this ship.
+			*	type:             "push"
+				reflexive:        true
+				initial_subject:  0
+				kind:             "stop"
+			*	type:             "push"
+				reflexive:        true
+				initial_subject:  1
+				kind:             "stop"
+			*	type:  "key"
+				disable:
+					*	"up"
+					*	"down"
+					*	"fire_1"
+					*	"fire_2"
+					*	"fire_s"
+					*	"warp"
+					*	"select_friend"
+					*	"select_foe"
+					*	"select_base"
+					*	"target"
+					*	"order"
+					*	"zoom_in"
+					*	"zoom_out"
+					*	"comp_special"
+					*	"comp_build"
+					*	"zoom_shortcut"
+					*	"send_message"
+			*	type:   "zoom"
+				value:  "1:2"
+		value:  0
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     2
+		player:  0
+		id:      5800
+		page:    3
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             1
+		action:
+			*	type:  "message"
+				id:    5803
+				pages:
+					*	>	#O1#Good. This ship has been selected as the
+						|	Control Object.
+						>
+						>	The Control Object is the ship or planet
+						|	which is under your indirect control. We’ll
+						|	talk more about how to control the Control
+						|	Object later.
+						|	[more]
+					*	>	#O1#For now, note the yellow label which
+						|	designates this ship as your Control Object.
+						|	[more]
+					*	>	#L181##119,213#This is the Control Display. When you have
+						|	a Control Object selected, it is displayed
+						|	here.
+						|	[more]
+					*	>	#L181##66,199#The abbreviated name of the Control Object
+						|	is displayed here.
+						|	[more]
+					*	>	#L181##29,217#This is a small image of the Control
+						|	Object.
+						|	[more]
+					*	>	#L181##65,217#The blue bar represents the Control Object’s
+						|	shield power, and the yellow bar shows the
+						|	Control Object’s available power.
+						|	[more]
+					*	>	#L181##120,217#The Control Object’s weapons, if any, are
+						|	listed here.
+						|	[more]
+					*	>	#O6#Any friendly object can be selected with the
+						|	mouse.
+						>
+						>	Try clicking on this planet.
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:    "condition"
+				enable:  4
+		player:  0
+		id:      5803
+		page:    8
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             6
+		action:
+			*	type:  "message"
+				id:    5811
+				pages:
+					*	>	Sometimes, several ships are crowded together. How can you select the
+						>	ship you want when there are other ships covering it?
+						>
+						>	We’ll scale the display way out and show you.
+						|	\i_[more]_\i_
+					*	>	#O5#If several ships are on top of one another,
+						|	you can get at the ship you want by clicking
+						|	on the cluster repeatedly.
+						>
+						>	Try to select this transport, hidden under
+						|	three other ships. You’ll have to click three
+						|	or four times.
+			*	type:   "reveal"
+				which:  {begin: 2, end: 6}
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:   "reveal"
+				which:  {begin: 2, end: 6}
+			*	type:       "zoom"
+				reflexive:  true
+				value:      "all"
+			*	type:       "condition"
+				reflexive:  true
+				enable:     6
+		player:  0
+		id:      5811
+		page:    2
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             5
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5813
+				pages:
+					*	>	Very good.
+						>
+						>	Anything you can do with the mouse, you can also do with the keyboard.
+						>	In fact, using the keyboard has some advantages.
+						>
+						>	Let’s try the keyboard now. We’ll temporarily disable the ability to
+						>	select ships with the mouse.
+						|	\i_[more]_\i_
+					*	>	#O1#
+						|	To select an object with the keyboard, you
+						|	have to point your ship at it, then press
+						|	the appropriate key.
+						>
+						>	Aim yourself at this ship, then press the
+						|	Select Friend key, #SFD.
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:             "kill"
+				reflexive:        true
+				initial_subject:  2
+				kind:             "none"
+			*	type:             "kill"
+				reflexive:        true
+				initial_subject:  3
+				kind:             "none"
+			*	type:             "kill"
+				reflexive:        true
+				initial_subject:  4
+				kind:             "none"
+			*	type:             "kill"
+				reflexive:        true
+				initial_subject:  5
+				kind:             "none"
+			*	type:             "condition"
+				initial_subject:  5
+				enable:           8
+			*	type:       "zoom"
+				reflexive:  true
+				value:      "1:2"
+			*	type:       "key"
+				reflexive:  true
+				enable:
+					*	"select_friend"
+					*	"select_foe"
+					*	"select_base"
+			*	type:       "key"
+				reflexive:  true
+				disable:
+					*	"mouse"
+		player:  0
+		id:      5813
+		page:    2
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             1
+		action:
+			*	type:  "message"
+				id:    5815
+				pages:
+					*	>	Good.
+						>
+						>	Now let’s try selecting one ship out of many with the keyboard.
+						|	\i_[more]_\i_
+					*	>	Here are several ships. Try selecting the farthest one, the transport,
+						>	by facing them all and repeatedly hitting the \i_#SFD_\i key.
+						>
+						>	Notice how each time you hit the key, the next farthest ship is
+						>	selected.
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:   "reveal"
+				which:  {begin: 2, end: 6}
+			*	type:             "move"
+				reflexive:        true
+				initial_subject:  2
+				to:               {x: 80, y: -500}
+			*	type:             "move"
+				reflexive:        true
+				initial_subject:  3
+				to:               {x: 60, y: -600}
+			*	type:             "move"
+				reflexive:        true
+				initial_subject:  4
+				to:               {x: 80, y: -700}
+			*	type:             "move"
+				reflexive:        true
+				initial_subject:  5
+				to:               {x: 60, y: -800}
+			*	type:    "condition"
+				enable:  10
+			*	type:       "zoom"
+				reflexive:  true
+				value:      "1:4"
+		player:  0
+		id:      5815
+		page:    2
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             5
+		action:
+			*	type:  "message"
+				id:    5817
+				pages:
+					*	>	Good. Let’s try it again, but this time we’ll move the ships far away.
+						|	\i_[more]_\i_
+					*	>	#O2#Point yourself at this cluster, using the
+						|	triangular sight to gauge your direction.
+						>
+						>	The sight doesn't have to touch the ships--
+						|	it only shows which way you're facing.
+						>
+						>	Repeatedly hit the Select Friend key,
+						|	#SFD, to select the gunship.
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:    "condition"
+				enable:  12
+			*	type:             "move"
+				reflexive:        true
+				initial_subject:  2
+				to:               {x: 6000, y: -2000}
+			*	type:             "move"
+				reflexive:        true
+				initial_subject:  3
+				to:               {x: 5950, y: -1950}
+			*	type:             "move"
+				reflexive:        true
+				initial_subject:  4
+				to:               {x: 5900, y: -1900}
+			*	type:             "move"
+				reflexive:        true
+				initial_subject:  5
+				to:               {x: 5850, y: -1850}
+			*	type:       "zoom"
+				reflexive:  true
+				value:      "all"
+		player:  0
+		id:      5817
+		page:    2
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             2
+		action:
+			*	type:  "message"
+				id:    5819
+				pages:
+					*	>	Very good. Now, one last time.
+						>
+						>	This time, you’ll see why using the keyboard can be faster than using
+						>	the mouse.
+						|	\i_[more]_\i_
+					*	>	#O5#The ships have been moved here, to about
+						|	one o’clock.
+						>
+						>	You’ve learned how to select any ship from
+						|	this group with the keyboard or mouse.
+						|	[more]
+					*	>	There will often be times, though, that you know where a ship is but you
+						>	won’t have the time to scale out and find it.
+						>
+						>	You can use the keyboard to select a ship even if you can’t see it.
+						|	\i_[more]_\i_
+					*	>	We put the display at \f0c1:1\r scale.
+						>
+						>	Try to select the transport by turning toward it (remember, it’s at
+						>	about one o’clock) and repeatedly hitting the Select Friend key,
+						>	\i_#SFD_\i.
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:             "move"
+				reflexive:        true
+				initial_subject:  2
+				to:               {x: 500, y: -6000}
+			*	type:             "move"
+				reflexive:        true
+				initial_subject:  3
+				to:               {x: 500, y: -6100}
+			*	type:             "move"
+				reflexive:        true
+				initial_subject:  4
+				to:               {x: 500, y: -6200}
+			*	type:             "move"
+				reflexive:        true
+				initial_subject:  5
+				to:               {x: 500, y: -6300}
+		player:  0
+		id:      5819
+		page:    2
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:       "zoom"
+				reflexive:  true
+				value:      "1:1"
+			*	type:       "condition"
+				reflexive:  true
+				enable:     15
+		player:  0
+		id:      5819
+		page:    4
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             5
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5823
+				pages:
+					*	>	Great! Now you know how to select ships even when you can’t see them.
+						|	\i_[more]_\i_
+					*	>	Selecting bases and space stations with the keyboard works the same way,
+						>	except you use the Select Base key, \i_#SBS_\i.
+						>
+						>	Select the planet now by pointing your ship at it and pressing the
+						>	\i_#SBS_\i key.
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     17
+		player:  0
+		id:      5823
+		page:    2
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             6
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5825
+				pages:
+					*	>	Good.
+						>
+						>	Now let’s try targeting. We’ll disable the keyboard selection keys for
+						>	now and turn the mouse selection back on.
+						|	\i_[more]_\i_
+					*	>	#O1#To target a ship with the mouse, hold down
+						|	the target key, #DST, then
+						|	click on the ship.
+						>
+						>	Use the mouse to click on this ship while
+						|	holding down the #DST key.
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     19
+			*	type:       "key"
+				reflexive:  true
+				disable:
+					*	"select_friend"
+					*	"select_foe"
+					*	"select_base"
+			*	type:       "key"
+				reflexive:  true
+				enable:
+					*	"target"
+					*	"mouse"
+			*	type:       "zoom"
+				reflexive:  true
+				value:      "1:2"
+		player:  0
+		id:      5825
+		page:    2
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             1
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5827
+				pages:
+					*	>	#O1#Good. This ship has been selected as the
+						|	Target Object.
+						>
+						>	The Target Object is the ship or planet
+						|	to which you wish to send other ships.
+						|	We’ll talk about sending ships to target
+						|	objects later.
+						|	[more]
+					*	>	#O1#For now, note the blue label which
+						|	designates this ship as your Target Object.
+						|	[more]
+					*	>	#L254##119,289#This is the Target Display. When you have
+						|	a Target Object selected, it is displayed
+						|	here.
+						>
+						>	The Target Display provides the same
+						|	information about a ship or base as the
+						|	Control Display.
+						|	[more]
+					*	>	#O6#Any friendly object can be targeted.
+						>
+						>	Try clicking on this planet while
+						|	holding down the #DST key.
+		initially_disabled:  true
+		player:              0
+		value:               "target"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:    "condition"
+				enable:  21
+		player:  0
+		id:      5827
+		page:    4
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             6
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5831
+				pages:
+					*	>	Good.
+						>
+						>	You can target enemy ships the same way.
+						|	\i_[more]_\i_
+					*	>	#O7#Try targeting this Cantharan Transport by
+						|	clicking on it while holding down the
+						|	#DST key.
+		initially_disabled:  true
+		player:              0
+		value:               "target"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:       "reveal"
+				reflexive:  true
+				which:      7
+			*	type:    "condition"
+				enable:  23
+		player:  0
+		id:      5831
+		page:    2
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             7
+		object:              1
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5833
+				pages:
+					*	>	Perfect.
+						>
+						>	You can also target ships and planets with the keyboard.
+						>
+						>	To select Target Objects with the keyboard, you use the Target key,
+						>	\i_#DST_\i, in conjunction with the selection keys.
+						>
+						>	Mouse selection has been deactivated, and the keyboard selection has
+						>	been reactivated.
+						|	\i_[more]_\i_
+					*	>	#O1#To target a ship with the keyboard, point
+						|	yourself at the ship, hold down the target
+						|	key, #DST, then press the
+						|	Select Friend key, #SFD.
+						>
+						>	Select this ship as a target, so it
+						|	is labeled in blue and appears on the
+						|	target screen.
+		initially_disabled:  true
+		player:              0
+		value:               "target"
+	*	type:        "message"
+		op:          "eq"
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     25
+			*	type:       "key"
+				reflexive:  true
+				disable:
+					*	"mouse"
+			*	type:       "key"
+				reflexive:  true
+				enable:
+					*	"select_friend"
+					*	"select_foe"
+					*	"select_base"
+		persistent:  true
+		player:      0
+		id:          5833
+		page:        2
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             1
+		action:
+			*	type:  "message"
+				id:    5835
+				pages:
+					*	>	#O6#Good.
+						>
+						>	To target space stations and planets, press
+						|	use the #SBS key while holding
+						|	down the #DST key.
+						>
+						>	Face this planet and try it.
+		initially_disabled:  true
+		player:              0
+		value:               "target"
+	*	type:        "message"
+		op:          "eq"
+		action:
+			*	type:    "condition"
+				enable:  27
+		persistent:  true
+		player:      0
+		id:          5835
+		page:        1
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             6
+		action:
+			*	type:  "message"
+				id:    5836
+				pages:
+					*	>	#O7#OK, now try this Cantharan Transport, using
+						|	the Select Foe key, #SFO.
+						>
+						>	Enemy ships can’t be selected as Control
+						|	Objects, so there’s no need to hold down
+						|	the Target key to select them with the
+						|	keyboard.
+		initially_disabled:  true
+		player:              0
+		value:               "target"
+	*	type:        "message"
+		op:          "eq"
+		action:
+			*	type:    "condition"
+				enable:  29
+		persistent:  true
+		player:      0
+		id:          5836
+		page:        1
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             7
+		action:
+			*	type:  "message"
+				id:    5837
+				pages:
+					*	>	Excellent.
+						>
+						>	You now know how to select friendly ships and bases as Control Objects
+						>	using the mouse and keyboard (\i_#SFD_\i for friendly ships, \i_#SBS_\i
+						>	for friendly bases).
+						>
+						>	You also know how to target friendly and unfriendly ships and bases with
+						>	the mouse and keyboard, using the \i_#DST_\i key (or just the \i_#SFO_\i
+						>	key for enemy ships).
+						|	\i_[more]_\i_
+					*	>	There’s a lot you can do once you know how to select Control and Target
+						>	objects -- but let’s save the bulk of that for the third lesson.
+						>
+						>	For now, we’ll show you how to use the autopilot in conjunction with the
+						>	target selection.
+						|	\i_[more]_\i_
+					*	>	#O1#Let’s set the autopilot to follow this ship.
+						>
+						>	First target this ship. You can use the
+						|	mouse (#DST + click) or
+						|	keyboard (#DST + #SFD).
+		initially_disabled:  true
+		player:              0
+		value:               "target"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:  "key"
+				enable:
+					*	"warp"
+					*	"mouse"
+			*	type:    "condition"
+				enable:  31
+		player:  0
+		id:      5837
+		page:    3
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             1
+		action:
+			*	type:  "message"
+				id:    5840
+				pages:
+					*	>	To activate the autopilot, hold down the Target key, \i_#DST_\i as you
+						>	press and release the Warp key, \i_#WRP_\i.
+						>
+						>	Try it now.
+		initially_disabled:  true
+		player:              0
+		value:               "target"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:    "condition"
+				enable:  33
+		player:  0
+		id:      5840
+		page:    1
+	*	type:                "autopilot"
+		op:                  "eq"
+		action:
+			*	type:  "message"
+				id:    5841
+				pages:
+					*	>	Now watch what happens when your target decides to go somewhere.
+			*	type:             "zoom"
+				reflexive:        true
+				initial_subject:  1
+				initial_object:   5
+				value:            "object"
+			*	type:    "condition"
+				enable:  34
+			*	type:  "key"
+				disable:
+					*	"up"
+					*	"down"
+					*	"left"
+					*	"right"
+					*	"fire_1"
+					*	"fire_2"
+					*	"fire_s"
+					*	"warp"
+					*	"select_friend"
+					*	"select_foe"
+					*	"select_base"
+					*	"target"
+					*	"order"
+					*	"zoom_in"
+					*	"zoom_out"
+					*	"zoom_shortcut"
+					*	"send_message"
+					*	"mouse"
+			*	type:             "order"
+				delay:            120
+				initial_subject:  1
+				initial_object:   5
+			*	type:    "condition"
+				enable:  34
+		initially_disabled:  true
+		player:              0
+		value:               true
+	*	type:                "distance"
+		op:                  "lt"
+		subject:             1
+		object:              5
+		action:
+			*	type:  "message"
+				id:    5842
+				pages:
+					*	>	You’ll continue to follow this ship -- or any other target you care to
+						>	select -- until you press one of your movement keys. Accelerating or
+						>	turning immediately deactivates the autopilot.
+						>
+						>	Try turning off the autopilot now, by pressing one of your rotation keys
+						>	(\i_#TCC_\i, \i_#TNC_\i), or your acceleration or deceleration
+						>	(\i_#ACC_\i, \i_#DEC_\i)keys.
+			*	type:             "key"
+				initial_subject:  0
+				enable:
+					*	"up"
+					*	"down"
+					*	"left"
+					*	"right"
+					*	"warp"
+					*	"select_friend"
+					*	"select_foe"
+					*	"select_base"
+					*	"target"
+					*	"zoom_in"
+					*	"zoom_out"
+					*	"zoom_shortcut"
+					*	"mouse"
+			*	type:             "condition"
+				initial_subject:  0
+				enable:           36
+			*	type:    "condition"
+				enable:  35
+		initially_disabled:  true
+		value:               50000
+	*	type:                "distance"
+		op:                  "lt"
+		subject:             "player"
+		object:              6
+		action:
+			*	type:             "win"
+				initial_subject:  0
+				initial_object:   0
+				player:           0
+				next:             4
+				text:
+					>	Good work. You completed the second tutorial.
+		initially_disabled:  true
+		value:               50000
+	*	type:                "autopilot"
+		op:                  "eq"
+		action:
+			*	type:  "key"
+				disable:
+					*	"up"
+					*	"down"
+					*	"send_message"
+			*	type:             "push"
+				reflexive:        true
+				initial_subject:  0
+				kind:             "stop"
+			*	type:  "message"
+				id:    5843
+				pages:
+					*	>	To complete this lesson, you must get to the planet. We’ve turned off
+						>	your thrust key, so you’ll have to use the autopilot to get there.
+						>
+						>	Target the planet with the mouse or keyboard, then turn on the autopilot
+						>	(hold down \i_#DST_\i then press \i_#WRP_\i).
+		initially_disabled:  true
+		player:              0
+		value:               false
+starmap:      {x: 330, y: 287}
+angle:        5
+is_training:  true
+no_ships:
+	>	Somehow, you lost your ship during a training exercise. You are most
+	>	unpromising.

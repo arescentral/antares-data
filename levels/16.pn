@@ -1,0 +1,249 @@
+type:       "solo"
+bin:
+	$	00000002 00000064 10680001 ffffffff 00000100 00000000 00020258 10680004
+	$	ffffffff 00000100 00000800 ffffffff ffffffff ffffffff ffffffff 00ae24b8
+	$	ffffffff ffffffff ffffffff ffffffff 00b93e38 1b65009b 119d0015 138a0025
+	$	00000003 00c2005a 00910007 012c0003 000b0010 00000000 00000000
+chapter:    16
+title:
+	>	\i Chapter 13 
+	|	\iYo Ho Ho
+	!
+players:
+	*	type:           "human"
+		race:           1
+		name:           "The Human/Ishiman Cooperative"
+		earning_power:  1.0
+	*	type:           "cpu"
+		race:           7
+		name:           "The Prophets of Salril"
+		earning_power:  1.0
+score:
+	*	"1\\0\\0\\0\\Retrieve escape\\Escort tractor"
+	*	"_1\\0\\0\\0\\pods\\tug"
+	*	"2\\1\\0\\0\\f\\t\\Rescued: \\/6"
+	*	"1\\1\\0\\0\\N\\Y\\Liner secure: \\"
+song:       5002
+initials:
+	*	base:        125
+		owner:       0
+		at:          {x: 0, y: 0}
+		attributes:  {static_destination: true}
+	*	base:  128
+		at:    {x: -1304, y: -956}
+	*	base:  128
+		at:    {x: 1304, y: 1043}
+	*	base:  128
+		at:    {x: 1739, y: -2173}
+	*	base:  128
+		at:    {x: -2260, y: 1739}
+	*	base:  128
+		at:    {x: 173, y: -1478}
+	*	base:  128
+		at:    {x: 3565, y: 86}
+	*	base:     137
+		owner:    0
+		rename:   "Secorem Jump Gate"
+		at:       {x: 2238, y: 6174}
+		earning:  1.0
+	*	base:   141
+		owner:  0
+		at:     {x: 2168, y: 6075}
+	*	base:   141
+		owner:  0
+		at:     {x: 2357, y: 6179}
+	*	base:        127
+		owner:       0
+		at:          {x: 2238, y: 6174}
+		target:      0
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        129
+		owner:       0
+		at:          {x: 1391, y: 6434}
+		attributes:  {is_player_ship: true}
+	*	base:   87
+		owner:  1
+		at:     {x: 4174, y: 24782}
+	*	base:   37
+		owner:  1
+		at:     {x: 9827, y: 27826}
+	*	base:   37
+		owner:  1
+		at:     {x: 3217, y: 29826}
+	*	base:   64
+		owner:  1
+		at:     {x: 9217, y: 23739}
+	*	base:        113
+		owner:       1
+		at:          {x: -7739, y: -8521}
+		attributes:  {initially_hidden: true}
+	*	base:        110
+		owner:       1
+		at:          {x: -6782, y: -9217}
+		attributes:  {initially_hidden: true}
+	*	base:        110
+		owner:       1
+		at:          {x: -8608, y: -7478}
+		attributes:  {initially_hidden: true}
+	*	base:        117
+		owner:       0
+		at:          {x: 2238, y: 6174}
+		attributes:  {initially_hidden: true}
+	*	base:   141
+		owner:  0
+		at:     {x: 2173, y: 6260}
+conditions:
+	*	type:     "counter"
+		op:       "eq"
+		action:
+			*	type:       "reveal"
+				reflexive:  true
+				delay:      90
+				which:      10
+			*	type:       "message"
+				reflexive:  true
+				delay:      30
+				id:         5400
+				pages:
+					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+						|	SOURCE: RICS 105508 Tractor Tug
+						|	We've entered the Secorem System and are now en route to the Elejeetian
+						>	liner. We've been informed that several Salrilian ships are jumping into
+						>	this system. We require escort. \i<EOT>\i 
+			*	type:       "reveal"
+				reflexive:  true
+				delay:      900
+				which:      {begin: 16, end: 19}
+		player:   0
+		counter:  1
+		value:    6
+	*	type:     "distance"
+		op:       "lt"
+		subject:  0
+		object:   10
+		action:
+			*	type:             "morph"
+				reflexive:        true
+				initial_subject:  0
+				base:             126
+			*	type:         "sound"
+				reflexive:    true
+				id:           17406
+				priority:     4
+				persistence:  30
+				volume:       255
+			*	type:       "condition"
+				reflexive:  true
+				enable:     2
+			*	type:             "order"
+				initial_subject:  0
+				initial_object:   10
+			*	type:       "message"
+				reflexive:  true
+				id:         5401
+				pages:
+					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+						|	SOURCE: RICS 105508 Tractor Tug
+						|	We've locked on to the Elejeetian liner and are now towing it to the
+						>	jump gate. \i<EOT>\i 
+			*	type:             "order"
+				initial_subject:  10
+				initial_object:   7
+		value:    50000
+	*	type:                "distance"
+		op:                  "lt"
+		subject:             10
+		object:              7
+		action:
+			*	type:             "order"
+				initial_subject:  0
+				initial_object:   7
+			*	type:             "land"
+				reflexive:        true
+				delay:            60
+				initial_subject:  0
+				initial_object:   7
+				speed:            128
+			*	type:       "reveal"
+				reflexive:  true
+				delay:      10
+				which:      19
+		initially_disabled:  true
+		value:               50000
+briefings:
+	*	title:  "EACSR Banadee"
+		content:
+			>	^P1127^The Banadee, an Elejeetian luxury passenger liner, has been
+			>	disabled by Gaitori pirates. The Elejeetian Minister of Automation,
+			>	Jommo, along with most of the other passengers, has abandoned ship.
+	*	title:  "EACSR Banadee"
+		content:
+			>	Your mission in the Secorem System is to recover the Banadee's escape
+			>	pods, and to aid a tractor tug in its recovery of the liner. The
+			>	Elejeetian Empire is anxious to see Minister Jommo returned
+			>	safely.^P10045^
+	*	object:  11
+		title:   "Heavy Destroyer"
+		content:
+			>	^P1130^You'll have the use of this destroyer for this mission.
+	*	title:  "Secorem"
+		content:
+			>	^P1065^Before you commence the rescue operation, you need to destroy the
+			>	Gaitori pirates, who are still in the Secorem system. You'll find the
+			>	destroyer more than adequate for the task.
+	*	title:  "Escape Pod"
+		content:
+			>	^P1129^Don't allow any of the escape pods to be destroyed while you
+			>	engage the Gaitori, or the mission will be aborted.
+			>
+			>	When the Secorem system is clear, recover all six escape pods from the
+			>	Banadee. 
+	*	object:  7
+		title:   "Secorem Jump Gate"
+		content:
+			>	^P10030^Once you've safely recovered all six escape pods, the civilian
+			>	tractor tug will be entering here through the Secorem Jump Gate. It's
+			>	bringing two heavy cruisers for escort.
+			|	^P1128^
+	*	title:  "Secorem"
+		content:
+			>	The tractor tug will rendezvous with the Elejeetian liner Banadee, and
+			>	tow it back to the jump gate. Once the liner passes through the gate,
+			>	your mission will be complete.
+			>
+			>	It's unusual to find Gaitori pirates this deep into Cantharan space, and
+			>	unlikely that they would be capable of disabling an Elejeetian liner--
+			>	prepare for the unexpected.
+starmap:    {x: 194, y: 145}
+par_time:   300
+par_kills:  11
+prologue:
+	>	#+B2007
+	|	\i PART 3 
+	|	\i 
+	|	#+
+	|	Word of your perseverance spreads across the stars. Even the mysterious
+	>	Elejeetian Empire, an enemy of Cantharis, begins to recognize the power
+	>	of human tenacity. The Emperor himself begins to wonder if, unlikely
+	>	though it seems, these humans could deliver a crippling blow to the
+	>	Order?
+	>
+	>	#+10023
+	|	Due to arrogance or innocence, the Elejeetians rarely arm their ships
+	>	with weapons of any kind, preferring instead to rely on heavy defenses
+	>	to protect them from attacks. However, on the rare occasions that they
+	>	do choose to fight, their superior technology becomes readily apparent.
+	>
+	>	#+
+	|	Your crew is aware that, impressive though their victories have been,
+	>	their most trying conflicts still lie ahead. From Fansi you must pass
+	>	into Cantharan space, coming perilously close to the Audemedon Axis and
+	>	the Salrilians.
+	>
+	>	#+
+	|	As you approach the Secorem System, these hazards that now face you are
+	>	quickly illustrated by a faint distress signal, the last gasp of a
+	>	supposedly invulnerable Elejeetian liner: "...HUMANS...HELP...NOW..."
+no_ships:
+	>	You failed to save the Elejeetian liner and return Minister Jommo to
+	>	safety.

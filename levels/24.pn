@@ -1,0 +1,110 @@
+type:        "net"
+bin:
+	$	01e30002 00010064 10680006 ffffffff 00000100 01e30000 00010064 10680002
+	$	ffffffff 00000100 01e30000 ffffffff ffffffff ffffffff 00000000 00000000
+	$	ffffffff ffffffff ffffffff 00000000 00000000 000001e8 0c95000b 13880070
+	$	ffff0003 00640000 00640001 ffffffff 0000001b 00000000 000000f0
+chapter:     27
+title:
+	>	\i Scratching Post 
+	|	\i 
+	!
+players:
+	*	type:           "human"
+		races:          [0, 1, 5, 6, 7, 8]
+		earning_power:  1.0
+	*	type:           "human"
+		races:          [0, 1, 5, 6, 7, 8]
+		earning_power:  1.0
+song:        5000
+initials:
+	*	base:  266
+		at:    {x: 0, y: 32767}
+	*	base:  267
+		at:    {x: 0, y: -32767}
+	*	base:             23
+		owner:            0
+		rename:           "Lalande Alpha"
+		at:               {x: 0, y: 16384}
+		earning:          1.0
+		sprite_override:  1032
+		build:            [200, 300, 860, 500, 450, 800]
+	*	base:             23
+		owner:            1
+		rename:           "Lalande Beta"
+		at:               {x: 0, y: -16384}
+		earning:          1.0
+		sprite_override:  1033
+		build:            [200, 300, 860, 500, 450, 800]
+	*	base:     270
+		rename:   "Outpost 1"
+		at:       {x: 0, y: 9000}
+		earning:  0.25
+	*	base:     270
+		rename:   "Outpost 2"
+		at:       {x: 0, y: -9000}
+		earning:  0.25
+	*	base:     270
+		rename:   "Outpost 3"
+		at:       {x: 9000, y: 0}
+		earning:  0.25
+	*	base:     270
+		rename:   "Outpost 4"
+		at:       {x: -9000, y: 0}
+		earning:  0.25
+	*	base:     104
+		rename:   "Bunker Station"
+		at:       {x: 0, y: 0}
+		earning:  1.0
+	*	base:        129
+		owner:       0
+		at:          {x: 0, y: 16380}
+		attributes:  {initially_hidden: true, is_player_ship: true}
+	*	base:        129
+		owner:       1
+		at:          {x: 0, y: -16380}
+		attributes:  {initially_hidden: true, is_player_ship: true}
+conditions:
+	*	type:   "time"
+		op:     "ge"
+		action:
+			*	type:       "reveal"
+				reflexive:  true
+				which:      {begin: 9, end: 11}
+		value:  4780
+	*	type:     "owner"
+		op:       "eq"
+		subject:  2
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     1
+				text:
+					>	Player 2 captured Lelande Beta.
+		player:   1
+	*	type:     "owner"
+		op:       "eq"
+		subject:  3
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     0
+				text:
+					>	Player 1 Captured Lelande Alpha
+		player:   0
+briefings:
+	*	title:  "The Gaitori"
+		content:
+			>	^P10016^Welcome to your first combat mission, humans.
+			|	This system is under the control of the Gaitori, a race of ruthless
+			>	mercenaries and minions of our common enemy, the Cantharan Order.
+starmap:     {x: 100, y: 100}
+start_time:  240
+description:
+	>	Dispersed asteroid field, two planets, one bunker station, four
+	>	outposts. Outposts earn 1/2 as much as planets & stations. (PPC
+	>	recommended)
+own_no_ships:
+	>	All of your ships have been destroyed.
+foe_no_ships:
+	>	All of your opponent's ships have been destroyed.

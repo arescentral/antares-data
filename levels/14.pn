@@ -1,0 +1,223 @@
+type:        "solo"
+bin:
+	$	00000002 00000384 10680006 ffffffff 00000100 68c00000 000200c8 10680002
+	$	ffffffff 00000100 00000000 ffffffff ffffffff ffffffff ffffffff 00000000
+	$	ffffffff ffffffff ffffffff ffffffff 010d3204 1b6b0138 0000000c 138b0061
+	$	00000007 00f10086 00350007 030cffff 00320016 00000000 00230000
+chapter:     22
+title:
+	>	\i Chapter 19 
+	|	\iYou Should Have Seen the One that Got Away
+	!
+players:
+	*	type:           "human"
+		race:           0
+		name:           "The UNS Resistance"
+		earning_power:  1.0
+	*	type:           "cpu"
+		race:           5
+		name:           "The Cantharan Order"
+		earning_power:  1.0
+score:
+	*	"_-Capture Pictoris"
+	*	"Beta, 1 & 2"
+	*	"-Destroy hostile"
+	*	"_-gateship"
+song:        5003
+initials:
+	*	base:             23
+		owner:            0
+		rename:           "Pictoris Alpha"
+		at:               {x: 1913, y: 6434}
+		earning:          1.0
+		sprite_override:  1022
+		build:            [100, 200, 300, 800]
+	*	base:             111
+		owner:            0
+		rename:           "Pictoris Alpha 1"
+		at:               {x: 3130, y: 6173}
+		earning:          1.0
+		sprite_override:  1009
+		build:            [100, 200]
+	*	base:     114
+		owner:    0
+		rename:   "Power Station BP1"
+		at:       {x: 1217, y: 9043}
+		earning:  1.0
+	*	base:             111
+		owner:            1
+		rename:           "Pictoris Beta 1"
+		at:               {x: -8956, y: -8173}
+		earning:          1.0
+		sprite_override:  1010
+		build:            [100, 200]
+	*	base:             111
+		owner:            1
+		rename:           "Pictoris Beta 2"
+		at:               {x: -5739, y: -10955}
+		earning:          1.0
+		sprite_override:  1011
+		build:            [100, 250]
+	*	base:             23
+		owner:            1
+		rename:           "Pictoris Beta"
+		at:               {x: -7565, y: -9391}
+		earning:          1.0
+		sprite_override:  1023
+		build:            [100, 200, 300, 800]
+	*	base:        166
+		owner:       0
+		at:          {x: 2347, y: 6260}
+		attributes:  {is_player_ship: true}
+	*	base:   223
+		owner:  1
+		at:     {x: -8608, y: -9217}
+	*	base:   45
+		owner:  1
+		at:     {x: -7391, y: -10173}
+	*	base:   45
+		owner:  1
+		at:     {x: -9738, y: -8348}
+	*	base:    167
+		owner:   0
+		at:      {x: 14347, y: 17825}
+		target:  0
+	*	base:    167
+		owner:   0
+		at:      {x: 1913, y: 7391}
+		target:  0
+conditions:
+	*	type:     "destroyed"
+		op:       "eq"
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     1
+		initial:  7
+		value:    true
+	*	type:                "owner"
+		op:                  "eq"
+		subject:             3
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     2
+			*	type:       "condition"
+				reflexive:  true
+				enable:     4
+		initially_disabled:  true
+		player:              0
+	*	type:                "owner"
+		op:                  "eq"
+		subject:             4
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     3
+			*	type:       "condition"
+				reflexive:  true
+				enable:     5
+		initially_disabled:  true
+		player:              0
+	*	type:                "owner"
+		op:                  "eq"
+		subject:             5
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     0
+				next:       23
+				text:
+					>	You succeeded in capturing the Beta Pictoris System, and you forced the
+					>	enemy Gate Ship to withdraw.
+		initially_disabled:  true
+		player:              0
+	*	type:                "owner"
+		op:                  "eq"
+		subject:             3
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				disable:    {begin: 2, end: 4}
+			*	type:       "condition"
+				reflexive:  true
+				enable:     1
+		initially_disabled:  true
+		player:              1
+	*	type:                "owner"
+		op:                  "eq"
+		subject:             4
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				disable:    {begin: 2, end: 4}
+			*	type:       "condition"
+				reflexive:  true
+				enable:     1
+		initially_disabled:  true
+		player:              1
+	*	type:     "owner"
+		op:       "eq"
+		subject:  0
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     1
+				text:
+					>	You allowed the Cantharans to capture the human base on Beta Pictoris
+					>	Alpha.
+		player:   1
+briefings:
+	*	title:  "Beta Pictoris"
+		content:
+			>	The human’s first extrasolar colony, the only surviving colony other
+			>	than Proxima Centauri, is in danger of being decimated. The humans in
+			>	the system destroyed their own jumpgate to avoid detection and the fate
+			>	that befell Earth, but the Cantharan Order has found them and has a
+			>	foothold in the system.
+	*	object:  7
+		title:   "Gate Ship"
+		content:
+			>	In their zeal to eliminate the remaining human threat, however, the
+			>	Cantharans have made what could be a critical mistake: they've brought
+			>	their only gateship, a massive vessel, into the Beta Pictoris system.
+			>	Its destruction would be the single greatest blow to their military
+			>	force we could deliver, possibly immobilizing their entire armada, and
+			>	ensuring victory for you.
+	*	object:  0
+		title:   "Pictoris Alpha"
+		content:
+			>	The human colony is here on Alpha. Their military base can produce
+			>	fighters, cruisers, gunships, and transports. Loss of this base will
+			>	force the us to abort the mission.^P1167^
+	*	object:  1
+		title:   "Pictoris Alpha 1"
+		content:
+			>	^P1166^Alpha One is Pictoris Alpha’s moon, and there’s a small base here
+			>	capable of producing fighters and cruisers.^P1165^
+	*	object:  2
+		title:   "Power Station BP1"
+		content:
+			>	^P1115^The humans also have a power station, BP-1, which will generate
+			>	resources for you. Protect this station. If the Cantharans destroy this
+			>	power station, you won’t be able to build as many ships.
+	*	object:  5
+		title:   "Pictoris Beta"
+		content:
+			>	The Cantharans have established themselves on Pictoris Beta and its two
+			>	moons. To complete this mission, you must occupy all three bases.
+	*	object:  7
+		title:   "Gate Ship"
+		content:
+			>	The Cantharan gateship, the Hair-mouth of Doz, will be an extremely
+			>	difficult target to destroy. Because of its incredible power capacity,
+			>	its shields may be nearly impenetrable. It also appears to have some
+			>	exotic weaponry, including a magnetic field that may be able to knock
+			>	out the electronic systems of nearby ships. Nonetheless, you must
+			>	destroy this ship to complete this mission.
+starmap:     {x: 241, y: 53}
+par_time:    780
+par_kills:   50
+par_losses:  35
+no_ships:
+	>	The Cantharan Order defeated you. Earth is doomed.

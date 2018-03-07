@@ -1,0 +1,691 @@
+type:         "solo"
+bin:
+	$	00000002 00000064 10680001 ffffffff 00000002 00000000 000200c8 10680002
+	$	ffffffff 00000100 00000000 ffffffff ffffffff ffffffff 00000000 00000000
+	$	ffffffff ffffffff ffffffff 00000000 00000000 1b5901f4 0bd10009 0fa2007e
+	$	ffff0018 014a0000 011f0500 0078ffff 00090001 00000000 00008000
+chapter:      1
+title:
+	>	\i Tutorial Lesson 1
+	|	\iMoons for Goons
+	!
+players:
+	*	type:           "human"
+		race:           1
+		name:           "The Human/Ishiman Cooperative"
+		earning_power:  0.008
+	*	type:           "cpu"
+		race:           5
+		name:           "The Cantharan Order"
+		earning_power:  1.0
+score:
+	*	"-Destroy all 5"
+	*	"_-transports."
+	*	"4\\0\\0\\5\\f\\t\\Remaining: \\/5"
+song:         4002
+initials:
+	*	base:        0
+		owner:       0
+		at:          {x: 0, y: 0}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {is_player_ship: true}
+	*	base:   0
+		owner:  0
+		at:     {x: -3000, y: 3000}
+		build:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+	*	base:   24
+		owner:  0
+		at:     {x: 0, y: 3000}
+		build:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+	*	base:   47
+		owner:  0
+		at:     {x: 3000, y: 3000}
+		build:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+	*	base:    23
+		rename:  "Simulated Planet"
+		at:      {x: 5000, y: 0}
+		build:   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+	*	base:        287
+		owner:       1
+		at:          {x: 3000, y: -1000}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {fixed_race: true, static_destination: true}
+	*	base:        0
+		owner:       0
+		at:          {x: 3000, y: 3000}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {initially_hidden: true}
+	*	base:        25
+		owner:       1
+		at:          {x: 3000, y: -6000}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		target:      7
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        25
+		owner:       1
+		at:          {x: 3250, y: -6250}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		target:      8
+		attributes:  {initially_hidden: true, static_destination: true}
+conditions:
+	*	type:   "time"
+		op:     "ge"
+		action:
+			*	type:  "key"
+				disable:
+					*	"up"
+					*	"down"
+					*	"left"
+					*	"right"
+					*	"fire_1"
+					*	"fire_2"
+					*	"fire_s"
+					*	"warp"
+					*	"select_friend"
+					*	"select_foe"
+					*	"select_base"
+					*	"target"
+					*	"order"
+					*	"zoom_in"
+					*	"zoom_out"
+					*	"comp_special"
+					*	"comp_build"
+					*	"zoom_shortcut"
+					*	"send_message"
+					*	"mouse"
+			*	type:   "zoom"
+				value:  "1:1"
+			*	type:             "push"
+				reflexive:        true
+				initial_subject:  0
+				kind:             "stop"
+			*	type:  "message"
+				id:    5700
+				pages:
+					*	>	#L322##72,363#Welcome to lesson 1.
+						>
+						>	To proceed, you need to learn to use the
+						|	ship’s computer, here on the left of your
+						|	display.
+						>
+						>	To select an option from the main menu, you
+						|	can double click on it.
+						>
+						>	Use the mouse to double click the <Message>
+						|	item now.
+		value:  0
+	*	type:    "computer"
+		op:      "eq"
+		action:
+			*	type:  "message"
+				id:    5701
+				pages:
+					*	>	#L322##116,337#Good.
+						>
+						>	Now, to see the next page of this message,
+						|	double click on the Next Page/Clear item.
+					*	>	#L322#As a shortcut, you can press the
+						|	#MSC key at any time to see the
+						|	next page of a message.
+						>
+						>	Try it now.
+					*	>	#L452##104,468#To back up to the main menu, click
+						|	the Main Menu button here, or press the
+						|	#CNC key.
+						>
+						>	Try backing up to the main menu now.
+		player:  0
+		screen:  "message"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:    "condition"
+				enable:  3
+		player:  0
+		id:      5701
+		page:    3
+	*	type:                "computer"
+		op:                  "eq"
+		action:
+			*	type:  "message"
+				id:    5750
+				pages:
+					*	>	#L322##72,363#Good. You can also use the #PRV
+						|	and #NXT keys to select commands
+						|	from the ship’s computer.
+						>
+						>	Use those keys now to hilite the
+						|	<Message> item in the Main Menu again.
+			*	type:  "key"
+				enable:
+					*	"comp_up"
+					*	"comp_down"
+					*	"comp_accept"
+					*	"comp_back"
+					*	"comp_message"
+					*	"comp_build"
+					*	"mouse"
+			*	type:    "condition"
+				enable:  22
+		initially_disabled:  true
+		player:              0
+		screen:              "main"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:   "zoom"
+				value:  "1:4"
+			*	type:    "condition"
+				enable:  5
+			*	type:  "key"
+				enable:
+					*	"zoom_in"
+					*	"zoom_out"
+					*	"comp_message"
+					*	"comp_build"
+		player:  0
+		id:      5704
+		page:    6
+	*	type:                "zoom"
+		op:                  "eq"
+		action:
+			*	type:  "message"
+				id:    5711
+				pages:
+					*	>	Very good.
+						>
+						>	Now let’s look at the dynamic zooming modes.
+						|	\i_[more]_\i_
+					*	>	The display is now in the dynamic \f0cZoom to Closest Hostile\r mode.
+						>	The display has automatically scaled to show the nearest hostile object,
+						>	in this case, a simulated Cantharan Transport.
+						>
+						>	Since the transport is far away, the display automatically sets itself
+						>	to a very small scale, where the images of the ships are replaced by
+						>	symbols. Since this is an enemy transport, its symbol is red.
+						|	\i_[more]_\i_
+					*	>	Notice that, as the enemy transport apporoaches, the display
+						>	automatically zooms in. When it moves away, the display automatically
+						>	zooms out.
+						>
+						>	The Zoom to Closest Hostile mode is the default zoom mode, and is
+						>	recommended for combat.
+						>
+						>	When you’re done watching the transport, go to the next page.
+						|	\i_[more]_\i_
+					*	>	Now Zoom all the way out to the \f0cZoom to All\r mode by hitting the
+						>	\i_#SC-_\i key several times.
+						>
+						>	This mode always shows all the objects in a scenario.
+		initially_disabled:  true
+		player:              0
+		value:               "2:1"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:             "order"
+				initial_subject:  5
+				initial_object:   0
+			*	type:    "condition"
+				enable:  7
+			*	type:   "zoom"
+				value:  "foe"
+		player:  0
+		id:      5711
+		page:    2
+	*	type:                "distance"
+		op:                  "lt"
+		subject:             0
+		object:              5
+		action:
+			*	type:             "order"
+				initial_subject:  5
+				initial_object:   4
+			*	type:    "condition"
+				delay:   120
+				enable:  8
+		initially_disabled:  true
+		value:               50000
+	*	type:                "distance"
+		op:                  "lt"
+		subject:             4
+		object:              5
+		action:
+			*	type:             "order"
+				initial_subject:  5
+				initial_object:   0
+			*	type:    "condition"
+				delay:   120
+				enable:  7
+		initially_disabled:  true
+		value:               50000
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:             "kill"
+				reflexive:        true
+				initial_subject:  5
+				kind:             "none"
+			*	type:    "condition"
+				enable:  10
+		player:  0
+		id:      5711
+		page:    4
+	*	type:                "zoom"
+		op:                  "eq"
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5715
+				pages:
+					*	>	As you saw with the transport, when the display is on a very small scale
+						>	(anything below \f0c1:4\r), symbols are used to represent the objects in
+						>	the scenario.
+						>
+						>	Let’s look at these symbols.
+						|	\i_[more]_\i_
+					*	>	#O1#Triangles represent small-to-medium sized
+						|	military ships.
+						>
+						>	Larger symbols indicate larger ships.
+						|	[more]
+					*	>	#O2#Crosses represent transports and other
+						|	specialty ships.
+						>
+						>	Pulsing symbols represent objects that are
+						|	severely damaged.
+						|	[more]
+					*	>	#O3#Diamonds represent large military vessels,
+						|	like carriers.
+						>
+						>	Green symbols represent ships that are
+						|	friendly to you.
+						|	[more]
+					*	>	#O4#Squares represent planets and stars.
+						>
+						>	When a symbol is blue, it indicates that the
+						|	object is not under anyone’s control.
+						|	[more]
+					*	>	Now, use the \i_#SC+_\i key to zoom in to \f0c1:1\r mode again.
+						>
+						>	The zoom modes, from smallest to largest, are: \f0cZoom to All\r,
+						>	\f0cZoom to Closest\r, \f0cZoom to Hostile\r, \f0c1:16\r, \f0c1:4\r,
+						>	\f0c1:2\r, \f0c1:1\r, and \f0c2:1\r.
+		initially_disabled:  true
+		player:              0
+		value:               "all"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:  "key"
+				disable:
+					*	"zoom_in"
+					*	"zoom_out"
+					*	"comp_special"
+					*	"zoom_shortcut"
+					*	"mouse"
+			*	type:   "zoom"
+				value:  "all"
+		player:  0
+		id:      5715
+		page:    1
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:             "heal"
+				reflexive:        true
+				initial_subject:  2
+				value:            -249
+		player:  0
+		id:      5715
+		page:    3
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:    "condition"
+				enable:  14
+			*	type:  "key"
+				enable:
+					*	"zoom_in"
+					*	"zoom_out"
+					*	"comp_message"
+					*	"comp_build"
+		player:  0
+		id:      5715
+		page:    6
+	*	type:                "zoom"
+		op:                  "eq"
+		action:
+			*	type:  "message"
+				id:    5721
+				pages:
+					*	>	Now let’s get to the control of your ship.
+						|	\i_[more]_\i_
+					*	>	The \i_#TCC_\i and \i_#TNC_\i keys turn your ship counter-clockwise and
+						>	clockwise. Try them now.
+						>
+						>	The green hollow triangle is your sight; it shows which way your ship is
+						>	pointing.
+						|	\i_[more]_\i_
+					*	>	The display is now zoomed to \f0c1:16\r. Try rotating some more with the
+						>	\i_#TCC_\i and \i_#TNC_\i keys.
+						>
+						>	At this scale, you must rely on your sight to determine what direction
+						>	you are facing.
+						|	\i_[more]_\i_
+					*	>	The display has been returned to \f0c1:1\r.
+						>
+						>	Now try the thrust key, \i_#ACC_\i to move your ship forward. Different
+						>	ships have different acceleration rates and different top speeds.
+						>
+						>	Try the \i_#DEC_\i key to bring your ship to a halt. Decelerating works
+						>	regardless of what direction you are facing.
+						|	\i_[more]_\i_
+					*	>	Many ships are capable of faster-than-light speeds.
+						>
+						>	To enter warp speed, press and hold down the warp key, \i_#WRP_\i. It
+						>	takes a moment for the engines to engage, so keep holding the key down.
+						>
+						>	You will stay in warp for as long as you hold down the key. Releasing
+						>	the key returns you to normal speed.
+						|	\i_[more]_\i_
+					*	>	#R231##618,280#Warping drains energy from
+						|	your ship’s available power, shown here. Your
+						|	available power must be at least 1/8th full
+						|	to enter warp.
+						>
+						>	Let’s take a moment to look at all the power
+						|	indicators.
+						|	[more]
+					*	>	#R102##618,152#This is your reserve power indicator.
+						>
+						>	This represents how much total energy you
+						|	have available.
+						|	[more]
+					*	>	#R231##618,280#Whenever you use energy, it comes from
+						|	here, the available power.
+						>
+						>	Energy is used for warping, restocking
+						|	ammo, recharging the shields, and for some
+						|	weapons.
+						>
+						>	The available power is recharged over time
+						|	from the reserve power.
+						|	[more]
+					*	>	#R359##618,412#This is your shield power. When your ship
+						|	takes damage, the shield power goes down.
+						>
+						>	If the shields are depleted, your ship will
+						|	explode.
+						>
+						>	Your shields are automatically recharged
+						|	from the available power, up to 50% strength.
+						|	[more]
+					*	>	Next we’re going to look the ship’s weapon systems.
+						|	\i_[more]_\i_
+					*	>	Your weapons are now enabled.
+						>
+						>	The \i_#FW1_\i key will fire your pulse weapon. Try it now. You can hold
+						>	the key down to fire continuously.
+						>
+						>	Zoom in to \f0c1:1\r for a better look.
+						|	\i_[more]_\i_
+					*	>	#L159##36,163#Some weapons, like the fusion pulse, have a
+						|	limited number of shots. The number of shots
+						|	you have left is displayed here.
+						>
+						>	Your ammo will slowly be replenished from
+						|	your available power, but only up to 50%
+						|	of its original amount.
+						|	[more]
+					*	>	Now try the beam cannon using the \i_#FW2_\i key.
+						|	\i_[more]_\i_
+					*	>	#L159##74,163#The beam cannon is an energy weapon, and
+						|	therefore does not have an ammo count.
+						>
+						>	Some secondary weapons do have a limited
+						|	number of shots. When they do, the number
+						|	of shots is displayed here.
+						|	[more]
+					*	>	#R231##618,281#Every time the beam weapon is fired, a
+						|	small amount of your available power is
+						|	used.
+						>
+						>	The available power gets automatically
+						|	replenished by the reserve power.
+						|	[more]
+					*	>	#L159##110,163#The standard cruiser you are in has no
+						|	special weapon.
+						>
+						>	If it did, that weapon’s ammo would be
+						|	displayed here.
+						>
+						>	The special weapon is triggered by the
+						|	#FW3 key.
+						|	[more]
+					*	>	You’re almost done with your first lesson. All you need to do now is
+						>	find and destroy two simulated Cantharan transports.
+						>
+						>	But there’s a catch...
+						|	\i_[more]_\i_
+					*	>	One of the transports is cloaked. Normally, Cantharan transports can’t
+						>	cloak, but since this is a simulation, it will help illustrate the use
+						>	of your radar.
+						|	\i_[more]_\i_
+					*	>	#L8##121,66#This is your radar. Its range is fixed.
+						>
+						>	Try scaling in and out, and notice the
+						|	lighter box which shrinks and grows in the
+						|	radar. That box represents the area visible
+						|	in the main display.
+						|	[more]
+					*	>	#L8##121,66#Any object within range will appear as a
+						|	flashing dot on your radar. It’s a good
+						|	way to keep track of objects in your vicinity
+						|	even if they’re not visible in your main
+						|	display.
+						>
+						>	Even cloaked objects will appear on
+						|	your radar.
+						|	[more]
+					*	>	To complete this training mission, you must destroy both transports.
+						>	Don’t worry -- the cloaked transport and the visible transport are near
+						>	each other.
+						>
+						>	Try zooming to the \f0cZoom to Hostile\r mode, and finding the red
+						>	transport symbol. Then point your ship toward it, and press and hold the
+						>	warp key.
+						>
+						>	When you get close, release the warp key, and close in for the kill.
+						>
+						>	Use the radar to find the cloaked ship.
+						>
+						>	Good luck!
+		initially_disabled:  true
+		player:              0
+		value:               "1:1"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:  "key"
+				enable:
+					*	"left"
+					*	"right"
+		player:  0
+		id:      5721
+		page:    2
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:  "key"
+				enable:
+					*	"up"
+					*	"down"
+					*	"warp"
+			*	type:   "zoom"
+				value:  "1:1"
+		player:  0
+		id:      5721
+		page:    4
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:   "zoom"
+				value:  "1:16"
+		player:  0
+		id:      5721
+		page:    3
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:       "key"
+				reflexive:  true
+				enable:
+					*	"fire_1"
+					*	"fire_2"
+					*	"fire_s"
+		player:  0
+		id:      5721
+		page:    11
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:   "reveal"
+				which:  {begin: 7, end: 9}
+			*	type:             "cloak"
+				reflexive:        true
+				initial_subject:  8
+			*	type:             "cap-speed"
+				reflexive:        true
+				initial_subject:  8
+				value:            0.0
+			*	type:             "cap-speed"
+				reflexive:        true
+				initial_subject:  7
+				value:            0.0
+			*	type:             "capture"
+				reflexive:        true
+				initial_subject:  4
+				player:           0
+			*	type:    "condition"
+				enable:  20
+		player:  0
+		id:      5721
+		page:    17
+	*	type:                "destroyed"
+		op:                  "eq"
+		action:
+			*	type:    "condition"
+				enable:  21
+		initially_disabled:  true
+		initial:             7
+		value:               true
+	*	type:                "destroyed"
+		op:                  "eq"
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     0
+				next:       2
+				text:
+					>	Good work. You completed the first tutorial.
+		initially_disabled:  true
+		initial:             8
+		value:               true
+	*	type:                "computer"
+		op:                  "eq"
+		action:
+			*	type:  "message"
+				id:    5751
+				pages:
+					*	>	#L322##72,363#Now press the Computer Accept key,
+						|	#ACT, to go to the Message Menu.
+						>
+			*	type:    "condition"
+				enable:  23
+		initially_disabled:  true
+		player:              0
+		screen:              "main"
+		line:                3
+	*	type:                "computer"
+		op:                  "eq"
+		action:
+			*	type:  "message"
+				id:    5704
+				pages:
+					*	>	#L322##116,340#Good.
+						|	Now execute the Next Page/Clear command
+						|	by pressing the #ACT key.
+					*	>	Good. As you learned, you can use the mouse or the keyboard to navigate
+						>	the computer menu.
+						>
+						>	Press \i_ESC_\i at any time if you wish to skip this tutorial. Press
+						>	\i_#HLP_\i at any time for a listing of all key functions.
+						>
+						>	During the game, messages will normally appear here in this fashion.
+						>	However, for the purposes of this tutorial, messages will pop up in a
+						>	variety of useful locations on the screen.
+						>
+						>	You’ll no longer be prompted to execute the Next Page/Clear command from
+						>	the Message Menu. Instead, messages will simply end with \i_[more]_\i if
+						>	there’s additional text to be displayed. You can simply hit \i_#MSC_\i
+						>	to continue.
+						|	\i_[more]_\i_
+					*	>	#O0#This is your ship, at the center of the screen.
+						>
+						>	The ship you are currently piloting will
+						|	always be centered on the screen.
+						|	[more]
+					*	>	For this simulation, your ship has been temporarily disabled. As
+						>	controls are explained, they will be enabled.
+						>
+						>	Let’s first look at the zooming controls.
+						|	\i_[more]_\i_
+					*	>	There are several fixed zoom modes, where the zoom level stays the same
+						>	all the time.
+						>
+						>	The screen is currently in the fixed \f0c1:1\r mode.
+						|	\i_[more]_\i_
+					*	>	The screen is now in fixed \f0c1:4\r mode, so everything appears one
+						>	quarter the size.
+						|	\i_[more]_\i_
+					*	>	The Zoom In key, \i_#SC+_\i, has now been activated.
+						>
+						>	Press it several times now to zoom in to \f0c2:1\r mode, where
+						>	everything will appear twice as large.
+						>
+						>	Notice that as you change zoom levels, the current mode is displayed at
+						>	the top of the screen.
+		initially_disabled:  true
+		player:              0
+		screen:              "message"
+starmap:      {x: 330, y: 287}
+par_time:     120
+par_kills:    9
+angle:        5
+is_training:  true
+prologue:
+	>	#+B2005
+	|	\i PROLOGUE 
+	|	\i 
+	|	#+
+	|	The Ishimans broadcast their plans to your crew -- your crew, once
+	>	explorers, now reluctant warriors.
+	>
+	>	Using their massive gateship, your new alien allies will transport the
+	>	UNS Ares and its crew to strategic points along the winding route to
+	>	Earth. With its jumpstream technology, the gateship can bridge great
+	>	distances in an instant.  Were it not for the war, you would be home in
+	>	weeks.
+	>
+	>	You will be supplied with ships and, when possible, bases of operation.
+	>	The Ishimans will provide you with tactical plans, but it will be up to
+	>	you to execute them successfully.
+	>
+	>	You have a vast expanse of space to cross, and it is filled with
+	>	unknowable dangers.
+	>
+	>	But first, you must prepare...
+no_ships:
+	>	Somehow, you lost your ship during a training exercise. You are most
+	>	unpromising.

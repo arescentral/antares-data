@@ -1,0 +1,148 @@
+type:        "solo"
+bin:
+	$	00000002 00000064 10680001 00001068 00000100 00acba78 0002012c 10680003
+	$	00001068 00000180 00cab8e8 ffffffff ffffffff ffffffff ffffffff 01000000
+	$	ffffffff ffffffff ffffffff ffffffff 00ac9830 1b5d0065 00000009 138c0021
+	$	00000002 016e0049 00fa0008 01a4ffff 000f0008 00000000 000f0000
+chapter:     8
+title:
+	>	\i Chapter 5 
+	|	\iOut of the Frying Pan...
+	!
+players:
+	*	type:           "human"
+		race:           1
+		name:           "The Human/Ishiman Cooperative"
+		earning_power:  1.0
+	*	type:           "cpu"
+		race:           6
+		name:           "The Gaitori Union"
+		earning_power:  1.5
+score:
+	*	"-Capture Aeneas"
+	*	"_-Beta"
+song:        5004
+initials:
+	*	base:        0
+		owner:       0
+		at:          {x: 0, y: 0}
+		attributes:  {is_player_ship: true}
+	*	base:             23
+		owner:            0
+		rename:           "Aeneas Alpha"
+		at:               {x: 1130, y: 1304}
+		earning:          1.0
+		sprite_override:  1011
+		build:            [100, 200, 800, 850]
+	*	base:    95
+		owner:   0
+		at:      {x: 1913, y: 521}
+		target:  1
+	*	base:   94
+		owner:  1
+		at:     {x: -11391, y: -9304}
+	*	base:    95
+		owner:   0
+		at:      {x: 1652, y: 2173}
+		target:  1
+	*	base:   243
+		owner:  1
+		at:     {x: -9664, y: -8245}
+	*	base:   93
+		owner:  1
+		at:     {x: -4004, y: -3990}
+	*	base:   93
+		owner:  1
+		at:     {x: -9184, y: -9367}
+	*	base:             23
+		owner:            1
+		rename:           "Aeneas Beta"
+		at:               {x: -9130, y: -9304}
+		earning:          1.0
+		sprite_override:  1012
+		build:            [100, 200, 800, 850]
+conditions:
+	*	type:     "owner"
+		op:       "eq"
+		subject:  1
+		action:
+			*	type:    "win"
+				player:  1
+				text:
+					>	Our base on Aeneas Alpha was captured by the Gaitori.
+		player:   1
+	*	type:     "owner"
+		op:       "eq"
+		subject:  8
+		action:
+			*	type:    "win"
+				player:  0
+				next:    9
+				text:
+					>	You captured Aeneas Beta.
+		player:   0
+briefings:
+	*	title:  "Aeneas System"
+		content:
+			>	The Gaitori defeat in the Demeter system effectively ended their potency
+			>	near Ishiman space; now we must take the battle to them.
+			>
+			>	We traced the jumpstream from Elysium to here, the Aeneas system. We
+			>	believe it's the primary base of operations for the Cantharan-loyal
+			>	military.
+			>
+			>	Your mission is to occupy their base, and to rout them from the system.
+	*	object:  0
+		title:   "Cruiser"
+		content:
+			>	^P1001^You'll start in a single standard cruiser, but you'll be able to
+			>	build more.
+	*	object:  8
+		title:   "Aeneas Beta"
+		content:
+			>	The Gaitori have a planet base on Aeneas Beta, one of the two planets in
+			>	the system. Their planet is defended by a flak drone.
+			|	^P1094^Flak drones are indestructible. In addition to having guided
+			>	rockets, they can fire deadly flak over a wide area. The only way to
+			>	gain control of a flak drone is with an engineering pod.
+	*	object:  1
+		title:   "Aeneas Alpha"
+		content:
+			>	You'll be coordinating the assault from our base on Aeneas Alpha.
+	*	object:  1
+		title:   "Aeneas Alpha"
+		content:
+			>	^P1096^In addition to fighters, cruisers, and transports, our base can
+			>	produce engineering pods. Send these robot ships to flak drones to gain
+			>	control of them. Once an engineering pod reaches a flak drone, the drone
+			>	will be configured to fire on enemy ships.
+			>
+			>	The engineering pods are equipped with defensive lasers, capable of
+			>	protecting them briefly from missiles and enemy ships. The pods are
+			>	invisible to the flak drones' sensors, but they are still susceptible to
+			>	weapons fire.
+	*	object:  8
+		title:   "Aeneas Beta"
+		content:
+			>	The Gaitori base on Beta is your objective. Land a transport here to
+			>	complete the mission.
+			|	^P1095^The Gaitori can also make fighters, cruisers, transports and
+			>	engineering pods. Their engineering pods also have defensive lasers.
+	*	object:  6
+		title:   "Flak Drone"
+		content:
+			>	^P1094^There's a flak drone positioned directly between the two planets
+			>	of Aeneas. You may want to send an engineering pod to this drone first
+			>	in order to prevent it from firing on any of your transports on their
+			>	way to Beta.
+	*	object:  5
+		title:   "Heavy Destroyer"
+		content:
+			>	^P1244^There's a Gaitori heavy destroyer currently over Beta. Compared
+			>	to our cruisers, it is an extremely dangerous ship.
+starmap:     {x: 366, y: 250}
+par_time:    420
+par_kills:   15
+par_losses:  15
+no_ships:
+	>	You lost all of your ships, and failed to repel the Gaitori Military.

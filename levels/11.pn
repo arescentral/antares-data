@@ -1,0 +1,197 @@
+type:       "solo"
+bin:
+	$	00000002 00000064 10680001 ffffffff 00000100 01000000 0002012c 10680003
+	$	ffffffff 00000100 4084ca64 ffffffff ffffffff ffffffff ffffffff 00cab9fc
+	$	ffffffff ffffffff ffffffff ffffffff 00000000 1b590126 0bcc0012 13880036
+	$	ffff0002 014a0079 011f0005 00780001 00090002 00000000 00000000
+chapter:    2
+title:
+	>	\i Chapter 1 
+	|	\iEasy Street
+	!
+players:
+	*	type:           "human"
+		race:           1
+		name:           "The Human/Ishiman Cooperative"
+		earning_power:  1.0
+	*	type:           "cpu"
+		race:           6
+		name:           "The Gaitori Union"
+		earning_power:  1.0
+score:
+	*	"-Destroy all 5"
+	*	"_-transports."
+	*	"4\\0\\0\\5\\f\\t\\Remaining: \\/5"
+song:       5000
+initials:
+	*	base:             23
+		owner:            1
+		rename:           "Charon Station"
+		at:               {x: 0, y: -97391}
+		earning:          1.0
+		sprite_override:  643
+	*	base:        179
+		owner:       1
+		at:          {x: -694, y: -35129}
+		target:      0
+		attributes:  {static_destination: true}
+	*	base:        179
+		owner:       1
+		at:          {x: -347, y: -42782}
+		target:      0
+		attributes:  {static_destination: true}
+	*	base:        179
+		owner:       1
+		at:          {x: 0, y: -47999}
+		target:      0
+		attributes:  {static_destination: true}
+	*	base:        179
+		owner:       1
+		at:          {x: -173, y: -53564}
+		target:      0
+		attributes:  {static_destination: true}
+	*	base:        179
+		owner:       1
+		at:          {x: -522, y: -57565}
+		target:      0
+		attributes:  {static_destination: true}
+	*	base:        0
+		owner:       0
+		at:          {x: 0, y: -23652}
+		target:      5
+		attributes:  {is_player_ship: true}
+	*	base:        38
+		owner:       1
+		at:          {x: -87, y: -33912}
+		target:      1
+		attributes:  {static_destination: true}
+	*	base:        38
+		owner:       1
+		at:          {x: -782, y: -33651}
+		target:      1
+		attributes:  {static_destination: true}
+	*	base:        38
+		owner:       1
+		at:          {x: 87, y: -41390}
+		target:      2
+		attributes:  {static_destination: true}
+	*	base:        38
+		owner:       1
+		at:          {x: -695, y: -41129}
+		target:      2
+		attributes:  {static_destination: true}
+	*	base:        38
+		owner:       1
+		at:          {x: 0, y: -46607}
+		target:      3
+		attributes:  {static_destination: true}
+	*	base:        38
+		owner:       1
+		at:          {x: -43, y: -46869}
+		target:      3
+		attributes:  {static_destination: true}
+	*	base:        38
+		owner:       1
+		at:          {x: -348, y: -46345}
+		target:      3
+		attributes:  {static_destination: true}
+	*	base:    37
+		owner:   1
+		at:      {x: -348, y: -52173}
+		target:  4
+	*	base:        37
+		owner:       1
+		at:          {x: -1217, y: -56172}
+		target:      5
+		attributes:  {static_destination: true}
+	*	base:        37
+		owner:       1
+		at:          {x: -347, y: -56172}
+		target:      5
+		attributes:  {static_destination: true}
+	*	base:        37
+		owner:       1
+		at:          {x: 696, y: -55999}
+		target:      5
+		attributes:  {static_destination: true}
+conditions:
+	*	type:     "counter"
+		op:       "eq"
+		action:
+			*	type:             "order"
+				initial_subject:  17
+				initial_object:   6
+		player:   0
+		counter:  0
+		value:    2
+	*	type:     "counter"
+		op:       "eq"
+		action:
+			*	type:    "win"
+				player:  0
+				next:    3
+				text:
+					>	You destroyed all five Gaitori transports, preventing any reinforcements
+					>	from reaching the Gaitori base.
+		player:   0
+		counter:  0
+		value:    5
+briefings:
+	*	title:  "Charon System"
+		content:
+			>	Welcome to your first combat mission, humans. In the Charon System, the
+			>	Gaitori have just established a new base near our space. A small convoy
+			>	of sublight transports is shuttling in a battalion of Gaitori
+			>	reinforcements, a blatantly aggressive act. Your mission in the Charon
+			>	System is to intercept and destroy the five transports.
+	*	object:  6
+		title:   "Cruiser"
+		content:
+			>	^P1001^For this mission you will have a single cruiser. Its combination
+			>	of maneuverability and medium armament make it a useful small offensive
+			>	vessel. The fusion pulse gun is fairly powerful, and the ship is stocked
+			>	with 50 fusion pulse charges. The photokinetic beam cannon is an energy
+			>	based supplement to this weapon.
+	*	object:  1
+		title:   "Transport"
+		content:
+			>	^P1087^Use your superlight boosters to quickly traverse the length of
+			>	the convoy, stopping to destroy each of the five transports.
+	*	object:  7
+		title:   "Fighter"
+		content:
+			>	^P1039^The transports are being escorted by an assortment of Gaitori
+			>	fighters and cruisers. Their primary weapons are kinetic laser cannons,
+			>	and concussive pellet guns, neither of which are very damaging.^P1038^
+	*	object:  0
+		title:   "Charon Station"
+		content:
+			>	^P10001^If any one of the transports reaches the Gaitori base, the
+			>	mission will be aborted. Good luck.
+starmap:    {x: 330, y: 287}
+par_time:   120
+par_kills:  9
+prologue:
+	>	#+B2005
+	|	\i PART 1 
+	|	\i 
+	|	#+10016
+	|	The Gaitori, ruthless mercenaries and minions of the Cantharan Order,
+	>	are the first enemy you must face in your quest for Earth. The Gaitori
+	>	Union, once an interstellar trading empire that linked the many
+	>	disparate space-faring civilizations together, was brought to its knees
+	>	by the Order, and now serves as sentry on the Cantharan frontier. 
+	>
+	>	#+
+	|	Although disorganized and thinly dispersed along the Los-Selactos line,
+	>	the Gaitori navy insulates the Order from the systems in the galactic
+	>	south. To reach Earth, you must first punch a hole through this border
+	>	zone.
+	>
+	>	#+
+	|	Under the guidance of the Ishimans, you will launch your initial strike
+	>	against the Gaitori, and test your prowess in battle for the first time.
+	>	You brace your crew for confrontation.
+no_ships:
+	>	You lost your ship. The Gaitori military has reinforced their outpost
+	>	near Ishiman space, and put a quick end to your quest.

@@ -1,0 +1,171 @@
+type:        "solo"
+bin:
+	$	00000002 00000064 10680001 ffffffff 00000100 00000000 000202bc 10680005
+	$	ffffffff 00000100 00000000 ffffffff ffffffff ffffffff ffffffff 28f40000
+	$	ffffffff ffffffff ffffffff ffffffff 00cabaa0 1b6901da 0000000e 1389006d
+	$	00000003 009c009a 00510006 03c0ffff 002d0014 00000000 001e00f0
+chapter:     20
+title:
+	>	\i Chapter 17 
+	|	\i...And It Feels So Good
+	!
+players:
+	*	type:           "human"
+		race:           1
+		name:           "The Human/Ishiman Cooperative"
+		earning_power:  1.0
+	*	type:           "cpu"
+		race:           8
+		name:           "The Audemedon Axis"
+		earning_power:  1.0
+score:
+	*	"-Capture Lalande"
+	*	"_-Beta"
+song:        5001
+initials:
+	*	base:  266
+		at:    {x: 0, y: 32767}
+	*	base:  267
+		at:    {x: 0, y: -32767}
+	*	base:             23
+		rename:           "Lalande Alpha"
+		at:               {x: 28260, y: 27129}
+		earning:          1.0
+		sprite_override:  1030
+		build:            [200, 300, 860, 500, 450, 800]
+	*	base:             23
+		rename:           "Lalande Beta"
+		at:               {x: -28260, y: -27129}
+		earning:          1.0
+		sprite_override:  1031
+		build:            [200, 300, 860, 500, 450, 800]
+	*	base:     104
+		rename:   "Bunker Station"
+		at:       {x: 0, y: 0}
+		earning:  1.0
+	*	base:        129
+		owner:       0
+		at:          {x: 28520, y: 28522}
+		attributes:  {initially_hidden: true, is_player_ship: true}
+	*	base:        151
+		owner:       0
+		at:          {x: 28957, y: 27652}
+		attributes:  {initially_hidden: true}
+	*	base:        151
+		owner:       0
+		at:          {x: 28167, y: 27126}
+		attributes:  {initially_hidden: true}
+	*	base:        151
+		owner:       0
+		at:          {x: 28866, y: 26603}
+		attributes:  {initially_hidden: true}
+	*	base:        164
+		owner:       0
+		at:          {x: 29474, y: 27559}
+		target:      2
+		attributes:  {initially_hidden: true}
+	*	base:        164
+		owner:       0
+		at:          {x: 29213, y: 26343}
+		target:      2
+		attributes:  {initially_hidden: true}
+	*	base:        148
+		owner:       1
+		at:          {x: -29218, y: -25044}
+		attributes:  {initially_hidden: true, is_player_ship: true}
+	*	base:     270
+		rename:   "Outpost 1"
+		at:       {x: 9391, y: -9043}
+		earning:  0.5
+	*	base:     270
+		rename:   "Outpost 2"
+		at:       {x: -8000, y: 9043}
+		earning:  0.5
+conditions:
+	*	type:   "time"
+		op:     "ge"
+		action:
+			*	type:       "reveal"
+				reflexive:  true
+				which:      {begin: 5, end: 12}
+			*	type:             "capture"
+				reflexive:        true
+				initial_subject:  2
+				player:           0
+			*	type:             "capture"
+				reflexive:        true
+				initial_subject:  3
+				player:           1
+			*	type:             "pay"
+				initial_subject:  3
+				value:            10000.0
+				player:           1
+		value:  4780
+	*	type:     "owner"
+		op:       "eq"
+		subject:  2
+		action:
+			*	type:    "win"
+				player:  1
+				text:
+					>	Out base on Lelande Alpha was captured.
+		player:   1
+	*	type:     "owner"
+		op:       "eq"
+		subject:  3
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     0
+				next:       21
+				text:
+					>	You captured the base on Lelande Beta, and it is again in human hands.
+		player:   0
+briefings:
+	*	title:  "Lalande"
+		content:
+			>	The Lelande System was the human's latest and biggest colony. Hidden in
+			>	a widely dispersed asteroid field, the humans hoped to escape the
+			>	Cantharans' notice. Unfortunately, the colonists here have been
+			>	overwhelmed by Audemedons.
+	*	object:  5
+		title:   "Heavy Destroyer"
+		content:
+			>	You will have the services of the base on Alpha, and you will be manning
+			>	this heavy destroyer.^P1130^
+			|	The base is capable of building even carriers.
+	*	object:  6
+		title:   "Cruiser"
+		content:
+			>	^P1152^The Elejeetians have graciously donated three more of their
+			>	cruisers to your cause. These cruisers are at your disposal.^P1165^The
+			>	humans have, against our wishes, also volunteered two cruisers.
+			>	Unfortunately, these cruisers are woefully underpowered and will be of
+			>	little use to you.
+	*	object:  4
+		title:   "Bunker Station"
+		content:
+			>	^P1105^Although not necessary to complete the mission, the stations in
+			>	this system can generate resources for your ship building. The bunker
+			>	station in the center generates as many resources as a planet.
+	*	object:  12
+		title:   "Outpost 1"
+		content:
+			>	There are two outposts in the Lelande System. Each generates half as
+			>	many resources as a planet. An outpost is captured in the same manner as
+			>	a bunker station: at least five EVATs from an assault transport must
+			>	enter the station.^P1271^
+	*	object:  3
+		title:   "Lalande Beta"
+		content:
+			>	Your goal in this mission is to recapture the base on Lelande Beta. It
+			>	is occupied by Audemedon forces.^P1149^The Audemedon ships greatly
+			>	outmatch ours.
+			|	^P1143^
+starmap:     {x: 156, y: 81}
+par_time:    960
+par_kills:   45
+par_losses:  30
+start_time:  240
+no_ships:
+	>	All of your ships were destroyed.

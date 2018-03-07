@@ -1,0 +1,177 @@
+type:        "solo"
+bin:
+	$	00000002 00000064 10680001 00001068 00000100 00acbadc 0002012c 10680003
+	$	00001068 00000140 00b000d0 ffffffff ffffffff ffffffff ffffffff 00000000
+	$	ffffffff ffffffff ffffffff ffffffff 00acbb20 1b5e006e 00000010 13880023
+	$	00000002 01af0051 00ed0009 01c2ffff 002d0009 00000000 000c0000
+chapter:     9
+title:
+	>	\i Chapter 6 
+	|	\i...Into the Fire
+	!
+players:
+	*	type:           "human"
+		race:           1
+		name:           "The Human/Ishiman Cooperative"
+		earning_power:  1.0
+	*	type:           "cpu"
+		race:           6
+		name:           "The Gaitori Union"
+		earning_power:  1.25
+score:
+	*	"-Capture Hades"
+	*	"_-Beta"
+song:        5000
+initials:
+	*	base:     114
+		owner:    0
+		rename:   "Power Station O-2"
+		at:       {x: 0, y: 3739}
+		earning:  1.0
+	*	base:     114
+		owner:    0
+		rename:   "Power Station O-3"
+		at:       {x: 3826, y: 2434}
+		earning:  1.0
+	*	base:     114
+		owner:    0
+		rename:   "Power Station O-1"
+		at:       {x: -5043, y: 2173}
+		earning:  1.0
+	*	base:     114
+		owner:    1
+		rename:   "Power Station G-2"
+		at:       {x: 0, y: -4434}
+		earning:  1.0
+	*	base:     114
+		owner:    1
+		rename:   "Power Station G-3"
+		at:       {x: 5739, y: -4869}
+		earning:  1.0
+	*	base:     114
+		owner:    1
+		rename:   "Power Station G-1"
+		at:       {x: -6521, y: -7739}
+		earning:  1.0
+	*	base:   93
+		owner:  0
+		at:     {x: 4032, y: 2477}
+	*	base:   93
+		owner:  0
+		at:     {x: -196, y: 3956}
+	*	base:   93
+		owner:  0
+		at:     {x: -5272, y: 2130}
+	*	base:   93
+		owner:  1
+		at:     {x: -6369, y: -7368}
+	*	base:   93
+		owner:  1
+		at:     {x: 141, y: -4282}
+	*	base:   93
+		owner:  1
+		at:     {x: 5532, y: -4716}
+	*	base:             23
+		owner:            0
+		rename:           "Hades Alpha"
+		at:               {x: 0, y: 9478}
+		earning:          1.0
+		sprite_override:  1013
+		build:            [100, 200, 800, 850]
+	*	base:             111
+		owner:            1
+		rename:           "Hades Beta"
+		at:               {x: 1652, y: -9130}
+		earning:          1.0
+		sprite_override:  1014
+		build:            [100, 200, 300, 800, 850]
+	*	base:        0
+		owner:       0
+		at:          {x: 956, y: 8782}
+		attributes:  {is_player_ship: true}
+	*	base:   64
+		owner:  1
+		at:     {x: -86, y: -9130}
+conditions:
+	*	type:     "owner"
+		op:       "eq"
+		subject:  12
+		action:
+			*	type:    "win"
+				player:  1
+				text:
+					>	A Gaitori transport landed on Hades Alpha.
+		player:   1
+	*	type:     "owner"
+		op:       "eq"
+		subject:  13
+		action:
+			*	type:    "win"
+				player:  0
+				next:    10
+				text:
+					>	You captured the Gaitori base on Hades Beta.
+		player:   0
+briefings:
+	*	title:  "Hades System"
+		content:
+			>	The Gaitori military has one remaining foothold near our space:  a joint
+			>	power station cluster, established as a gesture of cooperation between
+			>	the Obish and Gaitori governments after the war.
+			>
+			>	The Cantharan-loyalist Gaitori intend to destroy Obain's half of the
+			>	Hades System's power stations. Your mission is to occupy their base,
+			>	destroying as many Gaitori power stations as possible, and saving as
+			>	many of the Obish stations as you can.
+	*	object:  12
+		title:   "Hades Alpha"
+		content:
+			>	The Obish base, currently occupied by our forces, is on Alpha. It can
+			>	produce fighters, cruisers, transports, and engineering pods -- the
+			>	Hades system is littered with flak drones.
+	*	object:  2
+		title:   "Power Station O-1"
+		content:
+			>	^P1115^This is the first of the three Obish power stations. Each station
+			>	is guarded by a flak drone.
+			>
+			>	Note that the power stations produce tremendous resources -- keeping the
+			>	power stations from being destroyed will allow you to produce more
+			>	ships.
+	*	object:  0
+		title:   "Power Station O-2"
+		content:
+			>	^P1115^This is the second of the three Obish power stations.
+	*	object:  1
+		title:   "Power Station O-3"
+		content:
+			>	^P1115^The is the last of the three Obish power stations.
+	*	object:  13
+		title:   "Hades Beta"
+		content:
+			>	The Gaitori base is on Hades Beta. They can produce fighters, cruisers,
+			>	transports, engineering pods, as well as gunships. Land a transport here
+			>	to complete the mission.
+	*	object:  5
+		title:   "Power Station G-1"
+		content:
+			>	^P1115^This is the first of the three Gaitori controlled power stations.
+			>	Although you can complete the mission objectives without destroying the
+			>	Gaitori stations, keep in mind that the more stations they have intact,
+			>	the more ships they can manufacture.
+	*	object:  3
+		title:   "Power Station G-2"
+		content:
+			>	^P1115^This is the second of the three Gaitori power stations. Each of
+			>	the stations is guarded by a flak drone.
+	*	object:  4
+		title:   "Power Station G-3"
+		content:
+			>	^P1115^The is the last of the three Gaitori power stations.
+starmap:     {x: 431, y: 237}
+par_time:    450
+par_kills:   45
+par_losses:  12
+no_ships:
+	>	You lost all of your ships. The Hades system is in the hands of the
+	>	Gaitori, and Earth is still well beyond our reach.

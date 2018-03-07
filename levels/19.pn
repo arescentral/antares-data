@@ -1,0 +1,266 @@
+type:        "solo"
+bin:
+	$	00000002 00000384 10680006 ffffffff 00000100 00acbf88 000202bc 10680005
+	$	ffffffff 00000100 00cabb58 ffffffff ffffffff ffffffff ffffffff 01000000
+	$	ffffffff ffffffff ffffffff ffffffff 00000000 1b6a0103 00000023 138a0033
+	$	00000003 00b60093 003e0007 0177ffff 001d0015 00000000 00220000
+chapter:     21
+title:
+	>	\i Chapter 18 
+	|	\iBlood, Toil, Tears, and Sweat
+	!
+players:
+	*	type:           "human"
+		race:           0
+		name:           "The UNS Resistance"
+		earning_power:  1.0
+	*	type:           "cpu"
+		race:           8
+		name:           "The Audemedon Axis"
+		earning_power:  1.0
+score:
+	*	"-Capture Proxima"
+	*	"_-Alpha & Beta"
+song:        5002
+initials:
+	*	base:     23
+		rename:   "Proxima Alpha"
+		at:       {x: 1390, y: -2696}
+		earning:  1.0
+		build:    [100, 200, 300, 800]
+	*	base:             23
+		rename:           "Proxima Beta"
+		at:               {x: -9044, y: -17130}
+		earning:          1.0
+		sprite_override:  1021
+		build:            [100, 200, 300, 800]
+	*	base:        166
+		owner:       0
+		at:          {x: -2434, y: 3218}
+		attributes:  {is_player_ship: true}
+	*	base:        174
+		owner:       0
+		at:          {x: -1392, y: 3305}
+		target:      0
+		attributes:  {static_destination: true}
+	*	base:        174
+		owner:       0
+		at:          {x: -2086, y: 4348}
+		target:      0
+		attributes:  {static_destination: true}
+	*	base:        174
+		owner:       0
+		at:          {x: -2792, y: 5228}
+		target:      0
+		attributes:  {static_destination: true}
+	*	base:        174
+		owner:       0
+		at:          {x: -3737, y: 6184}
+		target:      0
+		attributes:  {static_destination: true}
+	*	base:        174
+		owner:       0
+		at:          {x: -4868, y: 7543}
+		target:      0
+		attributes:  {static_destination: true}
+	*	base:        177
+		owner:       1
+		at:          {x: -3391, y: -9043}
+		target:      1
+		attributes:  {static_destination: true}
+	*	base:    167
+		owner:   0
+		at:      {x: 1826, y: -1652}
+		target:  0
+	*	base:    167
+		owner:   0
+		at:      {x: 1478, y: -3391}
+		target:  0
+	*	base:   45
+		owner:  1
+		at:     {x: 869, y: -2260}
+	*	base:   45
+		owner:  1
+		at:     {x: 1913, y: -2173}
+	*	base:    17
+		owner:   1
+		at:      {x: 1044, y: -1304}
+		target:  8
+	*	base:        7
+		owner:       1
+		at:          {x: 0, y: 0}
+		target:      12
+		attributes:  {static_destination: true}
+	*	base:    164
+		owner:   0
+		at:      {x: 1652, y: -2695}
+		target:  10
+	*	base:    164
+		owner:   0
+		at:      {x: 782, y: -2695}
+		target:  11
+	*	base:   149
+		owner:  1
+		at:     {x: 1217, y: -1739}
+	*	base:   149
+		owner:  1
+		at:     {x: 1043, y: -1913}
+	*	base:    165
+		owner:   0
+		at:      {x: -2782, y: 3739}
+		target:  2
+	*	base:    165
+		owner:   0
+		at:      {x: -3218, y: 4086}
+		target:  19
+	*	base:    165
+		owner:   0
+		at:      {x: -3217, y: 4565}
+		target:  20
+	*	base:    165
+		owner:   0
+		at:      {x: -2739, y: 4391}
+		target:  21
+	*	base:    165
+		owner:   0
+		at:      {x: -2478, y: 4173}
+		target:  22
+	*	base:    165
+		owner:   0
+		at:      {x: -2347, y: 3913}
+		target:  23
+	*	base:        142
+		owner:       1
+		at:          {x: 2521, y: -3478}
+		target:      8
+		attributes:  {static_destination: true}
+	*	base:        142
+		owner:       1
+		at:          {x: -2869, y: -7826}
+		target:      8
+		attributes:  {static_destination: true}
+	*	base:    167
+		owner:   0
+		at:      {x: -2086, y: 5913}
+		target:  5
+	*	base:    167
+		owner:   0
+		at:      {x: -3739, y: 5478}
+		target:  5
+	*	base:    166
+		owner:   0
+		at:      {x: -2260, y: 6695}
+		target:  27
+	*	base:    166
+		owner:   0
+		at:      {x: -4434, y: 5652}
+		target:  28
+	*	base:        148
+		owner:       1
+		at:          {x: -28869, y: -34782}
+		target:      0
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        148
+		owner:       1
+		at:          {x: -26086, y: -34086}
+		target:      0
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        148
+		owner:       1
+		at:          {x: -28173, y: -31304}
+		target:      1
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        148
+		owner:       1
+		at:          {x: 0, y: 0}
+		target:      1
+		attributes:  {initially_hidden: true, static_destination: true}
+conditions:
+	*	type:     "counter"
+		op:       "eq"
+		action:
+			*	type:             "capture"
+				reflexive:        true
+				initial_subject:  0
+				player:           0
+			*	type:    "pay"
+				value:   10000.0
+				player:  0
+		player:   0
+		counter:  0
+		value:    2
+	*	type:   "time"
+		op:     "ge"
+		action:
+			*	type:       "reveal"
+				reflexive:  true
+				which:      {begin: 31, end: 35}
+		value:  28167
+	*	type:     "owner"
+		op:       "eq"
+		subject:  1
+		action:
+			*	type:    "win"
+				player:  0
+				next:    22
+				text:
+					>	You captured Proxima Centauri Beta.
+		player:   0
+briefings:
+	*	title:  "Proxima Centauri System"
+		content:
+			>	The humans have been amassing a force in Proxima Centauri, using the
+			>	technological information we’ve been sending them. They’ve made some
+			>	progress, but the Cantharans have invaded their colony on Centauri
+			>	Alpha, where a surface battle has broken out. One of your objectives
+			>	here will be to deliver reinforcements to the colonists fighting on the
+			>	surface.
+	*	object:  2
+		title:   "Gunship"
+		content:
+			>	^P1167^You will begin this mission in a human gunship. It represents a
+			>	considerable improvement over their cruisers. Its magneto pulse gun
+			>	fires much more quickly, and it is equipped with an auto-targetting
+			>	laser turret.
+	*	object:  8
+		title:   "Transport"
+		content:
+			>	In spite of the immediate need for reinforcements on Alpha, your
+			>	absolute first priority is to destroy this Audemedon transport, en route
+			>	to Proxima Centauri Beta. Should it achieve landfall, you will quickly
+			>	be overwhelmed by Audemedon ships.
+	*	object:  24
+		title:   "Carrier"
+		content:
+			>	^P1168^We have rendezvoused with the human fleet which was dispatched to
+			>	Lelande in hopes of preventing its invasion. The UNS Wounded Knee and
+			>	the UNS Canada, colony ships the humans have converted to carriers, and
+			>	two additional gunships are at your command.^P1166^
+	*	object:  3
+		title:   "Transport"
+		content:
+			>	The fleet is escorting the five transports carrying the colonists from
+			>	Lelande. The colonists will serve as reinforcements to the humans
+			>	fighting on Centauri Alpha. To ensure victory in the surface battle, at
+			>	least two of these transports must land safely on Alpha.
+	*	object:  9
+		title:   "Carrier"
+		content:
+			>	Also, two human carriers are fighting a losing battle over Proxima
+			>	Centauri Alpha. The UNS Luna and the UNS France are seriously outmatched
+			>	by Audemedon and Cantharan forces. If possible, try to prevent their
+			>	destruction.
+	*	object:  1
+		title:   "Proxima Beta"
+		content:
+			>	Once you have gained control of Centauri Alpha, you will have instant
+			>	access to its considerable store of resources. To complete the mission,
+			>	build a transport and land it at the unoccupied base on Centauri Beta so
+			>	the humans can begin to shore up defenses there.
+starmap:     {x: 182, y: 62}
+par_time:    375
+par_kills:   29
+par_losses:  34
+no_ships:
+	>	The combined forces of the Cantharan Order and the Audemedon Axis have
+	>	wiped out all of your ships.

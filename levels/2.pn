@@ -1,0 +1,163 @@
+type:        "solo"
+bin:
+	$	00000002 00000064 10680001 00001068 00000100 0000c848 000200c8 10680002
+	$	00001068 00000140 0001b880 ffffffff ffffffff ffffffff ffffffff 00acb864
+	$	ffffffff ffffffff ffffffff ffffffff 00000000 1b61001d 00000007 138b0007
+	$	00000003 01700013 00c9000a 03c0ffff 000e000c 00000000 00080000
+chapter:     12
+title:
+	>	\i Chapter 9 
+	|	\iHand Over Fist
+	!
+players:
+	*	type:           "human"
+		race:           1
+		name:           "The Human/Ishiman Cooperative"
+		earning_power:  1.0
+	*	type:           "cpu"
+		race:           5
+		name:           "The Cantharan Order"
+		earning_power:  1.25
+score:
+	*	"-Capture Proteus"
+	*	"_-Gamma"
+song:        5003
+initials:
+	*	base:             23
+		owner:            0
+		rename:           "Proteus Alpha"
+		at:               {x: 12043, y: 38956}
+		earning:          1.0
+		sprite_override:  1002
+		build:            [100, 200, 300, 800, 600]
+	*	base:        45
+		owner:       1
+		at:          {x: -33825, y: -32695}
+		attributes:  {initially_hidden: true}
+	*	base:        0
+		owner:       0
+		at:          {x: 13586, y: 39456}
+		attributes:  {is_player_ship: true}
+	*	base:        7
+		owner:       1
+		at:          {x: 6260, y: -7478}
+		attributes:  {is_player_ship: true}
+	*	base:             23
+		rename:           "Proteus Beta"
+		at:               {x: -7999, y: 13652}
+		earning:          1.0
+		sprite_override:  1003
+		build:            [100]
+	*	base:             23
+		owner:            1
+		rename:           "Proteus Gamma"
+		at:               {x: 7304, y: -7565}
+		earning:          1.0
+		sprite_override:  1004
+		build:            [100, 200, 300, 800, 600]
+	*	base:    27
+		rename:  "Proteus"
+		at:      {x: -600, y: 9000}
+conditions:
+	*	type:   "time"
+		op:     "ge"
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         4200
+				pages:
+					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+						|	SOURCE: Human/Ishiman Coord. Control
+						|	\iWARNING. WARNING.\i The OHS Ring Of Zom, a Cantharan carrier, is en
+						>	route to the Proteus System. ETA -2 minutes.
+						|	\i<MORE>\i 
+					*	>	The Order's carriers have a standard compliment of ten fighters. They
+						>	are armed with guided missiles, defensive cluster cell generators, and
+						>	are extremely well armored. \i<EOT>\i 
+			*	type:   "reveal"
+				which:  1
+		value:  1200
+	*	type:        "owner"
+		op:          "eq"
+		subject:     0
+		action:
+			*	type:    "win"
+				player:  1
+				text:
+					>	The Order captured our base on Proteus Alpha.
+		persistent:  true
+		player:      1
+	*	type:        "owner"
+		op:          "eq"
+		subject:     5
+		action:
+			*	type:    "win"
+				player:  0
+				next:    13
+				text:
+					>	You captured the Cantharan base on Proteus Gamma.
+		persistent:  true
+		player:      0
+briefings:
+	*	title:  "Proteus"
+		content:
+			>	^P10020^The Cantharan Order controls the Proteus System. In your first
+			>	major offensive move against the Order, you will seize their base on
+			>	Proteus Gamma.
+	*	object:  0
+		title:   "Proteus Alpha"
+		content:
+			>	Our base Proteus Alpha will be at your disposal. It's well equipped and
+			>	capable of producing a variety of ships.
+			>
+			>	You must defend this planet from Cantharan occupation. If you allow the
+			>	Cantharans to land a transport here, the mission will be aborted.
+	*	object:  0
+		title:   "Proteus Alpha"
+		content:
+			>	^P1014^The base on Alpha can produce fighters and cruisers.^P1001^
+	*	object:  0
+		title:   "Proteus Alpha"
+		content:
+			>	^P1020^This base can also produce defense drones, gunships and
+			>	transports. The heavily armored gunships are slow, and they rely
+			>	entirely on energy weapons .^P1055^
+	*	object:  4
+		title:   "Philemon Beta"
+		content:
+			>	There's an unoccupied installation on Proteus Beta capable of
+			>	constructing fighters. Controlling Beta is not a mission requirement,
+			>	but you may want to take advantage of its resources--or prevent the
+			>	Cantharans from doing so.
+	*	object:  5
+		title:   "Proteus Gamma"
+		content:
+			>	This is the location of the Cantharan base. It has facilities equal to
+			>	our base on Alpha.
+	*	object:  5
+		title:   "Proteus Gamma"
+		content:
+			>	^P1015^Their base can also produce fighters and cruisers.^P1008^
+	*	object:  5
+		title:   "Proteus Gamma"
+		content:
+			>	^P1018^Cantharan gunships have antimatter pulse guns which are extremely
+			>	powerful at close range.^P1057^Their defense drones are best destroyed
+			>	with large squadrons of ships.
+	*	object:  5
+		title:   "Proteus Gamma"
+		content:
+			>	^P1026^Destroy any transports you encounter. They will probably make an
+			>	attempt to occupy Proteus Beta. If you lose Alpha, the mission is over.
+	*	title:  "Proteus Gamma"
+		content:
+			>	^P1046^We expect the Cantharans to have a carrier in the area. Be
+			>	prepared.
+starmap:     {x: 368, y: 201}
+par_time:    960
+par_kills:   14
+par_losses:  8
+no_ships:
+	>	You lost all of your ships, and the Proteus System is controlled by the
+	>	Cantharan Order. Without a foothold in the Cantharan Frontier there’s no
+	>	way we can advance deeper into their space.

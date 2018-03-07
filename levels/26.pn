@@ -1,0 +1,95 @@
+type:     "net"
+bin:
+	$	02000002 0001044c 10680001 ffffffff 00000000 02000000 0001044c 10680002
+	$	ffffffff 00000000 02000000 ffffffff ffffffff ffffffff 00000000 00000000
+	$	ffffffff ffffffff ffffffff 00000000 00000000 ffff0055 0c980005 138b0078
+	$	ffff0004 ffffffff ffff0000 ffffffff 0000001d 00000000 00000000
+chapter:  29
+title:
+	>	\i Spaze Warz 
+	|	\i 
+	!
+players:
+	*	type:   "human"
+		races:  [9]
+	*	type:   "human"
+		races:  [9]
+song:     5003
+initials:
+	*	base:        284
+		owner:       0
+		at:          {x: -2956, y: 0}
+		attributes:  {is_player_ship: true}
+	*	base:        284
+		owner:       1
+		at:          {x: 2955, y: 87}
+		attributes:  {is_player_ship: true}
+	*	base:  93
+		at:    {x: 0, y: -700}
+	*	base:  93
+		at:    {x: -700, y: 0}
+	*	base:  93
+		at:    {x: 700, y: 0}
+conditions:
+	*	type:     "destroyed"
+		op:       "eq"
+		action:
+			*	type:       "score"
+				reflexive:  true
+				which:      0
+				value:      1
+				player:     0
+			*	type:       "reveal"
+				reflexive:  true
+				delay:      360
+				which:      0
+			*	type:    "condition"
+				enable:  0
+		initial:  0
+		value:    true
+	*	type:     "destroyed"
+		op:       "eq"
+		action:
+			*	type:       "score"
+				reflexive:  true
+				which:      0
+				value:      1
+				player:     1
+			*	type:       "reveal"
+				reflexive:  true
+				delay:      360
+				which:      1
+			*	type:       "condition"
+				reflexive:  true
+				enable:     1
+		initial:  1
+		value:    true
+	*	type:     "counter"
+		op:       "ge"
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     1
+				text:
+					>	Player 2 wins!
+		player:   0
+		counter:  0
+		value:    3
+	*	type:        "counter"
+		op:          "ge"
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     0
+				text:
+					>	Player 1 wins!
+		persistent:  true
+		player:      1
+		counter:     0
+		value:       3
+description:
+	>	Two dinky ships, one purpose: kill the other guy three times.
+own_no_ships:
+	>	All of your ships have been destroyed.
+foe_no_ships:
+	>	All of your opponent's ships have been destroyed.

@@ -1,0 +1,295 @@
+type:       "solo"
+bin:
+	$	00000002 00000064 10680001 00afce58 00000100 0003000a 000200c8 10680002
+	$	00000000 00000100 00b5e230 00c8b340 00cc8f30 00cb6c5c 00000000 00000000
+	$	00b5e220 00b5e218 00000004 000000d8 03040301 1b6c0144 00000021 138c0073
+	$	0c8b0003 011c008d 002b0006 0258ffff 00320017 00000000 00000000
+chapter:    23
+title:
+	>	\i Chapter 20 
+	|	\iThe Mothership Connection
+	!
+players:
+	*	type:           "human"
+		race:           1
+		name:           "The Human/Ishiman Cooperative"
+		earning_power:  1.0
+	*	type:           "cpu"
+		race:           5
+		name:           "The Cantharan Order"
+		earning_power:  1.0
+score:
+	*	"-Destroy hostile"
+	*	"_-gateship"
+song:       5004
+initials:
+	*	base:        181
+		owner:       0
+		at:          {x: -87, y: 2520}
+		attributes:  {is_player_ship: true}
+	*	base:             23
+		owner:            1
+		rename:           "Earth"
+		at:               {x: 9739, y: -3043}
+		earning:          1.0
+		sprite_override:  1036
+	*	base:        180
+		owner:       1
+		at:          {x: 8347, y: -1304}
+		target:      1
+		attributes:  {is_player_ship: true, static_destination: true}
+	*	base:  196
+		at:    {x: -3042, y: 6086}
+	*	base:        45
+		owner:       1
+		at:          {x: 10523, y: -10522}
+		attributes:  {initially_hidden: true}
+	*	base:        45
+		owner:       1
+		at:          {x: 9739, y: -11478}
+		attributes:  {initially_hidden: true}
+	*	base:        45
+		owner:       1
+		at:          {x: 10695, y: -11651}
+		attributes:  {initially_hidden: true}
+	*	base:        45
+		owner:       1
+		at:          {x: 10000, y: -10609}
+		attributes:  {initially_hidden: true}
+	*	base:        45
+		owner:       1
+		at:          {x: 11391, y: -10348}
+		attributes:  {initially_hidden: true}
+	*	base:        45
+		owner:       1
+		at:          {x: 11305, y: -11477}
+		attributes:  {initially_hidden: true}
+	*	base:        62
+		owner:       1
+		at:          {x: 11304, y: -10956}
+		attributes:  {initially_hidden: true}
+	*	base:        62
+		owner:       1
+		at:          {x: 10174, y: -11304}
+		attributes:  {initially_hidden: true}
+	*	base:        178
+		owner:       0
+		at:          {x: 8088, y: 6609}
+		target:      1
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        178
+		owner:       0
+		at:          {x: 8218, y: 6577}
+		target:      1
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        178
+		owner:       0
+		at:          {x: 7980, y: 6619}
+		target:      1
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        178
+		owner:       0
+		at:          {x: 8034, y: 6739}
+		target:      1
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        178
+		owner:       0
+		at:          {x: 8164, y: 6685}
+		target:      1
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        178
+		owner:       0
+		at:          {x: 8023, y: 6539}
+		target:      1
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        178
+		owner:       0
+		at:          {x: 8147, y: 6533}
+		target:      1
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        178
+		owner:       0
+		at:          {x: 8299, y: 6734}
+		target:      1
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        178
+		owner:       0
+		at:          {x: 7882, y: 6550}
+		target:      1
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        178
+		owner:       0
+		at:          {x: 8251, y: 6484}
+		target:      1
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        167
+		owner:       0
+		at:          {x: 8056, y: 6484}
+		target:      16
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        167
+		owner:       0
+		at:          {x: 8348, y: 6647}
+		target:      17
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        167
+		owner:       0
+		at:          {x: 7925, y: 6717}
+		target:      18
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        167
+		owner:       0
+		at:          {x: 8196, y: 6788}
+		target:      19
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        164
+		owner:       0
+		at:          {x: 8018, y: 6897}
+		target:      0
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        166
+		owner:       0
+		at:          {x: 8267, y: 6875}
+		target:      0
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        166
+		owner:       0
+		at:          {x: 7925, y: 6837}
+		target:      23
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        166
+		owner:       0
+		at:          {x: 8120, y: 6782}
+		target:      25
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        165
+		owner:       0
+		at:          {x: 8142, y: 6886}
+		target:      13
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        164
+		owner:       0
+		at:          {x: 8045, y: 6853}
+		target:      28
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        166
+		owner:       0
+		at:          {x: 8403, y: 6864}
+		target:      14
+		attributes:  {initially_hidden: true, static_destination: true}
+conditions:
+	*	type:     "health"
+		op:       "le"
+		subject:  2
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5170
+				pages:
+					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+						|	SOURCE: UNS Musgrave
+						|	We regret to inform you that the Cantharan carriers we were engaging at
+						>	Upsilon Andromeda have withdrawn. About four escaped through a
+						>	Cantharan-constructed jumpgate, and we were unable to pursue. Looks like
+						>	they’re headed your way. \i<EOT>\i 
+		value:    0.5
+	*	type:                "ships"
+		op:                  "eq"
+		action:
+			*	type:       "message"
+				reflexive:  true
+				delay:      360
+				id:         5171
+				pages:
+					*	>	\i INCOMING TRANSMISSION \i NO KEY - NW2 BROAD BEAM
+						|	SOURCE: UNS Musgrave
+						|	Unbelievable. We’re about to come into Sol through thanks to the Ishiman
+						>	gateship, and I can’t believe our sensors! We’re not picking up any
+						>	hostile ships. You did it! \i<EOT>\i 
+			*	type:       "reveal"
+				reflexive:  true
+				delay:      360
+				which:      {begin: 12, end: 33}
+		initially_disabled:  true
+		player:              1
+		value:               0
+	*	type:     "owner"
+		op:       "eq"
+		subject:  1
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     0
+				text:
+					>	Earth is free! The Cantharans have been defeated!
+		player:   0
+briefings:
+	*	title:  "Sol"
+		content:
+			>	The Cantharan gateship has withdrawn to Earth. It has activated a
+			>	jumpgate disruption device, apparently a derivative of the Audemedon
+			>	device you destroyed in the Ser system. Still, we believe we can get a
+			>	single ship through a small jumpstream to intercept the gateship. This
+			>	will be your last chance to destroy the gateship and to bring freedom to
+			>	your home world.
+	*	title:  "Sol"
+		content:
+			>	^P1062^We have two surprises for the Cantharan gateship. One is this
+			>	enhanced heavy cruiser, the ship you’ll be using to engage the gateship.
+			>	The Elejeetian Minister of Technology was most grateful for your
+			>	services, and supplied us with some modifications to our standard heavy
+			>	cruiser.
+	*	object:  0
+		title:   "Modified Cruiser"
+		content:
+			>	The heavy cruiser is now armed with an Onas pulse gun, an energy weapon
+			>	with very little drain. The cruiser has also been made faster and more
+			>	nimble. Even so, it is by itself no match for the gateship.
+	*	title:  "Sol"
+		content:
+			>	Therefore, we have a second surprise: to destroy the gateship, we’ll be
+			>	pushing a series of large, unstable asteroids into the Sol system
+			>	through small jumpstreams from the Fergason Belt. Of course, a collision
+			>	with one of these unstable asteroids would annihilate your heavy
+			>	cruiser, but your task is to alter the course of the asteroids so that
+			>	they collide with the gateship.
+	*	object:  2
+		title:   "Gate Ship"
+		content:
+			>	We doubt that the gateship is capable of forming another jumpgate in its
+			>	damaged state. Some of its weapons may also be inoperable. We estimate,
+			>	though, that it will take two or more collisions with asteroids to
+			>	destroy the gateship.
+	*	title:  "Sol"
+		content:
+			>	While you’re engaging the gateship, the remaining human carriers will be
+			>	launching a major assault lightyears away in the Upsilon Andromeda
+			>	system. Although the humans are expecting heavy losses, this assault is
+			>	merely intended to draw the Cantharan fleet away from Sol and the
+			>	Cantharan gateship. They are depending on you to deliver them a
+			>	liberated Earth. You must not fail.
+starmap:    {x: 284, y: 43}
+par_time:   600
+par_kills:  50
+epilogue:
+	>	#+B2005
+	|	#+10031
+	|	The Earth you left over one hundred and fifty years ago is greatly
+	>	changed. The people you knew are long since dead, and the place you
+	>	called home no longer exists.
+	>
+	>	#+
+	|	But neither time nor the Cantharans could destroy what you fought to
+	>	salvage: humanity. A mercy you eventually found outside of mankind.
+	>
+	>	#+
+	|	You will be welcomed as a hero, to be sure. The individuals will be
+	>	honored, and the crew of the Ares may even become legends.
+	>
+	>	#+
+	|	But the greatest victories this day do not belong to men. They belong to
+	>	humanity. They belong to our unending faith in our place in the
+	>	universe. And now humanity, with due arrogance, will claim that place.
+no_ships:
+	>	Your last hope, the specially enhanced heavy cruiser, was destroyed.
+	>	Earth was almost yours.

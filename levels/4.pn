@@ -1,0 +1,287 @@
+type:        "solo"
+bin:
+	$	00220002 00000064 10680001 00001068 00000100 00220000 000200c8 10680002
+	$	00001068 00000140 00224442 ffffffff ffffffff ffffffff ffffffff 00af89ac
+	$	ffffffff ffffffff ffffffff ffffffff 00b000d0 1b66003d 0fdf0012 138b000d
+	$	00000006 00de0022 0082000d 0528ffff 005f0011 00000000 001e0000
+chapter:     17
+title:
+	>	\i Chapter 14 
+	|	\iCaptivating
+	!
+players:
+	*	type:           "human"
+		race:           1
+		name:           "The Human/Ishiman Cooperative"
+		earning_power:  1.0
+	*	type:           "cpu"
+		race:           5
+		name:           "The Cantharan Order"
+		earning_power:  1.25
+score:
+	*	"-Capture Bokleo"
+	*	"_-Gamma"
+	*	"-Free Bazidanese"
+	*	"_-Ship"
+song:        5003
+initials:
+	*	base:        61
+		owner:       0
+		at:          {x: 18261, y: 73651}
+		attributes:  {is_player_ship: true}
+	*	base:   77
+		owner:  0
+		at:     {x: 0, y: 0}
+	*	base:   75
+		owner:  1
+		at:     {x: -341, y: -85}
+	*	base:   75
+		owner:  1
+		at:     {x: 287, y: -235}
+	*	base:   75
+		owner:  1
+		at:     {x: 173, y: 260}
+	*	base:   62
+		owner:  1
+		at:     {x: -10782, y: -12955}
+	*	base:             23
+		owner:            1
+		rename:           "Bokleo Beta"
+		at:               {x: 434, y: -869}
+		earning:          1.0
+		sprite_override:  1006
+	*	base:   78
+		owner:  1
+		at:     {x: -260, y: -608}
+	*	base:             23
+		owner:            1
+		rename:           "Bokleo Gamma"
+		at:               {x: -4782, y: -21477}
+		earning:          1.0
+		sprite_override:  1007
+		build:            [100, 200, 800, 300, 250]
+	*	base:             23
+		owner:            0
+		rename:           "Bokleo Alpha"
+		at:               {x: 22783, y: 72259}
+		earning:          1.0
+		sprite_override:  1008
+		build:            [100, 200, 800]
+		attributes:       {static_destination: true}
+	*	base:    47
+		owner:   0
+		rename:  "ISN 8738810"
+		at:      {x: 15826, y: 80607}
+		target:  9
+	*	base:    47
+		owner:   0
+		rename:  "ISN 2020187"
+		at:      {x: 32260, y: 74433}
+		target:  9
+	*	base:    45
+		owner:   1
+		rename:  "The Gentle Fingers of Zom"
+		at:      {x: -12434, y: -19826}
+	*	base:    45
+		owner:   1
+		rename:  "The Chaste Dream of Doz"
+		at:      {x: -5738, y: -18868}
+	*	base:    45
+		owner:   1
+		rename:  "CRUISER"
+		at:      {x: -15043, y: -14347}
+	*	base:        45
+		owner:       1
+		at:          {x: -10173, y: -15391}
+		attributes:  {initially_hidden: true}
+	*	base:        45
+		owner:       1
+		at:          {x: -16434, y: -16259}
+		attributes:  {initially_hidden: true}
+	*	base:        17
+		owner:       1
+		at:          {x: -8869, y: -20086}
+		target:      16
+		attributes:  {initially_hidden: true, static_destination: true}
+conditions:
+	*	type:     "counter"
+		op:       "eq"
+		subject:  1
+		object:   1
+		action:
+			*	type:       "morph"
+				reflexive:  true
+				base:       67
+		player:   0
+		counter:  0
+		value:    3
+	*	type:     "owner"
+		op:       "eq"
+		subject:  6
+		object:   7
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     2
+			*	type:    "capture"
+				player:  0
+		player:   0
+	*	type:     "owner"
+		op:       "eq"
+		subject:  6
+		object:   7
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     1
+			*	type:    "capture"
+				player:  1
+		player:   1
+	*	type:   "time"
+		op:     "ge"
+		action:
+			*	type:       "reveal"
+				reflexive:  true
+				which:      15
+			*	type:       "reveal"
+				reflexive:  true
+				which:      16
+			*	type:       "reveal"
+				reflexive:  true
+				which:      17
+		value:  7200
+	*	type:        "owner"
+		op:          "eq"
+		subject:     8
+		action:
+			*	type:    "win"
+				player:  0
+				next:    18
+				text:
+					>	You captured the Cantharan base on Bokleo Gamma.
+		persistent:  true
+		player:      0
+	*	type:        "owner"
+		op:          "eq"
+		subject:     9
+		action:
+			*	type:    "win"
+				player:  1
+				text:
+					>	The Gaitori have taken our base on Demeter Alpha. The system is now
+					>	controlled by them.
+		persistent:  true
+		player:      1
+briefings:
+	*	title:  "Bokleo Alpha"
+		content:
+			>	^P10044^The Bokleo System was a neutral Bazidanese trading outpost until
+			>	the Cantharan Order occupied it. However, the Cantharans are not
+			>	interested in disrupting the trading routes--they have a much greater
+			>	prize.
+	*	object:  1
+		title:   "Bazidanese"
+		content:
+			>	^P10037^We're not sure what it is, but the Order somehow managed to
+			>	capture this Bazidanese vessel intact. Long range scans indicate that it
+			>	is fairly massive, and apparently well armed.
+			|	Since Bazidan has always been very secretive about its military
+			>	technologies, we are assuming that the Cantharans are as curious as we
+			>	are, and that they intend to reverse engineer this ship. Your objective
+			>	is to prevent them from doing so by forcing them out of the Bokleo
+			>	System.
+	*	object:  2
+		title:   "Tractor Moor"
+		content:
+			>	^P1076^The Bazidanese ship is anchored in place by three tractor moors,
+			>	which prevent the ship from moving or firing. You must destroy all three
+			>	moors to free the ship. Although the release of the ship is not
+			>	immediately imperative, we suspect the Bazidanese crew would be
+			>	grateful. 
+	*	object:  7
+		title:   "Border Drone"
+		content:
+			>	^P1079^In accordance with the Amilass Treaty, an invulnerable border
+			>	drone has been stationed near the neutral trading outpost on Bokleo
+			>	Beta. However, the Order has reconfigured it to fire on all hostile
+			>	vessels. Unlike the flak drones you’re familiar with, this border drone
+			>	does not have flak artillery.
+	*	object:  6
+		title:   "Bokleo Beta"
+		content:
+			>	The border drone is controlled from the outpost on Bokleo Beta. Land a
+			>	transport here to gain control of the drone; the drone cannot be
+			>	controlled with an engineering pod. The outpost has no ship building
+			>	capabilities.
+	*	object:  8
+		title:   "Bokleo Gamma"
+		content:
+			>	^P1063^The Cantharans have established a base on Gamma. It's capable of
+			>	producing fighters, heavy cruisers, gunships, and transports.
+			|	Landing a transport on Bokleo Gamma to control the base is your primary
+			>	objective.
+			|	^P1026^
+	*	object:  9
+		title:   "Bokleo Alpha"
+		content:
+			>	^P1001^We didn't have time to establish a strong presence on Alpha. Our
+			>	base can only produce fighters, cruisers, and transports. Be prepared
+			>	for heavy losses.
+			|	^P1014^
+	*	object:  10
+		title:   "ISN 8738810"
+		content:
+			>	^P1048^We have committed two carriers to this mission's completion. The
+			>	ISN 8738810 is on its first combat mission.
+	*	object:  11
+		title:   "ISN 2020187"
+		content:
+			>	^P1048^The ISN 2020187 has been repaired since the Battle of Sprist (in
+			>	which you destroyed the Constant Voice of Doz).
+	*	object:  12
+		title:   "The Gentle Fingers of Zom"
+		content:
+			>	^P1046^There are already three Cantharan carriers in the system and more
+			>	are on the way. The Gentle Finger of Zom was one of the two ships which
+			>	originally captured the Bokleo System.
+	*	object:  13
+		title:   "The Chaste Dream of Doz"
+		content:
+			>	^P1046^The Chaste Dream of Doz is the other carrier which first occupied
+			>	Bokleo.
+	*	object:  14
+		title:   "The Silent Question of Doz"
+		content:
+			>	^P1046^The Silent Question of Doz has just joined the other two
+			>	carriers.
+	*	object:  0
+		title:   "Heavy Cruiser"
+		content:
+			>	^P1062^You'll initially be using this heavy cruiser. You are welcome to
+			>	transfer control to any other ship you see fit.
+starmap:     {x: 222, y: 130}
+par_time:    1320
+par_kills:   95
+par_losses:  30
+prologue:
+	>	#+B2006
+	|	Before the Cantharan Crusades began, the Star League of Bazidan had
+	>	trading outposts scattered throughout what is now Cantharan space. With
+	>	enormous patience and a mastery of communication, the Bazidanese served
+	>	as intermediaries between civilizations, facilitating free trade between
+	>	alien species, opening their outposts to all.
+	>
+	>	#+
+	|	When the Order's belligerence began to disrupt the trading routes, and
+	>	Elejee and Ishima broke off their diplomatic ties to Cantharis, the
+	>	Bazidanese remained neutral in an effort to negotiate a peaceful end to
+	>	the Order's expansion. However, the Cantharans have begun to exhaust
+	>	even the legendary patience of Bazidan. 
+	>
+	>	#+
+	|	In the Bokleo System, an opportunity presents itself to you when you
+	>	learn of a brazen Cantharan attack on a Bazidanese outpost. Cantharis's
+	>	new enemy could be Earth's new ally.
+no_ships:
+	>	The Bokleo System is in the hands of the Cantharans, and you will never
+	>	see Earth again.

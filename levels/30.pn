@@ -1,0 +1,1029 @@
+type:         "solo"
+bin:
+	$	00000002 00000064 10680001 ffffffff 00000002 00000000 000200c8 10680002
+	$	ffffffff 00000002 00000000 ffffffff ffffffff ffffffff 00000000 00000000
+	$	ffffffff ffffffff ffffffff 00000000 00000000 1b590205 ffff0011 0fa200bb
+	$	ffff002c 014a0000 011f0500 ffffffff ffff0005 ffffff00 ffff8000
+chapter:      5
+title:
+	>	\i Tutorial Lesson 3
+	|	\iThe Complete Idiot’s Guide to Commanding a Space Armada
+	!
+players:
+	*	type:           "human"
+		race:           1
+		name:           "The Human/Ishiman Cooperative"
+		earning_power:  0.008
+	*	type:           "cpu"
+		race:           5
+		name:           "The Cantharan Order"
+		earning_power:  0.008
+score:
+	*	"-Destroy all 5"
+	*	"_-transports."
+	*	"4\\0\\0\\5\\f\\t\\Remaining: \\/5"
+song:         4002
+initials:
+	*	base:        0
+		owner:       0
+		at:          {x: 0, y: 0}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {is_player_ship: true}
+	*	base:    23
+		owner:   0
+		rename:  "Simulated Planet"
+		at:      {x: -200, y: -200}
+		build:   [267, 450, 500, 0, 0, 0, 0, 0, 0, 0, 0]
+	*	base:   61
+		owner:  0
+		at:     {x: 6000, y: 0}
+		build:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+	*	base:        24
+		owner:       0
+		at:          {x: 200, y: 200}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {initially_hidden: true}
+	*	base:        24
+		owner:       0
+		at:          {x: 400, y: 400}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {initially_hidden: true}
+	*	base:        13
+		owner:       0
+		at:          {x: 200, y: 250}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {initially_hidden: true}
+	*	base:        13
+		owner:       0
+		at:          {x: 250, y: 200}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {initially_hidden: true}
+	*	base:        25
+		owner:       1
+		at:          {x: 6000, y: -3000}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        25
+		owner:       1
+		at:          {x: 6100, y: -3000}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        25
+		owner:       1
+		at:          {x: 6000, y: -3100}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        25
+		owner:       1
+		at:          {x: 6200, y: -3000}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        25
+		owner:       1
+		at:          {x: 5900, y: -3000}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        25
+		owner:       1
+		at:          {x: 5950, y: -3200}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        25
+		owner:       1
+		at:          {x: 6300, y: -3000}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        25
+		owner:       1
+		at:          {x: 6410, y: -3400}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        25
+		owner:       1
+		at:          {x: 6000, y: -3000}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:        25
+		owner:       1
+		at:          {x: 6000, y: -3000}
+		build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+		attributes:  {initially_hidden: true, static_destination: true}
+conditions:
+	*	type:   "time"
+		op:     "ge"
+		action:
+			*	type:             "push"
+				initial_subject:  0
+				kind:             "stop"
+			*	type:  "key"
+				disable:
+					*	"up"
+					*	"down"
+					*	"fire_1"
+					*	"fire_2"
+					*	"fire_s"
+					*	"warp"
+					*	"order"
+					*	"comp_special"
+					*	"comp_build"
+					*	"send_message"
+			*	type:   "zoom"
+				value:  "1:2"
+			*	type:    "pay"
+				value:   2500.0
+				player:  0
+			*	type:  "message"
+				id:    5900
+				pages:
+					*	>	Welcome to Lesson 3.
+						>
+						>	In this final lesson, you will be shown how to build ships and give them
+						>	orders.
+						>
+						>	Again, we’ll be controlling the zoom, and turning on and off functions
+						>	as they apply.
+						>
+						>	Let’s start by building a ship.
+						|	\i_[more]_\i_
+					*	>	#O1#In many scenarios, you will own a base --
+						|	such as a planet -- which is capable of
+						|	building additional ships.
+						>
+						>	A base must be selected before you can build
+						|	at it.
+						>
+						>	Select this planet as a Control Object now.
+						|	You can simply click on it with the mouse.
+			*	type:             "capture"
+				reflexive:        true
+				delay:            160
+				initial_subject:  1
+				player:           0
+		value:  0
+	*	type:     "message"
+		op:       "eq"
+		subject:  1
+		action:
+			*	type:    "condition"
+				enable:  2
+		player:   0
+		id:       5900
+		page:     2
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             1
+		action:
+			*	type:  "message"
+				id:    5905
+				pages:
+					*	>	To build at a particular base, it must be selected first.
+						>
+						>	Once you’ve selected a base capable of building ships, you don’t need to
+						>	select it again, even if you select another ship, or another base that
+						>	can’t build. All subsequent build commands will be processed by the last
+						>	capable base you selected.
+						|	\i_[more]_\i_
+					*	>	#O1#In most scenarios, you’ll only have one base
+						|	capable of building, so you won’t usually
+						|	have to worry about selecting it first.
+						>
+						>	When a scenario begins, your primary base
+						|	gets selected by default.
+						>
+						>	This planet has been automatically
+						|	selected.
+						|	[more]
+					*	>	#L322##62,338#Now use the computer control keys or the
+						|	mouse to execute the <Build> item and get
+						|	to the Build Menu.
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:    "condition"
+				enable:  4
+		player:  0
+		id:      5905
+		page:    3
+	*	type:                "computer"
+		op:                  "eq"
+		action:
+			*	type:  "message"
+				id:    5910
+				pages:
+					*	>	#L322##62,338#The Build Menu is a list of ships you can
+						|	build at the most recently selected base.
+						>
+						>	The name of the base is at the top.
+						>
+						>	From now on, use the #MSC key to
+						|	see the next message, since we want to keep
+						|	looking at this menu.
+						|	[more]
+					*	>	#L322##87,352#In a moment, you’re going to to build a
+						|	cruiser.
+						|	[more]
+					*	>	#L322##79,366#These two items, the Heavy Destroyer and
+						|	the Carrier, are dimmed because you don’t
+						|	have the resources to build them.
+						|	[more]
+					*	>	#R160##636,68#This thin column of dots shows
+						|	your available resources.
+						>
+						>	The lower down the screen the green and blue
+						|	dots go, the more resources you have.
+						|	[more]
+					*	>	#R50##619,55#In the unlikely event that you have too many
+						|	resources to display in the green column,
+						|	these yellow bars will light up, each
+						|	representing one full column of resources.
+						|	[more]
+					*	>	#L322##87,364#We’ve selected the Heavy Destroyer, which as
+						|	we said you cannot afford.
+						|	[more]
+					*	>	#R160##632,82#Notice that when you select an item that you
+						|	can’t afford, the resource indicator shows
+						|	how many more resources you’d need.
+						>
+						>	The green dots show how many you have, and
+						|	the orange dots show how many you require.
+						|	[more]
+					*	>	#L322##87,352#Now we’ve selected the Cruiser.
+						|	[more]
+					*	>	#R160##632,62#You can afford the cruiser, so the Resource
+						|	Indicator shows you how much you’d have
+						|	left if you built one.
+						>
+						>	The green dots represent the resources
+						|	you’d have left; the blue dots represent
+						|	the amount you would spend.
+						|	[more]
+					*	>	#L322##87,352#To build a ship on the Build Menu,
+						|	you can double click on it, or select
+						|	it and press the Computer Accept Key,
+						|	#ACT.
+						>
+						>	Go ahead and build a Cruiser.
+		initially_disabled:  true
+		player:              0
+		screen:              "build"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:    "pay"
+				value:   23437.5
+				player:  0
+		player:  0
+		id:      5910
+		page:    5
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:             "pay"
+				initial_subject:  0
+				initial_object:   0
+				value:            -23437.5
+				player:           0
+			*	type:    "select"
+				screen:  "build"
+				line:    3
+		player:  0
+		id:      5910
+		page:    6
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:    "select"
+				screen:  "build"
+				line:    2
+		player:  0
+		id:      5910
+		page:    8
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:  "key"
+				enable:
+					*	"comp_build"
+			*	type:    "condition"
+				enable:  {begin: 9, end: 11}
+		player:  0
+		id:      5910
+		page:    10
+	*	type:                "building"
+		op:                  "eq"
+		action:
+			*	type:  "message"
+				id:    5925
+				pages:
+					*	>	#R9##617,22#This is the Build Progress Indicator.
+						>
+						>	The purple bar shows you how long it will
+						|	take for the current ship to be built.
+						>
+						>	When the ship is ready, we’ll continue.
+			*	type:  "key"
+				disable:
+					*	"comp_build"
+		initially_disabled:  true
+		player:              0
+		value:               true
+	*	type:                "counter"
+		op:                  "ge"
+		action:
+			*	type:  "message"
+				id:    5930
+				pages:
+					*	>	#O5#Good -- the ship was built.
+						>
+						>	Now, select this ship by clicking on it
+						|	with the mouse or by pointing yourself
+						|	at it and pressing the Select Friend key,
+						|	#SFD.
+			*	type:    "condition"
+				enable:  11
+		initially_disabled:  true
+		player:              0
+		counter:             0
+		value:               1
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             5
+		action:
+			*	type:  "message"
+				id:    5935
+				pages:
+					*	>	#L181##112,235#All ships have targets. This newly built
+						|	ship’s target is indicated here, in the
+						|	Control Display.
+						>
+						>	Its target is the planet.
+						|	[more]
+					*	>	#L181##117,270#When a ship is built, it adopts whatever
+						|	target you have selected at the time of the
+						|	ship’s creation.
+						>
+						>	You had the planet as your target, and when the
+						|	ship was built, it was given the same target.
+						>
+						>	Let’s demonstrate.
+						|	[more]
+					*	>	#O2#Target this Heavy Cruiser by clicking on it
+						|	while holding down the Target Key,
+						|	#DST.
+						>
+						>	You could also point at it with your ship
+						|	and hold down the Target Key, #DST,
+						|	and press the Select Friend Key,
+						|	#SFD.
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:   "zoom"
+				value:  "all"
+			*	type:    "condition"
+				enable:  13
+		player:  0
+		id:      5935
+		page:    3
+	*	type:     "subject"
+		op:       "eq"
+		subject:  2
+		action:
+			*	type:  "message"
+				id:    5940
+				pages:
+					*	>	#L322##87,352#OK, now build another Cruiser (double click
+						|	on the Cruiser item or press the Computer
+						|	Accept key, #ACT).
+						>
+						>	Watch what happens when the second cruiser
+						|	gets built.
+			*	type:   "zoom"
+				value:  "1:2"
+			*	type:    "select"
+				screen:  "build"
+				line:    3
+			*	type:    "condition"
+				enable:  14
+			*	type:  "key"
+				disable:
+					*	"select_friend"
+					*	"select_foe"
+					*	"select_base"
+					*	"mouse"
+			*	type:  "key"
+				enable:
+					*	"comp_build"
+		player:   0
+		value:    "target"
+	*	type:     "counter"
+		op:       "eq"
+		action:
+			*	type:  "message"
+				id:    5945
+				pages:
+					*	>	There it goes!
+						|	\i_[more]_\i_
+					*	>	#O6#When this ship left the planet, you had
+						|	the Heavy Cruiser selected as a target, so
+						|	the new ship adopted your target as its
+						|	own.
+						>
+						>	Ships will do anything to get to their
+						|	targets.
+						|	[more]
+					*	>	#O2#Let’s get those ships back to the planet.
+						>
+						>	First, select the Heavy Cruiser by clicking
+						|	on it or by facing it and using the Select
+						|	Friend key, #SFD.
+						>
+						>	You may have to click more than once.
+		player:   0
+		counter:  0
+		value:    2
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:   "zoom"
+				value:  "all"
+		player:  0
+		id:      5945
+		page:    2
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:    "condition"
+				enable:  17
+			*	type:  "key"
+				enable:
+					*	"select_friend"
+					*	"select_foe"
+					*	"select_base"
+					*	"mouse"
+		player:  0
+		id:      5945
+		page:    3
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             2
+		action:
+			*	type:  "message"
+				id:    5950
+				pages:
+					*	>	#O1#Now target this planet.
+						>
+						>	Hold down the Target key, #DST,
+						|	while you click on the planet.
+						>
+						>	Or, point your ship at the planet,
+						|	hold down #DST and
+						|	press the Select Base key,
+						|	#SBS.
+			*	type:   "zoom"
+				value:  "1:2"
+			*	type:    "condition"
+				enable:  18
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             1
+		action:
+			*	type:  "message"
+				id:    5955
+				pages:
+					*	>	#L181##112,235#OK, we’re about to give an order.
+						>
+						>	You have a Control Object selected -- the
+						|	Heavy Cruiser.
+						>
+						>	Since there’s no target displayed here in
+						|	the Control display, we know the Heavy
+						|	Cruiser has no assigned target.
+						|	[more]
+					*	>	#L181##117,270#You can see that you also have a Target
+						|	Object selected, the planet.
+						|	[more]
+					*	>	To give a ship a new target, press the Order To Go key, \i_#ORD_\i.
+						>
+						>	Press the \i_#ORD_\i key now to order the Control Object, the Heavy
+						>	Cruiser, to go to the Target Object, the planet.
+			*	type:   "zoom"
+				value:  "all"
+			*	type:    "condition"
+				enable:  19
+			*	type:  "key"
+				enable:
+					*	"order"
+		initially_disabled:  true
+		player:              0
+		value:               "target"
+	*	type:                "distance"
+		op:                  "lt"
+		subject:             1
+		object:              2
+		action:
+			*	type:  "message"
+				id:    5960
+				pages:
+					*	>	#O6#Good.
+						>
+						>	Did you notice that the standard Cruiser
+						|	that had the Heavy Cruiser as its target
+						|	followed along?
+						>
+						>	Until you give it a new target, this
+						|	standard Cruiser will follow the Heavy
+						|	Cruiser everywhere.
+						>
+						>	Let’s give the Cruiser a new target.
+						|	[more]
+					*	>	#O6#First, select this cruiser. You can just
+						|	click on it.
+			*	type:    "condition"
+				enable:  20
+		initially_disabled:  true
+		value:               50000
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             6
+		action:
+			*	type:  "message"
+				id:    5965
+				pages:
+					*	>	#O1#We want to have the Cruiser target the
+						|	planet.
+						>
+						>	You don’t need to reselect a target to give
+						|	it to multiple ships.
+						>
+						>	The planet is still your Target Object, so
+						|	you’re ready to give the order.
+						>
+						>	Press the Order To Go key, #ORD,
+						|	now.
+			*	type:    "condition"
+				enable:  21
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:                "ordered"
+		op:                  "eq"
+		subject:             6
+		object:              1
+		action:
+			*	type:  "message"
+				id:    5970
+				pages:
+					*	>	Good.
+						>
+						>	The Cruiser will now stay by the planet, even if the Heavy Cruiser is
+						>	ordered somewhere else.
+						>
+						>	Because you already had the planet selected as a target, you didn’t need
+						>	to target it before you assigned it to the Cruiser.
+						|	\i_more_\i_
+					*	>	Frequently, you’ll be required to capture bases, like planets.
+						>
+						>	The only way to capture a planet is to land a transport on it.
+						>
+						>	To land a transport on an unfriendly planet, you simply give the
+						>	transport the planet as a target.
+						|	\i_more_\i_
+					*	>	#O1#This planet is now hostile. We’ll show you
+						|	how to land a transport on it to reclaim
+						|	it.
+						|	[more]
+					*	>	#O3#Here’s a transport to use.
+						>
+						>	You still have the planet selected as a
+						|	target, so all you need to do is select
+						|	this transport and hit the Order to Go
+						|	key, #ORD.
+						>
+						>	The transport will go to your target,
+						|	the planet, and land on it.
+		initially_disabled:  true
+		player:              0
+		value:               true
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:             "capture"
+				reflexive:        true
+				initial_subject:  1
+				player:           1
+			*	type:             "zoom"
+				reflexive:        true
+				initial_subject:  1
+				value:            "1:16"
+			*	type:    "pay"
+				value:   -12800.0
+				player:  1
+			*	type:   "reveal"
+				which:  3
+			*	type:    "condition"
+				enable:  23
+		player:  0
+		id:      5970
+		page:    3
+	*	type:                "owner"
+		op:                  "eq"
+		subject:             1
+		action:
+			*	type:   "message"
+				delay:  280
+				id:     5975
+				pages:
+					*	>	Very good. You recaptured the planet. Transports must have a planet
+						>	targeted in order to capture it. Being near the planet isn’t enough.
+						>
+						>	As you’ve seen, you can have ships escort other ships by using the Order
+						>	to Go key.
+						>
+						>	This is a good way to protect your transports. Let’s try it now.
+						|	\i_more_\i_
+					*	>	#O6#Let’s start with this cruiser.
+						>
+						>	Select it.
+			*	type:   "reveal"
+				which:  4
+		initially_disabled:  true
+		player:              0
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:    "condition"
+				enable:  25
+		player:  0
+		id:      5975
+		page:    2
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             6
+		action:
+			*	type:  "message"
+				id:    5980
+				pages:
+					*	>	#O4#Good.
+						>
+						>	Now target this transport.
+			*	type:    "condition"
+				enable:  26
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             4
+		action:
+			*	type:  "message"
+				id:    5985
+				pages:
+					*	>	#O6#Now send this ship to the Transport.
+						>
+						>	Press the Order to Go key, #ORD.
+			*	type:    "condition"
+				enable:  27
+		initially_disabled:  true
+		player:              0
+		value:               "target"
+	*	type:                "ordered"
+		op:                  "eq"
+		subject:             6
+		object:              4
+		action:
+			*	type:  "message"
+				id:    5990
+				pages:
+					*	>	#O5#Good.
+						>
+						>	Now, select this cruiser and press the
+						|	#ORD key.
+						>
+						>	Again, notice that you don’t have to
+						|	reselect the target to send multiple ships
+						|	to it.
+			*	type:    "condition"
+				enable:  28
+		initially_disabled:  true
+		player:              0
+		value:               true
+	*	type:                "ordered"
+		op:                  "eq"
+		subject:             5
+		object:              4
+		action:
+			*	type:  "message"
+				id:    5995
+				pages:
+					*	>	#O2#Now, one more time for this Heavy Cruiser.
+						>
+						>	Select it and press #ORD.
+			*	type:    "condition"
+				enable:  29
+		initially_disabled:  true
+		player:              0
+		value:               true
+	*	type:                "ordered"
+		op:                  "eq"
+		subject:             2
+		object:              4
+		action:
+			*	type:  "message"
+				id:    7000
+				pages:
+					*	>	Great. Now the transport has three friendly escorts.
+						>
+						>	If you ordered the transport to a distant enemy planet, the Cruisers
+						>	would follow it and defend it from attack.
+						|	\i_more_\i_
+					*	>	It’s often very useful to select yourself as a target -- that way, you
+						>	can order several ships to escort you wherever you go. They’ll help
+						>	attack any enemies you meet.
+						>
+						>	You can target yourself without using the mouse by holding down the
+						>	Target key, \i_#DST_\i, for about one second, then releasing it (without
+						>	hitting any other keys).
+						>
+						>	Try it now (we’ve turned off mouse selection for the moment).
+		initially_disabled:  true
+		player:              0
+		value:               true
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:  "key"
+				disable:
+					*	"mouse"
+			*	type:   "zoom"
+				value:  "1:1"
+			*	type:    "condition"
+				enable:  31
+		player:  0
+		id:      7000
+		page:    2
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             0
+		action:
+			*	type:  "message"
+				id:    7005
+				pages:
+					*	>	Now order the two standard Cruisers and the Heavy Cruiser to follow you. 
+						>
+						>	Select each of them (the mouse has been turned back on) and press the
+						>	Order to Go key, \i_#ORD_\i..
+						>
+						>	We’ll continue when all three ships have you as their target.
+			*	type:    "condition"
+				enable:  32
+			*	type:  "key"
+				enable:
+					*	"mouse"
+			*	type:   "zoom"
+				value:  "all"
+		initially_disabled:  true
+		player:              0
+		value:               "target"
+	*	type:                "ordered"
+		op:                  "eq"
+		subject:             2
+		object:              0
+		action:
+			*	type:    "condition"
+				enable:  33
+		initially_disabled:  true
+		player:              0
+		value:               true
+	*	type:                "ordered"
+		op:                  "eq"
+		subject:             5
+		object:              0
+		action:
+			*	type:    "condition"
+				enable:  34
+		initially_disabled:  true
+		player:              0
+		value:               true
+	*	type:                "ordered"
+		op:                  "eq"
+		subject:             6
+		object:              0
+		action:
+			*	type:  "message"
+				id:    7010
+				pages:
+					*	>	Perfect.
+						>
+						>	Your third and final lesson is almost over!
+						>
+						>	Let’s wrap things up by looking at the two remaining menus on your
+						>	ship’s computer.
+						|	\i_more_\i_
+					*	>	#L322##116,375#Selecting the <Mission Status> item brings
+						|	up a screen which displays information about
+						|	your current objective.
+						>
+						>	For instance, when you had to destroy three
+						|	relay stations, this option told you how
+						|	many you had remaining.
+						|	[more]
+					*	>	#L322##116,350#The <Special Orders> item gives you access to
+						|	less frequently used commands.
+						>
+						>	Double click on it now, or press #ACT.
+			*	type:    "select"
+				screen:  "main"
+				line:    4
+		initially_disabled:  true
+		player:              0
+		value:               true
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:    "condition"
+				enable:  36
+			*	type:    "select"
+				screen:  "main"
+				line:    2
+		player:  0
+		id:      7010
+		page:    3
+	*	type:                "computer"
+		op:                  "eq"
+		action:
+			*	type:  "message"
+				id:    7015
+				pages:
+					*	>	#L322##116,337#Transfer Control is the most useful--
+						|	and powerful-- command.
+						>
+						>	It allows you to change which ship you’re
+						|	currently using. Usually, you can
+						|	personally command any ship that you own.
+						>
+						>	Let’s try it now.
+						|	[more]
+					*	>	#O2#Try transferring control to the Heavy
+						|	Cruiser.
+						>
+						>	First select it.
+		initially_disabled:  true
+		player:              0
+		screen:              "special"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:    "condition"
+				enable:  38
+		player:  0
+		id:      7015
+		page:    2
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             2
+		action:
+			*	type:  "message"
+				id:    7020
+				pages:
+					*	>	#L322##116,337#The Heavy Cruiser is your Current
+						|	Control Object.
+						>
+						>	Try transferring control to it.
+						>
+						>	Double click
+						|	the Transfer Control item or press the
+						|	#ACT key.
+			*	type:  "key"
+				enable:
+					*	"comp_special"
+			*	type:    "select"
+				screen:  "special"
+				line:    1
+			*	type:    "condition"
+				enable:  39
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             2
+		action:
+			*	type:  "message"
+				id:    7025
+				pages:
+					*	>	#O2#Good.
+						>
+						>	Now you’ve assumed control of this
+						|	Heavy Cruiser.
+						>
+						>	Transferring control is an essential
+						|	function, especially if your ship gets
+						|	destroyed!
+						|	[more]
+					*	>	#L322##116,350#Executing the Hold Position item will
+						|	cause your current Control Object to
+						|	stay at its current location, wherever that
+						|	may be, until otherwise ordered.
+						|	[more]
+					*	>	#L322##116,363#Executing the Go To My Position item will
+						|	cause your current Control Object to
+						|	come to your present location and stay
+						|	there until otherwise ordered.
+						|	[more]
+					*	>	#L322##116,374#The three firing commands allow you to
+						|	trigger your Control Object’s weapons
+						|	and devices remotely.
+						>
+						>	You might use this, for instance, to
+						|	cause a carrier to launch its fighters.
+						|	[more]
+					*	>	Good work. These three lessons have taught you almost everything you
+						>	need to know about controlling your ship and giving orders to others.
+						>
+						>	To complete this final lesson, you must destroy the ten simulated
+						>	Transports.
+						>
+						>	Of course, you could personally shoot them all, but it would be much
+						>	faster if you brought along some help...
+		initially_disabled:  true
+		player:              0
+		value:               "player"
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:   "zoom"
+				value:  "all"
+		player:  0
+		id:      5970
+		page:    4
+	*	type:    "message"
+		op:      "eq"
+		action:
+			*	type:   "reveal"
+				which:  {begin: 7, end: 17}
+			*	type:    "condition"
+				delay:   360
+				enable:  42
+			*	type:  "key"
+				enable:
+					*	"up"
+					*	"down"
+					*	"left"
+					*	"right"
+					*	"fire_1"
+					*	"fire_2"
+					*	"fire_s"
+					*	"warp"
+					*	"select_friend"
+					*	"select_foe"
+					*	"select_base"
+					*	"target"
+					*	"order"
+					*	"zoom_in"
+					*	"zoom_out"
+					*	"comp_up"
+					*	"comp_down"
+					*	"comp_accept"
+					*	"comp_back"
+					*	"comp_message"
+					*	"comp_special"
+					*	"comp_build"
+					*	"zoom_shortcut"
+					*	"send_message"
+					*	"mouse"
+			*	type:   "zoom"
+				value:  "foe"
+		player:  0
+		id:      7025
+		page:    5
+	*	type:                "ships"
+		op:                  "eq"
+		action:
+			*	type:    "win"
+				player:  0
+				next:    6
+				text:
+					>	Good work. You completed the third tutorial.
+		initially_disabled:  true
+		player:              1
+		value:               0
+	*	type:        "false"
+		subject:     0
+		object:      0
+		persistent:  true
+starmap:      {x: 330, y: 287}
+angle:        5
+is_training:  true
+no_ships:
+	>	Somehow, you lost your ship during a training exercise. You are most
+	>	unpromising.

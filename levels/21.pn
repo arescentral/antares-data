@@ -1,0 +1,99 @@
+type:        "net"
+bin:
+	$	01e30002 00010064 10680001 ffffffff 00000100 01e30000 00010064 10680001
+	$	ffffffff 00000100 01e30000 ffffffff ffffffff ffffffff 00000000 00000000
+	$	ffffffff ffffffff ffffffff 00000000 00000000 000001a4 0c940008 138a0068
+	$	00000003 00c80000 00c80001 ffffffff 00000018 00000000 000000f0
+chapter:     24
+title:
+	>	\i Between a Rock and a Rock 
+	|	\i 
+	!
+players:
+	*	type:           "human"
+		races:          [0, 1, 5, 6, 7, 8]
+		earning_power:  1.0
+	*	type:           "human"
+		races:          [0, 1, 5, 6, 7, 8]
+		earning_power:  1.0
+song:        5002
+initials:
+	*	base:  228
+		at:    {x: 0, y: 32767}
+	*	base:  229
+		at:    {x: 0, y: -32767}
+	*	base:             23
+		owner:            0
+		rename:           "Proteus Alpha"
+		at:               {x: 28260, y: 27129}
+		earning:          1.0
+		sprite_override:  1025
+		build:            [200, 300, 860, 500, 450, 800]
+	*	base:             23
+		owner:            1
+		rename:           "Proteus Beta"
+		at:               {x: -28260, y: -27129}
+		earning:          1.0
+		sprite_override:  1026
+		build:            [200, 300, 860, 500, 450, 800]
+	*	base:     104
+		rename:   "Bunker Station 1"
+		at:       {x: -6261, y: 22261}
+		earning:  1.0
+	*	base:     104
+		rename:   "Bunker Station 2"
+		at:       {x: 6621, y: -22621}
+		earning:  1.0
+	*	base:        129
+		owner:       0
+		at:          {x: 28520, y: 27129}
+		target:      2
+		attributes:  {initially_hidden: true, is_player_ship: true}
+	*	base:        129
+		owner:       1
+		at:          {x: -21131, y: -18608}
+		target:      3
+		attributes:  {initially_hidden: true, is_player_ship: true}
+conditions:
+	*	type:   "time"
+		op:     "ge"
+		action:
+			*	type:       "reveal"
+				reflexive:  true
+				which:      {begin: 6, end: 8}
+		value:  4780
+	*	type:     "owner"
+		op:       "eq"
+		subject:  2
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     1
+				text:
+					>	Player 2 captured Palyos Alpha.
+		player:   1
+	*	type:     "owner"
+		op:       "eq"
+		subject:  3
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     0
+				text:
+					>	Player 1 captured Palyos Beta.
+		player:   0
+briefings:
+	*	title:  "The Gaitori"
+		content:
+			>	^P10016^Welcome to your first combat mission, humans.
+			|	This system is under the control of the Gaitori, a race of ruthless
+			>	mercenaries and minions of our common enemy, the Cantharan Order.
+starmap:     {x: 200, y: 200}
+start_time:  240
+description:
+	>	Basic head to head: capture the enemy planet. An asteroid belt, two
+	>	planets, and two bunker stations. Asteroids mask ships at long range.
+own_no_ships:
+	>	All of your ships have been destroyed.
+foe_no_ships:
+	>	All of your opponent's ships have been destroyed.

@@ -1,0 +1,285 @@
+type:       "solo"
+bin:
+	$	00000002 00000064 10680001 00001068 00000001 00e500e6 000200c8 10680004
+	$	00001068 00000000 00000000 ffffffff ffffffff ffffffff ffffffff 4454455a
+	$	ffffffff ffffffff ffffffff ffffffff 00acbb84 1b630184 0c30000f 13880053
+	$	00000008 00a0007e 00b30008 01b3ffff 0008000e 00000000 00000000
+chapter:    14
+title:
+	>	\i Chapter 11 
+	|	\iShoplifter 2
+	!
+players:
+	*	type:           "human"
+		race:           1
+		name:           "The Human/Ishiman Cooperative"
+		earning_power:  0.004
+	*	type:  "cpu"
+		race:  5
+		name:  "The Prophets of Salril"
+score:
+	*	"-Rescue 21"
+	*	"_-humans"
+	*	"2\\0\\0\\0\\f\\t\\On board: \\/5"
+	*	"2\\1\\0\\0\\f\\t\\Rescued: \\/21"
+song:       5000
+initials:
+	*	base:             286
+		owner:            0
+		rename:           "UNS Ares"
+		at:               {x: 0, y: 0}
+		sprite_override:  599
+	*	base:        206
+		owner:       0
+		at:          {x: 521, y: 3304}
+		attributes:  {is_player_ship: true}
+	*	base:     210
+		owner:    1
+		rename:   "Simlab 1"
+		at:       {x: -3564, y: -22347}
+		earning:  1.0
+	*	base:     210
+		owner:    1
+		rename:   "Simlab 2"
+		at:       {x: 2434, y: -36869}
+		earning:  1.0
+	*	base:     210
+		owner:    1
+		rename:   "Simlab 3"
+		at:       {x: 521, y: -10608}
+		earning:  1.0
+	*	base:        112
+		owner:       1
+		at:          {x: 1739, y: -8782}
+		target:      4
+		attributes:  {static_destination: true}
+	*	base:        14
+		owner:       1
+		at:          {x: -521, y: -8782}
+		target:      4
+		attributes:  {static_destination: true}
+	*	base:        14
+		owner:       1
+		at:          {x: 260, y: -9043}
+		target:      4
+		attributes:  {static_destination: true}
+	*	base:        13
+		owner:       0
+		at:          {x: 1304, y: 3478}
+		target:      1
+		attributes:  {static_destination: true}
+	*	base:        13
+		owner:       0
+		at:          {x: -347, y: 4000}
+		target:      1
+		attributes:  {static_destination: true}
+	*	base:        7
+		owner:       1
+		at:          {x: -1741, y: -22173}
+		target:      2
+		attributes:  {static_destination: true}
+	*	base:        62
+		owner:       1
+		at:          {x: -5217, y: -23304}
+		target:      2
+		attributes:  {static_destination: true}
+	*	base:        110
+		owner:       1
+		at:          {x: 4869, y: -33391}
+		target:      3
+		attributes:  {static_destination: true}
+	*	base:        110
+		owner:       1
+		at:          {x: -1043, y: -35478}
+		target:      3
+		attributes:  {static_destination: true}
+	*	base:        110
+		owner:       1
+		at:          {x: 5217, y: -34782}
+		target:      3
+		attributes:  {static_destination: true}
+conditions:
+	*	type:     "counter"
+		op:       "eq"
+		action:
+			*	type:             "morph"
+				reflexive:        true
+				initial_subject:  1
+				base:             129
+				keep_ammo:        true
+		player:   0
+		counter:  0
+		value:    5
+	*	type:        "distance"
+		op:          "lt"
+		subject:     1
+		object:      0
+		action:
+			*	type:    "condition"
+				enable:  7
+		persistent:  true
+		value:       50000
+	*	type:                "counter"
+		op:                  "ge"
+		subject:             1
+		action:
+			*	type:                "create"
+				reflexive:           true
+				base:                207
+				relative_velocity:   true
+				relative_direction:  true
+			*	type:       "score"
+				reflexive:  true
+				which:      0
+				value:      -1
+				player:     0
+			*	type:       "condition"
+				reflexive:  true
+				enable:     0
+			*	type:             "morph"
+				reflexive:        true
+				initial_subject:  1
+				base:             206
+				keep_ammo:        true
+		initially_disabled:  true
+		player:              0
+		counter:             0
+		value:               1
+	*	type:        "distance"
+		op:          "ge"
+		subject:     1
+		object:      0
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				disable:    2
+			*	type:       "condition"
+				reflexive:  true
+				disable:    7
+		persistent:  true
+		value:       50000
+	*	type:     "counter"
+		op:       "eq"
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     0
+				next:       15
+				text:
+					>	You rescued more than two thirds of the human captives.
+		player:   0
+		counter:  1
+		value:    21
+	*	type:     "counter"
+		op:       "eq"
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     1
+				text:
+					>	You allowed too many of the human captives to die for this mission to be
+					>	considered a success.
+		player:   0
+		counter:  2
+		value:    10
+	*	type:     "destroyed"
+		op:       "eq"
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     1
+				text:
+					>	Without your modified destroyer, you can’t rescue the humans.
+		initial:  1
+		value:    true
+	*	type:     "speed"
+		op:       "lt"
+		subject:  1
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     2
+		value:    5.0
+briefings:
+	*	title:  "Heshac System"
+		content:
+			>	The Heshac System is owned by Salril. The presence of the deep space
+			>	simlabs indicates that the Salrilians are using it as part of their
+			>	Oracular Network. To our surprise, however, the beings inside the
+			>	simlabs are human.
+	*	title:  "Heshac System"
+		content:
+			>	Your mission in the Heshac System is to destroy the simlabs and to
+			>	rescue as many humans as possible.
+	*	object:  1
+		title:   "Heavy Destroyer"
+		content:
+			>	^P1130^For this mission you’ll be using a single destroyer. It’s a
+			>	powerful vessel, armed with a fullerene pulse gun, twin lepton beam
+			>	cannons, and one hundred and fifty concussion missiles. You'll also have
+			>	two fighters for escort.
+	*	object:  0
+		title:   "UNS Ares"
+		content:
+			>	^P10002^You’ll actually be making use of the UNS Ares in the Heshac
+			>	system, as it is the ship best equipped for holding humans. For obvious
+			>	reasons, the UNS Ares will not be engaging any enemy ships, or
+			>	approaching the Salrilian installations.
+	*	object:  2
+		title:   "Lab"
+		content:
+			>	^P1210^At each simlab, fire at the installation until you rip open its
+			>	walls. Take care, because once the simlab is open, the humans will
+			>	escape, and your weapons will not be keyed to the humans’ life signs so
+			>	the humans will be vulnerable to your weapons fire.
+	*	object:  1
+		title:   "Heavy Destroyer"
+		content:
+			>	Your destroyer has been specially modified to allow the humans to enter
+			>	from the outside. However, you’ll only be able to hold five of them at a
+			>	time. When you have as many humans aboard as possible, return them to
+			>	the UNS Ares.
+	*	object:  12
+		title:   "Cruiser"
+		content:
+			>	^P1113^There are an assortment of Salrilian and Cantharan ships guarding
+			>	the simlabs. The Salrilian warships are nimble and powerful. Even with
+			>	the destroyer, you’ll find engaging them a challenge.^P1111^
+	*	title:  "Heshac System"
+		content:
+			>	For this mission to be considered successful, you must rescue at least
+			>	twenty one of the thirty humans in the labs. Good luck.
+starmap:    {x: 160, y: 179}
+par_time:   435
+par_kills:  8
+prologue:
+	>	#+B2007
+	|	#+10025
+	|	The master race of the Cantharans, the Salrilians are believed to have
+	>	the ability to predict the near future. Far from supernatural, this
+	>	knowledge is the result of incredible investments in technology. Through
+	>	a process of quantum simulation, the Salrilians’ massive Oracular Net of
+	>	computers forecasts events well before they happen, anywhere in the
+	>	known galaxy. The more information the Salrilians have, the more
+	>	accurate the Oracles are. Thus, the Salrilians seek to learn all they
+	>	can about the Universe and its denizens. What they cannot understand,
+	>	they seek to contain. What they cannot contain they destroy.
+	>
+	>	#+
+	|	The Salrilians have a vested interest in the success of the Cantharans,
+	>	a race they can influence and understand. You were warned that as you
+	>	drew closer to Earth, you ran the risk of piquing the interest of the
+	>	Prophets. But now, the Ishimans have unexpected information for the
+	>	weary crew of the Ares.
+	>
+	>	#+
+	|	A string of deep space simlabs, Salrilian installations designed to
+	>	probe and analyze alien intelligences, has been detected in a nearby
+	>	system.
+	>
+	>	#+
+	|	The aliens in the simlabs are human.
+	>
+no_ships:
+	>	You lost your ship. The humans you failed to rescue will live out their
+	>	lives as the subjects of Salrilian experiments.

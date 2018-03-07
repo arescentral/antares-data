@@ -1,0 +1,125 @@
+type:     "net"
+bin:
+	$	02000002 0001044c 10680001 ffffffff 00000000 02000000 0001044c 10680001
+	$	ffffffff 00000000 02000000 ffffffff ffffffff ffffffff 00000000 00000000
+	$	ffffffff ffffffff ffffffff 00000000 00000000 ffff00d4 0c960016 13890076
+	$	ffff0002 ffffffff ffff0000 ffffffff 0000001c 00000000 00000000
+chapter:  28
+title:
+	>	\i Capture the Flagpod 
+	|	\i 
+	!
+players:
+	*	type:   "human"
+		races:  [9]
+	*	type:   "human"
+		races:  [9]
+song:     5001
+initials:
+	*	base:     23
+		owner:    0
+		rename:   "Retak Alpha"
+		at:       {x: 0, y: 8000}
+		earning:  1.0
+	*	base:     23
+		owner:    1
+		rename:   "Retak Beta"
+		at:       {x: 0, y: -8000}
+		earning:  1.0
+	*	base:   276
+		owner:  0
+		at:     {x: 8000, y: 8000}
+	*	base:   278
+		owner:  1
+		at:     {x: -8000, y: -8000}
+	*	base:   274
+		owner:  0
+		at:     {x: 0, y: 8000}
+	*	base:   275
+		owner:  1
+		at:     {x: 0, y: -8000}
+	*	base:        272
+		owner:       0
+		at:          {x: 273, y: 8478}
+		attributes:  {is_player_ship: true}
+	*	base:   272
+		owner:  0
+		at:     {x: -957, y: 8826}
+	*	base:   272
+		owner:  0
+		at:     {x: -131, y: 8696}
+	*	base:   272
+		owner:  0
+		at:     {x: 1434, y: 8348}
+	*	base:   272
+		owner:  0
+		at:     {x: -1000, y: 7261}
+	*	base:   272
+		owner:  0
+		at:     {x: -610, y: 8717}
+	*	base:   272
+		owner:  0
+		at:     {x: 1608, y: 7566}
+	*	base:   272
+		owner:  0
+		at:     {x: 391, y: 7044}
+	*	base:        273
+		owner:       1
+		at:          {x: 783, y: -6870}
+		attributes:  {is_player_ship: true}
+	*	base:   273
+		owner:  1
+		at:     {x: 1260, y: -7476}
+	*	base:   273
+		owner:  1
+		at:     {x: -174, y: -7477}
+	*	base:   273
+		owner:  1
+		at:     {x: -783, y: -5477}
+	*	base:    273
+		owner:   1
+		at:      {x: 695, y: -6432}
+		target:  1
+	*	base:    273
+		owner:   1
+		at:      {x: -2, y: -6695}
+		target:  1
+	*	base:    273
+		owner:   1
+		at:      {x: -2174, y: -6520}
+		target:  1
+	*	base:    273
+		owner:   1
+		at:      {x: -783, y: -5999}
+		target:  1
+conditions:
+	*	type:     "distance"
+		op:       "lt"
+		subject:  4
+		object:   1
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     1
+				text:
+					>	Player 2 captured the flagpod!
+		value:    50000
+	*	type:     "distance"
+		op:       "lt"
+		subject:  5
+		object:   0
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     0
+				text:
+					>	Player 1 captured the flagpod!
+		value:    50000
+description:
+	>	Capture opponent's flag by flying over it & ordering it back to your
+	>	planet. Ships transported to opponent's "jail" moor instead of dying.
+	>	Shoot moor to free your ships. No warping.
+own_no_ships:
+	>	All of your ships have been destroyed.
+foe_no_ships:
+	>	All of your opponent's ships have been destroyed.

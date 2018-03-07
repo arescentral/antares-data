@@ -1,0 +1,312 @@
+type:        "solo"
+bin:
+	$	00000002 00000064 10680001 ffffffff 00000100 00abcff8 000202bc 10680005
+	$	ffffffff 00000100 00cabb28 ffffffff ffffffff ffffffff ffffffff 00000000
+	$	ffffffff ffffffff ffffffff ffffffff 00acbf50 1b6800ba 11fe0019 1388002b
+	$	00000005 0068006a 00620005 00d2ffff 002a0013 00000000 00170000
+chapter:     19
+title:
+	>	\i Chapter 16 
+	|	\iHornet's Nest
+	!
+players:
+	*	type:           "human"
+		race:           1
+		name:           "The Human/Ishiman Cooperative"
+		earning_power:  1.0
+	*	type:           "cpu"
+		race:           8
+		name:           "The Audemedon Axis"
+		earning_power:  1.0
+score:
+	*	"1\\2\\0\\0\\Protect science\\Destroy jumpgate\\\\"
+	*	"1\\2\\0\\0\\vessel\\inhibitor\\\\"
+	*	"1\\3\\0\\0\\\\DESTROYED\\\\"
+	*	"1\\3\\0\\0\\\\Destroy all\\\\"
+	*	"1\\3\\0\\0\\\\hostile ships\\\\"
+song:        5000
+initials:
+	*	base:     160
+		owner:    1
+		rename:   "Massive Device"
+		at:       {x: 0, y: 0}
+		earning:  1.0
+	*	base:        109
+		owner:       0
+		at:          {x: 174, y: 7739}
+		target:      1
+		attributes:  {static_destination: true}
+	*	base:        151
+		owner:       0
+		at:          {x: 86, y: 7826}
+		target:      0
+		attributes:  {is_player_ship: true}
+	*	base:        129
+		owner:       0
+		at:          {x: 435, y: 8086}
+		target:      1
+		attributes:  {static_destination: true}
+	*	base:        129
+		owner:       0
+		at:          {x: -173, y: 6695}
+		target:      1
+		attributes:  {static_destination: true}
+	*	base:        147
+		owner:       1
+		at:          {x: 174, y: -2000}
+		target:      1
+		attributes:  {static_destination: true}
+	*	base:        147
+		owner:       1
+		at:          {x: -695, y: -2086}
+		target:      1
+		attributes:  {static_destination: true}
+	*	base:        147
+		owner:       1
+		at:          {x: -347, y: -2608}
+		target:      1
+		attributes:  {static_destination: true}
+	*	base:        147
+		owner:       1
+		at:          {x: -217, y: -1521}
+		target:      1
+		attributes:  {static_destination: true}
+	*	base:        147
+		owner:       1
+		at:          {x: -260, y: -2434}
+		target:      1
+		attributes:  {static_destination: true}
+	*	base:        148
+		owner:       1
+		at:          {x: -957, y: -174}
+		target:      0
+		attributes:  {static_destination: true}
+	*	base:        149
+		owner:       1
+		at:          {x: 1130, y: -43}
+		target:      0
+		attributes:  {static_destination: true}
+	*	base:        142
+		owner:       1
+		at:          {x: 43, y: -391}
+		target:      0
+		attributes:  {static_destination: true}
+	*	base:        117
+		owner:       0
+		at:          {x: -86, y: 9217}
+		attributes:  {initially_hidden: true}
+	*	base:        47
+		owner:       0
+		at:          {x: -86, y: 9217}
+		attributes:  {initially_hidden: true}
+	*	base:        47
+		owner:       0
+		at:          {x: -86, y: 9217}
+		attributes:  {initially_hidden: true}
+	*	base:        47
+		owner:       0
+		at:          {x: -86, y: 9217}
+		attributes:  {initially_hidden: true}
+	*	base:        129
+		owner:       0
+		at:          {x: -86, y: 9217}
+		target:      14
+		attributes:  {initially_hidden: true}
+	*	base:        129
+		owner:       0
+		at:          {x: -86, y: 9217}
+		target:      15
+		attributes:  {initially_hidden: true}
+	*	base:        129
+		owner:       0
+		at:          {x: -86, y: 9217}
+		target:      16
+		attributes:  {initially_hidden: true}
+	*	base:        148
+		owner:       1
+		at:          {x: 6608, y: -7478}
+		attributes:  {initially_hidden: true}
+	*	base:        148
+		owner:       1
+		at:          {x: 5043, y: -7826}
+		attributes:  {initially_hidden: true}
+	*	base:        142
+		owner:       1
+		at:          {x: 6000, y: -8173}
+		target:      20
+		attributes:  {initially_hidden: true}
+	*	base:        142
+		owner:       1
+		at:          {x: 5478, y: -6695}
+		target:      20
+		attributes:  {initially_hidden: true}
+	*	base:        149
+		owner:       1
+		at:          {x: 6434, y: -6347}
+		target:      21
+		attributes:  {initially_hidden: true}
+conditions:
+	*	type:     "destroyed"
+		op:       "eq"
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     1
+				text:
+					>	The science vessel was destroyed before it could collect enough data on
+					>	the Audemedon construction.
+			*	type:       "condition"
+				reflexive:  true
+				disable:    1
+			*	type:       "condition"
+				reflexive:  true
+				disable:    2
+		initial:  1
+		value:    true
+	*	type:   "time"
+		op:     "ge"
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5240
+				pages:
+					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+						|	SOURCE: Science Vessel ISN 0917996
+						|	There are several large hostile Audemedon vessels stationed around the
+						>	massive object. There are also five smaller ships on an intercept
+						>	course. We remind you that the success of this mission depends on the
+						>	safety of this ship.\i<EOT>\i 
+		value:  60
+	*	type:   "time"
+		op:     "ge"
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5241
+				pages:
+					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+						|	SOURCE: Science Vessel UNS 0917996
+						|	\i URGENT \i The massive object appears to be a jump stream
+						>	inhibitor--it operates on the NW1 frequency to disrupt the cohesion of
+						>	jump streams within a 23ly radius. It must have been activated after we
+						>	came in system. This object is a great military threat, and a violation
+						>	of interstellar law. Its immediate destruction is imperative. \i<MORE>\i
+					*	>	We intend to take a stand against Audemedons. As soon as you destroy the
+						>	jump stream inhibitor, we will be able to bring in three carriers with
+						>	escort. \i<EOT>\i 
+			*	type:       "condition"
+				reflexive:  true
+				disable:    0
+			*	type:             "order"
+				delay:            1200
+				initial_subject:  3
+				initial_object:   0
+			*	type:             "order"
+				initial_subject:  4
+				initial_object:   0
+		value:  2400
+	*	type:     "destroyed"
+		op:       "eq"
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				disable:    0
+			*	type:       "condition"
+				reflexive:  true
+				disable:    1
+			*	type:       "condition"
+				reflexive:  true
+				disable:    2
+			*	type:       "message"
+				reflexive:  true
+				delay:      360
+				id:         5243
+				pages:
+					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
+						|	SOURCE: Human/Ishiman Coord. Control
+						|	The Audemedons are sending additional ships to meet our carriers.
+						>	Destroy all hostile vessels and protect our carriers. \i<EOT>\i 
+			*	type:       "reveal"
+				reflexive:  true
+				delay:      360
+				which:      {begin: 20, end: 25}
+			*	type:       "reveal"
+				reflexive:  true
+				delay:      360
+				which:      {begin: 14, end: 20}
+			*	type:       "condition"
+				reflexive:  true
+				delay:      360
+				enable:     4
+		initial:  0
+		value:    true
+	*	type:                "ships"
+		op:                  "eq"
+		action:
+			*	type:       "win"
+				reflexive:  true
+				player:     0
+				next:       20
+				text:
+					>	You decimated the Audemedon fleet and destroyed the jumpstream
+					>	inhibitor.
+		initially_disabled:  true
+		player:              1
+		value:               0
+briefings:
+	*	title:  "Ser System"
+		content:
+			>	We're dropping you into the Ser System to investigate an unusual
+			>	phenomenon brought to our attention by the Elejeetians. They've been
+			>	experiencing problems maintaining jump streams that pass near Ser.
+	*	title:  "Ser System"
+		content:
+			>	^P10084^Long range scans have picked up this massive object. It appears
+			>	to be an Audemedon construction. We believe it may be causing the local
+			>	jump stream difficulties.
+	*	object:  1
+		title:   "Research Vessel"
+		content:
+			>	^P1110^You are to escort the UNS 0917996, a science vessel. From a safe
+			>	distance, it will be able to determine the function of the massive
+			>	Audemedon construction. If there are Audemedon ships in the Ser system,
+			>	make sure they don't prevent the UNS 0917996 from completing its
+			>	analysis.
+	*	object:  2
+		title:   "Cruiser"
+		content:
+			>	^P1152^Thanks in part to the Elejeetian Minister Jommo, the Elejeetian
+			>	government is loaning us one of their cruisers, which you will be
+			>	piloting for this mission. It's remarkably powerful for its size: its
+			>	main weapon, the Onas pulse gun, has a range comparable to our standard
+			>	concussive missiles, and its Neewo beam cannon can temporarily disable a
+			>	target's control systems.
+	*	object:  3
+		title:   "Heavy Destroyer"
+		content:
+			>	^P1130^We'll also be assigning two destroyers to help you escort the UNS
+			>	0917996 science vessel. These destroyers will be under the command of
+			>	the UNS 0917996.
+			>
+			>	When the UNS 0917996 has completed its analysis, we'll give you further
+			>	instructions.
+starmap:     {x: 104, y: 98}
+par_time:    210
+par_kills:   42
+par_losses:  23
+prologue:
+	>	#+B2007
+	|	The Salrilians, seething from their defeat in the Thasero System, call
+	>	upon their most dreaded ally: the Audemedon Axis, a race of intelligent
+	>	machines.
+	>
+	>	#+10017
+	|	Almost nothing is known about the Audemedons. Their technology is
+	>	incomprehensible, and their motives obscure.
+	>
+	>	#+
+	|	Apparently at the beck and call of the Prophets, the Audemedons serve as
+	>	Salril's elite guard. Incensed that you have defied the Oracular Net's
+	>	predictions, the Salrilians have the Axis ready a deadly response.
+no_ships:
+	>	The Audemedons have overwhelmed you. All of your ships were destroyed.

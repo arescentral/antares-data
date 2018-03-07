@@ -1,0 +1,617 @@
+type:      "solo"
+bin:
+	$	00000002 00000064 10680001 ffffffff 00000080 00000000 00020064 10680001
+	$	ffffffff 00000000 06000000 ffffffff ffffffff ffffffff ffffffff 00acbda4
+	$	ffffffff ffffffff ffffffff ffffffff 00000000 0000016d 00000017 13890040
+	$	00000013 0120006f 012e0006 ffffffff ffff001f 00000000 00000000
+chapter:   31
+title:
+	>	\i Training 
+	|	\iMoons for Goons
+	!
+players:
+	*	type:           "human"
+		race:           1
+		name:           "The Human/Ishiman Cooperative"
+		earning_power:  0.5
+	*	type:  "cpu"
+		race:  1
+		name:  "The Human/Ishiman Cooperative"
+song:      5001
+initials:
+	*	base:     23
+		owner:    0
+		rename:   "Omisha Station"
+		at:       {x: 0, y: -85}
+		earning:  1.0
+	*	base:             111
+		owner:            0
+		rename:           "Command Buoy A"
+		at:               {x: -86, y: -6260}
+		earning:          1.0
+		sprite_override:  591
+	*	base:             111
+		owner:            0
+		rename:           "Command Buoy B"
+		at:               {x: 0, y: -9478}
+		earning:          1.0
+		sprite_override:  591
+	*	base:    188
+		owner:   0
+		at:      {x: 0, y: -4869}
+		target:  1
+	*	base:        203
+		owner:       0
+		at:          {x: 87, y: 109}
+		target:      0
+		attributes:  {is_player_ship: true}
+	*	base:             111
+		owner:            0
+		rename:           "Build Moon"
+		at:               {x: -9739, y: -86}
+		earning:          1.0
+		sprite_override:  1024
+		build:            [1802]
+	*	base:             111
+		owner:            1
+		rename:           "Combat Buoy A"
+		at:               {x: 7478, y: 0}
+		earning:          1.0
+		sprite_override:  591
+	*	base:        188
+		owner:       1
+		at:          {x: 7826, y: -2260}
+		target:      6
+		attributes:  {static_destination: true}
+	*	base:             111
+		owner:            1
+		rename:           "Combat Buoy B"
+		at:               {x: 13391, y: 173}
+		earning:          1.0
+		sprite_override:  591
+	*	base:        188
+		owner:       1
+		at:          {x: 13739, y: 2956}
+		target:      8
+		attributes:  {static_destination: true}
+	*	base:        188
+		owner:       1
+		at:          {x: 13217, y: -1739}
+		target:      8
+		attributes:  {static_destination: true}
+	*	base:             111
+		owner:            1
+		rename:           "Combat Buoy C"
+		at:               {x: 19130, y: 173}
+		earning:          1.0
+		sprite_override:  591
+	*	base:        188
+		owner:       1
+		at:          {x: 18782, y: -1043}
+		target:      11
+		attributes:  {static_destination: true}
+	*	base:    188
+		owner:   1
+		at:      {x: 18608, y: 1565}
+		target:  11
+	*	base:        188
+		owner:       1
+		at:          {x: 18782, y: 173}
+		target:      11
+		attributes:  {static_destination: true}
+	*	base:             111
+		owner:            0
+		rename:           "Extra Ships"
+		at:               {x: 0, y: 9391}
+		earning:          1.0
+		sprite_override:  591
+	*	base:    203
+		owner:   0
+		at:      {x: 1739, y: 10086}
+		target:  15
+	*	base:    203
+		owner:   0
+		at:      {x: -2608, y: 10086}
+		target:  15
+	*	base:     137
+		owner:    0
+		rename:   "Omisha Jump Gate"
+		at:       {x: -17391, y: 16695}
+		earning:  1.0
+	*	base:   141
+		owner:  0
+		at:     {x: -16956, y: 16521}
+	*	base:   141
+		owner:  0
+		at:     {x: -17358, y: 17119}
+	*	base:   141
+		owner:  0
+		at:     {x: -17836, y: 16532}
+	*	base:        117
+		owner:       0
+		at:          {x: -17401, y: 16716}
+		attributes:  {initially_hidden: true}
+conditions:
+	*	type:     "distance"
+		op:       "lt"
+		subject:  "player"
+		object:   1
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     13
+			*	type:       "condition"
+				reflexive:  true
+				disable:    14
+			*	type:       "condition"
+				reflexive:  true
+				enable:     {begin: 15, end: 18}
+			*	type:       "message"
+				reflexive:  true
+				id:         5500
+				pages:
+					*	>	At these two buoys, you can practice commanding a ship by sending it to
+						>	a destination. First, select the practice drone as the CONTROL object by
+						>	using the mouse to click on it, or by pointing your ship at it and
+						>	pressing the \i #SFD \i key.
+			*	type:       "condition"
+				reflexive:  true
+				disable:    0
+			*	type:       "condition"
+				reflexive:  true
+				disable:    1
+			*	type:       "condition"
+				reflexive:  true
+				enable:     11
+			*	type:       "condition"
+				reflexive:  true
+				enable:     12
+		value:    50000
+	*	type:     "distance"
+		op:       "lt"
+		subject:  "player"
+		object:   2
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     13
+			*	type:       "condition"
+				reflexive:  true
+				disable:    14
+			*	type:       "condition"
+				reflexive:  true
+				enable:     {begin: 15, end: 18}
+			*	type:       "message"
+				reflexive:  true
+				id:         5500
+				pages:
+					*	>	At these two buoys, you can practice commanding a ship by sending it to
+						>	a destination. First, select the practice drone as the CONTROL object by
+						>	using the mouse to click on it, or by pointing your ship at it and
+						>	pressing the \i #SFD \i key.
+			*	type:       "condition"
+				reflexive:  true
+				disable:    0
+			*	type:       "condition"
+				reflexive:  true
+				disable:    1
+			*	type:       "condition"
+				reflexive:  true
+				enable:     11
+			*	type:       "condition"
+				reflexive:  true
+				enable:     12
+		value:    50000
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             3
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5501
+				pages:
+					*	>	Now select "Command Buoy A" as the TARGET object. This is where you will
+						>	tell the drone to go. While holding down the Target Key \i_#DST_\i
+						>	either click on Command Buoy A, or point at the buoy with your ship and
+						>	press the \i_#SBS_\i key while holding down the \i_#DST_\i key. Command
+						>	Buoy A is the nearby buoy that is closer to Omisha Station. You may have
+						>	to scale the display to see it.
+			*	type:       "condition"
+				reflexive:  true
+				disable:    8
+			*	type:       "condition"
+				reflexive:  true
+				enable:     4
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             3
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5502
+				pages:
+					*	>	Now select "Command Buoy B" as the TARGET object. This is where you will
+						>	tell the drone to go. While holding down the \i_#DST_\i key, either
+						>	click on Command Buoy B, or point at the buoy with your ship and press
+						>	the \i_#SBS_\i key (still while holding down the \i_#DST_\i key).
+						>	Command Buoy B is the nearby buoy that is farther from Omisha. You may
+						>	have to scale the display to see it.
+			*	type:       "condition"
+				reflexive:  true
+				disable:    9
+			*	type:       "condition"
+				reflexive:  true
+				enable:     5
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             1
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5503
+				pages:
+					*	>	You have now selected the drone as the CONTROL object--the ship which is
+						>	under your indirect control--and the buoy as the TARGET object--the
+						>	object to which you're ordering the drone to go. Press the Order to Go
+						>	Key, \i_#ORD_\i to send the drone to the buoy.
+		initially_disabled:  true
+		player:              0
+		value:               "target"
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             2
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5503
+				pages:
+					*	>	You have now selected the drone as the CONTROL object--the ship which is
+						>	under your indirect control--and the buoy as the TARGET object--the
+						>	object to which you're ordering the drone to go. Press the Order to Go
+						>	Key, \i_#ORD_\i to send the drone to the buoy.
+		initially_disabled:  true
+		player:              0
+		value:               "target"
+	*	type:                "distance"
+		op:                  "lt"
+		subject:             3
+		object:              1
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5504
+				pages:
+					*	>	Good job. The drone successfully reached the buoy. You can send your
+						>	ships almost anywhere--to planets, to other ships, or even to your own
+						>	ship.
+		initially_disabled:  true
+		value:               50000
+	*	type:                "distance"
+		op:                  "lt"
+		subject:             3
+		object:              2
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5504
+				pages:
+					*	>	Good job. The drone successfully reached the buoy. You can send your
+						>	ships almost anywhere--to planets, to other ships, or even to your own
+						>	ship.
+		initially_disabled:  true
+		value:               50000
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             1
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5505
+				pages:
+					*	>	You've already got the right buoy selected as the TARGET object, so now
+						>	select the practice drone as the CONTROL object by using the mouse to
+						>	click on it, or by pointing your ship at it and pressing the \i_#SFO_\i
+						>	key.
+			*	type:       "condition"
+				reflexive:  true
+				enable:     10
+		initially_disabled:  true
+		player:              0
+		value:               "target"
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             2
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     10
+			*	type:       "message"
+				reflexive:  true
+				id:         5505
+				pages:
+					*	>	You've already got the right buoy selected as the TARGET object, so now
+						>	select the practice drone as the CONTROL object by using the mouse to
+						>	click on it, or by pointing your ship at it and pressing the \i_#SFO_\i
+						>	key.
+		initially_disabled:  true
+		player:              0
+		value:               "target"
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             3
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5503
+				pages:
+					*	>	You have now selected the drone as the CONTROL object--the ship which is
+						>	under your indirect control--and the buoy as the TARGET object--the
+						>	object to which you're ordering the drone to go. Press the Order to Go
+						>	Key, \i_#ORD_\i to send the drone to the buoy.
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:                "distance"
+		op:                  "lt"
+		subject:             3
+		object:              1
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     3
+			*	type:       "condition"
+				reflexive:  true
+				enable:     9
+			*	type:       "condition"
+				reflexive:  true
+				disable:    12
+			*	type:       "condition"
+				reflexive:  true
+				enable:     7
+		initially_disabled:  true
+		value:               50000
+	*	type:                "distance"
+		op:                  "lt"
+		subject:             3
+		object:              2
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     2
+			*	type:       "condition"
+				reflexive:  true
+				enable:     8
+			*	type:       "condition"
+				reflexive:  true
+				enable:     6
+			*	type:       "condition"
+				reflexive:  true
+				disable:    11
+		initially_disabled:  true
+		value:               50000
+	*	type:     "distance"
+		op:       "lt"
+		subject:  "player"
+		object:   5
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     {begin: 0, end: 2}
+			*	type:       "condition"
+				reflexive:  true
+				disable:    {begin: 2, end: 13}
+			*	type:       "condition"
+				reflexive:  true
+				enable:     {begin: 15, end: 18}
+			*	type:       "message"
+				reflexive:  true
+				id:         5506
+				pages:
+					*	>	At this moon, you can practice building ships. Before you can build at a
+						>	base that you own, it first must be selected. Select the moon by
+						>	clicking on it with the mouse, or by pointing your ship at it and
+						>	pressing the Select Friendly Base Key, \i_#SBS_\i.
+			*	type:       "condition"
+				reflexive:  true
+				enable:     14
+		value:    50000
+	*	type:                "subject"
+		op:                  "eq"
+		subject:             5
+		action:
+			*	type:       "message"
+				reflexive:  true
+				id:         5507
+				pages:
+					*	>	Use the computer control keys (\i_#PRV_\i and \i_#NXT_\i to select,
+						>	\i_#ACT_\i to accept and \i_#CNC_\i to back up) to navigate to the
+						>	\i_Build_\i menu. Although at some bases you may have a choice of ships
+						>	to build, at this moon, your only choice is to build a practice drone.
+						>	From the build menu press the Computer Accept Key \i_#ACT_\i to build a
+						>	drone.
+		initially_disabled:  true
+		player:              0
+		value:               "control"
+	*	type:     "distance"
+		op:       "lt"
+		subject:  "player"
+		object:   6
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     {begin: 0, end: 2}
+			*	type:       "condition"
+				reflexive:  true
+				disable:    {begin: 2, end: 13}
+			*	type:       "condition"
+				reflexive:  true
+				enable:     13
+			*	type:       "condition"
+				reflexive:  true
+				disable:    14
+			*	type:       "condition"
+				reflexive:  true
+				enable:     {begin: 16, end: 18}
+			*	type:       "message"
+				reflexive:  true
+				id:         5509
+				pages:
+					*	>	The practice drones here are programmed to simulate combat with enemy
+						>	ships. "Killing" a drone will temporarily deactivate it. Likewise, if
+						>	your ship takes too much "damage," it will temporarily deactivate.
+						>
+						>	The nearby buoys farther out from Omisha Station have more drones
+						>	stationed at them.
+		value:    50000
+	*	type:     "distance"
+		op:       "lt"
+		subject:  "player"
+		object:   15
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     {begin: 0, end: 2}
+			*	type:       "condition"
+				reflexive:  true
+				disable:    {begin: 2, end: 13}
+			*	type:       "condition"
+				reflexive:  true
+				enable:     13
+			*	type:       "condition"
+				reflexive:  true
+				disable:    14
+			*	type:       "condition"
+				reflexive:  true
+				enable:     15
+			*	type:       "condition"
+				reflexive:  true
+				enable:     17
+			*	type:       "message"
+				reflexive:  true
+				id:         5510
+				pages:
+					*	>	When you've gotten some experience selecting objects, the ships at this
+						>	buoy are at your disposal. For practice, select one of them, then try
+						>	transferring control from the \i_Special Orders_\i menu or selecting a
+						>	target object and sending the ship there.
+		value:    50000
+	*	type:     "distance"
+		op:       "lt"
+		subject:  "player"
+		object:   0
+		action:
+			*	type:       "condition"
+				reflexive:  true
+				enable:     {begin: 0, end: 2}
+			*	type:       "condition"
+				reflexive:  true
+				disable:    {begin: 2, end: 13}
+			*	type:       "condition"
+				reflexive:  true
+				enable:     13
+			*	type:       "condition"
+				reflexive:  true
+				disable:    14
+			*	type:       "condition"
+				reflexive:  true
+				enable:     15
+			*	type:       "message"
+				reflexive:  true
+				id:         5511
+				pages:
+					*	>	Welcome to Omisha Station, where you can practice some of the basic
+						>	skills you'll need on your mission. Before you go anywhere, you should
+						>	make sure you know how to navigate your ship's computer menus.
+						>
+						>	- First, press the \i_#NXT_\i key to select the \i_Message_\i option on
+						>	your ship's computer's main menu, on the far left of the display.
+						|	- Next, when you've hilited the word \i_Message_\i, press the \i_#ACT_\i
+						>	key. The Message Menu will appear.
+						|	- Last, notice that the \i_Next Page/Clear_\i Command is hilited. Press
+						>	the \i_#ACT_\i key for more instructions on the next page of this
+						>	message.
+					*	>	Good work.  To go back to the computer's main menu, press the \i_#CNC_\i
+						>	key.
+						>
+						>	Now try the scaling keys, \i_#SC-_\i and \i_#SC+_\i. You'll need to
+						>	manually scale in for some operations, but in combat you can usually
+						>	leave the scaling on the automatic setting of "Scale to Closest
+						>	Hostile."
+						>
+						>	Navigate to the \i_Message_\i menu and select \i_Next Page/Clear_\i
+						>	again for more information, or, as a short cut, just press the
+						>	\i_#MSC_\i key.
+						>
+					*	>	Around Omisha Station, there's a trio of buoys where you can safely
+						>	practice combat, a pair of buoys where you can try giving orders to a
+						>	drone, a small moon where you can build drones, and a single buoy with
+						>	extra cruisers that are at your disposal.
+						>
+						>	When you're done experimenting, go to the Omisha Jump gate to begin your
+						>	first combat mission.
+						>
+						>	Clear this message by selecting \i_Next Page/Clear_\i.
+		value:    50000
+	*	type:     "distance"
+		op:       "lt"
+		subject:  "player"
+		object:   18
+		action:
+			*	type:       "reveal"
+				reflexive:  true
+				which:      22
+			*	type:       "win"
+				reflexive:  true
+				delay:      60
+				player:     0
+				next:       2
+				text:
+					>	Player leaves practice mission.
+		value:    100000
+briefings:
+	*	object:  0
+		title:   "Omisha Station"
+		content:
+			>	Your first mission is to acquaint yourself with the basic control of our
+			>	ships. At Omisha station we have a set of buoys and practice drones
+			>	which you can use to gain experience with our technologies.
+			>
+			>	Position your ship over a buoy to receive instructions on the exercise
+			>	it offers.
+	*	object:  1
+		title:   "Command Buoy A"
+		content:
+			>	^P10091^These two buoys offer a command exercise. A drone is stationed
+			>	here, and you may practice sending it from one buoy to another.
+	*	object:  5
+		title:   "Build Moon"
+		content:
+			>	At this small moon you can practice building ships. Unlike real ships,
+			>	the drones you build here will not be available for you to command.
+	*	object:  6
+		title:   "Combat Buoy A"
+		content:
+			>	^P10090^These three buoys have a series of practice drones, programmed
+			>	to simulate combat. Don't worry about losing your ship here--the damage
+			>	isn't real. When your shields appear depleted, you will simply lose
+			>	power for a moment, and then be fully recharged.
+	*	object:  15
+		title:   "Extra Ships"
+		content:
+			>	^P10091^At this buoy are two "extra" ships. When you feel comfortable
+			>	selecting and controlling other ships, try experimenting with these two
+			>	cruisers.
+			|	^P1004^
+	*	object:  18
+		title:   "Omisha Jump Gate"
+		content:
+			>	^P10073^When you feel you've had enough practice, navigate to the center
+			>	of this jump gate to begin your first combat mission.
+starmap:   {x: 288, y: 302}
+no_ships:  {id: 10031}

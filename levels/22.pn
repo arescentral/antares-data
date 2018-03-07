@@ -1,0 +1,66 @@
+type:     "demo"
+bin:
+	$	00000003 ffff0064 10680001 ffffffff 00000100 00000000 ffff0064 10680001
+	$	ffffffff 00000100 00000000 000202bc 10680005 ffffffff 00000200 00000000
+	$	ffffffff ffffffff ffffffff 00000000 00000000 000001ac 0c940006 138affff
+	$	ffff0000 00640000 00640001 ffffffff 00000019 00000000 00000000
+chapter:  25
+title:
+	>	\i **DEV-23** 
+	|	\i 
+	!
+players:
+	*	race:           1
+		name:           "The Human/Ishiman Cooperative"
+		earning_power:  1.0
+	*	race:           1
+		name:           "The Human/Ishiman Cooperative"
+		earning_power:  1.0
+	*	race:           8
+		name:           "The Audemedon Axis"
+		earning_power:  2.0
+song:     5002
+initials:
+	*	base:             23
+		owner:            0
+		rename:           "Proteus Alpha"
+		at:               {x: 9000, y: 0}
+		earning:          1.0
+		sprite_override:  1027
+		build:            [100, 200, 300, 500, 450, 800]
+	*	base:             23
+		owner:            1
+		rename:           "Proteus Beta"
+		at:               {x: -9000, y: 0}
+		earning:          1.0
+		sprite_override:  1028
+		build:            [100, 200, 300, 500, 450, 800]
+	*	base:             23
+		owner:            2
+		rename:           "Proteus Gamma"
+		at:               {x: 0, y: 9000}
+		earning:          1.0
+		sprite_override:  1029
+		build:            [100, 200, 300, 400, 450]
+	*	base:        129
+		owner:       0
+		at:          {x: 9000, y: 0}
+		target:      0
+		attributes:  {is_player_ship: true}
+	*	base:        129
+		owner:       1
+		at:          {x: -9000, y: 0}
+		target:      1
+		attributes:  {is_player_ship: true}
+	*	base:        129
+		owner:       2
+		at:          {x: 0, y: 9000}
+		target:      2
+		attributes:  {is_player_ship: true}
+briefings:
+	*	title:  "The Gaitori"
+		content:
+			>	^P10016^Welcome to your first combat mission, humans.
+			|	This system is under the control of the Gaitori, a race of ruthless
+			>	mercenaries and minions of our common enemy, the Cantharan Order.
+starmap:  {x: 100, y: 100}
