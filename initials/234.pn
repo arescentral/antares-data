@@ -1,0 +1,6 @@
+base:     23
+owner:    0
+rename:   "Xamer Alpha"
+at:       {x: 0, y: 10000}
+earning:  1.0
+build:    [200, 300, 860, 500, 450, 800]

@@ -1,0 +1,7 @@
+base:             23
+owner:            1
+rename:           "Bokleo Gamma"
+at:               {x: -4782, y: -21477}
+earning:          1.0
+sprite_override:  1007
+build:            [100, 200, 800, 300, 250]

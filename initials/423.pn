@@ -1,0 +1,7 @@
+base:             23
+owner:            1
+rename:           "Proteus Beta"
+at:               {x: -28260, y: -27129}
+earning:          1.0
+sprite_override:  1026
+build:            [200, 300, 860, 500, 450, 800]

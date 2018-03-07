@@ -1,0 +1,5 @@
+base:        37
+owner:       1
+at:          {x: -173, y: -4194}
+target:      18
+attributes:  {static_destination: true}

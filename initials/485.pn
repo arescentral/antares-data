@@ -1,0 +1,4 @@
+base:        148
+owner:       1
+at:          {x: -29218, y: -25044}
+attributes:  {initially_hidden: true, is_player_ship: true}

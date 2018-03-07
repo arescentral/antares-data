@@ -1,0 +1,5 @@
+base:        178
+owner:       0
+at:          {x: 8034, y: 6739}
+target:      1
+attributes:  {initially_hidden: true, static_destination: true}

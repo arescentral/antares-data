@@ -1,0 +1,6 @@
+base:             23
+owner:            1
+rename:           "Earth"
+at:               {x: 9739, y: -3043}
+earning:          1.0
+sprite_override:  1036

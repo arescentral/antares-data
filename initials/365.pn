@@ -1,0 +1,5 @@
+base:     23
+owner:    0
+rename:   "Omisha Station"
+at:       {x: 0, y: -85}
+earning:  1.0

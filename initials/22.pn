@@ -1,0 +1,6 @@
+base:             23
+owner:            0
+rename:           "Philemon Beta"
+at:               {x: -4000, y: 3000}
+earning:          1.0
+sprite_override:  1001

@@ -1,0 +1,6 @@
+base:             111
+owner:            1
+rename:           "Combat Buoy B"
+at:               {x: 13391, y: 173}
+earning:          1.0
+sprite_override:  591

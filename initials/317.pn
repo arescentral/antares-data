@@ -1,0 +1,7 @@
+base:             23
+owner:            1
+rename:           "Pictoris Beta"
+at:               {x: -7565, y: -9391}
+earning:          1.0
+sprite_override:  1023
+build:            [100, 200, 300, 800]

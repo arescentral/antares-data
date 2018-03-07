@@ -1,0 +1,5 @@
+base:             -1
+rename:           "Placeholder 1"
+at:               {x: -5043, y: 5304}
+earning:          1.0
+sprite_override:  1015

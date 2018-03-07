@@ -1,0 +1,5 @@
+base:        0
+owner:       0
+at:          {x: -21999, y: -15478}
+target:      9
+attributes:  {is_player_ship: true}

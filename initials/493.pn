@@ -1,0 +1,4 @@
+base:     270
+rename:   "Outpost 2"
+at:       {x: 0, y: -9000}
+earning:  0.25

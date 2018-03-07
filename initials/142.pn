@@ -1,0 +1,5 @@
+base:        104
+rename:      "Bunker Station 2"
+at:          {x: 3821, y: 9473}
+earning:     0.75
+attributes:  {static_destination: true}

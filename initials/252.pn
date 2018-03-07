@@ -1,0 +1,5 @@
+base:     270
+rename:   "Outpost Beta"
+at:       {x: 0, y: -5000}
+earning:  0.25
+build:    [850]

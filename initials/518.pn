@@ -1,0 +1,5 @@
+base:    23
+owner:   0
+rename:  "Simulated Planet"
+at:      {x: -200, y: -200}
+build:   [267, 450, 500, 0, 0, 0, 0, 0, 0, 0, 0]

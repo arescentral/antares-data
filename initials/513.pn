@@ -1,0 +1,6 @@
+base:        0
+owner:       0
+at:          {x: 6000, y: 100}
+build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+target:      4
+attributes:  {initially_hidden: true, static_destination: true}

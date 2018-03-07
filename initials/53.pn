@@ -1,0 +1,5 @@
+base:        45
+owner:       1
+at:          {x: 2000, y: 2695}
+target:      1
+attributes:  {is_player_ship: true}

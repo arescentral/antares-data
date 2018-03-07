@@ -1,0 +1,6 @@
+base:             104
+owner:            1
+rename:           "Thasero Station"
+at:               {x: 0, y: 0}
+earning:          1.0
+sprite_override:  572

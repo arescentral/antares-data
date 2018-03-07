@@ -1,0 +1,4 @@
+base:     104
+rename:   "Bunker Station 1"
+at:       {x: 695, y: 3826}
+earning:  0.75

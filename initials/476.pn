@@ -1,0 +1,6 @@
+base:             23
+rename:           "Lalande Alpha"
+at:               {x: 28260, y: 27129}
+earning:          1.0
+sprite_override:  1030
+build:            [200, 300, 860, 500, 450, 800]

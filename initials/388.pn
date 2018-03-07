@@ -1,0 +1,5 @@
+base:             286
+owner:            0
+rename:           "UNS Ares"
+at:               {x: 0, y: 0}
+sprite_override:  599

@@ -1,0 +1,7 @@
+base:             23
+owner:            1
+rename:           "Lalande Beta"
+at:               {x: 0, y: -16384}
+earning:          1.0
+sprite_override:  1033
+build:            [200, 300, 860, 500, 450, 800]

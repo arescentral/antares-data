@@ -1,0 +1,5 @@
+base:        80
+owner:       0
+at:          {x: -24000, y: -2259}
+target:      0
+attributes:  {initially_hidden: true}

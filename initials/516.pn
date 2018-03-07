@@ -1,0 +1,6 @@
+base:        287
+owner:       1
+at:          {x: 0, y: 200}
+build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+target:      7
+attributes:  {fixed_race: true, initially_hidden: true, static_destination: true}

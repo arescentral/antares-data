@@ -1,0 +1,7 @@
+base:             111
+owner:            1
+rename:           "Hades Beta"
+at:               {x: 1652, y: -9130}
+earning:          1.0
+sprite_override:  1014
+build:            [100, 200, 300, 800, 850]

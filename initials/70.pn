@@ -1,0 +1,8 @@
+base:             23
+owner:            0
+rename:           "Bokleo Alpha"
+at:               {x: 22783, y: 72259}
+earning:          1.0
+sprite_override:  1008
+build:            [100, 200, 800]
+attributes:       {static_destination: true}

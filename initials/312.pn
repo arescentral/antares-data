@@ -1,0 +1,7 @@
+base:             23
+owner:            0
+rename:           "Pictoris Alpha"
+at:               {x: 1913, y: 6434}
+earning:          1.0
+sprite_override:  1022
+build:            [100, 200, 300, 800]

@@ -1,0 +1,4 @@
+base:        45
+owner:       1
+at:          {x: 10523, y: -10522}
+attributes:  {initially_hidden: true}

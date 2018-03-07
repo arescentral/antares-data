@@ -1,0 +1,7 @@
+base:             23
+owner:            1
+rename:           "Demeter Beta"
+at:               {x: -347, y: -7477}
+earning:          1.0
+sprite_override:  1010
+build:            [100, 200, 300, 800]

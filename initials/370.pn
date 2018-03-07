@@ -1,0 +1,7 @@
+base:             111
+owner:            0
+rename:           "Build Moon"
+at:               {x: -9739, y: -86}
+earning:          1.0
+sprite_override:  1024
+build:            [1802]

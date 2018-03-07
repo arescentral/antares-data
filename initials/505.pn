@@ -1,0 +1,5 @@
+base:        287
+owner:       1
+at:          {x: 3000, y: -1000}
+build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+attributes:  {fixed_race: true, static_destination: true}
