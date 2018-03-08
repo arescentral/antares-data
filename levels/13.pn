@@ -614,4 +614,3 @@ briefings:
 			>	^P10073^When you feel you've had enough practice, navigate to the center
 			>	of this jump gate to begin your first combat mission.
 starmap:   {x: 288, y: 302}
-no_ships:  {id: 10031}
