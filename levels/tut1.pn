@@ -662,7 +662,7 @@ conditions:
 starmap:      {x: 330, y: 287}
 par_time:     120
 par_kills:    9
-angle:        5
+angle:        8
 is_training:  true
 prologue:
 	>	#+B2005

@@ -1022,7 +1022,7 @@ conditions:
 		object:      0
 		persistent:  true
 starmap:      {x: 330, y: 287}
-angle:        5
+angle:        8
 is_training:  true
 no_ships:
 	>	Somehow, you lost your ship during a training exercise. You are most
