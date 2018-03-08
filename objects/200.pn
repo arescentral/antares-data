@@ -18,7 +18,6 @@ level_tag:               "0"
 engage_tag:              "0"
 order_tag:               "0"
 class_:                  100
-race:                    {numeric: 1000}
 health:                  70
 damage:                  20
 energy:                  600
