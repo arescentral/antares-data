@@ -1,5 +1,0 @@
-type:       "create"
-reflexive:  true
-base:       14
-count:      {begin: 0, end: 2}
-distance:   256

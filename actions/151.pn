@@ -1,8 +1,0 @@
-type:              "sound"
-reflexive:         true
-level_key_filter:  "5"
-owner:             "different"
-id:                570
-priority:          3
-persistence:       10
-volume:            255

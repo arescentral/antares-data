@@ -1,9 +1,0 @@
-type:  "message"
-id:    5940
-pages:
-	*	>	#L322##87,352#OK, now build another Cruiser (double click
-		|	on the Cruiser item or press the Computer
-		|	Accept key, #ACT).
-		>
-		>	Watch what happens when the second cruiser
-		|	gets built.

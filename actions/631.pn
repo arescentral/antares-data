@@ -1,5 +1,0 @@
-type:  "key"
-enable:
-	*	"up"
-	*	"down"
-	*	"warp"

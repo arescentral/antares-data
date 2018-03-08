@@ -1,6 +1,0 @@
-type:       "key"
-reflexive:  true
-enable:
-	*	"fire_1"
-	*	"fire_2"
-	*	"fire_s"

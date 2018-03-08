@@ -1,6 +1,0 @@
-type:  "key"
-enable:
-	*	"zoom_in"
-	*	"zoom_out"
-	*	"comp_message"
-	*	"comp_build"

@@ -1,3 +1,0 @@
-type:              "energize"
-inclusive_filter:  {can_be_destination: true}
-value:             150

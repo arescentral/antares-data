@@ -1,7 +1,0 @@
-type:         "sound"
-reflexive:    true
-delay:        360
-id:           525
-priority:     3
-persistence:  10
-volume:       255

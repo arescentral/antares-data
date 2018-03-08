@@ -1,7 +1,0 @@
-type:                "create"
-reflexive:           true
-base:                121
-count:               6
-relative_velocity:   true
-relative_direction:  true
-inherit:             true

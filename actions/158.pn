@@ -1,4 +1,0 @@
-type:              "kill"
-level_key_filter:  "a"
-owner:             "different"
-kind:              "expire"

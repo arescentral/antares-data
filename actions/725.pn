@@ -1,5 +1,0 @@
-type:  "key"
-disable:
-	*	"up"
-	*	"down"
-	*	"send_message"

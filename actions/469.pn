@@ -1,7 +1,0 @@
-type:               "create"
-reflexive:          true
-delay:              20
-base:               34
-count:              {begin: 0, end: 4}
-relative_velocity:  true
-distance:           128

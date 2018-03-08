@@ -1,4 +1,0 @@
-type:             "move"
-reflexive:        true
-initial_subject:  4
-to:               {x: 500, y: -6200}

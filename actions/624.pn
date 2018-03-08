@@ -1,7 +1,0 @@
-type:  "key"
-disable:
-	*	"zoom_in"
-	*	"zoom_out"
-	*	"comp_special"
-	*	"zoom_shortcut"
-	*	"mouse"

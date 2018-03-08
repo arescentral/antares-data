@@ -1,6 +1,0 @@
-type:             "land"
-reflexive:        true
-delay:            60
-initial_subject:  0
-initial_object:   7
-speed:            128

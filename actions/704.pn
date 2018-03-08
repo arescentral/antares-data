@@ -1,6 +1,0 @@
-type:       "key"
-reflexive:  true
-enable:
-	*	"select_friend"
-	*	"select_foe"
-	*	"select_base"

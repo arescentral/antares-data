@@ -1,7 +1,0 @@
-type:    "win"
-delay:   360
-player:  0
-next:    8
-text:
-	>	Chapter 5, player wins.
-	|	Player escorts Thrntz transport back to the battleship.

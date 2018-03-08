@@ -1,3 +1,0 @@
-type:       "disable"
-reflexive:  true
-value:      {begin: -30.0, end: 30.0}

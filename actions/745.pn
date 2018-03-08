@@ -1,9 +1,0 @@
-type:  "message"
-id:    5925
-pages:
-	*	>	#R9##617,22#This is the Build Progress Indicator.
-		>
-		>	The purple bar shows you how long it will
-		|	take for the current ship to be built.
-		>
-		>	When the ship is ready, we’ll continue.

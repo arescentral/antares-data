@@ -1,6 +1,0 @@
-type:       "win"
-reflexive:  true
-player:     1
-text:
-	>	You allowed too many of the human captives to die for this mission to be
-	>	considered a success.

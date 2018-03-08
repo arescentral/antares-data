@@ -1,8 +1,0 @@
-type:       "message"
-reflexive:  true
-id:         5401
-pages:
-	*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
-		|	SOURCE: RICS 105508 Tractor Tug
-		|	We've locked on to the Elejeetian liner and are now towing it to the
-		>	jump gate. \i<EOT>\i 

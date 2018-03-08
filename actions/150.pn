@@ -1,5 +1,0 @@
-type:              "cap-speed"
-reflexive:         true
-level_key_filter:  "5"
-owner:             "different"
-value:             0.0

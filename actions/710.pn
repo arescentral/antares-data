@@ -1,4 +1,0 @@
-type:  "key"
-enable:
-	*	"warp"
-	*	"mouse"

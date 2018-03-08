@@ -1,4 +1,0 @@
-type:             "heal"
-reflexive:        true
-initial_subject:  2
-value:            -10000

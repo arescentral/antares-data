@@ -1,3 +1,0 @@
-type:       "condition"
-reflexive:  true
-enable:     {begin: 16, end: 18}

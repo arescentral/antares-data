@@ -1,6 +1,0 @@
-type:         "sound"
-reflexive:    true
-id:           {begin: 552, end: 554}
-priority:     3
-persistence:  15
-volume:       255

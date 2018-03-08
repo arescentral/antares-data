@@ -1,3 +1,0 @@
-type:       "condition"
-reflexive:  true
-disable:    {begin: 2, end: 13}

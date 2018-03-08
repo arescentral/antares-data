@@ -1,9 +1,0 @@
-type:  "key"
-enable:
-	*	"comp_up"
-	*	"comp_down"
-	*	"comp_accept"
-	*	"comp_back"
-	*	"comp_message"
-	*	"comp_build"
-	*	"mouse"

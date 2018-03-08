@@ -1,5 +1,0 @@
-type:              "push"
-reflexive:         true
-level_key_filter:  "5"
-owner:             "different"
-kind:              "stop"

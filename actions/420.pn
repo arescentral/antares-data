@@ -1,7 +1,0 @@
-type:       "win"
-reflexive:  true
-delay:      60
-player:     0
-next:       2
-text:
-	>	Player leaves practice mission.

@@ -1,8 +1,0 @@
-type:              "sound"
-inclusive_filter:  {is_destination: true}
-owner:             "different"
-absolute:          true
-id:                513
-priority:          5
-persistence:       20
-volume:            255

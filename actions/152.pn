@@ -1,5 +1,0 @@
-type:              "kill"
-level_key_filter:  "5"
-owner:             "different"
-delay:             160
-kind:              "expire"

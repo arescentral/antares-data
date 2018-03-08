@@ -1,4 +1,0 @@
-type:       "spin"
-reflexive:  true
-owner:      "different"
-value:      {begin: -2.0, end: 2.0}

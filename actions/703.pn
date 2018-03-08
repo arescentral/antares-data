@@ -1,4 +1,0 @@
-type:       "key"
-reflexive:  true
-disable:
-	*	"mouse"

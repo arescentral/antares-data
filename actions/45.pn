@@ -1,8 +1,0 @@
-type:              "sound"
-level_key_filter:  "f"
-owner:             "different"
-absolute:          true
-id:                513
-priority:          5
-persistence:       20
-volume:            255

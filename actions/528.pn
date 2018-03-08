@@ -1,6 +1,0 @@
-type:       "create"
-reflexive:  true
-base:       252
-count:      10
-distance:   4
-inherit:    true

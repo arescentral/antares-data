@@ -1,4 +1,0 @@
-type:              "equip"
-inclusive_filter:  {can_be_destination: true}
-which:             "special"
-base:              6

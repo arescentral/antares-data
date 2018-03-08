@@ -1,4 +1,0 @@
-type:       "reveal"
-reflexive:  true
-delay:      600
-which:      {begin: 23, end: 28}

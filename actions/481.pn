@@ -1,7 +1,0 @@
-type:       "win"
-reflexive:  true
-player:     0
-next:       23
-text:
-	>	You succeeded in capturing the Beta Pictoris System, and you forced the
-	>	enemy Gate Ship to withdraw.

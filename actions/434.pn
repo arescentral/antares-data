@@ -1,5 +1,0 @@
-type:       "push"
-reflexive:  true
-delay:      20
-kind:       "boost"
-value:      0.5

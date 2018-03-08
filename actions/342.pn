@@ -1,7 +1,0 @@
-type:                "create"
-reflexive:           true
-base:                195
-relative_velocity:   true
-relative_direction:  true
-distance:            1024
-legacy_random:       true

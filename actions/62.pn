@@ -1,6 +1,0 @@
-type:       "spark"
-reflexive:  true
-count:      10
-hue:        "orange"
-decay:      20
-velocity:   2.0

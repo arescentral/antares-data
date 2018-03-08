@@ -1,6 +1,0 @@
-type:       "win"
-reflexive:  true
-player:     0
-next:       2
-text:
-	>	Good work. You completed the first tutorial.

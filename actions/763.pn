@@ -1,6 +1,0 @@
-type:  "key"
-enable:
-	*	"select_friend"
-	*	"select_foe"
-	*	"select_base"
-	*	"mouse"

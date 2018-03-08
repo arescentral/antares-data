@@ -1,5 +1,0 @@
-type:       "key"
-reflexive:  true
-enable:
-	*	"target"
-	*	"mouse"

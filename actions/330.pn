@@ -1,6 +1,0 @@
-type:       "create"
-reflexive:  true
-delay:      120
-base:       200
-count:      {begin: -1, end: 3}
-distance:   2

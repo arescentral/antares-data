@@ -1,6 +1,0 @@
-type:              "sound"
-inclusive_filter:  {can_be_destination: true}
-id:                514
-priority:          3
-persistence:       10
-volume:            255

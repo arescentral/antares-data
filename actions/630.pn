@@ -1,4 +1,0 @@
-type:  "key"
-enable:
-	*	"left"
-	*	"right"

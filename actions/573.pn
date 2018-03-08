@@ -1,5 +1,0 @@
-type:            "move"
-reflexive:       true
-initial_object:  2
-origin:          "object"
-distance:        600

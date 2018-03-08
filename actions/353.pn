@@ -1,7 +1,0 @@
-type:         "sound"
-reflexive:    true
-absolute:     true
-id:           551
-priority:     4
-persistence:  10
-volume:       255

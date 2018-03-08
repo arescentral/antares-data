@@ -1,8 +1,0 @@
-type:       "message"
-reflexive:  true
-delay:      360
-id:         5508
-pages:
-	*	>	Good work. You built a practice drone. Normally, you can give ships you
-		>	build commands, or assume control of them. Here, however, the drone will
-		>	simply return to the planet.

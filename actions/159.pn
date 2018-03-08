@@ -1,8 +1,0 @@
-type:              "sound"
-level_key_filter:  "a"
-owner:             "different"
-absolute:          true
-id:                31989
-priority:          4
-persistence:       60
-volume:            255
