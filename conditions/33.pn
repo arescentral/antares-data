@@ -1,9 +1,0 @@
-type:     "owner"
-op:       "eq"
-subject:  1
-action:
-	*	type:    "win"
-		player:  1
-		text:
-			>	Our base on Aeneas Alpha was captured by the Gaitori.
-player:   1

@@ -1,7 +1,0 @@
-base:             23
-owner:            1
-rename:           "Proteus Gamma"
-at:               {x: 7304, y: -7565}
-earning:          1.0
-sprite_override:  1004
-build:            [100, 200, 300, 800, 600]

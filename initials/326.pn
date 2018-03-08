@@ -1,5 +1,0 @@
-base:        180
-owner:       1
-at:          {x: 8347, y: -1304}
-target:      1
-attributes:  {is_player_ship: true, static_destination: true}

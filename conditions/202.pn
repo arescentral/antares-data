@@ -1,8 +1,0 @@
-type:    "message"
-op:      "eq"
-action:
-	*	type:   "zoom"
-		value:  "all"
-player:  0
-id:      5945
-page:    2

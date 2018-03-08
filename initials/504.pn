@@ -1,4 +1,0 @@
-base:    23
-rename:  "Simulated Planet"
-at:      {x: 5000, y: 0}
-build:   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

@@ -1,9 +1,0 @@
-type:     "owner"
-op:       "eq"
-subject:  2
-action:
-	*	type:    "win"
-		player:  1
-		text:
-			>	Out base on Lelande Alpha was captured.
-player:   1

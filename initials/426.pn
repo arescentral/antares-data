@@ -1,5 +1,0 @@
-base:        129
-owner:       0
-at:          {x: 28520, y: 27129}
-target:      2
-attributes:  {initially_hidden: true, is_player_ship: true}

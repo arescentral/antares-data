@@ -1,9 +1,0 @@
-type:     "message"
-op:       "eq"
-subject:  1
-action:
-	*	type:    "condition"
-		enable:  2
-player:   0
-id:       5900
-page:     2

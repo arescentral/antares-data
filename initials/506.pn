@@ -1,5 +1,0 @@
-base:        0
-owner:       0
-at:          {x: 3000, y: 3000}
-build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-attributes:  {initially_hidden: true}

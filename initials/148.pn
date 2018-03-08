@@ -1,7 +1,0 @@
-base:             23
-owner:            1
-rename:           "Fansi Beta"
-at:               {x: 22957, y: 43826}
-earning:          1.0
-sprite_override:  1020
-build:            [100, 200, 300, 800, 850, 860]

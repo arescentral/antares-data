@@ -1,9 +1,0 @@
-type:        "message"
-op:          "eq"
-action:
-	*	type:    "condition"
-		enable:  27
-persistent:  true
-player:      0
-id:          5835
-page:        1

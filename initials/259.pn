@@ -1,5 +1,0 @@
-base:     23
-rename:   "Proxima Alpha"
-at:       {x: 1390, y: -2696}
-earning:  1.0
-build:    [100, 200, 300, 800]

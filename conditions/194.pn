@@ -1,9 +1,0 @@
-type:    "message"
-op:      "eq"
-action:
-	*	type:    "select"
-		screen:  "build"
-		line:    2
-player:  0
-id:      5910
-page:    8

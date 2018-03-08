@@ -1,8 +1,0 @@
-type:    "message"
-op:      "eq"
-action:
-	*	type:    "condition"
-		enable:  21
-player:  0
-id:      5827
-page:    4

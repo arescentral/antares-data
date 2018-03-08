@@ -1,6 +1,0 @@
-base:             111
-owner:            0
-rename:           "Command Buoy A"
-at:               {x: -86, y: -6260}
-earning:          1.0
-sprite_override:  591

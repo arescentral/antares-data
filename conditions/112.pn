@@ -1,7 +1,0 @@
-type:   "time"
-op:     "ge"
-action:
-	*	type:       "reveal"
-		reflexive:  true
-		which:      {begin: 9, end: 11}
-value:  4780

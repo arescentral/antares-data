@@ -1,5 +1,0 @@
-base:        129
-owner:       0
-at:          {x: 435, y: 8086}
-target:      1
-attributes:  {static_destination: true}

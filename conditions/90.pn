@@ -1,8 +1,0 @@
-type:     "speed"
-op:       "lt"
-subject:  1
-action:
-	*	type:       "condition"
-		reflexive:  true
-		enable:     2
-value:    5.0

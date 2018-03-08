@@ -1,5 +1,0 @@
-base:        165
-owner:       0
-at:          {x: 8142, y: 6886}
-target:      13
-attributes:  {initially_hidden: true, static_destination: true}

@@ -1,9 +1,0 @@
-type:        "distance"
-op:          "lt"
-subject:     1
-object:      0
-action:
-	*	type:    "condition"
-		enable:  7
-persistent:  true
-value:       50000

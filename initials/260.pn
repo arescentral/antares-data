@@ -1,6 +1,0 @@
-base:             23
-rename:           "Proxima Beta"
-at:               {x: -9044, y: -17130}
-earning:          1.0
-sprite_override:  1021
-build:            [100, 200, 300, 800]

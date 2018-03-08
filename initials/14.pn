@@ -1,6 +1,0 @@
-base:             104
-owner:            1
-rename:           "Myrmidon Station"
-at:               {x: -1652, y: -4173}
-earning:          1.0
-sprite_override:  1200

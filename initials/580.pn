@@ -1,8 +1,0 @@
-base:             1
-owner:            2
-rename:           {id: 14, index: 14}
-at:               {x: 3, y: 4}
-earning:          5.0
-sprite_override:  9
-build:            [10, 11, 12, 0, 0, 0, 0, 0, 0, 0, 0]
-target:           13

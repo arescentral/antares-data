@@ -1,9 +1,0 @@
-type:     "destroyed"
-op:       "eq"
-action:
-	*	type:    "win"
-		player:  1
-		text:
-			>	You lost your heavy cruiser, failing to destroy all four relay dishes.
-initial:  1
-value:    true

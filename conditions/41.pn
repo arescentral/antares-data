@@ -1,9 +1,0 @@
-type:     "owner"
-op:       "eq"
-subject:  0
-action:
-	*	type:    "win"
-		player:  1
-		text:
-			>	The Salrilians captured our base on Alpha.
-player:   1

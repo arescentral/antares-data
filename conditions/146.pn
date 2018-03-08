@@ -1,8 +1,0 @@
-type:                "destroyed"
-op:                  "eq"
-action:
-	*	type:    "condition"
-		enable:  21
-initially_disabled:  true
-initial:             7
-value:               true

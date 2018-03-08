@@ -1,6 +1,0 @@
-base:        25
-owner:       1
-at:          {x: 3250, y: -6250}
-build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-target:      8
-attributes:  {initially_hidden: true, static_destination: true}

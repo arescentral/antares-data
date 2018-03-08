@@ -1,6 +1,0 @@
-base:             23
-owner:            1
-rename:           "Charon Station"
-at:               {x: 0, y: -97391}
-earning:          1.0
-sprite_override:  643

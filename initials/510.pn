@@ -1,5 +1,0 @@
-base:        61
-owner:       0
-at:          {x: 60, y: -400}
-build:       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-attributes:  {static_destination: true}

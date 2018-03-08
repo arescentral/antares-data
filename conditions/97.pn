@@ -1,8 +1,0 @@
-type:     "destroyed"
-op:       "eq"
-action:
-	*	type:       "condition"
-		reflexive:  true
-		enable:     1
-initial:  7
-value:    true

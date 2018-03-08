@@ -1,9 +1,0 @@
-type:     "owner"
-op:       "eq"
-subject:  12
-action:
-	*	type:    "win"
-		player:  1
-		text:
-			>	A Gaitori transport landed on Hades Alpha.
-player:   1
