@@ -1,0 +1,86 @@
+bin:
+	$	27cc9947 0000000a 00000064 00000258 00000080 00000001 00000080 00000000
+	$	00000000 00000080 00000000 00000002 00000005 0000000a 00000000 00000032
+	$	00000fa0 00000000 00000800 00020225 00000011 00ff0000 00000000 0168ffff
+	$	ffff0000 0066ffff ffff0000 00010000 00020000 00010000 00000000 00000000
+	$	00000000 00000000 00000000 0000ffff fd000000 00000000 03000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 02000000 00000000 13880000 00a30000 0002ffff ffff0000 0000ffff
+	$	ffff0000 0000ffff ffff0000 0000ffff ffff0000 00000000 009e0000 00030000
+	$	00000000 000f0000 06000000 0100ffff ffff0000 0000ffff ffff0000 00000a80
+	$	0000a000 00880000 00000000 02580315 00000000 00000000 00004000 0000
+long_name:               "EVA Trooper"
+short_name:              "EVATROOP"
+notes:                   "EVA Trooper"
+attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, static_destination: true, can_be_evaded: true, appear_on_radar: true}
+build_flags:             {can_only_engage: true}
+order_flags:             {local: true, foe: true}
+level_tag:               "0"
+engage_tag:              "a"
+order_tag:               "a"
+class_:                  10
+race:                    1
+health:                  10
+damage:                  0
+energy:                  50
+price:                   600
+build_ratio:             0.0
+build_time:              600
+initial_age:             4000
+mass:                    0.008
+max_velocity:            0.5
+max_thrust:              0.02
+initial_velocity:        0.5
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+warp_out_distance:       0
+weapons:
+	*	null
+	*	base:  102
+		positions:
+			*	{x: -3.0, y: 0.0}
+			*	{x: 3.0, y: 0.0}
+layer:                   2
+sprite:                  549
+frame:                   {offset: 0, resolution: 15, turn_rate: 6.0}
+scale:                   0.5
+icon:
+	shape:  "triangle"
+	size:   1
+shield_color:            "gray"
+on_destroy:
+	*	type:         "sound"
+		id:           12558
+		priority:     3
+		persistence:  20
+		volume:       255
+	*	type:       "create"
+		reflexive:  true
+		base:       35
+on_arrive:
+	*	type:              "kill"
+		level_key_filter:  "a"
+		owner:             "different"
+		kind:              "expire"
+	*	type:              "sound"
+		level_key_filter:  "a"
+		owner:             "different"
+		absolute:          true
+		id:                31989
+		priority:          4
+		persistence:       60
+		volume:            255
+	*	type:              "occupy"
+		level_key_filter:  "a"
+		owner:             "different"
+		value:             1
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  5000
+skill_num:               3
+skill_den:               21
+offense:                 0.5
+destination_class:       1
+friend_deficit:          0.0
+danger_threshold:        2.0

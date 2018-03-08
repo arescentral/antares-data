@@ -1,0 +1,61 @@
+bin:
+	$	00070080 ffffffff ffffffff 00000000 00000000 ffffff00 00000700 00000000
+	$	00000000 00000600 00000200 00000080 00000000 000003e8 00000019 00000000
+	$	000000c8 00000064 00001000 0003020e 00000001 ffff0000 00000000 0168ffff
+	$	ffffffff ffffffff ffff0000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 c350ffff ffff0000 0000ffff ffff0000 0000ffff
+	$	ffff0000 00000000 00090000 0002ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 00000000 00010000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 0000
+long_name:               "Clustercell 2"
+short_name:              "CLSTR2"
+notes:                   "Clustercell 2"
+attributes:              {is_self_animated: true, autotarget: true, animation_cycle: true, can_collide: true}
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+health:                  1000
+damage:                  25
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
+initial_age:             {begin: 200, end: 300}
+mass:                    0.5
+max_velocity:            7.0
+max_thrust:              0.0
+initial_velocity:        {begin: 6.0, end: 8.0}
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+warp_out_distance:       0
+layer:                   3
+sprite:                  526
+frame:
+	shape:        0
+	direction:    "+"
+	speed:        0
+	first_shape:  0
+scale:                   1.0
+icon:
+	shape:  "square"
+	size:   1
+on_collide:
+	*	type:                "create"
+		reflexive:           true
+		base:                53
+		relative_direction:  true
+	*	type:       "kill"
+		reflexive:  true
+		kind:       "expire"
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  0
+skill_num:               0
+skill_den:               0
+offense:                 0.0
+destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0

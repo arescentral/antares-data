@@ -1,0 +1,53 @@
+bin:
+	$	20120480 ffffffff ffffffff 00000000 00000000 ffffff00 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 000003e8 00000000 00000000
+	$	ffffffff 00000000 00001000 00010250 00000046 0f000000 00000000 0000ffff
+	$	ffffffff ffffffff ffff0000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 c350ffff ffff8000 0000ffff ffff0000 0000ffff
+	$	ffff0000 0000ffff ffff0000 0000ffff ffff0000 0000ffff ffff0000 00000000
+	$	00010000 00060000 00010000 00000000 00280000 00000000 00010000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 0000
+long_name:               "Lab"
+short_name:              "Lab"
+notes:                   "Burning"
+attributes:              {is_self_animated: true, can_be_destination: true, animation_cycle: true, is_destination: true, appear_on_radar: true}
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+health:                  1000
+damage:                  0
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
+mass:                    0.0
+max_velocity:            0.0
+max_thrust:              0.0
+initial_velocity:        0.0
+initial_direction:       0
+warp_speed:              0.0
+warp_out_distance:       0
+layer:                   1
+sprite:                  592
+frame:
+	shape:        {begin: 1, end: 7}
+	direction:    "+"
+	speed:        40
+	first_shape:  1
+scale:                   1.0
+icon:
+	shape:  "framed square"
+	size:   6
+shield_color:            "red"
+destroy_dont_die:        true
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  0
+skill_num:               0
+skill_den:               0
+offense:                 0.0
+destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0

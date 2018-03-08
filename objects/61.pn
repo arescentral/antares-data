@@ -1,0 +1,68 @@
+bin:
+	$	25cc9d47 000000fa 00000064 000005dc 00000100 00000003 00000500 00002800
+	$	00ce1459 00000500 00000000 00000100 00000028 000003e8 00000000 000003e8
+	$	ffffffff 00000000 00001000 00020209 00000014 00000000 00000000 01680000
+	$	00040000 00370000 004a0000 00010000 00020000 00010000 00000000 00000000
+	$	00000000 00000000 00000000 0000ffff f6000000 00000000 0a000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 01000000 00000000 c3500000 00000000 0001ffff ffff0000 0000ffff
+	$	ffff0000 0000ffff ffff0000 0000ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 000f0000 02000000 0100ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 00000000 00cc0000 05dc0315 00000426 00000000 00004000 0000
+long_name:               "Heavy Cruiser"
+short_name:              "HVCRUISR"
+notes:                   "Heavy Cruiser"
+attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+class_:                  250
+race:                    1
+health:                  1000
+damage:                  0
+energy:                  1000
+price:                   1500
+build_ratio:             0.797
+build_time:              1500
+mass:                    1.0
+max_velocity:            5.0
+max_thrust:              0.156
+initial_velocity:        5.0
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              40.0
+warp_out_distance:       13505625
+weapons:
+	*	base:  4
+		positions:
+			*	{x: 0.0, y: 0.0}
+	*	base:  55
+		positions:
+			*	{x: -10.0, y: 0.0}
+			*	{x: 10.0, y: 0.0}
+	*	base:  74
+		positions:
+			*	{x: 0.0, y: 0.0}
+layer:                   2
+sprite:                  521
+frame:                   {offset: 0, resolution: 15, turn_rate: 2.0}
+scale:                   1.0
+icon:
+	shape:  "triangle"
+	size:   4
+portrait:                1062
+shield_color:            "gray"
+on_destroy:
+	*	type:                "create"
+		reflexive:           true
+		base:                29
+		relative_direction:  true
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  0
+skill_num:               3
+skill_den:               21
+offense:                 1.0
+destination_class:       3
+friend_deficit:          0.0
+danger_threshold:        1.0

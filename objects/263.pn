@@ -1,0 +1,66 @@
+bin:
+	$	00060080 ffffffff ffffffff 00000000 00000000 ffffff00 00000c00 00000000
+	$	00000000 00000c00 00000000 00000019 00000000 000003e8 00000064 00000000
+	$	0000002d 00000000 00001000 00030290 00000001 ff000000 00000000 0000ffff
+	$	ffffffff ffffffff ffff0000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 c350ffff ffff0000 0000ffff ffff0000 0000ffff
+	$	ffff0000 00000000 000c0000 00020000 021a0100 0001ffff ffff0000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000315 00000000 00000000 00000000 0000
+long_name:               "Fireball"
+short_name:              "FIREBALL"
+notes:                   "Fireball"
+attributes:              {is_self_animated: true, animation_cycle: true, can_collide: true}
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+health:                  1000
+damage:                  100
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
+initial_age:             45
+mass:                    0.098
+max_velocity:            12.0
+max_thrust:              0.0
+initial_velocity:        12.0
+initial_direction:       0
+warp_speed:              0.0
+warp_out_distance:       0
+layer:                   3
+sprite:                  656
+frame:
+	shape:        0
+	direction:    "0"
+	speed:        0
+	first_shape:  0
+scale:                   1.0
+icon:
+	shape:  "square"
+	size:   1
+on_collide:
+	*	type:                "create"
+		reflexive:           true
+		base:                8
+		relative_direction:  true
+	*	type:       "kill"
+		reflexive:  true
+		kind:       "expire"
+on_activate:
+	*	type:                "create"
+		reflexive:           true
+		base:                262
+		relative_direction:  true
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         1
+arrive_action_distance:  0
+skill_num:               3
+skill_den:               21
+offense:                 0.0
+destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0

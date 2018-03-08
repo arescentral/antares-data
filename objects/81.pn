@@ -1,0 +1,64 @@
+bin:
+	$	00060080 ffffffff ffffffff 00000000 00000000 ffffff00 00000d00 00000000
+	$	00000000 00000900 00000000 00000005 00000019 000003e8 00000032 00000000
+	$	00000014 00000000 00001000 00030224 00000001 ffffffff fffd0000 0006ffff
+	$	ffffffff ffffffff ffff0000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 c350ffff ffff0000 0000ffff ffff0000 0000ffff
+	$	ffff0000 00000000 01f20000 0003ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 00050000 00010000 00000000 00280000 00000000 00000000 00050000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 0000
+long_name:               "Lightwave Pulse"
+short_name:              "L PULSE"
+notes:                   "Lightwave Pulse"
+attributes:              {is_self_animated: true, animation_cycle: true, can_collide: true}
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+health:                  1000
+damage:                  50
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
+initial_age:             20
+mass:                    0.02
+max_velocity:            13.0
+max_thrust:              0.098
+initial_velocity:        9.0
+initial_direction:       {begin: -3, end: 3}
+warp_speed:              0.0
+warp_out_distance:       0
+layer:                   3
+sprite:                  548
+frame:
+	shape:        {begin: 0, end: 6}
+	direction:    "+"
+	speed:        40
+	first_shape:  {begin: 0, end: 5}
+scale:                   1.0
+icon:
+	shape:  "square"
+	size:   1
+on_collide:
+	*	type:   "push"
+		kind:   "decelerate"
+		value:  0.047
+	*	type:                "create"
+		reflexive:           true
+		base:                53
+		relative_direction:  true
+	*	type:       "kill"
+		reflexive:  true
+		kind:       "none"
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  0
+skill_num:               0
+skill_den:               0
+offense:                 0.0
+destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0

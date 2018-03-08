@@ -1,0 +1,61 @@
+bin:
+	$	00000000 ffffffff ffffffff 00000000 00000000 ffffff00 00001900 00000000
+	$	00000000 00000000 00000000 00000000 00000000 000003e8 00000000 00000000
+	$	00000032 00000000 00001000 0000ffff 00000000 ff000000 00000000 0000ffff
+	$	ffffffff ffffffff ffff0000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 c350ffff ffff0000 0000ffff ffff0000 0000ffff
+	$	ffff0000 0000ffff ffff0000 00000000 00d90000 0002ffff ffff0000 00000000
+	$	00020000 000a0000 0010ffff ffff0017 d7840000 000affff ffff0000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 0000
+long_name:               "LRPK Beam Cannon"
+short_name:              "LRPKBEAM"
+notes:                   "LRPK Beam Cannon"
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+health:                  1000
+damage:                  0
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
+initial_age:             50
+mass:                    0.0
+max_velocity:            25.0
+max_thrust:              0.0
+initial_velocity:        0.0
+initial_direction:       0
+warp_speed:              0.0
+warp_out_distance:       0
+layer:                   0
+frame:
+	range:          1562500
+	usage:          {attacking: true}
+	energy_cost:    10
+	fire_time:      16
+	inverse_speed:  10
+scale:                   1.0
+on_activate:
+	*	type:         "sound"
+		reflexive:    true
+		id:           28007
+		priority:     3
+		persistence:  10
+		volume:       255
+	*	type:                "create"
+		reflexive:           true
+		base:                133
+		relative_velocity:   true
+		relative_direction:  true
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  0
+skill_num:               0
+skill_den:               0
+offense:                 0.0
+destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0

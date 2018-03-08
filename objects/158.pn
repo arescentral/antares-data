@@ -1,0 +1,50 @@
+bin:
+	$	24800143 ffffffff ffffffff 00000000 00000100 00000003 00000780 00003200
+	$	01f71fae 00000500 00000000 00000100 00000028 000005dc 00000000 000003e8
+	$	0000005a 0000005a 00001000 00020242 00000014 08000000 00000000 0168ffff
+	$	ffffffff ffffffff ffff0000 00010000 00020000 00010000 00000000 00000000
+	$	00000000 00000000 00000000 0000ffff fb000000 00000000 05000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 01000000 00000000 c350ffff ffff0000 0000ffff ffff0000 0000ffff
+	$	ffff0000 0000ffff ffff0000 0000ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 000f0000 02800000 0100ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 00000000 01000000 03e80000 00000000 00000000 00000000 0000
+long_name:               "Holographic Decoy"
+short_name:              "HOLODCOY"
+notes:                   "Holographic Decoy"
+attributes:              {can_turn: true, can_be_engaged: true, does_bounce: true, shape_from_direction: true, hated: true, can_be_evaded: true, appear_on_radar: true}
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+health:                  1500
+damage:                  0
+energy:                  1000
+price:                   0
+build_ratio:             1.0
+build_time:              1000
+initial_age:             {begin: 90, end: 180}
+mass:                    1.0
+max_velocity:            7.5
+max_thrust:              0.156
+initial_velocity:        5.0
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              50.0
+warp_out_distance:       32972718
+layer:                   2
+sprite:                  578
+frame:                   {offset: 0, resolution: 15, turn_rate: 2.5}
+scale:                   1.0
+icon:
+	shape:  "triangle"
+	size:   4
+shield_color:            "gold"
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  0
+skill_num:               0
+skill_den:               0
+offense:                 1.0
+destination_class:       3
+friend_deficit:          0.0
+danger_threshold:        1.0

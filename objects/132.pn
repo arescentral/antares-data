@@ -1,0 +1,62 @@
+bin:
+	$	00010000 ffffffff ffffffff 00000000 00000000 ffffff00 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	ffffffff 00000000 00001000 0000ffff 00000000 ff000000 00000000 0000ffff
+	$	ffffffff ffffffff ffff0000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 c350ffff ffff0000 0000ffff ffff0000 0000ffff
+	$	ffff0000 0000ffff ffff0000 00000000 00d70000 0002ffff ffff0000 00000000
+	$	00060000 00000000 00c80000 000a0001 86a00000 0023ffff ffff0000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 0000
+long_name:               "Launching Bay"
+short_name:              "LNCHBAY"
+notes:                   "Launching Bay"
+attributes:              {autotarget: true}
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+health:                  0
+damage:                  0
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
+mass:                    0.0
+max_velocity:            0.0
+max_thrust:              0.0
+initial_velocity:        0.0
+initial_direction:       0
+warp_speed:              0.0
+warp_out_distance:       0
+layer:                   0
+frame:
+	range:          100000
+	usage:          {attacking: true, defense: true}
+	energy_cost:    0
+	fire_time:      200
+	ammo:           10
+	inverse_speed:  35
+scale:                   1.0
+on_activate:
+	*	type:         "sound"
+		reflexive:    true
+		id:           520
+		priority:     3
+		persistence:  20
+		volume:       255
+	*	type:                "create"
+		reflexive:           true
+		base:                112
+		relative_velocity:   true
+		relative_direction:  true
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  0
+skill_num:               0
+skill_den:               0
+offense:                 0.0
+destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0

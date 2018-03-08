@@ -1,0 +1,57 @@
+bin:
+	$	28984c82 ffffffff ffffffff 00000000 00000000 0000000a 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00001388 00000000 000003e8
+	$	ffffffff 00000005 00002000 00010283 00000047 ff2d0000 00000000 00000000
+	$	001f0000 00600000 00490000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	03000000 00000000 00000000 c350ffff ffff0000 0000ffff ffff0000 0000ffff
+	$	ffff0000 0000ffff ffff0000 0000ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 0000a000
+	$	00000000 00000000 00000000 00000315 00000451 00000000 00000000 0000
+long_name:               "Bunker Station"
+short_name:              "STATION"
+notes:                   "Bunker Station"
+attributes:              {can_be_engaged: true, is_self_animated: true, can_be_destination: true, can_engage: true, can_accept_build: true, can_be_hit: true, is_destination: true, hated: true, neutral_death: true, appear_on_radar: true}
+level_tag:               "a"
+engage_tag:              "0"
+order_tag:               "0"
+health:                  5000
+damage:                  0
+energy:                  1000
+price:                   0
+build_ratio:             0.0
+build_time:              0
+mass:                    0.0
+max_velocity:            0.0
+max_thrust:              0.0
+initial_velocity:        0.0
+initial_direction:       0
+warp_speed:              0.0
+warp_out_distance:       0
+weapons:
+	*	{base: 31}
+	*	{base: 96}
+	*	{base: 73}
+layer:                   1
+sprite:                  643
+frame:
+	shape:        0
+	direction:    "0"
+	speed:        0
+	first_shape:  0
+scale:                   2.0
+icon:
+	shape:  "framed square"
+	size:   7
+portrait:                1105
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  0
+skill_num:               3
+skill_den:               21
+offense:                 0.0
+destination_class:       10
+friend_deficit:          3.0
+danger_threshold:        0.0

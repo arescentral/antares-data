@@ -1,0 +1,68 @@
+bin:
+	$	25cc9d47 0000012c 00000258 000005dc 00000180 00000005 00000500 00002800
+	$	00948900 00000500 00000000 00000166 00000019 00000e74 00000000 000003e8
+	$	ffffffff 00000000 00001000 00020239 00000015 0e000000 00000000 01680000
+	$	01080000 00860000 00390000 00010000 00020000 00010000 00000000 00000000
+	$	00000000 00000000 00000000 0000ffff f6000000 00000000 0a000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 c3500000 00420000 0001ffff ffff0000 0000ffff
+	$	ffff0000 0000ffff ffff0000 0000ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 000f0000 01800000 0100ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 00000000 00400000 07d00315 00000473 00000000 00004000 0000
+long_name:               "Gunship"
+short_name:              "GUNSHIP"
+notes:                   "Gunship"
+attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+class_:                  300
+race:                    7
+health:                  3700
+damage:                  0
+energy:                  1000
+price:                   1500
+build_ratio:             0.25
+build_time:              2000
+mass:                    1.4
+max_velocity:            5.0
+max_thrust:              0.098
+initial_velocity:        5.0
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              40.0
+warp_out_distance:       9734400
+weapons:
+	*	base:  264
+		positions:
+			*	{x: 0.0, y: 0.0}
+	*	base:  134
+		positions:
+			*	{x: -10.0, y: 0.0}
+			*	{x: 10.0, y: 0.0}
+	*	base:  57
+		positions:
+			*	{x: 0.0, y: 0.0}
+layer:                   2
+sprite:                  569
+frame:                   {offset: 0, resolution: 15, turn_rate: 1.5}
+scale:                   1.0
+icon:
+	shape:  "triangle"
+	size:   5
+portrait:                1139
+shield_color:            "tan"
+on_destroy:
+	*	type:                "create"
+		reflexive:           true
+		base:                29
+		relative_direction:  true
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  0
+skill_num:               3
+skill_den:               21
+offense:                 1.5
+destination_class:       5
+friend_deficit:          0.0
+danger_threshold:        0.0

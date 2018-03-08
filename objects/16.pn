@@ -1,0 +1,64 @@
+bin:
+	$	00040020 ffffffff ffffffff 00000000 00000000 ffffff00 00000f00 00000000
+	$	00000000 00000f00 00000000 00000000 00000000 000003e8 0000001e 00000000
+	$	0000000f 00000000 00001000 0000ffff 00000000 ff000000 00000000 0000ffff
+	$	ffffffff ffffffff ffff0000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 c350ffff ffff0000 0000ffff ffff0000 00000000
+	$	00220000 00010000 000c0000 0002ffff ffff0000 0000ffff ffff0000 0000f100
+	$	001e0000 00010000 001f0000 0002ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 0000
+long_name:               "P-K Beam"
+short_name:              "PK BEAM"
+notes:                   "P-K Beam"
+attributes:              {is_beam: true, can_collide: true}
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+health:                  1000
+damage:                  30
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
+initial_age:             15
+mass:                    0.0
+max_velocity:            15.0
+max_thrust:              0.0
+initial_velocity:        15.0
+initial_direction:       0
+warp_speed:              0.0
+warp_out_distance:       0
+layer:                   0
+frame:
+	color:     {r: 255, g: 0, b: 0}
+	kind:      "kinetic"
+	accuracy:  1966080
+	range:     65536
+scale:                   1.0
+on_create:
+	*	type:         "sound"
+		reflexive:    true
+		id:           504
+		priority:     3
+		persistence:  10
+		volume:       255
+on_collide:
+	*	type:                "create"
+		reflexive:           true
+		base:                8
+		relative_direction:  true
+	*	type:       "kill"
+		reflexive:  true
+		kind:       "expire"
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  0
+skill_num:               0
+skill_den:               0
+offense:                 0.0
+destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0

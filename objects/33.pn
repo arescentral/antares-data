@@ -1,0 +1,56 @@
+bin:
+	$	00000080 ffffffff ffffffff 00000000 00000000 ffffff00 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 000003e8 00000064 00000000
+	$	ffffffff 00000000 00002000 00030207 00000000 ff000000 00000000 0000ffff
+	$	ffffffff ffffffff ffff0000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 c350ffff ffff0000 0000ffff ffff0000 00000000
+	$	002b0000 0001ffff ffff0000 0000ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 0002ffff ffff0000 00000000 00140000 00000000 00020000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 0000
+long_name:               "Warp Out Flare"
+short_name:              "WARP OUT"
+notes:                   "Warp Out Flare"
+attributes:              {is_self_animated: true}
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+health:                  1000
+damage:                  100
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
+mass:                    0.0
+max_velocity:            0.0
+max_thrust:              0.0
+initial_velocity:        0.0
+initial_direction:       0
+warp_speed:              0.0
+warp_out_distance:       0
+layer:                   3
+sprite:                  519
+frame:
+	shape:        {begin: 0, end: 3}
+	direction:    "-"
+	speed:        20
+	first_shape:  2
+scale:                   2.0
+on_create:
+	*	type:         "sound"
+		reflexive:    true
+		id:           518
+		priority:     3
+		persistence:  20
+		volume:       255
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  0
+skill_num:               0
+skill_den:               0
+offense:                 0.0
+destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0

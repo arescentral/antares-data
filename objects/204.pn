@@ -1,0 +1,51 @@
+bin:
+	$	21408545 0000070b 00000064 000003e8 00000100 00000003 00000000 00000000
+	$	00948900 00000000 00000000 00000100 00000000 000003e8 00000000 000003e8
+	$	ffffffff 00000000 00001000 000201f5 00000014 00000000 00000000 0168ffff
+	$	ffffffff ffffffff ffff0000 00010000 00020000 00010000 00000000 00000000
+	$	00000000 00000000 00000000 0000ffff f6000000 00000000 0a000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 01000000 00000000 c350ffff ffff8000 0000ffff ffff0000 0000ffff
+	$	ffff0000 0000ffff ffff0000 0000ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 000f0000 00000000 0000ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 00000000 01000000 03e80315 00000000 00000000 00000000 0000
+long_name:               "Cruiser Dead"
+short_name:              "CRUISER"
+notes:                   "Practice Inactive"
+attributes:              {can_turn: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_accept_destination: true, release_energy_on_death: true, occupies_space: true, appear_on_radar: true}
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+class_:                  1803
+race:                    1
+health:                  1000
+damage:                  0
+energy:                  1000
+price:                   1000
+build_ratio:             1.0
+build_time:              1000
+mass:                    1.0
+max_velocity:            0.0
+max_thrust:              0.0
+initial_velocity:        0.0
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+warp_out_distance:       9734400
+layer:                   2
+sprite:                  501
+frame:                   {offset: 0, resolution: 15, turn_rate: 0.0}
+scale:                   1.0
+icon:
+	shape:  "triangle"
+	size:   4
+shield_color:            "gray"
+destroy_dont_die:        true
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  0
+skill_num:               3
+skill_den:               21
+offense:                 1.0
+destination_class:       3
+friend_deficit:          0.0
+danger_threshold:        1.0

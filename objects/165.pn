@@ -1,0 +1,64 @@
+bin:
+	$	25cc9d47 00000064 00000384 00000258 00000080 00000001 00000600 00000000
+	$	00000000 00000600 00000000 000000cc 0000000a 00000064 00000000 00000258
+	$	ffffffff 00000000 00001000 0002028b 00000013 00ff0000 00000000 0168ffff
+	$	ffff0000 00a9ffff ffff0000 00010000 00020000 00010000 00000000 00000000
+	$	00000000 00000000 00000000 0000ffff fd000000 00000000 03000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 02000000 00000000 c3500000 001f0000 0001ffff ffff0000 0000ffff
+	$	ffff0000 0000ffff ffff0000 0000ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 000f0000 03000000 0100ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 00080000 00c00000 02580315 0000048e 00000000 00004000 0000
+long_name:               "Fighter"
+short_name:              "FIGHTER"
+notes:                   "Fighter"
+attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
+order_flags:             {local: true}
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+class_:                  100
+race:                    0
+health:                  100
+damage:                  0
+energy:                  600
+price:                   600
+build_ratio:             0.75
+build_time:              600
+mass:                    0.797
+max_velocity:            6.0
+max_thrust:              0.04
+initial_velocity:        6.0
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+warp_out_distance:       0
+weapons:
+	*	null
+	*	base:  169
+		positions:
+			*	{x: -3.0, y: 0.0}
+			*	{x: 3.0, y: 0.0}
+layer:                   2
+sprite:                  651
+frame:                   {offset: 0, resolution: 15, turn_rate: 3.0}
+scale:                   1.0
+icon:
+	shape:  "triangle"
+	size:   3
+portrait:                1166
+shield_color:            "gray"
+on_destroy:
+	*	type:                "create"
+		reflexive:           true
+		base:                35
+		relative_direction:  true
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  0
+skill_num:               3
+skill_den:               21
+offense:                 0.5
+destination_class:       1
+friend_deficit:          0.0
+danger_threshold:        2.0

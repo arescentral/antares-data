@@ -1,0 +1,81 @@
+bin:
+	$	25cc9d47 000000ca 0000044c 000003e8 00000100 00000003 00000500 00000000
+	$	00000000 00000500 00000000 00000100 00000007 000003e8 00000000 000003e8
+	$	ffffffff 00000000 00001000 00020291 00000014 00000000 00000000 01680000
+	$	00ad0000 00a9ffff ffff0000 00020000 00020000 0001ffff f000ffff f9000000
+	$	1000ffff f9000000 00000000 0000ffff fd00ffff f2000000 0300ffff f2000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 01000000 00000000 c3500000 023c8000 0005ffff ffff0000 0000ffff
+	$	ffff0000 0000ffff ffff0000 0000ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 000f0000 02000000 0100ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 00000000 01000000 03e80315 00000000 00000000 00004000 0000
+long_name:               "Cruiser"
+short_name:              "CRUISER"
+notes:                   "Cruiser, Grolk, for CTF, P2"
+attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+class_:                  202
+race:                    9
+health:                  1000
+damage:                  0
+energy:                  1000
+price:                   1000
+build_ratio:             1.0
+build_time:              1000
+mass:                    1.0
+max_velocity:            5.0
+max_thrust:              0.027
+initial_velocity:        5.0
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+warp_out_distance:       0
+weapons:
+	*	base:  173
+		positions:
+			*	{x: -16.0, y: -7.0}
+			*	{x: 16.0, y: -7.0}
+	*	base:  169
+		positions:
+			*	{x: -3.0, y: -14.0}
+			*	{x: 3.0, y: -14.0}
+layer:                   2
+sprite:                  657
+frame:                   {offset: 0, resolution: 15, turn_rate: 2.0}
+scale:                   1.0
+icon:
+	shape:  "triangle"
+	size:   4
+shield_color:            "gray"
+on_destroy:
+	*	type:         "sound"
+		reflexive:    true
+		id:           571
+		priority:     3
+		persistence:  10
+		volume:       255
+	*	type:            "move"
+		reflexive:       true
+		initial_object:  2
+		origin:          "object"
+		distance:        600
+	*	type:       "heal"
+		reflexive:  true
+		value:      1000
+	*	type:       "push"
+		reflexive:  true
+		kind:       "stop"
+	*	type:       "morph"
+		reflexive:  true
+		base:       281
+destroy_dont_die:        true
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  0
+skill_num:               3
+skill_den:               21
+offense:                 1.0
+destination_class:       3
+friend_deficit:          0.0
+danger_threshold:        1.0

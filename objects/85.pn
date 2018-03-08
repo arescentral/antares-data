@@ -1,0 +1,70 @@
+bin:
+	$	200e00c2 ffffffff ffffffff 00000000 00000000 ffffff00 00000400 00000000
+	$	00000000 00000400 00000100 00000100 00000000 000003e8 00000000 00000000
+	$	ffffffff 00000000 00001000 00020221 00000042 ffff0000 00000000 0168ffff
+	$	ffffffff ffffffff ffff0000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 c3500000 00780000 0001ffff ffff0000 0000ffff
+	$	ffff0000 00000000 00790000 0003ffff ffff0000 0000ffff ffff0000 00000000
+	$	00000000 00150000 00010000 00000000 001e0000 00000000 00000000 00140000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 0000
+long_name:               "Asteroid Debris"
+short_name:              "ASTRDBRS"
+notes:                   "Asteroid Debris"
+attributes:              {can_be_engaged: true, does_bounce: true, is_self_animated: true, animation_cycle: true, can_collide: true, can_be_hit: true, appear_on_radar: true}
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+health:                  1000
+damage:                  0
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
+mass:                    1.0
+max_velocity:            4.0
+max_thrust:              0.0
+initial_velocity:        {begin: 4.0, end: 5.0}
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+warp_out_distance:       0
+layer:                   2
+sprite:                  545
+frame:
+	shape:        {begin: 0, end: 22}
+	direction:    "+"
+	speed:        30
+	first_shape:  {begin: 0, end: 20}
+scale:                   1.0
+icon:
+	shape:  "framed square"
+	size:   2
+on_destroy:
+	*	type:       "create"
+		reflexive:  true
+		base:       35
+on_collide:
+	*	type:    "score"
+		which:   1
+		value:   1
+		player:  0
+	*	type:         "sound"
+		reflexive:    true
+		id:           514
+		priority:     3
+		persistence:  5
+		volume:       255
+	*	type:       "kill"
+		reflexive:  true
+		kind:       "none"
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  0
+skill_num:               0
+skill_den:               0
+offense:                 0.0
+destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0

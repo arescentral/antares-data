@@ -1,0 +1,97 @@
+bin:
+	$	21400145 00000226 000000c8 00001194 00000400 00000007 00000300 00001400
+	$	001575ef 00000300 00000000 00000200 00000000 00000001 00000000 00001388
+	$	000002d0 00000000 00004000 0002025c 0000002a 00000000 00000000 0168ffff
+	$	ffffffff ffffffff ffff0000 00030000 00010000 0001ffff f2000000 3c000000
+	$	00000000 3c000000 0e000000 3c000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	0200ffff ec000000 00000000 c350ffff ffff8000 00000000 01d80000 0003ffff
+	$	ffff0000 0000ffff ffff0000 00000000 01d31010 0005ffff ffff0000 00000000
+	$	00000000 000f0000 01000000 01000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00190000 27100000 00000000 00000000 00000000 0000
+long_name:               "Gate Ship"
+short_name:              "GATESHIP"
+notes:                   "Blowing up & Dying Left & Right"
+attributes:              {can_turn: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, release_energy_on_death: true, occupies_space: true, appear_on_radar: true}
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+class_:                  550
+race:                    5
+health:                  1
+damage:                  0
+energy:                  5000
+price:                   4500
+build_ratio:             0.098
+build_time:              10000
+initial_age:             720
+mass:                    2.0
+max_velocity:            3.0
+max_thrust:              0.0
+initial_velocity:        3.0
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              20.0
+warp_out_distance:       1406447
+layer:                   2
+sprite:                  604
+frame:                   {offset: 0, resolution: 15, turn_rate: 1.0}
+scale:                   4.0
+icon:
+	shape:  "diamond"
+	size:   10
+shield_color:            "gray"
+on_expire:
+	*	type:         "sound"
+		reflexive:    true
+		id:           515
+		priority:     4
+		persistence:  20
+		volume:       255
+	*	type:       "create"
+		reflexive:  true
+		base:       221
+		count:      11
+	*	type:       "condition"
+		reflexive:  true
+		enable:     1
+on_activate:
+	*	type:               "create"
+		reflexive:          true
+		base:               29
+		count:              {begin: 0, end: 3}
+		relative_velocity:  true
+		distance:           128
+	*	type:               "create"
+		reflexive:          true
+		delay:              20
+		base:               52
+		count:              {begin: 0, end: 2}
+		relative_velocity:  true
+		distance:           128
+	*	type:               "create"
+		reflexive:          true
+		delay:              20
+		base:               34
+		count:              {begin: 0, end: 4}
+		relative_velocity:  true
+		distance:           128
+	*	type:               "create"
+		reflexive:          true
+		delay:              20
+		base:               8
+		count:              {begin: 0, end: 4}
+		relative_velocity:  true
+		distance:           128
+	*	type:       "reveal"
+		reflexive:  true
+		which:      {begin: 4, end: 12}
+destroy_dont_die:        true
+expire_dont_die:         false
+activate_period:         {begin: 16, end: 32}
+arrive_action_distance:  0
+skill_num:               0
+skill_den:               0
+offense:                 4.0
+destination_class:       7
+friend_deficit:          2.0
+danger_threshold:        -20.0

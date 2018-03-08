@@ -1,0 +1,58 @@
+bin:
+	$	00020080 ffffffff ffffffff 00000000 00000000 ffffff00 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 000003e8 00000000 00000000
+	$	ffffffff 00000000 00001000 0001023d 00000000 0f000000 00b40000 0000ffff
+	$	ffffffff ffffffff ffff0000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 c350ffff ffff0000 0000ffff ffff0000 0000ffff
+	$	ffff0000 0000ffff ffff0000 00000000 01f5ffff 0001ffff ffff0000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	$	00000000 00000000 00000000 00000000 00000000 00000000 00000000 0000
+long_name:               "Ast Shoot Down Lt"
+short_name:              "ASTSHTDN"
+notes:                   "For Net Level 1 (Rock & Rock)"
+attributes:              {is_self_animated: true, animation_cycle: true}
+level_tag:               "0"
+engage_tag:              "0"
+order_tag:               "0"
+health:                  1000
+damage:                  0
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
+mass:                    0.0
+max_velocity:            0.0
+max_thrust:              0.0
+initial_velocity:        0.0
+initial_direction:       180
+warp_speed:              0.0
+warp_out_distance:       0
+layer:                   1
+sprite:                  573
+frame:
+	shape:        0
+	direction:    "0"
+	speed:        0
+	first_shape:  0
+scale:                   1.0
+shield_color:            "red"
+on_activate:
+	*	type:                "create"
+		reflexive:           true
+		base:                184
+		count:               {begin: -2, end: 3}
+		relative_velocity:   true
+		relative_direction:  true
+		distance:            1024
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         {begin: 255, end: 510}
+arrive_action_distance:  0
+skill_num:               0
+skill_den:               0
+offense:                 0.0
+destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0
