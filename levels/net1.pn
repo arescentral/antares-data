@@ -1,9 +1,4 @@
 type:        "net"
-bin:
-	$	01e30002 00010064 10680001 ffffffff 00000100 01e30000 00010064 10680001
-	$	ffffffff 00000100 01e30000 ffffffff ffffffff ffffffff 00000000 00000000
-	$	ffffffff ffffffff ffffffff 00000000 00000000 000001a4 0c940008 138a0068
-	$	00000003 00c80000 00c80001 ffffffff 00000018 00000000 000000f0
 chapter:     24
 title:
 	>	\i Between a Rock and a Rock 

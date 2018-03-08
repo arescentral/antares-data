@@ -1,9 +1,4 @@
 type:         "solo"
-bin:
-	$	00000002 00000064 10680001 ffffffff 00000002 00000000 000200c8 10680002
-	$	ffffffff 00000100 00000000 ffffffff ffffffff ffffffff 00000000 00000000
-	$	ffffffff ffffffff ffffffff 00000000 00000000 1b5901fd ffff0008 0fa20096
-	$	ffff0025 014a0000 011f0500 ffffffff ffff0003 ffffff00 ffff8000
 chapter:      3
 title:
 	>	\i Tutorial Lesson 2

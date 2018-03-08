@@ -1,9 +1,4 @@
 type:     "net"
-bin:
-	$	02000002 0001044c 10680001 ffffffff 00000000 02000000 0001044c 10680002
-	$	ffffffff 00000000 02000000 ffffffff ffffffff ffffffff 00000000 00000000
-	$	ffffffff ffffffff ffffffff 00000000 00000000 ffff0055 0c980005 138b0078
-	$	ffff0004 ffffffff ffff0000 ffffffff 0000001d 00000000 00000000
 chapter:  29
 title:
 	>	\i Spaze Warz 

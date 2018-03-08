@@ -1,9 +1,4 @@
 type:        "net"
-bin:
-	$	01e30002 00010064 10680006 ffffffff 00000100 01e30000 00010064 10680002
-	$	ffffffff 00000100 01e30000 ffffffff ffffffff ffffffff 00000000 00000000
-	$	ffffffff ffffffff ffffffff 00000000 00000000 000001e8 0c95000b 13880070
-	$	ffff0003 00640000 00640001 ffffffff 0000001b 00000000 000000f0
 chapter:     27
 title:
 	>	\i Scratching Post 

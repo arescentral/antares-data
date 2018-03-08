@@ -1,9 +1,4 @@
 type:     "net"
-bin:
-	$	00620002 00010064 10680001 ffffffff 00000100 00620000 00010064 ffffffff
-	$	ffffffff 00000100 00620000 ffffffff ffffffff ffffffff 00000000 00000000
-	$	ffffffff ffffffff ffffffff 00000000 00000000 ffff00ea 0c970013 138c007c
-	$	ffff0002 ffffffff ffff0000 ffffffff 0000001e 00000000 00000000
 chapter:  30
 title:
 	>	\i Location, Location, Location 

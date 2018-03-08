@@ -1,9 +1,4 @@
 type:        "solo"
-bin:
-	$	00000002 00000384 10680006 ffffffff 00000100 68c00000 000200c8 10680002
-	$	ffffffff 00000100 00000000 ffffffff ffffffff ffffffff ffffffff 00000000
-	$	ffffffff ffffffff ffffffff ffffffff 010d3204 1b6b0138 0000000c 138b0061
-	$	00000007 00f10086 00350007 030cffff 00320016 00000000 00230000
 chapter:     22
 title:
 	>	\i Chapter 19 
