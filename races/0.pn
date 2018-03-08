@@ -1,0 +1,8 @@
+singular:        "Human"
+plural:          "Humans"
+military:        "UNS Resistance"
+homeworld:       "Earth"
+numeric:         900
+apparent_color:  "gray"
+illegal_colors:  0
+advantage:       1.4
