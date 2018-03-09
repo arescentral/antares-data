@@ -33,8 +33,8 @@ initial_direction:       {begin: 0, end: 360}
 warp_speed:              0.0
 warp_out_distance:       0
 weapons:
-	*	null
-	*	base:  198
+	beam:
+		base:  198
 		positions:
 			*	{x: -3.0, y: 0.0}
 			*	{x: 3.0, y: 0.0}

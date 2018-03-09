@@ -30,9 +30,7 @@ initial_direction:       {begin: 0, end: 360}
 warp_speed:              0.0
 warp_out_distance:       0
 weapons:
-	*	null
-	*	null
-	*	{base: 219}
+	special:  {base: 219}
 layer:                   1
 sprite:                  573
 frame:

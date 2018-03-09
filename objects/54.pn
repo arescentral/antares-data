@@ -34,10 +34,12 @@ initial_direction:       {begin: 0, end: 360}
 warp_speed:              0.0
 warp_out_distance:       0
 weapons:
-	*	base:  4
+	pulse:
+		base:  4
 		positions:
 			*	{x: 0.0, y: 0.0}
-	*	base:  55
+	beam:
+		base:  55
 		positions:
 			*	{x: 0.0, y: 0.0}
 layer:                   2

@@ -31,8 +31,7 @@ initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
 weapons:
-	*	null
-	*	{base: 154}
+	beam:  {base: 154}
 layer:                   3
 sprite:                  583
 frame:                   {offset: 0, resolution: 15, turn_rate: 1.0}

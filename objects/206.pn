@@ -32,15 +32,18 @@ initial_direction:       {begin: 0, end: 360}
 warp_speed:              40.0
 warp_out_distance:       13505625
 weapons:
-	*	base:  130
+	pulse:
+		base:  130
 		positions:
 			*	{x: 0.0, y: 0.0}
-	*	base:  20
+	beam:
+		base:  20
 		positions:
 			*	{x: -5.0, y: 0.0}
 			*	{x: 0.0, y: 0.0}
 			*	{x: 5.0, y: 0.0}
-	*	base:  73
+	special:
+		base:  73
 		positions:
 			*	{x: 0.0, y: 0.0}
 layer:                   2

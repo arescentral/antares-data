@@ -30,9 +30,9 @@ initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
 weapons:
-	*	{base: 31}
-	*	{base: 96}
-	*	{base: 73}
+	pulse:    {base: 31}
+	beam:     {base: 96}
+	special:  {base: 73}
 layer:                   1
 sprite:                  643
 frame:

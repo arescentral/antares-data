@@ -32,9 +32,8 @@ initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
 weapons:
-	*	null
-	*	null
-	*	base:  283
+	special:
+		base:  283
 		positions:
 			*	{x: 0.0, y: 0.0}
 layer:                   1
