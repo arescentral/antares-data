@@ -17,7 +17,7 @@ build_flags:             {sufficient_escorts_exist: true, matching_foe_exists: t
 order_flags:             {foe: true, hard_matching_foe: true, hard_no_friendly_escort: true, hard_foe: true, hard_not_base: true}
 level_tag:               "d"
 order_tag:               "5"
-class_:                  850
+class:                   850
 race:                    1
 health:                  800
 damage:                  0

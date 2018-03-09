@@ -17,7 +17,7 @@ build_flags:             {can_only_engage: true}
 order_flags:             {local: true, foe: true}
 engage_tag:              "a"
 order_tag:               "a"
-class_:                  10
+class:                   10
 race:                    6
 health:                  10
 damage:                  0

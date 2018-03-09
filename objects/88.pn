@@ -16,7 +16,7 @@ attributes:              {can_turn: true, can_be_engaged: true, has_direction_go
 build_flags:             {uncaptured_base_exists: true, sufficient_escorts_exist: true}
 order_flags:             {stronger_than_target: true, base: true, foe: true}
 level_tag:               "f"
-class_:                  800
+class:                   800
 race:                    3
 health:                  2000
 damage:                  0

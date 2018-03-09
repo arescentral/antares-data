@@ -13,7 +13,7 @@ long_name:               "Cruiser"
 short_name:              "CRUISER"
 notes:                   "Cruiser"
 attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
-class_:                  200
+class:                   200
 race:                    7
 health:                  1500
 damage:                  0

@@ -16,7 +16,7 @@ attributes:              {can_turn: true, can_be_engaged: true, has_direction_go
 build_flags:             {only_engaged_by: true}
 level_tag:               "9"
 engage_tag:              "9"
-class_:                  204
+class:                   204
 race:                    9
 health:                  1000
 damage:                  0

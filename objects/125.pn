@@ -13,7 +13,7 @@ long_name:               "Luxury Liner"
 short_name:              "LUXLINER"
 notes:                   "Liner Disabled"
 attributes:              {shape_from_direction: true, can_be_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, occupies_space: true, appear_on_radar: true}
-class_:                  803
+class:                   803
 race:                    2
 health:                  250
 damage:                  0

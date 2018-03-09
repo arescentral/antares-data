@@ -16,7 +16,7 @@ attributes:              {can_turn: true, can_be_engaged: true, has_direction_go
 build_flags:             {sufficient_escorts_exist: true, matching_foe_exists: true}
 order_flags:             {base: true, foe: true, hard_matching_foe: true, hard_no_friendly_escort: true, hard_foe: true}
 order_tag:               "a"
-class_:                  860
+class:                   860
 race:                    5
 health:                  1200
 damage:                  0

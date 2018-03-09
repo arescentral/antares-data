@@ -14,7 +14,7 @@ short_name:              "TRGTDRNE"
 notes:                   "Target Drone Dead"
 attributes:              {is_self_animated: true, animation_cycle: true, appear_on_radar: true}
 order_flags:             {local: true}
-class_:                  123
+class:                   123
 race:                    1
 health:                  250
 damage:                  0

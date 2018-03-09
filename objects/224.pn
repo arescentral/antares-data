@@ -13,7 +13,7 @@ long_name:               "Gate Ship"
 short_name:              "GATESHIP"
 notes:                   "Going through Jump Gate"
 attributes:              {can_turn: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, static_destination: true, appear_on_radar: true}
-class_:                  550
+class:                   550
 race:                    5
 health:                  80000
 damage:                  0

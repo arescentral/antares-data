@@ -15,7 +15,7 @@ notes:                   "Flak Drone"
 attributes:              {can_turn: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_engage: true, can_collide: true, can_be_hit: true, can_be_evaded: true, appear_on_radar: true}
 build_flags:             {can_only_engage: true}
 level_tag:               "5"
-class_:                  9999
+class:                   9999
 health:                  15000
 damage:                  0
 energy:                  1000
