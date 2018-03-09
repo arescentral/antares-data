@@ -14,8 +14,6 @@ short_name:              "MOON"
 notes:                   "Moon"
 attributes:              {is_self_animated: true, can_be_destination: true, can_accept_build: true, is_destination: true}
 level_tag:               "f"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  -1
 damage:                  1
 energy:                  -1

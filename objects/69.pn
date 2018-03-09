@@ -13,9 +13,6 @@ long_name:               "R-Plasma"
 short_name:              "RPLASMA"
 notes:                   "R-Plasma"
 attributes:              {is_self_animated: true, can_engage: true, animation_cycle: true, can_collide: true, can_be_evaded: true, is_guided: true, appear_on_radar: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  200
 energy:                  0

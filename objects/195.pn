@@ -13,9 +13,6 @@ long_name:               "Nastiroid"
 short_name:              "NASTROID"
 notes:                   "Nastiroid"
 attributes:              {is_self_animated: true, animation_cycle: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  500000
 damage:                  40000
 energy:                  2000

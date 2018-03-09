@@ -12,9 +12,6 @@ bin:
 long_name:               "Lepton Beam Cannon"
 short_name:              "LBEAM 1"
 notes:                   "Lepton Beam Cannon"
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  0
 energy:                  0

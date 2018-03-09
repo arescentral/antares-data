@@ -13,9 +13,6 @@ long_name:               "Human"
 short_name:              "HUMAN"
 notes:                   "Needs rescuing, Not Waving"
 attributes:              {can_turn: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_engage: true, can_accept_destination: true, animation_cycle: true, can_collide: true, can_be_hit: true, static_destination: true, appear_on_radar: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1
 damage:                  0
 energy:                  0

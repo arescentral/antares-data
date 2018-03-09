@@ -13,9 +13,6 @@ long_name:               "Castaway Crew Member"
 short_name:              "CREW"
 notes:                   "Castaway Crew Member"
 attributes:              {can_turn: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, animation_cycle: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1
 damage:                  1
 energy:                  0

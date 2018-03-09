@@ -13,9 +13,6 @@ long_name:               "Asteroid Shoot Up"
 short_name:              "ASTRSHOT"
 notes:                   "Asteroid Shoot Up"
 attributes:              {is_self_animated: true, animation_cycle: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  0
 energy:                  0

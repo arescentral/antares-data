@@ -13,9 +13,6 @@ long_name:               "Antimatter Pulse"
 short_name:              "A PULSE"
 notes:                   "Antimatter Pulse"
 attributes:              {is_self_animated: true, animation_cycle: true, can_collide: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  100
 energy:                  0

@@ -14,8 +14,6 @@ short_name:              "LINER"
 notes:                   "Receives Hostages"
 attributes:              {is_self_animated: true, shape_from_direction: true, can_be_destination: true}
 level_tag:               "6"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  1
 energy:                  0

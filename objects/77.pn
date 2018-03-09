@@ -13,9 +13,6 @@ long_name:               "Battleship-Moored"
 short_name:              "BTTLSHIP"
 notes:                   "Battleship-Moored"
 attributes:              {can_turn: true, does_bounce: true, shape_from_direction: true, occupies_space: true, appear_on_radar: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 class_:                  550
 race:                    4
 health:                  6500

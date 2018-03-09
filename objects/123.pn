@@ -12,9 +12,6 @@ bin:
 long_name:               "Retroburst"
 short_name:              "RTROBRST"
 notes:                   "Retroburst"
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  0
 damage:                  0
 energy:                  0

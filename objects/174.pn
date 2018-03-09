@@ -15,8 +15,6 @@ notes:                   "Transport -- special, for chapter 19"
 attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, hide_effect: true, release_energy_on_death: true, hated: true, occupies_space: true, appear_on_radar: true}
 build_flags:             {uncaptured_base_exists: true, sufficient_escorts_exist: true, matching_foe_exists: true}
 order_flags:             {stronger_than_target: true, base: true, foe: true}
-level_tag:               "0"
-engage_tag:              "0"
 order_tag:               "f"
 class_:                  1801
 race:                    0

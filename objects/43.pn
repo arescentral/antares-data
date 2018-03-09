@@ -13,9 +13,6 @@ long_name:               "Protopulse"
 short_name:              "PROPULS"
 notes:                   "Protopulse"
 attributes:              {is_self_animated: true, autotarget: true, animation_cycle: true, can_collide: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  100
 energy:                  0

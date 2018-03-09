@@ -14,9 +14,7 @@ short_name:              "OBIARD"
 notes:                   "Needs rescuing, waving"
 attributes:              {can_turn: true, has_direction_goal: true, does_bounce: true, is_self_animated: true, can_engage: true, animation_cycle: true, can_collide: true, can_be_hit: true, static_destination: true, appear_on_radar: true}
 build_flags:             {can_only_engage: true}
-level_tag:               "0"
 engage_tag:              "e"
-order_tag:               "0"
 health:                  1
 damage:                  0
 energy:                  0

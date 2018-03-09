@@ -16,7 +16,6 @@ attributes:              {is_self_animated: true, can_be_destination: true, can_
 build_flags:             {can_only_engage: true}
 level_tag:               "9"
 engage_tag:              "9"
-order_tag:               "0"
 health:                  1000
 damage:                  0
 energy:                  0

@@ -13,9 +13,6 @@ long_name:               "Gate Ship"
 short_name:              "GATESHIP"
 notes:                   "Blowing up & Dying Left & Right"
 attributes:              {can_turn: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, release_energy_on_death: true, occupies_space: true, appear_on_radar: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 class_:                  550
 race:                    5
 health:                  1

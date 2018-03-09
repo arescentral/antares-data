@@ -13,9 +13,6 @@ long_name:               "Fusion Pulse"
 short_name:              "FPULSE 1"
 notes:                   "Fusion Pulse"
 attributes:              {can_turn: true, does_bounce: true, shape_from_direction: true, animation_cycle: true, can_collide: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  100
 energy:                  0

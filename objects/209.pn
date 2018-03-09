@@ -13,9 +13,6 @@ long_name:               "Lab"
 short_name:              "Lab"
 notes:                   "Burning"
 attributes:              {is_self_animated: true, can_be_destination: true, animation_cycle: true, is_destination: true, appear_on_radar: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  0
 energy:                  0

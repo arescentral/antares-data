@@ -15,8 +15,6 @@ notes:                   "Audemedon Assault Transport"
 attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
 build_flags:             {sufficient_escorts_exist: true, matching_foe_exists: true}
 order_flags:             {foe: true, hard_matching_foe: true, hard_no_friendly_escort: true, hard_foe: true}
-level_tag:               "0"
-engage_tag:              "0"
 order_tag:               "a"
 class_:                  860
 race:                    8

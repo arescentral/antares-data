@@ -13,9 +13,6 @@ long_name:               "Warp In Flare"
 short_name:              "WARP IN"
 notes:                   "Warp In Flare"
 attributes:              {is_self_animated: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  100
 energy:                  0

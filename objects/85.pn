@@ -13,9 +13,6 @@ long_name:               "Asteroid Debris"
 short_name:              "ASTRDBRS"
 notes:                   "Asteroid Debris"
 attributes:              {can_be_engaged: true, does_bounce: true, is_self_animated: true, animation_cycle: true, can_collide: true, can_be_hit: true, appear_on_radar: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  0
 energy:                  0

@@ -15,7 +15,6 @@ notes:                   "Gaitori Extra-vehicular Assault Trooper"
 attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
 build_flags:             {can_only_engage: true}
 order_flags:             {local: true, foe: true}
-level_tag:               "0"
 engage_tag:              "a"
 order_tag:               "a"
 class_:                  10

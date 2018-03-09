@@ -13,9 +13,6 @@ long_name:               "Missile Hit"
 short_name:              "HIT"
 notes:                   "Missile Hit"
 attributes:              {is_self_animated: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  0
 damage:                  0
 energy:                  0

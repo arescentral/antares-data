@@ -15,9 +15,6 @@ notes:                   "Defense Drone"
 attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_engage: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
 build_flags:             {this_base_needs_protection: true}
 order_flags:             {base: true, local: true, friend: true, hard_no_friendly_escort: true, hard_local: true, hard_friend: true, hard_base: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 class_:                  600
 race:                    5
 health:                  1500

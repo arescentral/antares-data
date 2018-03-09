@@ -13,9 +13,6 @@ long_name:               "Lepton Beam"
 short_name:              "L BEAM"
 notes:                   "Lepton Beam"
 attributes:              {is_beam: true, can_collide: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  80
 energy:                  0

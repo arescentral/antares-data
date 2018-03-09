@@ -12,9 +12,6 @@ bin:
 long_name:               "Assault Team"
 short_name:              "ASLTTEAM"
 notes:                   "Audemedon Assault Team"
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  0
 energy:                  0

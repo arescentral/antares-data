@@ -12,9 +12,6 @@ bin:
 long_name:               "Rapid Inasa Pulse"
 short_name:              "RAPDINSA"
 notes:                   "Rapid Inasa Pulse Gun"
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  0
 energy:                  0

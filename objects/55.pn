@@ -12,9 +12,6 @@ bin:
 long_name:               "Rapid P-K Cannon"
 short_name:              "PKBEAM 2"
 notes:                   "Rapid P-K Cannon"
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  0
 damage:                  0
 energy:                  0

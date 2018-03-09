@@ -15,8 +15,6 @@ notes:                   "Asteroid (random direction)"
 attributes:              {can_be_engaged: true, is_self_animated: true, animation_cycle: true, can_collide: true, can_be_hit: true, hide_effect: true, hated: true, occupies_space: true, appear_on_radar: true}
 build_flags:             {only_engaged_by: true}
 level_tag:               "b"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  10000
 damage:                  10
 energy:                  0

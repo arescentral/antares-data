@@ -12,9 +12,6 @@ bin:
 long_name:               "Antimatter Pulse Reactor Type II"
 short_name:              "APULSE 2"
 notes:                   "Antimatter Pulse Reactor Type II"
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  0
 energy:                  0

@@ -13,9 +13,6 @@ long_name:               "Flak"
 short_name:              "FLAK"
 notes:                   "Flak"
 attributes:              {is_self_animated: true, animation_cycle: true, can_collide: true, can_be_hit: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  10
 damage:                  50
 energy:                  0

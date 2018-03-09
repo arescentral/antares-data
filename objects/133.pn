@@ -13,9 +13,6 @@ long_name:               "LR PK Beam"
 short_name:              "LRPKMEAM"
 notes:                   "LR PK Beam"
 attributes:              {is_beam: true, can_collide: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  30
 energy:                  0

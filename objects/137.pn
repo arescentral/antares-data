@@ -14,8 +14,6 @@ short_name:              "JUMPGATE"
 notes:                   "Jump Gate"
 attributes:              {is_self_animated: true, can_be_destination: true, animation_cycle: true, is_destination: true}
 level_tag:               "3"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  0
 energy:                  0

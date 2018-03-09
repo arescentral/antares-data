@@ -13,9 +13,6 @@ long_name:               "Reactivator"
 short_name:              "RCTVTR"
 notes:                   "for CTF moor -- P2's moor -- turns deactivated ship active"
 attributes:              {autotarget: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  0
 energy:                  0

@@ -13,9 +13,6 @@ long_name:               "Magneto Pulse"
 short_name:              "MGNOPULS"
 notes:                   "Magneto Pulse"
 attributes:              {is_self_animated: true, animation_cycle: true, can_collide: true}
-level_tag:               "0"
-engage_tag:              "0"
-order_tag:               "0"
 health:                  1000
 damage:                  50
 energy:                  0
