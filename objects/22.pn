@@ -32,7 +32,7 @@ sprite:                  513
 frame:                   {offset: 0, resolution: 15, turn_rate: 2.0}
 scale:                   0.5
 icon:
-	shape:  "framed square"
+	shape:  "square"
 	size:   1
 on_expire:
 	*	type:                "create"

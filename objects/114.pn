@@ -35,7 +35,7 @@ frame:
 	first_shape:  0
 scale:                   1.0
 icon:
-	shape:  "framed square"
+	shape:  "square"
 	size:   6
 portrait:                1115
 shield_color:            "red"

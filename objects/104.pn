@@ -41,7 +41,7 @@ frame:
 	first_shape:  0
 scale:                   2.0
 icon:
-	shape:  "framed square"
+	shape:  "square"
 	size:   7
 portrait:                1105
 destroy_dont_die:        false

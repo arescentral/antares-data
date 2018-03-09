@@ -36,7 +36,7 @@ frame:
 	first_shape:  0
 scale:                   1.0
 icon:
-	shape:  "framed square"
+	shape:  "square"
 	size:   6
 destroy_dont_die:        false
 expire_dont_die:         false

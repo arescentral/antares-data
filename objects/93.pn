@@ -47,7 +47,7 @@ sprite:                  542
 frame:                   {offset: 0, resolution: 15, turn_rate: 5.0}
 scale:                   1.0
 icon:
-	shape:  "framed square"
+	shape:  "square"
 	size:   3
 portrait:                1094
 shield_color:            "gold"

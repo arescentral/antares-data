@@ -37,7 +37,7 @@ frame:
 	first_shape:  {begin: 0, end: 19}
 scale:                   1.0
 icon:
-	shape:  "framed square"
+	shape:  "square"
 	size:   4
 portrait:                1185
 on_destroy:

@@ -35,7 +35,7 @@ frame:
 	first_shape:  {begin: 0, end: 20}
 scale:                   1.0
 icon:
-	shape:  "framed square"
+	shape:  "square"
 	size:   3
 on_destroy:
 	*	type:                "create"
