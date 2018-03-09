@@ -30,10 +30,10 @@ warp_out_distance:       0
 layer:                   3
 sprite:                  547
 frame:
-	shape:        {begin: 0, end: 6}
-	direction:    "+"
-	speed:        14
-	first_shape:  {begin: 0, end: 5}
+	shape:      {begin: 0.0, end: 5.004}
+	direction:  "+"
+	speed:      0.055
+	first:      {begin: 0.0, end: 5.0}
 scale:                   1.0
 icon:
 	shape:  "square"

@@ -27,7 +27,7 @@ initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
 layer:                   0
-frame:                   {range: 2073600, energy_cost: 0, fire_time: 240, ammo: 2, inverse_speed: 28}
+frame:                   {range: 2073600, energy_cost: 0, fire_time: 240, ammo: 2, inverse_speed: 0.11}
 scale:                   1.0
 on_activate:
 	*	type:         "sound"

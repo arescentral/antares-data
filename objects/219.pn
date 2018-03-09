@@ -33,7 +33,7 @@ frame:
 	energy_cost:    0
 	fire_time:      0
 	ammo:           10
-	inverse_speed:  35
+	inverse_speed:  0.137
 scale:                   1.0
 on_activate:
 	*	type:               "create"

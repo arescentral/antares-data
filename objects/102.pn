@@ -32,7 +32,7 @@ frame:
 	usage:          {attacking: true}
 	energy_cost:    10
 	fire_time:      20
-	inverse_speed:  25
+	inverse_speed:  0.098
 scale:                   1.0
 on_activate:
 	*	type:                "create"

@@ -33,7 +33,7 @@ frame:
 	usage:          {attacking: true, defense: true}
 	energy_cost:    50
 	fire_time:      60
-	inverse_speed:  12
+	inverse_speed:  0.047
 scale:                   1.0
 on_activate:
 	*	type:         "sound"

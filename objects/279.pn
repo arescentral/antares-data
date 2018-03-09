@@ -38,10 +38,10 @@ weapons:
 layer:                   1
 sprite:                  658
 frame:
-	shape:        {begin: 0, end: 12}
-	direction:    "+"
-	speed:        40
-	first_shape:  {begin: 0, end: 11}
+	shape:      {begin: 0.0, end: 11.004}
+	direction:  "+"
+	speed:      0.156
+	first:      {begin: 0.0, end: 11.0}
 scale:                   1.0
 icon:
 	shape:  "plus"

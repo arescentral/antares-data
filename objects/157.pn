@@ -33,7 +33,7 @@ frame:
 	energy_cost:    0
 	fire_time:      70
 	ammo:           150
-	inverse_speed:  28
+	inverse_speed:  0.11
 	restock_cost:   12
 scale:                   1.0
 on_activate:

@@ -29,7 +29,7 @@ warp_speed:              0.0
 warp_out_distance:       0
 layer:                   0
 frame:
-	color:     {r: 255, g: 255, b: 127}
+	hue:       "gold"
 	kind:      "bolt to coord"
 	accuracy:  0
 	range:     900

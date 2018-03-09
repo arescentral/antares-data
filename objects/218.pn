@@ -31,10 +31,10 @@ weapons:
 layer:                   1
 sprite:                  573
 frame:
-	shape:        0
-	direction:    "0"
-	speed:        0
-	first_shape:  0
+	shape:      0.0
+	direction:  "0"
+	speed:      0.0
+	first:      0.0
 scale:                   1.0
 shield_color:            "red"
 destroy_dont_die:        false

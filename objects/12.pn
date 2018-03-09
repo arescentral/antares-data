@@ -30,10 +30,10 @@ warp_out_distance:       0
 layer:                   2
 sprite:                  507
 frame:
-	shape:        {begin: 9, end: 18}
-	direction:    "+"
-	speed:        100
-	first_shape:  {begin: 9, end: 17}
+	shape:      {begin: 9.0, end: 17.004}
+	direction:  "+"
+	speed:      0.39
+	first:      {begin: 9.0, end: 17.0}
 scale:                   1.0
 on_collide:
 	*	type:                "create"

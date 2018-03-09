@@ -29,10 +29,10 @@ warp_out_distance:       0
 layer:                   3
 sprite:                  504
 frame:
-	shape:        {begin: 18, end: 21}
-	direction:    "+"
-	speed:        40
-	first_shape:  18
+	shape:      {begin: 18.0, end: 20.004}
+	direction:  "+"
+	speed:      0.156
+	first:      18.0
 scale:                   0.25
 on_create:
 	*	type:         "sound"
