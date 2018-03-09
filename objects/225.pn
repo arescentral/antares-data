@@ -12,7 +12,7 @@ bin:
 long_name:               "Passenger Liner"
 short_name:              "LINER"
 notes:                   "Receives Hostages"
-attributes:              {is_self_animated: true, shape_from_direction: true, can_be_destination: true}
+attributes:              {is_self_animated: true, can_be_destination: true}
 level_tag:               "6"
 health:                  1000
 damage:                  1
@@ -29,7 +29,11 @@ warp_speed:              0.0
 warp_out_distance:       0
 layer:                   2
 sprite:                  565
-frame:                   {offset: 0, resolution: 15, turn_rate: 0.0}
+frame:
+	shape:        {begin: 0, end: 16}
+	direction:    "0"
+	speed:        0
+	first_shape:  0
 scale:                   2.0
 icon:
 	shape:  "plus"
