@@ -1,5 +1,0 @@
-#O4#Squares represent planets and stars.
-
-When a symbol is blue, it indicates that the
-object is not under anyone’s control.
-[more]

@@ -1,2 +1,0 @@
-The Gaitori base on Beta is your objective. Land a transport here to complete the mission.
-^P1095^The Gaitori can also make fighters, cruisers, transports and engineering pods. Their engineering pods also have defensive lasers.

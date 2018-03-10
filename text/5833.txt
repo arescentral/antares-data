@@ -1,8 +1,0 @@
-Perfect.
-
-You can also target ships and planets with the keyboard.
-
-To select Target Objects with the keyboard, you use the Target key, \i_#DST_\i, in conjunction with the selection keys.
-
-Mouse selection has been deactivated, and the keyboard selection has been reactivated.
-\i_[more]_\i_

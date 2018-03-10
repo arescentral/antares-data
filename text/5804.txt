@@ -1,3 +1,0 @@
-#O1#For now, note the yellow label which
-designates this ship as your Control Object.
-[more]

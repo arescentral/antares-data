@@ -1,4 +1,0 @@
-As you saw with the transport, when the display is on a very small scale (anything below \f0c1:4\r), symbols are used to represent the objects in the scenario.
-
-Let’s look at these symbols.
-\i_[more]_\i_

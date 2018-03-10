@@ -1,3 +1,0 @@
-Now Zoom all the way out to the \f0cZoom to All\r mode by hitting the \i_#SC-_\i key several times.
-
-This mode always shows all the objects in a scenario.

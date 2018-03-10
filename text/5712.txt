@@ -1,4 +1,0 @@
-The display is now in the dynamic \f0cZoom to Closest Hostile\r mode. The display has automatically scaled to show the nearest hostile object, in this case, a simulated Cantharan Transport.
-
-Since the transport is far away, the display automatically sets itself to a very small scale, where the images of the ships are replaced by symbols. Since this is an enemy transport, its symbol is red.
-\i_[more]_\i_

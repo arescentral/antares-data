@@ -1,4 +1,0 @@
-The \i_#TCC_\i and \i_#TNC_\i keys turn your ship counter-clockwise and clockwise. Try them now.
-
-The green hollow triangle is your sight; it shows which way your ship is pointing.
-\i_[more]_\i_

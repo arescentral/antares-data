@@ -1,3 +1,0 @@
-To activate the autopilot, hold down the Target key, \i_#DST_\i as you press and release the Warp key, \i_#WRP_\i.
-
-Try it now.

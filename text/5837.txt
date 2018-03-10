@@ -1,6 +1,0 @@
-Excellent.
-
-You now know how to select friendly ships and bases as Control Objects using the mouse and keyboard (\i_#SFD_\i for friendly ships, \i_#SBS_\i for friendly bases).
-
-You also know how to target friendly and unfriendly ships and bases with the mouse and keyboard, using the \i_#DST_\i key (or just the \i_#SFO_\i key for enemy ships).
-\i_[more]_\i_

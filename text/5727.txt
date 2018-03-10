@@ -1,5 +1,0 @@
-#R102##618,152#This is your reserve power indicator.
-
-This represents how much total energy you
-have available.
-[more]

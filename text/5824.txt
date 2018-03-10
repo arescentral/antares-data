@@ -1,3 +1,0 @@
-Selecting bases and space stations with the keyboard works the same way, except you use the Select Base key, \i_#SBS_\i.
-
-Select the planet now by pointing your ship at it and pressing the \i_#SBS_\i key.

@@ -1,4 +1,0 @@
-#L181##65,217#The blue bar represents the Control Object’s
-shield power, and the yellow bar shows the
-Control Object’s available power.
-[more]

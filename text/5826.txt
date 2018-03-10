@@ -1,6 +1,0 @@
-#O1#To target a ship with the mouse, hold down
-the target key, #DST, then
-click on the ship.
-
-Use the mouse to click on this ship while
-holding down the #DST key.

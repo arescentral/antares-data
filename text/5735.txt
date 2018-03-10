@@ -1,7 +1,0 @@
-#R231##618,281#Every time the beam weapon is fired, a
-small amount of your available power is
-used.
-
-The available power gets automatically
-replenished by the reserve power.
-[more]

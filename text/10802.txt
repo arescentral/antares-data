@@ -1,2 +1,0 @@
-DEBUG Chapter 8, computer wins.
-Computer got enough asteroid fragments that player could never win (this should never happen).

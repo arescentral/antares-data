@@ -1,9 +1,0 @@
-#L322##62,338#The Build Menu is a list of ships you can
-build at the most recently selected base.
-
-The name of the base is at the top.
-
-From now on, use the #MSC key to
-see the next message, since we want to keep
-looking at this menu.
-[more]

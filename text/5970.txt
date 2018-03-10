@@ -1,6 +1,0 @@
-Good.
-
-The Cruiser will now stay by the planet, even if the Heavy Cruiser is ordered somewhere else.
-
-Because you already had the planet selected as a target, you didn’t need to target it before you assigned it to the Cruiser.
-\i_more_\i_

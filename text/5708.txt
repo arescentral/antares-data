@@ -1,4 +1,0 @@
-There are several fixed zoom modes, where the zoom level stays the same all the time.
-
-The screen is currently in the fixed \f0c1:1\r mode.
-\i_[more]_\i_

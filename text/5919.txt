@@ -1,6 +1,0 @@
-#L322##87,352#To build a ship on the Build Menu,
-you can double click on it, or select
-it and press the Computer Accept Key,
-#ACT.
-
-Go ahead and build a Cruiser.

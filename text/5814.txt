@@ -1,7 +1,0 @@
-#O1#
-To select an object with the keyboard, you
-have to point your ship at it, then press
-the appropriate key.
-
-Aim yourself at this ship, then press the
-Select Friend key, #SFD.

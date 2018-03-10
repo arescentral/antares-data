@@ -1,3 +1,0 @@
-#L181##29,217#This is a small image of the Control
-Object.
-[more]

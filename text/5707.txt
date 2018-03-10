@@ -1,4 +1,0 @@
-For this simulation, your ship has been temporarily disabled. As controls are explained, they will be enabled.
-
-Let’s first look at the zooming controls.
-\i_[more]_\i_

@@ -1,8 +1,0 @@
-#O1#Good. This ship has been selected as the
-Control Object.
-
-The Control Object is the ship or planet
-which is under your indirect control. We’ll
-talk more about how to control the Control
-Object later.
-[more]

@@ -1,5 +1,0 @@
-#L322#As a shortcut, you can press the
-#MSC key at any time to see the
-next page of a message.
-
-Try it now.

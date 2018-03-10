@@ -1,6 +1,0 @@
-#O2#Crosses represent transports and other
-specialty ships.
-
-Pulsing symbols represent objects that are
-severely damaged.
-[more]

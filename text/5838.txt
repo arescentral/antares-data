@@ -1,4 +1,0 @@
-There’s a lot you can do once you know how to select Control and Target objects -- but let’s save the bulk of that for the third lesson.
-
-For now, we’ll show you how to use the autopilot in conjunction with the target selection.
-\i_[more]_\i_

@@ -1,6 +1,0 @@
-Welcome to Lesson 2.
-
-In this lesson, you will be shown how to select other ships and objects.
-
-We’ll be controlling the zoom, and turning on and off functions as they apply.
-\i_[more]_\i_

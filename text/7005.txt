@@ -1,5 +1,0 @@
-Now order the two standard Cruisers and the Heavy Cruiser to follow you. 
-
-Select each of them (the mouse has been turned back on) and press the Order to Go key, \i_#ORD_\i..
-
-We’ll continue when all three ships have you as their target.

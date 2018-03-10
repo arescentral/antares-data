@@ -1,6 +1,0 @@
-#O5#Good -- the ship was built.
-
-Now, select this ship by clicking on it
-with the mouse or by pointing yourself
-at it and pressing the Select Friend key,
-#SFD.

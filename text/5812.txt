@@ -1,7 +1,0 @@
-#O5#If several ships are on top of one another,
-you can get at the ship you want by clicking
-on the cluster repeatedly.
-
-Try to select this transport, hidden under
-three other ships. You’ll have to click three
-or four times.

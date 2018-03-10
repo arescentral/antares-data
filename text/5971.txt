@@ -1,6 +1,0 @@
-Frequently, you’ll be required to capture bases, like planets.
-
-The only way to capture a planet is to land a transport on it.
-
-To land a transport on an unfriendly planet, you simply give the transport the planet as a target.
-\i_more_\i_

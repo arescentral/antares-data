@@ -1,4 +1,0 @@
-To build at a particular base, it must be selected first.
-
-Once you’ve selected a base capable of building ships, you don’t need to select it again, even if you select another ship, or another base that can’t build. All subsequent build commands will be processed by the last capable base you selected.
-\i_[more]_\i_

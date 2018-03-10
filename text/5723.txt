@@ -1,4 +1,0 @@
-The display is now zoomed to \f0c1:16\r. Try rotating some more with the \i_#TCC_\i and \i_#TNC_\i keys.
-
-At this scale, you must rely on your sight to determine what direction you are facing.
-\i_[more]_\i_

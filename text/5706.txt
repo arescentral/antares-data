@@ -1,5 +1,0 @@
-#O0#This is your ship, at the center of the screen.
-
-The ship you are currently piloting will
-always be centered on the screen.
-[more]

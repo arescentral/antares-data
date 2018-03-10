@@ -1,5 +1,0 @@
-#O1#Triangles represent small-to-medium sized
-military ships.
-
-Larger symbols indicate larger ships.
-[more]

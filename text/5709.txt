@@ -1,2 +1,0 @@
-The screen is now in fixed \f0c1:4\r mode, so everything appears one quarter the size.
-\i_[more]_\i_

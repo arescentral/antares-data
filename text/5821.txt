@@ -1,4 +1,0 @@
-There will often be times, though, that you know where a ship is but you won’t have the time to scale out and find it.
-
-You can use the keyboard to select a ship even if you can’t see it.
-\i_[more]_\i_

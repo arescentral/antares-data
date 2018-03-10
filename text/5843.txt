@@ -1,3 +1,0 @@
-To complete this lesson, you must get to the planet. We’ve turned off your thrust key, so you’ll have to use the autopilot to get there.
-
-Target the planet with the mouse or keyboard, then turn on the autopilot (hold down \i_#DST_\i then press \i_#WRP_\i).

@@ -1,8 +1,0 @@
-#O1#To target a ship with the keyboard, point
-yourself at the ship, hold down the target
-key, #DST, then press the
-Select Friend key, #SFD.
-
-Select this ship as a target, so it
-is labeled in blue and appears on the
-target screen.

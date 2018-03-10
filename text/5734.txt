@@ -1,7 +1,0 @@
-#L159##74,163#The beam cannon is an energy weapon, and
-therefore does not have an ammo count.
-
-Some secondary weapons do have a limited
-number of shots. When they do, the number
-of shots is displayed here.
-[more]

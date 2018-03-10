@@ -1,9 +1,0 @@
-#L8##121,66#Any object within range will appear as a
-flashing dot on your radar. It’s a good
-way to keep track of objects in your vicinity
-even if they’re not visible in your main
-display.
-
-Even cloaked objects will appear on
-your radar.
-[more]

@@ -1,6 +1,0 @@
-Notice that, as the enemy transport apporoaches, the display automatically zooms in. When it moves away, the display automatically zooms out.
-
-The Zoom to Closest Hostile mode is the default zoom mode, and is recommended for combat.
-
-When you’re done watching the transport, go to the next page.
-\i_[more]_\i_

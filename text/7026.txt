@@ -1,5 +1,0 @@
-#L322##116,350#Executing the Hold Position item will
-cause your current Control Object to
-stay at its current location, wherever that
-may be, until otherwise ordered.
-[more]

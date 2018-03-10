@@ -1,3 +1,0 @@
-^P1025^The transport is the only ship capable of space-to-surface assault. They are limited to sublight travel and are unarmed.
-
-For this mission you'll need to give a transport orders to go to Demeter Beta. It will attempt to land once it arrives.

@@ -1,4 +1,0 @@
-Good.
-
-Now let’s try targeting. We’ll disable the keyboard selection keys for now and turn the mouse selection back on.
-\i_[more]_\i_

@@ -1,8 +1,0 @@
-#R231##618,280#Warping drains energy from
-your ship’s available power, shown here. Your
-available power must be at least 1/8th full
-to enter warp.
-
-Let’s take a moment to look at all the power
-indicators.
-[more]
