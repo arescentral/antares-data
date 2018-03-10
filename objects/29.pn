@@ -26,7 +26,6 @@ scale:                   2.0
 icon:
 	shape:  "square"
 	size:   2
-portrait:                1030
 on_create:
 	*	type:         "sound"
 		reflexive:    true
