@@ -41,7 +41,7 @@ shield_color:            {r: 240, g: 0, b: 0}
 destroy_dont_die:        true
 expire_dont_die:         false
 activate_period:         0
-arrive_action_distance:  0
+arrive_action_distance:  50000
 skill_num:               0
 skill_den:               0
 offense:                 0.0

@@ -34,7 +34,7 @@ scale:                   1.0
 destroy_dont_die:        false
 expire_dont_die:         false
 activate_period:         0
-arrive_action_distance:  0
+arrive_action_distance:  50000
 skill_num:               0
 skill_den:               0
 offense:                 0.0
