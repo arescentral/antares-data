@@ -53,7 +53,7 @@ icon:
 	shape:  "plus"
 	size:   5
 portrait:                1251
-shield_color:            "indigo"
+shield_color:            {r: 120, g: 120, b: 240}
 on_destroy:
 	*	type:       "create"
 		reflexive:  true

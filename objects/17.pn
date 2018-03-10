@@ -45,7 +45,7 @@ icon:
 	shape:  "triangle"
 	size:   5
 portrait:                1018
-shield_color:            "gold"
+shield_color:            {r: 240, g: 240, b: 120}
 on_destroy:
 	*	type:                "create"
 		reflexive:           true

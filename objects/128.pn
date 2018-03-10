@@ -40,7 +40,7 @@ icon:
 	shape:  "plus"
 	size:   3
 portrait:                1129
-shield_color:            "gray"
+shield_color:            {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:       "create"
 		reflexive:  true

@@ -46,7 +46,7 @@ scale:                   0.5
 icon:
 	shape:  "triangle"
 	size:   1
-shield_color:            "gray"
+shield_color:            {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:         "sound"
 		id:           12558

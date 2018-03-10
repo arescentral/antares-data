@@ -35,7 +35,7 @@ scale:                   1.0
 icon:
 	shape:  "square"
 	size:   3
-shield_color:            "red"
+shield_color:            {r: 240, g: 0, b: 0}
 on_destroy:
 	*	type:                "create"
 		reflexive:           true

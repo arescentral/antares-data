@@ -34,7 +34,7 @@ scale:                   1.0
 icon:
 	shape:  "triangle"
 	size:   4
-shield_color:            "gold"
+shield_color:            {r: 240, g: 240, b: 120}
 destroy_dont_die:        false
 expire_dont_die:         false
 activate_period:         0

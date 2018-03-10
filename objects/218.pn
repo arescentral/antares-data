@@ -36,7 +36,7 @@ frame:
 	speed:      0.0
 	first:      0.0
 scale:                   1.0
-shield_color:            "red"
+shield_color:            {r: 240, g: 0, b: 0}
 destroy_dont_die:        false
 expire_dont_die:         false
 activate_period:         0

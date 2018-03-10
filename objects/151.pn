@@ -46,7 +46,7 @@ icon:
 	shape:  "triangle"
 	size:   4
 portrait:                1152
-shield_color:            "sky blue"
+shield_color:            {r: 0, g: 120, b: 240}
 on_destroy:
 	*	type:                "create"
 		reflexive:           true

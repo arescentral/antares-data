@@ -49,7 +49,7 @@ icon:
 	shape:  "diamond"
 	size:   8
 portrait:                1149
-shield_color:            "indigo"
+shield_color:            {r: 120, g: 120, b: 240}
 on_destroy:
 	*	type:                "create"
 		reflexive:           true
