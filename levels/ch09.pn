@@ -110,13 +110,13 @@ briefings:
 	*	object:  0
 		title:   "Proteus Alpha"
 		content:
-			>	^P1014^The base on Alpha can produce fighters and cruisers.^P1001^
+			>	^P13^The base on Alpha can produce fighters and cruisers.^P0^
 	*	object:  0
 		title:   "Proteus Alpha"
 		content:
-			>	^P1020^This base can also produce defense drones, gunships and
+			>	^P19^This base can also produce defense drones, gunships and
 			>	transports. The heavily armored gunships are slow, and they rely
-			>	entirely on energy weapons .^P1055^
+			>	entirely on energy weapons .^P54^
 	*	object:  4
 		title:   "Philemon Beta"
 		content:
@@ -132,21 +132,21 @@ briefings:
 	*	object:  5
 		title:   "Proteus Gamma"
 		content:
-			>	^P1015^Their base can also produce fighters and cruisers.^P1008^
+			>	^P14^Their base can also produce fighters and cruisers.^P7^
 	*	object:  5
 		title:   "Proteus Gamma"
 		content:
-			>	^P1018^Cantharan gunships have antimatter pulse guns which are extremely
-			>	powerful at close range.^P1057^Their defense drones are best destroyed
+			>	^P17^Cantharan gunships have antimatter pulse guns which are extremely
+			>	powerful at close range.^P56^Their defense drones are best destroyed
 			>	with large squadrons of ships.
 	*	object:  5
 		title:   "Proteus Gamma"
 		content:
-			>	^P1026^Destroy any transports you encounter. They will probably make an
+			>	^P25^Destroy any transports you encounter. They will probably make an
 			>	attempt to occupy Proteus Beta. If you lose Alpha, the mission is over.
 	*	title:  "Proteus Gamma"
 		content:
-			>	^P1046^We expect the Cantharans to have a carrier in the area. Be
+			>	^P45^We expect the Cantharans to have a carrier in the area. Be
 			>	prepared.
 starmap:     {x: 368, y: 201}
 par_time:    960

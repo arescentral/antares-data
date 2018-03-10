@@ -100,7 +100,7 @@ briefings:
 	*	object:  1
 		title:   "Cruiser"
 		content:
-			>	^P1001^You'll initially be using this standard cruiser. By utilizing our
+			>	^P0^You'll initially be using this standard cruiser. By utilizing our
 			>	base on Alpha, you'll be able to manufacture as many of these cruisers
 			>	as you can afford.
 	*	object:  0
@@ -111,12 +111,12 @@ briefings:
 			>
 			>	The base on Alpha can produce two types of ships in addition to
 			>	cruisers. 
-			|	^P1014^Fighters are fast, but can only travel at sublight speeds. Their
+			|	^P13^Fighters are fast, but can only travel at sublight speeds. Their
 			>	only weapons are photokinetic beam cannons.
 	*	object:  0
 		title:   "Demeter Alpha"
 		content:
-			>	^P1025^The transport is the only ship capable of space-to-surface
+			>	^P24^The transport is the only ship capable of space-to-surface
 			>	assault. They are limited to sublight travel and are unarmed.
 			>
 			>	For this mission you'll need to give a transport orders to go to Demeter
@@ -131,16 +131,16 @@ briefings:
 	*	object:  5
 		title:   "Demeter Beta"
 		content:
-			>	^P1039^Gaitori fighters are slow, and poorly armored.
-			|	^P1038^You've already encountered several of their cruisers.
+			>	^P38^Gaitori fighters are slow, and poorly armored.
+			|	^P37^You've already encountered several of their cruisers.
 	*	object:  5
 		title:   "Demeter Beta"
 		content:
-			>	^P1087^Destroy any of their transports you find making its way towards
+			>	^P86^Destroy any of their transports you find making its way towards
 			>	our base on Alpha. If our base is lost, the mission will be aborted.
 			>
 			>	The Gaitori base can also construct gunships.
-			|	^P1065^
+			|	^P64^
 			|	Good luck.
 starmap:     {x: 354, y: 271}
 par_time:    180

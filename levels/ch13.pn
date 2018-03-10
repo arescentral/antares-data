@@ -168,7 +168,7 @@ conditions:
 briefings:
 	*	title:  "EACSR Banadee"
 		content:
-			>	^P1127^The Banadee, an Elejeetian luxury passenger liner, has been
+			>	^P126^The Banadee, an Elejeetian luxury passenger liner, has been
 			>	disabled by Gaitori pirates. The Elejeetian Minister of Automation,
 			>	Jommo, along with most of the other passengers, has abandoned ship.
 	*	title:  "EACSR Banadee"
@@ -180,15 +180,15 @@ briefings:
 	*	object:  11
 		title:   "Heavy Destroyer"
 		content:
-			>	^P1130^You'll have the use of this destroyer for this mission.
+			>	^P129^You'll have the use of this destroyer for this mission.
 	*	title:  "Secorem"
 		content:
-			>	^P1065^Before you commence the rescue operation, you need to destroy the
+			>	^P64^Before you commence the rescue operation, you need to destroy the
 			>	Gaitori pirates, who are still in the Secorem system. You'll find the
 			>	destroyer more than adequate for the task.
 	*	title:  "Escape Pod"
 		content:
-			>	^P1129^Don't allow any of the escape pods to be destroyed while you
+			>	^P128^Don't allow any of the escape pods to be destroyed while you
 			>	engage the Gaitori, or the mission will be aborted.
 			>
 			>	When the Secorem system is clear, recover all six escape pods from the
@@ -199,7 +199,7 @@ briefings:
 			>	^P10030^Once you've safely recovered all six escape pods, the civilian
 			>	tractor tug will be entering here through the Secorem Jump Gate. It's
 			>	bringing two heavy cruisers for escort.
-			|	^P1128^
+			|	^P127^
 	*	title:  "Secorem"
 		content:
 			>	The tractor tug will rendezvous with the Elejeetian liner Banadee, and

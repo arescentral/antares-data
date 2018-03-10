@@ -137,12 +137,12 @@ briefings:
 			>	The Cantharans' interest in this asteroid is alarmingly peculiar. We
 			>	intend to destroy it, but we'd like to collect some samples to determine
 			>	its purpose.
-			|	^P1185^You must break the asteroid into pieces small enough to be
+			|	^P184^You must break the asteroid into pieces small enough to be
 			>	collected. We require a minimum of four samples of its debris.
 	*	object:  1
 		title:   "Astrominer"
 		content:
-			>	^P1081^The astrominer has been ordered to follow you. Guide it to the
+			>	^P80^The astrominer has been ordered to follow you. Guide it to the
 			>	asteroid and the astrominer will attempt to break it apart. The miner’s
 			>	bulky appearance belies its vulnerability to weapons fire. Protect it
 			>	from attack: it is not a military vessel.
@@ -151,20 +151,20 @@ briefings:
 	*	object:  5
 		title:   "Philemon Beta"
 		content:
-			>	^P1062^A single heavy cruiser should be a sufficient escort for the
+			>	^P61^A single heavy cruiser should be a sufficient escort for the
 			>	astrominer. If the cruiser is destroyed, you may attempt to complete the
 			>	mission without it, but the astrominer is almost incapable of defending
 			>	itself.
 	*	object:  6
 		title:   "Schooner"
 		content:
-			>	^P1060^This Cantharan schooner has pursued the artificial asteroid to
+			>	^P59^This Cantharan schooner has pursued the artificial asteroid to
 			>	the Philemon System. The schooner is extremely agile, but is minimally
 			>	armed.
 	*	object:  0
 		title:   "Heavy Cruiser"
 		content:
-			>	^P1063^A heavy cruiser has also been detected near the asteroid. It will
+			>	^P62^A heavy cruiser has also been detected near the asteroid. It will
 			>	probably attempt to intercept you.
 	*	title:  "Philemon"
 		content:

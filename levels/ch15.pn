@@ -118,23 +118,23 @@ briefings:
 	*	object:  0
 		title:   "Thasero Alpha"
 		content:
-			>	^P1102^From our base on Thasero Alpha you can make all the ships you'll
+			>	^P101^From our base on Thasero Alpha you can make all the ships you'll
 			>	require for this mission: fighters, cruisers, gunships, transports, and
 			>	assault transports.
 	*	object:  3
 		title:   "Heavy Destroyer"
 		content:
-			>	^P1130^You'll start in this destroyer. It's the only one we'll be able
+			>	^P129^You'll start in this destroyer. It's the only one we'll be able
 			>	to commit to this mission.
 	*	object:  5
 		title:   "Carrier"
 		content:
-			>	^P1048^We expect stiff resistance, so we've brought the carrier ISN
+			>	^P47^We expect stiff resistance, so we've brought the carrier ISN
 			>	0910969 in system. 
 	*	object:  6
 		title:   "Battleship"
 		content:
-			>	^P1068^Thanks to your efforts in the Bokleo system, the Bazidanese have
+			>	^P67^Thanks to your efforts in the Bokleo system, the Bazidanese have
 			>	loaned us a battleship, the First Life. Its homing pulses are fairly
 			>	powerful.
 	*	object:  2
@@ -149,19 +149,19 @@ briefings:
 		content:
 			>	The base on Thasero Beta is your final goal. Land a transport here to
 			>	complete the mission.
-			|	^P1113^The Salrilian fighters are difficult to see by design.
-			|	^P1111^Their cruisers have stealth fields.
+			|	^P112^The Salrilian fighters are difficult to see by design.
+			|	^P110^Their cruisers have stealth fields.
 	*	object:  1
 		title:   "Thasero Beta"
 		content:
-			>	^P1139^Salrilian gunships also have stealth fields. They are fast and
+			>	^P138^Salrilian gunships also have stealth fields. They are fast and
 			>	well armed.
-			|	^P1141^The Prophet's transports almost always operate with active
+			|	^P140^The Prophet's transports almost always operate with active
 			>	stealth fields. Often the only way to prevent one them from sneaking
 			>	onto a planet is by firing blindly.
 	*	title:  "The Actualizer"
 		content:
-			>	^P1114^A Salrilian carrier, which we believe to be the Actualizer, is en
+			>	^P113^A Salrilian carrier, which we believe to be the Actualizer, is en
 			>	route to the Thasero System. Dispatch it quickly.
 starmap:     {x: 150, y: 120}
 par_time:    435

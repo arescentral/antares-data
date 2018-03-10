@@ -209,7 +209,7 @@ briefings:
 	*	object:  1
 		title:   "Heavy Destroyer"
 		content:
-			>	^P1130^For this mission you’ll be using a single destroyer. It’s a
+			>	^P129^For this mission you’ll be using a single destroyer. It’s a
 			>	powerful vessel, armed with a fullerene pulse gun, twin lepton beam
 			>	cannons, and one hundred and fifty concussion missiles. You'll also have
 			>	two fighters for escort.
@@ -237,9 +237,9 @@ briefings:
 	*	object:  12
 		title:   "Cruiser"
 		content:
-			>	^P1113^There are an assortment of Salrilian and Cantharan ships guarding
+			>	^P112^There are an assortment of Salrilian and Cantharan ships guarding
 			>	the simlabs. The Salrilian warships are nimble and powerful. Even with
-			>	the destroyer, you’ll find engaging them a challenge.^P1111^
+			>	the destroyer, you’ll find engaging them a challenge.^P110^
 	*	title:  "Heshac System"
 		content:
 			>	For this mission to be considered successful, you must rescue at least

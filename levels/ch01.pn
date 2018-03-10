@@ -142,7 +142,7 @@ briefings:
 	*	object:  6
 		title:   "Cruiser"
 		content:
-			>	^P1001^For this mission you will have a single cruiser. Its combination
+			>	^P0^For this mission you will have a single cruiser. Its combination
 			>	of maneuverability and medium armament make it a useful small offensive
 			>	vessel. The fusion pulse gun is fairly powerful, and the ship is stocked
 			>	with 50 fusion pulse charges. The photokinetic beam cannon is an energy
@@ -150,14 +150,14 @@ briefings:
 	*	object:  1
 		title:   "Transport"
 		content:
-			>	^P1087^Use your superlight boosters to quickly traverse the length of
+			>	^P86^Use your superlight boosters to quickly traverse the length of
 			>	the convoy, stopping to destroy each of the five transports.
 	*	object:  7
 		title:   "Fighter"
 		content:
-			>	^P1039^The transports are being escorted by an assortment of Gaitori
+			>	^P38^The transports are being escorted by an assortment of Gaitori
 			>	fighters and cruisers. Their primary weapons are kinetic laser cannons,
-			>	and concussive pellet guns, neither of which are very damaging.^P1038^
+			>	and concussive pellet guns, neither of which are very damaging.^P37^
 	*	object:  0
 		title:   "Charon Station"
 		content:

@@ -184,16 +184,16 @@ briefings:
 		content:
 			>	The human colony is here on Alpha. Their military base can produce
 			>	fighters, cruisers, gunships, and transports. Loss of this base will
-			>	force the us to abort the mission.^P1167^
+			>	force the us to abort the mission.^P166^
 	*	object:  1
 		title:   "Pictoris Alpha 1"
 		content:
-			>	^P1166^Alpha One is Pictoris Alpha’s moon, and there’s a small base here
-			>	capable of producing fighters and cruisers.^P1165^
+			>	^P165^Alpha One is Pictoris Alpha’s moon, and there’s a small base here
+			>	capable of producing fighters and cruisers.^P164^
 	*	object:  2
 		title:   "Power Station BP1"
 		content:
-			>	^P1115^The humans also have a power station, BP-1, which will generate
+			>	^P114^The humans also have a power station, BP-1, which will generate
 			>	resources for you. Protect this station. If the Cantharans destroy this
 			>	power station, you won’t be able to build as many ships.
 	*	object:  5

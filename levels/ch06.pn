@@ -127,7 +127,7 @@ briefings:
 	*	object:  2
 		title:   "Power Station O-1"
 		content:
-			>	^P1115^This is the first of the three Obish power stations. Each station
+			>	^P114^This is the first of the three Obish power stations. Each station
 			>	is guarded by a flak drone.
 			>
 			>	Note that the power stations produce tremendous resources -- keeping the
@@ -136,11 +136,11 @@ briefings:
 	*	object:  0
 		title:   "Power Station O-2"
 		content:
-			>	^P1115^This is the second of the three Obish power stations.
+			>	^P114^This is the second of the three Obish power stations.
 	*	object:  1
 		title:   "Power Station O-3"
 		content:
-			>	^P1115^The is the last of the three Obish power stations.
+			>	^P114^The is the last of the three Obish power stations.
 	*	object:  13
 		title:   "Hades Beta"
 		content:
@@ -150,19 +150,19 @@ briefings:
 	*	object:  5
 		title:   "Power Station G-1"
 		content:
-			>	^P1115^This is the first of the three Gaitori controlled power stations.
+			>	^P114^This is the first of the three Gaitori controlled power stations.
 			>	Although you can complete the mission objectives without destroying the
 			>	Gaitori stations, keep in mind that the more stations they have intact,
 			>	the more ships they can manufacture.
 	*	object:  3
 		title:   "Power Station G-2"
 		content:
-			>	^P1115^This is the second of the three Gaitori power stations. Each of
+			>	^P114^This is the second of the three Gaitori power stations. Each of
 			>	the stations is guarded by a flak drone.
 	*	object:  4
 		title:   "Power Station G-3"
 		content:
-			>	^P1115^The is the last of the three Gaitori power stations.
+			>	^P114^The is the last of the three Gaitori power stations.
 starmap:     {x: 431, y: 237}
 par_time:    450
 par_kills:   45

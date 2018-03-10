@@ -188,7 +188,7 @@ briefings:
 	*	object:  2
 		title:   "Tractor Moor"
 		content:
-			>	^P1076^The Bazidanese ship is anchored in place by three tractor moors,
+			>	^P75^The Bazidanese ship is anchored in place by three tractor moors,
 			>	which prevent the ship from moving or firing. You must destroy all three
 			>	moors to free the ship. Although the release of the ship is not
 			>	immediately imperative, we suspect the Bazidanese crew would be
@@ -196,7 +196,7 @@ briefings:
 	*	object:  7
 		title:   "Border Drone"
 		content:
-			>	^P1079^In accordance with the Amilass Treaty, an invulnerable border
+			>	^P78^In accordance with the Amilass Treaty, an invulnerable border
 			>	drone has been stationed near the neutral trading outpost on Bokleo
 			>	Beta. However, the Order has reconfigured it to fire on all hostile
 			>	vessels. Unlike the flak drones you’re familiar with, this border drone
@@ -211,48 +211,48 @@ briefings:
 	*	object:  8
 		title:   "Bokleo Gamma"
 		content:
-			>	^P1063^The Cantharans have established a base on Gamma. It's capable of
+			>	^P62^The Cantharans have established a base on Gamma. It's capable of
 			>	producing fighters, heavy cruisers, gunships, and transports.
 			|	Landing a transport on Bokleo Gamma to control the base is your primary
 			>	objective.
-			|	^P1026^
+			|	^P25^
 	*	object:  9
 		title:   "Bokleo Alpha"
 		content:
-			>	^P1001^We didn't have time to establish a strong presence on Alpha. Our
+			>	^P0^We didn't have time to establish a strong presence on Alpha. Our
 			>	base can only produce fighters, cruisers, and transports. Be prepared
 			>	for heavy losses.
-			|	^P1014^
+			|	^P13^
 	*	object:  10
 		title:   "ISN 8738810"
 		content:
-			>	^P1048^We have committed two carriers to this mission's completion. The
+			>	^P47^We have committed two carriers to this mission's completion. The
 			>	ISN 8738810 is on its first combat mission.
 	*	object:  11
 		title:   "ISN 2020187"
 		content:
-			>	^P1048^The ISN 2020187 has been repaired since the Battle of Sprist (in
+			>	^P47^The ISN 2020187 has been repaired since the Battle of Sprist (in
 			>	which you destroyed the Constant Voice of Doz).
 	*	object:  12
 		title:   "The Gentle Fingers of Zom"
 		content:
-			>	^P1046^There are already three Cantharan carriers in the system and more
+			>	^P45^There are already three Cantharan carriers in the system and more
 			>	are on the way. The Gentle Finger of Zom was one of the two ships which
 			>	originally captured the Bokleo System.
 	*	object:  13
 		title:   "The Chaste Dream of Doz"
 		content:
-			>	^P1046^The Chaste Dream of Doz is the other carrier which first occupied
+			>	^P45^The Chaste Dream of Doz is the other carrier which first occupied
 			>	Bokleo.
 	*	object:  14
 		title:   "The Silent Question of Doz"
 		content:
-			>	^P1046^The Silent Question of Doz has just joined the other two
+			>	^P45^The Silent Question of Doz has just joined the other two
 			>	carriers.
 	*	object:  0
 		title:   "Heavy Cruiser"
 		content:
-			>	^P1062^You'll initially be using this heavy cruiser. You are welcome to
+			>	^P61^You'll initially be using this heavy cruiser. You are welcome to
 			>	transfer control to any other ship you see fit.
 starmap:     {x: 222, y: 130}
 par_time:    1320

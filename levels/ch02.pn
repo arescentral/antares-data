@@ -165,7 +165,7 @@ briefings:
 	*	object:  1
 		title:   "Cruiser"
 		content:
-			>	^P1062^You'll be dropped in here. Your only ship for this mission is
+			>	^P61^You'll be dropped in here. Your only ship for this mission is
 			>	this heavy cruiser. It's speedier than the standard cruiser, and has an
 			>	improved rapid-fire fusion pulse gun. Save your guided missiles for
 			>	difficult targets. If you lose the cruiser, the mission will be aborted.
@@ -178,7 +178,7 @@ briefings:
 	*	object:  2
 		title:   "Cruiser"
 		content:
-			>	^P1038^There are Gaitori cruisers stationed at each dish. Their cruisers
+			>	^P37^There are Gaitori cruisers stationed at each dish. Their cruisers
 			>	are slow, but are armed with rapid-fire concussive pellet guns. 
 	*	object:  16
 		title:   "Relay Dish 2"
@@ -188,7 +188,7 @@ briefings:
 		title:   "Relay Dish 3"
 		content:
 			>	The third dish is your next target.
-			|	^P1065^This dish is being guarded by a gunship. Gaitori gunships are not
+			|	^P64^This dish is being guarded by a gunship. Gaitori gunships are not
 			>	heavily armored, but they have converted atomic pulse mining guns, which
 			>	fire powerful long-range homing pulses.
 	*	object:  18
@@ -203,7 +203,7 @@ briefings:
 			>	armed. We recommend that you keep a safe distance from this station.
 	*	title:  "Obish Escorts"
 		content:
-			>	^P1043^A pair of Obish escorts is in the region. They've expressed an
+			>	^P42^A pair of Obish escorts is in the region. They've expressed an
 			>	interest in aiding us in destroying the Relay Stations, but have
 			>	indicated that they would like to observe your progress first. They may
 			>	choose to join you during the mission. The Obish Escorts have Salrilian

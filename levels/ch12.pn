@@ -196,7 +196,7 @@ briefings:
 	*	object:  11
 		title:   "Cargo Ship"
 		content:
-			>	^P1119^To complete the construction of the Obish destroyer during the
+			>	^P118^To complete the construction of the Obish destroyer during the
 			>	mission, five cargo ships will be exiting through a jump gate here. All
 			>	five cargo ships must make it to the orbital shipyard in order for us to
 			>	complete the destroyer. We'll alert you when the cargo ships are due to
@@ -204,14 +204,14 @@ briefings:
 	*	object:  13
 		title:   "Flak Drone"
 		content:
-			>	^P1094^Send engineering pods to this flak drone to reconfigure it to
+			>	^P93^Send engineering pods to this flak drone to reconfigure it to
 			>	fire on enemy vessels. The Gaitori Isolationists currently have it set
 			>	to fire on all ships. Make sure you have control of it before the cargo
 			>	ships arrive.
 	*	object:  11
 		title:   "Bunker Station 1"
 		content:
-			>	^P1105^This is one of two bunker stations in the Fansi system, both of
+			>	^P104^This is one of two bunker stations in the Fansi system, both of
 			>	which are occupied by Gaitori Isolationists. The bunker stations have
 			>	powerful armament, but their defenses can be knocked out using heavy
 			>	fire to reduce their shields.
@@ -221,7 +221,7 @@ briefings:
 	*	object:  4
 		title:   "Bunker Station 2"
 		content:
-			>	^P1105^This is the other bunker station. If the Cantharans gain control
+			>	^P104^This is the other bunker station. If the Cantharans gain control
 			>	of both the stations, they will most likely overwhelm you.
 	*	object:  9
 		title:   "Fansi Alpha"
@@ -234,13 +234,13 @@ briefings:
 		content:
 			>	In addition to fighters, cruisers, gunships, and transports, the base on
 			>	Fansi can produce two special-purpose ships.
-			|	^P1096^Build engineering pods to gain control of the flak drones. Make
+			|	^P95^Build engineering pods to gain control of the flak drones. Make
 			>	sure you commandeer the flak drone that lies between Bunker Station 1
 			>	and the orbital shipyard, to ensure the safe passage of the freighters.
 	*	object:  9
 		title:   "Assault Transport"
 		content:
-			>	^P1102^Assault Transports are the only ships designed to gain control of
+			>	^P101^Assault Transports are the only ships designed to gain control of
 			>	bunker stations. Our assault transports carry twelve extravehicular
 			>	assault troopers. Six EVA troopers can exit the transport at once, and
 			>	the assault transport will automatically dispatch them when it arrives
@@ -252,18 +252,18 @@ briefings:
 			>	The Cantharan base on Fansi Beta is your ultimate goal. Land a standard
 			>	transport here to complete the mission. The Cantharans have ship
 			>	building facilities equivalent to ours.
-			|	^P1120^In addition to fighters, cruisers, transports, and gunships, the
+			|	^P119^In addition to fighters, cruisers, transports, and gunships, the
 			>	Cantharans have assault transports of their own. Destroy them, and the
 			>	EVA Troopers they release.
 	*	object:  10
 		title:   "Engineer Pod"
 		content:
-			>	^P1121^Cantharan engineering pods, like our own, are equipped with
+			>	^P120^Cantharan engineering pods, like our own, are equipped with
 			>	defensive repulser beam cannons.
 	*	object:  12
 		title:   "Carrier"
 		content:
-			>	^P1046^The Cantharan carrier the Song of Zom is already in the Fansi
+			>	^P45^The Cantharan carrier the Song of Zom is already in the Fansi
 			>	system. Its missiles are very effective against the bunker stations'
 			>	defenses.
 starmap:     {x: 259, y: 158}
