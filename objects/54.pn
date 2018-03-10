@@ -22,7 +22,7 @@ damage:                  0
 energy:                  1000
 price:                   1000
 build_ratio:             0.5
-build_time:              1000
+build_time:              300
 mass:                    1.0
 max_velocity:            0.348
 max_thrust:              0.047

@@ -24,7 +24,7 @@ damage:                  0
 energy:                  200
 price:                   600
 build_ratio:             0.0
-build_time:              600
+build_time:              180
 initial_age:             4000
 mass:                    0.008
 max_velocity:            0.5
