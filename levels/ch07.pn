@@ -158,8 +158,8 @@ briefings:
 	*	object:  6
 		title:   "Schooner"
 		content:
-			>	^P59^This Cantharan schooner has pursued the artificial asteroid to
-			>	the Philemon System. The schooner is extremely agile, but is minimally
+			>	^P59^This Cantharan schooner has pursued the artificial asteroid to the
+			>	Philemon System. The schooner is extremely agile, but is minimally
 			>	armed.
 	*	object:  0
 		title:   "Heavy Cruiser"
@@ -204,7 +204,6 @@ prologue:
 	>	to make a quick, decisive strike directly into the frontier. With speed
 	>	and surprise still on your side, you hope to bisect the frontier and
 	>	reach into Cantharan space before the Order has time to react.
-	>
 epilogue:
 	>	#+B2006
 	|	The Ishimans’ initial analysis of the rogue asteroid was correct: it was
