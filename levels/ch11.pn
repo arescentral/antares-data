@@ -223,7 +223,7 @@ briefings:
 	*	object:  2
 		title:   "Lab"
 		content:
-			>	^P1210^At each simlab, fire at the installation until you rip open its
+			>	At each simlab, fire at the installation until you rip open its
 			>	walls. Take care, because once the simlab is open, the humans will
 			>	escape, and your weapons will not be keyed to the humans’ life signs so
 			>	the humans will be vulnerable to your weapons fire.

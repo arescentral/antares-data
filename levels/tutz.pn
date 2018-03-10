@@ -602,10 +602,9 @@ briefings:
 			>	^P10091^At this buoy are two "extra" ships. When you feel comfortable
 			>	selecting and controlling other ships, try experimenting with these two
 			>	cruisers.
-			|	^P1004^
 	*	object:  18
 		title:   "Omisha Jump Gate"
 		content:
-			>	^P10073^When you feel you've had enough practice, navigate to the center
+			>	^P10030^When you feel you've had enough practice, navigate to the center
 			>	of this jump gate to begin your first combat mission.
 starmap:   {x: 288, y: 302}
