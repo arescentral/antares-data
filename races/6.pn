@@ -6,3 +6,12 @@ numeric:         300
 apparent_color:  "gray"
 illegal_colors:  0
 advantage:       1.0
+ships:
+	100:  38
+	200:  37
+	300:  64
+	450:  243
+	500:  87
+	800:  86
+	850:  94
+	860:  246
