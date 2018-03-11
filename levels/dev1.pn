@@ -5,13 +5,13 @@ title:
 	|	\i 
 	!
 players:
-	*	race:           1
+	*	race:           "ish"
 		name:           "The Human/Ishiman Cooperative"
 		earning_power:  1.0
-	*	race:           1
+	*	race:           "ish"
 		name:           "The Human/Ishiman Cooperative"
 		earning_power:  1.0
-	*	race:           8
+	*	race:           "aud"
 		name:           "The Audemedon Axis"
 		earning_power:  2.0
 song:     5002

@@ -4,7 +4,7 @@ notes:                   "Astrominer"
 attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
 engage_tag:              "b"
 class:                   301
-race:                    1
+race:                    "ish"
 health:                  700
 damage:                  0
 energy:                  2000

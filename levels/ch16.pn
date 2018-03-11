@@ -6,11 +6,11 @@ title:
 	!
 players:
 	*	type:           "human"
-		race:           1
+		race:           "ish"
 		name:           "The Human/Ishiman Cooperative"
 		earning_power:  1.0
 	*	type:           "cpu"
-		race:           8
+		race:           "aud"
 		name:           "The Audemedon Axis"
 		earning_power:  1.0
 score:

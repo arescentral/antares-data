@@ -6,11 +6,11 @@ title:
 	!
 players:
 	*	type:           "human"
-		race:           1
+		race:           "ish"
 		name:           "The Human/Ishiman Cooperative"
 		earning_power:  0.5
 	*	type:  "cpu"
-		race:  1
+		race:  "ish"
 		name:  "The Human/Ishiman Cooperative"
 song:      5001
 initials:

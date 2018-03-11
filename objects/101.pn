@@ -6,7 +6,7 @@ build_flags:             {sufficient_escorts_exist: true, matching_foe_exists: t
 order_flags:             {foe: true, hard_matching_foe: true, hard_no_friendly_escort: true, hard_foe: true}
 order_tag:               "a"
 class:                   860
-race:                    1
+race:                    "ish"
 health:                  1200
 damage:                  0
 energy:                  800

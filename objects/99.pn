@@ -7,7 +7,7 @@ order_flags:             {local: true, foe: true}
 engage_tag:              "a"
 order_tag:               "a"
 class:                   10
-race:                    1
+race:                    "ish"
 health:                  10
 damage:                  0
 energy:                  50

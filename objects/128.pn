@@ -3,7 +3,7 @@ short_name:              "ESCPEPOD"
 notes:                   "Escape Pod"
 attributes:              {does_bounce: true, is_self_animated: true, can_be_destination: true, animation_cycle: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, occupies_space: true, appear_on_radar: true}
 class:                   801
-race:                    2
+race:                    "ele"
 health:                  250
 damage:                  0
 energy:                  1000

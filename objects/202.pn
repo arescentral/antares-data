@@ -4,7 +4,7 @@ notes:                   "Practice Drone"
 attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, is_self_animated: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, animation_cycle: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, static_destination: true, can_be_evaded: true, appear_on_radar: true}
 order_flags:             {local: true}
 class:                   1802
-race:                    1
+race:                    "ish"
 health:                  250
 damage:                  0
 energy:                  600

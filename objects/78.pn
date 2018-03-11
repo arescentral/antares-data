@@ -3,7 +3,7 @@ short_name:              "BRDRDRNE"
 notes:                   "Border Drone"
 attributes:              {can_turn: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_engage: true, can_collide: true, can_be_hit: true, can_be_evaded: true, appear_on_radar: true}
 class:                   601
-race:                    5
+race:                    "can"
 health:                  15000
 damage:                  0
 energy:                  1000

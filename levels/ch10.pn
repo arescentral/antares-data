@@ -6,10 +6,10 @@ title:
 	!
 players:
 	*	type:  "human"
-		race:  1
+		race:  "ish"
 		name:  "The Human/Ishiman Cooperative"
 	*	type:           "cpu"
-		race:           5
+		race:           "can"
 		name:           "The Cantharan Order"
 		earning_power:  0.008
 score:

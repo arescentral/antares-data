@@ -6,9 +6,9 @@ title:
 	!
 players:
 	*	type:   "human"
-		races:  [9]
+		races:  ["gro"]
 	*	type:   "human"
-		races:  [9]
+		races:  ["gro"]
 song:     5001
 initials:
 	*	base:     23

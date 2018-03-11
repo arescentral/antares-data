@@ -3,7 +3,7 @@ short_name:              "CRUISER"
 notes:                   "Practice Inactive"
 attributes:              {can_turn: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_accept_destination: true, release_energy_on_death: true, occupies_space: true, appear_on_radar: true}
 class:                   1803
-race:                    1
+race:                    "ish"
 health:                  1000
 damage:                  0
 energy:                  1000

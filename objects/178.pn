@@ -6,7 +6,7 @@ build_flags:             {uncaptured_base_exists: true, sufficient_escorts_exist
 order_flags:             {stronger_than_target: true, base: true, foe: true}
 order_tag:               "f"
 class:                   800
-race:                    0
+race:                    "uns"
 health:                  250
 damage:                  0
 energy:                  1000

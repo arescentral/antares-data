@@ -3,7 +3,7 @@ short_name:              "GATESHIP"
 notes:                   "Normal [usually has 198 for Special Weapon, health of 80000]"
 attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
 class:                   550
-race:                    5
+race:                    "can"
 health:                  70000
 damage:                  0
 energy:                  5000

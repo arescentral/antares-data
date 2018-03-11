@@ -3,11 +3,11 @@ chapter:   26
 title:     "\\i Space Race, the Musical! \\i "
 players:
 	*	type:           "human"
-		race:           1
+		race:           "ish"
 		name:           "The Human/Ishiman Cooperative"
 		earning_power:  1.0
 	*	type:           "cpu"
-		race:           6
+		race:           "gai"
 		name:           "The Gaitori Union"
 		earning_power:  1.0
 song:      5003

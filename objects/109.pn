@@ -5,7 +5,7 @@ attributes:              {can_turn: true, can_be_engaged: true, has_direction_go
 build_flags:             {uncaptured_base_exists: true, sufficient_escorts_exist: true}
 order_flags:             {stronger_than_target: true, base: true, foe: true}
 class:                   802
-race:                    1
+race:                    "ish"
 health:                  1000
 damage:                  0
 energy:                  1000
