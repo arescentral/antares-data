@@ -26,10 +26,11 @@ weapons:
 		base:  15
 		positions:
 			*	{x: 0.0, y: 0.0}
-layer:                   2
-sprite:                  506
-frame:                   {offset: 0, resolution: 15, turn_rate: 1.2}
-scale:                   1.0
+rotation:
+	sprite:     506
+	layer:      2
+	frames:     {begin: 0, end: 24}
+	turn_rate:  1.2
 icon:
 	shape:  "triangle"
 	size:   5

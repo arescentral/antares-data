@@ -16,14 +16,14 @@ initial_velocity:        {begin: 5.0, end: 6.0}
 initial_direction:       {begin: 0, end: 360}
 warp_speed:              0.0
 warp_out_distance:       0
-layer:                   3
-sprite:                  507
-frame:
-	shape:      {begin: 0.0, end: 8.004}
+animation:
+	sprite:     507
+	layer:      3
+	scale:      0.5
+	frames:     {begin: 0.0, end: 8.004}
 	direction:  "+"
 	speed:      0.39
 	first:      {begin: 0.0, end: 8.0}
-scale:                   0.5
 on_collide:
 	*	type:                "create"
 		reflexive:           true

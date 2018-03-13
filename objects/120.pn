@@ -26,10 +26,11 @@ weapons:
 		base:  96
 		positions:
 			*	{x: 0.0, y: 0.0}
-layer:                   2
-sprite:                  642
-frame:                   {offset: 0, resolution: 15, turn_rate: 2.0}
-scale:                   1.0
+rotation:
+	sprite:     642
+	layer:      2
+	frames:     {begin: 0, end: 24}
+	turn_rate:  2.0
 icon:
 	shape:  "plus"
 	size:   4

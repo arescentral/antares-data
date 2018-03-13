@@ -17,14 +17,13 @@ initial_velocity:   6.0
 initial_direction:  {begin: 0, end: 360}
 warp_speed:         0.0
 warp_out_distance:  0
-layer:              2
-sprite:             589
-frame:
-	shape:      {begin: 0.0, end: 4.004}
+animation:
+	sprite:     589
+	layer:      2
+	frames:     {begin: 0.0, end: 4.004}
 	direction:  "+"
 	speed:      0.156
 	first:      {begin: 0.0, end: 3.0}
-scale:              1.0
 icon:
 	shape:  "triangle"
 	size:   2

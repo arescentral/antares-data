@@ -15,14 +15,14 @@ initial_velocity:        {begin: 3.0, end: 4.0}
 initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
-layer:                   2
-sprite:                  590
-frame:
-	shape:      {begin: 0.0, end: 20.004}
+animation:
+	sprite:     590
+	layer:      2
+	scale:      2.0
+	frames:     {begin: 0.0, end: 20.004}
 	direction:  "?"
 	speed:      0.117
 	first:      {begin: 0.0, end: 19.0}
-scale:                   2.0
 icon:
 	shape:  "diamond"
 	size:   8

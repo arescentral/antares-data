@@ -15,14 +15,12 @@ initial_velocity:        0.0
 initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
-layer:                   0
-frame:
-	range:          22500
+device:
 	usage:          {attacking: true}
 	energy_cost:    10
 	fire_time:      20
+	range:          22500
 	inverse_speed:  0.098
-scale:                   1.0
 on_activate:
 	*	type:                "create"
 		reflexive:           true

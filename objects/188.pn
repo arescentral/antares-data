@@ -24,14 +24,13 @@ weapons:
 		positions:
 			*	{x: -3.0, y: 0.0}
 			*	{x: 3.0, y: 0.0}
-layer:                   2
-sprite:                  588
-frame:
-	shape:      {begin: 0.0, end: 23.004}
+animation:
+	sprite:     588
+	layer:      2
+	frames:     {begin: 0.0, end: 23.004}
 	direction:  "+"
 	speed:      0.547
 	first:      {begin: 0.0, end: 22.0}
-scale:                   1.0
 icon:
 	shape:  "triangle"
 	size:   3

@@ -17,10 +17,12 @@ initial_velocity:        {begin: 0.5, end: 2.0}
 initial_direction:       {begin: 0, end: 360}
 warp_speed:              0.0
 warp_out_distance:       0
-layer:                   2
-sprite:                  596
-frame:                   {offset: 0, resolution: 15, turn_rate: 2.0}
-scale:                   0.5
+rotation:
+	sprite:     596
+	layer:      2
+	scale:      0.5
+	frames:     {begin: 0, end: 24}
+	turn_rate:  2.0
 icon:
 	shape:  "plus"
 	size:   1

@@ -15,15 +15,13 @@ initial_velocity:        0.0
 initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
-layer:                   0
-frame:
-	range:          0
+device:
 	usage:          {attacking: true, defense: true}
 	energy_cost:    0
 	fire_time:      0
 	ammo:           5
+	range:          0
 	inverse_speed:  0.137
-scale:                   1.0
 on_activate:
 	*	type:       "create"
 		reflexive:  true

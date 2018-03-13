@@ -15,16 +15,14 @@ initial_velocity:        0.0
 initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
-layer:                   0
-frame:
-	range:          78400
+device:
 	usage:          {attacking: true}
 	energy_cost:    0
 	fire_time:      15
 	ammo:           110
+	range:          78400
 	inverse_speed:  8388607.996
 	restock_cost:   50
-scale:                   1.0
 on_activate:
 	*	type:         "sound"
 		reflexive:    true

@@ -17,10 +17,12 @@ initial_velocity:        0.0
 initial_direction:       {begin: 0, end: 360}
 warp_speed:              0.0
 warp_out_distance:       9734400
-layer:                   2
-sprite:                  535
-frame:                   {offset: 0, resolution: 10, turn_rate: 1.0}
-scale:                   2.0
+rotation:
+	sprite:     535
+	layer:      2
+	scale:      2.0
+	frames:     {begin: 0, end: 36}
+	turn_rate:  1.0
 icon:
 	shape:  "diamond"
 	size:   9

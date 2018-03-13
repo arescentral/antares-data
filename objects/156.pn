@@ -18,10 +18,11 @@ warp_speed:              0.0
 warp_out_distance:       0
 weapons:
 	beam:  {base: 154}
-layer:                   3
-sprite:                  583
-frame:                   {offset: 0, resolution: 15, turn_rate: 1.0}
-scale:                   1.0
+rotation:
+	sprite:     583
+	layer:      3
+	frames:     {begin: 0, end: 24}
+	turn_rate:  1.0
 icon:
 	shape:  "square"
 	size:   1

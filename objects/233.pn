@@ -15,14 +15,12 @@ initial_velocity:        0.0
 initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
-layer:                   3
-sprite:                  606
-frame:
-	shape:      {begin: 0.0, end: 6.004}
+animation:
+	sprite:     606
+	layer:      3
+	frames:     {begin: 0.0, end: 6.004}
 	direction:  "+"
 	speed:      0.117
-	first:      0.0
-scale:                   1.0
 destroy_dont_die:        false
 expire_dont_die:         false
 activate_period:         0

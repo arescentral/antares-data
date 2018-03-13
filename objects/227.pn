@@ -16,13 +16,11 @@ initial_velocity:        15.0
 initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
-layer:                   0
-frame:
+vector:
 	color:     {r: 127, g: 255, b: 127}
 	kind:      "kinetic"
 	accuracy:  131072
 	range:     65536
-scale:                   1.0
 on_create:
 	*	type:         "sound"
 		reflexive:    true

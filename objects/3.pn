@@ -16,10 +16,10 @@ initial_velocity:        7.0
 initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
-layer:                   3
-sprite:                  503
-frame:                   {offset: 0, resolution: 15, turn_rate: 0.0}
-scale:                   1.0
+rotation:
+	sprite:  503
+	layer:   3
+	frames:  {begin: 0, end: 24}
 icon:
 	shape:  "square"
 	size:   1

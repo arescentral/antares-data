@@ -16,16 +16,14 @@ initial_velocity:        0.0
 initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
-layer:                   0
-frame:
-	range:          4618201
+device:
 	usage:          {attacking: true}
 	energy_cost:    0
 	fire_time:      240
 	ammo:           100
+	range:          4618201
 	inverse_speed:  0.14
 	restock_cost:   80
-scale:                   1.0
 on_activate:
 	*	type:                "create"
 		reflexive:           true

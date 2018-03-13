@@ -16,14 +16,12 @@ initial_velocity:        0.0
 initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
-layer:                   0
-frame:
-	range:          810000
+device:
 	usage:          {attacking: true, defense: true}
 	energy_cost:    50
 	fire_time:      60
+	range:          810000
 	inverse_speed:  0.047
-scale:                   1.0
 on_activate:
 	*	type:         "sound"
 		id:           563

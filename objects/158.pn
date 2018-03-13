@@ -16,10 +16,11 @@ initial_velocity:        5.0
 initial_direction:       {begin: 0, end: 360}
 warp_speed:              50.0
 warp_out_distance:       32972718
-layer:                   2
-sprite:                  578
-frame:                   {offset: 0, resolution: 15, turn_rate: 2.5}
-scale:                   1.0
+rotation:
+	sprite:     578
+	layer:      2
+	frames:     {begin: 0, end: 24}
+	turn_rate:  2.5
 icon:
 	shape:  "triangle"
 	size:   4

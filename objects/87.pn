@@ -30,10 +30,12 @@ weapons:
 		base:  39
 		positions:
 			*	{x: 0.0, y: 0.0}
-layer:                   2
-sprite:                  560
-frame:                   {offset: 0, resolution: 15, turn_rate: 1.0}
-scale:                   2.0
+rotation:
+	sprite:     560
+	layer:      2
+	scale:      2.0
+	frames:     {begin: 0, end: 24}
+	turn_rate:  1.0
 icon:
 	shape:  "diamond"
 	size:   8

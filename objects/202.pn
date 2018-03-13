@@ -18,14 +18,13 @@ initial_velocity:        0.5
 initial_direction:       {begin: 0, end: 360}
 warp_speed:              0.0
 warp_out_distance:       0
-layer:                   2
-sprite:                  588
-frame:
-	shape:      {begin: 0.0, end: 23.004}
+animation:
+	sprite:     588
+	layer:      2
+	frames:     {begin: 0.0, end: 23.004}
 	direction:  "+"
 	speed:      0.547
 	first:      {begin: 0.0, end: 22.0}
-scale:                   1.0
 icon:
 	shape:  "plus"
 	size:   4

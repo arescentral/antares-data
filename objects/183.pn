@@ -15,14 +15,13 @@ initial_velocity:        0.0
 initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
-layer:                   1
-sprite:                  558
-frame:
-	shape:      {begin: 0.0, end: 28.004}
+animation:
+	sprite:     558
+	layer:      1
+	scale:      4.0
+	frames:     {begin: 0.0, end: 28.004}
 	direction:  "+"
 	speed:      0.06
-	first:      0.0
-scale:                   4.0
 on_create:
 	*	type:         "sound"
 		reflexive:    true

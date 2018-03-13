@@ -16,14 +16,14 @@ initial_velocity:        3.0
 initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
-layer:                   3
-sprite:                  508
-frame:
-	shape:      {begin: 0.0, end: 3.004}
+animation:
+	sprite:     508
+	layer:      3
+	scale:      2.0
+	frames:     {begin: 0.0, end: 3.004}
 	direction:  "+"
 	speed:      0.04
 	first:      {begin: 0.0, end: 3.0}
-scale:                   2.0
 icon:
 	shape:  "square"
 	size:   1

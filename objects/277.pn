@@ -24,14 +24,13 @@ weapons:
 		base:  283
 		positions:
 			*	{x: 0.0, y: 0.0}
-layer:                   1
-sprite:                  658
-frame:
-	shape:      {begin: 0.0, end: 11.004}
+animation:
+	sprite:     658
+	layer:      1
+	frames:     {begin: 0.0, end: 11.004}
 	direction:  "+"
 	speed:      0.156
 	first:      {begin: 0.0, end: 11.0}
-scale:                   1.0
 icon:
 	shape:  "plus"
 	size:   3
