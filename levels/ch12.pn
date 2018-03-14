@@ -71,14 +71,14 @@ initials:
 		at:               {x: -11133, y: -18088}
 		earning:          1.0
 		sprite_override:  1019
-		build:            [100, 200, 300, 800, 850, 860]
+		build:            ["fighter", "cruiser", "gunship", "transprt", "engineer", "aslttran"]
 	*	base:             23
 		owner:            1
 		rename:           "Fansi Beta"
 		at:               {x: 22957, y: 43826}
 		earning:          1.0
 		sprite_override:  1020
-		build:            [100, 200, 300, 800, 850, 860]
+		build:            ["fighter", "cruiser", "gunship", "transprt", "engineer", "aslttran"]
 	*	base:     104
 		rename:   "Bunker Station 1"
 		at:       {x: 695, y: 3826}
@@ -204,9 +204,9 @@ briefings:
 	*	object:  13
 		title:   "Flak Drone"
 		content:
-			>	^P93^Send engineering pods to this flak drone to reconfigure it to
-			>	fire on enemy vessels. The Gaitori Isolationists currently have it set
-			>	to fire on all ships. Make sure you have control of it before the cargo
+			>	^P93^Send engineering pods to this flak drone to reconfigure it to fire
+			>	on enemy vessels. The Gaitori Isolationists currently have it set to
+			>	fire on all ships. Make sure you have control of it before the cargo
 			>	ships arrive.
 	*	object:  11
 		title:   "Bunker Station 1"

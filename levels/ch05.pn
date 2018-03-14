@@ -28,7 +28,7 @@ initials:
 		at:               {x: 1130, y: 1304}
 		earning:          1.0
 		sprite_override:  1011
-		build:            [100, 200, 800, 850]
+		build:            ["fighter", "cruiser", "transprt", "engineer"]
 	*	base:    95
 		owner:   0
 		at:      {x: 1913, y: 521}
@@ -55,7 +55,7 @@ initials:
 		at:               {x: -9130, y: -9304}
 		earning:          1.0
 		sprite_override:  1012
-		build:            [100, 200, 800, 850]
+		build:            ["fighter", "cruiser", "transprt", "engineer"]
 conditions:
 	*	type:     "owner"
 		op:       "eq"
@@ -126,15 +126,15 @@ briefings:
 	*	object:  6
 		title:   "Flak Drone"
 		content:
-			>	^P93^There's a flak drone positioned directly between the two planets
-			>	of Aeneas. You may want to send an engineering pod to this drone first
-			>	in order to prevent it from firing on any of your transports on their
-			>	way to Beta.
+			>	^P93^There's a flak drone positioned directly between the two planets of
+			>	Aeneas. You may want to send an engineering pod to this drone first in
+			>	order to prevent it from firing on any of your transports on their way
+			>	to Beta.
 	*	object:  5
 		title:   "Heavy Destroyer"
 		content:
-			>	^P243^There's a Gaitori heavy destroyer currently over Beta. Compared
-			>	to our cruisers, it is an extremely dangerous ship.
+			>	^P243^There's a Gaitori heavy destroyer currently over Beta. Compared to
+			>	our cruisers, it is an extremely dangerous ship.
 starmap:     {x: 366, y: 250}
 par_time:    420
 par_kills:   15

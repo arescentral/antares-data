@@ -7,10 +7,11 @@ apparent_color:  "orange"
 illegal_colors:  0
 advantage:       2.75
 ships:
-	100:  147
-	200:  142
-	300:  149
-	450:  234
-	500:  148
-	800:  177
-	860:  250
+	fighter:   147
+	cruiser:   142
+	gunship:   149
+	hvd:       234
+	carrier:   148
+
+	transprt:  177
+	aslttran:  250

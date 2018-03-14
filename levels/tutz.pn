@@ -1,5 +1,5 @@
-type:      "solo"
-chapter:   31
+type:     "solo"
+chapter:  31
 title:
 	>	\i Training 
 	|	\iMoons for Goons
@@ -12,7 +12,7 @@ players:
 	*	type:  "cpu"
 		race:  "ish"
 		name:  "The Human/Ishiman Cooperative"
-song:      5001
+song:     5001
 initials:
 	*	base:     23
 		owner:    0
@@ -46,7 +46,7 @@ initials:
 		at:               {x: -9739, y: -86}
 		earning:          1.0
 		sprite_override:  1024
-		build:            [1802]
+		build:            ["prctcdrn"]
 	*	base:             111
 		owner:            1
 		rename:           "Combat Buoy A"
@@ -607,4 +607,4 @@ briefings:
 		content:
 			>	^P10030^When you feel you've had enough practice, navigate to the center
 			>	of this jump gate to begin your first combat mission.
-starmap:   {x: 288, y: 302}
+starmap:  {x: 288, y: 302}

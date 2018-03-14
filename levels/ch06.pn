@@ -72,14 +72,14 @@ initials:
 		at:               {x: 0, y: 9478}
 		earning:          1.0
 		sprite_override:  1013
-		build:            [100, 200, 800, 850]
+		build:            ["fighter", "cruiser", "transprt", "engineer"]
 	*	base:             111
 		owner:            1
 		rename:           "Hades Beta"
 		at:               {x: 1652, y: -9130}
 		earning:          1.0
 		sprite_override:  1014
-		build:            [100, 200, 300, 800, 850]
+		build:            ["fighter", "cruiser", "gunship", "transprt", "engineer"]
 	*	base:        0
 		owner:       0
 		at:          {x: 956, y: 8782}

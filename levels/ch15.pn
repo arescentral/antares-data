@@ -24,14 +24,14 @@ initials:
 		at:               {x: 0, y: 6000}
 		earning:          1.0
 		sprite_override:  1026
-		build:            [100, 200, 300, 800, 860]
+		build:            ["fighter", "cruiser", "gunship", "transprt", "aslttran"]
 	*	base:             23
 		owner:            1
 		rename:           "Thasero Beta"
 		at:               {x: 0, y: -7478}
 		earning:          1.0
 		sprite_override:  1028
-		build:            [100, 200, 300, 800, 860]
+		build:            ["fighter", "cruiser", "gunship", "transprt", "aslttran"]
 	*	base:             104
 		owner:            1
 		rename:           "Thasero Station"
@@ -124,8 +124,8 @@ briefings:
 	*	object:  3
 		title:   "Heavy Destroyer"
 		content:
-			>	^P129^You'll start in this destroyer. It's the only one we'll be able
-			>	to commit to this mission.
+			>	^P129^You'll start in this destroyer. It's the only one we'll be able to
+			>	commit to this mission.
 	*	object:  5
 		title:   "Carrier"
 		content:
@@ -156,9 +156,9 @@ briefings:
 		content:
 			>	^P138^Salrilian gunships also have stealth fields. They are fast and
 			>	well armed.
-			|	^P140^The Prophet's transports almost always operate with active
-			>	stealth fields. Often the only way to prevent one them from sneaking
-			>	onto a planet is by firing blindly.
+			|	^P140^The Prophet's transports almost always operate with active stealth
+			>	fields. Often the only way to prevent one them from sneaking onto a
+			>	planet is by firing blindly.
 	*	title:  "The Actualizer"
 		content:
 			>	^P113^A Salrilian carrier, which we believe to be the Actualizer, is en

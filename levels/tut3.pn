@@ -27,7 +27,7 @@ initials:
 		owner:   0
 		rename:  "Simulated Planet"
 		at:      {x: -200, y: -200}
-		build:   [267, 450, 500]
+		build:   ["tut3/cruiser", "hvd", "carrier"]
 	*	base:   61
 		owner:  0
 		at:     {x: 6000, y: 0}
@@ -757,7 +757,8 @@ conditions:
 			*	type:  "message"
 				id:    7005
 				pages:
-					*	>	Now order the two standard Cruisers and the Heavy Cruiser to follow you. 
+					*	>	Now order the two standard Cruisers and the Heavy Cruiser to follow
+						>	you. 
 						>
 						>	Select each of them (the mouse has been turned back on) and press the
 						>	Order to Go key, \i_#ORD_\i..

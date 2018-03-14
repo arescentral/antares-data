@@ -54,14 +54,14 @@ initials:
 		at:               {x: -4782, y: -21477}
 		earning:          1.0
 		sprite_override:  1007
-		build:            [100, 200, 800, 300, 250]
+		build:            ["fighter", "cruiser", "transprt", "gunship", "hvc"]
 	*	base:             23
 		owner:            0
 		rename:           "Bokleo Alpha"
 		at:               {x: 22783, y: 72259}
 		earning:          1.0
 		sprite_override:  1008
-		build:            [100, 200, 800]
+		build:            ["fighter", "cruiser", "transprt"]
 		attributes:       {static_destination: true}
 	*	base:    47
 		owner:   0
@@ -196,11 +196,11 @@ briefings:
 	*	object:  7
 		title:   "Border Drone"
 		content:
-			>	^P78^In accordance with the Amilass Treaty, an invulnerable border
-			>	drone has been stationed near the neutral trading outpost on Bokleo
-			>	Beta. However, the Order has reconfigured it to fire on all hostile
-			>	vessels. Unlike the flak drones you’re familiar with, this border drone
-			>	does not have flak artillery.
+			>	^P78^In accordance with the Amilass Treaty, an invulnerable border drone
+			>	has been stationed near the neutral trading outpost on Bokleo Beta.
+			>	However, the Order has reconfigured it to fire on all hostile vessels.
+			>	Unlike the flak drones you’re familiar with, this border drone does not
+			>	have flak artillery.
 	*	object:  6
 		title:   "Bokleo Beta"
 		content:
@@ -247,8 +247,7 @@ briefings:
 	*	object:  14
 		title:   "The Silent Question of Doz"
 		content:
-			>	^P45^The Silent Question of Doz has just joined the other two
-			>	carriers.
+			>	^P45^The Silent Question of Doz has just joined the other two carriers.
 	*	object:  0
 		title:   "Heavy Cruiser"
 		content:

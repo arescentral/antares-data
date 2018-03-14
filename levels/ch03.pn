@@ -24,7 +24,7 @@ initials:
 		at:               {x: 260, y: 4695}
 		earning:          1.0
 		sprite_override:  1009
-		build:            [100, 200, 800]
+		build:            ["fighter", "cruiser", "transprt"]
 	*	base:        0
 		owner:       0
 		at:          {x: 782, y: 4782}
@@ -46,7 +46,7 @@ initials:
 		at:               {x: -347, y: -7477}
 		earning:          1.0
 		sprite_override:  1010
-		build:            [100, 200, 300, 800]
+		build:            ["fighter", "cruiser", "gunship", "transprt"]
 conditions:
 	*	type:     "owner"
 		op:       "eq"
@@ -116,8 +116,8 @@ briefings:
 	*	object:  0
 		title:   "Demeter Alpha"
 		content:
-			>	^P24^The transport is the only ship capable of space-to-surface
-			>	assault. They are limited to sublight travel and are unarmed.
+			>	^P24^The transport is the only ship capable of space-to-surface assault.
+			>	They are limited to sublight travel and are unarmed.
 			>
 			>	For this mission you'll need to give a transport orders to go to Demeter
 			>	Beta. It will attempt to land once it arrives.
@@ -136,8 +136,8 @@ briefings:
 	*	object:  5
 		title:   "Demeter Beta"
 		content:
-			>	^P86^Destroy any of their transports you find making its way towards
-			>	our base on Alpha. If our base is lost, the mission will be aborted.
+			>	^P86^Destroy any of their transports you find making its way towards our
+			>	base on Alpha. If our base is lost, the mission will be aborted.
 			>
 			>	The Gaitori base can also construct gunships.
 			|	^P64^

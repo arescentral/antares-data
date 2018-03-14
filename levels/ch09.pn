@@ -24,7 +24,7 @@ initials:
 		at:               {x: 12043, y: 38956}
 		earning:          1.0
 		sprite_override:  1002
-		build:            [100, 200, 300, 800, 600]
+		build:            ["fighter", "cruiser", "gunship", "transprt", "defdrone"]
 	*	base:        45
 		owner:       1
 		at:          {x: -33825, y: -32695}
@@ -42,14 +42,14 @@ initials:
 		at:               {x: -7999, y: 13652}
 		earning:          1.0
 		sprite_override:  1003
-		build:            [100]
+		build:            ["fighter"]
 	*	base:             23
 		owner:            1
 		rename:           "Proteus Gamma"
 		at:               {x: 7304, y: -7565}
 		earning:          1.0
 		sprite_override:  1004
-		build:            [100, 200, 300, 800, 600]
+		build:            ["fighter", "cruiser", "gunship", "transprt", "defdrone"]
 	*	base:    27
 		rename:  "Proteus"
 		at:      {x: -600, y: 9000}
@@ -114,9 +114,9 @@ briefings:
 	*	object:  0
 		title:   "Proteus Alpha"
 		content:
-			>	^P19^This base can also produce defense drones, gunships and
-			>	transports. The heavily armored gunships are slow, and they rely
-			>	entirely on energy weapons .^P54^
+			>	^P19^This base can also produce defense drones, gunships and transports.
+			>	The heavily armored gunships are slow, and they rely entirely on energy
+			>	weapons .^P54^
 	*	object:  4
 		title:   "Philemon Beta"
 		content:

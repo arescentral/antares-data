@@ -18,13 +18,13 @@ initials:
 		rename:   "Xamer Alpha"
 		at:       {x: 0, y: 10000}
 		earning:  1.0
-		build:    [200, 300, 860, 500, 450, 800]
+		build:    ["cruiser", "gunship", "aslttran", "carrier", "hvd", "transprt"]
 	*	base:     23
 		owner:    1
 		rename:   "Xamer Beta"
 		at:       {x: 0, y: -10000}
 		earning:  1.0
-		build:    [200, 300, 860, 500, 450, 800]
+		build:    ["cruiser", "gunship", "aslttran", "carrier", "hvd", "transprt"]
 	*	base:    45
 		owner:   0
 		at:      {x: 256, y: 10000}
@@ -82,12 +82,12 @@ initials:
 		rename:   "Outpost Alpha"
 		at:       {x: 0, y: 5000}
 		earning:  0.25
-		build:    [850]
+		build:    ["engineer"]
 	*	base:     270
 		rename:   "Outpost Beta"
 		at:       {x: 0, y: -5000}
 		earning:  0.25
-		build:    [850]
+		build:    ["engineer"]
 conditions:
 	*	type:     "owner"
 		op:       "eq"

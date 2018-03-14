@@ -26,14 +26,14 @@ initials:
 		at:               {x: 1913, y: 6434}
 		earning:          1.0
 		sprite_override:  1022
-		build:            [100, 200, 300, 800]
+		build:            ["fighter", "cruiser", "gunship", "transprt"]
 	*	base:             111
 		owner:            0
 		rename:           "Pictoris Alpha 1"
 		at:               {x: 3130, y: 6173}
 		earning:          1.0
 		sprite_override:  1009
-		build:            [100, 200]
+		build:            ["fighter", "cruiser"]
 	*	base:     114
 		owner:    0
 		rename:   "Power Station BP1"
@@ -45,21 +45,21 @@ initials:
 		at:               {x: -8956, y: -8173}
 		earning:          1.0
 		sprite_override:  1010
-		build:            [100, 200]
+		build:            ["fighter", "cruiser"]
 	*	base:             111
 		owner:            1
 		rename:           "Pictoris Beta 2"
 		at:               {x: -5739, y: -10955}
 		earning:          1.0
 		sprite_override:  1011
-		build:            [100, 250]
+		build:            ["fighter", "hvc"]
 	*	base:             23
 		owner:            1
 		rename:           "Pictoris Beta"
 		at:               {x: -7565, y: -9391}
 		earning:          1.0
 		sprite_override:  1023
-		build:            [100, 200, 300, 800]
+		build:            ["fighter", "cruiser", "gunship", "transprt"]
 	*	base:        166
 		owner:       0
 		at:          {x: 2347, y: 6260}

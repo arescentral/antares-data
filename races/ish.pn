@@ -7,15 +7,17 @@ apparent_color:  "aqua"
 illegal_colors:  0
 advantage:       2.15
 ships:
-	100:   13
-	200:   0
-	250:   61
-	267:   288
-	300:   19
-	450:   129
-	500:   47
-	600:   54
-	800:   24
-	850:   95
-	860:   101
-	1802:  202
+	fighter:       13
+	cruiser:       0
+	hvc:           61
+	gunship:       19
+	hvd:           129
+	carrier:       47
+	defdrone:      54
+
+	transprt:      24
+	engineer:      95
+	aslttran:      101
+
+	tut3/cruiser:  288
+	prctcdrn:      202
