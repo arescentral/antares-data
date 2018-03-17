@@ -142,16 +142,16 @@ briefings:
 	*	object:  6
 		title:   "Cruiser"
 		content:
-			>	^P0^For this mission you will have a single cruiser. Its combination
-			>	of maneuverability and medium armament make it a useful small offensive
+			>	^P0^For this mission you will have a single cruiser. Its combination of
+			>	maneuverability and medium armament make it a useful small offensive
 			>	vessel. The fusion pulse gun is fairly powerful, and the ship is stocked
 			>	with 50 fusion pulse charges. The photokinetic beam cannon is an energy
 			>	based supplement to this weapon.
 	*	object:  1
 		title:   "Transport"
 		content:
-			>	^P86^Use your superlight boosters to quickly traverse the length of
-			>	the convoy, stopping to destroy each of the five transports.
+			>	^P86^Use your superlight boosters to quickly traverse the length of the
+			>	convoy, stopping to destroy each of the five transports.
 	*	object:  7
 		title:   "Fighter"
 		content:
