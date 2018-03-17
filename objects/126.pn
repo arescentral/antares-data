@@ -43,7 +43,7 @@ on_expire:
 	*	type:       "win"
 		reflexive:  true
 		player:     0
-		next:       17
+		next:       "ch14"
 		text:
 			>	The Elejeetian liner successfully exited through the jumpgate. Minister
 			>	Jommo pledges to do what he can to convince his Emperor to provide you

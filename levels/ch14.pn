@@ -151,7 +151,7 @@ conditions:
 		action:
 			*	type:    "win"
 				player:  0
-				next:    18
+				next:    "ch15"
 				text:
 					>	You captured the Cantharan base on Bokleo Gamma.
 		persistent:  true

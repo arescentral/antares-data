@@ -197,7 +197,7 @@ conditions:
 		action:
 			*	type:    "win"
 				player:  0
-				next:    22
+				next:    "ch19"
 				text:
 					>	You captured Proxima Centauri Beta.
 		player:   0

@@ -241,7 +241,7 @@ conditions:
 			*	type:       "win"
 				reflexive:  true
 				player:     0
-				next:       20
+				next:       "ch17"
 				text:
 					>	You decimated the Audemedon fleet and destroyed the jumpstream
 					>	inhibitor.

@@ -101,7 +101,7 @@ conditions:
 		action:
 			*	type:    "win"
 				player:  0
-				next:    19
+				next:    "ch16"
 				text:
 					>	You captured the Salrilian base on Beta.
 		player:   0

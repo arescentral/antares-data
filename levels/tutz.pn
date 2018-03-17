@@ -565,7 +565,7 @@ conditions:
 				reflexive:  true
 				delay:      60
 				player:     0
-				next:       2
+				next:       "ch01"
 				text:
 					>	Player leaves practice mission.
 		value:    100000

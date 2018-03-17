@@ -830,7 +830,7 @@ conditions:
 				initial_subject:  0
 				initial_object:   0
 				player:           0
-				next:             4
+				next:             "ch02"
 				text:
 					>	Good work. You completed the second tutorial.
 		initially_disabled:  true

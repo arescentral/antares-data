@@ -72,7 +72,7 @@ conditions:
 		action:
 			*	type:    "win"
 				player:  0
-				next:    9
+				next:    "ch06"
 				text:
 					>	You captured Aeneas Beta.
 		player:   0

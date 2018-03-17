@@ -991,7 +991,7 @@ conditions:
 		action:
 			*	type:    "win"
 				player:  0
-				next:    6
+				next:    "ch03"
 				text:
 					>	Good work. You completed the third tutorial.
 		initially_disabled:  true

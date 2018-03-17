@@ -146,7 +146,7 @@ conditions:
 		action:
 			*	type:    "win"
 				player:  0
-				next:    14
+				next:    "ch11"
 				text:
 					>	You destoyed the Constant Voice of Zom, and the mastermind Som with it.
 		initial:  17

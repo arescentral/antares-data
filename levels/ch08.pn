@@ -81,7 +81,7 @@ conditions:
 		action:
 			*	type:    "win"
 				player:  0
-				next:    12
+				next:    "ch09"
 				text:
 					>	Mission completed. You collected enough asteroid samples for a thorough
 					>	analysis.

@@ -64,7 +64,7 @@ conditions:
 		action:
 			*	type:    "win"
 				player:  0
-				next:    7
+				next:    "ch04"
 				text:
 					>	You took the Gaitori base on Demeter Beta. The mission was a success.
 		player:   0

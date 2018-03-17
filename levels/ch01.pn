@@ -124,7 +124,7 @@ conditions:
 		action:
 			*	type:    "win"
 				player:  0
-				next:    3
+				next:    "tut2"
 				text:
 					>	You destroyed all five Gaitori transports, preventing any reinforcements
 					>	from reaching the Gaitori base.
