@@ -183,7 +183,7 @@ initials:
 briefings:
 	*	title:  "The Gaitori"
 		content:
-			>	^P10016^Welcome to your first combat mission, humans.
+			>	^Pgai/race^Welcome to your first combat mission, humans.
 			|	This system is under the control of the Gaitori, a race of ruthless
 			>	mercenaries and minions of our common enemy, the Cantharan Order.
 par_time:  1

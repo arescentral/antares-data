@@ -256,9 +256,9 @@ briefings:
 			>	experiencing problems maintaining jump streams that pass near Ser.
 	*	title:  "Ser System"
 		content:
-			>	^P10084^Long range scans have picked up this massive object. It appears
-			>	to be an Audemedon construction. We believe it may be causing the local
-			>	jump stream difficulties.
+			>	^Pbrf/aud-device^Long range scans have picked up this massive object. It
+			>	appears to be an Audemedon construction. We believe it may be causing
+			>	the local jump stream difficulties.
 	*	object:  1
 		title:   "Research Vessel"
 		content:
@@ -290,12 +290,12 @@ par_time:    210
 par_kills:   42
 par_losses:  23
 prologue:
-	>	#+B2007
+	>	#+Blog/starfield/c
 	|	The Salrilians, seething from their defeat in the Thasero System, call
 	>	upon their most dreaded ally: the Audemedon Axis, a race of intelligent
 	>	machines.
 	>
-	>	#+10017
+	>	#+aud/race
 	|	Almost nothing is known about the Audemedons. Their technology is
 	>	incomprehensible, and their motives obscure.
 	>

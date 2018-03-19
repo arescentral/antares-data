@@ -176,7 +176,7 @@ briefings:
 			>	Your mission in the Secorem System is to recover the Banadee's escape
 			>	pods, and to aid a tractor tug in its recovery of the liner. The
 			>	Elejeetian Empire is anxious to see Minister Jommo returned
-			>	safely.^P10045^
+			>	safely.^Pbrf/jommo^
 	*	object:  11
 		title:   "Heavy Destroyer"
 		content:
@@ -196,9 +196,9 @@ briefings:
 	*	object:  7
 		title:   "Secorem Jump Gate"
 		content:
-			>	^P10030^Once you've safely recovered all six escape pods, the civilian
-			>	tractor tug will be entering here through the Secorem Jump Gate. It's
-			>	bringing two heavy cruisers for escort.
+			>	^Pbrf/jump-gate^Once you've safely recovered all six escape pods, the
+			>	civilian tractor tug will be entering here through the Secorem Jump
+			>	Gate. It's bringing two heavy cruisers for escort.
 			|	^P127^
 	*	title:  "Secorem"
 		content:
@@ -213,7 +213,7 @@ starmap:    {x: 194, y: 145}
 par_time:   300
 par_kills:  11
 prologue:
-	>	#+B2007
+	>	#+Blog/starfield/c
 	|	\i PART 3 
 	|	\i 
 	|	#+
@@ -223,7 +223,7 @@ prologue:
 	>	though it seems, these humans could deliver a crippling blow to the
 	>	Order?
 	>
-	>	#+10023
+	>	#+ele/race
 	|	Due to arrogance or innocence, the Elejeetians rarely arm their ships
 	>	with weapons of any kind, preferring instead to rely on heavy defenses
 	>	to protect them from attacks. However, on the rare occasions that they

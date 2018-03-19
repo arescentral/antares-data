@@ -170,16 +170,16 @@ conditions:
 briefings:
 	*	title:  "Bokleo Alpha"
 		content:
-			>	^P10044^The Bokleo System was a neutral Bazidanese trading outpost until
-			>	the Cantharan Order occupied it. However, the Cantharans are not
+			>	^Pbaz/race^The Bokleo System was a neutral Bazidanese trading outpost
+			>	until the Cantharan Order occupied it. However, the Cantharans are not
 			>	interested in disrupting the trading routes--they have a much greater
 			>	prize.
 	*	object:  1
 		title:   "Bazidanese"
 		content:
-			>	^P10037^We're not sure what it is, but the Order somehow managed to
-			>	capture this Bazidanese vessel intact. Long range scans indicate that it
-			>	is fairly massive, and apparently well armed.
+			>	^Pbrf/bazidanese^We're not sure what it is, but the Order somehow
+			>	managed to capture this Bazidanese vessel intact. Long range scans
+			>	indicate that it is fairly massive, and apparently well armed.
 			|	Since Bazidan has always been very secretive about its military
 			>	technologies, we are assuming that the Cantharans are as curious as we
 			>	are, and that they intend to reverse engineer this ship. Your objective
@@ -258,7 +258,7 @@ par_time:    1320
 par_kills:   95
 par_losses:  30
 prologue:
-	>	#+B2006
+	>	#+Blog/starfield/b
 	|	Before the Cantharan Crusades began, the Star League of Bazidan had
 	>	trading outposts scattered throughout what is now Cantharan space. With
 	>	enormous patience and a mastery of communication, the Bazidanese served

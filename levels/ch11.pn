@@ -216,7 +216,7 @@ briefings:
 	*	object:  0
 		title:   "UNS Ares"
 		content:
-			>	^P10002^You’ll actually be making use of the UNS Ares in the Heshac
+			>	^Puns/ares^You’ll actually be making use of the UNS Ares in the Heshac
 			>	system, as it is the ship best equipped for holding humans. For obvious
 			>	reasons, the UNS Ares will not be engaging any enemy ships, or
 			>	approaching the Salrilian installations.
@@ -248,8 +248,8 @@ starmap:    {x: 160, y: 179}
 par_time:   435
 par_kills:  8
 prologue:
-	>	#+B2007
-	|	#+10025
+	>	#+Blog/starfield/c
+	|	#+sal/race
 	|	The master race of the Cantharans, the Salrilians are believed to have
 	>	the ability to predict the near future. Far from supernatural, this
 	>	knowledge is the result of incredible investments in technology. Through

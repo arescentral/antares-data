@@ -197,10 +197,10 @@ briefings:
 			>	in the Elysium System is to help the Obish rescue the hostages.
 	*	title:  "Elysium System"
 		content:
-			>	^P10033^This mission has special significance. We have confirmed that
-			>	one of the Obiards being held is Ambassador Thrntz, a key negotiator in
-			>	the Obain/Gaitor Nonaggression Pact. His safe return would win you
-			>	considerable favor with the Obiards.
+			>	^Pbrf/thrntz^This mission has special significance. We have confirmed
+			>	that one of the Obiards being held is Ambassador Thrntz, a key
+			>	negotiator in the Obain/Gaitor Nonaggression Pact. His safe return would
+			>	win you considerable favor with the Obiards.
 	*	object:  5
 		title:   "Heavy Cruiser"
 		content:

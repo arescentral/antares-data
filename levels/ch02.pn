@@ -172,7 +172,7 @@ briefings:
 	*	object:  0
 		title:   "Relay Dish 1"
 		content:
-			>	^P10015^This the the first of the four Relay Stations you should
+			>	^Pbrf/relay^This the the first of the four Relay Stations you should
 			>	destroy. The stations are unarmed, and are only protected by deflector
 			>	shields.
 	*	object:  2
@@ -199,8 +199,9 @@ briefings:
 	*	object:  14
 		title:   "Myrmidon Station"
 		content:
-			>	^P10001^The Gaitori habitat station in the Myrmidon System is heavily
-			>	armed. We recommend that you keep a safe distance from this station.
+			>	^Pbrf/habitat^The Gaitori habitat station in the Myrmidon System is
+			>	heavily armed. We recommend that you keep a safe distance from this
+			>	station.
 	*	title:  "Obish Escorts"
 		content:
 			>	^P42^A pair of Obish escorts is in the region. They've expressed an

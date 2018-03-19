@@ -123,12 +123,12 @@ briefings:
 		content:
 			>	The miners in this system alerted us when they detected a Cantharan ship
 			>	pursuing a rogue asteroid.
-			|	^P10034^Our preliminary analysis suggests that the asteroid has been
-			>	artificially manufactured.
+			|	^Pbrf/asteroid^Our preliminary analysis suggests that the asteroid has
+			>	been artificially manufactured.
 	*	object:  2
 		title:   "Asteroid IR7-7e"
 		content:
-			>	^P10040^Its trajectory indicates that it originated in the Los Ran
+			>	^Pbrf/los-ran^Its trajectory indicates that it originated in the Los Ran
 			>	system, and we believe it may be a remnant of the ancient Boodan War of
 			>	Cantharis. 
 	*	object:  2
@@ -174,7 +174,7 @@ starmap:    {x: 401, y: 224}
 par_time:   180
 par_kills:  2
 prologue:
-	>	#+B2006
+	>	#+Blog/starfield/b
 	|	\i PART 2 
 	|	\i 
 	|	#+
@@ -182,7 +182,7 @@ prologue:
 	>	enemy of your race: the Cantharan Order, servants to the Prophets and
 	>	Crusaders against the Unenlightened.
 	>
-	>	#+10020
+	>	#+can/race
 	|	Centuries ago, the Cantharan Order, then a stable if inflexible defender
 	>	of interstellar peace, was plunged into chaos by the Boodan Civil War.
 	>	Although the Order prevailed, it was greatly changed by the conflict.
@@ -205,7 +205,7 @@ prologue:
 	>	and surprise still on your side, you hope to bisect the frontier and
 	>	reach into Cantharan space before the Order has time to react.
 epilogue:
-	>	#+B2006
+	>	#+Blog/starfield/b
 	|	The Ishimans’ initial analysis of the rogue asteroid was correct: it was
 	>	artificially created, and originated in the Cantharan system of Los Ran
 	>	during the Boodan War. Further examination of the samples you retrieved

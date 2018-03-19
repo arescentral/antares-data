@@ -267,8 +267,8 @@ starmap:    {x: 284, y: 43}
 par_time:   600
 par_kills:  50
 epilogue:
-	>	#+B2005
-	|	#+10031
+	>	#+Blog/starfield/a
+	|	#+log/ares-returns
 	|	The Earth you left over one hundred and fifty years ago is greatly
 	>	changed. The people you knew are long since dead, and the place you
 	>	called home no longer exists.

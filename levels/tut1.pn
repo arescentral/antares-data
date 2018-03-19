@@ -651,7 +651,7 @@ par_kills:    9
 angle:        8
 is_training:  true
 prologue:
-	>	#+B2005
+	>	#+Blog/starfield/a
 	|	\i PROLOGUE 
 	|	\i 
 	|	#+

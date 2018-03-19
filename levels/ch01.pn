@@ -161,16 +161,16 @@ briefings:
 	*	object:  0
 		title:   "Charon Station"
 		content:
-			>	^P10001^If any one of the transports reaches the Gaitori base, the
+			>	^Pbrf/habitat^If any one of the transports reaches the Gaitori base, the
 			>	mission will be aborted. Good luck.
 starmap:    {x: 330, y: 287}
 par_time:   120
 par_kills:  9
 prologue:
-	>	#+B2005
+	>	#+Blog/starfield/a
 	|	\i PART 1 
 	|	\i 
-	|	#+10016
+	|	#+gai/race
 	|	The Gaitori, ruthless mercenaries and minions of the Cantharan Order,
 	>	are the first enemy you must face in your quest for Earth. The Gaitori
 	>	Union, once an interstellar trading empire that linked the many

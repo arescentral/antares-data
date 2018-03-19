@@ -6,7 +6,7 @@ version:         "1.1.1"
 starmap:         "pictures/starmap"
 splash:          "pictures/splash"
 intro:
-	>	#+B2005
+	>	#+Blog/starfield/a
 	|	One hundred and fifty years ago, you left our planet.
 	>
 	>	#+
@@ -16,7 +16,7 @@ intro:
 	>	on another world for the first time, the new vessel was christened the
 	>	Apollo.
 	>
-	>	#+10029
+	>	#+log/ares-departs
 	|	A voyage was plotted to the source of the alien signal, the Ishima
 	>	system, dozens of lightyears away. The effects of relativity would cause
 	>	only years to pass on board the Apollo, as it approached the speed of
@@ -32,7 +32,7 @@ intro:
 	>	and starlight gave way to sunlight, you began searching for signs of the
 	>	originators of the signal. Your search was brief.
 	>
-	>	#+10028
+	>	#+log/ish-encounter
 	|	The alien sun was eclipsed by the sudden appearance of a colossal ship,
 	>	dwarfing the Apollo. In stunned silence you watched a message appear on
 	>	your viewscreen.
@@ -46,7 +46,7 @@ intro:
 	>	CANTHARIS. WE ARE SAD. WE DO NOT LIKE THE CANTHARAN ORDER. THEY ARE
 	>	EXPANDING THEIR SPACE. THEY CAUSE DISCORD AND WAR.
 	>
-	>	#+10027
+	>	#+log/ish-comms
 	|	\f8e“WAR DECREASES DIVERSITY. WE LIKE DIVERSITY. WE PRESERVE UNDEVELOPED
 	>	CULTURE AND TECHNOLOGY LIKE YOURS.
 	>
@@ -90,11 +90,11 @@ intro:
 	>	contact with the source of the alien transmission was complete. Your new
 	>	objective was military: liberate Earth.
 	>
-	>	#+10026
+	>	#+log/ares-christened
 	|	You rechristened your vessel Ares.
 about:
-	>	#+B2005
-	|	#+2003
+	>	#+Blog/starfield/a
+	|	#+log/about-header
 	>
 	>	\i 
 	|	\i 
