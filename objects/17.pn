@@ -34,7 +34,7 @@ rotation:
 icon:
 	shape:  "triangle"
 	size:   5
-portrait:                1018
+portrait:                "can/gunship"
 shield_color:            {r: 240, g: 240, b: 120}
 on_destroy:
 	*	type:                "create"

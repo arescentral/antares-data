@@ -39,7 +39,7 @@ rotation:
 icon:
 	shape:  "diamond"
 	size:   8
-portrait:                1114
+portrait:                "sal/carrier"
 shield_color:            {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:                "create"

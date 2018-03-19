@@ -40,7 +40,7 @@ rotation:
 icon:
 	shape:  "triangle"
 	size:   6
-portrait:                1130
+portrait:                "ish/hvd"
 shield_color:            {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:                "create"

@@ -36,7 +36,7 @@ rotation:
 icon:
 	shape:  "triangle"
 	size:   3
-portrait:                1055
+portrait:                "ish/defdrone"
 shield_color:            {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:                "create"

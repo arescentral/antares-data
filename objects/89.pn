@@ -35,7 +35,7 @@ rotation:
 icon:
 	shape:  "diamond"
 	size:   7
-portrait:                1090
+portrait:                "zzz/obi/bttlcrsr"
 shield_color:            {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:                "create"

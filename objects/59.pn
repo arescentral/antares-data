@@ -31,7 +31,7 @@ rotation:
 icon:
 	shape:  "triangle"
 	size:   4
-portrait:                1060
+portrait:                "can/schooner"
 shield_color:            {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:                "create"

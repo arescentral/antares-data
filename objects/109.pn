@@ -28,7 +28,7 @@ rotation:
 icon:
 	shape:  "plus"
 	size:   7
-portrait:                1110
+portrait:                "ish/etc/research"
 shield_color:            {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:                "create"

@@ -42,7 +42,7 @@ rotation:
 icon:
 	shape:  "plus"
 	size:   5
-portrait:                1140
+portrait:                "sal/aslttran"
 shield_color:            {r: 240, g: 240, b: 120}
 on_destroy:
 	*	type:              "fire"

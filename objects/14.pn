@@ -31,7 +31,7 @@ rotation:
 icon:
 	shape:  "triangle"
 	size:   3
-portrait:                1015
+portrait:                "can/fighter"
 shield_color:            {r: 240, g: 240, b: 120}
 on_destroy:
 	*	type:                "create"

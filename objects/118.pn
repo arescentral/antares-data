@@ -26,7 +26,7 @@ rotation:
 icon:
 	shape:  "plus"
 	size:   6
-portrait:                1119
+portrait:                "ish/etc/cargo"
 shield_color:            {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:                "create"

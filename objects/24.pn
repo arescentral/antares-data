@@ -28,7 +28,7 @@ rotation:
 icon:
 	shape:  "plus"
 	size:   5
-portrait:                1025
+portrait:                "ish/transprt"
 shield_color:            {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:                "create"

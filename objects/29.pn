@@ -25,7 +25,6 @@ animation:
 icon:
 	shape:  "square"
 	size:   2
-portrait:                1030
 on_create:
 	*	type:         "sound"
 		reflexive:    true

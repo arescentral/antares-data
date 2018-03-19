@@ -27,7 +27,7 @@ animation:
 icon:
 	shape:  "square"
 	size:   4
-portrait:                1185
+portrait:                "ast/regular/big"
 on_destroy:
 	*	type:                "create"
 		reflexive:           true

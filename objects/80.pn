@@ -32,7 +32,7 @@ rotation:
 icon:
 	shape:  "plus"
 	size:   5
-portrait:                1081
+portrait:                "ish/etc/astrominer"
 shield_color:            {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:                "create"
