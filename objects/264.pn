@@ -26,7 +26,7 @@ device:
 on_activate:
 	*	type:                "create"
 		reflexive:           true
-		base:                263
+		base:                "263"
 		relative_velocity:   true
 		relative_direction:  true
 	*	type:         "sound"

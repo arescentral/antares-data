@@ -27,20 +27,20 @@ icon:
 on_expire:
 	*	type:       "create"
 		reflexive:  true
-		base:       107
+		base:       "107"
 		count:      {begin: 8, end: 12}
 	*	type:                "create"
 		reflexive:           true
-		base:                106
+		base:                "106"
 		relative_direction:  true
 on_collide:
 	*	type:       "create"
 		reflexive:  true
-		base:       107
+		base:       "107"
 		count:      {begin: 8, end: 12}
 	*	type:                "create"
 		reflexive:           true
-		base:                106
+		base:                "106"
 		relative_direction:  true
 destroy_dont_die:        false
 expire_dont_die:         false

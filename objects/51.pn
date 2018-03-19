@@ -29,7 +29,7 @@ icon:
 on_collide:
 	*	type:                "create"
 		reflexive:           true
-		base:                8
+		base:                "8"
 		relative_direction:  true
 	*	type:       "kill"
 		reflexive:  true

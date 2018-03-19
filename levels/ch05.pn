@@ -18,38 +18,38 @@ score:
 	*	"_-Beta"
 song:        5004
 initials:
-	*	base:        0
+	*	base:        "0"
 		owner:       0
 		at:          {x: 0, y: 0}
 		attributes:  {is_player_ship: true}
-	*	base:             23
+	*	base:             "23"
 		owner:            0
 		rename:           "Aeneas Alpha"
 		at:               {x: 1130, y: 1304}
 		earning:          1.0
 		sprite_override:  1011
 		build:            ["fighter", "cruiser", "transprt", "engineer"]
-	*	base:    95
+	*	base:    "95"
 		owner:   0
 		at:      {x: 1913, y: 521}
 		target:  1
-	*	base:   94
+	*	base:   "94"
 		owner:  1
 		at:     {x: -11391, y: -9304}
-	*	base:    95
+	*	base:    "95"
 		owner:   0
 		at:      {x: 1652, y: 2173}
 		target:  1
-	*	base:   243
+	*	base:   "243"
 		owner:  1
 		at:     {x: -9664, y: -8245}
-	*	base:   93
+	*	base:   "93"
 		owner:  1
 		at:     {x: -4004, y: -3990}
-	*	base:   93
+	*	base:   "93"
 		owner:  1
 		at:     {x: -9184, y: -9367}
-	*	base:             23
+	*	base:             "23"
 		owner:            1
 		rename:           "Aeneas Beta"
 		at:               {x: -9130, y: -9304}

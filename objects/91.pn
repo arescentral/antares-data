@@ -29,13 +29,13 @@ shield_color:            {r: 240, g: 0, b: 0}
 on_destroy:
 	*	type:                "create"
 		reflexive:           true
-		base:                90
+		base:                "90"
 		count:               {begin: 20, end: 30}
 		relative_velocity:   true
 		relative_direction:  true
 	*	type:                "create"
 		reflexive:           true
-		base:                79
+		base:                "79"
 		relative_direction:  true
 	*	type:       "kill"
 		reflexive:  true

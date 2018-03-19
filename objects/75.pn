@@ -30,7 +30,7 @@ shield_color:            {r: 240, g: 0, b: 0}
 on_destroy:
 	*	type:                "create"
 		reflexive:           true
-		base:                29
+		base:                "29"
 		relative_direction:  true
 	*	type:       "score"
 		reflexive:  true

@@ -25,7 +25,7 @@ device:
 	restock_cost:   0
 on_activate:
 	*	type:  "morph"
-		base:  272
+		base:  "272"
 	*	type:         "sound"
 		id:           551
 		priority:     5

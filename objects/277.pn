@@ -21,7 +21,7 @@ warp_speed:              0.0
 warp_out_distance:       0
 weapons:
 	special:
-		base:  283
+		base:  "283"
 		positions:
 			*	{x: 0.0, y: 0.0}
 animation:
@@ -41,7 +41,7 @@ on_expire:
 		value:      -1
 	*	type:       "morph"
 		reflexive:  true
-		base:       276
+		base:       "276"
 destroy_dont_die:        true
 expire_dont_die:         true
 activate_period:         0

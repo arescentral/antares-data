@@ -27,7 +27,7 @@ icon:
 on_destroy:
 	*	type:                "create"
 		reflexive:           true
-		base:                8
+		base:                "8"
 		relative_direction:  true
 	*	type:       "kill"
 		reflexive:  true
@@ -35,7 +35,7 @@ on_destroy:
 on_expire:
 	*	type:       "morph"
 		reflexive:  true
-		base:       72
+		base:       "72"
 		keep_ammo:  true
 on_create:
 	*	type:         "sound"
@@ -47,7 +47,7 @@ on_create:
 on_collide:
 	*	type:                "create"
 		reflexive:           true
-		base:                79
+		base:                "79"
 		relative_direction:  true
 	*	type:       "kill"
 		reflexive:  true

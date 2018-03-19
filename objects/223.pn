@@ -19,17 +19,17 @@ warp_speed:              20.0
 warp_out_distance:       1406447
 weapons:
 	pulse:
-		base:  192
+		base:  "192"
 		positions:
 			*	{x: -14.0, y: 60.0}
 			*	{x: 0.0, y: 60.0}
 			*	{x: 14.0, y: 60.0}
 	beam:
-		base:  135
+		base:  "135"
 		positions:
 			*	{x: 0.0, y: 0.0}
 	special:
-		base:  197
+		base:  "197"
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:
@@ -50,13 +50,13 @@ on_destroy:
 		kind:       "stop"
 	*	type:       "create"
 		reflexive:  true
-		base:       183
+		base:       "183"
 	*	type:       "land"
 		reflexive:  true
 		speed:      128
 	*	type:       "morph"
 		reflexive:  true
-		base:       224
+		base:       "224"
 	*	type:       "heal"
 		reflexive:  true
 		value:      80000

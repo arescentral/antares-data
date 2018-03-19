@@ -34,16 +34,16 @@ on_create:
 		volume:       255
 	*	type:                "create"
 		reflexive:           true
-		base:                11
+		base:                "11"
 		count:               {begin: 8, end: 16}
 		relative_direction:  true
 	*	type:       "create"
 		reflexive:  true
-		base:       12
+		base:       "12"
 		count:      {begin: 8, end: 16}
 	*	type:               "create"
 		reflexive:          true
-		base:               51
+		base:               "51"
 		count:              {begin: 8, end: 16}
 		relative_velocity:  true
 destroy_dont_die:        false

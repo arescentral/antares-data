@@ -18,95 +18,95 @@ score:
 	*	"4\\0\\0\\4\\f\\t\\Remaining: \\/4"
 song:       5001
 initials:
-	*	base:     36
+	*	base:     "36"
 		owner:    1
 		rename:   "Relay Dish 1"
 		at:       {x: 7043, y: 4521}
 		earning:  1.0
-	*	base:        61
+	*	base:        "61"
 		owner:       0
 		at:          {x: 7652, y: 8695}
 		attributes:  {is_player_ship: true}
-	*	base:        37
+	*	base:        "37"
 		owner:       1
 		at:          {x: 6434, y: 4695}
 		target:      0
 		attributes:  {static_destination: true}
-	*	base:        37
+	*	base:        "37"
 		owner:       1
 		at:          {x: 2608, y: 2086}
 		target:      16
 		attributes:  {static_destination: true}
-	*	base:        37
+	*	base:        "37"
 		owner:       1
 		at:          {x: 3739, y: 2434}
 		target:      16
 		attributes:  {static_destination: true}
-	*	base:        64
+	*	base:        "64"
 		owner:       1
 		at:          {x: -347, y: -1913}
 		target:      17
 		attributes:  {static_destination: true}
-	*	base:        37
+	*	base:        "37"
 		owner:       1
 		at:          {x: -1130, y: -2347}
 		target:      17
 		attributes:  {static_destination: true}
-	*	base:        37
+	*	base:        "37"
 		owner:       1
 		at:          {x: -347, y: -2782}
 		target:      17
 		attributes:  {static_destination: true}
-	*	base:        64
+	*	base:        "64"
 		owner:       1
 		at:          {x: -1043, y: -5043}
 		target:      18
 		attributes:  {static_destination: true}
-	*	base:        37
+	*	base:        "37"
 		owner:       1
 		at:          {x: -2695, y: -4173}
 		target:      18
 		attributes:  {static_destination: true}
-	*	base:        37
+	*	base:        "37"
 		owner:       1
 		at:          {x: -1826, y: -4434}
 		target:      18
 		attributes:  {static_destination: true}
-	*	base:        37
+	*	base:        "37"
 		owner:       1
 		at:          {x: -1913, y: -4956}
 		target:      18
 		attributes:  {static_destination: true}
-	*	base:        42
+	*	base:        "42"
 		owner:       0
 		at:          {x: -8695, y: 6782}
 		target:      1
 		attributes:  {initially_hidden: true}
-	*	base:        42
+	*	base:        "42"
 		owner:       0
 		at:          {x: -6695, y: 8347}
 		target:      1
 		attributes:  {initially_hidden: true}
-	*	base:             104
+	*	base:             "104"
 		owner:            1
 		rename:           "Myrmidon Station"
 		at:               {x: -1652, y: -4173}
 		earning:          1.0
 		sprite_override:  1200
-	*	base:    27
+	*	base:    "27"
 		rename:  "Myrmidon"
 		at:      {x: 0, y: 0}
-	*	base:     36
+	*	base:     "36"
 		owner:    1
 		rename:   "Relay Dish 2"
 		at:       {x: 3217, y: 2000}
 		earning:  1.0
-	*	base:     36
+	*	base:     "36"
 		owner:    1
 		rename:   "Relay Dish 3"
 		at:       {x: 2000, y: -1130}
 		earning:  1.0
-	*	base:     36
+	*	base:     "36"
 		owner:    1
 		rename:   "Relay Dish 4"
 		at:       {x: 1043, y: -4347}

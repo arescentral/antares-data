@@ -13,77 +13,77 @@ players:
 		earning_power:  1.0
 song:     5004
 initials:
-	*	base:     23
+	*	base:     "23"
 		owner:    0
 		rename:   "Xamer Alpha"
 		at:       {x: 0, y: 10000}
 		earning:  1.0
 		build:    ["cruiser", "gunship", "aslttran", "carrier", "hvd", "transprt"]
-	*	base:     23
+	*	base:     "23"
 		owner:    1
 		rename:   "Xamer Beta"
 		at:       {x: 0, y: -10000}
 		earning:  1.0
 		build:    ["cruiser", "gunship", "aslttran", "carrier", "hvd", "transprt"]
-	*	base:    45
+	*	base:    "45"
 		owner:   0
 		at:      {x: 256, y: 10000}
 		target:  0
-	*	base:    45
+	*	base:    "45"
 		owner:   0
 		at:      {x: -256, y: 10000}
 		target:  0
-	*	base:    45
+	*	base:    "45"
 		owner:   0
 		at:      {x: 0, y: 10256}
 		target:  0
-	*	base:    45
+	*	base:    "45"
 		owner:   1
 		at:      {x: -256, y: -10000}
 		target:  1
-	*	base:    45
+	*	base:    "45"
 		owner:   1
 		at:      {x: 256, y: -10000}
 		target:  1
-	*	base:    45
+	*	base:    "45"
 		owner:   1
 		at:      {x: 0, y: -10256}
 		target:  1
-	*	base:     270
+	*	base:     "270"
 		rename:   "Bunker Station"
 		at:       {x: 0, y: 0}
 		earning:  0.25
-	*	base:     270
+	*	base:     "270"
 		rename:   "Outpost C1"
 		at:       {x: -700, y: 0}
 		earning:  0.25
-	*	base:     270
+	*	base:     "270"
 		rename:   "Outpost C2"
 		at:       {x: 700, y: 0}
 		earning:  0.25
-	*	base:     270
+	*	base:     "270"
 		rename:   "Outpost C3"
 		at:       {x: 0, y: -700}
 		earning:  0.25
-	*	base:     270
+	*	base:     "270"
 		rename:   "Outpost C4"
 		at:       {x: 0, y: 700}
 		earning:  0.25
 		target:   0
-	*	base:  93
+	*	base:  "93"
 		at:    {x: -700, y: -700}
-	*	base:  93
+	*	base:  "93"
 		at:    {x: 700, y: -700}
-	*	base:  93
+	*	base:  "93"
 		at:    {x: -700, y: 700}
-	*	base:  93
+	*	base:  "93"
 		at:    {x: 700, y: 700}
-	*	base:     270
+	*	base:     "270"
 		rename:   "Outpost Alpha"
 		at:       {x: 0, y: 5000}
 		earning:  0.25
 		build:    ["engineer"]
-	*	base:     270
+	*	base:     "270"
 		rename:   "Outpost Beta"
 		at:       {x: 0, y: -5000}
 		earning:  0.25

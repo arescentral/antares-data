@@ -28,10 +28,10 @@ icon:
 on_destroy:
 	*	type:       "create"
 		reflexive:  true
-		base:       257
+		base:       "257"
 	*	type:                "create"
 		reflexive:           true
-		base:                84
+		base:                "84"
 		count:               3
 		relative_velocity:   true
 		relative_direction:  true

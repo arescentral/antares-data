@@ -30,7 +30,7 @@ icon:
 on_expire:
 	*	type:                "create"
 		reflexive:           true
-		base:                26
+		base:                "26"
 		count:               {begin: 2, end: 5}
 		relative_velocity:   true
 		relative_direction:  true
@@ -44,7 +44,7 @@ on_create:
 on_collide:
 	*	type:                "create"
 		reflexive:           true
-		base:                34
+		base:                "34"
 		relative_direction:  true
 	*	type:   "push"
 		kind:   "collide"

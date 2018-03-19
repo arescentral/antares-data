@@ -22,7 +22,7 @@ warp_speed:              0.0
 warp_out_distance:       9734400
 weapons:
 	beam:
-		base:  96
+		base:  "96"
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:
@@ -38,7 +38,7 @@ shield_color:            {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:                "create"
 		reflexive:           true
-		base:                29
+		base:                "29"
 		relative_direction:  true
 on_expire:
 	*	type:              "capture"

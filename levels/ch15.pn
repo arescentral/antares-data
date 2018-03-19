@@ -18,50 +18,50 @@ score:
 	*	"_-Beta"
 song:        5004
 initials:
-	*	base:             23
+	*	base:             "23"
 		owner:            0
 		rename:           "Thasero Alpha"
 		at:               {x: 0, y: 6000}
 		earning:          1.0
 		sprite_override:  1026
 		build:            ["fighter", "cruiser", "gunship", "transprt", "aslttran"]
-	*	base:             23
+	*	base:             "23"
 		owner:            1
 		rename:           "Thasero Beta"
 		at:               {x: 0, y: -7478}
 		earning:          1.0
 		sprite_override:  1028
 		build:            ["fighter", "cruiser", "gunship", "transprt", "aslttran"]
-	*	base:             104
+	*	base:             "104"
 		owner:            1
 		rename:           "Thasero Station"
 		at:               {x: 0, y: 0}
 		earning:          1.0
 		sprite_override:  572
-	*	base:        129
+	*	base:        "129"
 		owner:       0
 		at:          {x: 869, y: 6521}
 		attributes:  {is_player_ship: true}
-	*	base:   138
+	*	base:   "138"
 		owner:  1
 		at:     {x: 956, y: -7130}
-	*	base:    47
+	*	base:    "47"
 		owner:   0
 		at:      {x: -782, y: 6521}
 		target:  0
-	*	base:    67
+	*	base:    "67"
 		owner:   0
 		at:      {x: 86, y: 7478}
 		target:  0
-	*	base:        113
+	*	base:        "113"
 		owner:       1
 		at:          {x: -9565, y: -9565}
 		attributes:  {initially_hidden: true}
-	*	base:        113
+	*	base:        "113"
 		owner:       1
 		at:          {x: -8695, y: -9130}
 		attributes:  {initially_hidden: true}
-	*	base:        148
+	*	base:        "148"
 		owner:       1
 		at:          {x: -9565, y: -8000}
 		attributes:  {initially_hidden: true}

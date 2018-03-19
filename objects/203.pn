@@ -19,11 +19,11 @@ warp_speed:              40.0
 warp_out_distance:       9734400
 weapons:
 	pulse:
-		base:  60
+		base:  "60"
 		positions:
 			*	{x: 0.0, y: 0.0}
 	beam:
-		base:  1
+		base:  "1"
 		positions:
 			*	{x: -10.0, y: 0.0}
 			*	{x: 10.0, y: 0.0}
@@ -50,11 +50,11 @@ on_destroy:
 		volume:           255
 	*	type:       "morph"
 		reflexive:  true
-		base:       204
+		base:       "204"
 	*	type:       "morph"
 		reflexive:  true
 		delay:      360
-		base:       203
+		base:       "203"
 destroy_dont_die:        true
 expire_dont_die:         false
 activate_period:         0

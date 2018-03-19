@@ -16,7 +16,7 @@ initial_direction:       {begin: 0, end: 360}
 warp_speed:              0.0
 warp_out_distance:       0
 weapons:
-	special:  {base: 187}
+	special:  {base: "187"}
 animation:               {sprite: 573, layer: 1}
 shield_color:            {r: 240, g: 0, b: 0}
 on_activate:

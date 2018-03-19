@@ -19,7 +19,7 @@ warp_speed:              20.0
 warp_out_distance:       1406447
 weapons:
 	beam:
-		base:  135
+		base:  "135"
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:

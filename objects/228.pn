@@ -20,14 +20,14 @@ shield_color:            {r: 240, g: 0, b: 0}
 on_activate:
 	*	type:                "create"
 		reflexive:           true
-		base:                184
+		base:                "184"
 		count:               {begin: -2, end: 3}
 		relative_velocity:   true
 		relative_direction:  true
 		distance:            1024
 	*	type:                "create"
 		reflexive:           true
-		base:                195
+		base:                "195"
 		count:               {begin: -12, end: 2}
 		relative_velocity:   true
 		relative_direction:  true

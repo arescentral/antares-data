@@ -24,7 +24,7 @@ device:
 on_activate:
 	*	type:                "create"
 		reflexive:           true
-		base:                227
+		base:                "227"
 		relative_velocity:   true
 		relative_direction:  true
 		distance:            4

@@ -32,7 +32,7 @@ on_activate:
 		volume:       255
 	*	type:                "create"
 		reflexive:           true
-		base:                49
+		base:                "49"
 		count:               {begin: 1, end: 4}
 		relative_direction:  true
 destroy_dont_die:        false

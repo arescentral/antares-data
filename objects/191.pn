@@ -28,7 +28,7 @@ icon:
 on_destroy:
 	*	type:       "create"
 		reflexive:  true
-		base:       35
+		base:       "35"
 on_collide:
 	*	type:    "score"
 		which:   1

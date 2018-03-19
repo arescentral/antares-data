@@ -31,7 +31,7 @@ shield_color:            {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:       "create"
 		reflexive:  true
-		base:       29
+		base:       "29"
 	*	type:       "win"
 		reflexive:  true
 		player:     1

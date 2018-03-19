@@ -18,39 +18,39 @@ score:
 	*	"_-Gamma"
 song:        5003
 initials:
-	*	base:             23
+	*	base:             "23"
 		owner:            0
 		rename:           "Proteus Alpha"
 		at:               {x: 12043, y: 38956}
 		earning:          1.0
 		sprite_override:  1002
 		build:            ["fighter", "cruiser", "gunship", "transprt", "defdrone"]
-	*	base:        45
+	*	base:        "45"
 		owner:       1
 		at:          {x: -33825, y: -32695}
 		attributes:  {initially_hidden: true}
-	*	base:        0
+	*	base:        "0"
 		owner:       0
 		at:          {x: 13586, y: 39456}
 		attributes:  {is_player_ship: true}
-	*	base:        7
+	*	base:        "7"
 		owner:       1
 		at:          {x: 6260, y: -7478}
 		attributes:  {is_player_ship: true}
-	*	base:             23
+	*	base:             "23"
 		rename:           "Proteus Beta"
 		at:               {x: -7999, y: 13652}
 		earning:          1.0
 		sprite_override:  1003
 		build:            ["fighter"]
-	*	base:             23
+	*	base:             "23"
 		owner:            1
 		rename:           "Proteus Gamma"
 		at:               {x: 7304, y: -7565}
 		earning:          1.0
 		sprite_override:  1004
 		build:            ["fighter", "cruiser", "gunship", "transprt", "defdrone"]
-	*	base:    27
+	*	base:    "27"
 		rename:  "Proteus"
 		at:      {x: -600, y: 9000}
 conditions:

@@ -170,7 +170,7 @@ about:
 	|	\i 
 	|	   Based on the original game 'Ares,' by Nathan Lamont.  Antares is not
 	|	      affiliated with or endorsed by Nathan Lamont or Bigger Planet.
-warp_in_flare:   32
-warp_out_flare:  33
-player_body:     22
-energy_blob:     28
+warp_in_flare:   "32"
+warp_out_flare:  "33"
+player_body:     "22"
+energy_blob:     "28"

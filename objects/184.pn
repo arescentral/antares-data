@@ -31,12 +31,12 @@ portrait:                "ast/regular/big"
 on_destroy:
 	*	type:                "create"
 		reflexive:           true
-		base:                257
+		base:                "257"
 		relative_velocity:   true
 		relative_direction:  true
 	*	type:                "create"
 		reflexive:           true
-		base:                190
+		base:                "190"
 		count:               {begin: 2, end: 4}
 		relative_velocity:   true
 		relative_direction:  true
@@ -47,7 +47,7 @@ on_create:
 		value:      0.0
 	*	type:                "create"
 		reflexive:           true
-		base:                189
+		base:                "189"
 		count:               {begin: -10, end: 2}
 		relative_velocity:   true
 		relative_direction:  true

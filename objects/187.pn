@@ -25,17 +25,17 @@ device:
 on_activate:
 	*	type:       "create"
 		reflexive:  true
-		base:       7
+		base:       "7"
 		count:      {begin: 0, end: 2}
 		distance:   256
 	*	type:       "create"
 		reflexive:  true
-		base:       14
+		base:       "14"
 		count:      {begin: 0, end: 2}
 		distance:   256
 	*	type:       "create"
 		reflexive:  true
-		base:       59
+		base:       "59"
 		count:      {begin: 0, end: 2}
 		distance:   256
 destroy_dont_die:        false

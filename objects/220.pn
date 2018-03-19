@@ -37,7 +37,7 @@ on_expire:
 		volume:       255
 	*	type:       "create"
 		reflexive:  true
-		base:       221
+		base:       "221"
 		count:      11
 	*	type:       "condition"
 		reflexive:  true
@@ -45,28 +45,28 @@ on_expire:
 on_activate:
 	*	type:               "create"
 		reflexive:          true
-		base:               29
+		base:               "29"
 		count:              {begin: 0, end: 3}
 		relative_velocity:  true
 		distance:           128
 	*	type:               "create"
 		reflexive:          true
 		delay:              20
-		base:               52
+		base:               "52"
 		count:              {begin: 0, end: 2}
 		relative_velocity:  true
 		distance:           128
 	*	type:               "create"
 		reflexive:          true
 		delay:              20
-		base:               34
+		base:               "34"
 		count:              {begin: 0, end: 4}
 		relative_velocity:  true
 		distance:           128
 	*	type:               "create"
 		reflexive:          true
 		delay:              20
-		base:               8
+		base:               "8"
 		count:              {begin: 0, end: 4}
 		relative_velocity:  true
 		distance:           128

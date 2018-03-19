@@ -32,7 +32,7 @@ on_activate:
 		volume:       255
 	*	type:                "create"
 		reflexive:           true
-		base:                242
+		base:                "242"
 		relative_velocity:   true
 		relative_direction:  true
 destroy_dont_die:        false

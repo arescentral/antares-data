@@ -7,11 +7,11 @@ apparent_color:  "gray"
 illegal_colors:  0
 advantage:       1.4
 ships:
-	fighter:   165
-	cruiser:   164
-	gunship:   166
-	hvd:       240
-	carrier:   167
+	fighter:   "165"
+	cruiser:   "164"
+	gunship:   "166"
+	hvd:       "240"
+	carrier:   "167"
 
-	transprt:  178
-	aslttran:  249
+	transprt:  "178"
+	aslttran:  "249"

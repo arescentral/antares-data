@@ -60,12 +60,12 @@ on_activate:
 	*	type:       "morph"
 		reflexive:  true
 		delay:      270
-		base:       213
+		base:       "213"
 		keep_ammo:  true
 	*	type:       "morph"
 		reflexive:  true
 		delay:      270
-		base:       212
+		base:       "212"
 		keep_ammo:  true
 destroy_dont_die:        false
 expire_dont_die:         false

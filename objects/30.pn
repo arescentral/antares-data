@@ -27,7 +27,7 @@ on_arrive:
 	*	type:              "equip"
 		inclusive_filter:  {can_be_destination: true}
 		which:             "special"
-		base:              6
+		base:              "6"
 	*	type:       "kill"
 		reflexive:  true
 		kind:       "expire"

@@ -32,7 +32,7 @@ on_destroy:
 		value:      1000
 	*	type:       "morph"
 		reflexive:  true
-		base:       279
+		base:       "279"
 destroy_dont_die:        true
 expire_dont_die:         false
 activate_period:         0

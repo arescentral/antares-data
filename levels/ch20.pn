@@ -18,156 +18,156 @@ score:
 	*	"_-gateship"
 song:       5004
 initials:
-	*	base:        181
+	*	base:        "181"
 		owner:       0
 		at:          {x: -87, y: 2520}
 		attributes:  {is_player_ship: true}
-	*	base:             23
+	*	base:             "23"
 		owner:            1
 		rename:           "Earth"
 		at:               {x: 9739, y: -3043}
 		earning:          1.0
 		sprite_override:  1036
-	*	base:        180
+	*	base:        "180"
 		owner:       1
 		at:          {x: 8347, y: -1304}
 		target:      1
 		attributes:  {is_player_ship: true, static_destination: true}
-	*	base:  196
+	*	base:  "196"
 		at:    {x: -3042, y: 6086}
-	*	base:        45
+	*	base:        "45"
 		owner:       1
 		at:          {x: 10523, y: -10522}
 		attributes:  {initially_hidden: true}
-	*	base:        45
+	*	base:        "45"
 		owner:       1
 		at:          {x: 9739, y: -11478}
 		attributes:  {initially_hidden: true}
-	*	base:        45
+	*	base:        "45"
 		owner:       1
 		at:          {x: 10695, y: -11651}
 		attributes:  {initially_hidden: true}
-	*	base:        45
+	*	base:        "45"
 		owner:       1
 		at:          {x: 10000, y: -10609}
 		attributes:  {initially_hidden: true}
-	*	base:        45
+	*	base:        "45"
 		owner:       1
 		at:          {x: 11391, y: -10348}
 		attributes:  {initially_hidden: true}
-	*	base:        45
+	*	base:        "45"
 		owner:       1
 		at:          {x: 11305, y: -11477}
 		attributes:  {initially_hidden: true}
-	*	base:        62
+	*	base:        "62"
 		owner:       1
 		at:          {x: 11304, y: -10956}
 		attributes:  {initially_hidden: true}
-	*	base:        62
+	*	base:        "62"
 		owner:       1
 		at:          {x: 10174, y: -11304}
 		attributes:  {initially_hidden: true}
-	*	base:        178
+	*	base:        "178"
 		owner:       0
 		at:          {x: 8088, y: 6609}
 		target:      1
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        178
+	*	base:        "178"
 		owner:       0
 		at:          {x: 8218, y: 6577}
 		target:      1
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        178
+	*	base:        "178"
 		owner:       0
 		at:          {x: 7980, y: 6619}
 		target:      1
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        178
+	*	base:        "178"
 		owner:       0
 		at:          {x: 8034, y: 6739}
 		target:      1
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        178
+	*	base:        "178"
 		owner:       0
 		at:          {x: 8164, y: 6685}
 		target:      1
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        178
+	*	base:        "178"
 		owner:       0
 		at:          {x: 8023, y: 6539}
 		target:      1
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        178
+	*	base:        "178"
 		owner:       0
 		at:          {x: 8147, y: 6533}
 		target:      1
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        178
+	*	base:        "178"
 		owner:       0
 		at:          {x: 8299, y: 6734}
 		target:      1
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        178
+	*	base:        "178"
 		owner:       0
 		at:          {x: 7882, y: 6550}
 		target:      1
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        178
+	*	base:        "178"
 		owner:       0
 		at:          {x: 8251, y: 6484}
 		target:      1
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        167
+	*	base:        "167"
 		owner:       0
 		at:          {x: 8056, y: 6484}
 		target:      16
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        167
+	*	base:        "167"
 		owner:       0
 		at:          {x: 8348, y: 6647}
 		target:      17
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        167
+	*	base:        "167"
 		owner:       0
 		at:          {x: 7925, y: 6717}
 		target:      18
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        167
+	*	base:        "167"
 		owner:       0
 		at:          {x: 8196, y: 6788}
 		target:      19
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        164
+	*	base:        "164"
 		owner:       0
 		at:          {x: 8018, y: 6897}
 		target:      0
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        166
+	*	base:        "166"
 		owner:       0
 		at:          {x: 8267, y: 6875}
 		target:      0
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        166
+	*	base:        "166"
 		owner:       0
 		at:          {x: 7925, y: 6837}
 		target:      23
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        166
+	*	base:        "166"
 		owner:       0
 		at:          {x: 8120, y: 6782}
 		target:      25
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        165
+	*	base:        "165"
 		owner:       0
 		at:          {x: 8142, y: 6886}
 		target:      13
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        164
+	*	base:        "164"
 		owner:       0
 		at:          {x: 8045, y: 6853}
 		target:      28
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        166
+	*	base:        "166"
 		owner:       0
 		at:          {x: 8403, y: 6864}
 		target:      14

@@ -7,14 +7,14 @@ apparent_color:  "pale green"
 illegal_colors:  0
 advantage:       2.0
 ships:
-	fighter:   14
-	cruiser:   7
-	hvc:       62
-	gunship:   17
-	hvd:       230
-	carrier:   45
-	defdrone:  56
+	fighter:   "14"
+	cruiser:   "7"
+	hvc:       "62"
+	gunship:   "17"
+	hvd:       "230"
+	carrier:   "45"
+	defdrone:  "56"
 
-	transprt:  25
-	engineer:  120
-	aslttran:  119
+	transprt:  "25"
+	engineer:  "120"
+	aslttran:  "119"

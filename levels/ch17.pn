@@ -18,61 +18,61 @@ score:
 	*	"_-Beta"
 song:        5001
 initials:
-	*	base:  266
+	*	base:  "266"
 		at:    {x: 0, y: 32767}
-	*	base:  267
+	*	base:  "267"
 		at:    {x: 0, y: -32767}
-	*	base:             23
+	*	base:             "23"
 		rename:           "Lalande Alpha"
 		at:               {x: 28260, y: 27129}
 		earning:          1.0
 		sprite_override:  1030
 		build:            ["cruiser", "gunship", "aslttran", "carrier", "hvd", "transprt"]
-	*	base:             23
+	*	base:             "23"
 		rename:           "Lalande Beta"
 		at:               {x: -28260, y: -27129}
 		earning:          1.0
 		sprite_override:  1031
 		build:            ["cruiser", "gunship", "aslttran", "carrier", "hvd", "transprt"]
-	*	base:     104
+	*	base:     "104"
 		rename:   "Bunker Station"
 		at:       {x: 0, y: 0}
 		earning:  1.0
-	*	base:        129
+	*	base:        "129"
 		owner:       0
 		at:          {x: 28520, y: 28522}
 		attributes:  {initially_hidden: true, is_player_ship: true}
-	*	base:        151
+	*	base:        "151"
 		owner:       0
 		at:          {x: 28957, y: 27652}
 		attributes:  {initially_hidden: true}
-	*	base:        151
+	*	base:        "151"
 		owner:       0
 		at:          {x: 28167, y: 27126}
 		attributes:  {initially_hidden: true}
-	*	base:        151
+	*	base:        "151"
 		owner:       0
 		at:          {x: 28866, y: 26603}
 		attributes:  {initially_hidden: true}
-	*	base:        164
+	*	base:        "164"
 		owner:       0
 		at:          {x: 29474, y: 27559}
 		target:      2
 		attributes:  {initially_hidden: true}
-	*	base:        164
+	*	base:        "164"
 		owner:       0
 		at:          {x: 29213, y: 26343}
 		target:      2
 		attributes:  {initially_hidden: true}
-	*	base:        148
+	*	base:        "148"
 		owner:       1
 		at:          {x: -29218, y: -25044}
 		attributes:  {initially_hidden: true, is_player_ship: true}
-	*	base:     270
+	*	base:     "270"
 		rename:   "Outpost 1"
 		at:       {x: 9391, y: -9043}
 		earning:  0.5
-	*	base:     270
+	*	base:     "270"
 		rename:   "Outpost 2"
 		at:       {x: -8000, y: 9043}
 		earning:  0.5

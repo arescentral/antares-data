@@ -32,7 +32,7 @@ on_collide:
 		value:  0.047
 	*	type:                "create"
 		reflexive:           true
-		base:                53
+		base:                "53"
 		relative_direction:  true
 	*	type:       "kill"
 		reflexive:  true

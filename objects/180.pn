@@ -19,11 +19,11 @@ warp_speed:              20.0
 warp_out_distance:       1406447
 weapons:
 	beam:
-		base:  135
+		base:  "135"
 		positions:
 			*	{x: 0.0, y: 0.0}
 	special:
-		base:  197
+		base:  "197"
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:
@@ -39,7 +39,7 @@ shield_color:            {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:       "morph"
 		reflexive:  true
-		base:       220
+		base:       "220"
 destroy_dont_die:        true
 expire_dont_die:         false
 activate_period:         0

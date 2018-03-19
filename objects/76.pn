@@ -23,7 +23,7 @@ device:
 on_activate:
 	*	type:       "morph"
 		reflexive:  true
-		base:       67
+		base:       "67"
 destroy_dont_die:        false
 expire_dont_die:         false
 activate_period:         0

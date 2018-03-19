@@ -18,8 +18,8 @@ initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
 weapons:
-	beam:     {base: 96}
-	special:  {base: 73}
+	beam:     {base: "96"}
+	special:  {base: "73"}
 animation:               {sprite: 801, layer: 1, scale: 2.0}
 icon:
 	shape:  "square"

@@ -19,39 +19,39 @@ score:
 	*	"4\\0\\0\\5\\f\\t\\Remaining: \\/5"
 song:         4002
 initials:
-	*	base:        0
+	*	base:        "0"
 		owner:       0
 		at:          {x: 0, y: 0}
 		attributes:  {is_player_ship: true}
-	*	base:        61
+	*	base:        "61"
 		owner:       0
 		at:          {x: 60, y: -400}
 		attributes:  {static_destination: true}
-	*	base:        19
+	*	base:        "19"
 		owner:       0
 		at:          {x: 6000, y: -100}
 		target:      2
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        13
+	*	base:        "13"
 		owner:       0
 		at:          {x: 6000, y: 0}
 		target:      3
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        0
+	*	base:        "0"
 		owner:       0
 		at:          {x: 6000, y: 100}
 		target:      4
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        24
+	*	base:        "24"
 		owner:       0
 		at:          {x: 6000, y: 200}
 		target:      5
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:    23
+	*	base:    "23"
 		owner:   0
 		rename:  "Simulated Planet"
 		at:      {x: -200, y: -100}
-	*	base:        287
+	*	base:        "287"
 		owner:       1
 		at:          {x: 0, y: 200}
 		target:      7

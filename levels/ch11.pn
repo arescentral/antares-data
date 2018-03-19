@@ -19,76 +19,76 @@ score:
 	*	"2\\1\\0\\0\\f\\t\\Rescued: \\/21"
 song:       5000
 initials:
-	*	base:             286
+	*	base:             "286"
 		owner:            0
 		rename:           "UNS Ares"
 		at:               {x: 0, y: 0}
 		sprite_override:  599
-	*	base:        206
+	*	base:        "206"
 		owner:       0
 		at:          {x: 521, y: 3304}
 		attributes:  {is_player_ship: true}
-	*	base:     210
+	*	base:     "210"
 		owner:    1
 		rename:   "Simlab 1"
 		at:       {x: -3564, y: -22347}
 		earning:  1.0
-	*	base:     210
+	*	base:     "210"
 		owner:    1
 		rename:   "Simlab 2"
 		at:       {x: 2434, y: -36869}
 		earning:  1.0
-	*	base:     210
+	*	base:     "210"
 		owner:    1
 		rename:   "Simlab 3"
 		at:       {x: 521, y: -10608}
 		earning:  1.0
-	*	base:        112
+	*	base:        "112"
 		owner:       1
 		at:          {x: 1739, y: -8782}
 		target:      4
 		attributes:  {static_destination: true}
-	*	base:        14
+	*	base:        "14"
 		owner:       1
 		at:          {x: -521, y: -8782}
 		target:      4
 		attributes:  {static_destination: true}
-	*	base:        14
+	*	base:        "14"
 		owner:       1
 		at:          {x: 260, y: -9043}
 		target:      4
 		attributes:  {static_destination: true}
-	*	base:        13
+	*	base:        "13"
 		owner:       0
 		at:          {x: 1304, y: 3478}
 		target:      1
 		attributes:  {static_destination: true}
-	*	base:        13
+	*	base:        "13"
 		owner:       0
 		at:          {x: -347, y: 4000}
 		target:      1
 		attributes:  {static_destination: true}
-	*	base:        7
+	*	base:        "7"
 		owner:       1
 		at:          {x: -1741, y: -22173}
 		target:      2
 		attributes:  {static_destination: true}
-	*	base:        62
+	*	base:        "62"
 		owner:       1
 		at:          {x: -5217, y: -23304}
 		target:      2
 		attributes:  {static_destination: true}
-	*	base:        110
+	*	base:        "110"
 		owner:       1
 		at:          {x: 4869, y: -33391}
 		target:      3
 		attributes:  {static_destination: true}
-	*	base:        110
+	*	base:        "110"
 		owner:       1
 		at:          {x: -1043, y: -35478}
 		target:      3
 		attributes:  {static_destination: true}
-	*	base:        110
+	*	base:        "110"
 		owner:       1
 		at:          {x: 5217, y: -34782}
 		target:      3
@@ -100,7 +100,7 @@ conditions:
 			*	type:             "morph"
 				reflexive:        true
 				initial_subject:  1
-				base:             129
+				base:             "129"
 				keep_ammo:        true
 		player:   0
 		counter:  0
@@ -120,7 +120,7 @@ conditions:
 		action:
 			*	type:                "create"
 				reflexive:           true
-				base:                207
+				base:                "207"
 				relative_velocity:   true
 				relative_direction:  true
 			*	type:       "score"
@@ -134,7 +134,7 @@ conditions:
 			*	type:             "morph"
 				reflexive:        true
 				initial_subject:  1
-				base:             206
+				base:             "206"
 				keep_ammo:        true
 		initially_disabled:  true
 		player:              0

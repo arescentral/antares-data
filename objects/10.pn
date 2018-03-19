@@ -33,13 +33,13 @@ on_create:
 		volume:       255
 	*	type:                "create"
 		reflexive:           true
-		base:                11
+		base:                "11"
 		count:               {begin: 1, end: 3}
 		relative_direction:  true
 		distance:            32
 	*	type:                "create"
 		reflexive:           true
-		base:                12
+		base:                "12"
 		count:               {begin: 1, end: 3}
 		relative_direction:  true
 		distance:            32

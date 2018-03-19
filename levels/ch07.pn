@@ -17,47 +17,47 @@ score:
 	*	"2\\1\\0\\0\\f\\t\\Collected: \\/4"
 song:       5001
 initials:
-	*	base:   62
+	*	base:   "62"
 		owner:  1
 		at:     {x: -22129, y: -17913}
-	*	base:    80
+	*	base:    "80"
 		owner:   0
 		at:      {x: -2696, y: 4347}
 		target:  5
-	*	base:     83
+	*	base:     "83"
 		owner:    1
 		rename:   "Asteroid IR7-7e"
 		at:       {x: -8000, y: -8800}
 		earning:  1.0
-	*	base:             23
+	*	base:             "23"
 		owner:            0
 		rename:           "Philemon Beta"
 		at:               {x: -4000, y: 3000}
 		earning:          1.0
 		sprite_override:  1001
-	*	base:    27
+	*	base:    "27"
 		rename:  "Philemon"
 		at:      {x: 200, y: -200}
-	*	base:        61
+	*	base:        "61"
 		owner:       0
 		at:          {x: -3678, y: 3497}
 		attributes:  {is_player_ship: true}
-	*	base:        59
+	*	base:        "59"
 		owner:       1
 		at:          {x: -6978, y: -8804}
 		target:      2
 		attributes:  {static_destination: true}
-	*	base:        17
+	*	base:        "17"
 		owner:       1
 		at:          {x: -11760, y: -17673}
 		target:      1
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        59
+	*	base:        "59"
 		owner:       1
 		at:          {x: -10543, y: -17325}
 		target:      7
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        59
+	*	base:        "59"
 		owner:       1
 		at:          {x: -11673, y: -16021}
 		target:      7

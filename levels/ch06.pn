@@ -18,73 +18,73 @@ score:
 	*	"_-Beta"
 song:        5000
 initials:
-	*	base:     114
+	*	base:     "114"
 		owner:    0
 		rename:   "Power Station O-2"
 		at:       {x: 0, y: 3739}
 		earning:  1.0
-	*	base:     114
+	*	base:     "114"
 		owner:    0
 		rename:   "Power Station O-3"
 		at:       {x: 3826, y: 2434}
 		earning:  1.0
-	*	base:     114
+	*	base:     "114"
 		owner:    0
 		rename:   "Power Station O-1"
 		at:       {x: -5043, y: 2173}
 		earning:  1.0
-	*	base:     114
+	*	base:     "114"
 		owner:    1
 		rename:   "Power Station G-2"
 		at:       {x: 0, y: -4434}
 		earning:  1.0
-	*	base:     114
+	*	base:     "114"
 		owner:    1
 		rename:   "Power Station G-3"
 		at:       {x: 5739, y: -4869}
 		earning:  1.0
-	*	base:     114
+	*	base:     "114"
 		owner:    1
 		rename:   "Power Station G-1"
 		at:       {x: -6521, y: -7739}
 		earning:  1.0
-	*	base:   93
+	*	base:   "93"
 		owner:  0
 		at:     {x: 4032, y: 2477}
-	*	base:   93
+	*	base:   "93"
 		owner:  0
 		at:     {x: -196, y: 3956}
-	*	base:   93
+	*	base:   "93"
 		owner:  0
 		at:     {x: -5272, y: 2130}
-	*	base:   93
+	*	base:   "93"
 		owner:  1
 		at:     {x: -6369, y: -7368}
-	*	base:   93
+	*	base:   "93"
 		owner:  1
 		at:     {x: 141, y: -4282}
-	*	base:   93
+	*	base:   "93"
 		owner:  1
 		at:     {x: 5532, y: -4716}
-	*	base:             23
+	*	base:             "23"
 		owner:            0
 		rename:           "Hades Alpha"
 		at:               {x: 0, y: 9478}
 		earning:          1.0
 		sprite_override:  1013
 		build:            ["fighter", "cruiser", "transprt", "engineer"]
-	*	base:             111
+	*	base:             "111"
 		owner:            1
 		rename:           "Hades Beta"
 		at:               {x: 1652, y: -9130}
 		earning:          1.0
 		sprite_override:  1014
 		build:            ["fighter", "cruiser", "gunship", "transprt", "engineer"]
-	*	base:        0
+	*	base:        "0"
 		owner:       0
 		at:          {x: 956, y: 8782}
 		attributes:  {is_player_ship: true}
-	*	base:   64
+	*	base:   "64"
 		owner:  1
 		at:     {x: -86, y: -9130}
 conditions:

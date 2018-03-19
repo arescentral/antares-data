@@ -27,7 +27,7 @@ device:
 on_activate:
 	*	type:                "create"
 		reflexive:           true
-		base:                66
+		base:                "66"
 		relative_velocity:   true
 		relative_direction:  true
 destroy_dont_die:        false

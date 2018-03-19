@@ -23,15 +23,15 @@ shield_color:            {r: 240, g: 0, b: 0}
 on_destroy:
 	*	type:       "create"
 		reflexive:  true
-		base:       211
+		base:       "211"
 	*	type:       "create"
 		reflexive:  true
-		base:       205
+		base:       "205"
 		count:      10
 		distance:   16
 	*	type:       "morph"
 		reflexive:  true
-		base:       209
+		base:       "209"
 destroy_dont_die:        true
 expire_dont_die:         false
 activate_period:         0

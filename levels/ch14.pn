@@ -20,42 +20,42 @@ score:
 	*	"_-Ship"
 song:        5003
 initials:
-	*	base:        61
+	*	base:        "61"
 		owner:       0
 		at:          {x: 18261, y: 73651}
 		attributes:  {is_player_ship: true}
-	*	base:   77
+	*	base:   "77"
 		owner:  0
 		at:     {x: 0, y: 0}
-	*	base:   75
+	*	base:   "75"
 		owner:  1
 		at:     {x: -341, y: -85}
-	*	base:   75
+	*	base:   "75"
 		owner:  1
 		at:     {x: 287, y: -235}
-	*	base:   75
+	*	base:   "75"
 		owner:  1
 		at:     {x: 173, y: 260}
-	*	base:   62
+	*	base:   "62"
 		owner:  1
 		at:     {x: -10782, y: -12955}
-	*	base:             23
+	*	base:             "23"
 		owner:            1
 		rename:           "Bokleo Beta"
 		at:               {x: 434, y: -869}
 		earning:          1.0
 		sprite_override:  1006
-	*	base:   78
+	*	base:   "78"
 		owner:  1
 		at:     {x: -260, y: -608}
-	*	base:             23
+	*	base:             "23"
 		owner:            1
 		rename:           "Bokleo Gamma"
 		at:               {x: -4782, y: -21477}
 		earning:          1.0
 		sprite_override:  1007
 		build:            ["fighter", "cruiser", "transprt", "gunship", "hvc"]
-	*	base:             23
+	*	base:             "23"
 		owner:            0
 		rename:           "Bokleo Alpha"
 		at:               {x: 22783, y: 72259}
@@ -63,37 +63,37 @@ initials:
 		sprite_override:  1008
 		build:            ["fighter", "cruiser", "transprt"]
 		attributes:       {static_destination: true}
-	*	base:    47
+	*	base:    "47"
 		owner:   0
 		rename:  "ISN 8738810"
 		at:      {x: 15826, y: 80607}
 		target:  9
-	*	base:    47
+	*	base:    "47"
 		owner:   0
 		rename:  "ISN 2020187"
 		at:      {x: 32260, y: 74433}
 		target:  9
-	*	base:    45
+	*	base:    "45"
 		owner:   1
 		rename:  "The Gentle Fingers of Zom"
 		at:      {x: -12434, y: -19826}
-	*	base:    45
+	*	base:    "45"
 		owner:   1
 		rename:  "The Chaste Dream of Doz"
 		at:      {x: -5738, y: -18868}
-	*	base:    45
+	*	base:    "45"
 		owner:   1
 		rename:  "CRUISER"
 		at:      {x: -15043, y: -14347}
-	*	base:        45
+	*	base:        "45"
 		owner:       1
 		at:          {x: -10173, y: -15391}
 		attributes:  {initially_hidden: true}
-	*	base:        45
+	*	base:        "45"
 		owner:       1
 		at:          {x: -16434, y: -16259}
 		attributes:  {initially_hidden: true}
-	*	base:        17
+	*	base:        "17"
 		owner:       1
 		at:          {x: -8869, y: -20086}
 		target:      16
@@ -106,7 +106,7 @@ conditions:
 		action:
 			*	type:       "morph"
 				reflexive:  true
-				base:       67
+				base:       "67"
 		player:   0
 		counter:  0
 		value:    3

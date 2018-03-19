@@ -24,7 +24,7 @@ warp_speed:              0.0
 warp_out_distance:       0
 weapons:
 	beam:
-		base:  134
+		base:  "134"
 		positions:
 			*	{x: -3.0, y: 0.0}
 			*	{x: 3.0, y: 0.0}
@@ -46,7 +46,7 @@ on_destroy:
 		volume:       255
 	*	type:       "create"
 		reflexive:  true
-		base:       35
+		base:       "35"
 on_arrive:
 	*	type:              "kill"
 		level_key_filter:  "a"

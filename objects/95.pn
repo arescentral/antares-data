@@ -23,7 +23,7 @@ warp_speed:              0.0
 warp_out_distance:       9734400
 weapons:
 	beam:
-		base:  96
+		base:  "96"
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:
@@ -39,7 +39,7 @@ shield_color:            {r: 240, g: 240, b: 120}
 on_destroy:
 	*	type:                "create"
 		reflexive:           true
-		base:                29
+		base:                "29"
 		relative_direction:  true
 on_expire:
 	*	type:         "sound"
@@ -50,19 +50,19 @@ on_expire:
 		volume:       255
 	*	type:                "create"
 		reflexive:           true
-		base:                11
+		base:                "11"
 		count:               {begin: 1, end: 3}
 		relative_direction:  true
 		distance:            32
 	*	type:                "create"
 		reflexive:           true
-		base:                12
+		base:                "12"
 		count:               {begin: 1, end: 3}
 		relative_direction:  true
 		distance:            32
 	*	type:                "create"
 		reflexive:           true
-		base:                8
+		base:                "8"
 		relative_direction:  true
 	*	type:       "kill"
 		reflexive:  true

@@ -19,12 +19,12 @@ warp_speed:              0.0
 warp_out_distance:       0
 weapons:
 	pulse:
-		base:  173
+		base:  "173"
 		positions:
 			*	{x: -16.0, y: -7.0}
 			*	{x: 16.0, y: -7.0}
 	beam:
-		base:  169
+		base:  "169"
 		positions:
 			*	{x: -3.0, y: -14.0}
 			*	{x: 3.0, y: -14.0}
@@ -57,7 +57,7 @@ on_destroy:
 		kind:       "stop"
 	*	type:       "morph"
 		reflexive:  true
-		base:       281
+		base:       "281"
 destroy_dont_die:        true
 expire_dont_die:         false
 activate_period:         0

@@ -18,29 +18,29 @@ score:
 	*	"_-Beta"
 song:        5002
 initials:
-	*	base:             23
+	*	base:             "23"
 		owner:            0
 		rename:           "Demeter Alpha"
 		at:               {x: 260, y: 4695}
 		earning:          1.0
 		sprite_override:  1009
 		build:            ["fighter", "cruiser", "transprt"]
-	*	base:        0
+	*	base:        "0"
 		owner:       0
 		at:          {x: 782, y: 4782}
 		attributes:  {is_player_ship: true}
-	*	base:    27
+	*	base:    "27"
 		rename:  "Demeter"
 		at:      {x: -3478, y: 86}
-	*	base:        37
+	*	base:        "37"
 		owner:       1
 		at:          {x: -1251, y: -8336}
 		attributes:  {is_player_ship: true}
-	*	base:        87
+	*	base:        "87"
 		owner:       1
 		at:          {x: 260, y: -8695}
 		attributes:  {initially_hidden: true}
-	*	base:             23
+	*	base:             "23"
 		owner:            1
 		rename:           "Demeter Beta"
 		at:               {x: -347, y: -7477}

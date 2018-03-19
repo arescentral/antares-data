@@ -22,16 +22,16 @@ warp_speed:              0.0
 warp_out_distance:       216090000
 weapons:
 	pulse:
-		base:  74
+		base:  "74"
 		positions:
 			*	{x: 0.0, y: 0.0}
 	beam:
-		base:  39
+		base:  "39"
 		positions:
 			*	{x: -8.0, y: 0.0}
 			*	{x: 8.0, y: 0.0}
 	special:
-		base:  247
+		base:  "247"
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:
@@ -46,7 +46,7 @@ shield_color:            {r: 240, g: 240, b: 120}
 on_destroy:
 	*	type:       "create"
 		reflexive:  true
-		base:       29
+		base:       "29"
 on_arrive:
 	*	type:              "fire"
 		level_key_filter:  "a"

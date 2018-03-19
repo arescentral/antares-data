@@ -32,7 +32,7 @@ on_collide:
 		value:  100.0
 	*	type:       "create"
 		reflexive:  true
-		base:       79
+		base:       "79"
 	*	type:       "kill"
 		reflexive:  true
 		kind:       "expire"

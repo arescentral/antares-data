@@ -33,7 +33,7 @@ shield_color:            {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:                "create"
 		reflexive:           true
-		base:                29
+		base:                "29"
 		relative_direction:  true
 destroy_dont_die:        false
 expire_dont_die:         false
