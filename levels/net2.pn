@@ -6,10 +6,22 @@ title:
 	!
 players:
 	*	type:           "human"
-		races:          ["uns", "ish", "can", "gai", "sal", "aud"]
+		races:
+			*	"aud"
+			*	"can"
+			*	"gai"
+			*	"ish"
+			*	"sal"
+			*	"uns"
 		earning_power:  1.0
 	*	type:           "human"
-		races:          ["uns", "ish", "can", "gai", "sal", "aud"]
+		races:
+			*	"aud"
+			*	"can"
+			*	"gai"
+			*	"ish"
+			*	"sal"
+			*	"uns"
 		earning_power:  1.0
 song:        5000
 initials:

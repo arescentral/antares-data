@@ -5,10 +5,12 @@ title:
 	|	\i 
 	!
 players:
-	*	type:   "human"
-		races:  ["gro"]
-	*	type:   "human"
-		races:  ["gro"]
+	*	type:  "human"
+		races:
+			*	"gro"
+	*	type:  "human"
+		races:
+			*	"gro"
 song:     5003
 initials:
 	*	base:        "gro/cruiser"

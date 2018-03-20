@@ -6,10 +6,16 @@ title:
 	!
 players:
 	*	type:           "human"
-		races:          ["ish", "can", "gai"]
+		races:
+			*	"can"
+			*	"gai"
+			*	"ish"
 		earning_power:  1.0
 	*	type:           "human"
-		races:          ["ish", "can", "gai"]
+		races:
+			*	"can"
+			*	"gai"
+			*	"ish"
 		earning_power:  1.0
 song:     5004
 initials:
