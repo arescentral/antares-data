@@ -27,13 +27,25 @@ initials:
 		at:               {x: 28260, y: 27129}
 		earning:          1.0
 		sprite_override:  1030
-		build:            ["cruiser", "gunship", "aslttran", "carrier", "hvd", "transprt"]
+		build:
+			*	"cruiser"
+			*	"gunship"
+			*	"aslttran"
+			*	"carrier"
+			*	"hvd"
+			*	"transprt"
 	*	base:             "loc/planet"
 		rename:           "Lalande Beta"
 		at:               {x: -28260, y: -27129}
 		earning:          1.0
 		sprite_override:  1031
-		build:            ["cruiser", "gunship", "aslttran", "carrier", "hvd", "transprt"]
+		build:
+			*	"cruiser"
+			*	"gunship"
+			*	"aslttran"
+			*	"carrier"
+			*	"hvd"
+			*	"transprt"
 	*	base:     "loc/bunker"
 		rename:   "Bunker Station"
 		at:       {x: 0, y: 0}

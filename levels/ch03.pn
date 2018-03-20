@@ -24,7 +24,10 @@ initials:
 		at:               {x: 260, y: 4695}
 		earning:          1.0
 		sprite_override:  1009
-		build:            ["fighter", "cruiser", "transprt"]
+		build:
+			*	"fighter"
+			*	"cruiser"
+			*	"transprt"
 	*	base:        "ish/cruiser"
 		owner:       0
 		at:          {x: 782, y: 4782}
@@ -46,7 +49,11 @@ initials:
 		at:               {x: -347, y: -7477}
 		earning:          1.0
 		sprite_override:  1010
-		build:            ["fighter", "cruiser", "gunship", "transprt"]
+		build:
+			*	"fighter"
+			*	"cruiser"
+			*	"gunship"
+			*	"transprt"
 conditions:
 	*	type:     "owner"
 		op:       "eq"

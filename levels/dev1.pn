@@ -22,21 +22,38 @@ initials:
 		at:               {x: 9000, y: 0}
 		earning:          1.0
 		sprite_override:  1027
-		build:            ["fighter", "cruiser", "gunship", "carrier", "hvd", "transprt"]
+		build:
+			*	"fighter"
+			*	"cruiser"
+			*	"gunship"
+			*	"carrier"
+			*	"hvd"
+			*	"transprt"
 	*	base:             "loc/planet"
 		owner:            1
 		rename:           "Proteus Beta"
 		at:               {x: -9000, y: 0}
 		earning:          1.0
 		sprite_override:  1028
-		build:            ["fighter", "cruiser", "gunship", "carrier", "hvd", "transprt"]
+		build:
+			*	"fighter"
+			*	"cruiser"
+			*	"gunship"
+			*	"carrier"
+			*	"hvd"
+			*	"transprt"
 	*	base:             "loc/planet"
 		owner:            2
 		rename:           "Proteus Gamma"
 		at:               {x: 0, y: 9000}
 		earning:          1.0
 		sprite_override:  1029
-		build:            ["fighter", "cruiser", "gunship", "escort", "hvd"]
+		build:
+			*	"fighter"
+			*	"cruiser"
+			*	"gunship"
+			*	"escort"
+			*	"hvd"
 	*	base:        "ish/hvd"
 		owner:       0
 		at:          {x: 9000, y: 0}

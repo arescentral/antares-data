@@ -46,7 +46,8 @@ initials:
 		at:               {x: -9739, y: -86}
 		earning:          1.0
 		sprite_override:  1024
-		build:            ["prctcdrn"]
+		build:
+			*	"prctcdrn"
 	*	base:             "loc/moon"
 		owner:            1
 		rename:           "Combat Buoy A"

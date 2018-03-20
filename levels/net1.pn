@@ -23,14 +23,26 @@ initials:
 		at:               {x: 28260, y: 27129}
 		earning:          1.0
 		sprite_override:  1025
-		build:            ["cruiser", "gunship", "aslttran", "carrier", "hvd", "transprt"]
+		build:
+			*	"cruiser"
+			*	"gunship"
+			*	"aslttran"
+			*	"carrier"
+			*	"hvd"
+			*	"transprt"
 	*	base:             "loc/planet"
 		owner:            1
 		rename:           "Proteus Beta"
 		at:               {x: -28260, y: -27129}
 		earning:          1.0
 		sprite_override:  1026
-		build:            ["cruiser", "gunship", "aslttran", "carrier", "hvd", "transprt"]
+		build:
+			*	"cruiser"
+			*	"gunship"
+			*	"aslttran"
+			*	"carrier"
+			*	"hvd"
+			*	"transprt"
 	*	base:     "loc/bunker"
 		rename:   "Bunker Station 1"
 		at:       {x: -6261, y: 22261}

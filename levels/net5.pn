@@ -18,13 +18,25 @@ initials:
 		rename:   "Xamer Alpha"
 		at:       {x: 0, y: 10000}
 		earning:  1.0
-		build:    ["cruiser", "gunship", "aslttran", "carrier", "hvd", "transprt"]
+		build:
+			*	"cruiser"
+			*	"gunship"
+			*	"aslttran"
+			*	"carrier"
+			*	"hvd"
+			*	"transprt"
 	*	base:     "loc/planet"
 		owner:    1
 		rename:   "Xamer Beta"
 		at:       {x: 0, y: -10000}
 		earning:  1.0
-		build:    ["cruiser", "gunship", "aslttran", "carrier", "hvd", "transprt"]
+		build:
+			*	"cruiser"
+			*	"gunship"
+			*	"aslttran"
+			*	"carrier"
+			*	"hvd"
+			*	"transprt"
 	*	base:    "can/carrier"
 		owner:   0
 		at:      {x: 256, y: 10000}
@@ -82,12 +94,14 @@ initials:
 		rename:   "Outpost Alpha"
 		at:       {x: 0, y: 5000}
 		earning:  0.25
-		build:    ["engineer"]
+		build:
+			*	"engineer"
 	*	base:     "loc/outpost"
 		rename:   "Outpost Beta"
 		at:       {x: 0, y: -5000}
 		earning:  0.25
-		build:    ["engineer"]
+		build:
+			*	"engineer"
 conditions:
 	*	type:     "owner"
 		op:       "eq"

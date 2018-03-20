@@ -54,14 +54,22 @@ initials:
 		at:               {x: -4782, y: -21477}
 		earning:          1.0
 		sprite_override:  1007
-		build:            ["fighter", "cruiser", "transprt", "gunship", "hvc"]
+		build:
+			*	"fighter"
+			*	"cruiser"
+			*	"transprt"
+			*	"gunship"
+			*	"hvc"
 	*	base:             "loc/planet"
 		owner:            0
 		rename:           "Bokleo Alpha"
 		at:               {x: 22783, y: 72259}
 		earning:          1.0
 		sprite_override:  1008
-		build:            ["fighter", "cruiser", "transprt"]
+		build:
+			*	"fighter"
+			*	"cruiser"
+			*	"transprt"
 		attributes:       {static_destination: true}
 	*	base:    "ish/carrier"
 		owner:   0

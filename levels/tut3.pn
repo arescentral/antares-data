@@ -27,7 +27,10 @@ initials:
 		owner:   0
 		rename:  "Simulated Planet"
 		at:      {x: -200, y: -200}
-		build:   ["tut3/cruiser", "hvd", "carrier"]
+		build:
+			*	"tut3/cruiser"
+			*	"hvd"
+			*	"carrier"
 	*	base:   "ish/hvc"
 		owner:  0
 		at:     {x: 6000, y: 0}

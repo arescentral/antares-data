@@ -24,14 +24,24 @@ initials:
 		at:               {x: 0, y: 6000}
 		earning:          1.0
 		sprite_override:  1026
-		build:            ["fighter", "cruiser", "gunship", "transprt", "aslttran"]
+		build:
+			*	"fighter"
+			*	"cruiser"
+			*	"gunship"
+			*	"transprt"
+			*	"aslttran"
 	*	base:             "loc/planet"
 		owner:            1
 		rename:           "Thasero Beta"
 		at:               {x: 0, y: -7478}
 		earning:          1.0
 		sprite_override:  1028
-		build:            ["fighter", "cruiser", "gunship", "transprt", "aslttran"]
+		build:
+			*	"fighter"
+			*	"cruiser"
+			*	"gunship"
+			*	"transprt"
+			*	"aslttran"
 	*	base:             "loc/bunker"
 		owner:            1
 		rename:           "Thasero Station"

@@ -22,13 +22,21 @@ initials:
 		rename:   "Proxima Alpha"
 		at:       {x: 1390, y: -2696}
 		earning:  1.0
-		build:    ["fighter", "cruiser", "gunship", "transprt"]
+		build:
+			*	"fighter"
+			*	"cruiser"
+			*	"gunship"
+			*	"transprt"
 	*	base:             "loc/planet"
 		rename:           "Proxima Beta"
 		at:               {x: -9044, y: -17130}
 		earning:          1.0
 		sprite_override:  1021
-		build:            ["fighter", "cruiser", "gunship", "transprt"]
+		build:
+			*	"fighter"
+			*	"cruiser"
+			*	"gunship"
+			*	"transprt"
 	*	base:        "uns/gunship"
 		owner:       0
 		at:          {x: -2434, y: 3218}

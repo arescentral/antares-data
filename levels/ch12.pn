@@ -71,14 +71,26 @@ initials:
 		at:               {x: -11133, y: -18088}
 		earning:          1.0
 		sprite_override:  1019
-		build:            ["fighter", "cruiser", "gunship", "transprt", "engineer", "aslttran"]
+		build:
+			*	"fighter"
+			*	"cruiser"
+			*	"gunship"
+			*	"transprt"
+			*	"engineer"
+			*	"aslttran"
 	*	base:             "loc/planet"
 		owner:            1
 		rename:           "Fansi Beta"
 		at:               {x: 22957, y: 43826}
 		earning:          1.0
 		sprite_override:  1020
-		build:            ["fighter", "cruiser", "gunship", "transprt", "engineer", "aslttran"]
+		build:
+			*	"fighter"
+			*	"cruiser"
+			*	"gunship"
+			*	"transprt"
+			*	"engineer"
+			*	"aslttran"
 	*	base:     "loc/bunker"
 		rename:   "Bunker Station 1"
 		at:       {x: 695, y: 3826}
