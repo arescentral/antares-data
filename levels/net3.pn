@@ -23,7 +23,7 @@ initials:
 		rename:   "Retak Beta"
 		at:       {x: 0, y: -8000}
 		earning:  1.0
-	*	base:   "gro/crf/moor/p1-active"
+	*	base:   "gro/ctf/moor/p1-active"
 		owner:  0
 		at:     {x: 8000, y: 8000}
 	*	base:   "gro/ctf/moor/p2-active"
