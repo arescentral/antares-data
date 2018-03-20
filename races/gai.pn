@@ -7,12 +7,12 @@ apparent_color:  "gray"
 illegal_colors:  0
 advantage:       1.0
 ships:
-	fighter:   "38"
-	cruiser:   "37"
-	gunship:   "64"
-	hvd:       "243"
-	carrier:   "87"
+	fighter:   "gai/fighter"
+	cruiser:   "gai/cruiser"
+	gunship:   "gai/gunship"
+	hvd:       "gai/hvd"
+	carrier:   "gai/carrier"
 
-	transprt:  "86"
-	engineer:  "94"
-	aslttran:  "246"
+	transprt:  "gai/transprt"
+	engineer:  "gai/engineer"
+	aslttran:  "gai/aslttran"

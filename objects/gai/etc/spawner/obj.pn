@@ -1,0 +1,32 @@
+long_name:               "Enmy Object Shoot"
+short_name:              "ENOBJSHT"
+notes:                   "Gaitori"
+attributes:              {is_self_animated: true, animation_cycle: true}
+health:                  1000
+damage:                  0
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
+mass:                    0.0
+max_velocity:            0.0
+max_thrust:              0.0
+initial_velocity:        0.0
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+warp_out_distance:       0
+weapons:
+	special:
+		base:  "gai/etc/spawner/item"
+animation:               {sprite: 573, layer: 1}
+shield_color:            {r: 240, g: 0, b: 0}
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  50000
+skill_num:               0
+skill_den:               0
+offense:                 0.0
+destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0

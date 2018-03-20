@@ -20,83 +20,83 @@ score:
 	*	"2\\1\\0\\0\\f\\t\\Rescued: \\/11"
 song:       5003
 initials:
-	*	base:    "225"
+	*	base:    "obi/etc/liner"
 		owner:   0
 		rename:  "ISN 2020187"
 		at:      {x: 0, y: 0}
-	*	base:    "217"
+	*	base:    "obi/etc/transprt/rescue"
 		owner:   0
 		at:      {x: 695, y: 956}
 		target:  0
-	*	base:     "216"
+	*	base:     "gai/etc/lab/base"
 		owner:    1
 		rename:   "Cell 1"
 		at:       {x: -5130, y: -6086}
 		earning:  1.0
-	*	base:     "216"
+	*	base:     "gai/etc/lab/base"
 		owner:    1
 		rename:   "Cell 2"
 		at:       {x: 4086, y: -7130}
 		earning:  1.0
-	*	base:     "216"
+	*	base:     "gai/etc/lab/base"
 		owner:    1
 		rename:   "Cell 3"
 		at:       {x: -1042, y: -11652}
 		earning:  1.0
-	*	base:        "61"
+	*	base:        "ish/hvc"
 		owner:       0
 		at:          {x: -608, y: 956}
 		target:      0
 		attributes:  {is_player_ship: true}
-	*	base:        "42"
+	*	base:        "obi/escort"
 		owner:       0
 		at:          {x: 260, y: 1826}
 		target:      1
 		attributes:  {static_destination: true}
-	*	base:   "218"
+	*	base:   "gai/etc/spawner/obj"
 		owner:  1
 		at:     {x: 520, y: -18956}
-	*	base:        "37"
+	*	base:        "gai/cruiser"
 		owner:       1
 		at:          {x: -4175, y: -6610}
 		target:      2
 		attributes:  {static_destination: true}
-	*	base:        "37"
+	*	base:        "gai/cruiser"
 		owner:       1
 		at:          {x: 3129, y: -7566}
 		target:      3
 		attributes:  {static_destination: true}
-	*	base:        "37"
+	*	base:        "gai/cruiser"
 		owner:       1
 		at:          {x: 3998, y: -7566}
 		target:      3
 		attributes:  {static_destination: true}
-	*	base:        "37"
+	*	base:        "gai/cruiser"
 		owner:       1
 		at:          {x: -436, y: -10696}
 		target:      4
 		attributes:  {static_destination: true}
-	*	base:        "37"
+	*	base:        "gai/cruiser"
 		owner:       1
 		at:          {x: -262, y: -11653}
 		target:      4
 		attributes:  {static_destination: true}
-	*	base:        "64"
+	*	base:        "gai/gunship"
 		owner:       1
 		at:          {x: -697, y: -9653}
 		target:      4
 		attributes:  {static_destination: true}
-	*	base:        "37"
+	*	base:        "gai/cruiser"
 		owner:       1
 		at:          {x: -4175, y: -6610}
 		target:      2
 		attributes:  {static_destination: true}
-	*	base:        "38"
+	*	base:        "gai/fighter"
 		owner:       1
 		at:          {x: -3826, y: -7043}
 		target:      2
 		attributes:  {static_destination: true}
-	*	base:        "38"
+	*	base:        "gai/fighter"
 		owner:       1
 		at:          {x: 4347, y: -5652}
 		target:      9
@@ -108,7 +108,7 @@ conditions:
 			*	type:             "morph"
 				reflexive:        true
 				initial_subject:  1
-				base:             "88"
+				base:             "obi/transprt"
 				keep_ammo:        true
 		player:   0
 		counter:  0
@@ -129,7 +129,7 @@ conditions:
 		action:
 			*	type:                "create"
 				reflexive:           true
-				base:                "214"
+				base:                "obi/etc/obiard/returning"
 				relative_velocity:   true
 				relative_direction:  true
 			*	type:       "score"
@@ -147,7 +147,7 @@ conditions:
 			*	type:             "morph"
 				reflexive:        true
 				initial_subject:  1
-				base:             "217"
+				base:             "obi/etc/transprt/rescue"
 				keep_ammo:        true
 		initially_disabled:  true
 		player:              0

@@ -1,0 +1,58 @@
+long_name:               "Heavy Destroyer"
+short_name:              "HVDSTRYR"
+notes:                   "Salrilian Heavy Destroyer"
+attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
+class:                   450
+race:                    "sal"
+health:                  2000
+damage:                  0
+energy:                  2000
+price:                   6500
+build_ratio:             0.098
+build_time:              1950
+mass:                    1.45
+max_velocity:            4.5
+max_thrust:              0.08
+initial_velocity:        1.5
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              40.0
+warp_out_distance:       22503164
+weapons:
+	pulse:
+		base:  "dev/chronon/gun"
+		positions:
+			*	{x: 0.0, y: 0.0}
+	beam:
+		base:  "dev/pk/sal/gun"
+		positions:
+			*	{x: -5.0, y: 0.0}
+			*	{x: 0.0, y: 0.0}
+			*	{x: 5.0, y: 0.0}
+	special:
+		base:  "dev/stealth/item"
+		positions:
+			*	{x: 0.0, y: 0.0}
+rotation:
+	sprite:     610
+	layer:      2
+	frames:     {begin: 0, end: 24}
+	turn_rate:  2.0
+icon:
+	shape:  "triangle"
+	size:   6
+shield_color:            {r: 255, g: 255, b: 255}
+on_destroy:
+	*	type:                "create"
+		reflexive:           true
+		base:                "sfx/explosion/giant"
+		relative_direction:  true
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  50000
+skill_num:               3
+skill_den:               21
+offense:                 4.0
+destination_class:       7
+friend_deficit:          2.0
+danger_threshold:        -20.0

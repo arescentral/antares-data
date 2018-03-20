@@ -7,11 +7,11 @@ apparent_color:  "gray"
 illegal_colors:  0
 advantage:       2.5
 ships:
-	fighter:   "112"
-	cruiser:   "110"
-	gunship:   "138"
-	hvd:       "237"
-	carrier:   "113"
+	fighter:   "sal/fighter"
+	cruiser:   "sal/cruiser"
+	gunship:   "sal/gunship"
+	hvd:       "sal/hvd"
+	carrier:   "sal/carrier"
 
-	transprt:  "140"
-	aslttran:  "139"
+	transprt:  "sal/transprt"
+	aslttran:  "sal/aslttran"

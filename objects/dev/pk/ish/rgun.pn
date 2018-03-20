@@ -1,0 +1,38 @@
+long_name:               "Rapid P-K Cannon"
+short_name:              "PKBEAM 2"
+notes:                   "Rapid P-K Cannon"
+health:                  0
+damage:                  0
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
+mass:                    0.0
+max_velocity:            0.0
+max_thrust:              0.0
+initial_velocity:        0.0
+initial_direction:       0
+warp_speed:              0.0
+warp_out_distance:       0
+device:
+	usage:          {attacking: true}
+	energy_cost:    5
+	fire_time:      7
+	range:          50625
+	inverse_speed:  0.066
+on_activate:
+	*	type:                "create"
+		reflexive:           true
+		base:                "dev/pk/ish/beam"
+		relative_velocity:   true
+		relative_direction:  true
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  50000
+skill_num:               0
+skill_den:               0
+offense:                 0.0
+destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0

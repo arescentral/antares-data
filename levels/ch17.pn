@@ -18,61 +18,61 @@ score:
 	*	"_-Beta"
 song:        5001
 initials:
-	*	base:  "266"
+	*	base:  "ast/shoot/wide/up"
 		at:    {x: 0, y: 32767}
-	*	base:  "267"
+	*	base:  "ast/shoot/wide/down"
 		at:    {x: 0, y: -32767}
-	*	base:             "23"
+	*	base:             "loc/planet"
 		rename:           "Lalande Alpha"
 		at:               {x: 28260, y: 27129}
 		earning:          1.0
 		sprite_override:  1030
 		build:            ["cruiser", "gunship", "aslttran", "carrier", "hvd", "transprt"]
-	*	base:             "23"
+	*	base:             "loc/planet"
 		rename:           "Lalande Beta"
 		at:               {x: -28260, y: -27129}
 		earning:          1.0
 		sprite_override:  1031
 		build:            ["cruiser", "gunship", "aslttran", "carrier", "hvd", "transprt"]
-	*	base:     "104"
+	*	base:     "loc/bunker"
 		rename:   "Bunker Station"
 		at:       {x: 0, y: 0}
 		earning:  1.0
-	*	base:        "129"
+	*	base:        "ish/hvd"
 		owner:       0
 		at:          {x: 28520, y: 28522}
 		attributes:  {initially_hidden: true, is_player_ship: true}
-	*	base:        "151"
+	*	base:        "ele/cruiser"
 		owner:       0
 		at:          {x: 28957, y: 27652}
 		attributes:  {initially_hidden: true}
-	*	base:        "151"
+	*	base:        "ele/cruiser"
 		owner:       0
 		at:          {x: 28167, y: 27126}
 		attributes:  {initially_hidden: true}
-	*	base:        "151"
+	*	base:        "ele/cruiser"
 		owner:       0
 		at:          {x: 28866, y: 26603}
 		attributes:  {initially_hidden: true}
-	*	base:        "164"
+	*	base:        "uns/cruiser"
 		owner:       0
 		at:          {x: 29474, y: 27559}
 		target:      2
 		attributes:  {initially_hidden: true}
-	*	base:        "164"
+	*	base:        "uns/cruiser"
 		owner:       0
 		at:          {x: 29213, y: 26343}
 		target:      2
 		attributes:  {initially_hidden: true}
-	*	base:        "148"
+	*	base:        "aud/carrier"
 		owner:       1
 		at:          {x: -29218, y: -25044}
 		attributes:  {initially_hidden: true, is_player_ship: true}
-	*	base:     "270"
+	*	base:     "loc/outpost"
 		rename:   "Outpost 1"
 		at:       {x: 9391, y: -9043}
 		earning:  0.5
-	*	base:     "270"
+	*	base:     "loc/outpost"
 		rename:   "Outpost 2"
 		at:       {x: -8000, y: 9043}
 		earning:  0.5
@@ -127,36 +127,37 @@ briefings:
 		title:   "Heavy Destroyer"
 		content:
 			>	You will have the services of the base on Alpha, and you will be manning
-			>	this heavy destroyer.^P129^
+			>	this heavy destroyer.^Pish/hvd^
 			|	The base is capable of building even carriers.
 	*	object:  6
 		title:   "Cruiser"
 		content:
-			>	^P151^The Elejeetians have graciously donated three more of their
-			>	cruisers to your cause. These cruisers are at your disposal.^P164^The
-			>	humans have, against our wishes, also volunteered two cruisers.
-			>	Unfortunately, these cruisers are woefully underpowered and will be of
-			>	little use to you.
+			>	^Pele/cruiser^The Elejeetians have graciously donated three more of
+			>	their cruisers to your cause. These cruisers are at your
+			>	disposal.^Puns/cruiser^The humans have, against our wishes, also
+			>	volunteered two cruisers. Unfortunately, these cruisers are woefully
+			>	underpowered and will be of little use to you.
 	*	object:  4
 		title:   "Bunker Station"
 		content:
-			>	^P104^Although not necessary to complete the mission, the stations in
-			>	this system can generate resources for your ship building. The bunker
-			>	station in the center generates as many resources as a planet.
+			>	^Ploc/bunker^Although not necessary to complete the mission, the
+			>	stations in this system can generate resources for your ship building.
+			>	The bunker station in the center generates as many resources as a
+			>	planet.
 	*	object:  12
 		title:   "Outpost 1"
 		content:
 			>	There are two outposts in the Lelande System. Each generates half as
 			>	many resources as a planet. An outpost is captured in the same manner as
 			>	a bunker station: at least five EVATs from an assault transport must
-			>	enter the station.^P270^
+			>	enter the station.^Ploc/outpost^
 	*	object:  3
 		title:   "Lalande Beta"
 		content:
 			>	Your goal in this mission is to recapture the base on Lelande Beta. It
-			>	is occupied by Audemedon forces.^P148^The Audemedon ships greatly
-			>	outmatch ours.
-			|	^P142^
+			>	is occupied by Audemedon forces.^Paud/carrier^The Audemedon ships
+			>	greatly outmatch ours.
+			|	^Paud/cruiser^
 starmap:     {x: 156, y: 81}
 par_time:    960
 par_kills:   45

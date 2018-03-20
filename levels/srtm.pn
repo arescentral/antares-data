@@ -12,170 +12,170 @@ players:
 		earning_power:  1.0
 song:      5003
 initials:
-	*	base:        "129"
+	*	base:        "ish/hvd"
 		owner:       0
 		at:          {x: 0, y: 1565}
 		attributes:  {is_player_ship: true}
-	*	base:    "0"
+	*	base:    "ish/cruiser"
 		owner:   0
 		at:      {x: 782, y: 1130}
 		target:  0
-	*	base:    "0"
+	*	base:    "ish/cruiser"
 		owner:   0
 		at:      {x: -869, y: 1304}
 		target:  0
-	*	base:    "0"
+	*	base:    "ish/cruiser"
 		owner:   0
 		at:      {x: 521, y: 1739}
 		target:  0
-	*	base:    "0"
+	*	base:    "ish/cruiser"
 		owner:   0
 		at:      {x: -434, y: 1782}
 		target:  0
-	*	base:    "47"
+	*	base:    "ish/carrier"
 		owner:   0
 		at:      {x: -260, y: 1239}
 		target:  0
-	*	base:    "47"
+	*	base:    "ish/carrier"
 		owner:   0
 		at:      {x: 217, y: 1086}
 		target:  0
-	*	base:    "19"
+	*	base:    "ish/gunship"
 		owner:   0
 		at:      {x: 239, y: 1543}
 		target:  0
-	*	base:    "19"
+	*	base:    "ish/gunship"
 		owner:   0
 		at:      {x: -260, y: 1565}
 		target:  0
-	*	base:    "19"
+	*	base:    "ish/gunship"
 		owner:   0
 		at:      {x: -43, y: 1369}
 		target:  0
-	*	base:    "61"
+	*	base:    "ish/hvc"
 		owner:   0
 		at:      {x: 173, y: 1934}
 		target:  0
-	*	base:    "61"
+	*	base:    "ish/hvc"
 		owner:   0
 		at:      {x: 195, y: 2239}
 		target:  10
-	*	base:    "61"
+	*	base:    "ish/hvc"
 		owner:   0
 		at:      {x: 239, y: 2478}
 		target:  11
-	*	base:    "61"
+	*	base:    "ish/hvc"
 		owner:   0
 		at:      {x: 326, y: 2913}
 		target:  12
-	*	base:    "61"
+	*	base:    "ish/hvc"
 		owner:   0
 		at:      {x: 391, y: 3368}
 		target:  13
-	*	base:    "13"
+	*	base:    "ish/fighter"
 		owner:   0
 		at:      {x: 804, y: 1652}
 		target:  5
-	*	base:    "13"
+	*	base:    "ish/fighter"
 		owner:   0
 		at:      {x: 1065, y: 1782}
 		target:  15
-	*	base:    "13"
+	*	base:    "ish/fighter"
 		owner:   0
 		at:      {x: 1304, y: 2021}
 		target:  16
-	*	base:   "87"
+	*	base:   "gai/carrier"
 		owner:  1
 		at:     {x: 0, y: -2759}
-	*	base:    "87"
+	*	base:    "gai/carrier"
 		owner:   1
 		at:      {x: -457, y: -2716}
 		target:  18
-	*	base:   "87"
+	*	base:   "gai/carrier"
 		owner:  1
 		at:     {x: 738, y: -2564}
-	*	base:   "87"
+	*	base:   "gai/carrier"
 		owner:  1
 		at:     {x: -933, y: -2347}
-	*	base:   "87"
+	*	base:   "gai/carrier"
 		owner:  1
 		at:     {x: 304, y: -2130}
-	*	base:   "37"
+	*	base:   "gai/cruiser"
 		owner:  1
 		at:     {x: -1282, y: -2477}
-	*	base:   "37"
+	*	base:   "gai/cruiser"
 		owner:  1
 		at:     {x: 1478, y: -2434}
-	*	base:        "37"
+	*	base:        "gai/cruiser"
 		owner:       1
 		at:          {x: -1890, y: -2477}
 		target:      18
 		attributes:  {static_destination: true}
-	*	base:        "37"
+	*	base:        "gai/cruiser"
 		owner:       1
 		at:          {x: 1129, y: -2804}
 		target:      18
 		attributes:  {static_destination: true}
-	*	base:    "37"
+	*	base:    "gai/cruiser"
 		owner:   1
 		at:      {x: -977, y: -2977}
 		target:  18
-	*	base:        "37"
+	*	base:        "gai/cruiser"
 		owner:       1
 		at:          {x: -173, y: -4194}
 		target:      18
 		attributes:  {static_destination: true}
-	*	base:        "64"
+	*	base:        "gai/gunship"
 		owner:       1
 		at:          {x: 413, y: -3977}
 		target:      18
 		attributes:  {static_destination: true}
-	*	base:        "64"
+	*	base:        "gai/gunship"
 		owner:       1
 		at:          {x: -1086, y: -4478}
 		target:      18
 		attributes:  {static_destination: true}
-	*	base:        "64"
+	*	base:        "gai/gunship"
 		owner:       1
 		at:          {x: 1063, y: -4411}
 		target:      19
 		attributes:  {static_destination: true}
-	*	base:        "64"
+	*	base:        "gai/gunship"
 		owner:       1
 		at:          {x: 630, y: -4782}
 		target:      31
 		attributes:  {static_destination: true}
-	*	base:        "64"
+	*	base:        "gai/gunship"
 		owner:       1
 		at:          {x: 195, y: -4978}
 		target:      32
 		attributes:  {static_destination: true}
-	*	base:        "64"
+	*	base:        "gai/gunship"
 		owner:       1
 		at:          {x: -174, y: -5108}
 		target:      33
 		attributes:  {static_destination: true}
-	*	base:        "64"
+	*	base:        "gai/gunship"
 		owner:       1
 		at:          {x: -696, y: -5238}
 		target:      34
 		attributes:  {static_destination: true}
-	*	base:        "64"
+	*	base:        "gai/gunship"
 		owner:       1
 		at:          {x: -1391, y: -5260}
 		target:      35
 		attributes:  {static_destination: true}
-	*	base:        "37"
+	*	base:        "gai/cruiser"
 		owner:       1
 		at:          {x: -1956, y: -4826}
 		target:      36
 		attributes:  {static_destination: true}
-	*	base:        "64"
+	*	base:        "gai/gunship"
 		owner:       1
 		at:          {x: -2130, y: -5065}
 		target:      36
 		attributes:  {static_destination: true}
-	*	base:        "64"
+	*	base:        "gai/gunship"
 		owner:       1
 		at:          {x: -2152, y: -4108}
 		target:      36

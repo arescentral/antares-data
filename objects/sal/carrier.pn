@@ -1,0 +1,58 @@
+long_name:               "Carrier"
+short_name:              "CARRIER"
+notes:                   "Carrier"
+attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
+class:                   500
+race:                    "sal"
+health:                  7500
+damage:                  0
+energy:                  6500
+price:                   6000
+build_ratio:             0.098
+build_time:              3000
+mass:                    2.5
+max_velocity:            4.0
+max_thrust:              0.02
+initial_velocity:        4.0
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              40.0
+warp_out_distance:       9734400
+weapons:
+	pulse:
+		base:  "dev/tspace/gun"
+		positions:
+			*	{x: 0.0, y: 0.0}
+	beam:
+		base:  "dev/magno/turret"
+		positions:
+			*	{x: 0.0, y: 0.0}
+	special:
+		base:  "dev/bay/sal"
+		positions:
+			*	{x: 0.0, y: 0.0}
+rotation:
+	sprite:     648
+	layer:      2
+	scale:      2.0
+	frames:     {begin: 0, end: 24}
+	turn_rate:  1.0
+icon:
+	shape:  "diamond"
+	size:   8
+portrait:                "sal/carrier"
+shield_color:            {r: 255, g: 255, b: 255}
+on_destroy:
+	*	type:                "create"
+		reflexive:           true
+		base:                "sfx/explosion/giant"
+		relative_direction:  true
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  50000
+skill_num:               3
+skill_den:               21
+offense:                 4.5
+destination_class:       7
+friend_deficit:          2.0
+danger_threshold:        -20.0

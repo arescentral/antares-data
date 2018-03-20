@@ -7,5 +7,5 @@ apparent_color:  "sky blue"
 illegal_colors:  0
 advantage:       1.75
 ships:
-	escort:    "42"
-	transprt:  "88"
+	escort:    "obi/escort"
+	transprt:  "obi/transprt"

@@ -18,73 +18,73 @@ score:
 	*	"_-Beta"
 song:        5000
 initials:
-	*	base:     "114"
+	*	base:     "loc/power"
 		owner:    0
 		rename:   "Power Station O-2"
 		at:       {x: 0, y: 3739}
 		earning:  1.0
-	*	base:     "114"
+	*	base:     "loc/power"
 		owner:    0
 		rename:   "Power Station O-3"
 		at:       {x: 3826, y: 2434}
 		earning:  1.0
-	*	base:     "114"
+	*	base:     "loc/power"
 		owner:    0
 		rename:   "Power Station O-1"
 		at:       {x: -5043, y: 2173}
 		earning:  1.0
-	*	base:     "114"
+	*	base:     "loc/power"
 		owner:    1
 		rename:   "Power Station G-2"
 		at:       {x: 0, y: -4434}
 		earning:  1.0
-	*	base:     "114"
+	*	base:     "loc/power"
 		owner:    1
 		rename:   "Power Station G-3"
 		at:       {x: 5739, y: -4869}
 		earning:  1.0
-	*	base:     "114"
+	*	base:     "loc/power"
 		owner:    1
 		rename:   "Power Station G-1"
 		at:       {x: -6521, y: -7739}
 		earning:  1.0
-	*	base:   "93"
+	*	base:   "loc/flak"
 		owner:  0
 		at:     {x: 4032, y: 2477}
-	*	base:   "93"
+	*	base:   "loc/flak"
 		owner:  0
 		at:     {x: -196, y: 3956}
-	*	base:   "93"
+	*	base:   "loc/flak"
 		owner:  0
 		at:     {x: -5272, y: 2130}
-	*	base:   "93"
+	*	base:   "loc/flak"
 		owner:  1
 		at:     {x: -6369, y: -7368}
-	*	base:   "93"
+	*	base:   "loc/flak"
 		owner:  1
 		at:     {x: 141, y: -4282}
-	*	base:   "93"
+	*	base:   "loc/flak"
 		owner:  1
 		at:     {x: 5532, y: -4716}
-	*	base:             "23"
+	*	base:             "loc/planet"
 		owner:            0
 		rename:           "Hades Alpha"
 		at:               {x: 0, y: 9478}
 		earning:          1.0
 		sprite_override:  1013
 		build:            ["fighter", "cruiser", "transprt", "engineer"]
-	*	base:             "111"
+	*	base:             "loc/moon"
 		owner:            1
 		rename:           "Hades Beta"
 		at:               {x: 1652, y: -9130}
 		earning:          1.0
 		sprite_override:  1014
 		build:            ["fighter", "cruiser", "gunship", "transprt", "engineer"]
-	*	base:        "0"
+	*	base:        "ish/cruiser"
 		owner:       0
 		at:          {x: 956, y: 8782}
 		attributes:  {is_player_ship: true}
-	*	base:   "64"
+	*	base:   "gai/gunship"
 		owner:  1
 		at:     {x: -86, y: -9130}
 conditions:
@@ -127,8 +127,8 @@ briefings:
 	*	object:  2
 		title:   "Power Station O-1"
 		content:
-			>	^P114^This is the first of the three Obish power stations. Each station
-			>	is guarded by a flak drone.
+			>	^Ploc/power^This is the first of the three Obish power stations. Each
+			>	station is guarded by a flak drone.
 			>
 			>	Note that the power stations produce tremendous resources -- keeping the
 			>	power stations from being destroyed will allow you to produce more
@@ -136,11 +136,11 @@ briefings:
 	*	object:  0
 		title:   "Power Station O-2"
 		content:
-			>	^P114^This is the second of the three Obish power stations.
+			>	^Ploc/power^This is the second of the three Obish power stations.
 	*	object:  1
 		title:   "Power Station O-3"
 		content:
-			>	^P114^The is the last of the three Obish power stations.
+			>	^Ploc/power^The is the last of the three Obish power stations.
 	*	object:  13
 		title:   "Hades Beta"
 		content:
@@ -150,19 +150,19 @@ briefings:
 	*	object:  5
 		title:   "Power Station G-1"
 		content:
-			>	^P114^This is the first of the three Gaitori controlled power stations.
-			>	Although you can complete the mission objectives without destroying the
-			>	Gaitori stations, keep in mind that the more stations they have intact,
-			>	the more ships they can manufacture.
+			>	^Ploc/power^This is the first of the three Gaitori controlled power
+			>	stations. Although you can complete the mission objectives without
+			>	destroying the Gaitori stations, keep in mind that the more stations
+			>	they have intact, the more ships they can manufacture.
 	*	object:  3
 		title:   "Power Station G-2"
 		content:
-			>	^P114^This is the second of the three Gaitori power stations. Each of
-			>	the stations is guarded by a flak drone.
+			>	^Ploc/power^This is the second of the three Gaitori power stations. Each
+			>	of the stations is guarded by a flak drone.
 	*	object:  4
 		title:   "Power Station G-3"
 		content:
-			>	^P114^The is the last of the three Gaitori power stations.
+			>	^Ploc/power^The is the last of the three Gaitori power stations.
 starmap:     {x: 431, y: 237}
 par_time:    450
 par_kills:   45

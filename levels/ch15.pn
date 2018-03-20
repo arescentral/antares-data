@@ -18,50 +18,50 @@ score:
 	*	"_-Beta"
 song:        5004
 initials:
-	*	base:             "23"
+	*	base:             "loc/planet"
 		owner:            0
 		rename:           "Thasero Alpha"
 		at:               {x: 0, y: 6000}
 		earning:          1.0
 		sprite_override:  1026
 		build:            ["fighter", "cruiser", "gunship", "transprt", "aslttran"]
-	*	base:             "23"
+	*	base:             "loc/planet"
 		owner:            1
 		rename:           "Thasero Beta"
 		at:               {x: 0, y: -7478}
 		earning:          1.0
 		sprite_override:  1028
 		build:            ["fighter", "cruiser", "gunship", "transprt", "aslttran"]
-	*	base:             "104"
+	*	base:             "loc/bunker"
 		owner:            1
 		rename:           "Thasero Station"
 		at:               {x: 0, y: 0}
 		earning:          1.0
 		sprite_override:  572
-	*	base:        "129"
+	*	base:        "ish/hvd"
 		owner:       0
 		at:          {x: 869, y: 6521}
 		attributes:  {is_player_ship: true}
-	*	base:   "138"
+	*	base:   "sal/gunship"
 		owner:  1
 		at:     {x: 956, y: -7130}
-	*	base:    "47"
+	*	base:    "ish/carrier"
 		owner:   0
 		at:      {x: -782, y: 6521}
 		target:  0
-	*	base:    "67"
+	*	base:    "baz/bttlship"
 		owner:   0
 		at:      {x: 86, y: 7478}
 		target:  0
-	*	base:        "113"
+	*	base:        "sal/carrier"
 		owner:       1
 		at:          {x: -9565, y: -9565}
 		attributes:  {initially_hidden: true}
-	*	base:        "113"
+	*	base:        "sal/carrier"
 		owner:       1
 		at:          {x: -8695, y: -9130}
 		attributes:  {initially_hidden: true}
-	*	base:        "148"
+	*	base:        "aud/carrier"
 		owner:       1
 		at:          {x: -9565, y: -8000}
 		attributes:  {initially_hidden: true}
@@ -118,25 +118,25 @@ briefings:
 	*	object:  0
 		title:   "Thasero Alpha"
 		content:
-			>	^P101^From our base on Thasero Alpha you can make all the ships you'll
-			>	require for this mission: fighters, cruisers, gunships, transports, and
-			>	assault transports.
+			>	^Pish/aslttran^From our base on Thasero Alpha you can make all the ships
+			>	you'll require for this mission: fighters, cruisers, gunships,
+			>	transports, and assault transports.
 	*	object:  3
 		title:   "Heavy Destroyer"
 		content:
-			>	^P129^You'll start in this destroyer. It's the only one we'll be able to
-			>	commit to this mission.
+			>	^Pish/hvd^You'll start in this destroyer. It's the only one we'll be
+			>	able to commit to this mission.
 	*	object:  5
 		title:   "Carrier"
 		content:
-			>	^P47^We expect stiff resistance, so we've brought the carrier ISN
-			>	0910969 in system. 
+			>	^Pish/carrier^We expect stiff resistance, so we've brought the carrier
+			>	ISN 0910969 in system. 
 	*	object:  6
 		title:   "Battleship"
 		content:
-			>	^P67^Thanks to your efforts in the Bokleo system, the Bazidanese have
-			>	loaned us a battleship, the First Life. Its homing pulses are fairly
-			>	powerful.
+			>	^Pbaz/bttlship^Thanks to your efforts in the Bokleo system, the
+			>	Bazidanese have loaned us a battleship, the First Life. Its homing
+			>	pulses are fairly powerful.
 	*	object:  2
 		title:   "Thasero Station"
 		content:
@@ -149,20 +149,20 @@ briefings:
 		content:
 			>	The base on Thasero Beta is your final goal. Land a transport here to
 			>	complete the mission.
-			|	^P112^The Salrilian fighters are difficult to see by design.
-			|	^P110^Their cruisers have stealth fields.
+			|	^Psal/fighter^The Salrilian fighters are difficult to see by design.
+			|	^Psal/cruiser^Their cruisers have stealth fields.
 	*	object:  1
 		title:   "Thasero Beta"
 		content:
-			>	^P138^Salrilian gunships also have stealth fields. They are fast and
-			>	well armed.
-			|	^P140^The Prophet's transports almost always operate with active stealth
-			>	fields. Often the only way to prevent one them from sneaking onto a
-			>	planet is by firing blindly.
+			>	^Psal/gunship^Salrilian gunships also have stealth fields. They are fast
+			>	and well armed.
+			|	^Psal/transprt^The Prophet's transports almost always operate with
+			>	active stealth fields. Often the only way to prevent one them from
+			>	sneaking onto a planet is by firing blindly.
 	*	title:  "The Actualizer"
 		content:
-			>	^P113^A Salrilian carrier, which we believe to be the Actualizer, is en
-			>	route to the Thasero System. Dispatch it quickly.
+			>	^Psal/carrier^A Salrilian carrier, which we believe to be the
+			>	Actualizer, is en route to the Thasero System. Dispatch it quickly.
 starmap:     {x: 150, y: 120}
 par_time:    435
 par_kills:   56

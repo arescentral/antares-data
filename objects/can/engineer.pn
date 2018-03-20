@@ -1,0 +1,108 @@
+long_name:               "Engineer Pod"
+short_name:              "ENGINEER"
+notes:                   "Engineer Pod"
+attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, appear_on_radar: true}
+build_flags:             {sufficient_escorts_exist: true, matching_foe_exists: true}
+order_flags:             {stronger_than_target: true, base: true, foe: true, hard_matching_foe: true, hard_no_friendly_escort: true, hard_foe: true, hard_not_base: true}
+level_tag:               "d"
+order_tag:               "5"
+class:                   850
+race:                    "can"
+health:                  800
+damage:                  0
+energy:                  200
+price:                   800
+build_ratio:             0.7
+build_time:              660
+mass:                    1.098
+max_velocity:            3.0
+max_thrust:              0.156
+initial_velocity:        3.0
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+warp_out_distance:       9734400
+weapons:
+	beam:
+		base:  "dev/repulser/turret"
+		positions:
+			*	{x: 0.0, y: 0.0}
+rotation:
+	sprite:     642
+	layer:      2
+	frames:     {begin: 0, end: 24}
+	turn_rate:  2.0
+icon:
+	shape:  "plus"
+	size:   4
+portrait:                "can/engineer"
+shield_color:            {r: 240, g: 240, b: 120}
+on_destroy:
+	*	type:                "create"
+		reflexive:           true
+		base:                "sfx/explosion/large"
+		relative_direction:  true
+on_expire:
+	*	type:         "sound"
+		reflexive:    true
+		id:           501
+		priority:     5
+		persistence:  60
+		volume:       255
+	*	type:                "create"
+		reflexive:           true
+		base:                "sfx/debris/a"
+		count:               {begin: 1, end: 3}
+		relative_direction:  true
+		distance:            32
+	*	type:                "create"
+		reflexive:           true
+		base:                "sfx/debris/b"
+		count:               {begin: 1, end: 3}
+		relative_direction:  true
+		distance:            32
+	*	type:                "create"
+		reflexive:           true
+		base:                "sfx/explosion/energy"
+		relative_direction:  true
+	*	type:       "kill"
+		reflexive:  true
+		kind:       "expire"
+on_arrive:
+	*	type:              "push"
+		reflexive:         true
+		level_key_filter:  "5"
+		owner:             "different"
+		kind:              "stop"
+	*	type:              "cap-speed"
+		reflexive:         true
+		level_key_filter:  "5"
+		owner:             "different"
+		value:             0.0
+	*	type:              "sound"
+		reflexive:         true
+		level_key_filter:  "5"
+		owner:             "different"
+		id:                570
+		priority:          3
+		persistence:       10
+		volume:            255
+	*	type:              "kill"
+		level_key_filter:  "5"
+		owner:             "different"
+		delay:             160
+		kind:              "expire"
+	*	type:              "capture"
+		level_key_filter:  "5"
+		owner:             "different"
+	*	type:       "cap-speed"
+		reflexive:  true
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  5000
+skill_num:               3
+skill_den:               21
+offense:                 0.2
+destination_class:       9
+friend_deficit:          2.0
+danger_threshold:        4.0

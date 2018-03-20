@@ -7,11 +7,11 @@ apparent_color:  "orange"
 illegal_colors:  0
 advantage:       2.75
 ships:
-	fighter:   "147"
-	cruiser:   "142"
-	gunship:   "149"
-	hvd:       "234"
-	carrier:   "148"
+	fighter:   "aud/fighter"
+	cruiser:   "aud/cruiser"
+	gunship:   "aud/gunship"
+	hvd:       "aud/hvd"
+	carrier:   "aud/carrier"
 
-	transprt:  "177"
-	aslttran:  "250"
+	transprt:  "aud/transprt"
+	aslttran:  "aud/aslttran"

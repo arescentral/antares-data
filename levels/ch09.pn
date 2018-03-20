@@ -18,39 +18,39 @@ score:
 	*	"_-Gamma"
 song:        5003
 initials:
-	*	base:             "23"
+	*	base:             "loc/planet"
 		owner:            0
 		rename:           "Proteus Alpha"
 		at:               {x: 12043, y: 38956}
 		earning:          1.0
 		sprite_override:  1002
 		build:            ["fighter", "cruiser", "gunship", "transprt", "defdrone"]
-	*	base:        "45"
+	*	base:        "can/carrier"
 		owner:       1
 		at:          {x: -33825, y: -32695}
 		attributes:  {initially_hidden: true}
-	*	base:        "0"
+	*	base:        "ish/cruiser"
 		owner:       0
 		at:          {x: 13586, y: 39456}
 		attributes:  {is_player_ship: true}
-	*	base:        "7"
+	*	base:        "can/cruiser"
 		owner:       1
 		at:          {x: 6260, y: -7478}
 		attributes:  {is_player_ship: true}
-	*	base:             "23"
+	*	base:             "loc/planet"
 		rename:           "Proteus Beta"
 		at:               {x: -7999, y: 13652}
 		earning:          1.0
 		sprite_override:  1003
 		build:            ["fighter"]
-	*	base:             "23"
+	*	base:             "loc/planet"
 		owner:            1
 		rename:           "Proteus Gamma"
 		at:               {x: 7304, y: -7565}
 		earning:          1.0
 		sprite_override:  1004
 		build:            ["fighter", "cruiser", "gunship", "transprt", "defdrone"]
-	*	base:    "27"
+	*	base:    "loc/sun"
 		rename:  "Proteus"
 		at:      {x: -600, y: 9000}
 conditions:
@@ -110,13 +110,14 @@ briefings:
 	*	object:  0
 		title:   "Proteus Alpha"
 		content:
-			>	^P13^The base on Alpha can produce fighters and cruisers.^P0^
+			>	^Pish/fighter^The base on Alpha can produce fighters and
+			>	cruisers.^Pish/cruiser^
 	*	object:  0
 		title:   "Proteus Alpha"
 		content:
-			>	^P19^This base can also produce defense drones, gunships and transports.
-			>	The heavily armored gunships are slow, and they rely entirely on energy
-			>	weapons .^P54^
+			>	^Pish/gunship^This base can also produce defense drones, gunships and
+			>	transports. The heavily armored gunships are slow, and they rely
+			>	entirely on energy weapons .^Pish/defdrone^
 	*	object:  4
 		title:   "Philemon Beta"
 		content:
@@ -132,21 +133,23 @@ briefings:
 	*	object:  5
 		title:   "Proteus Gamma"
 		content:
-			>	^P14^Their base can also produce fighters and cruisers.^P7^
+			>	^Pcan/fighter^Their base can also produce fighters and
+			>	cruisers.^Pcan/cruiser^
 	*	object:  5
 		title:   "Proteus Gamma"
 		content:
-			>	^P17^Cantharan gunships have antimatter pulse guns which are extremely
-			>	powerful at close range.^P56^Their defense drones are best destroyed
-			>	with large squadrons of ships.
+			>	^Pcan/gunship^Cantharan gunships have antimatter pulse guns which are
+			>	extremely powerful at close range.^Pcan/defdrone^Their defense drones
+			>	are best destroyed with large squadrons of ships.
 	*	object:  5
 		title:   "Proteus Gamma"
 		content:
-			>	^P25^Destroy any transports you encounter. They will probably make an
-			>	attempt to occupy Proteus Beta. If you lose Alpha, the mission is over.
+			>	^Pcan/transprt^Destroy any transports you encounter. They will probably
+			>	make an attempt to occupy Proteus Beta. If you lose Alpha, the mission
+			>	is over.
 	*	title:  "Proteus Gamma"
 		content:
-			>	^P45^We expect the Cantharans to have a carrier in the area. Be
+			>	^Pcan/carrier^We expect the Cantharans to have a carrier in the area. Be
 			>	prepared.
 starmap:     {x: 368, y: 201}
 par_time:    960

@@ -18,154 +18,154 @@ score:
 	*	"_-Alpha & Beta"
 song:        5002
 initials:
-	*	base:     "23"
+	*	base:     "loc/planet"
 		rename:   "Proxima Alpha"
 		at:       {x: 1390, y: -2696}
 		earning:  1.0
 		build:    ["fighter", "cruiser", "gunship", "transprt"]
-	*	base:             "23"
+	*	base:             "loc/planet"
 		rename:           "Proxima Beta"
 		at:               {x: -9044, y: -17130}
 		earning:          1.0
 		sprite_override:  1021
 		build:            ["fighter", "cruiser", "gunship", "transprt"]
-	*	base:        "166"
+	*	base:        "uns/gunship"
 		owner:       0
 		at:          {x: -2434, y: 3218}
 		attributes:  {is_player_ship: true}
-	*	base:        "174"
+	*	base:        "uns/etc/transprt/ch19"
 		owner:       0
 		at:          {x: -1392, y: 3305}
 		target:      0
 		attributes:  {static_destination: true}
-	*	base:        "174"
+	*	base:        "uns/etc/transprt/ch19"
 		owner:       0
 		at:          {x: -2086, y: 4348}
 		target:      0
 		attributes:  {static_destination: true}
-	*	base:        "174"
+	*	base:        "uns/etc/transprt/ch19"
 		owner:       0
 		at:          {x: -2792, y: 5228}
 		target:      0
 		attributes:  {static_destination: true}
-	*	base:        "174"
+	*	base:        "uns/etc/transprt/ch19"
 		owner:       0
 		at:          {x: -3737, y: 6184}
 		target:      0
 		attributes:  {static_destination: true}
-	*	base:        "174"
+	*	base:        "uns/etc/transprt/ch19"
 		owner:       0
 		at:          {x: -4868, y: 7543}
 		target:      0
 		attributes:  {static_destination: true}
-	*	base:        "177"
+	*	base:        "aud/transprt"
 		owner:       1
 		at:          {x: -3391, y: -9043}
 		target:      1
 		attributes:  {static_destination: true}
-	*	base:    "167"
+	*	base:    "uns/carrier"
 		owner:   0
 		at:      {x: 1826, y: -1652}
 		target:  0
-	*	base:    "167"
+	*	base:    "uns/carrier"
 		owner:   0
 		at:      {x: 1478, y: -3391}
 		target:  0
-	*	base:   "45"
+	*	base:   "can/carrier"
 		owner:  1
 		at:     {x: 869, y: -2260}
-	*	base:   "45"
+	*	base:   "can/carrier"
 		owner:  1
 		at:     {x: 1913, y: -2173}
-	*	base:    "17"
+	*	base:    "can/gunship"
 		owner:   1
 		at:      {x: 1044, y: -1304}
 		target:  8
-	*	base:        "7"
+	*	base:        "can/cruiser"
 		owner:       1
 		at:          {x: 0, y: 0}
 		target:      12
 		attributes:  {static_destination: true}
-	*	base:    "164"
+	*	base:    "uns/cruiser"
 		owner:   0
 		at:      {x: 1652, y: -2695}
 		target:  10
-	*	base:    "164"
+	*	base:    "uns/cruiser"
 		owner:   0
 		at:      {x: 782, y: -2695}
 		target:  11
-	*	base:   "149"
+	*	base:   "aud/gunship"
 		owner:  1
 		at:     {x: 1217, y: -1739}
-	*	base:   "149"
+	*	base:   "aud/gunship"
 		owner:  1
 		at:     {x: 1043, y: -1913}
-	*	base:    "165"
+	*	base:    "uns/fighter"
 		owner:   0
 		at:      {x: -2782, y: 3739}
 		target:  2
-	*	base:    "165"
+	*	base:    "uns/fighter"
 		owner:   0
 		at:      {x: -3218, y: 4086}
 		target:  19
-	*	base:    "165"
+	*	base:    "uns/fighter"
 		owner:   0
 		at:      {x: -3217, y: 4565}
 		target:  20
-	*	base:    "165"
+	*	base:    "uns/fighter"
 		owner:   0
 		at:      {x: -2739, y: 4391}
 		target:  21
-	*	base:    "165"
+	*	base:    "uns/fighter"
 		owner:   0
 		at:      {x: -2478, y: 4173}
 		target:  22
-	*	base:    "165"
+	*	base:    "uns/fighter"
 		owner:   0
 		at:      {x: -2347, y: 3913}
 		target:  23
-	*	base:        "142"
+	*	base:        "aud/cruiser"
 		owner:       1
 		at:          {x: 2521, y: -3478}
 		target:      8
 		attributes:  {static_destination: true}
-	*	base:        "142"
+	*	base:        "aud/cruiser"
 		owner:       1
 		at:          {x: -2869, y: -7826}
 		target:      8
 		attributes:  {static_destination: true}
-	*	base:    "167"
+	*	base:    "uns/carrier"
 		owner:   0
 		at:      {x: -2086, y: 5913}
 		target:  5
-	*	base:    "167"
+	*	base:    "uns/carrier"
 		owner:   0
 		at:      {x: -3739, y: 5478}
 		target:  5
-	*	base:    "166"
+	*	base:    "uns/gunship"
 		owner:   0
 		at:      {x: -2260, y: 6695}
 		target:  27
-	*	base:    "166"
+	*	base:    "uns/gunship"
 		owner:   0
 		at:      {x: -4434, y: 5652}
 		target:  28
-	*	base:        "148"
+	*	base:        "aud/carrier"
 		owner:       1
 		at:          {x: -28869, y: -34782}
 		target:      0
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "148"
+	*	base:        "aud/carrier"
 		owner:       1
 		at:          {x: -26086, y: -34086}
 		target:      0
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "148"
+	*	base:        "aud/carrier"
 		owner:       1
 		at:          {x: -28173, y: -31304}
 		target:      1
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "148"
+	*	base:        "aud/carrier"
 		owner:       1
 		at:          {x: 0, y: 0}
 		target:      1
@@ -213,10 +213,10 @@ briefings:
 	*	object:  2
 		title:   "Gunship"
 		content:
-			>	^P166^You will begin this mission in a human gunship. It represents a
-			>	considerable improvement over their cruisers. Its magneto pulse gun
-			>	fires much more quickly, and it is equipped with an auto-targetting
-			>	laser turret.
+			>	^Puns/gunship^You will begin this mission in a human gunship. It
+			>	represents a considerable improvement over their cruisers. Its magneto
+			>	pulse gun fires much more quickly, and it is equipped with an
+			>	auto-targetting laser turret.
 	*	object:  8
 		title:   "Transport"
 		content:
@@ -227,10 +227,11 @@ briefings:
 	*	object:  24
 		title:   "Carrier"
 		content:
-			>	^P167^We have rendezvoused with the human fleet which was dispatched to
-			>	Lelande in hopes of preventing its invasion. The UNS Wounded Knee and
-			>	the UNS Canada, colony ships the humans have converted to carriers, and
-			>	two additional gunships are at your command.^P165^
+			>	^Puns/carrier^We have rendezvoused with the human fleet which was
+			>	dispatched to Lelande in hopes of preventing its invasion. The UNS
+			>	Wounded Knee and the UNS Canada, colony ships the humans have converted
+			>	to carriers, and two additional gunships are at your
+			>	command.^Puns/fighter^
 	*	object:  3
 		title:   "Transport"
 		content:

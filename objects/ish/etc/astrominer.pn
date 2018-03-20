@@ -1,0 +1,51 @@
+long_name:               "Astrominer"
+short_name:              "ASTROMNR"
+notes:                   "Astrominer"
+attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
+engage_tag:              "b"
+class:                   301
+race:                    "ish"
+health:                  700
+damage:                  0
+energy:                  2000
+price:                   800
+build_ratio:             0.0
+build_time:              360
+mass:                    1.2
+max_velocity:            4.0
+max_thrust:              0.15
+initial_velocity:        4.0
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              40.0
+warp_out_distance:       9734400
+weapons:
+	pulse:
+		base:  "dev/mine/gun"
+		positions:
+			*	{x: 15.0, y: 0.0}
+			*	{x: -15.0, y: 0.0}
+rotation:
+	sprite:     546
+	layer:      2
+	frames:     {begin: 0, end: 24}
+	turn_rate:  0.797
+icon:
+	shape:  "plus"
+	size:   5
+portrait:                "ish/etc/astrominer"
+shield_color:            {r: 255, g: 255, b: 255}
+on_destroy:
+	*	type:                "create"
+		reflexive:           true
+		base:                "sfx/explosion/giant"
+		relative_direction:  true
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  50000
+skill_num:               14
+skill_den:               21
+offense:                 1.5
+destination_class:       5
+friend_deficit:          1.0
+danger_threshold:        -10.0

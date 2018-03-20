@@ -11,19 +11,19 @@ players:
 		races:  ["gro"]
 song:     5003
 initials:
-	*	base:        "284"
+	*	base:        "gro/cruiser"
 		owner:       0
 		at:          {x: -2956, y: 0}
 		attributes:  {is_player_ship: true}
-	*	base:        "284"
+	*	base:        "gro/cruiser"
 		owner:       1
 		at:          {x: 2955, y: 87}
 		attributes:  {is_player_ship: true}
-	*	base:  "93"
+	*	base:  "loc/flak"
 		at:    {x: 0, y: -700}
-	*	base:  "93"
+	*	base:  "loc/flak"
 		at:    {x: -700, y: 0}
-	*	base:  "93"
+	*	base:  "loc/flak"
 		at:    {x: 700, y: 0}
 conditions:
 	*	type:     "destroyed"

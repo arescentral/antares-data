@@ -20,42 +20,42 @@ score:
 	*	"_-Ship"
 song:        5003
 initials:
-	*	base:        "61"
+	*	base:        "ish/hvc"
 		owner:       0
 		at:          {x: 18261, y: 73651}
 		attributes:  {is_player_ship: true}
-	*	base:   "77"
+	*	base:   "baz/etc/bttlship/moored"
 		owner:  0
 		at:     {x: 0, y: 0}
-	*	base:   "75"
+	*	base:   "loc/moor"
 		owner:  1
 		at:     {x: -341, y: -85}
-	*	base:   "75"
+	*	base:   "loc/moor"
 		owner:  1
 		at:     {x: 287, y: -235}
-	*	base:   "75"
+	*	base:   "loc/moor"
 		owner:  1
 		at:     {x: 173, y: 260}
-	*	base:   "62"
+	*	base:   "can/hvc"
 		owner:  1
 		at:     {x: -10782, y: -12955}
-	*	base:             "23"
+	*	base:             "loc/planet"
 		owner:            1
 		rename:           "Bokleo Beta"
 		at:               {x: 434, y: -869}
 		earning:          1.0
 		sprite_override:  1006
-	*	base:   "78"
+	*	base:   "can/etc/border-drone"
 		owner:  1
 		at:     {x: -260, y: -608}
-	*	base:             "23"
+	*	base:             "loc/planet"
 		owner:            1
 		rename:           "Bokleo Gamma"
 		at:               {x: -4782, y: -21477}
 		earning:          1.0
 		sprite_override:  1007
 		build:            ["fighter", "cruiser", "transprt", "gunship", "hvc"]
-	*	base:             "23"
+	*	base:             "loc/planet"
 		owner:            0
 		rename:           "Bokleo Alpha"
 		at:               {x: 22783, y: 72259}
@@ -63,37 +63,37 @@ initials:
 		sprite_override:  1008
 		build:            ["fighter", "cruiser", "transprt"]
 		attributes:       {static_destination: true}
-	*	base:    "47"
+	*	base:    "ish/carrier"
 		owner:   0
 		rename:  "ISN 8738810"
 		at:      {x: 15826, y: 80607}
 		target:  9
-	*	base:    "47"
+	*	base:    "ish/carrier"
 		owner:   0
 		rename:  "ISN 2020187"
 		at:      {x: 32260, y: 74433}
 		target:  9
-	*	base:    "45"
+	*	base:    "can/carrier"
 		owner:   1
 		rename:  "The Gentle Fingers of Zom"
 		at:      {x: -12434, y: -19826}
-	*	base:    "45"
+	*	base:    "can/carrier"
 		owner:   1
 		rename:  "The Chaste Dream of Doz"
 		at:      {x: -5738, y: -18868}
-	*	base:    "45"
+	*	base:    "can/carrier"
 		owner:   1
 		rename:  "CRUISER"
 		at:      {x: -15043, y: -14347}
-	*	base:        "45"
+	*	base:        "can/carrier"
 		owner:       1
 		at:          {x: -10173, y: -15391}
 		attributes:  {initially_hidden: true}
-	*	base:        "45"
+	*	base:        "can/carrier"
 		owner:       1
 		at:          {x: -16434, y: -16259}
 		attributes:  {initially_hidden: true}
-	*	base:        "17"
+	*	base:        "can/gunship"
 		owner:       1
 		at:          {x: -8869, y: -20086}
 		target:      16
@@ -106,7 +106,7 @@ conditions:
 		action:
 			*	type:       "morph"
 				reflexive:  true
-				base:       "67"
+				base:       "baz/bttlship"
 		player:   0
 		counter:  0
 		value:    3
@@ -188,19 +188,19 @@ briefings:
 	*	object:  2
 		title:   "Tractor Moor"
 		content:
-			>	^P75^The Bazidanese ship is anchored in place by three tractor moors,
-			>	which prevent the ship from moving or firing. You must destroy all three
-			>	moors to free the ship. Although the release of the ship is not
-			>	immediately imperative, we suspect the Bazidanese crew would be
+			>	^Ploc/moor^The Bazidanese ship is anchored in place by three tractor
+			>	moors, which prevent the ship from moving or firing. You must destroy
+			>	all three moors to free the ship. Although the release of the ship is
+			>	not immediately imperative, we suspect the Bazidanese crew would be
 			>	grateful. 
 	*	object:  7
 		title:   "Border Drone"
 		content:
-			>	^P78^In accordance with the Amilass Treaty, an invulnerable border drone
-			>	has been stationed near the neutral trading outpost on Bokleo Beta.
-			>	However, the Order has reconfigured it to fire on all hostile vessels.
-			>	Unlike the flak drones you’re familiar with, this border drone does not
-			>	have flak artillery.
+			>	^Pcan/etc/border-drone^In accordance with the Amilass Treaty, an
+			>	invulnerable border drone has been stationed near the neutral trading
+			>	outpost on Bokleo Beta. However, the Order has reconfigured it to fire
+			>	on all hostile vessels. Unlike the flak drones you’re familiar with,
+			>	this border drone does not have flak artillery.
 	*	object:  6
 		title:   "Bokleo Beta"
 		content:
@@ -211,48 +211,49 @@ briefings:
 	*	object:  8
 		title:   "Bokleo Gamma"
 		content:
-			>	^P62^The Cantharans have established a base on Gamma. It's capable of
-			>	producing fighters, heavy cruisers, gunships, and transports.
+			>	^Pcan/hvc^The Cantharans have established a base on Gamma. It's capable
+			>	of producing fighters, heavy cruisers, gunships, and transports.
 			|	Landing a transport on Bokleo Gamma to control the base is your primary
 			>	objective.
-			|	^P25^
+			|	^Pcan/transprt^
 	*	object:  9
 		title:   "Bokleo Alpha"
 		content:
-			>	^P0^We didn't have time to establish a strong presence on Alpha. Our
-			>	base can only produce fighters, cruisers, and transports. Be prepared
-			>	for heavy losses.
-			|	^P13^
+			>	^Pish/cruiser^We didn't have time to establish a strong presence on
+			>	Alpha. Our base can only produce fighters, cruisers, and transports. Be
+			>	prepared for heavy losses.
+			|	^Pish/fighter^
 	*	object:  10
 		title:   "ISN 8738810"
 		content:
-			>	^P47^We have committed two carriers to this mission's completion. The
-			>	ISN 8738810 is on its first combat mission.
+			>	^Pish/carrier^We have committed two carriers to this mission's
+			>	completion. The ISN 8738810 is on its first combat mission.
 	*	object:  11
 		title:   "ISN 2020187"
 		content:
-			>	^P47^The ISN 2020187 has been repaired since the Battle of Sprist (in
-			>	which you destroyed the Constant Voice of Doz).
+			>	^Pish/carrier^The ISN 2020187 has been repaired since the Battle of
+			>	Sprist (in which you destroyed the Constant Voice of Doz).
 	*	object:  12
 		title:   "The Gentle Fingers of Zom"
 		content:
-			>	^P45^There are already three Cantharan carriers in the system and more
-			>	are on the way. The Gentle Finger of Zom was one of the two ships which
-			>	originally captured the Bokleo System.
+			>	^Pcan/carrier^There are already three Cantharan carriers in the system
+			>	and more are on the way. The Gentle Finger of Zom was one of the two
+			>	ships which originally captured the Bokleo System.
 	*	object:  13
 		title:   "The Chaste Dream of Doz"
 		content:
-			>	^P45^The Chaste Dream of Doz is the other carrier which first occupied
-			>	Bokleo.
+			>	^Pcan/carrier^The Chaste Dream of Doz is the other carrier which first
+			>	occupied Bokleo.
 	*	object:  14
 		title:   "The Silent Question of Doz"
 		content:
-			>	^P45^The Silent Question of Doz has just joined the other two carriers.
+			>	^Pcan/carrier^The Silent Question of Doz has just joined the other two
+			>	carriers.
 	*	object:  0
 		title:   "Heavy Cruiser"
 		content:
-			>	^P61^You'll initially be using this heavy cruiser. You are welcome to
-			>	transfer control to any other ship you see fit.
+			>	^Pish/hvc^You'll initially be using this heavy cruiser. You are welcome
+			>	to transfer control to any other ship you see fit.
 starmap:     {x: 222, y: 130}
 par_time:    1320
 par_kills:   95

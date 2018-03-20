@@ -19,36 +19,36 @@ score:
 	*	"4\\0\\0\\5\\f\\t\\Remaining: \\/5"
 song:         4002
 initials:
-	*	base:        "0"
+	*	base:        "ish/cruiser"
 		owner:       0
 		at:          {x: 0, y: 0}
 		attributes:  {is_player_ship: true}
-	*	base:   "0"
+	*	base:   "ish/cruiser"
 		owner:  0
 		at:     {x: -3000, y: 3000}
-	*	base:   "24"
+	*	base:   "ish/transprt"
 		owner:  0
 		at:     {x: 0, y: 3000}
-	*	base:   "47"
+	*	base:   "ish/carrier"
 		owner:  0
 		at:     {x: 3000, y: 3000}
-	*	base:    "23"
+	*	base:    "loc/planet"
 		rename:  "Simulated Planet"
 		at:      {x: 5000, y: 0}
-	*	base:        "287"
+	*	base:        "can/etc/transprt/tut1"
 		owner:       1
 		at:          {x: 3000, y: -1000}
 		attributes:  {fixed_race: true, static_destination: true}
-	*	base:        "0"
+	*	base:        "ish/cruiser"
 		owner:       0
 		at:          {x: 3000, y: 3000}
 		attributes:  {initially_hidden: true}
-	*	base:        "25"
+	*	base:        "can/transprt"
 		owner:       1
 		at:          {x: 3000, y: -6000}
 		target:      7
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "25"
+	*	base:        "can/transprt"
 		owner:       1
 		at:          {x: 3250, y: -6250}
 		target:      8

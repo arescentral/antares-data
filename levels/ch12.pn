@@ -22,81 +22,81 @@ score:
 	*	"2\\0\\0\\0\\f\\t\\Docked: \\/5"
 song:        5001
 initials:
-	*	base:    "115"
+	*	base:    "loc/shipyard"
 		owner:   0
 		rename:  "Orbital Shipyard"
 		at:      {x: -14609, y: -14259}
-	*	base:        "116"
+	*	base:        "uns/etc/bttlship"
 		owner:       0
 		at:          {x: -14609, y: -14259}
 		attributes:  {initially_hidden: true}
-	*	base:        "0"
+	*	base:        "ish/cruiser"
 		owner:       0
 		at:          {x: -21999, y: -15478}
 		target:      9
 		attributes:  {is_player_ship: true}
-	*	base:        "118"
+	*	base:        "ish/etc/cargo"
 		owner:       0
 		at:          {x: 0, y: 4347}
 		target:      0
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "104"
+	*	base:        "loc/bunker"
 		rename:      "Bunker Station 2"
 		at:          {x: 3821, y: 9473}
 		earning:     0.75
 		attributes:  {static_destination: true}
-	*	base:        "118"
+	*	base:        "ish/etc/cargo"
 		owner:       0
 		at:          {x: 0, y: 4347}
 		target:      0
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "118"
+	*	base:        "ish/etc/cargo"
 		owner:       0
 		at:          {x: 0, y: 4347}
 		target:      0
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "118"
+	*	base:        "ish/etc/cargo"
 		owner:       0
 		at:          {x: 0, y: 4347}
 		target:      0
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "118"
+	*	base:        "ish/etc/cargo"
 		owner:       0
 		at:          {x: 0, y: 4347}
 		target:      0
 		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:             "23"
+	*	base:             "loc/planet"
 		owner:            0
 		rename:           "Fansi Alpha"
 		at:               {x: -11133, y: -18088}
 		earning:          1.0
 		sprite_override:  1019
 		build:            ["fighter", "cruiser", "gunship", "transprt", "engineer", "aslttran"]
-	*	base:             "23"
+	*	base:             "loc/planet"
 		owner:            1
 		rename:           "Fansi Beta"
 		at:               {x: 22957, y: 43826}
 		earning:          1.0
 		sprite_override:  1020
 		build:            ["fighter", "cruiser", "gunship", "transprt", "engineer", "aslttran"]
-	*	base:     "104"
+	*	base:     "loc/bunker"
 		rename:   "Bunker Station 1"
 		at:       {x: 695, y: 3826}
 		earning:  0.75
-	*	base:   "45"
+	*	base:   "can/carrier"
 		owner:  1
 		at:     {x: 20173, y: 4173}
-	*	base:  "93"
+	*	base:  "loc/flak"
 		at:    {x: -2346, y: 956}
-	*	base:   "93"
+	*	base:   "loc/flak"
 		owner:  1
 		at:     {x: 6935, y: 14868}
-	*	base:        "119"
+	*	base:        "can/aslttran"
 		owner:       1
 		at:          {x: 21913, y: 8000}
 		target:      11
 		attributes:  {static_destination: true}
-	*	base:        "119"
+	*	base:        "can/aslttran"
 		owner:       1
 		at:          {x: 18086, y: 2434}
 		target:      4
@@ -196,33 +196,34 @@ briefings:
 	*	object:  11
 		title:   "Cargo Ship"
 		content:
-			>	^P118^To complete the construction of the Obish destroyer during the
-			>	mission, five cargo ships will be exiting through a jump gate here. All
-			>	five cargo ships must make it to the orbital shipyard in order for us to
-			>	complete the destroyer. We'll alert you when the cargo ships are due to
-			>	drop in-system, but it'll be up to you to make sure their path is clear.
+			>	^Pish/etc/cargo^To complete the construction of the Obish destroyer
+			>	during the mission, five cargo ships will be exiting through a jump gate
+			>	here. All five cargo ships must make it to the orbital shipyard in order
+			>	for us to complete the destroyer. We'll alert you when the cargo ships
+			>	are due to drop in-system, but it'll be up to you to make sure their
+			>	path is clear.
 	*	object:  13
 		title:   "Flak Drone"
 		content:
-			>	^P93^Send engineering pods to this flak drone to reconfigure it to fire
-			>	on enemy vessels. The Gaitori Isolationists currently have it set to
-			>	fire on all ships. Make sure you have control of it before the cargo
+			>	^Ploc/flak^Send engineering pods to this flak drone to reconfigure it to
+			>	fire on enemy vessels. The Gaitori Isolationists currently have it set
+			>	to fire on all ships. Make sure you have control of it before the cargo
 			>	ships arrive.
 	*	object:  11
 		title:   "Bunker Station 1"
 		content:
-			>	^P104^This is one of two bunker stations in the Fansi system, both of
-			>	which are occupied by Gaitori Isolationists. The bunker stations have
-			>	powerful armament, but their defenses can be knocked out using heavy
-			>	fire to reduce their shields.
+			>	^Ploc/bunker^This is one of two bunker stations in the Fansi system,
+			>	both of which are occupied by Gaitori Isolationists. The bunker stations
+			>	have powerful armament, but their defenses can be knocked out using
+			>	heavy fire to reduce their shields.
 			>
 			>	Use assault transports to gain control of the bunker stations--occupying
 			>	the stations will generate resources for you during the mission.
 	*	object:  4
 		title:   "Bunker Station 2"
 		content:
-			>	^P104^This is the other bunker station. If the Cantharans gain control
-			>	of both the stations, they will most likely overwhelm you.
+			>	^Ploc/bunker^This is the other bunker station. If the Cantharans gain
+			>	control of both the stations, they will most likely overwhelm you.
 	*	object:  9
 		title:   "Fansi Alpha"
 		content:
@@ -234,38 +235,39 @@ briefings:
 		content:
 			>	In addition to fighters, cruisers, gunships, and transports, the base on
 			>	Fansi can produce two special-purpose ships.
-			|	^P95^Build engineering pods to gain control of the flak drones. Make
-			>	sure you commandeer the flak drone that lies between Bunker Station 1
-			>	and the orbital shipyard, to ensure the safe passage of the freighters.
+			|	^Pish/engineer^Build engineering pods to gain control of the flak
+			>	drones. Make sure you commandeer the flak drone that lies between Bunker
+			>	Station 1 and the orbital shipyard, to ensure the safe passage of the
+			>	freighters.
 	*	object:  9
 		title:   "Assault Transport"
 		content:
-			>	^P101^Assault Transports are the only ships designed to gain control of
-			>	bunker stations. Our assault transports carry twelve extravehicular
-			>	assault troopers. Six EVA troopers can exit the transport at once, and
-			>	the assault transport will automatically dispatch them when it arrives
-			>	at a hostile barrack station. At least five troopers must enter the
-			>	station to control it.
+			>	^Pish/aslttran^Assault Transports are the only ships designed to gain
+			>	control of bunker stations. Our assault transports carry twelve
+			>	extravehicular assault troopers. Six EVA troopers can exit the transport
+			>	at once, and the assault transport will automatically dispatch them when
+			>	it arrives at a hostile barrack station. At least five troopers must
+			>	enter the station to control it.
 	*	object:  10
 		title:   "Fansi Beta"
 		content:
 			>	The Cantharan base on Fansi Beta is your ultimate goal. Land a standard
 			>	transport here to complete the mission. The Cantharans have ship
 			>	building facilities equivalent to ours.
-			|	^P119^In addition to fighters, cruisers, transports, and gunships, the
-			>	Cantharans have assault transports of their own. Destroy them, and the
-			>	EVA Troopers they release.
+			|	^Pcan/aslttran^In addition to fighters, cruisers, transports, and
+			>	gunships, the Cantharans have assault transports of their own. Destroy
+			>	them, and the EVA Troopers they release.
 	*	object:  10
 		title:   "Engineer Pod"
 		content:
-			>	^P120^Cantharan engineering pods, like our own, are equipped with
-			>	defensive repulser beam cannons.
+			>	^Pcan/engineer^Cantharan engineering pods, like our own, are equipped
+			>	with defensive repulser beam cannons.
 	*	object:  12
 		title:   "Carrier"
 		content:
-			>	^P45^The Cantharan carrier the Song of Zom is already in the Fansi
-			>	system. Its missiles are very effective against the bunker stations'
-			>	defenses.
+			>	^Pcan/carrier^The Cantharan carrier the Song of Zom is already in the
+			>	Fansi system. Its missiles are very effective against the bunker
+			>	stations' defenses.
 starmap:     {x: 259, y: 158}
 par_time:    900
 par_kills:   10

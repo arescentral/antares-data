@@ -13,38 +13,38 @@ players:
 		earning_power:  1.0
 song:        5002
 initials:
-	*	base:  "228"
+	*	base:  "ast/shoot/lite/up"
 		at:    {x: 0, y: 32767}
-	*	base:  "229"
+	*	base:  "ast/shoot/lite/down"
 		at:    {x: 0, y: -32767}
-	*	base:             "23"
+	*	base:             "loc/planet"
 		owner:            0
 		rename:           "Proteus Alpha"
 		at:               {x: 28260, y: 27129}
 		earning:          1.0
 		sprite_override:  1025
 		build:            ["cruiser", "gunship", "aslttran", "carrier", "hvd", "transprt"]
-	*	base:             "23"
+	*	base:             "loc/planet"
 		owner:            1
 		rename:           "Proteus Beta"
 		at:               {x: -28260, y: -27129}
 		earning:          1.0
 		sprite_override:  1026
 		build:            ["cruiser", "gunship", "aslttran", "carrier", "hvd", "transprt"]
-	*	base:     "104"
+	*	base:     "loc/bunker"
 		rename:   "Bunker Station 1"
 		at:       {x: -6261, y: 22261}
 		earning:  1.0
-	*	base:     "104"
+	*	base:     "loc/bunker"
 		rename:   "Bunker Station 2"
 		at:       {x: 6621, y: -22621}
 		earning:  1.0
-	*	base:        "129"
+	*	base:        "ish/hvd"
 		owner:       0
 		at:          {x: 28520, y: 27129}
 		target:      2
 		attributes:  {initially_hidden: true, is_player_ship: true}
-	*	base:        "129"
+	*	base:        "ish/hvd"
 		owner:       1
 		at:          {x: -21131, y: -18608}
 		target:      3

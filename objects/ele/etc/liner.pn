@@ -1,0 +1,60 @@
+long_name:               "Luxury Liner"
+short_name:              "LUXLINER"
+notes:                   "Luxury Liner"
+attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, appear_on_radar: true}
+build_flags:             {uncaptured_base_exists: true, sufficient_escorts_exist: true}
+order_flags:             {stronger_than_target: true, base: true, foe: true}
+class:                   803
+race:                    "ele"
+health:                  250
+damage:                  0
+energy:                  1000
+price:                   800
+build_ratio:             0.7
+build_time:              660
+mass:                    1.098
+max_velocity:            2.0
+max_thrust:              0.2
+initial_velocity:        0.5
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+warp_out_distance:       0
+rotation:
+	sprite:     647
+	layer:      2
+	scale:      2.0
+	frames:     {begin: 0, end: 24}
+	turn_rate:  2.0
+icon:
+	shape:  "plus"
+	size:   7
+portrait:                "ele/etc/liner"
+shield_color:            {r: 255, g: 255, b: 255}
+on_destroy:
+	*	type:       "create"
+		reflexive:  true
+		base:       "sfx/explosion/large"
+	*	type:       "win"
+		reflexive:  true
+		player:     1
+		text:
+			>	The Elejeetian liner was destroyed.
+on_expire:
+	*	type:       "win"
+		reflexive:  true
+		player:     0
+		next:       "ch14"
+		text:
+			>	The Elejeetian liner successfully exited through the jumpgate. Minister
+			>	Jommo pledges to do what he can to convince his Emperor to provide you
+			>	with ships or technology.
+destroy_dont_die:        false
+expire_dont_die:         false
+activate_period:         0
+arrive_action_distance:  50000
+skill_num:               3
+skill_den:               21
+offense:                 0.0
+destination_class:       9
+friend_deficit:          2.0
+danger_threshold:        4.0

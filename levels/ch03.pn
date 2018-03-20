@@ -18,29 +18,29 @@ score:
 	*	"_-Beta"
 song:        5002
 initials:
-	*	base:             "23"
+	*	base:             "loc/planet"
 		owner:            0
 		rename:           "Demeter Alpha"
 		at:               {x: 260, y: 4695}
 		earning:          1.0
 		sprite_override:  1009
 		build:            ["fighter", "cruiser", "transprt"]
-	*	base:        "0"
+	*	base:        "ish/cruiser"
 		owner:       0
 		at:          {x: 782, y: 4782}
 		attributes:  {is_player_ship: true}
-	*	base:    "27"
+	*	base:    "loc/sun"
 		rename:  "Demeter"
 		at:      {x: -3478, y: 86}
-	*	base:        "37"
+	*	base:        "gai/cruiser"
 		owner:       1
 		at:          {x: -1251, y: -8336}
 		attributes:  {is_player_ship: true}
-	*	base:        "87"
+	*	base:        "gai/carrier"
 		owner:       1
 		at:          {x: 260, y: -8695}
 		attributes:  {initially_hidden: true}
-	*	base:             "23"
+	*	base:             "loc/planet"
 		owner:            1
 		rename:           "Demeter Beta"
 		at:               {x: -347, y: -7477}
@@ -100,9 +100,9 @@ briefings:
 	*	object:  1
 		title:   "Cruiser"
 		content:
-			>	^P0^You'll initially be using this standard cruiser. By utilizing our
-			>	base on Alpha, you'll be able to manufacture as many of these cruisers
-			>	as you can afford.
+			>	^Pish/cruiser^You'll initially be using this standard cruiser. By
+			>	utilizing our base on Alpha, you'll be able to manufacture as many of
+			>	these cruisers as you can afford.
 	*	object:  0
 		title:   "Demeter Alpha"
 		content:
@@ -111,13 +111,14 @@ briefings:
 			>
 			>	The base on Alpha can produce two types of ships in addition to
 			>	cruisers. 
-			|	^P13^Fighters are fast, but can only travel at sublight speeds. Their
-			>	only weapons are photokinetic beam cannons.
+			|	^Pish/fighter^Fighters are fast, but can only travel at sublight speeds.
+			>	Their only weapons are photokinetic beam cannons.
 	*	object:  0
 		title:   "Demeter Alpha"
 		content:
-			>	^P24^The transport is the only ship capable of space-to-surface assault.
-			>	They are limited to sublight travel and are unarmed.
+			>	^Pish/transprt^The transport is the only ship capable of
+			>	space-to-surface assault. They are limited to sublight travel and are
+			>	unarmed.
 			>
 			>	For this mission you'll need to give a transport orders to go to Demeter
 			>	Beta. It will attempt to land once it arrives.
@@ -131,16 +132,17 @@ briefings:
 	*	object:  5
 		title:   "Demeter Beta"
 		content:
-			>	^P38^Gaitori fighters are slow, and poorly armored.
-			|	^P37^You've already encountered several of their cruisers.
+			>	^Pgai/fighter^Gaitori fighters are slow, and poorly armored.
+			|	^Pgai/cruiser^You've already encountered several of their cruisers.
 	*	object:  5
 		title:   "Demeter Beta"
 		content:
-			>	^P86^Destroy any of their transports you find making its way towards our
-			>	base on Alpha. If our base is lost, the mission will be aborted.
+			>	^Pgai/transprt^Destroy any of their transports you find making its way
+			>	towards our base on Alpha. If our base is lost, the mission will be
+			>	aborted.
 			>
 			>	The Gaitori base can also construct gunships.
-			|	^P64^
+			|	^Pgai/gunship^
 			|	Good luck.
 starmap:     {x: 354, y: 271}
 par_time:    180
