@@ -583,7 +583,7 @@ briefings:
 	*	object:  1
 		title:   "Command Buoy A"
 		content:
-			>	^Pbrf/zzz/trgtdrne^These two buoys offer a command exercise. A drone is
+			>	^Pzzz/brf/trgtdrne^These two buoys offer a command exercise. A drone is
 			>	stationed here, and you may practice sending it from one buoy to
 			>	another.
 	*	object:  5
@@ -594,14 +594,14 @@ briefings:
 	*	object:  6
 		title:   "Combat Buoy A"
 		content:
-			>	^Pbrf/zzz/prctdrne^These three buoys have a series of practice drones,
+			>	^Pzzz/brf/prctdrne^These three buoys have a series of practice drones,
 			>	programmed to simulate combat. Don't worry about losing your ship
 			>	here--the damage isn't real. When your shields appear depleted, you will
 			>	simply lose power for a moment, and then be fully recharged.
 	*	object:  15
 		title:   "Extra Ships"
 		content:
-			>	^Pbrf/zzz/trgtdrne^At this buoy are two "extra" ships. When you feel
+			>	^Pzzz/brf/trgtdrne^At this buoy are two "extra" ships. When you feel
 			>	comfortable selecting and controlling other ships, try experimenting
 			>	with these two cruisers.
 	*	object:  18
