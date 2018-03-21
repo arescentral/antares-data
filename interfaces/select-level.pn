@@ -1,27 +1,27 @@
 *	type:     "button"
 	bounds:   {left: 419, top: 422, right: 559, bottom: 432}
-	label:    {id: 2000, index: 7}
+	label:    "Begin"
 	key:      "RTRN"
 	gamepad:  "A"
 	hue:      "pale green"
 	style:    "large"
 *	type:     "button"
 	bounds:   {left: 80, top: 422, right: 220, bottom: 432}
-	label:    {id: 2000, index: 0}
+	label:    "Cancel"
 	key:      "ESC"
 	gamepad:  "B"
 	hue:      "yellow"
 	style:    "large"
 *	type:     "button"
 	bounds:   {left: 80, top: 302, right: 220, bottom: 312}
-	label:    {id: 2000, index: 16}
+	label:    "Previous"
 	key:      "LEFT"
 	gamepad:  "LEFT"
 	hue:      "aqua"
 	style:    "large"
 *	type:     "button"
 	bounds:   {left: 419, top: 302, right: 559, bottom: 312}
-	label:    {id: 2000, index: 17}
+	label:    "Next"
 	key:      "RGHT"
 	gamepad:  "RGHT"
 	hue:      "aqua"
@@ -47,6 +47,6 @@
 
 *	type:    "rect"
 	bounds:  {left: 54, top: 105, right: 587, bottom: 346}
-	label:   {id: 2001, index: 27}
+	label:   "Select Level"
 	hue:     "aqua"
 	style:   "large"

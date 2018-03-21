@@ -1,20 +1,20 @@
 *	type:     "button"
 	bounds:   {left: 446, top: 435, right: 586, bottom: 445}
-	label:    {id: 2000, index: 2}
+	label:    "Done"
 	key:      "RTRN"
 	gamepad:  "A"
 	hue:      "pale green"
 	style:    "large"
 *	type:     "button"
 	bounds:   {left: 54, top: 435, right: 194, bottom: 445}
-	label:    {id: 2000, index: 16}
+	label:    "Previous"
 	key:      "LEFT"
 	gamepad:  "LEFT"
 	hue:      "gray"
 	style:    "large"
 *	type:     "button"
 	bounds:   {left: 234, top: 435, right: 374, bottom: 445}
-	label:    {id: 2000, index: 17}
+	label:    "Next"
 	key:      "RGHT"
 	gamepad:  "RGHT"
 	hue:      "gray"
@@ -35,6 +35,6 @@
 
 *	type:    "rect"
 	bounds:  {left: 54, top: 58, right: 587, bottom: 419}
-	label:   {id: 2001, index: 7}
+	label:   "Mission Analysis"
 	hue:     "tan"
 	style:   "large"

@@ -1,6 +1,6 @@
 *	type:     "button"
 	bounds:   {left: 40, top: 430, right: 440, bottom: 440}
-	label:    {id: 2000, index: 2}
+	label:    "Done"
 	key:      "ESC"
 	gamepad:  "A"
 	hue:      "tan"

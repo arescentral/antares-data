@@ -1,20 +1,21 @@
 *	type:     "button"
 	bounds:   {left: 180, top: 210, right: 460, bottom: 220}
-	label:    {id: 2000, index: 8}
+	label:    "Start Chapter Over"
 	key:      "RTRN"
 	gamepad:  "X"
 	hue:      "gold"
 	style:    "large"
 *	type:     "button"
 	bounds:   {left: 181, top: 250, right: 461, bottom: 260}
-	label:    {id: 2000, index: 15}
+	label:    "Quit to Main Menu"
 	key:      "Q"
 	gamepad:  "Y"
 	hue:      "salmon"
 	style:    "large"
 *	type:    "text"
 	bounds:  {left: 160, top: 150, right: 480, bottom: 250}
-	id:      2006
+	text:
+		>	Start the chapter over, or quit to the main menu?
 	hue:     "orange"
 	style:   "large"
 *	type:    "rect"

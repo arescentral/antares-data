@@ -1,20 +1,22 @@
 *	type:     "button"
 	bounds:   {left: 180, top: 230, right: 460, bottom: 240}
-	label:    {id: 2000, index: 55}
+	label:    "Start Tutorial Over"
 	key:      "RTRN"
 	gamepad:  "X"
 	hue:      "gold"
 	style:    "large"
 *	type:     "button"
 	bounds:   {left: 180, top: 310, right: 460, bottom: 320}
-	label:    {id: 2000, index: 15}
+	label:    "Quit to Main Menu"
 	key:      "Q"
 	gamepad:  "Y"
 	hue:      "salmon"
 	style:    "large"
 *	type:    "text"
 	bounds:  {left: 160, top: 150, right: 480, bottom: 250}
-	id:      2008
+	text:
+		>	Resume the tutorial, start the tutorial over, skip the tutorial, or quit
+		>	to the main menu?
 	hue:     "indigo"
 	style:   "large"
 *	type:    "rect"
@@ -23,14 +25,14 @@
 	style:   "large"
 *	type:     "button"
 	bounds:   {left: 180, top: 190, right: 460, bottom: 200}
-	label:    {id: 2000, index: 54}
+	label:    "Resume Tutorial"
 	key:      "ESC"
 	gamepad:  "A"
 	hue:      "pale green"
 	style:    "large"
 *	type:     "button"
 	bounds:   {left: 180, top: 270, right: 460, bottom: 280}
-	label:    {id: 2000, index: 56}
+	label:    "Skip Tutorial"
 	key:      "S"
 	gamepad:  "B"
 	hue:      "pale purple"

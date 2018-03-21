@@ -1,20 +1,22 @@
 *	type:     "button"
 	bounds:   {left: 180, top: 230, right: 460, bottom: 240}
-	label:    {id: 2000, index: 8}
+	label:    "Start Chapter Over"
 	key:      "RTRN"
 	gamepad:  "X"
 	hue:      "gold"
 	style:    "large"
 *	type:     "button"
 	bounds:   {left: 180, top: 270, right: 460, bottom: 280}
-	label:    {id: 2000, index: 15}
+	label:    "Quit to Main Menu"
 	key:      "Q"
 	gamepad:  "Y"
 	hue:      "salmon"
 	style:    "large"
 *	type:    "text"
 	bounds:  {left: 160, top: 150, right: 480, bottom: 250}
-	id:      2007
+	text:
+		>	Resume your current game, start this chapter over, or quit to the main
+		>	menu?
 	hue:     "aqua"
 	style:   "large"
 *	type:    "rect"
@@ -23,7 +25,7 @@
 	style:   "large"
 *	type:     "button"
 	bounds:   {left: 180, top: 190, right: 460, bottom: 200}
-	label:    {id: 2000, index: 14}
+	label:    "Resume"
 	key:      "ESC"
 	gamepad:  "A"
 	hue:      "pale green"
