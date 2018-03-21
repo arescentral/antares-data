@@ -1,61 +1,62 @@
-*	bounds:  {left: 207, top: 258, right: 427, bottom: 268}
-	button:
-		label:    {id: 2000, index: 6}
-		key:      "S"
-		gamepad:  "A"
-		hue:      "gold"
-		style:    "large"
-*	bounds:  {left: 207, top: 284, right: 427, bottom: 294}
-	button:
-		label:    {id: 2000, index: 51}
-		key:      "N"
-		gamepad:  "B"
-		hue:      "green"
-		style:    "large"
-*	bounds:  {left: 207, top: 373, right: 427, bottom: 383}
-	button:
-		label:    {id: 2000, index: 9}
-		key:      "O"
-		gamepad:  "LEFT"
-		hue:      "pale-green"
-		style:    "large"
-*	bounds:  {left: 207, top: 433, right: 427, bottom: 443}
-	button:
-		label:    {id: 2000, index: 12}
-		key:      "Q"
-		gamepad:  "BACK"
-		hue:      "salmon"
-		style:    "large"
-*	bounds:  {left: 207, top: 399, right: 427, bottom: 409}
-	button:
-		label:    {id: 2000, index: 11}
-		key:      "A"
-		gamepad:  "RGHT"
-		hue:      "tan"
-		style:    "large"
-*	bounds:  {left: 207, top: 336, right: 427, bottom: 346}
-	button:
-		label:    {id: 2000, index: 45}
-		key:      "D"
-		gamepad:  "Y"
-		hue:      "tan"
-		style:    "large"
-*	bounds:  {left: 207, top: 310, right: 427, bottom: 320}
-	button:
-		label:    {id: 2000, index: 52}
-		key:      "R"
-		gamepad:  "X"
-		hue:      "gray"
-		style:    "large"
-*	bounds:  {left: 0, top: 245, right: 178, bottom: 471}
-	picture:
-		resource:  "interfaces/main/left"
-*	bounds:  {left: 0, top: 0, right: 640, bottom: 245}
-	picture:
-		resource:  "interfaces/main/top"
-*	bounds:  {left: 460, top: 245, right: 640, bottom: 471}
-	picture:
-		resource:  "interfaces/main/right"
-*	bounds:  {left: 0, top: 456, right: 640, bottom: 480}
-	picture:
-		resource:  "interfaces/main/bottom"
+*	type:     "button"
+	bounds:   {left: 207, top: 258, right: 427, bottom: 268}
+	label:    {id: 2000, index: 6}
+	key:      "S"
+	gamepad:  "A"
+	hue:      "gold"
+	style:    "large"
+*	type:     "button"
+	bounds:   {left: 207, top: 284, right: 427, bottom: 294}
+	label:    {id: 2000, index: 51}
+	key:      "N"
+	gamepad:  "B"
+	hue:      "green"
+	style:    "large"
+*	type:     "button"
+	bounds:   {left: 207, top: 373, right: 427, bottom: 383}
+	label:    {id: 2000, index: 9}
+	key:      "O"
+	gamepad:  "LEFT"
+	hue:      "pale green"
+	style:    "large"
+*	type:     "button"
+	bounds:   {left: 207, top: 433, right: 427, bottom: 443}
+	label:    {id: 2000, index: 12}
+	key:      "Q"
+	gamepad:  "BACK"
+	hue:      "salmon"
+	style:    "large"
+*	type:     "button"
+	bounds:   {left: 207, top: 399, right: 427, bottom: 409}
+	label:    {id: 2000, index: 11}
+	key:      "A"
+	gamepad:  "RGHT"
+	hue:      "tan"
+	style:    "large"
+*	type:     "button"
+	bounds:   {left: 207, top: 336, right: 427, bottom: 346}
+	label:    {id: 2000, index: 45}
+	key:      "D"
+	gamepad:  "Y"
+	hue:      "tan"
+	style:    "large"
+*	type:     "button"
+	bounds:   {left: 207, top: 310, right: 427, bottom: 320}
+	label:    {id: 2000, index: 52}
+	key:      "R"
+	gamepad:  "X"
+	hue:      "gray"
+	style:    "large"
+
+*	type:    "picture"
+	bounds:  {left: 0, top: 245, right: 178, bottom: 471}
+	id:      "interfaces/main/left"
+*	type:    "picture"
+	bounds:  {left: 0, top: 0, right: 640, bottom: 245}
+	id:      "interfaces/main/top"
+*	type:    "picture"
+	bounds:  {left: 460, top: 245, right: 640, bottom: 471}
+	id:      "interfaces/main/right"
+*	type:    "picture"
+	bounds:  {left: 0, top: 456, right: 640, bottom: 480}
+	id:      "interfaces/main/bottom"

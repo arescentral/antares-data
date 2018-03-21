@@ -1,69 +1,71 @@
-*	bounds:  {left: 100, top: 111, right: 300, bottom: 121}
-	checkbox:
-		label:  {id: 2000, index: 35}
-		hue:    "indigo"
-		style:  "large"
-*	bounds:  {left: 100, top: 144, right: 300, bottom: 154}
-	checkbox:
-		label:  {id: 2000, index: 36}
-		hue:    "indigo"
-		style:  "large"
-*	bounds:  {left: 397, top: 111, right: 557, bottom: 121}
-	button:
-		label:    {id: 2000, index: 41}
-		gamepad:  "UP"
-		hue:      "pale-purple"
-		style:    "large"
-*	bounds:  {left: 397, top: 176, right: 557, bottom: 186}
-	button:
-		label:    {id: 2000, index: 42}
-		gamepad:  "DOWN"
-		hue:      "pale-purple"
-		style:    "large"
-*	bounds:  {left: 100, top: 176, right: 300, bottom: 186}
-	checkbox:
-		label:  {id: 2000, index: 53}
-		hue:    "sky-blue"
-		style:  "large"
-*	bounds:  {left: 60, top: 407, right: 220, bottom: 417}
-	button:
-		label:    {id: 2000, index: 0}
-		key:      "ESC"
-		gamepad:  "B"
-		hue:      "yellow"
-		style:    "large"
-*	bounds:  {left: 420, top: 407, right: 580, bottom: 417}
-	button:
-		label:    {id: 2000, index: 2}
-		key:      "RTRN"
-		gamepad:  "A"
-		hue:      "pale-green"
-		style:    "large"
-*	bounds:  {left: 420, top: 347, right: 580, bottom: 357}
-	button:
-		label:  {id: 2000, index: 43}
-		key:    "K"
-		hue:    "aqua"
-		style:  "large"
-*	bounds:  {left: 2, top: 0, right: 102, bottom: 481}
-	picture:
-		resource:  "interfaces/tablet/left"
-*	bounds:  {left: 35, top: 0, right: 615, bottom: 100}
-	picture:
-		resource:  "interfaces/tablet/top"
-*	bounds:  {left: 607, top: 0, right: 707, bottom: 480}
-	picture:
-		resource:  "interfaces/tablet/right"
-*	bounds:  {left: 35, top: 456, right: 615, bottom: 556}
-	picture:
-		resource:  "interfaces/tablet/bottom"
-*	bounds:  {left: 53, top: 92, right: 588, bottom: 293}
-	rect:
-		label:  {id: 2001, index: 17}
-		hue:    "pale-purple"
-		style:  "large"
-*	bounds:  {left: 73, top: 235, right: 567, bottom: 276}
-	rect:
-		label:  {id: 2001, index: 23}
-		hue:    "pale-purple"
-		style:  "small"
+*	type:    "checkbox"
+	bounds:  {left: 100, top: 111, right: 300, bottom: 121}
+	label:   {id: 2000, index: 35}
+	hue:     "indigo"
+	style:   "large"
+*	type:    "checkbox"
+	bounds:  {left: 100, top: 144, right: 300, bottom: 154}
+	label:   {id: 2000, index: 36}
+	hue:     "indigo"
+	style:   "large"
+*	type:     "button"
+	bounds:   {left: 397, top: 111, right: 557, bottom: 121}
+	label:    {id: 2000, index: 41}
+	gamepad:  "UP"
+	hue:      "pale purple"
+	style:    "large"
+*	type:     "button"
+	bounds:   {left: 397, top: 176, right: 557, bottom: 186}
+	label:    {id: 2000, index: 42}
+	gamepad:  "DOWN"
+	hue:      "pale purple"
+	style:    "large"
+*	type:    "checkbox"
+	bounds:  {left: 100, top: 176, right: 300, bottom: 186}
+	label:   {id: 2000, index: 53}
+	hue:     "sky blue"
+	style:   "large"
+*	type:     "button"
+	bounds:   {left: 60, top: 407, right: 220, bottom: 417}
+	label:    {id: 2000, index: 0}
+	key:      "ESC"
+	gamepad:  "B"
+	hue:      "yellow"
+	style:    "large"
+*	type:     "button"
+	bounds:   {left: 420, top: 407, right: 580, bottom: 417}
+	label:    {id: 2000, index: 2}
+	key:      "RTRN"
+	gamepad:  "A"
+	hue:      "pale green"
+	style:    "large"
+*	type:    "button"
+	bounds:  {left: 420, top: 347, right: 580, bottom: 357}
+	label:   {id: 2000, index: 43}
+	key:     "K"
+	hue:     "aqua"
+	style:   "large"
+
+*	type:    "picture"
+	bounds:  {left: 2, top: 0, right: 102, bottom: 481}
+	id:      "interfaces/tablet/left"
+*	type:    "picture"
+	bounds:  {left: 35, top: 0, right: 615, bottom: 100}
+	id:      "interfaces/tablet/top"
+*	type:    "picture"
+	bounds:  {left: 607, top: 0, right: 707, bottom: 480}
+	id:      "interfaces/tablet/right"
+*	type:    "picture"
+	bounds:  {left: 35, top: 456, right: 615, bottom: 556}
+	id:      "interfaces/tablet/bottom"
+
+*	type:    "rect"
+	bounds:  {left: 53, top: 92, right: 588, bottom: 293}
+	label:   {id: 2001, index: 17}
+	hue:     "pale purple"
+	style:   "large"
+*	type:    "rect"
+	bounds:  {left: 73, top: 235, right: 567, bottom: 276}
+	label:   {id: 2001, index: 23}
+	hue:     "pale purple"
+	style:   "small"
