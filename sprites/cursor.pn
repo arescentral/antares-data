@@ -1,5 +1,5 @@
-image:    "sprites/500/image.png"
-overlay:  "sprites/500/overlay.png"
+image:    "sprites/cursor/image.png"
+overlay:  "sprites/cursor/overlay.png"
 rows:     1
 cols:     1
 center:   {x: 0, y: 0}
