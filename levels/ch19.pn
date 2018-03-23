@@ -25,7 +25,7 @@ initials:
 		rename:           "Pictoris Alpha"
 		at:               {x: 1913, y: 6434}
 		earning:          1.0
-		sprite_override:  "1022"
+		sprite_override:  "loc/planets/purtygas"
 		build:
 			*	"fighter"
 			*	"cruiser"
@@ -36,7 +36,7 @@ initials:
 		rename:           "Pictoris Alpha 1"
 		at:               {x: 3130, y: 6173}
 		earning:          1.0
-		sprite_override:  "1009"
+		sprite_override:  "loc/planets/saturny"
 		build:
 			*	"fighter"
 			*	"cruiser"
@@ -50,7 +50,7 @@ initials:
 		rename:           "Pictoris Beta 1"
 		at:               {x: -8956, y: -8173}
 		earning:          1.0
-		sprite_override:  "1010"
+		sprite_override:  "loc/planets/yellow-cookie"
 		build:
 			*	"fighter"
 			*	"cruiser"
@@ -59,7 +59,7 @@ initials:
 		rename:           "Pictoris Beta 2"
 		at:               {x: -5739, y: -10955}
 		earning:          1.0
-		sprite_override:  "1011"
+		sprite_override:  "loc/planets/purpleblue"
 		build:
 			*	"fighter"
 			*	"hvc"
@@ -68,7 +68,7 @@ initials:
 		rename:           "Pictoris Beta"
 		at:               {x: -7565, y: -9391}
 		earning:          1.0
-		sprite_override:  "1023"
+		sprite_override:  "loc/planets/aqua-minerale"
 		build:
 			*	"fighter"
 			*	"cruiser"

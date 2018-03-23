@@ -16,7 +16,7 @@ initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
 animation:
-	sprite:     "656"
+	sprite:     "dev/fireball"
 	layer:      3
 	frames:     {begin: 0.0, end: 4.004}
 	direction:  "+"

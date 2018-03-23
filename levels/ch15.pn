@@ -23,7 +23,7 @@ initials:
 		rename:           "Thasero Alpha"
 		at:               {x: 0, y: 6000}
 		earning:          1.0
-		sprite_override:  "1026"
+		sprite_override:  "loc/planets/moldymud"
 		build:
 			*	"fighter"
 			*	"cruiser"
@@ -35,7 +35,7 @@ initials:
 		rename:           "Thasero Beta"
 		at:               {x: 0, y: -7478}
 		earning:          1.0
-		sprite_override:  "1028"
+		sprite_override:  "loc/planets/calmpurple"
 		build:
 			*	"fighter"
 			*	"cruiser"
@@ -47,7 +47,7 @@ initials:
 		rename:           "Thasero Station"
 		at:               {x: 0, y: 0}
 		earning:          1.0
-		sprite_override:  "572"
+		sprite_override:  "sal/etc/battlestation"
 	*	base:        "ish/hvd"
 		owner:       0
 		at:          {x: 869, y: 6521}

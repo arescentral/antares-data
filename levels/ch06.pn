@@ -71,7 +71,7 @@ initials:
 		rename:           "Hades Alpha"
 		at:               {x: 0, y: 9478}
 		earning:          1.0
-		sprite_override:  "1013"
+		sprite_override:  "loc/planets/sandyred"
 		build:
 			*	"fighter"
 			*	"cruiser"
@@ -82,7 +82,7 @@ initials:
 		rename:           "Hades Beta"
 		at:               {x: 1652, y: -9130}
 		earning:          1.0
-		sprite_override:  "1014"
+		sprite_override:  "loc/planets/marble-streakedpurple"
 		build:
 			*	"fighter"
 			*	"cruiser"

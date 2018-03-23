@@ -24,7 +24,10 @@ weapons:
 		base:  "dev/repulser/turret"
 	special:
 		base:  "dev/cm/launcher"
-animation:               {sprite: "643", layer: 1, scale: 2.0}
+animation:
+	sprite:  "loc/bunker"
+	layer:   1
+	scale:   2.0
 icon:
 	shape:  "square"
 	size:   7

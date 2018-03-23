@@ -27,7 +27,7 @@ weapons:
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:
-	sprite:     "636"
+	sprite:     "uns/etc/bttlship"
 	layer:      2
 	scale:      2.0
 	frames:     {begin: 0, end: 24}

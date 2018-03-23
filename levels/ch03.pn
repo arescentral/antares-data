@@ -23,7 +23,7 @@ initials:
 		rename:           "Demeter Alpha"
 		at:               {x: 260, y: 4695}
 		earning:          1.0
-		sprite_override:  "1009"
+		sprite_override:  "loc/planets/saturny"
 		build:
 			*	"fighter"
 			*	"cruiser"
@@ -48,7 +48,7 @@ initials:
 		rename:           "Demeter Beta"
 		at:               {x: -347, y: -7477}
 		earning:          1.0
-		sprite_override:  "1010"
+		sprite_override:  "loc/planets/yellow-cookie"
 		build:
 			*	"fighter"
 			*	"cruiser"

@@ -24,7 +24,7 @@ weapons:
 			*	{x: -10.0, y: 0.0}
 			*	{x: 10.0, y: 0.0}
 rotation:
-	sprite:     "550"
+	sprite:     "gai/cruiser"
 	layer:      2
 	frames:     {begin: 0, end: 24}
 	turn_rate:  1.5

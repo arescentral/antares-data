@@ -18,7 +18,9 @@ warp_out_distance:       0
 weapons:
 	special:
 		base:  "gai/etc/spawner/item"
-animation:               {sprite: "573", layer: 1}
+animation:
+	sprite:  "sfx/invisible"
+	layer:   1
 shield_color:            {r: 240, g: 0, b: 0}
 destroy_dont_die:        false
 expire_dont_die:         false

@@ -70,7 +70,7 @@ initials:
 		rename:           "Fansi Alpha"
 		at:               {x: -11133, y: -18088}
 		earning:          1.0
-		sprite_override:  "1019"
+		sprite_override:  "loc/planets/redwhite-excitement"
 		build:
 			*	"fighter"
 			*	"cruiser"
@@ -83,7 +83,7 @@ initials:
 		rename:           "Fansi Beta"
 		at:               {x: 22957, y: 43826}
 		earning:          1.0
-		sprite_override:  "1020"
+		sprite_override:  "loc/planets/cloudtones"
 		build:
 			*	"fighter"
 			*	"cruiser"

@@ -24,7 +24,7 @@ weapons:
 			*	{x: -5.0, y: 0.0}
 			*	{x: 5.0, y: 0.0}
 rotation:
-	sprite:     "533"
+	sprite:     "can/schooner"
 	layer:      2
 	frames:     {begin: 0, end: 24}
 	turn_rate:  3.0

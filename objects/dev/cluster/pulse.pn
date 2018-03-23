@@ -17,7 +17,7 @@ initial_direction:       {begin: -5, end: 5}
 warp_speed:              0.0
 warp_out_distance:       0
 animation:
-	sprite:     "526"
+	sprite:     "dev/cluster"
 	layer:      3
 	direction:  "+"
 icon:

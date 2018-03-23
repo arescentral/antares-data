@@ -16,7 +16,7 @@ initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
 animation:
-	sprite:     "554"
+	sprite:     "sfx/explosion/large-hit"
 	layer:      3
 	scale:      0.25
 	frames:     {begin: 0.0, end: 11.004}

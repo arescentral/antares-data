@@ -15,7 +15,9 @@ initial_velocity:        0.0
 initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
-animation:               {sprite: "592", layer: 1}
+animation:
+	sprite:  "sal/etc/lab"
+	layer:   1
 icon:
 	shape:  "square"
 	size:   6

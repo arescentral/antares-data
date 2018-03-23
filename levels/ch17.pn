@@ -26,7 +26,7 @@ initials:
 		rename:           "Lalande Alpha"
 		at:               {x: 28260, y: 27129}
 		earning:          1.0
-		sprite_override:  "1030"
+		sprite_override:  "loc/planets/splatterpaint-pink"
 		build:
 			*	"cruiser"
 			*	"gunship"
@@ -38,7 +38,7 @@ initials:
 		rename:           "Lalande Beta"
 		at:               {x: -28260, y: -27129}
 		earning:          1.0
-		sprite_override:  "1031"
+		sprite_override:  "loc/planets/marshmellow"
 		build:
 			*	"cruiser"
 			*	"gunship"

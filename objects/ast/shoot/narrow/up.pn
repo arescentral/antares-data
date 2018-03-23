@@ -15,7 +15,9 @@ initial_velocity:        0.0
 initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
-animation:               {sprite: "573", layer: 1}
+animation:
+	sprite:  "sfx/invisible"
+	layer:   1
 shield_color:            {r: 240, g: 0, b: 0}
 on_activate:
 	*	type:                "create"

@@ -20,7 +20,7 @@ initial_direction:       {begin: 0, end: 360}
 warp_speed:              0.0
 warp_out_distance:       0
 rotation:
-	sprite:     "647"
+	sprite:     "ele/etc/liner"
 	layer:      2
 	scale:      2.0
 	frames:     {begin: 0, end: 24}

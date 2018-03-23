@@ -23,7 +23,7 @@ weapons:
 		positions:
 			*	{x: 0.0, y: -14.0}
 rotation:
-	sprite:     "660"
+	sprite:     "gro/cruiser"
 	layer:      2
 	frames:     {begin: 0, end: 24}
 	turn_rate:  2.0

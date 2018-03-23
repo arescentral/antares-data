@@ -20,7 +20,7 @@ weapons:
 	beam:
 		base:  "dev/newo/gun"
 rotation:
-	sprite:     "583"
+	sprite:     "dev/amissile"
 	layer:      3
 	frames:     {begin: 0, end: 24}
 	turn_rate:  1.0

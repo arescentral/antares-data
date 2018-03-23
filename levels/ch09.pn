@@ -23,7 +23,7 @@ initials:
 		rename:           "Proteus Alpha"
 		at:               {x: 12043, y: 38956}
 		earning:          1.0
-		sprite_override:  "1002"
+		sprite_override:  "loc/planets/jungle"
 		build:
 			*	"fighter"
 			*	"cruiser"
@@ -46,7 +46,7 @@ initials:
 		rename:           "Proteus Beta"
 		at:               {x: -7999, y: 13652}
 		earning:          1.0
-		sprite_override:  "1003"
+		sprite_override:  "loc/planets/yellow"
 		build:
 			*	"fighter"
 	*	base:             "loc/planet"
@@ -54,7 +54,7 @@ initials:
 		rename:           "Proteus Gamma"
 		at:               {x: 7304, y: -7565}
 		earning:          1.0
-		sprite_override:  "1004"
+		sprite_override:  "loc/planets/graysplotch"
 		build:
 			*	"fighter"
 			*	"cruiser"

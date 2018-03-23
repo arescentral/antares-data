@@ -33,7 +33,7 @@ weapons:
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:
-	sprite:     "607"
+	sprite:     "aud/hvd"
 	layer:      2
 	frames:     {begin: 0, end: 24}
 	turn_rate:  2.0

@@ -21,7 +21,7 @@ initial_direction:       {begin: 0, end: 360}
 warp_speed:              0.0
 warp_out_distance:       0
 rotation:
-	sprite:     "657"
+	sprite:     "gro/ctf/cruiser"
 	layer:      2
 	frames:     {begin: 0, end: 24}
 	turn_rate:  2.0

@@ -27,7 +27,7 @@ initials:
 		rename:           "Aeneas Alpha"
 		at:               {x: 1130, y: 1304}
 		earning:          1.0
-		sprite_override:  "1011"
+		sprite_override:  "loc/planets/purpleblue"
 		build:
 			*	"fighter"
 			*	"cruiser"
@@ -58,7 +58,7 @@ initials:
 		rename:           "Aeneas Beta"
 		at:               {x: -9130, y: -9304}
 		earning:          1.0
-		sprite_override:  "1012"
+		sprite_override:  "loc/planets/bluegas"
 		build:
 			*	"fighter"
 			*	"cruiser"

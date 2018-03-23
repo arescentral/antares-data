@@ -20,7 +20,7 @@ initial_direction:       {begin: 0, end: 360}
 warp_speed:              0.0
 warp_out_distance:       9734400
 rotation:
-	sprite:     "585"
+	sprite:     "ish/etc/research"
 	layer:      2
 	scale:      2.0
 	frames:     {begin: 0, end: 24}
