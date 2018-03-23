@@ -1,6 +1,6 @@
-rows:     4
-cols:     6
-center:   {x: 32, y: 27}
+rows:    4
+cols:    6
+center:  {x: 32, y: 27}
 frames:
 	*	{left: -19, top: -25, right: 21, bottom: 12}
 	*	{left: -23, top: -25, right: 21, bottom: 15}

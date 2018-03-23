@@ -1,5 +1,5 @@
-cols:     5
-center:   {x: 9, y: 9}
+cols:    5
+center:  {x: 9, y: 9}
 frames:
 	*	{left: -9, top: -9, right: 11, bottom: 9}
 	*	{left: -9, top: -9, right: 11, bottom: 9}

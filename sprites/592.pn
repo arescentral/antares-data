@@ -1,5 +1,5 @@
-cols:     7
-center:   {x: 26, y: 53}
+cols:    7
+center:  {x: 26, y: 53}
 frames:
 	*	{left: -18, top: -20, right: 22, bottom: 22}
 	*	{left: -19, top: -38, right: 21, bottom: 22}
