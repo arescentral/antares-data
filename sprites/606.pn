@@ -1,6 +1,5 @@
 image:    "sprites/606/image.png"
 overlay:  "sprites/606/overlay.png"
-rows:     1
 cols:     7
 center:   {x: 15, y: 15}
 frames:
