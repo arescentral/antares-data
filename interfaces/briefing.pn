@@ -22,16 +22,16 @@
 
 *	type:    "picture"
 	bounds:  {left: 2, top: 0, right: 102, bottom: 481}
-	id:      "interfaces/tablet/left"
+	id:      "gui/tablet/left"
 *	type:    "picture"
 	bounds:  {left: 35, top: 0, right: 615, bottom: 100}
-	id:      "interfaces/tablet/top"
+	id:      "gui/tablet/top"
 *	type:    "picture"
 	bounds:  {left: 607, top: 0, right: 707, bottom: 480}
-	id:      "interfaces/tablet/right"
+	id:      "gui/tablet/right"
 *	type:    "picture"
 	bounds:  {left: 35, top: 456, right: 615, bottom: 556}
-	id:      "interfaces/tablet/bottom"
+	id:      "gui/tablet/bottom"
 
 *	type:    "rect"
 	bounds:  {left: 54, top: 58, right: 587, bottom: 419}

@@ -50,13 +50,13 @@
 
 *	type:    "picture"
 	bounds:  {left: 0, top: 245, right: 178, bottom: 471}
-	id:      "interfaces/main/left"
+	id:      "gui/main/left"
 *	type:    "picture"
 	bounds:  {left: 0, top: 0, right: 640, bottom: 245}
-	id:      "interfaces/main/top"
+	id:      "gui/main/top"
 *	type:    "picture"
 	bounds:  {left: 460, top: 245, right: 640, bottom: 471}
-	id:      "interfaces/main/right"
+	id:      "gui/main/right"
 *	type:    "picture"
 	bounds:  {left: 0, top: 456, right: 640, bottom: 480}
-	id:      "interfaces/main/bottom"
+	id:      "gui/main/bottom"
