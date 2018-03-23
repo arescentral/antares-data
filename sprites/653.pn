@@ -1,5 +1,3 @@
-image:    "sprites/653/image.png"
-overlay:  "sprites/653/overlay.png"
 rows:     2
 cols:     3
 center:   {x: 10, y: 9}
