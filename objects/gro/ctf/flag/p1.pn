@@ -18,7 +18,7 @@ initial_direction:       {begin: 0, end: 360}
 warp_speed:              0.0
 warp_out_distance:       1324297
 rotation:
-	sprite:     659
+	sprite:     "659"
 	layer:      2
 	frames:     {begin: 0, end: 24}
 	turn_rate:  2.0

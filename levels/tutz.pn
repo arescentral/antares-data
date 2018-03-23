@@ -24,13 +24,13 @@ initials:
 		rename:           "Command Buoy A"
 		at:               {x: -86, y: -6260}
 		earning:          1.0
-		sprite_override:  591
+		sprite_override:  "591"
 	*	base:             "loc/moon"
 		owner:            0
 		rename:           "Command Buoy B"
 		at:               {x: 0, y: -9478}
 		earning:          1.0
-		sprite_override:  591
+		sprite_override:  "591"
 	*	base:    "zzz/ish/etc/trgtdrne"
 		owner:   0
 		at:      {x: 0, y: -4869}
@@ -45,7 +45,7 @@ initials:
 		rename:           "Build Moon"
 		at:               {x: -9739, y: -86}
 		earning:          1.0
-		sprite_override:  1024
+		sprite_override:  "1024"
 		build:
 			*	"prctcdrn"
 	*	base:             "loc/moon"
@@ -53,7 +53,7 @@ initials:
 		rename:           "Combat Buoy A"
 		at:               {x: 7478, y: 0}
 		earning:          1.0
-		sprite_override:  591
+		sprite_override:  "591"
 	*	base:        "zzz/ish/etc/trgtdrne"
 		owner:       1
 		at:          {x: 7826, y: -2260}
@@ -64,7 +64,7 @@ initials:
 		rename:           "Combat Buoy B"
 		at:               {x: 13391, y: 173}
 		earning:          1.0
-		sprite_override:  591
+		sprite_override:  "591"
 	*	base:        "zzz/ish/etc/trgtdrne"
 		owner:       1
 		at:          {x: 13739, y: 2956}
@@ -80,7 +80,7 @@ initials:
 		rename:           "Combat Buoy C"
 		at:               {x: 19130, y: 173}
 		earning:          1.0
-		sprite_override:  591
+		sprite_override:  "591"
 	*	base:        "zzz/ish/etc/trgtdrne"
 		owner:       1
 		at:          {x: 18782, y: -1043}
@@ -100,7 +100,7 @@ initials:
 		rename:           "Extra Ships"
 		at:               {x: 0, y: 9391}
 		earning:          1.0
-		sprite_override:  591
+		sprite_override:  "591"
 	*	base:    "zzz/ish/cruiser/active"
 		owner:   0
 		at:      {x: 1739, y: 10086}

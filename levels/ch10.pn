@@ -84,7 +84,7 @@ initials:
 		rename:           "Sprist"
 		at:               {x: -434, y: 2260}
 		earning:          1.0
-		sprite_override:  1005
+		sprite_override:  "1005"
 	*	base:        "can/carrier"
 		owner:       1
 		at:          {x: -1652, y: 3217}

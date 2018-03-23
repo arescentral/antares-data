@@ -34,7 +34,7 @@ initials:
 		rename:           "Lalande Alpha"
 		at:               {x: 0, y: 16384}
 		earning:          1.0
-		sprite_override:  1032
+		sprite_override:  "1032"
 		build:
 			*	"cruiser"
 			*	"gunship"
@@ -47,7 +47,7 @@ initials:
 		rename:           "Lalande Beta"
 		at:               {x: 0, y: -16384}
 		earning:          1.0
-		sprite_override:  1033
+		sprite_override:  "1033"
 		build:
 			*	"cruiser"
 			*	"gunship"

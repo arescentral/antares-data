@@ -31,7 +31,7 @@ weapons:
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:
-	sprite:     560
+	sprite:     "560"
 	layer:      2
 	scale:      2.0
 	frames:     {begin: 0, end: 24}

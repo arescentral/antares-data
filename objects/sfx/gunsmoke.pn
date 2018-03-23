@@ -17,7 +17,7 @@ initial_direction:       0
 warp_speed:              0.0
 warp_out_distance:       0
 rotation:
-	sprite:  645
+	sprite:  "645"
 	layer:   3
 	frames:  {begin: 0, end: 24}
 destroy_dont_die:        false

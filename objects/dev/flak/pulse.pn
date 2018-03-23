@@ -17,7 +17,7 @@ initial_direction:       {begin: -15, end: 15}
 warp_speed:              0.0
 warp_out_distance:       0
 animation:
-	sprite:     526
+	sprite:     "526"
 	layer:      3
 	scale:      0.5
 	direction:  "+"

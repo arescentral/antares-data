@@ -34,7 +34,7 @@ initials:
 		rename:           "Philemon Beta"
 		at:               {x: -4000, y: 3000}
 		earning:          1.0
-		sprite_override:  1001
+		sprite_override:  "1001"
 	*	base:    "loc/sun"
 		rename:  "Philemon"
 		at:      {x: 200, y: -200}

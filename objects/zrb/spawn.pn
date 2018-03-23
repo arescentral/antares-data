@@ -19,7 +19,7 @@ initial_direction:  {begin: 0, end: 360}
 warp_speed:         0.0
 warp_out_distance:  0
 animation:
-	sprite:     589
+	sprite:     "589"
 	layer:      2
 	scale:      0.5
 	frames:     {begin: 0.0, end: 4.004}

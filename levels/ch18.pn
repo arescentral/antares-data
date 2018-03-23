@@ -31,7 +31,7 @@ initials:
 		rename:           "Proxima Beta"
 		at:               {x: -9044, y: -17130}
 		earning:          1.0
-		sprite_override:  1021
+		sprite_override:  "1021"
 		build:
 			*	"fighter"
 			*	"cruiser"

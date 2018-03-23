@@ -17,7 +17,7 @@ initial_direction:       {begin: 0, end: 360}
 warp_speed:              0.0
 warp_out_distance:       0
 animation:
-	sprite:     517
+	sprite:     "517"
 	layer:      3
 	frames:     {begin: 0.0, end: 2.004}
 	direction:  "+"

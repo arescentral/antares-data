@@ -18,7 +18,7 @@ warp_out_distance:       0
 weapons:
 	special:
 		base:  "can/etc/spawner/item"
-animation:               {sprite: 573, layer: 1}
+animation:               {sprite: "573", layer: 1}
 shield_color:            {r: 240, g: 0, b: 0}
 on_activate:
 	*	type:       "fire"

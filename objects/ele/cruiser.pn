@@ -28,7 +28,7 @@ weapons:
 			*	{x: -5.0, y: 0.0}
 			*	{x: 5.0, y: 0.0}
 rotation:
-	sprite:     582
+	sprite:     "582"
 	layer:      2
 	frames:     {begin: 0, end: 24}
 	turn_rate:  2.5

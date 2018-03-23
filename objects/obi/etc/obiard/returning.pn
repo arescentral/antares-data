@@ -19,7 +19,7 @@ weapons:
 	beam:
 		base:  "dev/pk/ish/hand"
 rotation:
-	sprite:     596
+	sprite:     "596"
 	layer:      2
 	scale:      0.5
 	frames:     {begin: 0, end: 24}

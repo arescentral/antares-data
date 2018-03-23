@@ -29,7 +29,7 @@ weapons:
 			*	{x: -3.0, y: 0.0}
 			*	{x: 3.0, y: 0.0}
 rotation:
-	sprite:     619
+	sprite:     "619"
 	layer:      2
 	scale:      0.5
 	frames:     {begin: 0, end: 24}

@@ -34,7 +34,7 @@ initials:
 		rename:           "Proteus Alpha"
 		at:               {x: 28260, y: 27129}
 		earning:          1.0
-		sprite_override:  1025
+		sprite_override:  "1025"
 		build:
 			*	"cruiser"
 			*	"gunship"
@@ -47,7 +47,7 @@ initials:
 		rename:           "Proteus Beta"
 		at:               {x: -28260, y: -27129}
 		earning:          1.0
-		sprite_override:  1026
+		sprite_override:  "1026"
 		build:
 			*	"cruiser"
 			*	"gunship"

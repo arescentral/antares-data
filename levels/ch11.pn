@@ -23,7 +23,7 @@ initials:
 		owner:            0
 		rename:           "UNS Ares"
 		at:               {x: 0, y: 0}
-		sprite_override:  599
+		sprite_override:  "599"
 	*	base:        "ish/etc/hvd/rescue"
 		owner:       0
 		at:          {x: 521, y: 3304}
