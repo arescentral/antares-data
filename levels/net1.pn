@@ -63,12 +63,12 @@ initials:
 		rename:   "Bunker Station 2"
 		at:       {x: 6621, y: -22621}
 		earning:  1.0
-	*	base:        "ish/hvd"
+	*	base:        "hvd"
 		owner:       0
 		at:          {x: 28520, y: 27129}
 		target:      2
 		attributes:  {initially_hidden: true, is_player_ship: true}
-	*	base:        "ish/hvd"
+	*	base:        "hvd"
 		owner:       1
 		at:          {x: -21131, y: -18608}
 		target:      3

@@ -1,17 +1,20 @@
-type:     "demo"
+type:     "solo"
 chapter:  25
 title:
 	>	\i **DEV-23** 
 	|	\i 
 	!
 players:
-	*	race:           "ish"
+	*	type:           "human"
+		race:           "ish"
 		name:           "The Human/Ishiman Cooperative"
 		earning_power:  1.0
-	*	race:           "ish"
+	*	type:           "cpu"
+		race:           "ish"
 		name:           "The Human/Ishiman Cooperative"
 		earning_power:  1.0
-	*	race:           "aud"
+	*	type:           "cpu"
+		race:           "aud"
 		name:           "The Audemedon Axis"
 		earning_power:  2.0
 song:     5002
@@ -54,17 +57,17 @@ initials:
 			*	"gunship"
 			*	"escort"
 			*	"hvd"
-	*	base:        "ish/hvd"
+	*	base:        "hvd"
 		owner:       0
 		at:          {x: 9000, y: 0}
 		target:      0
 		attributes:  {is_player_ship: true}
-	*	base:        "ish/hvd"
+	*	base:        "hvd"
 		owner:       1
 		at:          {x: -9000, y: 0}
 		target:      1
 		attributes:  {is_player_ship: true}
-	*	base:        "ish/hvd"
+	*	base:        "hvd"
 		owner:       2
 		at:          {x: 0, y: 9000}
 		target:      2
