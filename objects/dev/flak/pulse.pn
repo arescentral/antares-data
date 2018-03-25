@@ -35,6 +35,5 @@ on_collide:
 		reflexive:           true
 		base:                "sfx/explosion/flak"
 		relative_direction:  true
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

@@ -2,7 +2,6 @@ long_name:               "P-K Beam Cannon"
 short_name:              "PKBEAM 1"
 notes:                   "P-K Beam Cannon"
 health:                  1000
-initial_velocity:        0.0
 initial_direction:       {begin: -5, end: 5}
 device:
 	usage:          {attacking: true}
@@ -16,6 +15,5 @@ on_activate:
 		base:                "dev/pk/can/beam"
 		relative_velocity:   true
 		relative_direction:  true
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

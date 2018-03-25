@@ -1,8 +1,6 @@
 long_name:               "Rapid P-K Cannon"
 short_name:              "PKBEAM 2"
 notes:                   "Rapid P-K Cannon"
-initial_velocity:        0.0
-initial_direction:       0
 device:
 	usage:          {attacking: true}
 	energy_cost:    5
@@ -15,6 +13,5 @@ on_activate:
 		base:                "dev/pk/ish/beam"
 		relative_velocity:   true
 		relative_direction:  true
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

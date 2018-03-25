@@ -4,12 +4,9 @@ notes:                   "Gunsmoke"
 attributes:              {shape_from_direction: true}
 health:                  1000
 initial_age:             4
-initial_velocity:        0.0
-initial_direction:       0
 rotation:
 	sprite:  "sfx/gunsmoke"
 	layer:   3
 	frames:  {begin: 0, end: 24}
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

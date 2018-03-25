@@ -1,10 +1,7 @@
 long_name:               "Untitled"
 short_name:              "Untitled"
 notes:                   "Untitled"
-initial_velocity:        0.0
-initial_direction:       0
 device:                  {energy_cost: 0, fire_time: 0, ammo: 0, range: 0, inverse_speed: 0.0, restock_cost: 0}
-activate_period:         0
 arrive_action_distance:  50000
 offense:                 -1.0
 destination_class:       0

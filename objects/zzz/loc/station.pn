@@ -4,8 +4,6 @@ notes:                   "Station"
 attributes:              {is_self_animated: true, can_be_destination: true, can_accept_build: true, is_destination: true}
 level_tag:               "a"
 damage:                  1
-initial_velocity:        0.0
-initial_direction:       0
 animation:
 	sprite:  "loc/planets/marslike"
 	layer:   1
@@ -13,7 +11,6 @@ animation:
 icon:
 	shape:  "square"
 	size:   7
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       10
 friend_deficit:          3.0

@@ -39,7 +39,6 @@ on_arrive:
 	*	type:              "kill"
 		level_key_filter:  "6"
 		kind:              "expire"
-activate_period:         0
 arrive_action_distance:  5000
 skill_num:               3
 skill_den:               21

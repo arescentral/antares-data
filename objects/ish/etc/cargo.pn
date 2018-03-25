@@ -13,7 +13,6 @@ build_time:              660
 mass:                    1.098
 max_velocity:            3.0
 max_thrust:              0.156
-initial_velocity:        0.0
 initial_direction:       {begin: 0, end: 360}
 warp_out_distance:       9734400
 rotation:
@@ -44,7 +43,6 @@ on_arrive:
 	*	type:              "kill"
 		level_key_filter:  "6"
 		kind:              "expire"
-activate_period:         0
 arrive_action_distance:  20000
 skill_num:               3
 skill_den:               21

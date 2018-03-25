@@ -3,7 +3,6 @@ short_name:              "ENOBJSHT"
 notes:                   "Gaitori"
 attributes:              {is_self_animated: true, animation_cycle: true}
 health:                  1000
-initial_velocity:        0.0
 initial_direction:       {begin: 0, end: 360}
 weapons:
 	special:
@@ -12,6 +11,5 @@ animation:
 	sprite:  "sfx/invisible"
 	layer:   1
 shield_color:            {r: 240, g: 0, b: 0}
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

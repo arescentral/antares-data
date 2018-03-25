@@ -45,7 +45,6 @@ on_expire:
 			>	The Elejeetian liner successfully exited through the jumpgate. Minister
 			>	Jommo pledges to do what he can to convince his Emperor to provide you
 			>	with ships or technology.
-activate_period:         0
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21

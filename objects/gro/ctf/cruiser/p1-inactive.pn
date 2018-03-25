@@ -14,7 +14,6 @@ build_ratio:             1.0
 build_time:              300
 mass:                    1.0
 max_thrust:              0.027
-initial_velocity:        0.0
 initial_direction:       {begin: 0, end: 360}
 rotation:
 	sprite:     "gro/ctf/cruiser"
@@ -26,7 +25,6 @@ icon:
 	size:   4
 shield_color:            {r: 255, g: 255, b: 255}
 destroy_dont_die:        true
-activate_period:         0
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21

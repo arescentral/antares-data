@@ -9,7 +9,6 @@ mass:                    0.5
 max_velocity:            9.0
 max_thrust:              0.2
 initial_velocity:        7.0
-initial_direction:       0
 animation:
 	sprite:     "dev/rplasma"
 	layer:      3
@@ -48,7 +47,6 @@ on_collide:
 	*	type:       "kill"
 		reflexive:  true
 		kind:       "none"
-activate_period:         0
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21

@@ -69,7 +69,6 @@ on_destroy:
 				|	The Cantharan Gate Ship is forming a jump gate and withdrawing-- we'll
 				>	try to determine where its jump stream terminates. \i<EOT>\i 
 destroy_dont_die:        true
-activate_period:         0
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21

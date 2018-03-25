@@ -3,8 +3,6 @@ short_name:              "POWERSTN"
 notes:                   "Power Station"
 attributes:              {can_be_engaged: true, is_self_animated: true, can_be_destination: true, can_collide: true, can_be_hit: true, is_destination: true, hated: true, appear_on_radar: true}
 health:                  1000
-initial_velocity:        0.0
-initial_direction:       0
 animation:
 	sprite:  "loc/power"
 	layer:   1
@@ -18,6 +16,5 @@ on_destroy:
 		reflexive:           true
 		base:                "sfx/explosion/large"
 		relative_direction:  true
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

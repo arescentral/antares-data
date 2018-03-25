@@ -34,7 +34,6 @@ on_collide:
 	*	type:              "kill"
 		level_key_filter:  "e"
 		kind:              "expire"
-activate_period:         0
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21

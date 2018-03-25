@@ -47,7 +47,6 @@ on_collide:
 		priority:     3
 		persistence:  10
 		volume:       255
-activate_period:    0
 skill_num:          3
 skill_den:          21
 offense:            0.5

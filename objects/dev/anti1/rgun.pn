@@ -2,8 +2,6 @@ long_name:               "Rap A Pulse React"
 short_name:              "RPAPULSE"
 notes:                   "Rap A Pulse React"
 health:                  1000
-initial_velocity:        0.0
-initial_direction:       0
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -18,6 +16,5 @@ on_activate:
 		base:                "dev/anti1/pulse"
 		relative_velocity:   true
 		relative_direction:  true
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

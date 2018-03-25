@@ -4,8 +4,6 @@ notes:                   "Hand PK Beam"
 health:                  1000
 initial_age:             15
 max_velocity:            10.0
-initial_velocity:        0.0
-initial_direction:       0
 device:
 	usage:          {attacking: true}
 	energy_cost:    10
@@ -18,6 +16,5 @@ on_activate:
 		base:                "dev/pk/ish/beam"
 		relative_velocity:   true
 		relative_direction:  true
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

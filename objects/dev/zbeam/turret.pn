@@ -3,8 +3,6 @@ short_name:              "Z BEAM"
 notes:                   "Z Beam Cannon"
 attributes:              {autotarget: true}
 health:                  1000
-initial_velocity:        0.0
-initial_direction:       0
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -17,6 +15,5 @@ on_activate:
 		base:                "dev/zbeam/bolt"
 		relative_velocity:   true
 		relative_direction:  true
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

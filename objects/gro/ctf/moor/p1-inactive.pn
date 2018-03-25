@@ -7,8 +7,6 @@ level_tag:               "9"
 engage_tag:              "9"
 health:                  1000
 initial_age:             1800
-initial_velocity:        0.0
-initial_direction:       0
 weapons:
 	special:
 		base:  "dev/reactivator/p2"
@@ -34,6 +32,5 @@ on_expire:
 		base:       "gro/ctf/moor/p1-active"
 destroy_dont_die:        true
 expire_dont_die:         true
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

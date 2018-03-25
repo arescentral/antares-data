@@ -8,7 +8,6 @@ health:                  6500
 energy:                  6500
 price:                   6000
 mass:                    2.5
-initial_velocity:        0.0
 initial_direction:       {begin: 0, end: 360}
 warp_out_distance:       9734400
 rotation:
@@ -26,6 +25,5 @@ on_destroy:
 		reflexive:           true
 		base:                "sfx/explosion/giant"
 		relative_direction:  true
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       7

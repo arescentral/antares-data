@@ -2,8 +2,6 @@ long_name:               "Super Nova"
 short_name:              "SUPRNOVA"
 notes:                   "Gate Ship Explodes"
 attributes:              {is_self_animated: true}
-initial_velocity:        0.0
-initial_direction:       0
 animation:
 	sprite:     "sfx/explosion/gas"
 	layer:      3

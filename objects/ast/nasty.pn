@@ -8,7 +8,6 @@ energy:                  2000
 mass:                    10.0
 max_velocity:            7.0
 initial_velocity:        {begin: 3.0, end: 4.0}
-initial_direction:       0
 animation:
 	sprite:     "ast/nasty"
 	layer:      2
@@ -28,7 +27,6 @@ on_collide:
 	*	type:       "kill"
 		reflexive:  true
 		kind:       "destroy"
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256
 friend_deficit:          1.0

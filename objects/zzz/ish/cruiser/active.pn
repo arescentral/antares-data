@@ -12,7 +12,6 @@ build_time:              300
 mass:                    1.0
 max_velocity:            5.0
 max_thrust:              0.156
-initial_velocity:        0.0
 initial_direction:       {begin: 0, end: 360}
 warp_speed:              40.0
 warp_out_distance:       9734400
@@ -55,7 +54,6 @@ on_destroy:
 		delay:      360
 		base:       "zzz/ish/cruiser/active"
 destroy_dont_die:        true
-activate_period:         0
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21

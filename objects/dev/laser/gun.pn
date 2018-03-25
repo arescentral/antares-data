@@ -2,8 +2,6 @@ long_name:               "Laser Cannon"
 short_name:              "LASER"
 notes:                   "Laser Cannon"
 health:                  1000
-initial_velocity:        0.0
-initial_direction:       0
 device:
 	usage:          {attacking: true}
 	energy_cost:    10
@@ -22,6 +20,5 @@ on_activate:
 		priority:     3
 		persistence:  10
 		volume:       255
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

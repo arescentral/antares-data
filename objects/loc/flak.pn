@@ -9,7 +9,6 @@ health:                  15000
 energy:                  1000
 price:                   1000
 mass:                    1.0
-initial_velocity:        0.0
 initial_direction:       {begin: 0, end: 360}
 weapons:
 	pulse:
@@ -39,7 +38,6 @@ on_destroy:
 		reflexive:           true
 		base:                "sfx/explosion/large"
 		relative_direction:  true
-activate_period:         0
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21

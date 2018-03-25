@@ -2,8 +2,6 @@ long_name:               "Lepton Beam Cannon"
 short_name:              "LBEAM 1"
 notes:                   "Lepton Beam Cannon"
 health:                  1000
-initial_velocity:        0.0
-initial_direction:       0
 device:
 	usage:          {attacking: true}
 	energy_cost:    10
@@ -16,6 +14,5 @@ on_activate:
 		base:                "dev/lepton/beam"
 		relative_velocity:   true
 		relative_direction:  true
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

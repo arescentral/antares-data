@@ -2,7 +2,6 @@ long_name:               "Alter Battleship"
 short_name:              "ALTERTST"
 notes:                   "Alter Battleship"
 health:                  1000
-initial_velocity:        0.0
 initial_direction:       {begin: -5, end: 5}
 device:
 	usage:          {attacking: true}
@@ -14,6 +13,5 @@ on_activate:
 	*	type:       "morph"
 		reflexive:  true
 		base:       "baz/bttlship"
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

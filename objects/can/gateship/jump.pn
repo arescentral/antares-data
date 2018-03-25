@@ -31,7 +31,6 @@ icon:
 	size:   10
 shield_color:            {r: 255, g: 255, b: 255}
 destroy_dont_die:        true
-activate_period:         0
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21

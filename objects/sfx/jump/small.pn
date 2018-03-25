@@ -4,8 +4,6 @@ notes:                   "Jump Gate Effect"
 attributes:              {is_self_animated: true}
 health:                  1000
 damage:                  1
-initial_velocity:        0.0
-initial_direction:       0
 animation:
 	sprite:     "sfx/jump"
 	layer:      1
@@ -20,6 +18,5 @@ on_create:
 		priority:     4
 		persistence:  20
 		volume:       255
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

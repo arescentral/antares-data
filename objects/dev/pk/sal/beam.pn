@@ -7,7 +7,6 @@ damage:                  30
 initial_age:             55
 max_velocity:            25.0
 initial_velocity:        15.0
-initial_direction:       0
 vector:
 	color:     {r: 255, g: 127, b: 0}
 	kind:      "kinetic"
@@ -21,6 +20,5 @@ on_collide:
 	*	type:       "kill"
 		reflexive:  true
 		kind:       "expire"
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

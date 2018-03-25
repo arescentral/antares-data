@@ -60,7 +60,6 @@ on_arrive:
 		level_key_filter:  "a"
 		owner:             "different"
 		value:             1
-activate_period:         0
 arrive_action_distance:  5000
 skill_num:               3
 skill_den:               21

@@ -1,8 +1,6 @@
 long_name:               "Retroburst"
 short_name:              "RTROBRST"
 notes:                   "Retroburst"
-initial_velocity:        0.0
-initial_direction:       0
 device:
 	usage:          {defense: true}
 	energy_cost:    10
@@ -25,6 +23,5 @@ on_activate:
 		reflexive:  true
 		delay:      7
 		kind:       "stop"
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

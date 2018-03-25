@@ -4,8 +4,6 @@ notes:                   "Large Hit Explosion"
 attributes:              {is_self_animated: true}
 health:                  1000
 damage:                  100
-initial_velocity:        0.0
-initial_direction:       0
 animation:
 	sprite:     "sfx/explosion/large-hit"
 	layer:      3
@@ -26,6 +24,5 @@ on_create:
 		hue:        "orange"
 		decay:      20
 		velocity:   2.0
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

@@ -4,8 +4,6 @@ notes:                   "Jump Gate"
 attributes:              {is_self_animated: true, can_be_destination: true, animation_cycle: true, is_destination: true}
 level_tag:               "3"
 health:                  1000
-initial_velocity:        0.0
-initial_direction:       0
 animation:
 	sprite:  "sfx/invisible"
 	layer:   1
@@ -20,6 +18,5 @@ on_destroy:
 		which:      0
 		value:      1
 		player:     0
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

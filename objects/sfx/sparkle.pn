@@ -4,14 +4,11 @@ notes:                   "Sparkle"
 attributes:              {is_self_animated: true}
 health:                  1000
 damage:                  100
-initial_velocity:        0.0
-initial_direction:       0
 animation:
 	sprite:     "sfx/sparkle"
 	layer:      3
 	frames:     {begin: 0.0, end: 6.004}
 	direction:  "+"
 	speed:      0.156
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

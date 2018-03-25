@@ -27,7 +27,6 @@ on_destroy:
 		count:               3
 		relative_velocity:   true
 		relative_direction:  true
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256
 friend_deficit:          1.0

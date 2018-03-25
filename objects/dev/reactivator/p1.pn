@@ -5,8 +5,6 @@ attributes:              {autotarget: true}
 health:                  1000
 initial_age:             160
 max_velocity:            9.0
-initial_velocity:        0.0
-initial_direction:       0
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -24,6 +22,5 @@ on_activate:
 		volume:       255
 	*	type:       "hold"
 		reflexive:  true
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

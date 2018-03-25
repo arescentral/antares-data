@@ -42,7 +42,6 @@ on_arrive:
 		inclusive_filter:  {can_be_engaged: true}
 		owner:             "different"
 		kind:              "destroy"
-activate_period:         0
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21

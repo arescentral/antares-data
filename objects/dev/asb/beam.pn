@@ -8,7 +8,6 @@ initial_age:             40
 max_velocity:            20.0
 max_thrust:              0.45
 initial_velocity:        2.0
-initial_direction:       0
 vector:
 	color:     {r: 0, g: 127, b: 255}
 	kind:      "kinetic"
@@ -35,6 +34,5 @@ on_collide:
 	*	type:       "kill"
 		reflexive:  true
 		kind:       "none"
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

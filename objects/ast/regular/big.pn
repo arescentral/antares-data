@@ -9,7 +9,6 @@ damage:                  10
 mass:                    10.0
 max_velocity:            3.0
 initial_velocity:        {begin: 3.0, end: 4.0}
-initial_direction:       0
 animation:
 	sprite:     "ast/regular/big"
 	layer:      2
@@ -45,7 +44,6 @@ on_create:
 		relative_velocity:   true
 		relative_direction:  true
 		distance:            2
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256
 friend_deficit:          1.0

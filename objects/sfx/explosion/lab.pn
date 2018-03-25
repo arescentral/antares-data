@@ -2,8 +2,6 @@ long_name:               "Giant Explosion"
 short_name:              "EXPLOSN"
 notes:                   "Debris-less"
 attributes:              {is_self_animated: true}
-initial_velocity:        0.0
-initial_direction:       0
 animation:
 	sprite:     "sfx/explosion/energy"
 	layer:      3
@@ -21,6 +19,5 @@ on_create:
 		priority:     4
 		persistence:  20
 		volume:       255
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

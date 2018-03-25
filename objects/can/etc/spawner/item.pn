@@ -2,8 +2,6 @@ long_name:               "Enemy Shooter Wpn"
 short_name:              "ENSHTWPN"
 notes:                   "Enemy Shooter Wpn"
 attributes:              {autotarget: true}
-initial_velocity:        0.0
-initial_direction:       0
 device:
 	usage:          {attacking: true, defense: true}
 	energy_cost:    0
@@ -27,6 +25,5 @@ on_activate:
 		base:       "can/schooner"
 		count:      {begin: 0, end: 2}
 		distance:   256
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

@@ -23,7 +23,6 @@ icon:
 	shape:  "triangle"
 	size:   4
 shield_color:            {r: 240, g: 240, b: 120}
-activate_period:         0
 arrive_action_distance:  50000
 offense:                 1.0
 destination_class:       3

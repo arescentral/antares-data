@@ -4,8 +4,6 @@ notes:                   "Audemedon Assault Team"
 health:                  1000
 initial_age:             160
 max_velocity:            9.0
-initial_velocity:        0.0
-initial_direction:       0
 device:                  {energy_cost: 0, fire_time: 240, ammo: 2, range: 2073600, inverse_speed: 0.11}
 on_activate:
 	*	type:         "sound"
@@ -20,6 +18,5 @@ on_activate:
 		count:      10
 		distance:   4
 		inherit:    true
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

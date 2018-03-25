@@ -55,7 +55,6 @@ on_collide:
 		base:       "zrb/spawn"
 		count:      {begin: -1, end: 3}
 		distance:   2
-activate_period:    0
 skill_num:          3
 skill_den:          21
 offense:            0.5

@@ -5,8 +5,6 @@ attributes:              {is_self_animated: true, can_be_destination: true}
 level_tag:               "6"
 health:                  1000
 damage:                  1
-initial_velocity:        0.0
-initial_direction:       0
 animation:
 	sprite:  "obi/etc/liner"
 	layer:   2
@@ -15,7 +13,6 @@ animation:
 icon:
 	shape:  "plus"
 	size:   7
-activate_period:         0
 arrive_action_distance:  50000
 offense:                 -5.0
 destination_class:       -256

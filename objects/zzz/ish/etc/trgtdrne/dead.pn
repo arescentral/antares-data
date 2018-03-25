@@ -12,7 +12,6 @@ build_ratio:             0.75
 build_time:              180
 mass:                    0.797
 max_thrust:              0.25
-initial_velocity:        0.0
 initial_direction:       {begin: 0, end: 360}
 animation:
 	sprite:     "ish/etc/trgtdrne"
@@ -26,7 +25,6 @@ icon:
 	size:   3
 shield_color:            {r: 255, g: 255, b: 255}
 destroy_dont_die:        true
-activate_period:         0
 arrive_action_distance:  50000
 offense:                 0.5
 destination_class:       1

@@ -2,8 +2,6 @@ long_name:               "Enemy Object Wpn"
 short_name:              "ENOBJWPN"
 notes:                   "Gaitor"
 attributes:              {autotarget: true}
-initial_velocity:        0.0
-initial_direction:       0
 device:
 	usage:          {attacking: true, defense: true}
 	energy_cost:    0
@@ -23,6 +21,5 @@ on_activate:
 		base:       "gai/fighter"
 		count:      {begin: 1, end: 5}
 		distance:   256
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

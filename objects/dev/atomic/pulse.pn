@@ -9,7 +9,6 @@ mass:                    4.0
 max_velocity:            7.0
 max_thrust:              0.098
 initial_velocity:        2.0
-initial_direction:       0
 animation:
 	sprite:     "dev/atomic"
 	layer:      3

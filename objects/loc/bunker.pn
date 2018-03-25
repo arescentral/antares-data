@@ -6,8 +6,6 @@ level_tag:               "a"
 health:                  5000
 energy:                  1000
 occupy_count:            5
-initial_velocity:        0.0
-initial_direction:       0
 weapons:
 	pulse:
 		base:  "dev/pp/turret"
@@ -23,7 +21,6 @@ icon:
 	shape:  "square"
 	size:   7
 portrait:                "loc/bunker"
-activate_period:         0
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21

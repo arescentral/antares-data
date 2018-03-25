@@ -2,14 +2,11 @@ long_name:               "Quasimatter Exp"
 short_name:              "QUASEXPL"
 notes:                   "Quasimatter Explosion"
 attributes:              {is_self_animated: true}
-initial_velocity:        0.0
-initial_direction:       0
 animation:
 	sprite:     "sfx/explosion/quasi"
 	layer:      3
 	frames:     {begin: 0.0, end: 6.004}
 	direction:  "+"
 	speed:      0.117
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

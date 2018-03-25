@@ -31,7 +31,6 @@ on_collide:
 		priority:          3
 		persistence:       10
 		volume:            255
-activate_period:         0
 arrive_action_distance:  18
 skill_num:               3
 skill_den:               21

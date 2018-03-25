@@ -8,7 +8,6 @@ initial_age:             45
 mass:                    0.098
 max_velocity:            12.0
 initial_velocity:        12.0
-initial_direction:       0
 animation:
 	sprite:  "dev/fireball"
 	layer:   3

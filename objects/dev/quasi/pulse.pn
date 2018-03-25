@@ -39,6 +39,5 @@ on_collide:
 	*	type:       "kill"
 		reflexive:  true
 		kind:       "expire"
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

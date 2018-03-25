@@ -27,6 +27,5 @@ on_destroy:
 	*	type:       "create"
 		reflexive:  true
 		base:       "sfx/explosion/small"
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256

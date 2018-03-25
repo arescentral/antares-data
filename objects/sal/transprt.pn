@@ -55,7 +55,6 @@ on_arrive:
 		priority:          5
 		persistence:       20
 		volume:            255
-activate_period:         0
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21

@@ -8,7 +8,6 @@ initial_age:             30
 mass:                    0.5
 max_velocity:            3.0
 initial_velocity:        3.0
-initial_direction:       0
 animation:
 	sprite:     "dev/anti"
 	layer:      3
@@ -47,6 +46,5 @@ on_collide:
 	*	type:       "kill"
 		reflexive:  true
 		kind:       "expire"
-activate_period:         0
 arrive_action_distance:  50000
 destination_class:       -256
