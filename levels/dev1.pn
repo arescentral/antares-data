@@ -13,6 +13,7 @@ players:
 		race:           "ish"
 		name:           "The Human/Ishiman Cooperative"
 		earning_power:  1.0
+		hue:            "salmon"
 	*	type:           "cpu"
 		race:           "aud"
 		name:           "The Audemedon Axis"
