@@ -3,9 +3,7 @@ short_name:              "HOLODCOY"
 notes:                   "Holographic Decoy"
 attributes:              {can_turn: true, can_be_engaged: true, does_bounce: true, shape_from_direction: true, hated: true, can_be_evaded: true, appear_on_radar: true}
 health:                  1500
-damage:                  0
 energy:                  1000
-price:                   0
 build_ratio:             1.0
 build_time:              300
 initial_age:             {begin: 90, end: 180}
@@ -25,13 +23,8 @@ icon:
 	shape:  "triangle"
 	size:   4
 shield_color:            {r: 240, g: 240, b: 120}
-destroy_dont_die:        false
-expire_dont_die:         false
 activate_period:         0
 arrive_action_distance:  50000
-skill_num:               0
-skill_den:               0
 offense:                 1.0
 destination_class:       3
-friend_deficit:          0.0
 danger_threshold:        1.0

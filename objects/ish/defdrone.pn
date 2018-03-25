@@ -7,7 +7,6 @@ order_flags:             {base: true, local: true, friend: true, hard_local: tru
 class:                   600
 race:                    "ish"
 health:                  1500
-damage:                  0
 energy:                  1000
 price:                   1000
 build_ratio:             0.5
@@ -17,8 +16,6 @@ max_velocity:            0.348
 max_thrust:              0.047
 initial_velocity:        0.098
 initial_direction:       {begin: 0, end: 360}
-warp_speed:              0.0
-warp_out_distance:       0
 weapons:
 	pulse:
 		base:  "dev/fusion/rgun"
@@ -43,13 +40,10 @@ on_destroy:
 		reflexive:           true
 		base:                "sfx/explosion/large"
 		relative_direction:  true
-destroy_dont_die:        false
-expire_dont_die:         false
 activate_period:         0
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21
 offense:                 1.5
 destination_class:       9
-friend_deficit:          0.0
 danger_threshold:        1.0

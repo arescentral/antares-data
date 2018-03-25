@@ -4,17 +4,9 @@ notes:                   "Gas Explosion"
 attributes:              {is_self_animated: true}
 health:                  1000
 damage:                  100
-energy:                  0
-price:                   0
-build_ratio:             0.0
-build_time:              0
-mass:                    0.0
 max_velocity:            20.0
-max_thrust:              0.0
 initial_velocity:        0.0
 initial_direction:       0
-warp_speed:              0.0
-warp_out_distance:       0
 animation:
 	sprite:     "sfx/explosion/gas"
 	layer:      3
@@ -31,13 +23,6 @@ on_create:
 		priority:     4
 		persistence:  30
 		volume:       255
-destroy_dont_die:        false
-expire_dont_die:         false
 activate_period:         0
 arrive_action_distance:  50000
-skill_num:               0
-skill_den:               0
-offense:                 0.0
 destination_class:       -256
-friend_deficit:          0.0
-danger_threshold:        0.0

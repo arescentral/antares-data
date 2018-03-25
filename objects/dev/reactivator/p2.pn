@@ -3,19 +3,10 @@ short_name:              "RCTVTR"
 notes:                   "Reactivator, for CTF, P2"
 attributes:              {autotarget: true}
 health:                  1000
-damage:                  0
-energy:                  0
-price:                   0
-build_ratio:             0.0
-build_time:              0
 initial_age:             160
-mass:                    0.0
 max_velocity:            9.0
-max_thrust:              0.0
 initial_velocity:        0.0
 initial_direction:       0
-warp_speed:              0.0
-warp_out_distance:       0
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -33,13 +24,6 @@ on_activate:
 		volume:       255
 	*	type:       "hold"
 		reflexive:  true
-destroy_dont_die:        false
-expire_dont_die:         false
 activate_period:         0
 arrive_action_distance:  50000
-skill_num:               0
-skill_den:               0
-offense:                 0.0
 destination_class:       -256
-friend_deficit:          0.0
-danger_threshold:        0.0

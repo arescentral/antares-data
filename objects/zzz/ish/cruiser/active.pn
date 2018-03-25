@@ -5,7 +5,6 @@ attributes:              {can_turn: true, can_be_engaged: true, has_direction_go
 class:                   1803
 race:                    "ish"
 health:                  1000
-damage:                  0
 energy:                  1000
 price:                   1000
 build_ratio:             1.0
@@ -56,12 +55,10 @@ on_destroy:
 		delay:      360
 		base:       "zzz/ish/cruiser/active"
 destroy_dont_die:        true
-expire_dont_die:         false
 activate_period:         0
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21
 offense:                 1.0
 destination_class:       3
-friend_deficit:          0.0
 danger_threshold:        1.0

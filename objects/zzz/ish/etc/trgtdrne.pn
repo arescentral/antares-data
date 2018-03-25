@@ -6,7 +6,6 @@ order_flags:             {local: true}
 class:                   123
 race:                    "ish"
 health:                  250
-damage:                  0
 energy:                  600
 price:                   600
 build_ratio:             0.75
@@ -16,8 +15,6 @@ max_velocity:            3.0
 max_thrust:              0.297
 initial_velocity:        0.5
 initial_direction:       {begin: 0, end: 360}
-warp_speed:              0.0
-warp_out_distance:       0
 weapons:
 	beam:
 		base:  "zzz/dev/inert/turret"
@@ -61,12 +58,10 @@ on_destroy:
 		delay:      60
 		base:       "zzz/ish/etc/trgtdrne"
 destroy_dont_die:        true
-expire_dont_die:         false
 activate_period:         0
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21
 offense:                 0.5
 destination_class:       1
-friend_deficit:          0.0
 danger_threshold:        2.0

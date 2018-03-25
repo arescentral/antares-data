@@ -15,8 +15,6 @@ max_velocity:       6.0
 max_thrust:         0.098
 initial_velocity:   6.0
 initial_direction:  {begin: 0, end: 360}
-warp_speed:         0.0
-warp_out_distance:  0
 animation:
 	sprite:     "zrb/base"
 	layer:      2
@@ -49,12 +47,9 @@ on_collide:
 		priority:     3
 		persistence:  10
 		volume:       255
-destroy_dont_die:   false
-expire_dont_die:    false
 activate_period:    0
 skill_num:          3
 skill_den:          21
 offense:            0.5
 destination_class:  1
-friend_deficit:     0.0
 danger_threshold:   2.0

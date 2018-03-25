@@ -5,7 +5,6 @@ attributes:              {can_turn: true, can_be_engaged: true, has_direction_go
 class:                   500
 race:                    "sal"
 health:                  7500
-damage:                  0
 energy:                  6500
 price:                   6000
 build_ratio:             0.098
@@ -46,8 +45,6 @@ on_destroy:
 		reflexive:           true
 		base:                "sfx/explosion/giant"
 		relative_direction:  true
-destroy_dont_die:        false
-expire_dont_die:         false
 activate_period:         0
 arrive_action_distance:  50000
 skill_num:               3

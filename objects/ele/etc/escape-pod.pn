@@ -5,18 +5,14 @@ attributes:              {does_bounce: true, is_self_animated: true, can_be_dest
 class:                   801
 race:                    "ele"
 health:                  250
-damage:                  0
 energy:                  1000
 price:                   800
 build_ratio:             0.7
 build_time:              660
 mass:                    0.098
 max_velocity:            1.5
-max_thrust:              0.0
 initial_velocity:        1.5
 initial_direction:       {begin: 0, end: 360}
-warp_speed:              0.0
-warp_out_distance:       0
 animation:
 	sprite:     "ele/etc/escape-pod"
 	layer:      2
@@ -51,13 +47,8 @@ on_collide:
 	*	type:       "kill"
 		reflexive:  true
 		kind:       "none"
-destroy_dont_die:        false
-expire_dont_die:         false
 activate_period:         0
 arrive_action_distance:  50000
-skill_num:               0
-skill_den:               0
-offense:                 0.0
 destination_class:       9
 friend_deficit:          2.0
 danger_threshold:        4.0

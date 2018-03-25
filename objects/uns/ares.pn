@@ -5,17 +5,8 @@ attributes:              {is_self_animated: true, can_be_destination: true}
 level_tag:               "6"
 health:                  1000
 damage:                  1
-energy:                  0
-price:                   0
-build_ratio:             0.0
-build_time:              0
-mass:                    0.0
-max_velocity:            0.0
-max_thrust:              0.0
 initial_velocity:        0.0
 initial_direction:       0
-warp_speed:              0.0
-warp_out_distance:       0
 animation:
 	sprite:  "uns/ares"
 	layer:   2
@@ -24,13 +15,8 @@ animation:
 icon:
 	shape:  "plus"
 	size:   7
-destroy_dont_die:        false
-expire_dont_die:         false
 activate_period:         0
 arrive_action_distance:  50000
-skill_num:               0
-skill_den:               0
 offense:                 -5.0
 destination_class:       -256
 friend_deficit:          -5.0
-danger_threshold:        0.0

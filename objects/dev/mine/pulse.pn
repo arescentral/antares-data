@@ -4,18 +4,12 @@ notes:                   "Lightwave Pulse"
 attributes:              {is_self_animated: true, animation_cycle: true, can_collide: true}
 health:                  1000
 damage:                  50
-energy:                  0
-price:                   0
-build_ratio:             0.0
-build_time:              0
 initial_age:             20
 mass:                    0.02
 max_velocity:            13.0
 max_thrust:              0.098
 initial_velocity:        9.0
 initial_direction:       {begin: -3, end: 3}
-warp_speed:              0.0
-warp_out_distance:       0
 animation:
 	sprite:     "dev/atomic"
 	layer:      3
@@ -37,13 +31,6 @@ on_collide:
 	*	type:       "kill"
 		reflexive:  true
 		kind:       "none"
-destroy_dont_die:        false
-expire_dont_die:         false
 activate_period:         0
 arrive_action_distance:  50000
-skill_num:               0
-skill_den:               0
-offense:                 0.0
 destination_class:       -256
-friend_deficit:          0.0
-danger_threshold:        0.0

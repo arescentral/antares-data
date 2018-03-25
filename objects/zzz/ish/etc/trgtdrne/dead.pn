@@ -6,18 +6,14 @@ order_flags:             {local: true}
 class:                   123
 race:                    "ish"
 health:                  250
-damage:                  0
 energy:                  600
 price:                   600
 build_ratio:             0.75
 build_time:              180
 mass:                    0.797
-max_velocity:            0.0
 max_thrust:              0.25
 initial_velocity:        0.0
 initial_direction:       {begin: 0, end: 360}
-warp_speed:              0.0
-warp_out_distance:       0
 animation:
 	sprite:     "ish/etc/trgtdrne"
 	layer:      2
@@ -30,12 +26,8 @@ icon:
 	size:   3
 shield_color:            {r: 255, g: 255, b: 255}
 destroy_dont_die:        true
-expire_dont_die:         false
 activate_period:         0
 arrive_action_distance:  50000
-skill_num:               0
-skill_den:               0
 offense:                 0.5
 destination_class:       1
-friend_deficit:          0.0
 danger_threshold:        2.0

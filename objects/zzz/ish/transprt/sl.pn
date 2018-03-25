@@ -5,7 +5,6 @@ attributes:              {can_turn: true, can_be_engaged: true, has_direction_go
 class:                   801
 race:                    "ish"
 health:                  250
-damage:                  0
 energy:                  1000
 price:                   800
 build_ratio:             0.098
@@ -15,8 +14,6 @@ max_velocity:            3.0
 max_thrust:              0.156
 initial_velocity:        3.0
 initial_direction:       {begin: 0, end: 360}
-warp_speed:              0.0
-warp_out_distance:       0
 rotation:
 	sprite:     "ish/transprt"
 	layer:      2
@@ -44,8 +41,6 @@ on_arrive:
 		priority:          5
 		persistence:       20
 		volume:            255
-destroy_dont_die:        false
-expire_dont_die:         false
 activate_period:         0
 arrive_action_distance:  50000
 skill_num:               3

@@ -4,18 +4,10 @@ notes:                   "Debris"
 attributes:              {can_be_engaged: true, is_self_animated: true, animation_cycle: true, can_collide: true, can_be_hit: true}
 health:                  10
 damage:                  6
-energy:                  0
-price:                   0
-build_ratio:             0.0
-build_time:              0
 initial_age:             {begin: 160, end: 320}
 mass:                    0.5
-max_velocity:            0.0
-max_thrust:              0.0
 initial_velocity:        {begin: 0.5, end: 1.5}
 initial_direction:       {begin: 0, end: 360}
-warp_speed:              0.0
-warp_out_distance:       0
 animation:
 	sprite:     "sfx/debris"
 	layer:      2
@@ -34,13 +26,6 @@ on_collide:
 	*	type:       "kill"
 		reflexive:  true
 		kind:       "expire"
-destroy_dont_die:        false
-expire_dont_die:         false
 activate_period:         0
 arrive_action_distance:  50000
-skill_num:               0
-skill_den:               0
-offense:                 0.0
 destination_class:       -256
-friend_deficit:          0.0
-danger_threshold:        0.0

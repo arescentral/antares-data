@@ -4,18 +4,11 @@ notes:                   "Fireball"
 attributes:              {is_self_animated: true, animation_cycle: true, can_collide: true}
 health:                  1000
 damage:                  100
-energy:                  0
-price:                   0
-build_ratio:             0.0
-build_time:              0
 initial_age:             45
 mass:                    0.098
 max_velocity:            12.0
-max_thrust:              0.0
 initial_velocity:        12.0
 initial_direction:       0
-warp_speed:              0.0
-warp_out_distance:       0
 animation:
 	sprite:  "dev/fireball"
 	layer:   3
@@ -35,13 +28,8 @@ on_activate:
 		reflexive:           true
 		base:                "dev/fireball/trail"
 		relative_direction:  true
-destroy_dont_die:        false
-expire_dont_die:         false
 activate_period:         1
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21
-offense:                 0.0
 destination_class:       -256
-friend_deficit:          0.0
-danger_threshold:        0.0
