@@ -3,7 +3,6 @@ chapter:  29
 title:
 	>	\i Spaze Warz 
 	|	\i 
-	!
 players:
 	*	type:  "human"
 		races:

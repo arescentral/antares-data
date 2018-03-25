@@ -3,7 +3,6 @@ chapter:    2
 title:
 	>	\i Chapter 1 
 	|	\iEasy Street
-	!
 players:
 	*	type:           "human"
 		race:           "ish"

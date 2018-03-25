@@ -3,7 +3,6 @@ chapter:    16
 title:
 	>	\i Chapter 13 
 	|	\iYo Ho Ho
-	!
 players:
 	*	type:           "human"
 		race:           "ish"

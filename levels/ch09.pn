@@ -3,7 +3,6 @@ chapter:     12
 title:
 	>	\i Chapter 9 
 	|	\iHand Over Fist
-	!
 players:
 	*	type:           "human"
 		race:           "ish"

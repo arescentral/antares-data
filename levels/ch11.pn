@@ -3,7 +3,6 @@ chapter:    14
 title:
 	>	\i Chapter 11 
 	|	\iShoplifter 2
-	!
 players:
 	*	type:           "human"
 		race:           "ish"

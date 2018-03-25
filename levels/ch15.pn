@@ -3,7 +3,6 @@ chapter:     18
 title:
 	>	\i Chapter 15 
 	|	\iThe Left Hand
-	!
 players:
 	*	type:           "human"
 		race:           "ish"

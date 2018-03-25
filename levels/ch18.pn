@@ -3,7 +3,6 @@ chapter:     21
 title:
 	>	\i Chapter 18 
 	|	\iBlood, Toil, Tears, and Sweat
-	!
 players:
 	*	type:           "human"
 		race:           "uns"

@@ -3,7 +3,6 @@ chapter:     11
 title:
 	>	\i Chapter 8 
 	|	\iAstrotrash Plus!
-	!
 players:
 	*	type:           "human"
 		race:           "ish"

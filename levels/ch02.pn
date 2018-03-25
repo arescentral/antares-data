@@ -3,7 +3,6 @@ chapter:    4
 title:
 	>	\i Chapter 2 
 	|	\iThe Stars Have Ears
-	!
 players:
 	*	type:           "human"
 		race:           "ish"

@@ -3,7 +3,6 @@ chapter:     17
 title:
 	>	\i Chapter 14 
 	|	\iCaptivating
-	!
 players:
 	*	type:           "human"
 		race:           "ish"

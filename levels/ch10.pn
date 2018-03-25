@@ -3,7 +3,6 @@ chapter:     13
 title:
 	>	\i Chapter 10 
 	|	\iAssassin
-	!
 players:
 	*	type:  "human"
 		race:  "ish"

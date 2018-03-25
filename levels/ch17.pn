@@ -3,7 +3,6 @@ chapter:     20
 title:
 	>	\i Chapter 17 
 	|	\i...And It Feels So Good
-	!
 players:
 	*	type:           "human"
 		race:           "ish"

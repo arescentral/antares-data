@@ -3,7 +3,6 @@ chapter:  30
 title:
 	>	\i Location, Location, Location 
 	|	\i 
-	!
 players:
 	*	type:           "human"
 		races:

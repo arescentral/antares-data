@@ -3,7 +3,6 @@ chapter:     22
 title:
 	>	\i Chapter 19 
 	|	\iYou Should Have Seen the One that Got Away
-	!
 players:
 	*	type:           "human"
 		race:           "uns"

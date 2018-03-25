@@ -3,7 +3,6 @@ chapter:     19
 title:
 	>	\i Chapter 16 
 	|	\iHornet's Nest
-	!
 players:
 	*	type:           "human"
 		race:           "ish"

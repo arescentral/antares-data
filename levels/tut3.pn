@@ -3,7 +3,6 @@ chapter:      5
 title:
 	>	\i Tutorial Lesson 3
 	|	\iThe Complete Idiot’s Guide to Commanding a Space Armada
-	!
 players:
 	*	type:           "human"
 		race:           "ish"

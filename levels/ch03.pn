@@ -3,7 +3,6 @@ chapter:     6
 title:
 	>	\i Chapter 3 
 	|	\iWhile The Iron Is Hot
-	!
 players:
 	*	type:           "human"
 		race:           "ish"

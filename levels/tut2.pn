@@ -3,7 +3,6 @@ chapter:      3
 title:
 	>	\i Tutorial Lesson 2
 	|	\iSection on Selection
-	!
 players:
 	*	type:           "human"
 		race:           "ish"

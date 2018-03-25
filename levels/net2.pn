@@ -3,7 +3,6 @@ chapter:     27
 title:
 	>	\i Scratching Post 
 	|	\i 
-	!
 players:
 	*	type:           "human"
 		races:

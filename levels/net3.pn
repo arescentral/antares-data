@@ -3,7 +3,6 @@ chapter:  28
 title:
 	>	\i Capture the Flagpod 
 	|	\i 
-	!
 players:
 	*	type:  "human"
 		races:

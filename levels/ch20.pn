@@ -3,7 +3,6 @@ chapter:    23
 title:
 	>	\i Chapter 20 
 	|	\iThe Mothership Connection
-	!
 players:
 	*	type:           "human"
 		race:           "ish"

@@ -1,6 +1,7 @@
 type:      "solo"
 chapter:   26
-title:     "\\i Space Race, the Musical! \\i "
+title:
+	>	\i Space Race, the Musical! \i 
 players:
 	*	type:           "human"
 		race:           "ish"

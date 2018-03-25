@@ -3,7 +3,6 @@ chapter:    10
 title:
 	>	\i Chapter 7 
 	|	\iOn the Rocks
-	!
 players:
 	*	type:  "human"
 		race:  "ish"

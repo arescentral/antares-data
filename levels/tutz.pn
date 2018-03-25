@@ -3,7 +3,6 @@ chapter:  31
 title:
 	>	\i Training 
 	|	\iMoons for Goons
-	!
 players:
 	*	type:           "human"
 		race:           "ish"

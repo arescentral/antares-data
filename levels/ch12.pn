@@ -3,7 +3,6 @@ chapter:     15
 title:
 	>	\i Chapter 12 
 	|	\iMake Way
-	!
 players:
 	*	type:           "human"
 		race:           "ish"
