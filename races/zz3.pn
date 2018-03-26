@@ -2,7 +2,7 @@ singular:        "Unused Race 3"
 plural:          "Plural"
 military:        "Military"
 homeworld:       "Homeworld"
-numeric:         1400
+
 apparent_color:  "gray"
 illegal_colors:  23265280
 advantage:       3.0

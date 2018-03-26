@@ -2,7 +2,7 @@ singular:        "Bazidanese"
 plural:          "Bazidanese"
 military:        "Bazidanese Star League"
 homeworld:       "Bazidan"
-numeric:         500
+
 apparent_color:  "salmon"
 illegal_colors:  0
 advantage:       1.75

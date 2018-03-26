@@ -2,10 +2,11 @@ singular:        "Audemedon"
 plural:          "Audemedons"
 military:        "Audemedon Axis"
 homeworld:       "Axis"
-numeric:         700
+
 apparent_color:  "orange"
 illegal_colors:  0
 advantage:       2.75
+
 ships:
 	fighter:   "aud/fighter"
 	cruiser:   "aud/cruiser"
