@@ -18,10 +18,10 @@ score:
 	*	"4\\0\\0\\5\\f\\t\\Remaining: \\/5"
 song:         4002
 initials:
-	*	base:        "ish/cruiser"
-		owner:       0
-		at:          {x: 0, y: 0}
-		attributes:  {is_player_ship: true}
+	*	base:      "ish/cruiser"
+		owner:     0
+		at:        {x: 0, y: 0}
+		flagship:  true
 	*	base:   "ish/cruiser"
 		owner:  0
 		at:     {x: -3000, y: 3000}
@@ -31,27 +31,28 @@ initials:
 	*	base:   "ish/carrier"
 		owner:  0
 		at:     {x: 3000, y: 3000}
-	*	base:    "loc/planet"
-		rename:  "Simulated Planet"
-		at:      {x: 5000, y: 0}
-	*	base:        "can/etc/transprt/tut1"
-		owner:       1
-		at:          {x: 3000, y: -1000}
-		attributes:  {fixed_race: true, static_destination: true}
-	*	base:        "ish/cruiser"
-		owner:       0
-		at:          {x: 3000, y: 3000}
-		attributes:  {initially_hidden: true}
-	*	base:        "can/transprt"
-		owner:       1
-		at:          {x: 3000, y: -6000}
-		target:      7
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "can/transprt"
-		owner:       1
-		at:          {x: 3250, y: -6250}
-		target:      8
-		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:  "loc/planet"
+		at:    {x: 5000, y: 0}
+		override:
+			name:  "Simulated Planet"
+	*	base:    "can/etc/transprt/tut1"
+		owner:   1
+		at:      {x: 3000, y: -1000}
+		target:  {lock: true}
+	*	base:   "ish/cruiser"
+		owner:  0
+		at:     {x: 3000, y: 3000}
+		hide:   true
+	*	base:    "can/transprt"
+		owner:   1
+		at:      {x: 3000, y: -6000}
+		hide:    true
+		target:  {initial: 7, lock: true}
+	*	base:    "can/transprt"
+		owner:   1
+		at:      {x: 3250, y: -6250}
+		hide:    true
+		target:  {initial: 8, lock: true}
 conditions:
 	*	type:   "time"
 		op:     "ge"

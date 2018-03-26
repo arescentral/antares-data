@@ -21,11 +21,12 @@ initials:
 		at:    {x: 0, y: 32767}
 	*	base:  "ast/shoot/wide/down"
 		at:    {x: 0, y: -32767}
-	*	base:             "loc/planet"
-		rename:           "Lalande Alpha"
-		at:               {x: 28260, y: 27129}
-		earning:          1.0
-		sprite_override:  "loc/planets/splatterpaint-pink"
+	*	base:     "loc/planet"
+		at:       {x: 28260, y: 27129}
+		override:
+			name:    "Lalande Alpha"
+			sprite:  "loc/planets/splatterpaint-pink"
+		earning:  1.0
 		build:
 			*	"cruiser"
 			*	"gunship"
@@ -33,11 +34,12 @@ initials:
 			*	"carrier"
 			*	"hvd"
 			*	"transprt"
-	*	base:             "loc/planet"
-		rename:           "Lalande Beta"
-		at:               {x: -28260, y: -27129}
-		earning:          1.0
-		sprite_override:  "loc/planets/marshmellow"
+	*	base:     "loc/planet"
+		at:       {x: -28260, y: -27129}
+		override:
+			name:    "Lalande Beta"
+			sprite:  "loc/planets/marshmellow"
+		earning:  1.0
 		build:
 			*	"cruiser"
 			*	"gunship"
@@ -46,46 +48,51 @@ initials:
 			*	"hvd"
 			*	"transprt"
 	*	base:     "loc/bunker"
-		rename:   "Bunker Station"
 		at:       {x: 0, y: 0}
+		override:
+			name:  "Bunker Station"
 		earning:  1.0
-	*	base:        "ish/hvd"
-		owner:       0
-		at:          {x: 28520, y: 28522}
-		attributes:  {initially_hidden: true, is_player_ship: true}
-	*	base:        "ele/cruiser"
-		owner:       0
-		at:          {x: 28957, y: 27652}
-		attributes:  {initially_hidden: true}
-	*	base:        "ele/cruiser"
-		owner:       0
-		at:          {x: 28167, y: 27126}
-		attributes:  {initially_hidden: true}
-	*	base:        "ele/cruiser"
-		owner:       0
-		at:          {x: 28866, y: 26603}
-		attributes:  {initially_hidden: true}
-	*	base:        "uns/cruiser"
-		owner:       0
-		at:          {x: 29474, y: 27559}
-		target:      2
-		attributes:  {initially_hidden: true}
-	*	base:        "uns/cruiser"
-		owner:       0
-		at:          {x: 29213, y: 26343}
-		target:      2
-		attributes:  {initially_hidden: true}
-	*	base:        "aud/carrier"
-		owner:       1
-		at:          {x: -29218, y: -25044}
-		attributes:  {initially_hidden: true, is_player_ship: true}
+	*	base:      "ish/hvd"
+		owner:     0
+		at:        {x: 28520, y: 28522}
+		hide:      true
+		flagship:  true
+	*	base:   "ele/cruiser"
+		owner:  0
+		at:     {x: 28957, y: 27652}
+		hide:   true
+	*	base:   "ele/cruiser"
+		owner:  0
+		at:     {x: 28167, y: 27126}
+		hide:   true
+	*	base:   "ele/cruiser"
+		owner:  0
+		at:     {x: 28866, y: 26603}
+		hide:   true
+	*	base:    "uns/cruiser"
+		owner:   0
+		at:      {x: 29474, y: 27559}
+		hide:    true
+		target:  {initial: 2}
+	*	base:    "uns/cruiser"
+		owner:   0
+		at:      {x: 29213, y: 26343}
+		hide:    true
+		target:  {initial: 2}
+	*	base:      "aud/carrier"
+		owner:     1
+		at:        {x: -29218, y: -25044}
+		hide:      true
+		flagship:  true
 	*	base:     "loc/outpost"
-		rename:   "Outpost 1"
 		at:       {x: 9391, y: -9043}
+		override:
+			name:  "Outpost 1"
 		earning:  0.5
 	*	base:     "loc/outpost"
-		rename:   "Outpost 2"
 		at:       {x: -8000, y: 9043}
+		override:
+			name:  "Outpost 2"
 		earning:  0.5
 conditions:
 	*	type:   "time"

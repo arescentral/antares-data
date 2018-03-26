@@ -19,10 +19,10 @@ score:
 	*	"1\\1\\0\\0\\N\\Y\\Liner secure: \\"
 song:       5002
 initials:
-	*	base:        "ele/etc/liner/disabled"
-		owner:       0
-		at:          {x: 0, y: 0}
-		attributes:  {static_destination: true}
+	*	base:    "ele/etc/liner/disabled"
+		owner:   0
+		at:      {x: 0, y: 0}
+		target:  {lock: true}
 	*	base:  "ele/etc/escape-pod"
 		at:    {x: -1304, y: -956}
 	*	base:  "ele/etc/escape-pod"
@@ -37,8 +37,9 @@ initials:
 		at:    {x: 3565, y: 86}
 	*	base:     "loc/jump/gate"
 		owner:    0
-		rename:   "Secorem Jump Gate"
 		at:       {x: 2238, y: 6174}
+		override:
+			name:  "Secorem Jump Gate"
 		earning:  1.0
 	*	base:   "loc/jump/node"
 		owner:  0
@@ -46,15 +47,15 @@ initials:
 	*	base:   "loc/jump/node"
 		owner:  0
 		at:     {x: 2357, y: 6179}
-	*	base:        "ish/etc/tug"
-		owner:       0
-		at:          {x: 2238, y: 6174}
-		target:      0
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "ish/hvd"
-		owner:       0
-		at:          {x: 1391, y: 6434}
-		attributes:  {is_player_ship: true}
+	*	base:    "ish/etc/tug"
+		owner:   0
+		at:      {x: 2238, y: 6174}
+		hide:    true
+		target:  {initial: 0, lock: true}
+	*	base:      "ish/hvd"
+		owner:     0
+		at:        {x: 1391, y: 6434}
+		flagship:  true
 	*	base:   "gai/carrier"
 		owner:  1
 		at:     {x: 4174, y: 24782}
@@ -67,22 +68,22 @@ initials:
 	*	base:   "gai/gunship"
 		owner:  1
 		at:     {x: 9217, y: 23739}
-	*	base:        "sal/carrier"
-		owner:       1
-		at:          {x: -7739, y: -8521}
-		attributes:  {initially_hidden: true}
-	*	base:        "sal/cruiser"
-		owner:       1
-		at:          {x: -6782, y: -9217}
-		attributes:  {initially_hidden: true}
-	*	base:        "sal/cruiser"
-		owner:       1
-		at:          {x: -8608, y: -7478}
-		attributes:  {initially_hidden: true}
-	*	base:        "sfx/jump/small"
-		owner:       0
-		at:          {x: 2238, y: 6174}
-		attributes:  {initially_hidden: true}
+	*	base:   "sal/carrier"
+		owner:  1
+		at:     {x: -7739, y: -8521}
+		hide:   true
+	*	base:   "sal/cruiser"
+		owner:  1
+		at:     {x: -6782, y: -9217}
+		hide:   true
+	*	base:   "sal/cruiser"
+		owner:  1
+		at:     {x: -8608, y: -7478}
+		hide:   true
+	*	base:   "sfx/jump/small"
+		owner:  0
+		at:     {x: 2238, y: 6174}
+		hide:   true
 	*	base:   "loc/jump/node"
 		owner:  0
 		at:     {x: 2173, y: 6260}

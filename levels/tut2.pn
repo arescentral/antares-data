@@ -18,43 +18,44 @@ score:
 	*	"4\\0\\0\\5\\f\\t\\Remaining: \\/5"
 song:         4002
 initials:
-	*	base:        "ish/cruiser"
-		owner:       0
-		at:          {x: 0, y: 0}
-		attributes:  {is_player_ship: true}
-	*	base:        "ish/hvc"
-		owner:       0
-		at:          {x: 60, y: -400}
-		attributes:  {static_destination: true}
-	*	base:        "ish/gunship"
-		owner:       0
-		at:          {x: 6000, y: -100}
-		target:      2
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "ish/fighter"
-		owner:       0
-		at:          {x: 6000, y: 0}
-		target:      3
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "ish/cruiser"
-		owner:       0
-		at:          {x: 6000, y: 100}
-		target:      4
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "ish/transprt"
-		owner:       0
-		at:          {x: 6000, y: 200}
-		target:      5
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:    "loc/planet"
+	*	base:      "ish/cruiser"
+		owner:     0
+		at:        {x: 0, y: 0}
+		flagship:  true
+	*	base:    "ish/hvc"
 		owner:   0
-		rename:  "Simulated Planet"
-		at:      {x: -200, y: -100}
-	*	base:        "can/etc/transprt/tut1"
-		owner:       1
-		at:          {x: 0, y: 200}
-		target:      7
-		attributes:  {fixed_race: true, initially_hidden: true, static_destination: true}
+		at:      {x: 60, y: -400}
+		target:  {lock: true}
+	*	base:    "ish/gunship"
+		owner:   0
+		at:      {x: 6000, y: -100}
+		hide:    true
+		target:  {initial: 2, lock: true}
+	*	base:    "ish/fighter"
+		owner:   0
+		at:      {x: 6000, y: 0}
+		hide:    true
+		target:  {initial: 3, lock: true}
+	*	base:    "ish/cruiser"
+		owner:   0
+		at:      {x: 6000, y: 100}
+		hide:    true
+		target:  {initial: 4, lock: true}
+	*	base:    "ish/transprt"
+		owner:   0
+		at:      {x: 6000, y: 200}
+		hide:    true
+		target:  {initial: 5, lock: true}
+	*	base:   "loc/planet"
+		owner:  0
+		at:     {x: -200, y: -100}
+		override:
+			name:  "Simulated Planet"
+	*	base:    "can/etc/transprt/tut1"
+		owner:   1
+		at:      {x: 0, y: 200}
+		hide:    true
+		target:  {initial: 7, lock: true}
 conditions:
 	*	type:   "time"
 		op:     "ge"

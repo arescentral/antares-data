@@ -12,14 +12,14 @@ players:
 			*	"gro"
 song:     5003
 initials:
-	*	base:        "gro/cruiser"
-		owner:       0
-		at:          {x: -2956, y: 0}
-		attributes:  {is_player_ship: true}
-	*	base:        "gro/cruiser"
-		owner:       1
-		at:          {x: 2955, y: 87}
-		attributes:  {is_player_ship: true}
+	*	base:      "gro/cruiser"
+		owner:     0
+		at:        {x: -2956, y: 0}
+		flagship:  true
+	*	base:      "gro/cruiser"
+		owner:     1
+		at:        {x: 2955, y: 87}
+		flagship:  true
 	*	base:  "loc/flak"
 		at:    {x: 0, y: -700}
 	*	base:  "loc/flak"

@@ -14,13 +14,15 @@ song:     5001
 initials:
 	*	base:     "loc/planet"
 		owner:    0
-		rename:   "Retak Alpha"
 		at:       {x: 0, y: 8000}
+		override:
+			name:  "Retak Alpha"
 		earning:  1.0
 	*	base:     "loc/planet"
 		owner:    1
-		rename:   "Retak Beta"
 		at:       {x: 0, y: -8000}
+		override:
+			name:  "Retak Beta"
 		earning:  1.0
 	*	base:   "gro/ctf/moor/p1-active"
 		owner:  0
@@ -34,10 +36,10 @@ initials:
 	*	base:   "gro/ctf/flag/p2"
 		owner:  1
 		at:     {x: 0, y: -8000}
-	*	base:        "gro/ctf/cruiser/p1-active"
-		owner:       0
-		at:          {x: 273, y: 8478}
-		attributes:  {is_player_ship: true}
+	*	base:      "gro/ctf/cruiser/p1-active"
+		owner:     0
+		at:        {x: 273, y: 8478}
+		flagship:  true
 	*	base:   "gro/ctf/cruiser/p1-active"
 		owner:  0
 		at:     {x: -957, y: 8826}
@@ -59,10 +61,10 @@ initials:
 	*	base:   "gro/ctf/cruiser/p1-active"
 		owner:  0
 		at:     {x: 391, y: 7044}
-	*	base:        "gro/ctf/cruiser/p2-active"
-		owner:       1
-		at:          {x: 783, y: -6870}
-		attributes:  {is_player_ship: true}
+	*	base:      "gro/ctf/cruiser/p2-active"
+		owner:     1
+		at:        {x: 783, y: -6870}
+		flagship:  true
 	*	base:   "gro/ctf/cruiser/p2-active"
 		owner:  1
 		at:     {x: 1260, y: -7476}
@@ -75,19 +77,19 @@ initials:
 	*	base:    "gro/ctf/cruiser/p2-active"
 		owner:   1
 		at:      {x: 695, y: -6432}
-		target:  1
+		target:  {initial: 1}
 	*	base:    "gro/ctf/cruiser/p2-active"
 		owner:   1
 		at:      {x: -2, y: -6695}
-		target:  1
+		target:  {initial: 1}
 	*	base:    "gro/ctf/cruiser/p2-active"
 		owner:   1
 		at:      {x: -2174, y: -6520}
-		target:  1
+		target:  {initial: 1}
 	*	base:    "gro/ctf/cruiser/p2-active"
 		owner:   1
 		at:      {x: -783, y: -5999}
-		target:  1
+		target:  {initial: 1}
 conditions:
 	*	type:     "distance"
 		op:       "lt"

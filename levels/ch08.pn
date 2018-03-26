@@ -18,37 +18,37 @@ score:
 	*	"2\\1\\0\\0\\f\\t\\Collected: \\/10"
 song:        5002
 initials:
-	*	base:        "ish/hvc"
-		owner:       0
-		at:          {x: -22956, y: -1391}
-		attributes:  {is_player_ship: true}
-	*	base:        "can/fighter"
-		owner:       1
-		at:          {x: 0, y: -3565}
-		attributes:  {initially_hidden: true}
+	*	base:      "ish/hvc"
+		owner:     0
+		at:        {x: -22956, y: -1391}
+		flagship:  true
+	*	base:   "can/fighter"
+		owner:  1
+		at:     {x: 0, y: -3565}
+		hide:   true
 	*	base:  "ast/shoot/narrow/up"
 		at:    {x: 0, y: 32768}
 	*	base:  "ast/shoot/narrow/down"
 		at:    {x: 0, y: -32768}
-	*	base:        "ish/etc/astrominer"
-		owner:       0
-		at:          {x: -24000, y: -2259}
-		target:      0
-		attributes:  {initially_hidden: true}
-	*	base:        "ish/etc/astrominer"
-		owner:       0
-		at:          {x: -24000, y: -2259}
-		target:      0
-		attributes:  {initially_hidden: true}
-	*	base:        "ish/etc/astrominer"
-		owner:       0
-		at:          {x: -23305, y: -2259}
-		target:      0
-		attributes:  {initially_hidden: true}
-	*	base:        "can/etc/spawner/obj"
-		owner:       1
-		at:          {x: 32768, y: 0}
-		attributes:  {initially_hidden: true}
+	*	base:    "ish/etc/astrominer"
+		owner:   0
+		at:      {x: -24000, y: -2259}
+		hide:    true
+		target:  {initial: 0}
+	*	base:    "ish/etc/astrominer"
+		owner:   0
+		at:      {x: -24000, y: -2259}
+		hide:    true
+		target:  {initial: 0}
+	*	base:    "ish/etc/astrominer"
+		owner:   0
+		at:      {x: -23305, y: -2259}
+		hide:    true
+		target:  {initial: 0}
+	*	base:   "can/etc/spawner/obj"
+		owner:  1
+		at:     {x: 32768, y: 0}
+		hide:   true
 conditions:
 	*	type:   "time"
 		op:     "ge"

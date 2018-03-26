@@ -19,87 +19,81 @@ score:
 	*	"2\\1\\0\\0\\f\\t\\Rescued: \\/11"
 song:       5003
 initials:
-	*	base:    "obi/etc/liner"
-		owner:   0
-		rename:  "ISN 2020187"
-		at:      {x: 0, y: 0}
+	*	base:   "obi/etc/liner"
+		owner:  0
+		at:     {x: 0, y: 0}
+		override:
+			name:  "ISN 2020187"
 	*	base:    "obi/etc/transprt/rescue"
 		owner:   0
 		at:      {x: 695, y: 956}
-		target:  0
+		target:  {initial: 0}
 	*	base:     "gai/etc/lab/base"
 		owner:    1
-		rename:   "Cell 1"
 		at:       {x: -5130, y: -6086}
+		override:
+			name:  "Cell 1"
 		earning:  1.0
 	*	base:     "gai/etc/lab/base"
 		owner:    1
-		rename:   "Cell 2"
 		at:       {x: 4086, y: -7130}
+		override:
+			name:  "Cell 2"
 		earning:  1.0
 	*	base:     "gai/etc/lab/base"
 		owner:    1
-		rename:   "Cell 3"
 		at:       {x: -1042, y: -11652}
+		override:
+			name:  "Cell 3"
 		earning:  1.0
-	*	base:        "ish/hvc"
-		owner:       0
-		at:          {x: -608, y: 956}
-		target:      0
-		attributes:  {is_player_ship: true}
-	*	base:        "obi/escort"
-		owner:       0
-		at:          {x: 260, y: 1826}
-		target:      1
-		attributes:  {static_destination: true}
+	*	base:      "ish/hvc"
+		owner:     0
+		at:        {x: -608, y: 956}
+		flagship:  true
+		target:    {initial: 0}
+	*	base:    "obi/escort"
+		owner:   0
+		at:      {x: 260, y: 1826}
+		target:  {initial: 1, lock: true}
 	*	base:   "gai/etc/spawner/obj"
 		owner:  1
 		at:     {x: 520, y: -18956}
-	*	base:        "gai/cruiser"
-		owner:       1
-		at:          {x: -4175, y: -6610}
-		target:      2
-		attributes:  {static_destination: true}
-	*	base:        "gai/cruiser"
-		owner:       1
-		at:          {x: 3129, y: -7566}
-		target:      3
-		attributes:  {static_destination: true}
-	*	base:        "gai/cruiser"
-		owner:       1
-		at:          {x: 3998, y: -7566}
-		target:      3
-		attributes:  {static_destination: true}
-	*	base:        "gai/cruiser"
-		owner:       1
-		at:          {x: -436, y: -10696}
-		target:      4
-		attributes:  {static_destination: true}
-	*	base:        "gai/cruiser"
-		owner:       1
-		at:          {x: -262, y: -11653}
-		target:      4
-		attributes:  {static_destination: true}
-	*	base:        "gai/gunship"
-		owner:       1
-		at:          {x: -697, y: -9653}
-		target:      4
-		attributes:  {static_destination: true}
-	*	base:        "gai/cruiser"
-		owner:       1
-		at:          {x: -4175, y: -6610}
-		target:      2
-		attributes:  {static_destination: true}
-	*	base:        "gai/fighter"
-		owner:       1
-		at:          {x: -3826, y: -7043}
-		target:      2
-		attributes:  {static_destination: true}
-	*	base:        "gai/fighter"
-		owner:       1
-		at:          {x: 4347, y: -5652}
-		target:      9
-		attributes:  {static_destination: true}
+	*	base:    "gai/cruiser"
+		owner:   1
+		at:      {x: -4175, y: -6610}
+		target:  {initial: 2, lock: true}
+	*	base:    "gai/cruiser"
+		owner:   1
+		at:      {x: 3129, y: -7566}
+		target:  {initial: 3, lock: true}
+	*	base:    "gai/cruiser"
+		owner:   1
+		at:      {x: 3998, y: -7566}
+		target:  {initial: 3, lock: true}
+	*	base:    "gai/cruiser"
+		owner:   1
+		at:      {x: -436, y: -10696}
+		target:  {initial: 4, lock: true}
+	*	base:    "gai/cruiser"
+		owner:   1
+		at:      {x: -262, y: -11653}
+		target:  {initial: 4, lock: true}
+	*	base:    "gai/gunship"
+		owner:   1
+		at:      {x: -697, y: -9653}
+		target:  {initial: 4, lock: true}
+	*	base:    "gai/cruiser"
+		owner:   1
+		at:      {x: -4175, y: -6610}
+		target:  {initial: 2, lock: true}
+	*	base:    "gai/fighter"
+		owner:   1
+		at:      {x: -3826, y: -7043}
+		target:  {initial: 2, lock: true}
+	*	base:    "gai/fighter"
+		owner:   1
+		at:      {x: 4347, y: -5652}
+		target:  {initial: 9, lock: true}
 conditions:
 	*	type:     "counter"
 		op:       "eq"

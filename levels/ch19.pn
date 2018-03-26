@@ -19,64 +19,70 @@ score:
 	*	"_-gateship"
 song:        5003
 initials:
-	*	base:             "loc/planet"
-		owner:            0
-		rename:           "Pictoris Alpha"
-		at:               {x: 1913, y: 6434}
-		earning:          1.0
-		sprite_override:  "loc/planets/purtygas"
+	*	base:     "loc/planet"
+		owner:    0
+		at:       {x: 1913, y: 6434}
+		override:
+			name:    "Pictoris Alpha"
+			sprite:  "loc/planets/purtygas"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"
 			*	"gunship"
 			*	"transprt"
-	*	base:             "loc/moon"
-		owner:            0
-		rename:           "Pictoris Alpha 1"
-		at:               {x: 3130, y: 6173}
-		earning:          1.0
-		sprite_override:  "loc/planets/saturny"
+	*	base:     "loc/moon"
+		owner:    0
+		at:       {x: 3130, y: 6173}
+		override:
+			name:    "Pictoris Alpha 1"
+			sprite:  "loc/planets/saturny"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"
 	*	base:     "loc/power"
 		owner:    0
-		rename:   "Power Station BP1"
 		at:       {x: 1217, y: 9043}
+		override:
+			name:  "Power Station BP1"
 		earning:  1.0
-	*	base:             "loc/moon"
-		owner:            1
-		rename:           "Pictoris Beta 1"
-		at:               {x: -8956, y: -8173}
-		earning:          1.0
-		sprite_override:  "loc/planets/yellow-cookie"
+	*	base:     "loc/moon"
+		owner:    1
+		at:       {x: -8956, y: -8173}
+		override:
+			name:    "Pictoris Beta 1"
+			sprite:  "loc/planets/yellow-cookie"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"
-	*	base:             "loc/moon"
-		owner:            1
-		rename:           "Pictoris Beta 2"
-		at:               {x: -5739, y: -10955}
-		earning:          1.0
-		sprite_override:  "loc/planets/purpleblue"
+	*	base:     "loc/moon"
+		owner:    1
+		at:       {x: -5739, y: -10955}
+		override:
+			name:    "Pictoris Beta 2"
+			sprite:  "loc/planets/purpleblue"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"hvc"
-	*	base:             "loc/planet"
-		owner:            1
-		rename:           "Pictoris Beta"
-		at:               {x: -7565, y: -9391}
-		earning:          1.0
-		sprite_override:  "loc/planets/aqua-minerale"
+	*	base:     "loc/planet"
+		owner:    1
+		at:       {x: -7565, y: -9391}
+		override:
+			name:    "Pictoris Beta"
+			sprite:  "loc/planets/aqua-minerale"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"
 			*	"gunship"
 			*	"transprt"
-	*	base:        "uns/gunship"
-		owner:       0
-		at:          {x: 2347, y: 6260}
-		attributes:  {is_player_ship: true}
+	*	base:      "uns/gunship"
+		owner:     0
+		at:        {x: 2347, y: 6260}
+		flagship:  true
 	*	base:   "can/gateship/base"
 		owner:  1
 		at:     {x: -8608, y: -9217}
@@ -89,11 +95,11 @@ initials:
 	*	base:    "uns/carrier"
 		owner:   0
 		at:      {x: 14347, y: 17825}
-		target:  0
+		target:  {initial: 0}
 	*	base:    "uns/carrier"
 		owner:   0
 		at:      {x: 1913, y: 7391}
-		target:  0
+		target:  {initial: 0}
 conditions:
 	*	type:     "destroyed"
 		op:       "eq"

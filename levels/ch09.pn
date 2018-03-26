@@ -17,52 +17,56 @@ score:
 	*	"_-Gamma"
 song:        5003
 initials:
-	*	base:             "loc/planet"
-		owner:            0
-		rename:           "Proteus Alpha"
-		at:               {x: 12043, y: 38956}
-		earning:          1.0
-		sprite_override:  "loc/planets/jungle"
+	*	base:     "loc/planet"
+		owner:    0
+		at:       {x: 12043, y: 38956}
+		override:
+			name:    "Proteus Alpha"
+			sprite:  "loc/planets/jungle"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"
 			*	"gunship"
 			*	"transprt"
 			*	"defdrone"
-	*	base:        "can/carrier"
-		owner:       1
-		at:          {x: -33825, y: -32695}
-		attributes:  {initially_hidden: true}
-	*	base:        "ish/cruiser"
-		owner:       0
-		at:          {x: 13586, y: 39456}
-		attributes:  {is_player_ship: true}
-	*	base:        "can/cruiser"
-		owner:       1
-		at:          {x: 6260, y: -7478}
-		attributes:  {is_player_ship: true}
-	*	base:             "loc/planet"
-		rename:           "Proteus Beta"
-		at:               {x: -7999, y: 13652}
-		earning:          1.0
-		sprite_override:  "loc/planets/yellow"
+	*	base:   "can/carrier"
+		owner:  1
+		at:     {x: -33825, y: -32695}
+		hide:   true
+	*	base:      "ish/cruiser"
+		owner:     0
+		at:        {x: 13586, y: 39456}
+		flagship:  true
+	*	base:      "can/cruiser"
+		owner:     1
+		at:        {x: 6260, y: -7478}
+		flagship:  true
+	*	base:     "loc/planet"
+		at:       {x: -7999, y: 13652}
+		override:
+			name:    "Proteus Beta"
+			sprite:  "loc/planets/yellow"
+		earning:  1.0
 		build:
 			*	"fighter"
-	*	base:             "loc/planet"
-		owner:            1
-		rename:           "Proteus Gamma"
-		at:               {x: 7304, y: -7565}
-		earning:          1.0
-		sprite_override:  "loc/planets/graysplotch"
+	*	base:     "loc/planet"
+		owner:    1
+		at:       {x: 7304, y: -7565}
+		override:
+			name:    "Proteus Gamma"
+			sprite:  "loc/planets/graysplotch"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"
 			*	"gunship"
 			*	"transprt"
 			*	"defdrone"
-	*	base:    "loc/sun"
-		rename:  "Proteus"
-		at:      {x: -600, y: 9000}
+	*	base:  "loc/sun"
+		at:    {x: -600, y: 9000}
+		override:
+			name:  "Proteus"
 conditions:
 	*	type:   "time"
 		op:     "ge"

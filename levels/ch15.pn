@@ -17,63 +17,66 @@ score:
 	*	"_-Beta"
 song:        5004
 initials:
-	*	base:             "loc/planet"
-		owner:            0
-		rename:           "Thasero Alpha"
-		at:               {x: 0, y: 6000}
-		earning:          1.0
-		sprite_override:  "loc/planets/moldymud"
+	*	base:     "loc/planet"
+		owner:    0
+		at:       {x: 0, y: 6000}
+		override:
+			name:    "Thasero Alpha"
+			sprite:  "loc/planets/moldymud"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"
 			*	"gunship"
 			*	"transprt"
 			*	"aslttran"
-	*	base:             "loc/planet"
-		owner:            1
-		rename:           "Thasero Beta"
-		at:               {x: 0, y: -7478}
-		earning:          1.0
-		sprite_override:  "loc/planets/calmpurple"
+	*	base:     "loc/planet"
+		owner:    1
+		at:       {x: 0, y: -7478}
+		override:
+			name:    "Thasero Beta"
+			sprite:  "loc/planets/calmpurple"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"
 			*	"gunship"
 			*	"transprt"
 			*	"aslttran"
-	*	base:             "loc/bunker"
-		owner:            1
-		rename:           "Thasero Station"
-		at:               {x: 0, y: 0}
-		earning:          1.0
-		sprite_override:  "sal/etc/battlestation"
-	*	base:        "ish/hvd"
-		owner:       0
-		at:          {x: 869, y: 6521}
-		attributes:  {is_player_ship: true}
+	*	base:     "loc/bunker"
+		owner:    1
+		at:       {x: 0, y: 0}
+		override:
+			name:    "Thasero Station"
+			sprite:  "sal/etc/battlestation"
+		earning:  1.0
+	*	base:      "ish/hvd"
+		owner:     0
+		at:        {x: 869, y: 6521}
+		flagship:  true
 	*	base:   "sal/gunship"
 		owner:  1
 		at:     {x: 956, y: -7130}
 	*	base:    "ish/carrier"
 		owner:   0
 		at:      {x: -782, y: 6521}
-		target:  0
+		target:  {initial: 0}
 	*	base:    "baz/bttlship"
 		owner:   0
 		at:      {x: 86, y: 7478}
-		target:  0
-	*	base:        "sal/carrier"
-		owner:       1
-		at:          {x: -9565, y: -9565}
-		attributes:  {initially_hidden: true}
-	*	base:        "sal/carrier"
-		owner:       1
-		at:          {x: -8695, y: -9130}
-		attributes:  {initially_hidden: true}
-	*	base:        "aud/carrier"
-		owner:       1
-		at:          {x: -9565, y: -8000}
-		attributes:  {initially_hidden: true}
+		target:  {initial: 0}
+	*	base:   "sal/carrier"
+		owner:  1
+		at:     {x: -9565, y: -9565}
+		hide:   true
+	*	base:   "sal/carrier"
+		owner:  1
+		at:     {x: -8695, y: -9130}
+		hide:   true
+	*	base:   "aud/carrier"
+		owner:  1
+		at:     {x: -9565, y: -8000}
+		hide:   true
 conditions:
 	*	type:     "distance"
 		op:       "lt"

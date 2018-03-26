@@ -18,14 +18,15 @@ score:
 	*	"4\\0\\0\\5\\f\\t\\Remaining: \\/5"
 song:         4002
 initials:
-	*	base:        "ish/cruiser"
-		owner:       0
-		at:          {x: 0, y: 0}
-		attributes:  {is_player_ship: true}
-	*	base:    "loc/planet"
-		owner:   0
-		rename:  "Simulated Planet"
-		at:      {x: -200, y: -200}
+	*	base:      "ish/cruiser"
+		owner:     0
+		at:        {x: 0, y: 0}
+		flagship:  true
+	*	base:   "loc/planet"
+		owner:  0
+		at:     {x: -200, y: -200}
+		override:
+			name:  "Simulated Planet"
 		build:
 			*	"tut3/cruiser"
 			*	"hvd"
@@ -33,62 +34,72 @@ initials:
 	*	base:   "ish/hvc"
 		owner:  0
 		at:     {x: 6000, y: 0}
-	*	base:        "ish/transprt"
-		owner:       0
-		at:          {x: 200, y: 200}
-		attributes:  {initially_hidden: true}
-	*	base:        "ish/transprt"
-		owner:       0
-		at:          {x: 400, y: 400}
-		attributes:  {initially_hidden: true}
-	*	base:        "ish/fighter"
-		owner:       0
-		at:          {x: 200, y: 250}
-		attributes:  {initially_hidden: true}
-	*	base:        "ish/fighter"
-		owner:       0
-		at:          {x: 250, y: 200}
-		attributes:  {initially_hidden: true}
-	*	base:        "can/transprt"
-		owner:       1
-		at:          {x: 6000, y: -3000}
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "can/transprt"
-		owner:       1
-		at:          {x: 6100, y: -3000}
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "can/transprt"
-		owner:       1
-		at:          {x: 6000, y: -3100}
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "can/transprt"
-		owner:       1
-		at:          {x: 6200, y: -3000}
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "can/transprt"
-		owner:       1
-		at:          {x: 5900, y: -3000}
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "can/transprt"
-		owner:       1
-		at:          {x: 5950, y: -3200}
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "can/transprt"
-		owner:       1
-		at:          {x: 6300, y: -3000}
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "can/transprt"
-		owner:       1
-		at:          {x: 6410, y: -3400}
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "can/transprt"
-		owner:       1
-		at:          {x: 6000, y: -3000}
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "can/transprt"
-		owner:       1
-		at:          {x: 6000, y: -3000}
-		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:   "ish/transprt"
+		owner:  0
+		at:     {x: 200, y: 200}
+		hide:   true
+	*	base:   "ish/transprt"
+		owner:  0
+		at:     {x: 400, y: 400}
+		hide:   true
+	*	base:   "ish/fighter"
+		owner:  0
+		at:     {x: 200, y: 250}
+		hide:   true
+	*	base:   "ish/fighter"
+		owner:  0
+		at:     {x: 250, y: 200}
+		hide:   true
+	*	base:    "can/transprt"
+		owner:   1
+		at:      {x: 6000, y: -3000}
+		hide:    true
+		target:  {lock: true}
+	*	base:    "can/transprt"
+		owner:   1
+		at:      {x: 6100, y: -3000}
+		hide:    true
+		target:  {lock: true}
+	*	base:    "can/transprt"
+		owner:   1
+		at:      {x: 6000, y: -3100}
+		hide:    true
+		target:  {lock: true}
+	*	base:    "can/transprt"
+		owner:   1
+		at:      {x: 6200, y: -3000}
+		hide:    true
+		target:  {lock: true}
+	*	base:    "can/transprt"
+		owner:   1
+		at:      {x: 5900, y: -3000}
+		hide:    true
+		target:  {lock: true}
+	*	base:    "can/transprt"
+		owner:   1
+		at:      {x: 5950, y: -3200}
+		hide:    true
+		target:  {lock: true}
+	*	base:    "can/transprt"
+		owner:   1
+		at:      {x: 6300, y: -3000}
+		hide:    true
+		target:  {lock: true}
+	*	base:    "can/transprt"
+		owner:   1
+		at:      {x: 6410, y: -3400}
+		hide:    true
+		target:  {lock: true}
+	*	base:    "can/transprt"
+		owner:   1
+		at:      {x: 6000, y: -3000}
+		hide:    true
+		target:  {lock: true}
+	*	base:    "can/transprt"
+		owner:   1
+		at:      {x: 6000, y: -3000}
+		hide:    true
+		target:  {lock: true}
 conditions:
 	*	type:   "time"
 		op:     "ge"

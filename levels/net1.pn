@@ -28,12 +28,13 @@ initials:
 		at:    {x: 0, y: 32767}
 	*	base:  "ast/shoot/lite/down"
 		at:    {x: 0, y: -32767}
-	*	base:             "loc/planet"
-		owner:            0
-		rename:           "Proteus Alpha"
-		at:               {x: 28260, y: 27129}
-		earning:          1.0
-		sprite_override:  "loc/planets/nastyswirl"
+	*	base:     "loc/planet"
+		owner:    0
+		at:       {x: 28260, y: 27129}
+		override:
+			name:    "Proteus Alpha"
+			sprite:  "loc/planets/nastyswirl"
+		earning:  1.0
 		build:
 			*	"cruiser"
 			*	"gunship"
@@ -41,12 +42,13 @@ initials:
 			*	"carrier"
 			*	"hvd"
 			*	"transprt"
-	*	base:             "loc/planet"
-		owner:            1
-		rename:           "Proteus Beta"
-		at:               {x: -28260, y: -27129}
-		earning:          1.0
-		sprite_override:  "loc/planets/moldymud"
+	*	base:     "loc/planet"
+		owner:    1
+		at:       {x: -28260, y: -27129}
+		override:
+			name:    "Proteus Beta"
+			sprite:  "loc/planets/moldymud"
+		earning:  1.0
 		build:
 			*	"cruiser"
 			*	"gunship"
@@ -55,23 +57,27 @@ initials:
 			*	"hvd"
 			*	"transprt"
 	*	base:     "loc/bunker"
-		rename:   "Bunker Station 1"
 		at:       {x: -6261, y: 22261}
+		override:
+			name:  "Bunker Station 1"
 		earning:  1.0
 	*	base:     "loc/bunker"
-		rename:   "Bunker Station 2"
 		at:       {x: 6621, y: -22621}
+		override:
+			name:  "Bunker Station 2"
 		earning:  1.0
-	*	base:        "hvd"
-		owner:       0
-		at:          {x: 28520, y: 27129}
-		target:      2
-		attributes:  {initially_hidden: true, is_player_ship: true}
-	*	base:        "hvd"
-		owner:       1
-		at:          {x: -21131, y: -18608}
-		target:      3
-		attributes:  {initially_hidden: true, is_player_ship: true}
+	*	base:      "hvd"
+		owner:     0
+		at:        {x: 28520, y: 27129}
+		hide:      true
+		flagship:  true
+		target:    {initial: 2}
+	*	base:      "hvd"
+		owner:     1
+		at:        {x: -21131, y: -18608}
+		hide:      true
+		flagship:  true
+		target:    {initial: 3}
 conditions:
 	*	type:   "time"
 		op:     "ge"

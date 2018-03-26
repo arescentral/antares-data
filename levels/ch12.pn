@@ -21,55 +21,58 @@ score:
 	*	"2\\0\\0\\0\\f\\t\\Docked: \\/5"
 song:        5001
 initials:
-	*	base:    "loc/shipyard"
+	*	base:   "loc/shipyard"
+		owner:  0
+		at:     {x: -14609, y: -14259}
+		override:
+			name:  "Orbital Shipyard"
+	*	base:   "uns/etc/bttlship"
+		owner:  0
+		at:     {x: -14609, y: -14259}
+		hide:   true
+	*	base:      "ish/cruiser"
+		owner:     0
+		at:        {x: -21999, y: -15478}
+		flagship:  true
+		target:    {initial: 9}
+	*	base:    "ish/etc/cargo"
 		owner:   0
-		rename:  "Orbital Shipyard"
-		at:      {x: -14609, y: -14259}
-	*	base:        "uns/etc/bttlship"
-		owner:       0
-		at:          {x: -14609, y: -14259}
-		attributes:  {initially_hidden: true}
-	*	base:        "ish/cruiser"
-		owner:       0
-		at:          {x: -21999, y: -15478}
-		target:      9
-		attributes:  {is_player_ship: true}
-	*	base:        "ish/etc/cargo"
-		owner:       0
-		at:          {x: 0, y: 4347}
-		target:      0
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "loc/bunker"
-		rename:      "Bunker Station 2"
-		at:          {x: 3821, y: 9473}
-		earning:     0.75
-		attributes:  {static_destination: true}
-	*	base:        "ish/etc/cargo"
-		owner:       0
-		at:          {x: 0, y: 4347}
-		target:      0
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "ish/etc/cargo"
-		owner:       0
-		at:          {x: 0, y: 4347}
-		target:      0
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "ish/etc/cargo"
-		owner:       0
-		at:          {x: 0, y: 4347}
-		target:      0
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "ish/etc/cargo"
-		owner:       0
-		at:          {x: 0, y: 4347}
-		target:      0
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:             "loc/planet"
-		owner:            0
-		rename:           "Fansi Alpha"
-		at:               {x: -11133, y: -18088}
-		earning:          1.0
-		sprite_override:  "loc/planets/redwhite-excitement"
+		at:      {x: 0, y: 4347}
+		hide:    true
+		target:  {initial: 0, lock: true}
+	*	base:     "loc/bunker"
+		at:       {x: 3821, y: 9473}
+		target:   {lock: true}
+		override:
+			name:  "Bunker Station 2"
+		earning:  0.75
+	*	base:    "ish/etc/cargo"
+		owner:   0
+		at:      {x: 0, y: 4347}
+		hide:    true
+		target:  {initial: 0, lock: true}
+	*	base:    "ish/etc/cargo"
+		owner:   0
+		at:      {x: 0, y: 4347}
+		hide:    true
+		target:  {initial: 0, lock: true}
+	*	base:    "ish/etc/cargo"
+		owner:   0
+		at:      {x: 0, y: 4347}
+		hide:    true
+		target:  {initial: 0, lock: true}
+	*	base:    "ish/etc/cargo"
+		owner:   0
+		at:      {x: 0, y: 4347}
+		hide:    true
+		target:  {initial: 0, lock: true}
+	*	base:     "loc/planet"
+		owner:    0
+		at:       {x: -11133, y: -18088}
+		override:
+			name:    "Fansi Alpha"
+			sprite:  "loc/planets/redwhite-excitement"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"
@@ -77,12 +80,13 @@ initials:
 			*	"transprt"
 			*	"engineer"
 			*	"aslttran"
-	*	base:             "loc/planet"
-		owner:            1
-		rename:           "Fansi Beta"
-		at:               {x: 22957, y: 43826}
-		earning:          1.0
-		sprite_override:  "loc/planets/cloudtones"
+	*	base:     "loc/planet"
+		owner:    1
+		at:       {x: 22957, y: 43826}
+		override:
+			name:    "Fansi Beta"
+			sprite:  "loc/planets/cloudtones"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"
@@ -91,8 +95,9 @@ initials:
 			*	"engineer"
 			*	"aslttran"
 	*	base:     "loc/bunker"
-		rename:   "Bunker Station 1"
 		at:       {x: 695, y: 3826}
+		override:
+			name:  "Bunker Station 1"
 		earning:  0.75
 	*	base:   "can/carrier"
 		owner:  1
@@ -102,16 +107,14 @@ initials:
 	*	base:   "loc/flak"
 		owner:  1
 		at:     {x: 6935, y: 14868}
-	*	base:        "can/aslttran"
-		owner:       1
-		at:          {x: 21913, y: 8000}
-		target:      11
-		attributes:  {static_destination: true}
-	*	base:        "can/aslttran"
-		owner:       1
-		at:          {x: 18086, y: 2434}
-		target:      4
-		attributes:  {static_destination: true}
+	*	base:    "can/aslttran"
+		owner:   1
+		at:      {x: 21913, y: 8000}
+		target:  {initial: 11, lock: true}
+	*	base:    "can/aslttran"
+		owner:   1
+		at:      {x: 18086, y: 2434}
+		target:  {initial: 4, lock: true}
 conditions:
 	*	type:   "time"
 		op:     "ge"

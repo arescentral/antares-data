@@ -28,12 +28,13 @@ initials:
 		at:    {x: 0, y: 32767}
 	*	base:  "ast/shoot/wide/down"
 		at:    {x: 0, y: -32767}
-	*	base:             "loc/planet"
-		owner:            0
-		rename:           "Lalande Alpha"
-		at:               {x: 0, y: 16384}
-		earning:          1.0
-		sprite_override:  "loc/planets/clay"
+	*	base:     "loc/planet"
+		owner:    0
+		at:       {x: 0, y: 16384}
+		override:
+			name:    "Lalande Alpha"
+			sprite:  "loc/planets/clay"
+		earning:  1.0
 		build:
 			*	"cruiser"
 			*	"gunship"
@@ -41,12 +42,13 @@ initials:
 			*	"carrier"
 			*	"hvd"
 			*	"transprt"
-	*	base:             "loc/planet"
-		owner:            1
-		rename:           "Lalande Beta"
-		at:               {x: 0, y: -16384}
-		earning:          1.0
-		sprite_override:  "loc/planets/sta-puft"
+	*	base:     "loc/planet"
+		owner:    1
+		at:       {x: 0, y: -16384}
+		override:
+			name:    "Lalande Beta"
+			sprite:  "loc/planets/sta-puft"
+		earning:  1.0
 		build:
 			*	"cruiser"
 			*	"gunship"
@@ -55,33 +57,40 @@ initials:
 			*	"hvd"
 			*	"transprt"
 	*	base:     "loc/outpost"
-		rename:   "Outpost 1"
 		at:       {x: 0, y: 9000}
+		override:
+			name:  "Outpost 1"
 		earning:  0.25
 	*	base:     "loc/outpost"
-		rename:   "Outpost 2"
 		at:       {x: 0, y: -9000}
+		override:
+			name:  "Outpost 2"
 		earning:  0.25
 	*	base:     "loc/outpost"
-		rename:   "Outpost 3"
 		at:       {x: 9000, y: 0}
+		override:
+			name:  "Outpost 3"
 		earning:  0.25
 	*	base:     "loc/outpost"
-		rename:   "Outpost 4"
 		at:       {x: -9000, y: 0}
+		override:
+			name:  "Outpost 4"
 		earning:  0.25
 	*	base:     "loc/bunker"
-		rename:   "Bunker Station"
 		at:       {x: 0, y: 0}
+		override:
+			name:  "Bunker Station"
 		earning:  1.0
-	*	base:        "hvd"
-		owner:       0
-		at:          {x: 0, y: 16380}
-		attributes:  {initially_hidden: true, is_player_ship: true}
-	*	base:        "hvd"
-		owner:       1
-		at:          {x: 0, y: -16380}
-		attributes:  {initially_hidden: true, is_player_ship: true}
+	*	base:      "hvd"
+		owner:     0
+		at:        {x: 0, y: 16380}
+		hide:      true
+		flagship:  true
+	*	base:      "hvd"
+		owner:     1
+		at:        {x: 0, y: -16380}
+		hide:      true
+		flagship:  true
 conditions:
 	*	type:   "time"
 		op:     "ge"

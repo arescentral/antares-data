@@ -17,37 +17,40 @@ score:
 	*	"_-Beta"
 song:        5002
 initials:
-	*	base:             "loc/planet"
-		owner:            0
-		rename:           "Demeter Alpha"
-		at:               {x: 260, y: 4695}
-		earning:          1.0
-		sprite_override:  "loc/planets/saturny"
+	*	base:     "loc/planet"
+		owner:    0
+		at:       {x: 260, y: 4695}
+		override:
+			name:    "Demeter Alpha"
+			sprite:  "loc/planets/saturny"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"
 			*	"transprt"
-	*	base:        "ish/cruiser"
-		owner:       0
-		at:          {x: 782, y: 4782}
-		attributes:  {is_player_ship: true}
-	*	base:    "loc/sun"
-		rename:  "Demeter"
-		at:      {x: -3478, y: 86}
-	*	base:        "gai/cruiser"
-		owner:       1
-		at:          {x: -1251, y: -8336}
-		attributes:  {is_player_ship: true}
-	*	base:        "gai/carrier"
-		owner:       1
-		at:          {x: 260, y: -8695}
-		attributes:  {initially_hidden: true}
-	*	base:             "loc/planet"
-		owner:            1
-		rename:           "Demeter Beta"
-		at:               {x: -347, y: -7477}
-		earning:          1.0
-		sprite_override:  "loc/planets/yellow-cookie"
+	*	base:      "ish/cruiser"
+		owner:     0
+		at:        {x: 782, y: 4782}
+		flagship:  true
+	*	base:  "loc/sun"
+		at:    {x: -3478, y: 86}
+		override:
+			name:  "Demeter"
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: -1251, y: -8336}
+		flagship:  true
+	*	base:   "gai/carrier"
+		owner:  1
+		at:     {x: 260, y: -8695}
+		hide:   true
+	*	base:     "loc/planet"
+		owner:    1
+		at:       {x: -347, y: -7477}
+		override:
+			name:    "Demeter Beta"
+			sprite:  "loc/planets/yellow-cookie"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"

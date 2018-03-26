@@ -19,10 +19,10 @@ score:
 	*	"_-Ship"
 song:        5003
 initials:
-	*	base:        "ish/hvc"
-		owner:       0
-		at:          {x: 18261, y: 73651}
-		attributes:  {is_player_ship: true}
+	*	base:      "ish/hvc"
+		owner:     0
+		at:        {x: 18261, y: 73651}
+		flagship:  true
 	*	base:   "baz/etc/bttlship/moored"
 		owner:  0
 		at:     {x: 0, y: 0}
@@ -38,73 +38,81 @@ initials:
 	*	base:   "can/hvc"
 		owner:  1
 		at:     {x: -10782, y: -12955}
-	*	base:             "loc/planet"
-		owner:            1
-		rename:           "Bokleo Beta"
-		at:               {x: 434, y: -869}
-		earning:          1.0
-		sprite_override:  "loc/planets/bahamas"
+	*	base:     "loc/planet"
+		owner:    1
+		at:       {x: 434, y: -869}
+		override:
+			name:    "Bokleo Beta"
+			sprite:  "loc/planets/bahamas"
+		earning:  1.0
 	*	base:   "can/etc/border-drone"
 		owner:  1
 		at:     {x: -260, y: -608}
-	*	base:             "loc/planet"
-		owner:            1
-		rename:           "Bokleo Gamma"
-		at:               {x: -4782, y: -21477}
-		earning:          1.0
-		sprite_override:  "loc/planets/purplegas"
+	*	base:     "loc/planet"
+		owner:    1
+		at:       {x: -4782, y: -21477}
+		override:
+			name:    "Bokleo Gamma"
+			sprite:  "loc/planets/purplegas"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"
 			*	"transprt"
 			*	"gunship"
 			*	"hvc"
-	*	base:             "loc/planet"
-		owner:            0
-		rename:           "Bokleo Alpha"
-		at:               {x: 22783, y: 72259}
-		earning:          1.0
-		sprite_override:  "loc/planets/lava"
+	*	base:     "loc/planet"
+		owner:    0
+		at:       {x: 22783, y: 72259}
+		target:   {lock: true}
+		override:
+			name:    "Bokleo Alpha"
+			sprite:  "loc/planets/lava"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"
 			*	"transprt"
-		attributes:       {static_destination: true}
 	*	base:    "ish/carrier"
 		owner:   0
-		rename:  "ISN 8738810"
 		at:      {x: 15826, y: 80607}
-		target:  9
+		target:  {initial: 9}
+		override:
+			name:  "ISN 8738810"
 	*	base:    "ish/carrier"
 		owner:   0
-		rename:  "ISN 2020187"
 		at:      {x: 32260, y: 74433}
-		target:  9
-	*	base:    "can/carrier"
+		target:  {initial: 9}
+		override:
+			name:  "ISN 2020187"
+	*	base:   "can/carrier"
+		owner:  1
+		at:     {x: -12434, y: -19826}
+		override:
+			name:  "The Gentle Fingers of Zom"
+	*	base:   "can/carrier"
+		owner:  1
+		at:     {x: -5738, y: -18868}
+		override:
+			name:  "The Chaste Dream of Doz"
+	*	base:   "can/carrier"
+		owner:  1
+		at:     {x: -15043, y: -14347}
+		override:
+			name:  "CRUISER"
+	*	base:   "can/carrier"
+		owner:  1
+		at:     {x: -10173, y: -15391}
+		hide:   true
+	*	base:   "can/carrier"
+		owner:  1
+		at:     {x: -16434, y: -16259}
+		hide:   true
+	*	base:    "can/gunship"
 		owner:   1
-		rename:  "The Gentle Fingers of Zom"
-		at:      {x: -12434, y: -19826}
-	*	base:    "can/carrier"
-		owner:   1
-		rename:  "The Chaste Dream of Doz"
-		at:      {x: -5738, y: -18868}
-	*	base:    "can/carrier"
-		owner:   1
-		rename:  "CRUISER"
-		at:      {x: -15043, y: -14347}
-	*	base:        "can/carrier"
-		owner:       1
-		at:          {x: -10173, y: -15391}
-		attributes:  {initially_hidden: true}
-	*	base:        "can/carrier"
-		owner:       1
-		at:          {x: -16434, y: -16259}
-		attributes:  {initially_hidden: true}
-	*	base:        "can/gunship"
-		owner:       1
-		at:          {x: -8869, y: -20086}
-		target:      16
-		attributes:  {initially_hidden: true, static_destination: true}
+		at:      {x: -8869, y: -20086}
+		hide:    true
+		target:  {initial: 16, lock: true}
 conditions:
 	*	type:     "counter"
 		op:       "eq"

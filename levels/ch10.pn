@@ -16,119 +16,107 @@ score:
 	*	"_-hostile ships"
 song:        5004
 initials:
-	*	base:        "ish/hvc"
-		owner:       0
-		at:          {x: 1565, y: 6521}
-		target:      6
-		attributes:  {is_player_ship: true}
+	*	base:      "ish/hvc"
+		owner:     0
+		at:        {x: 1565, y: 6521}
+		flagship:  true
+		target:    {initial: 6}
 	*	base:  "loc/sun"
 		at:    {x: 1913, y: -2086}
 	*	base:    "ish/cruiser"
 		owner:   0
 		at:      {x: 956, y: 7565}
-		target:  6
+		target:  {initial: 6}
 	*	base:    "ish/fighter"
 		owner:   0
 		at:      {x: 1913, y: 8086}
-		target:  6
+		target:  {initial: 6}
 	*	base:    "ish/fighter"
 		owner:   0
 		at:      {x: 2173, y: 7391}
-		target:  6
+		target:  {initial: 6}
 	*	base:    "obi/escort"
 		owner:   0
 		at:      {x: 521, y: 6782}
-		target:  6
+		target:  {initial: 6}
 	*	base:   "ish/carrier"
 		owner:  0
 		at:     {x: 2434, y: 6782}
 	*	base:    "ish/hvc"
 		owner:   0
 		at:      {x: 2782, y: 8521}
-		target:  6
+		target:  {initial: 6}
 	*	base:    "obi/escort"
 		owner:   0
 		at:      {x: 2956, y: 7739}
-		target:  6
+		target:  {initial: 6}
 	*	base:    "ish/fighter"
 		owner:   0
 		at:      {x: 1043, y: 8782}
-		target:  6
-	*	base:        "can/hvc"
-		owner:       1
-		at:          {x: 1478, y: 1826}
-		target:      17
-		attributes:  {static_destination: true}
-	*	base:        "can/hvc"
-		owner:       1
-		at:          {x: 2869, y: 1913}
-		target:      17
-		attributes:  {static_destination: true}
-	*	base:        "can/cruiser"
-		owner:       1
-		at:          {x: 1130, y: 1130}
-		target:      17
-		attributes:  {static_destination: true}
-	*	base:        "gai/cruiser"
-		owner:       1
-		at:          {x: 2260, y: 956}
-		target:      17
-		attributes:  {static_destination: true}
-	*	base:        "gai/cruiser"
-		owner:       1
-		at:          {x: 3217, y: 1391}
-		target:      17
-		attributes:  {static_destination: true}
-	*	base:             "loc/planet"
-		rename:           "Sprist"
-		at:               {x: -434, y: 2260}
-		earning:          1.0
-		sprite_override:  "loc/planets/blueyellow-marble"
-	*	base:        "can/carrier"
-		owner:       1
-		at:          {x: -1652, y: 3217}
-		target:      6
-		attributes:  {static_destination: true}
-	*	base:        "can/carrier"
-		owner:       1
-		at:          {x: 2000, y: 2695}
-		target:      1
-		attributes:  {is_player_ship: true}
-	*	base:        "can/fighter"
-		owner:       1
-		at:          {x: -1565, y: 2695}
-		target:      16
-		attributes:  {static_destination: true}
-	*	base:        "can/fighter"
-		owner:       1
-		at:          {x: -782, y: 3565}
-		target:      16
-		attributes:  {static_destination: true}
-	*	base:        "can/cruiser"
-		owner:       1
-		at:          {x: -1565, y: 869}
-		target:      16
-		attributes:  {static_destination: true}
-	*	base:        "can/cruiser"
-		owner:       1
-		at:          {x: -2956, y: 1043}
-		target:      16
-		attributes:  {static_destination: true}
-	*	base:        "can/cruiser"
-		owner:       1
-		at:          {x: -1565, y: -260}
-		target:      16
-		attributes:  {static_destination: true}
-	*	base:        "can/cruiser"
-		owner:       1
-		at:          {x: -3043, y: -86}
-		target:      16
-		attributes:  {static_destination: true}
-	*	base:        "can/cruiser"
-		owner:       1
-		at:          {x: -1913, y: 2086}
-		target:      16
-		attributes:  {static_destination: true}
+		target:  {initial: 6}
+	*	base:    "can/hvc"
+		owner:   1
+		at:      {x: 1478, y: 1826}
+		target:  {initial: 17, lock: true}
+	*	base:    "can/hvc"
+		owner:   1
+		at:      {x: 2869, y: 1913}
+		target:  {initial: 17, lock: true}
+	*	base:    "can/cruiser"
+		owner:   1
+		at:      {x: 1130, y: 1130}
+		target:  {initial: 17, lock: true}
+	*	base:    "gai/cruiser"
+		owner:   1
+		at:      {x: 2260, y: 956}
+		target:  {initial: 17, lock: true}
+	*	base:    "gai/cruiser"
+		owner:   1
+		at:      {x: 3217, y: 1391}
+		target:  {initial: 17, lock: true}
+	*	base:     "loc/planet"
+		at:       {x: -434, y: 2260}
+		override:
+			name:    "Sprist"
+			sprite:  "loc/planets/blueyellow-marble"
+		earning:  1.0
+	*	base:    "can/carrier"
+		owner:   1
+		at:      {x: -1652, y: 3217}
+		target:  {initial: 6, lock: true}
+	*	base:      "can/carrier"
+		owner:     1
+		at:        {x: 2000, y: 2695}
+		flagship:  true
+		target:    {initial: 1}
+	*	base:    "can/fighter"
+		owner:   1
+		at:      {x: -1565, y: 2695}
+		target:  {initial: 16, lock: true}
+	*	base:    "can/fighter"
+		owner:   1
+		at:      {x: -782, y: 3565}
+		target:  {initial: 16, lock: true}
+	*	base:    "can/cruiser"
+		owner:   1
+		at:      {x: -1565, y: 869}
+		target:  {initial: 16, lock: true}
+	*	base:    "can/cruiser"
+		owner:   1
+		at:      {x: -2956, y: 1043}
+		target:  {initial: 16, lock: true}
+	*	base:    "can/cruiser"
+		owner:   1
+		at:      {x: -1565, y: -260}
+		target:  {initial: 16, lock: true}
+	*	base:    "can/cruiser"
+		owner:   1
+		at:      {x: -3043, y: -86}
+		target:  {initial: 16, lock: true}
+	*	base:    "can/cruiser"
+		owner:   1
+		at:      {x: -1913, y: 2086}
+		target:  {initial: 16, lock: true}
 conditions:
 	*	type:     "destroyed"
 		op:       "eq"

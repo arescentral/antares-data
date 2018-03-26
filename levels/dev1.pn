@@ -20,12 +20,13 @@ players:
 		earning_power:  2.0
 song:     5002
 initials:
-	*	base:             "loc/planet"
-		owner:            0
-		rename:           "Proteus Alpha"
-		at:               {x: 9000, y: 0}
-		earning:          1.0
-		sprite_override:  "loc/planets/uglypaint"
+	*	base:     "loc/planet"
+		owner:    0
+		at:       {x: 9000, y: 0}
+		override:
+			name:    "Proteus Alpha"
+			sprite:  "loc/planets/uglypaint"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"
@@ -33,12 +34,13 @@ initials:
 			*	"carrier"
 			*	"hvd"
 			*	"transprt"
-	*	base:             "loc/planet"
-		owner:            1
-		rename:           "Proteus Beta"
-		at:               {x: -9000, y: 0}
-		earning:          1.0
-		sprite_override:  "loc/planets/calmpurple"
+	*	base:     "loc/planet"
+		owner:    1
+		at:       {x: -9000, y: 0}
+		override:
+			name:    "Proteus Beta"
+			sprite:  "loc/planets/calmpurple"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"
@@ -46,33 +48,34 @@ initials:
 			*	"carrier"
 			*	"hvd"
 			*	"transprt"
-	*	base:             "loc/planet"
-		owner:            2
-		rename:           "Proteus Gamma"
-		at:               {x: 0, y: 9000}
-		earning:          1.0
-		sprite_override:  "loc/planets/yerrear"
+	*	base:     "loc/planet"
+		owner:    2
+		at:       {x: 0, y: 9000}
+		override:
+			name:    "Proteus Gamma"
+			sprite:  "loc/planets/yerrear"
+		earning:  1.0
 		build:
 			*	"fighter"
 			*	"cruiser"
 			*	"gunship"
 			*	"escort"
 			*	"hvd"
-	*	base:        "hvd"
-		owner:       0
-		at:          {x: 9000, y: 0}
-		target:      0
-		attributes:  {is_player_ship: true}
-	*	base:        "hvd"
-		owner:       1
-		at:          {x: -9000, y: 0}
-		target:      1
-		attributes:  {is_player_ship: true}
-	*	base:        "hvd"
-		owner:       2
-		at:          {x: 0, y: 9000}
-		target:      2
-		attributes:  {is_player_ship: true}
+	*	base:      "hvd"
+		owner:     0
+		at:        {x: 9000, y: 0}
+		flagship:  true
+		target:    {initial: 0}
+	*	base:      "hvd"
+		owner:     1
+		at:        {x: -9000, y: 0}
+		flagship:  true
+		target:    {initial: 1}
+	*	base:      "hvd"
+		owner:     2
+		at:        {x: 0, y: 9000}
+		flagship:  true
+		target:    {initial: 2}
 briefings:
 	*	title:  "The Gaitori"
 		content:

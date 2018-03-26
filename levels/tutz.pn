@@ -15,103 +15,107 @@ song:     5001
 initials:
 	*	base:     "loc/planet"
 		owner:    0
-		rename:   "Omisha Station"
 		at:       {x: 0, y: -85}
+		override:
+			name:  "Omisha Station"
 		earning:  1.0
-	*	base:             "loc/moon"
-		owner:            0
-		rename:           "Command Buoy A"
-		at:               {x: -86, y: -6260}
-		earning:          1.0
-		sprite_override:  "zzz/loc/buoy"
-	*	base:             "loc/moon"
-		owner:            0
-		rename:           "Command Buoy B"
-		at:               {x: 0, y: -9478}
-		earning:          1.0
-		sprite_override:  "zzz/loc/buoy"
+	*	base:     "loc/moon"
+		owner:    0
+		at:       {x: -86, y: -6260}
+		override:
+			name:    "Command Buoy A"
+			sprite:  "zzz/loc/buoy"
+		earning:  1.0
+	*	base:     "loc/moon"
+		owner:    0
+		at:       {x: 0, y: -9478}
+		override:
+			name:    "Command Buoy B"
+			sprite:  "zzz/loc/buoy"
+		earning:  1.0
 	*	base:    "zzz/ish/etc/trgtdrne"
 		owner:   0
 		at:      {x: 0, y: -4869}
-		target:  1
-	*	base:        "zzz/ish/cruiser/active"
-		owner:       0
-		at:          {x: 87, y: 109}
-		target:      0
-		attributes:  {is_player_ship: true}
-	*	base:             "loc/moon"
-		owner:            0
-		rename:           "Build Moon"
-		at:               {x: -9739, y: -86}
-		earning:          1.0
-		sprite_override:  "loc/planets/bruised"
+		target:  {initial: 1}
+	*	base:      "zzz/ish/cruiser/active"
+		owner:     0
+		at:        {x: 87, y: 109}
+		flagship:  true
+		target:    {initial: 0}
+	*	base:     "loc/moon"
+		owner:    0
+		at:       {x: -9739, y: -86}
+		override:
+			name:    "Build Moon"
+			sprite:  "loc/planets/bruised"
+		earning:  1.0
 		build:
 			*	"prctcdrn"
-	*	base:             "loc/moon"
-		owner:            1
-		rename:           "Combat Buoy A"
-		at:               {x: 7478, y: 0}
-		earning:          1.0
-		sprite_override:  "zzz/loc/buoy"
-	*	base:        "zzz/ish/etc/trgtdrne"
-		owner:       1
-		at:          {x: 7826, y: -2260}
-		target:      6
-		attributes:  {static_destination: true}
-	*	base:             "loc/moon"
-		owner:            1
-		rename:           "Combat Buoy B"
-		at:               {x: 13391, y: 173}
-		earning:          1.0
-		sprite_override:  "zzz/loc/buoy"
-	*	base:        "zzz/ish/etc/trgtdrne"
-		owner:       1
-		at:          {x: 13739, y: 2956}
-		target:      8
-		attributes:  {static_destination: true}
-	*	base:        "zzz/ish/etc/trgtdrne"
-		owner:       1
-		at:          {x: 13217, y: -1739}
-		target:      8
-		attributes:  {static_destination: true}
-	*	base:             "loc/moon"
-		owner:            1
-		rename:           "Combat Buoy C"
-		at:               {x: 19130, y: 173}
-		earning:          1.0
-		sprite_override:  "zzz/loc/buoy"
-	*	base:        "zzz/ish/etc/trgtdrne"
-		owner:       1
-		at:          {x: 18782, y: -1043}
-		target:      11
-		attributes:  {static_destination: true}
+	*	base:     "loc/moon"
+		owner:    1
+		at:       {x: 7478, y: 0}
+		override:
+			name:    "Combat Buoy A"
+			sprite:  "zzz/loc/buoy"
+		earning:  1.0
+	*	base:    "zzz/ish/etc/trgtdrne"
+		owner:   1
+		at:      {x: 7826, y: -2260}
+		target:  {initial: 6, lock: true}
+	*	base:     "loc/moon"
+		owner:    1
+		at:       {x: 13391, y: 173}
+		override:
+			name:    "Combat Buoy B"
+			sprite:  "zzz/loc/buoy"
+		earning:  1.0
+	*	base:    "zzz/ish/etc/trgtdrne"
+		owner:   1
+		at:      {x: 13739, y: 2956}
+		target:  {initial: 8, lock: true}
+	*	base:    "zzz/ish/etc/trgtdrne"
+		owner:   1
+		at:      {x: 13217, y: -1739}
+		target:  {initial: 8, lock: true}
+	*	base:     "loc/moon"
+		owner:    1
+		at:       {x: 19130, y: 173}
+		override:
+			name:    "Combat Buoy C"
+			sprite:  "zzz/loc/buoy"
+		earning:  1.0
+	*	base:    "zzz/ish/etc/trgtdrne"
+		owner:   1
+		at:      {x: 18782, y: -1043}
+		target:  {initial: 11, lock: true}
 	*	base:    "zzz/ish/etc/trgtdrne"
 		owner:   1
 		at:      {x: 18608, y: 1565}
-		target:  11
-	*	base:        "zzz/ish/etc/trgtdrne"
-		owner:       1
-		at:          {x: 18782, y: 173}
-		target:      11
-		attributes:  {static_destination: true}
-	*	base:             "loc/moon"
-		owner:            0
-		rename:           "Extra Ships"
-		at:               {x: 0, y: 9391}
-		earning:          1.0
-		sprite_override:  "zzz/loc/buoy"
+		target:  {initial: 11}
+	*	base:    "zzz/ish/etc/trgtdrne"
+		owner:   1
+		at:      {x: 18782, y: 173}
+		target:  {initial: 11, lock: true}
+	*	base:     "loc/moon"
+		owner:    0
+		at:       {x: 0, y: 9391}
+		override:
+			name:    "Extra Ships"
+			sprite:  "zzz/loc/buoy"
+		earning:  1.0
 	*	base:    "zzz/ish/cruiser/active"
 		owner:   0
 		at:      {x: 1739, y: 10086}
-		target:  15
+		target:  {initial: 15}
 	*	base:    "zzz/ish/cruiser/active"
 		owner:   0
 		at:      {x: -2608, y: 10086}
-		target:  15
+		target:  {initial: 15}
 	*	base:     "loc/jump/gate"
 		owner:    0
-		rename:   "Omisha Jump Gate"
 		at:       {x: -17391, y: 16695}
+		override:
+			name:  "Omisha Jump Gate"
 		earning:  1.0
 	*	base:   "loc/jump/node"
 		owner:  0
@@ -122,10 +126,10 @@ initials:
 	*	base:   "loc/jump/node"
 		owner:  0
 		at:     {x: -17836, y: 16532}
-	*	base:        "sfx/jump/small"
-		owner:       0
-		at:          {x: -17401, y: 16716}
-		attributes:  {initially_hidden: true}
+	*	base:   "sfx/jump/small"
+		owner:  0
+		at:     {x: -17401, y: 16716}
+		hide:   true
 conditions:
 	*	type:     "distance"
 		op:       "lt"

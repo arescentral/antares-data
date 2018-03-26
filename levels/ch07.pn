@@ -22,45 +22,47 @@ initials:
 	*	base:    "ish/etc/astrominer"
 		owner:   0
 		at:      {x: -2696, y: 4347}
-		target:  5
+		target:  {initial: 5}
 	*	base:     "ast/otr/big"
 		owner:    1
-		rename:   "Asteroid IR7-7e"
 		at:       {x: -8000, y: -8800}
+		override:
+			name:  "Asteroid IR7-7e"
 		earning:  1.0
-	*	base:             "loc/planet"
-		owner:            0
-		rename:           "Philemon Beta"
-		at:               {x: -4000, y: 3000}
-		earning:          1.0
-		sprite_override:  "loc/planets/marslike"
-	*	base:    "loc/sun"
-		rename:  "Philemon"
-		at:      {x: 200, y: -200}
-	*	base:        "ish/hvc"
-		owner:       0
-		at:          {x: -3678, y: 3497}
-		attributes:  {is_player_ship: true}
-	*	base:        "can/schooner"
-		owner:       1
-		at:          {x: -6978, y: -8804}
-		target:      2
-		attributes:  {static_destination: true}
-	*	base:        "can/gunship"
-		owner:       1
-		at:          {x: -11760, y: -17673}
-		target:      1
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "can/schooner"
-		owner:       1
-		at:          {x: -10543, y: -17325}
-		target:      7
-		attributes:  {initially_hidden: true, static_destination: true}
-	*	base:        "can/schooner"
-		owner:       1
-		at:          {x: -11673, y: -16021}
-		target:      7
-		attributes:  {initially_hidden: true, static_destination: true}
+	*	base:     "loc/planet"
+		owner:    0
+		at:       {x: -4000, y: 3000}
+		override:
+			name:    "Philemon Beta"
+			sprite:  "loc/planets/marslike"
+		earning:  1.0
+	*	base:  "loc/sun"
+		at:    {x: 200, y: -200}
+		override:
+			name:  "Philemon"
+	*	base:      "ish/hvc"
+		owner:     0
+		at:        {x: -3678, y: 3497}
+		flagship:  true
+	*	base:    "can/schooner"
+		owner:   1
+		at:      {x: -6978, y: -8804}
+		target:  {initial: 2, lock: true}
+	*	base:    "can/gunship"
+		owner:   1
+		at:      {x: -11760, y: -17673}
+		hide:    true
+		target:  {initial: 1, lock: true}
+	*	base:    "can/schooner"
+		owner:   1
+		at:      {x: -10543, y: -17325}
+		hide:    true
+		target:  {initial: 7, lock: true}
+	*	base:    "can/schooner"
+		owner:   1
+		at:      {x: -11673, y: -16021}
+		hide:    true
+		target:  {initial: 7, lock: true}
 conditions:
 	*	type:   "time"
 		op:     "ge"
