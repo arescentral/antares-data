@@ -1,9 +1,6 @@
-long_name:               "Holo Generator"
-short_name:              "HLOGNRTR"
-notes:                   "Holo Generator"
-health:                  1000
-initial_age:             45
-max_velocity:            20.0
+long_name:   "Holo Generator"
+short_name:  "HLOGNRTR"
+notes:       "Holo Generator"
 device:
 	usage:          {defense: true}
 	energy_cost:    0
@@ -17,5 +14,3 @@ on_activate:
 		count:               {begin: 1, end: 3}
 		relative_velocity:   true
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

@@ -1,10 +1,7 @@
-long_name:               "Electronic Jam"
-short_name:              "ELCTJAM"
-notes:                   "Electronic Jamming Device"
-attributes:              {autotarget: true}
-health:                  1000
-initial_age:             160
-max_velocity:            9.0
+long_name:   "Electronic Jam"
+short_name:  "ELCTJAM"
+notes:       "Electronic Jamming Device"
+attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -16,5 +13,3 @@ device:
 on_activate:
 	*	type:   "disable"
 		value:  40.0
-arrive_action_distance:  50000
-destination_class:       -256

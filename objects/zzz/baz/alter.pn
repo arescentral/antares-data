@@ -1,8 +1,7 @@
-long_name:               "Alter Battleship"
-short_name:              "ALTERTST"
-notes:                   "Alter Battleship"
-health:                  1000
-initial_direction:       {begin: -5, end: 5}
+long_name:          "Alter Battleship"
+short_name:         "ALTERTST"
+notes:              "Alter Battleship"
+initial_direction:  {begin: -5, end: 5}
 device:
 	usage:          {attacking: true}
 	energy_cost:    10
@@ -13,5 +12,3 @@ on_activate:
 	*	type:       "morph"
 		reflexive:  true
 		base:       "baz/bttlship"
-arrive_action_distance:  50000
-destination_class:       -256

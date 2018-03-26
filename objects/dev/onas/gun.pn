@@ -1,9 +1,6 @@
-long_name:               "Onas Pulse Gun"
-short_name:              "ONASPULS"
-notes:                   "Onas Pulse Gun"
-health:                  1000
-initial_age:             45
-max_velocity:            20.0
+long_name:   "Onas Pulse Gun"
+short_name:  "ONASPULS"
+notes:       "Onas Pulse Gun"
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -22,5 +19,3 @@ on_activate:
 		base:                "dev/onas/pulse"
 		relative_velocity:   true
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

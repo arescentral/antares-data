@@ -1,10 +1,7 @@
-long_name:               "Atomic Pulse Gun"
-short_name:              "ATOMPLSE"
-notes:                   "Atomic Pulse Gun"
-attributes:              {autotarget: true}
-health:                  1000
-initial_age:             307
-max_velocity:            7.0
+long_name:   "Atomic Pulse Gun"
+short_name:  "ATOMPLSE"
+notes:       "Atomic Pulse Gun"
+attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -19,5 +16,3 @@ on_activate:
 		base:                "dev/atomic/pulse"
 		relative_velocity:   true
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

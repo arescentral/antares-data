@@ -1,10 +1,7 @@
-long_name:               "Reactivator"
-short_name:              "RCTVTR"
-notes:                   "Reactivator, for CTF, P2"
-attributes:              {autotarget: true}
-health:                  1000
-initial_age:             160
-max_velocity:            9.0
+long_name:   "Reactivator"
+short_name:  "RCTVTR"
+notes:       "Reactivator, for CTF, P2"
+attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -22,5 +19,3 @@ on_activate:
 		volume:       255
 	*	type:       "hold"
 		reflexive:  true
-arrive_action_distance:  50000
-destination_class:       -256

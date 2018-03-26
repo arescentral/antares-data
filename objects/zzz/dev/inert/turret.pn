@@ -1,10 +1,7 @@
-long_name:               "Inert Beam Cannon"
-short_name:              "INRTBEAM"
-notes:                   "Inert Beam Cannon"
-attributes:              {autotarget: true}
-health:                  1000
-initial_age:             15
-max_velocity:            15.0
+long_name:   "Inert Beam Cannon"
+short_name:  "INRTBEAM"
+notes:       "Inert Beam Cannon"
+attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true}
 	energy_cost:    10
@@ -23,5 +20,3 @@ on_activate:
 		priority:     3
 		persistence:  10
 		volume:       180
-arrive_action_distance:  50000
-destination_class:       -256

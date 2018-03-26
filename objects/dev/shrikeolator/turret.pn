@@ -1,10 +1,7 @@
-long_name:               "Shrikeolator"
-short_name:              "SHRKOLTR"
-notes:                   "Pushes you far far away"
-attributes:              {autotarget: true}
-health:                  1000
-initial_age:             160
-max_velocity:            9.0
+long_name:   "Shrikeolator"
+short_name:  "SHRKOLTR"
+notes:       "Pushes you far far away"
+attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -25,5 +22,3 @@ on_activate:
 		priority:     3
 		persistence:  10
 		volume:       255
-arrive_action_distance:  50000
-destination_class:       -256

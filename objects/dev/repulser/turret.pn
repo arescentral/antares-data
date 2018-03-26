@@ -1,10 +1,7 @@
-long_name:               "Repulser"
-short_name:              "REPULSER"
-notes:                   "Rupulser"
-attributes:              {autotarget: true}
-health:                  1000
-initial_age:             30
-max_velocity:            15.0
+long_name:   "Repulser"
+short_name:  "REPULSER"
+notes:       "Rupulser"
+attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true, defense: true}
 	energy_cost:    40
@@ -17,5 +14,3 @@ on_activate:
 		base:                "dev/repulser/beam"
 		relative_velocity:   true
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

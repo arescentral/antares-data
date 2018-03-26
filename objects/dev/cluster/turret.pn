@@ -1,8 +1,7 @@
-long_name:               "ClusterCell Array"
-short_name:              "CLSTRCEL"
-notes:                   "ClusterCell Array"
-attributes:              {autotarget: true}
-health:                  1000
+long_name:   "ClusterCell Array"
+short_name:  "CLSTRCEL"
+notes:       "ClusterCell Array"
+attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -23,5 +22,3 @@ on_activate:
 		base:                "dev/cluster/pulse"
 		count:               {begin: 1, end: 4}
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

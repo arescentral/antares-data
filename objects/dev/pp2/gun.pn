@@ -1,9 +1,6 @@
-long_name:               "Protopulse 2 Gun"
-short_name:              "PRTOPLSE"
-notes:                   "Protopulse 2 Gun"
-health:                  1000
-initial_age:             40
-max_velocity:            13.0
+long_name:   "Protopulse 2 Gun"
+short_name:  "PRTOPLSE"
+notes:       "Protopulse 2 Gun"
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -24,5 +21,3 @@ on_activate:
 		base:                "dev/pp2/pulse"
 		relative_velocity:   true
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

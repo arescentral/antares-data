@@ -1,7 +1,6 @@
-long_name:               "P-K Beam Cannon"
-short_name:              "PKBEAM 1"
-notes:                   "P-K Beam Cannon"
-health:                  1000
+long_name:   "P-K Beam Cannon"
+short_name:  "PKBEAM 1"
+notes:       "P-K Beam Cannon"
 device:
 	usage:          {attacking: true}
 	energy_cost:    10
@@ -14,5 +13,3 @@ on_activate:
 		base:                "dev/pk/ish/beam"
 		relative_velocity:   true
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

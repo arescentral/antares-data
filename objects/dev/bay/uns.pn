@@ -1,7 +1,7 @@
-long_name:               "Launching Bay"
-short_name:              "LNCHBAY"
-notes:                   "Launching Bay"
-attributes:              {autotarget: true}
+long_name:   "Launching Bay"
+short_name:  "LNCHBAY"
+notes:       "Launching Bay"
+attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true, defense: true}
 	energy_cost:    0
@@ -20,5 +20,3 @@ on_activate:
 		reflexive:           true
 		base:                "uns/fighter"
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

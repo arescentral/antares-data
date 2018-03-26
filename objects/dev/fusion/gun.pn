@@ -1,7 +1,6 @@
-long_name:               "F Pulse Reactor"
-short_name:              "F PULSE"
-notes:                   "F Pulse Reactor"
-health:                  1000
+long_name:   "F Pulse Reactor"
+short_name:  "F PULSE"
+notes:       "F Pulse Reactor"
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -16,5 +15,3 @@ on_activate:
 		base:                "dev/fusion/pulse"
 		relative_velocity:   true
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

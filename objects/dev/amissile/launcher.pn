@@ -1,9 +1,6 @@
-long_name:               "A Missile Launch"
-short_name:              "AMISSILE"
-notes:                   "A Missile Launch"
-health:                  1000
-initial_age:             160
-max_velocity:            9.0
+long_name:   "A Missile Launch"
+short_name:  "AMISSILE"
+notes:       "A Missile Launch"
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -24,5 +21,3 @@ on_activate:
 		base:                "dev/amissile/missile"
 		relative_velocity:   true
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

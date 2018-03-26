@@ -1,9 +1,6 @@
-long_name:               "Hand PK Beam"
-short_name:              "HANDBEAM"
-notes:                   "Hand PK Beam"
-health:                  1000
-initial_age:             15
-max_velocity:            10.0
+long_name:   "Hand PK Beam"
+short_name:  "HANDBEAM"
+notes:       "Hand PK Beam"
 device:
 	usage:          {attacking: true}
 	energy_cost:    10
@@ -16,5 +13,3 @@ on_activate:
 		base:                "dev/pk/ish/beam"
 		relative_velocity:   true
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

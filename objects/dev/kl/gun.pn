@@ -1,9 +1,6 @@
-long_name:               "KL Beam Cannon"
-short_name:              "KLBEAM"
-notes:                   "Identical to #2, really"
-health:                  1000
-initial_age:             15
-max_velocity:            15.0
+long_name:   "KL Beam Cannon"
+short_name:  "KLBEAM"
+notes:       "Identical to #2, really"
 device:
 	usage:          {attacking: true}
 	energy_cost:    10
@@ -17,5 +14,3 @@ on_activate:
 		relative_velocity:   true
 		relative_direction:  true
 		distance:            4
-arrive_action_distance:  50000
-destination_class:       -256

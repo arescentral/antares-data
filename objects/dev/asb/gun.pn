@@ -1,9 +1,6 @@
-long_name:               "ASB Beam Cannon"
-short_name:              "ASB BEAM"
-notes:                   "ASB Beam Cannon"
-health:                  1000
-initial_age:             30
-max_velocity:            20.0
+long_name:   "ASB Beam Cannon"
+short_name:  "ASB BEAM"
+notes:       "ASB Beam Cannon"
 device:
 	usage:          {attacking: true}
 	energy_cost:    10
@@ -22,5 +19,3 @@ on_activate:
 		base:                "dev/asb/beam"
 		relative_velocity:   true
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

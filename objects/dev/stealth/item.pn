@@ -1,6 +1,6 @@
-long_name:               "Stealth Field"
-short_name:              "STEALTH"
-notes:                   "Stealth Field"
+long_name:   "Stealth Field"
+short_name:  "STEALTH"
+notes:       "Stealth Field"
 device:
 	usage:          {transportation: true, defense: true}
 	energy_cost:    1
@@ -11,5 +11,3 @@ device:
 on_activate:
 	*	type:       "cloak"
 		reflexive:  true
-arrive_action_distance:  50000
-destination_class:       -256

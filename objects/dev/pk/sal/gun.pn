@@ -1,9 +1,6 @@
-long_name:               "LRPK Beam Cannon"
-short_name:              "LRPKBEAM"
-notes:                   "LRPK Beam Cannon"
-health:                  1000
-initial_age:             50
-max_velocity:            25.0
+long_name:   "LRPK Beam Cannon"
+short_name:  "LRPKBEAM"
+notes:       "LRPK Beam Cannon"
 device:
 	usage:          {attacking: true}
 	energy_cost:    10
@@ -22,5 +19,3 @@ on_activate:
 		base:                "dev/pk/sal/beam"
 		relative_velocity:   true
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

@@ -1,9 +1,6 @@
-long_name:               "Magneto Pulse Gun"
-short_name:              "MGNTOPLS"
-notes:                   "Magneto Pulse Gun"
-health:                  1000
-initial_age:             30
-max_velocity:            10.0
+long_name:   "Magneto Pulse Gun"
+short_name:  "MGNTOPLS"
+notes:       "Magneto Pulse Gun"
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -24,5 +21,3 @@ on_activate:
 		base:                "dev/magneto/pulse"
 		relative_velocity:   true
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

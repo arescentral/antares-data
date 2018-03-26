@@ -1,9 +1,6 @@
-long_name:               "Fullerene Gun"
-short_name:              "FULLPLSE"
-notes:                   "Fullerene Gun"
-health:                  1000
-initial_age:             60
-max_velocity:            15.0
+long_name:   "Fullerene Gun"
+short_name:  "FULLPLSE"
+notes:       "Fullerene Gun"
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -24,5 +21,3 @@ on_activate:
 		base:                "dev/fullerene/pulse"
 		relative_velocity:   true
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

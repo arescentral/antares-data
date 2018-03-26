@@ -1,9 +1,6 @@
-long_name:               "Plasma Ball"
-short_name:              "PLASMA"
-notes:                   "Plasma Ball, Fireball"
-health:                  1000
-initial_age:             45
-max_velocity:            12.0
+long_name:   "Plasma Ball"
+short_name:  "PLASMA"
+notes:       "Plasma Ball, Fireball"
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -24,5 +21,3 @@ on_activate:
 		priority:     3
 		persistence:  15
 		volume:       255
-arrive_action_distance:  50000
-destination_class:       -256

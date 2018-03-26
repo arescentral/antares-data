@@ -1,7 +1,6 @@
-long_name:               "Laser Cannon"
-short_name:              "LASER"
-notes:                   "Laser Cannon"
-health:                  1000
+long_name:   "Laser Cannon"
+short_name:  "LASER"
+notes:       "Laser Cannon"
 device:
 	usage:          {attacking: true}
 	energy_cost:    10
@@ -20,5 +19,3 @@ on_activate:
 		priority:     3
 		persistence:  10
 		volume:       255
-arrive_action_distance:  50000
-destination_class:       -256

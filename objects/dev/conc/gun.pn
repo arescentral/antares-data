@@ -1,7 +1,6 @@
-long_name:               "Concsv Pellet Gun"
-short_name:              "CCPLTGUN"
-notes:                   "Machine gun"
-health:                  1000
+long_name:   "Concsv Pellet Gun"
+short_name:  "CCPLTGUN"
+notes:       "Machine gun"
 device:
 	usage:          {attacking: true}
 	energy_cost:    10
@@ -25,5 +24,3 @@ on_activate:
 		base:                "sfx/gunsmoke"
 		relative_velocity:   true
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

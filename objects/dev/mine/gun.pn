@@ -1,10 +1,7 @@
-long_name:               "Lightwave Cannon"
-short_name:              "L PULSE"
-notes:                   "Lightwave Cannon"
-health:                  1000
-initial_age:             20
-max_velocity:            9.0
-initial_velocity:        9.0
+long_name:         "Lightwave Cannon"
+short_name:        "L PULSE"
+notes:             "Lightwave Cannon"
+initial_velocity:  9.0
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -23,5 +20,3 @@ on_activate:
 		priority:     3
 		persistence:  5
 		volume:       255
-arrive_action_distance:  50000
-destination_class:       -256

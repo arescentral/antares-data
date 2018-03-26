@@ -1,10 +1,7 @@
-long_name:               "Assault Team"
-short_name:              "ASLTTEAM"
-notes:                   "Gaitori Assault Team"
-health:                  1000
-initial_age:             160
-max_velocity:            9.0
-device:                  {energy_cost: 0, fire_time: 240, ammo: 2, range: 2073600, inverse_speed: 0.11}
+long_name:   "Assault Team"
+short_name:  "ASLTTEAM"
+notes:       "Gaitori Assault Team"
+device:      {energy_cost: 0, fire_time: 240, ammo: 2, range: 2073600, inverse_speed: 0.11}
 on_activate:
 	*	type:         "sound"
 		reflexive:    true
@@ -19,5 +16,3 @@ on_activate:
 		relative_velocity:   true
 		relative_direction:  true
 		inherit:             true
-arrive_action_distance:  50000
-destination_class:       -256

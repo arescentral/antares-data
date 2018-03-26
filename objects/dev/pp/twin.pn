@@ -1,8 +1,7 @@
-long_name:               "Twin Pulse Cannon"
-short_name:              "TWNPPULS"
-notes:                   "Twin Pulse Cannon"
-attributes:              {autotarget: true}
-health:                  1000
+long_name:   "Twin Pulse Cannon"
+short_name:  "TWNPPULS"
+notes:       "Twin Pulse Cannon"
+attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true}
 	energy_cost:    0
@@ -18,5 +17,3 @@ on_activate:
 		count:               2
 		relative_velocity:   true
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256

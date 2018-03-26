@@ -1,11 +1,7 @@
-long_name:               "T-Space Bolt Rod"
-short_name:              "TRNSBOLT"
-notes:                   "Trans-Spacial Bolt Firing Rod"
-attributes:              {autotarget: true}
-health:                  1000
-initial_age:             45
-max_velocity:            20.0
-max_thrust:              1.0
+long_name:   "T-Space Bolt Rod"
+short_name:  "TRNSBOLT"
+notes:       "Trans-Spacial Bolt Firing Rod"
+attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true, defense: true}
 	energy_cost:    50
@@ -22,5 +18,3 @@ on_activate:
 		reflexive:           true
 		base:                "dev/tspace/beam"
 		relative_direction:  true
-arrive_action_distance:  50000
-destination_class:       -256
