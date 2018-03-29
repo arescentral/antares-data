@@ -1,0 +1,11 @@
+template:           "tpl/structure"
+attributes:         {can_engage: true, can_accept_build: true, is_destination: true, neutral_death: true}
+level_tag:          "a"
+health:             5000
+energy:             1000
+price:              0
+icon:               {size: 7}
+skill_num:          3
+skill_den:          21
+destination_class:  10
+friend_deficit:     3.0

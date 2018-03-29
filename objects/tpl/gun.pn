@@ -1,0 +1,3 @@
+template:  "tpl/device"
+device:
+	usage:  {attacking: true}

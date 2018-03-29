@@ -1,0 +1,3 @@
+template:    "tpl/animated"
+attributes:  {can_be_destination: true}
+animation:   {layer: 1}

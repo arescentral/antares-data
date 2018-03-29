@@ -1,0 +1,43 @@
+template:           "tpl/utilship"
+long_name:          "Transport"
+short_name:         "TRANSPRT"
+build_flags:        {uncaptured_base_exists: true, sufficient_escorts_exist: true, matching_foe_exists: true}
+order_flags:        {stronger_than_target: true, base: true, foe: true}
+order_tag:          "f"
+class:              800
+health:             250
+energy:             1000
+price:              800
+build_ratio:        0.7
+build_time:         660
+mass:               1.098
+max_velocity:       3.0
+max_thrust:         0.156
+initial_velocity:   3.0
+icon:               {size: 5}
+on_destroy:
+	*	type:                "create"
+		reflexive:           true
+		base:                "sfx/explosion/large"
+		relative_direction:  true
+on_expire:
+	*	type:              "capture"
+		level_key_filter:  "f"
+		owner:             "different"
+on_arrive:
+	*	type:              "land"
+		level_key_filter:  "f"
+		owner:             "different"
+		speed:             32
+	*	type:              "sound"
+		level_key_filter:  "f"
+		owner:             "different"
+		absolute:          true
+		id:                513
+		priority:          5
+		persistence:       20
+		volume:            255
+offense:            0.098
+destination_class:  9
+friend_deficit:     2.0
+danger_threshold:   4.0

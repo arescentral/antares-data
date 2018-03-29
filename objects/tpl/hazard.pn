@@ -1,0 +1,9 @@
+template:           "tpl/animated"
+attributes:         {does_bounce: true, animation_cycle: true, can_collide: true, can_be_hit: true, occupies_space: true, appear_on_radar: true}
+animation:          {layer: 2}
+icon:
+	shape:  "square"
+	size:   1
+skill_num:          0
+skill_den:          0
+destination_class:  -256

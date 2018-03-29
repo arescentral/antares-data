@@ -1,0 +1,4 @@
+template:    "tpl/device"
+attributes:  {autotarget: true}
+device:
+	usage:  {attacking: true}

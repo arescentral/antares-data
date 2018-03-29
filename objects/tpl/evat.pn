@@ -1,0 +1,54 @@
+template:                "tpl/oriented"
+long_name:               "EVA Trooper"
+short_name:              "EVAT"
+attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, static_destination: true, can_be_evaded: true, appear_on_radar: true}
+build_flags:             {can_only_engage: true}
+order_flags:             {local: true, foe: true}
+engage_tag:              "a"
+order_tag:               "a"
+class:                   10
+health:                  10
+energy:                  50
+initial_age:             4000
+mass:                    0.008
+max_velocity:            0.5
+max_thrust:              0.02
+initial_velocity:        0.5
+initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+rotation:                {layer: 2, scale: 0.5, turn_rate: 6.0}
+icon:
+	shape:  "triangle"
+	size:   1
+on_destroy:
+	*	type:         "sound"
+		id:           12558
+		priority:     3
+		persistence:  20
+		volume:       255
+	*	type:       "create"
+		reflexive:  true
+		base:       "sfx/explosion/small"
+on_arrive:
+	*	type:              "kill"
+		level_key_filter:  "a"
+		owner:             "different"
+		kind:              "expire"
+	*	type:              "sound"
+		level_key_filter:  "a"
+		owner:             "different"
+		absolute:          true
+		id:                31989
+		priority:          4
+		persistence:       60
+		volume:            255
+	*	type:              "occupy"
+		level_key_filter:  "a"
+		owner:             "different"
+		value:             1
+arrive_action_distance:  5000
+skill_num:               3
+skill_den:               21
+offense:                 0.5
+destination_class:       1
+danger_threshold:        2.0

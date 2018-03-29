@@ -1,0 +1,7 @@
+template:    "tpl/any"
+attributes:  {is_self_animated: true}
+animation:
+	frames:     0.0
+	direction:  "0"
+	speed:      0.0
+	first:      0.0

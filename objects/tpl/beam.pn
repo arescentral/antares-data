@@ -1,0 +1,15 @@
+template:           "tpl/vector"
+attributes:         {can_collide: true}
+health:             1000
+damage:             15
+price:              0
+initial_age:        45
+max_velocity:       0.0
+initial_velocity:   0.0
+vector:
+	kind:      "bolt to coord"
+	accuracy:  0
+	range:     900
+skill_num:          0
+skill_den:          0
+destination_class:  -256

@@ -1,0 +1,5 @@
+template:    "tpl/ship"
+attributes:  {can_be_engaged: true, can_evade: true}
+icon:
+	shape:  "plus"
+	size:   4

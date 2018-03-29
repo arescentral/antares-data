@@ -1,0 +1,26 @@
+template:           "tpl/warship"
+long_name:          "Heavy Destroyer"
+short_name:         "HVDSTRYR"
+class:              450
+health:             2000
+energy:             2000
+price:              6500
+build_ratio:        0.098
+build_time:         1950
+mass:               1.45
+max_velocity:       4.5
+max_thrust:         0.08
+initial_velocity:   1.5
+warp_speed:         40.0
+warp_out_distance:  22503164
+rotation:           {turn_rate: 2.0}
+icon:               {size: 6}
+on_destroy:
+	*	type:                "create"
+		reflexive:           true
+		base:                "sfx/explosion/giant"
+		relative_direction:  true
+offense:            4.0
+destination_class:  7
+friend_deficit:     2.0
+danger_threshold:   -20.0

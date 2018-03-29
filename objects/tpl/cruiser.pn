@@ -1,0 +1,25 @@
+template:           "tpl/warship"
+long_name:          "Cruiser"
+short_name:         "CRUISER"
+class:              200
+health:             1000
+energy:             1000
+price:              1000
+build_ratio:        1.0
+build_time:         300
+mass:               1.0
+max_velocity:       5.0
+max_thrust:         0.156
+initial_velocity:   5.0
+warp_speed:         40.0
+warp_out_distance:  9734400
+rotation:           {turn_rate: 2.0}
+icon:               {size: 4}
+on_destroy:
+	*	type:                "create"
+		reflexive:           true
+		base:                "sfx/explosion/large"
+		relative_direction:  true
+offense:            1.0
+destination_class:  3
+danger_threshold:   1.0

@@ -1,0 +1,31 @@
+template:                "tpl/utilship"
+long_name:               "Assault Transport"
+short_name:              "ASLTTRAN"
+build_flags:             {sufficient_escorts_exist: true, matching_foe_exists: true}
+order_flags:             {foe: true, hard_matching_foe: true, hard_no_friendly_escort: true, hard_foe: true}
+order_tag:               "a"
+class:                   860
+health:                  1200
+energy:                  800
+price:                   2000
+build_ratio:             0.7
+build_time:              660
+mass:                    1.098
+max_velocity:            3.0
+max_thrust:              0.156
+initial_velocity:        3.0
+icon:                    {size: 5}
+on_destroy:
+	*	type:       "create"
+		reflexive:  true
+		base:       "sfx/explosion/large"
+on_arrive:
+	*	type:              "fire"
+		level_key_filter:  "a"
+		owner:             "different"
+		which:             "special"
+arrive_action_distance:  320000
+offense:                 0.2
+destination_class:       9
+friend_deficit:          8.0
+danger_threshold:        4.0

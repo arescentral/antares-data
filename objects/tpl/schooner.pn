@@ -1,0 +1,25 @@
+template:           "tpl/warship"
+long_name:          "Schooner"
+short_name:         "SCHOONER"
+class:              221
+health:             750
+energy:             1000
+price:              1000
+build_ratio:        0.75
+build_time:         1000
+mass:               1.0
+max_velocity:       7.0
+max_thrust:         0.297
+initial_velocity:   5.0
+warp_speed:         40.0
+warp_out_distance:  9734400
+rotation:           {turn_rate: 3.0}
+icon:               {size: 4}
+on_destroy:
+	*	type:                "create"
+		reflexive:           true
+		base:                "sfx/explosion/large"
+		relative_direction:  true
+offense:            1.0
+destination_class:  3
+danger_threshold:   1.0
