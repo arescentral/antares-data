@@ -2,12 +2,21 @@ long_name:               "Fusion Pulse"
 short_name:              "FPULSE 1"
 notes:                   "Fusion Pulse"
 attributes:              {can_turn: true, does_bounce: true, shape_from_direction: true, animation_cycle: true, can_collide: true}
+class:                   -1
 health:                  1000
 damage:                  100
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
 initial_age:             40
+occupy_count:            0
 mass:                    0.5
 max_velocity:            7.0
+max_thrust:              0.0
 initial_velocity:        7.0
+warp_speed:              0.0
+warp_out_distance:       0
 rotation:
 	sprite:  "dev/fusion"
 	layer:   3
@@ -43,5 +52,12 @@ on_collide:
 	*	type:       "kill"
 		reflexive:  true
 		kind:       "none"
+destroy_dont_die:        false
+expire_dont_die:         false
 arrive_action_distance:  50000
+skill_num:               0
+skill_den:               0
+offense:                 0.0
 destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0

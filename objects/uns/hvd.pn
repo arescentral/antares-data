@@ -5,10 +5,12 @@ attributes:              {can_turn: true, can_be_engaged: true, has_direction_go
 class:                   450
 race:                    "uns"
 health:                  2000
+damage:                  0
 energy:                  2000
 price:                   6500
 build_ratio:             0.098
 build_time:              1950
+occupy_count:            0
 mass:                    1.45
 max_velocity:            4.5
 max_thrust:              0.08
@@ -45,6 +47,8 @@ on_destroy:
 		reflexive:           true
 		base:                "sfx/explosion/giant"
 		relative_direction:  true
+destroy_dont_die:        false
+expire_dont_die:         false
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21

@@ -2,13 +2,21 @@ long_name:               "C Missile"
 short_name:              "CMISSILE"
 notes:                   "Can't target or turn?"
 attributes:              {can_turn: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_engage: true, can_collide: true, can_be_hit: true, hated: true, can_be_evaded: true, appear_on_radar: true}
+class:                   -1
 health:                  25
 damage:                  200
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
 initial_age:             30
+occupy_count:            0
 mass:                    0.5
 max_velocity:            9.0
 max_thrust:              0.2
 initial_velocity:        0.5
+warp_speed:              0.0
+warp_out_distance:       0
 rotation:
 	sprite:     "dev/cm"
 	layer:      3
@@ -45,7 +53,12 @@ on_collide:
 	*	type:       "kill"
 		reflexive:  true
 		kind:       "expire"
+destroy_dont_die:        false
+expire_dont_die:         false
 arrive_action_distance:  50000
 skill_num:               1
 skill_den:               1
+offense:                 0.0
 destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0

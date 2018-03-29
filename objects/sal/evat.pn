@@ -9,15 +9,20 @@ order_tag:               "a"
 class:                   10
 race:                    "sal"
 health:                  10
+damage:                  0
 energy:                  50
 price:                   600
+build_ratio:             0.0
 build_time:              180
 initial_age:             4000
+occupy_count:            0
 mass:                    0.008
 max_velocity:            0.5
 max_thrust:              0.02
 initial_velocity:        0.5
 initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+warp_out_distance:       0
 weapons:
 	beam:
 		base:  "dev/pk/sal/gun"
@@ -60,9 +65,12 @@ on_arrive:
 		level_key_filter:  "a"
 		owner:             "different"
 		value:             1
+destroy_dont_die:        false
+expire_dont_die:         false
 arrive_action_distance:  5000
 skill_num:               3
 skill_den:               21
 offense:                 0.5
 destination_class:       1
+friend_deficit:          0.0
 danger_threshold:        2.0

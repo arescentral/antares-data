@@ -1,7 +1,17 @@
-long_name:   "Repulser"
-short_name:  "REPULSER"
-notes:       "Rupulser"
-attributes:  {autotarget: true}
+long_name:          "Repulser"
+short_name:         "REPULSER"
+notes:              "Rupulser"
+attributes:         {autotarget: true}
+class:              -1
+damage:             0
+energy:             0
+price:              0
+build_ratio:        0.0
+build_time:         0
+occupy_count:       0
+mass:               0.0
+warp_speed:         0.0
+warp_out_distance:  0
 device:
 	usage:          {attacking: true, defense: true}
 	energy_cost:    40
@@ -14,3 +24,10 @@ on_activate:
 		base:                "dev/repulser/beam"
 		relative_velocity:   true
 		relative_direction:  true
+destroy_dont_die:   false
+expire_dont_die:    false
+skill_num:          0
+skill_den:          0
+offense:            0.0
+friend_deficit:     0.0
+danger_threshold:   0.0

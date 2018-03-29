@@ -5,13 +5,19 @@ attributes:              {can_turn: true, can_be_engaged: true, has_direction_go
 class:                   301
 race:                    "ish"
 health:                  700
+damage:                  0
 energy:                  2000
 price:                   2200
+build_ratio:             0.0
+build_time:              0
+occupy_count:            0
 mass:                    1.2
 max_velocity:            2.0
 max_thrust:              0.18
 initial_velocity:        0.5
 initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+warp_out_distance:       0
 rotation:
 	sprite:     "ish/etc/astrominer"
 	layer:      2
@@ -35,6 +41,8 @@ on_create:
 	*	type:       "create"
 		reflexive:  true
 		base:       "sfx/jump/small"
+destroy_dont_die:        false
+expire_dont_die:         false
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21

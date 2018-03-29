@@ -8,13 +8,18 @@ engage_tag:              "9"
 class:                   203
 race:                    "gro"
 health:                  1000
+damage:                  0
 energy:                  1000
 price:                   1000
 build_ratio:             1.0
 build_time:              300
+occupy_count:            0
 mass:                    1.0
+max_velocity:            0.0
 max_thrust:              0.027
 initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+warp_out_distance:       0
 rotation:
 	sprite:     "gro/ctf/cruiser"
 	layer:      2
@@ -25,9 +30,11 @@ icon:
 	size:   4
 shield_color:            {r: 255, g: 255, b: 255}
 destroy_dont_die:        true
+expire_dont_die:         false
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21
 offense:                 1.0
 destination_class:       3
+friend_deficit:          0.0
 danger_threshold:        1.0

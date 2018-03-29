@@ -5,10 +5,12 @@ attributes:              {can_turn: true, can_be_engaged: true, has_direction_go
 class:                   550
 race:                    "obi"
 health:                  6500
+damage:                  0
 energy:                  6500
 price:                   6000
 build_ratio:             0.098
 build_time:              3000
+occupy_count:            0
 mass:                    2.5
 max_velocity:            4.0
 max_thrust:              0.02
@@ -41,6 +43,8 @@ on_destroy:
 		reflexive:           true
 		base:                "sfx/explosion/giant"
 		relative_direction:  true
+destroy_dont_die:        false
+expire_dont_die:         false
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21

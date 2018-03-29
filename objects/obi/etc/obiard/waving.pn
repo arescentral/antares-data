@@ -4,11 +4,21 @@ notes:                   "Needs rescuing, waving"
 attributes:              {can_turn: true, has_direction_goal: true, does_bounce: true, is_self_animated: true, can_engage: true, animation_cycle: true, can_collide: true, can_be_hit: true, static_destination: true, appear_on_radar: true}
 build_flags:             {can_only_engage: true}
 engage_tag:              "e"
+class:                   -1
 health:                  1
+damage:                  0
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
+occupy_count:            0
 mass:                    0.5
+max_velocity:            0.0
 max_thrust:              0.008
 initial_velocity:        {begin: 0.5, end: 2.0}
 initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+warp_out_distance:       0
 animation:
 	sprite:     "obi/etc/obiard/waving"
 	layer:      2
@@ -34,7 +44,12 @@ on_collide:
 	*	type:              "kill"
 		level_key_filter:  "e"
 		kind:              "expire"
+destroy_dont_die:        false
+expire_dont_die:         false
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21
+offense:                 0.0
 destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0

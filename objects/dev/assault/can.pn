@@ -1,7 +1,17 @@
-long_name:   "Assault Team"
-short_name:  "ASSAULT"
-notes:       "Assault Team"
-device:      {energy_cost: 0, fire_time: 240, ammo: 2, range: 2073600, inverse_speed: 0.11}
+long_name:          "Assault Team"
+short_name:         "ASSAULT"
+notes:              "Assault Team"
+class:              -1
+damage:             0
+energy:             0
+price:              0
+build_ratio:        0.0
+build_time:         0
+occupy_count:       0
+mass:               0.0
+warp_speed:         0.0
+warp_out_distance:  0
+device:             {energy_cost: 0, fire_time: 240, ammo: 2, range: 2073600, inverse_speed: 0.11}
 on_activate:
 	*	type:         "sound"
 		reflexive:    true
@@ -16,3 +26,10 @@ on_activate:
 		relative_velocity:   true
 		relative_direction:  true
 		inherit:             true
+destroy_dont_die:   false
+expire_dont_die:    false
+skill_num:          0
+skill_den:          0
+offense:            0.0
+friend_deficit:     0.0
+danger_threshold:   0.0

@@ -5,15 +5,19 @@ attributes:              {can_turn: true, can_be_engaged: true, has_direction_go
 class:                   201
 race:                    "gro"
 health:                  1000
+damage:                  0
 energy:                  1000
 price:                   1000
 build_ratio:             1.0
 build_time:              300
+occupy_count:            0
 mass:                    1.0
 max_velocity:            5.0
 max_thrust:              0.027
 initial_velocity:        5.0
 initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+warp_out_distance:       0
 weapons:
 	pulse:
 		base:  "dev/magneto/gun"
@@ -56,9 +60,11 @@ on_destroy:
 		reflexive:  true
 		base:       "gro/ctf/cruiser/p1-inactive"
 destroy_dont_die:        true
+expire_dont_die:         false
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21
 offense:                 1.0
 destination_class:       3
+friend_deficit:          0.0
 danger_threshold:        1.0

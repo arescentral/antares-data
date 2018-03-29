@@ -6,9 +6,12 @@ engage_tag:              "b"
 class:                   301
 race:                    "ish"
 health:                  700
+damage:                  0
 energy:                  2000
 price:                   800
+build_ratio:             0.0
 build_time:              360
+occupy_count:            0
 mass:                    1.2
 max_velocity:            4.0
 max_thrust:              0.15
@@ -37,6 +40,8 @@ on_destroy:
 		reflexive:           true
 		base:                "sfx/explosion/giant"
 		relative_direction:  true
+destroy_dont_die:        false
+expire_dont_die:         false
 arrive_action_distance:  50000
 skill_num:               14
 skill_den:               21

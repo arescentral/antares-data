@@ -5,13 +5,16 @@ attributes:              {can_turn: true, has_direction_goal: true, does_bounce:
 class:                   550
 race:                    "can"
 health:                  1
+damage:                  0
 energy:                  5000
 price:                   4500
 build_ratio:             0.098
 build_time:              3000
 initial_age:             720
+occupy_count:            0
 mass:                    2.0
 max_velocity:            3.0
+max_thrust:              0.0
 initial_velocity:        3.0
 initial_direction:       {begin: 0, end: 360}
 warp_speed:              20.0
@@ -72,8 +75,11 @@ on_activate:
 		reflexive:  true
 		which:      {begin: 4, end: 12}
 destroy_dont_die:        true
+expire_dont_die:         false
 activate_period:         {begin: 16, end: 32}
 arrive_action_distance:  50000
+skill_num:               0
+skill_den:               0
 offense:                 4.0
 destination_class:       7
 friend_deficit:          2.0

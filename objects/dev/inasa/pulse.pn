@@ -2,14 +2,22 @@ long_name:               "Inasa Pulse"
 short_name:              "INASPULS"
 notes:                   "Inasa Pulse"
 attributes:              {is_self_animated: true, animation_cycle: true, can_collide: true}
+class:                   -1
 health:                  1000
 damage:                  200
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
 initial_age:             54
+occupy_count:            0
 mass:                    0.5
 max_velocity:            20.0
 max_thrust:              1.0
 initial_velocity:        4.0
 initial_direction:       {begin: -2, end: 2}
+warp_speed:              0.0
+warp_out_distance:       0
 animation:
 	sprite:     "dev/inasa"
 	layer:      3
@@ -28,5 +36,12 @@ on_collide:
 	*	type:       "kill"
 		reflexive:  true
 		kind:       "expire"
+destroy_dont_die:        false
+expire_dont_die:         false
 arrive_action_distance:  50000
+skill_num:               0
+skill_den:               0
+offense:                 0.0
 destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0

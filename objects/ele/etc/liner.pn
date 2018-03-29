@@ -7,15 +7,19 @@ order_flags:             {stronger_than_target: true, base: true, foe: true}
 class:                   803
 race:                    "ele"
 health:                  250
+damage:                  0
 energy:                  1000
 price:                   800
 build_ratio:             0.7
 build_time:              660
+occupy_count:            0
 mass:                    1.098
 max_velocity:            2.0
 max_thrust:              0.2
 initial_velocity:        0.5
 initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+warp_out_distance:       0
 rotation:
 	sprite:     "ele/etc/liner"
 	layer:      2
@@ -45,9 +49,12 @@ on_expire:
 			>	The Elejeetian liner successfully exited through the jumpgate. Minister
 			>	Jommo pledges to do what he can to convince his Emperor to provide you
 			>	with ships or technology.
+destroy_dont_die:        false
+expire_dont_die:         false
 arrive_action_distance:  50000
 skill_num:               3
 skill_den:               21
+offense:                 0.0
 destination_class:       9
 friend_deficit:          2.0
 danger_threshold:        4.0

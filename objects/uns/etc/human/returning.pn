@@ -2,12 +2,21 @@ long_name:               "Human"
 short_name:              "HUMAN"
 notes:                   "exiting to base"
 attributes:              {can_turn: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_engage: true, can_accept_destination: true, animation_cycle: true, static_destination: true, appear_on_radar: true}
+class:                   -1
 health:                  1
+damage:                  0
+energy:                  0
+price:                   0
+build_ratio:             0.0
+build_time:              0
+occupy_count:            0
 mass:                    0.5
 max_velocity:            3.0
 max_thrust:              0.02
 initial_velocity:        {begin: 0.5, end: 2.0}
 initial_direction:       {begin: 0, end: 360}
+warp_speed:              0.0
+warp_out_distance:       0
 weapons:
 	beam:
 		base:  "dev/pk/ish/hand"
@@ -39,7 +48,12 @@ on_arrive:
 	*	type:              "kill"
 		level_key_filter:  "6"
 		kind:              "expire"
+destroy_dont_die:        false
+expire_dont_die:         false
 arrive_action_distance:  5000
 skill_num:               3
 skill_den:               21
+offense:                 0.0
 destination_class:       -256
+friend_deficit:          0.0
+danger_threshold:        0.0
