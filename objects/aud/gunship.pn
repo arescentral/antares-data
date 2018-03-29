@@ -1,23 +1,16 @@
-long_name:               "Gunship"
-short_name:              "GUNSHIP"
-notes:                   "Gunship"
-attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
-class:                   300
-race:                    "aud"
-health:                  3700
-damage:                  0
-energy:                  1000
-price:                   1500
-build_ratio:             0.25
-build_time:              600
-occupy_count:            0
-mass:                    1.4
-max_velocity:            5.0
-max_thrust:              0.098
-initial_velocity:        5.0
-initial_direction:       {begin: 0, end: 360}
-warp_speed:              50.0
-warp_out_distance:       40977500
+template:           "tpl/gunship"
+notes:              "Gunship"
+race:               "aud"
+health:             3700
+energy:             1000
+price:              1500
+build_ratio:        0.25
+mass:               1.4
+max_velocity:       5.0
+max_thrust:         0.098
+initial_velocity:   5.0
+warp_speed:         50.0
+warp_out_distance:  40977500
 weapons:
 	pulse:
 		base:  "dev/inasa/rgun"
@@ -30,25 +23,14 @@ weapons:
 			*	{x: 10.0, y: 0.0}
 rotation:
 	sprite:     "aud/gunship"
-	layer:      2
 	frames:     {begin: 0, end: 24}
 	turn_rate:  1.5
-icon:
-	shape:  "triangle"
-	size:   5
-portrait:                "aud/gunship"
-shield_color:            {r: 120, g: 120, b: 240}
+portrait:           "aud/gunship"
+shield_color:       {r: 120, g: 120, b: 240}
 on_destroy:
 	*	type:                "create"
 		reflexive:           true
 		base:                "sfx/explosion/large"
 		relative_direction:  true
-destroy_dont_die:        false
-expire_dont_die:         false
-arrive_action_distance:  50000
-skill_num:               3
-skill_den:               21
-offense:                 1.5
-destination_class:       5
-friend_deficit:          0.0
-danger_threshold:        0.0
+friend_deficit:     0.0
+danger_threshold:   0.0
