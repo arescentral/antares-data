@@ -15,8 +15,7 @@ max_velocity:            0.5
 max_thrust:              0.02
 initial_velocity:        0.5
 initial_direction:       {begin: 0, end: 360}
-warp_speed:              0.0
-rotation:                {layer: 2, scale: 0.5, turn_rate: 6.0}
+rotation:                {scale: 0.5, turn_rate: 6.0}
 icon:
 	shape:  "triangle"
 	size:   1

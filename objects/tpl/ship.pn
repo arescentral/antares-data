@@ -3,6 +3,5 @@ long_name:          "Ship"
 short_name:         "SHIP"
 attributes:         {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
 initial_direction:  {begin: 0, end: 360}
-rotation:           {layer: 2}
 skill_num:          3
 skill_den:          21

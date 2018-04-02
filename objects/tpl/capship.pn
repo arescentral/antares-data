@@ -1,5 +1,4 @@
 template:           "tpl/ship"
-attributes:         {can_be_engaged: true, can_engage: true, can_evade: true, can_be_evaded: true}
 health:             5000
 energy:             5000
 price:              4500

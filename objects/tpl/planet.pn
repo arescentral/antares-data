@@ -3,7 +3,5 @@ attributes:         {can_accept_build: true, is_destination: true, appear_on_rad
 level_tag:          "f"
 icon:
 	shape:  "square"
-skill_num:          0
-skill_den:          0
 destination_class:  10
 friend_deficit:     3.0

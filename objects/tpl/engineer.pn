@@ -1,6 +1,7 @@
 template:                "tpl/utilship"
 long_name:               "Engineer Pod"
 short_name:              "ENGINEER"
+attributes:              {can_engage: false, can_be_evaded: false}
 build_flags:             {sufficient_escorts_exist: true, matching_foe_exists: true}
 order_flags:             {foe: true, hard_matching_foe: true, hard_no_friendly_escort: true, hard_foe: true, hard_not_base: true}
 level_tag:               "d"

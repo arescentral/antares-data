@@ -10,6 +10,4 @@ animation:          {layer: 3}
 icon:
 	shape:  "square"
 	size:   1
-skill_num:          0
-skill_den:          0
 destination_class:  -256

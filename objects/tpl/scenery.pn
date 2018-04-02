@@ -1,5 +1,3 @@
 template:           "tpl/animated"
 animation:          {layer: 1}
-skill_num:          0
-skill_den:          0
 destination_class:  -256

@@ -1,6 +1,7 @@
 template:           "tpl/utilship"
 long_name:          "Transport"
 short_name:         "TRANSPRT"
+attributes:         {can_engage: false, can_be_evaded: false}
 build_flags:        {uncaptured_base_exists: true, sufficient_escorts_exist: true, matching_foe_exists: true}
 order_flags:        {stronger_than_target: true, base: true, foe: true}
 order_tag:          "f"

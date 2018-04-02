@@ -8,6 +8,4 @@ max_velocity:       7.0
 initial_velocity:   7.0
 rotation:           {layer: 3, turn_rate: 0.0}
 icon:               {size: 1}
-skill_num:          0
-skill_den:          0
 destination_class:  -256
