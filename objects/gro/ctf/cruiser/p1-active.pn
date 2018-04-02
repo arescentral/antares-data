@@ -1,23 +1,10 @@
-long_name:               "Cruiser"
-short_name:              "CRUISER"
-notes:                   "Cruiser, Grolk for CTF, P1"
-attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
-class:                   201
-race:                    "gro"
-health:                  1000
-damage:                  0
-energy:                  1000
-price:                   1000
-build_ratio:             1.0
-build_time:              300
-occupy_count:            0
-mass:                    1.0
-max_velocity:            5.0
-max_thrust:              0.027
-initial_velocity:        5.0
-initial_direction:       {begin: 0, end: 360}
-warp_speed:              0.0
-warp_out_distance:       0
+template:           "tpl/cruiser"
+notes:              "Cruiser, Grolk for CTF, P1"
+class:              201
+race:               "gro"
+max_thrust:         0.027
+warp_speed:         0.0
+warp_out_distance:  0
 weapons:
 	pulse:
 		base:  "dev/magneto/gun"
@@ -30,14 +17,9 @@ weapons:
 			*	{x: -3.0, y: -14.0}
 			*	{x: 3.0, y: -14.0}
 rotation:
-	sprite:     "gro/ctf/cruiser"
-	layer:      2
-	frames:     {begin: 0, end: 24}
-	turn_rate:  2.0
-icon:
-	shape:  "triangle"
-	size:   4
-shield_color:            {r: 255, g: 255, b: 255}
+	sprite:  "gro/ctf/cruiser"
+	frames:  {begin: 0, end: 24}
+shield_color:       {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:         "sound"
 		reflexive:    true
@@ -59,12 +41,4 @@ on_destroy:
 	*	type:       "morph"
 		reflexive:  true
 		base:       "gro/ctf/cruiser/p1-inactive"
-destroy_dont_die:        true
-expire_dont_die:         false
-arrive_action_distance:  50000
-skill_num:               3
-skill_den:               21
-offense:                 1.0
-destination_class:       3
-friend_deficit:          0.0
-danger_threshold:        1.0
+destroy_dont_die:   true
