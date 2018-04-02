@@ -1,50 +1,14 @@
-long_name:               "Fighter"
-short_name:              "FIGHTER"
-notes:                   "Fighter"
-attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, shape_from_direction: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
-order_flags:             {local: true}
-class:                   100
-race:                    "sal"
-health:                  600
-damage:                  0
-energy:                  600
-price:                   600
-build_ratio:             0.75
-build_time:              180
-occupy_count:            0
-mass:                    0.797
-max_velocity:            6.0
-max_thrust:              0.098
-initial_velocity:        6.0
-initial_direction:       {begin: 0, end: 360}
-warp_speed:              0.0
-warp_out_distance:       0
+template:      "tpl/fighter"
+notes:         "Fighter"
+race:          "sal"
+health:        600
 weapons:
 	beam:
 		base:  "dev/pk/sal/gun"
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:
-	sprite:     "sal/fighter"
-	layer:      2
-	frames:     {begin: 0, end: 24}
-	turn_rate:  3.0
-icon:
-	shape:  "triangle"
-	size:   3
-portrait:                "sal/fighter"
-shield_color:            {r: 240, g: 240, b: 120}
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/small"
-		relative_direction:  true
-destroy_dont_die:        false
-expire_dont_die:         false
-arrive_action_distance:  50000
-skill_num:               3
-skill_den:               21
-offense:                 0.5
-destination_class:       1
-friend_deficit:          0.0
-danger_threshold:        2.0
+	sprite:  "sal/fighter"
+	frames:  {begin: 0, end: 24}
+portrait:      "sal/fighter"
+shield_color:  {r: 240, g: 240, b: 120}
