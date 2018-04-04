@@ -7,13 +7,5 @@ max_velocity:  10.0
 weapons:
 	pulse:
 		base:  "dev/onas/gun"
-		positions:
-			*	{x: 0.0, y: 0.0}
 	beam:
 		base:  "dev/pk/sal/gun"
-		positions:
-			*	{x: -10.0, y: 0.0}
-			*	{x: 10.0, y: 0.0}
-	special:
-		positions:
-			*	{x: 0.0, y: 0.0}

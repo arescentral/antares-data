@@ -5,16 +5,4 @@ notes:              "Can Rescue"
 level_tag:          "e"
 class:              451
 warp_out_distance:  13505625
-weapons:
-	pulse:
-		positions:
-			*	{x: 0.0, y: 0.0}
-	beam:
-		positions:
-			*	{x: -5.0, y: 0.0}
-			*	{x: 0.0, y: 0.0}
-			*	{x: 5.0, y: 0.0}
-	special:
-		positions:
-			*	{x: 0.0, y: 0.0}
 danger_threshold:   20.0
