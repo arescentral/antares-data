@@ -1,28 +1,10 @@
-template:           "tpl/oriented"
-long_name:          "Cruiser Dead"
-short_name:         "CRUISER"
-notes:              "Practice Inactive"
-attributes:         {can_turn: true, has_direction_goal: true, does_bounce: true, can_be_destination: true, can_accept_destination: true, release_energy_on_death: true, occupies_space: true, appear_on_radar: true}
-class:              1803
-race:               "ish"
-health:             1000
-energy:             1000
-price:              1000
-build_ratio:        1.0
-build_time:         300
-mass:               1.0
-initial_direction:  {begin: 0, end: 360}
-warp_out_distance:  9734400
-rotation:
-	sprite:  "ish/cruiser"
-	frames:  {begin: 0, end: 24}
-icon:
-	shape:  "triangle"
-	size:   4
-shield_color:       {r: 255, g: 255, b: 255}
-destroy_dont_die:   true
-skill_num:          3
-skill_den:          21
-offense:            1.0
-destination_class:  3
-danger_threshold:   1.0
+template:      "zzz/ish/cruiser/active"
+long_name:     "Cruiser Dead"
+notes:         "Practice Inactive"
+attributes:    {can_be_engaged: false, can_engage: false, can_evade: false, can_collide: false, can_be_hit: false, hated: false, can_be_evaded: false}
+max_velocity:  0.0
+max_thrust:    0.0
+warp_speed:    0.0
+weapons:       {pulse: null, beam: null}
+rotation:      {turn_rate: null}
+on_destroy:    null

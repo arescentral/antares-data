@@ -1,22 +1,8 @@
-template:          "tpl/cruiser"
+template:          "ish/cruiser"
 notes:             "Practice Active"
 class:             1803
-race:              "ish"
 initial_velocity:  null
-weapons:
-	pulse:
-		base:  "dev/fusion/gun"
-		positions:
-			*	{x: 0.0, y: 0.0}
-	beam:
-		base:  "dev/pk/ish/gun"
-		positions:
-			*	{x: -10.0, y: 0.0}
-			*	{x: 10.0, y: 0.0}
-rotation:
-	sprite:  "ish/cruiser"
-	frames:  {begin: 0, end: 24}
-shield_color:      {r: 255, g: 255, b: 255}
+portrait:          null
 on_destroy:
 	*	type:       "heal"
 		reflexive:  true

@@ -1,37 +1,11 @@
-template:           "tpl/oriented"
-long_name:          "Luxury Liner"
-short_name:         "LUXLINER"
-notes:              "Liner Disabled"
-attributes:         {can_be_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, occupies_space: true, appear_on_radar: true}
-class:              803
-race:               "ele"
-health:             250
-energy:             1000
-price:              800
-build_ratio:        0.7
-build_time:         660
-mass:               1.098
-max_velocity:       0.5
-initial_velocity:   0.5
-initial_direction:  {begin: 0, end: 360}
-rotation:
-	sprite:     "ele/etc/liner"
-	scale:      2.0
-	frames:     {begin: 0, end: 24}
-	turn_rate:  2.0
-icon:
-	shape:  "plus"
-	size:   7
-shield_color:       {r: 255, g: 255, b: 255}
-on_destroy:
-	*	type:       "create"
-		reflexive:  true
-		base:       "sfx/explosion/large"
-	*	type:       "win"
-		reflexive:  true
-		player:     1
-		text:
-			>	The Elejeetian liner was destroyed.
-destination_class:  9
-friend_deficit:     2.0
-danger_threshold:   4.0
+template:      "ele/etc/liner"
+notes:         "Liner Disabled"
+attributes:    {can_turn: false, can_be_engaged: false, has_direction_goal: false, does_bounce: false, can_evade: false, can_accept_destination: false, hated: false}
+build_flags:   {uncaptured_base_exists: false, sufficient_escorts_exist: false}
+order_flags:   {stronger_than_target: false, base: false, foe: false}
+max_velocity:  0.5
+max_thrust:    0.0
+portrait:      null
+on_expire:     null
+skill_num:     0
+skill_den:     0

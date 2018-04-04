@@ -1,32 +1,11 @@
-template:           "tpl/oriented"
-long_name:          "Cruiser"
-short_name:         "CRUISER"
-notes:              "Cruiser, for CTF, Player 1, Inactive"
-attributes:         {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, can_be_destination: true, can_engage: true, can_accept_destination: true, can_collide: true, release_energy_on_death: true, hated: true, occupies_space: true, appear_on_radar: true}
-build_flags:        {only_engaged_by: true}
-level_tag:          "9"
-engage_tag:         "9"
-class:              203
-race:               "gro"
-health:             1000
-energy:             1000
-price:              1000
-build_ratio:        1.0
-build_time:         300
-mass:               1.0
-max_thrust:         0.027
-initial_direction:  {begin: 0, end: 360}
-rotation:
-	sprite:     "gro/ctf/cruiser"
-	frames:     {begin: 0, end: 24}
-	turn_rate:  2.0
-icon:
-	shape:  "triangle"
-	size:   4
-shield_color:       {r: 255, g: 255, b: 255}
-destroy_dont_die:   true
-skill_num:          3
-skill_den:          21
-offense:            1.0
-destination_class:  3
-danger_threshold:   1.0
+template:          "gro/ctf/cruiser/p1-active"
+notes:             "Cruiser, for CTF, Player 1, Inactive"
+attributes:        {can_evade: false, can_be_hit: false, can_be_evaded: false}
+build_flags:       {only_engaged_by: true}
+level_tag:         "9"
+engage_tag:        "9"
+class:             203
+max_velocity:      0.0
+initial_velocity:  null
+weapons:           {pulse: null, beam: null}
+on_destroy:        null

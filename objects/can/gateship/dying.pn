@@ -1,31 +1,11 @@
-template:           "tpl/oriented"
-long_name:          "Gate Ship"
-short_name:         "GATESHIP"
-notes:              "Blowing up & Dying Left & Right"
-attributes:         {can_turn: true, has_direction_goal: true, does_bounce: true, release_energy_on_death: true, occupies_space: true, appear_on_radar: true}
-class:              550
-race:               "can"
-health:             1
-energy:             5000
-price:              4500
-build_ratio:        0.098
-build_time:         3000
-initial_age:        720
-mass:               2.0
-max_velocity:       3.0
-initial_velocity:   3.0
-initial_direction:  {begin: 0, end: 360}
-warp_speed:         20.0
-warp_out_distance:  1406447
-rotation:
-	sprite:     "can/gateship"
-	scale:      4.0
-	frames:     {begin: 0, end: 24}
-	turn_rate:  1.0
-icon:
-	shape:  "diamond"
-	size:   10
-shield_color:       {r: 255, g: 255, b: 255}
+template:         "can/gateship/base"
+notes:            "Blowing up & Dying Left & Right"
+attributes:       {can_be_engaged: false, can_be_destination: false, can_engage: false, can_evade: false, can_accept_destination: false, can_collide: false, can_be_hit: false, hated: false, can_be_evaded: false}
+health:           1
+initial_age:      720
+max_thrust:       0.0
+weapons:          {pulse: null, beam: null, special: null}
+on_destroy:       null
 on_expire:
 	*	type:         "sound"
 		reflexive:    true
@@ -71,9 +51,6 @@ on_activate:
 	*	type:       "reveal"
 		reflexive:  true
 		which:      {begin: 4, end: 12}
-destroy_dont_die:   true
-activate_period:    {begin: 16, end: 32}
-offense:            4.0
-destination_class:  7
-friend_deficit:     2.0
-danger_threshold:   -20.0
+activate_period:  {begin: 16, end: 32}
+skill_num:        0
+skill_den:        0

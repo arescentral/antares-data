@@ -1,19 +1,18 @@
-template:           "tpl/oriented"
+template:           "tpl/capship"
 long_name:          "Battleship"
 short_name:         "BTTLSHIP"
 notes:              "Battleship"
-attributes:         {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
 class:              550
 race:               "uns"
 health:             6500
 energy:             6500
 price:              6000
-build_ratio:        0.098
 build_time:         3000
 mass:               2.5
 max_velocity:       6.0
 max_thrust:         0.08
-warp_speed:         40.0
+initial_velocity:   null
+initial_direction:  null
 warp_out_distance:  9734400
 weapons:
 	pulse:
@@ -25,22 +24,13 @@ weapons:
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:
-	sprite:     "uns/etc/bttlship"
-	scale:      2.0
-	frames:     {begin: 0, end: 24}
-	turn_rate:  1.0
-icon:
-	shape:  "diamond"
-	size:   9
+	sprite:  "uns/etc/bttlship"
+	frames:  {begin: 0, end: 24}
+icon:               {size: 9}
 shield_color:       {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:                "create"
 		reflexive:           true
 		base:                "sfx/explosion/giant"
 		relative_direction:  true
-skill_num:          3
-skill_den:          21
 offense:            4.5
-destination_class:  7
-friend_deficit:     2.0
-danger_threshold:   -20.0
