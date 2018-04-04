@@ -9,3 +9,4 @@ weapons:
 		base:  "dev/onas/gun"
 	beam:
 		base:  "dev/pk/sal/gun"
+portrait:      null

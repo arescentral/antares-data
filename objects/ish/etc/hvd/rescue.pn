@@ -5,4 +5,5 @@ notes:              "Can Rescue"
 level_tag:          "e"
 class:              451
 warp_out_distance:  13505625
+portrait:           null
 danger_threshold:   20.0

@@ -1,30 +1,8 @@
-template:           "tpl/capship"
-long_name:          "Gate Ship"
-short_name:         "GATESHIP"
-notes:              "Normal [usually has 198 for Special Weapon, health of 80000]"
-class:              550
-race:               "can"
-health:             70000
-build_time:         3000
-warp_speed:         20.0
-warp_out_distance:  1406447
-weapons:
-	beam:
-		base:  "dev/magno/turret"
-		positions:
-			*	{x: 0.0, y: 0.0}
-	special:
-		base:  "dev/jammer/turret"
-		positions:
-			*	{x: 0.0, y: 0.0}
-rotation:
-	sprite:  "can/gateship"
-	scale:   4.0
-	frames:  {begin: 0, end: 24}
-icon:               {size: 10}
-shield_color:       {r: 255, g: 255, b: 255}
+template:  "can/gateship/base"
+notes:     "Normal [usually has 198 for Special Weapon, health of 80000]"
+health:    70000
+weapons:   {pulse: null}
 on_destroy:
 	*	type:       "morph"
 		reflexive:  true
 		base:       "can/gateship/dying"
-destroy_dont_die:   true

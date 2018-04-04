@@ -17,8 +17,9 @@ mass:               1.0
 max_thrust:         0.027
 initial_direction:  {begin: 0, end: 360}
 rotation:
-	sprite:  "gro/ctf/cruiser"
-	frames:  {begin: 0, end: 24}
+	sprite:     "gro/ctf/cruiser"
+	frames:     {begin: 0, end: 24}
+	turn_rate:  2.0
 icon:
 	shape:  "triangle"
 	size:   4

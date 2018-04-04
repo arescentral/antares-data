@@ -19,6 +19,7 @@ on_destroy:
 		which:      0
 		value:      1
 		player:     0
+on_expire:          null
 on_arrive:
 	*	type:    "win"
 		player:  1

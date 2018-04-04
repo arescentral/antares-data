@@ -2,6 +2,7 @@ template:          "tpl/cruiser"
 notes:             "Practice Active"
 class:             1803
 race:              "ish"
+initial_velocity:  null
 weapons:
 	pulse:
 		base:  "dev/fusion/gun"

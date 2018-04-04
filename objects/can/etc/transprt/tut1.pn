@@ -20,8 +20,9 @@ initial_velocity:   3.0
 initial_direction:  {begin: 0, end: 360}
 warp_out_distance:  9734400
 rotation:
-	sprite:  "can/transprt"
-	frames:  {begin: 0, end: 24}
+	sprite:     "can/transprt"
+	frames:     {begin: 0, end: 24}
+	turn_rate:  2.0
 icon:
 	shape:  "plus"
 	size:   5

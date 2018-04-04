@@ -12,9 +12,10 @@ max_thrust:         0.098
 initial_velocity:   {begin: 0.5, end: 2.0}
 initial_direction:  {begin: 0, end: 360}
 rotation:
-	sprite:  "obi/etc/obiard/turning"
-	scale:   0.5
-	frames:  {begin: 0, end: 24}
+	sprite:     "obi/etc/obiard/turning"
+	scale:      0.5
+	frames:     {begin: 0, end: 24}
+	turn_rate:  2.0
 icon:
 	shape:  "plus"
 	size:   1

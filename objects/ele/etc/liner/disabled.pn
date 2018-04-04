@@ -15,9 +15,10 @@ max_velocity:       0.5
 initial_velocity:   0.5
 initial_direction:  {begin: 0, end: 360}
 rotation:
-	sprite:  "ele/etc/liner"
-	scale:   2.0
-	frames:  {begin: 0, end: 24}
+	sprite:     "ele/etc/liner"
+	scale:      2.0
+	frames:     {begin: 0, end: 24}
+	turn_rate:  2.0
 icon:
 	shape:  "plus"
 	size:   7
