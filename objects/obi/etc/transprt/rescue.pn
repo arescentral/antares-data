@@ -1,38 +1,20 @@
-template:           "tpl/utilship"
-long_name:          "Transport"
-short_name:         "TRANSPRT"
+template:           "obi/transprt"
 notes:              "Can Pick Up Guys"
-attributes:         {can_engage: false}
+attributes:         {hide_effect: false, can_be_evaded: true}
+build_flags:        {uncaptured_base_exists: false, sufficient_escorts_exist: false}
+order_flags:        {stronger_than_target: false, base: false, foe: false}
 level_tag:          "e"
 class:              881
-race:               "obi"
-health:             2000
-energy:             1000
-price:              800
 build_ratio:        0.4
-build_time:         660
-mass:               1.098
-max_velocity:       3.0
-max_thrust:         0.156
 initial_velocity:   1.5
+warp_out_distance:  0
 weapons:
 	beam:
-		base:  "dev/repulser/turret"
 		positions:
 			*	{x: -5.0, y: 0.0}
 			*	{x: 0.0, y: 0.0}
 			*	{x: 5.0, y: 0.0}
-rotation:
-	sprite:  "obi/transprt"
-	frames:  {begin: 0, end: 24}
-icon:               {size: 5}
-shield_color:       {r: 255, g: 255, b: 255}
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/large"
-		relative_direction:  true
+portrait:           null
+on_expire:          null
+on_arrive:          null
 offense:            1.0
-destination_class:  9
-friend_deficit:     2.0
-danger_threshold:   4.0

@@ -1,15 +1,7 @@
-template:           "tpl/transport"
-notes:              "Transport"
-attributes:         {hide_effect: true}
-build_flags:        {matching_foe_exists: false}
-class:              801
-race:               "gai"
-energy:             800
-warp_out_distance:  9734400
-rotation:
-	sprite:  "gai/transprt"
-	frames:  {begin: 0, end: 24}
-shield_color:       {r: 240, g: 240, b: 120}
+template:    "gai/transprt"
+attributes:  {hide_effect: true}
+class:       801
+portrait:    null
 on_destroy:
 	*	type:       "create"
 		reflexive:  true
@@ -19,11 +11,10 @@ on_destroy:
 		which:      0
 		value:      1
 		player:     0
-on_expire:          null
+on_expire:   null
 on_arrive:
 	*	type:    "win"
 		player:  1
 		text:
 			>	You allowed the transports to dock at Charon station. You need to
 			>	destroy the transports more quickly.
-offense:            0.2
