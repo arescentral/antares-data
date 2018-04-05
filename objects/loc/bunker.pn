@@ -14,4 +14,3 @@ animation:
 	sprite:  "loc/bunker"
 	scale:   2.0
 portrait:      "loc/bunker"
-on_destroy:    null

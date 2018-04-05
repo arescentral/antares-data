@@ -12,4 +12,3 @@ animation:
 	sprite:  "loc/outpost"
 	scale:   2.0
 portrait:      "loc/outpost"
-on_destroy:    null

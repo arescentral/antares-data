@@ -4,6 +4,7 @@ level_tag:          "a"
 health:             5000
 energy:             1000
 icon:               {size: 7}
+on_destroy:         null
 skill_num:          3
 skill_den:          21
 destination_class:  10
