@@ -3,7 +3,6 @@ chapter:  25
 title:
 	>	\i **DEV-23** 
 	|	\i 
-	!
 players:
 	*	type:           "human"
 		race:           "ish"

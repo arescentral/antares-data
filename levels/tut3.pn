@@ -28,7 +28,7 @@ initials:
 		override:
 			name:  "Simulated Planet"
 		build:
-			*	"tut3/cruiser"
+			*	"ish/etc/cruiser/tut3"
 			*	"hvd"
 			*	"carrier"
 	*	base:   "ish/hvc"
