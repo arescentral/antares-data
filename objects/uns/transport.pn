@@ -4,6 +4,6 @@ attributes:         {hide_effect: true}
 race:               "uns"
 warp_out_distance:  9734400
 rotation:
-	sprite:  "uns/transprt"
+	sprite:  "uns/transport"
 	frames:  {begin: 0, end: 24}
 shield_color:       {r: 255, g: 255, b: 255}

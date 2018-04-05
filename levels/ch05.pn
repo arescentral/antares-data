@@ -31,7 +31,7 @@ initials:
 		build:
 			*	"fighter"
 			*	"cruiser"
-			*	"transprt"
+			*	"transport"
 			*	"engineer"
 	*	base:    "ish/engineer"
 		owner:   0
@@ -63,7 +63,7 @@ initials:
 		build:
 			*	"fighter"
 			*	"cruiser"
-			*	"transprt"
+			*	"transport"
 			*	"engineer"
 conditions:
 	*	type:     "owner"

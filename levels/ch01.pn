@@ -25,23 +25,23 @@ initials:
 			name:    "Charon Station"
 			sprite:  "loc/bunker"
 		earning:  1.0
-	*	base:    "gai/etc/transprt/ch1"
+	*	base:    "gai/etc/transport/ch1"
 		owner:   1
 		at:      {x: -694, y: -35129}
 		target:  {initial: 0, lock: true}
-	*	base:    "gai/etc/transprt/ch1"
+	*	base:    "gai/etc/transport/ch1"
 		owner:   1
 		at:      {x: -347, y: -42782}
 		target:  {initial: 0, lock: true}
-	*	base:    "gai/etc/transprt/ch1"
+	*	base:    "gai/etc/transport/ch1"
 		owner:   1
 		at:      {x: 0, y: -47999}
 		target:  {initial: 0, lock: true}
-	*	base:    "gai/etc/transprt/ch1"
+	*	base:    "gai/etc/transport/ch1"
 		owner:   1
 		at:      {x: -173, y: -53564}
 		target:  {initial: 0, lock: true}
-	*	base:    "gai/etc/transprt/ch1"
+	*	base:    "gai/etc/transport/ch1"
 		owner:   1
 		at:      {x: -522, y: -57565}
 		target:  {initial: 0, lock: true}
@@ -135,7 +135,7 @@ briefings:
 	*	object:  1
 		title:   "Transport"
 		content:
-			>	^Pgai/transprt^Use your superlight boosters to quickly traverse the
+			>	^Pgai/transport^Use your superlight boosters to quickly traverse the
 			>	length of the convoy, stopping to destroy each of the five transports.
 	*	object:  7
 		title:   "Fighter"

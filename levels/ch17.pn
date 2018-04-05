@@ -33,7 +33,7 @@ initials:
 			*	"aslttran"
 			*	"carrier"
 			*	"hvd"
-			*	"transprt"
+			*	"transport"
 	*	base:     "loc/planet"
 		at:       {x: -28260, y: -27129}
 		override:
@@ -46,7 +46,7 @@ initials:
 			*	"aslttran"
 			*	"carrier"
 			*	"hvd"
-			*	"transprt"
+			*	"transport"
 	*	base:     "loc/bunker"
 		at:       {x: 0, y: 0}
 		override:

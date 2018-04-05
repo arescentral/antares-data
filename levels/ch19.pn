@@ -30,7 +30,7 @@ initials:
 			*	"fighter"
 			*	"cruiser"
 			*	"gunship"
-			*	"transprt"
+			*	"transport"
 	*	base:     "loc/moon"
 		owner:    0
 		at:       {x: 3130, y: 6173}
@@ -78,7 +78,7 @@ initials:
 			*	"fighter"
 			*	"cruiser"
 			*	"gunship"
-			*	"transprt"
+			*	"transport"
 	*	base:      "uns/gunship"
 		owner:     0
 		at:        {x: 2347, y: 6260}

@@ -26,7 +26,7 @@ initials:
 			*	"fighter"
 			*	"cruiser"
 			*	"gunship"
-			*	"transprt"
+			*	"transport"
 	*	base:     "loc/planet"
 		at:       {x: -9044, y: -17130}
 		override:
@@ -37,32 +37,32 @@ initials:
 			*	"fighter"
 			*	"cruiser"
 			*	"gunship"
-			*	"transprt"
+			*	"transport"
 	*	base:      "uns/gunship"
 		owner:     0
 		at:        {x: -2434, y: 3218}
 		flagship:  true
-	*	base:    "uns/etc/transprt/ch19"
+	*	base:    "uns/etc/transport/ch19"
 		owner:   0
 		at:      {x: -1392, y: 3305}
 		target:  {initial: 0, lock: true}
-	*	base:    "uns/etc/transprt/ch19"
+	*	base:    "uns/etc/transport/ch19"
 		owner:   0
 		at:      {x: -2086, y: 4348}
 		target:  {initial: 0, lock: true}
-	*	base:    "uns/etc/transprt/ch19"
+	*	base:    "uns/etc/transport/ch19"
 		owner:   0
 		at:      {x: -2792, y: 5228}
 		target:  {initial: 0, lock: true}
-	*	base:    "uns/etc/transprt/ch19"
+	*	base:    "uns/etc/transport/ch19"
 		owner:   0
 		at:      {x: -3737, y: 6184}
 		target:  {initial: 0, lock: true}
-	*	base:    "uns/etc/transprt/ch19"
+	*	base:    "uns/etc/transport/ch19"
 		owner:   0
 		at:      {x: -4868, y: 7543}
 		target:  {initial: 0, lock: true}
-	*	base:    "aud/transprt"
+	*	base:    "aud/transport"
 		owner:   1
 		at:      {x: -3391, y: -9043}
 		target:  {initial: 1, lock: true}

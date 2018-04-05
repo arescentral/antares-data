@@ -1,4 +1,4 @@
-template:    "gai/transprt"
+template:    "gai/transport"
 attributes:  {hide_effect: true}
 class:       801
 portrait:    null

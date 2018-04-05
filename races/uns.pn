@@ -7,10 +7,10 @@ apparent_color:  "gray"
 illegal_colors:  0
 advantage:       1.4
 ships:
-	fighter:   "uns/fighter"
-	cruiser:   "uns/cruiser"
-	gunship:   "uns/gunship"
-	hvd:       "uns/hvd"
-	carrier:   "uns/carrier"
-	transprt:  "uns/transprt"
-	aslttran:  "uns/aslttran"
+	fighter:    "uns/fighter"
+	cruiser:    "uns/cruiser"
+	gunship:    "uns/gunship"
+	hvd:        "uns/hvd"
+	carrier:    "uns/carrier"
+	transport:  "uns/transport"
+	aslttran:   "uns/aslttran"

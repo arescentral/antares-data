@@ -1,4 +1,4 @@
-template:  "uns/transprt"
+template:  "uns/transport"
 notes:     "Transport -- special, for chapter 19"
 class:     1801
 on_expire:

@@ -24,7 +24,7 @@ initials:
 		at:     {x: 0, y: 0}
 		override:
 			name:  "ISN 2020187"
-	*	base:    "obi/etc/transprt/rescue"
+	*	base:    "obi/etc/transport/rescue"
 		owner:   0
 		at:      {x: 695, y: 956}
 		target:  {initial: 0}
@@ -101,7 +101,7 @@ conditions:
 			*	type:             "morph"
 				reflexive:        true
 				initial_subject:  1
-				base:             "obi/transprt"
+				base:             "obi/transport"
 				keep_ammo:        true
 		player:   0
 		counter:  0
@@ -140,7 +140,7 @@ conditions:
 			*	type:             "morph"
 				reflexive:        true
 				initial_subject:  1
-				base:             "obi/etc/transprt/rescue"
+				base:             "obi/etc/transport/rescue"
 				keep_ammo:        true
 		initially_disabled:  true
 		player:              0

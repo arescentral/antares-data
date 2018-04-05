@@ -1,4 +1,4 @@
-template:           "obi/transprt"
+template:           "obi/transport"
 notes:              "Can Pick Up Guys"
 attributes:         {hide_effect: false, can_be_evaded: true}
 build_flags:        {uncaptured_base_exists: false, sufficient_escorts_exist: false}

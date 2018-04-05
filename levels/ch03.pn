@@ -27,7 +27,7 @@ initials:
 		build:
 			*	"fighter"
 			*	"cruiser"
-			*	"transprt"
+			*	"transport"
 	*	base:      "ish/cruiser"
 		owner:     0
 		at:        {x: 782, y: 4782}
@@ -55,7 +55,7 @@ initials:
 			*	"fighter"
 			*	"cruiser"
 			*	"gunship"
-			*	"transprt"
+			*	"transport"
 conditions:
 	*	type:     "owner"
 		op:       "eq"
@@ -125,7 +125,7 @@ briefings:
 	*	object:  0
 		title:   "Demeter Alpha"
 		content:
-			>	^Pish/transprt^The transport is the only ship capable of
+			>	^Pish/transport^The transport is the only ship capable of
 			>	space-to-surface assault. They are limited to sublight travel and are
 			>	unarmed.
 			>
@@ -146,7 +146,7 @@ briefings:
 	*	object:  5
 		title:   "Demeter Beta"
 		content:
-			>	^Pgai/transprt^Destroy any of their transports you find making its way
+			>	^Pgai/transport^Destroy any of their transports you find making its way
 			>	towards our base on Alpha. If our base is lost, the mission will be
 			>	aborted.
 			>

@@ -1,4 +1,4 @@
-template:    "can/transprt"
+template:    "can/transport"
 notes:       "Special transport for newtorial 1; can't evade, be attacked, or collide"
 attributes:  {can_be_engaged: false, can_evade: false, can_collide: false, can_be_hit: false, hated: false, occupies_space: false}
 class:       832

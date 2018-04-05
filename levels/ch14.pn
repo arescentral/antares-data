@@ -58,7 +58,7 @@ initials:
 		build:
 			*	"fighter"
 			*	"cruiser"
-			*	"transprt"
+			*	"transport"
 			*	"gunship"
 			*	"hvc"
 	*	base:     "loc/planet"
@@ -72,7 +72,7 @@ initials:
 		build:
 			*	"fighter"
 			*	"cruiser"
-			*	"transprt"
+			*	"transport"
 	*	base:    "ish/carrier"
 		owner:   0
 		at:      {x: 15826, y: 80607}
@@ -230,7 +230,7 @@ briefings:
 			>	of producing fighters, heavy cruisers, gunships, and transports.
 			|	Landing a transport on Bokleo Gamma to control the base is your primary
 			>	objective.
-			|	^Pcan/transprt^
+			|	^Pcan/transport^
 	*	object:  9
 		title:   "Bokleo Alpha"
 		content:

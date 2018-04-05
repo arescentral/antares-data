@@ -41,7 +41,7 @@ initials:
 			*	"aslttran"
 			*	"carrier"
 			*	"hvd"
-			*	"transprt"
+			*	"transport"
 	*	base:     "loc/planet"
 		owner:    1
 		at:       {x: -28260, y: -27129}
@@ -55,7 +55,7 @@ initials:
 			*	"aslttran"
 			*	"carrier"
 			*	"hvd"
-			*	"transprt"
+			*	"transport"
 	*	base:     "loc/bunker"
 		at:       {x: -6261, y: 22261}
 		override:

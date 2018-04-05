@@ -24,10 +24,10 @@ weapons:
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:
-	sprite:  "obi/transprt"
+	sprite:  "obi/transport"
 	frames:  {begin: 0, end: 24}
 icon:               {size: 5}
-portrait:           "obi/transprt"
+portrait:           "obi/transport"
 shield_color:       {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:                "create"

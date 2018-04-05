@@ -28,7 +28,7 @@ initials:
 			*	"fighter"
 			*	"cruiser"
 			*	"gunship"
-			*	"transprt"
+			*	"transport"
 			*	"defdrone"
 	*	base:   "can/carrier"
 		owner:  1
@@ -61,7 +61,7 @@ initials:
 			*	"fighter"
 			*	"cruiser"
 			*	"gunship"
-			*	"transprt"
+			*	"transport"
 			*	"defdrone"
 	*	base:  "loc/sun"
 		at:    {x: -600, y: 9000}
@@ -158,7 +158,7 @@ briefings:
 	*	object:  5
 		title:   "Proteus Gamma"
 		content:
-			>	^Pcan/transprt^Destroy any transports you encounter. They will probably
+			>	^Pcan/transport^Destroy any transports you encounter. They will probably
 			>	make an attempt to occupy Proteus Beta. If you lose Alpha, the mission
 			>	is over.
 	*	title:  "Proteus Gamma"

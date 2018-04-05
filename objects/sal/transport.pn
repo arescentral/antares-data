@@ -1,12 +1,16 @@
 template:           "tpl/transport"
 notes:              "Transport"
-attributes:         {hide_effect: true}
-build_flags:        {matching_foe_exists: false}
-race:               "aud"
+race:               "sal"
 energy:             800
 warp_out_distance:  9734400
+weapons:
+	special:
+		base:  "dev/stealth/item"
+		positions:
+			*	{x: 0.0, y: 0.0}
 rotation:
-	sprite:  "aud/transprt"
+	sprite:  "sal/transport"
 	frames:  {begin: 0, end: 24}
+portrait:           "sal/transport"
 shield_color:       {r: 240, g: 240, b: 120}
-offense:            0.2
+offense:            0.15

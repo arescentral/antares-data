@@ -34,11 +34,11 @@ initials:
 	*	base:   "ish/hvc"
 		owner:  0
 		at:     {x: 6000, y: 0}
-	*	base:   "ish/transprt"
+	*	base:   "ish/transport"
 		owner:  0
 		at:     {x: 200, y: 200}
 		hide:   true
-	*	base:   "ish/transprt"
+	*	base:   "ish/transport"
 		owner:  0
 		at:     {x: 400, y: 400}
 		hide:   true
@@ -50,52 +50,52 @@ initials:
 		owner:  0
 		at:     {x: 250, y: 200}
 		hide:   true
-	*	base:    "can/transprt"
+	*	base:    "can/transport"
 		owner:   1
 		at:      {x: 6000, y: -3000}
 		hide:    true
 		target:  {lock: true}
-	*	base:    "can/transprt"
+	*	base:    "can/transport"
 		owner:   1
 		at:      {x: 6100, y: -3000}
 		hide:    true
 		target:  {lock: true}
-	*	base:    "can/transprt"
+	*	base:    "can/transport"
 		owner:   1
 		at:      {x: 6000, y: -3100}
 		hide:    true
 		target:  {lock: true}
-	*	base:    "can/transprt"
+	*	base:    "can/transport"
 		owner:   1
 		at:      {x: 6200, y: -3000}
 		hide:    true
 		target:  {lock: true}
-	*	base:    "can/transprt"
+	*	base:    "can/transport"
 		owner:   1
 		at:      {x: 5900, y: -3000}
 		hide:    true
 		target:  {lock: true}
-	*	base:    "can/transprt"
+	*	base:    "can/transport"
 		owner:   1
 		at:      {x: 5950, y: -3200}
 		hide:    true
 		target:  {lock: true}
-	*	base:    "can/transprt"
+	*	base:    "can/transport"
 		owner:   1
 		at:      {x: 6300, y: -3000}
 		hide:    true
 		target:  {lock: true}
-	*	base:    "can/transprt"
+	*	base:    "can/transport"
 		owner:   1
 		at:      {x: 6410, y: -3400}
 		hide:    true
 		target:  {lock: true}
-	*	base:    "can/transprt"
+	*	base:    "can/transport"
 		owner:   1
 		at:      {x: 6000, y: -3000}
 		hide:    true
 		target:  {lock: true}
-	*	base:    "can/transprt"
+	*	base:    "can/transport"
 		owner:   1
 		at:      {x: 6000, y: -3000}
 		hide:    true

@@ -25,7 +25,7 @@ initials:
 	*	base:   "ish/cruiser"
 		owner:  0
 		at:     {x: -3000, y: 3000}
-	*	base:   "ish/transprt"
+	*	base:   "ish/transport"
 		owner:  0
 		at:     {x: 0, y: 3000}
 	*	base:   "ish/carrier"
@@ -35,7 +35,7 @@ initials:
 		at:    {x: 5000, y: 0}
 		override:
 			name:  "Simulated Planet"
-	*	base:    "can/etc/transprt/tut1"
+	*	base:    "can/etc/transport/tut1"
 		owner:   1
 		at:      {x: 3000, y: -1000}
 		target:  {lock: true}
@@ -43,12 +43,12 @@ initials:
 		owner:  0
 		at:     {x: 3000, y: 3000}
 		hide:   true
-	*	base:    "can/transprt"
+	*	base:    "can/transport"
 		owner:   1
 		at:      {x: 3000, y: -6000}
 		hide:    true
 		target:  {initial: 7, lock: true}
-	*	base:    "can/transprt"
+	*	base:    "can/transport"
 		owner:   1
 		at:      {x: 3250, y: -6250}
 		hide:    true

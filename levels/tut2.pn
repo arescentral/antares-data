@@ -41,7 +41,7 @@ initials:
 		at:      {x: 6000, y: 100}
 		hide:    true
 		target:  {initial: 4, lock: true}
-	*	base:    "ish/transprt"
+	*	base:    "ish/transport"
 		owner:   0
 		at:      {x: 6000, y: 200}
 		hide:    true
@@ -51,7 +51,7 @@ initials:
 		at:     {x: -200, y: -100}
 		override:
 			name:  "Simulated Planet"
-	*	base:    "can/etc/transprt/tut1"
+	*	base:    "can/etc/transport/tut1"
 		owner:   1
 		at:      {x: 0, y: 200}
 		hide:    true

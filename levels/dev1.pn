@@ -32,7 +32,7 @@ initials:
 			*	"gunship"
 			*	"carrier"
 			*	"hvd"
-			*	"transprt"
+			*	"transport"
 	*	base:     "loc/planet"
 		owner:    1
 		at:       {x: -9000, y: 0}
@@ -46,7 +46,7 @@ initials:
 			*	"gunship"
 			*	"carrier"
 			*	"hvd"
-			*	"transprt"
+			*	"transport"
 	*	base:     "loc/planet"
 		owner:    2
 		at:       {x: 0, y: 9000}

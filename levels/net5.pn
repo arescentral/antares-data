@@ -30,7 +30,7 @@ initials:
 			*	"aslttran"
 			*	"carrier"
 			*	"hvd"
-			*	"transprt"
+			*	"transport"
 	*	base:     "loc/planet"
 		owner:    1
 		at:       {x: 0, y: -10000}
@@ -43,7 +43,7 @@ initials:
 			*	"aslttran"
 			*	"carrier"
 			*	"hvd"
-			*	"transprt"
+			*	"transport"
 	*	base:    "carrier"
 		owner:   0
 		at:      {x: 256, y: 10000}
