@@ -1,34 +1,11 @@
-long_name:          "Rap A Pulse React"
-short_name:         "RPAPULSE"
-notes:              "Rap A Pulse React"
-class:              -1
-damage:             0
-energy:             0
-price:              0
-build_ratio:        0.0
-build_time:         0
-occupy_count:       0
-mass:               0.0
-warp_speed:         0.0
-warp_out_distance:  0
-device:
-	usage:          {attacking: true}
-	energy_cost:    0
-	fire_time:      16
-	ammo:           150
-	range:          78400
-	inverse_speed:  8388607.996
-	restock_cost:   24
+template:    "tpl/gun"
+long_name:   "Rap A Pulse React"
+short_name:  "RPAPULSE"
+notes:       "Rap A Pulse React"
+device:      {fire_time: 16, ammo: 150, range: 78400, inverse_speed: 8388607.996, restock_cost: 24}
 on_activate:
 	*	type:                "create"
 		reflexive:           true
 		base:                "dev/anti1/pulse"
 		relative_velocity:   true
 		relative_direction:  true
-destroy_dont_die:   false
-expire_dont_die:    false
-skill_num:          0
-skill_den:          0
-offense:            0.0
-friend_deficit:     0.0
-danger_threshold:   0.0

@@ -1,24 +1,21 @@
-long_name:               "Target Drone"
-short_name:              "TRGTDRNE"
-notes:                   "Target Drone"
-attributes:              {can_turn: true, can_be_engaged: true, has_direction_goal: true, does_bounce: true, is_self_animated: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, animation_cycle: true, can_collide: true, can_be_hit: true, release_energy_on_death: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
-order_flags:             {local: true}
-class:                   123
-race:                    "ish"
-health:                  250
-damage:                  0
-energy:                  600
-price:                   600
-build_ratio:             0.75
-build_time:              180
-occupy_count:            0
-mass:                    0.797
-max_velocity:            3.0
-max_thrust:              0.297
-initial_velocity:        0.5
-initial_direction:       {begin: 0, end: 360}
-warp_speed:              0.0
-warp_out_distance:       0
+template:           "tpl/hazard"
+long_name:          "Target Drone"
+short_name:         "TRGTDRNE"
+notes:              "Target Drone"
+attributes:         {can_turn: true, can_be_engaged: true, has_direction_goal: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, release_energy_on_death: true, hated: true, can_be_evaded: true}
+order_flags:        {local: true}
+class:              123
+race:               "ish"
+health:             250
+energy:             600
+price:              600
+build_ratio:        0.75
+build_time:         180
+mass:               0.797
+max_velocity:       3.0
+max_thrust:         0.297
+initial_velocity:   0.5
+initial_direction:  {begin: 0, end: 360}
 weapons:
 	beam:
 		base:  "zzz/dev/inert/turret"
@@ -27,7 +24,6 @@ weapons:
 			*	{x: 3.0, y: 0.0}
 animation:
 	sprite:     "ish/etc/trgtdrne"
-	layer:      2
 	frames:     {begin: 0.0, end: 23.004}
 	direction:  "+"
 	speed:      0.547
@@ -35,7 +31,7 @@ animation:
 icon:
 	shape:  "triangle"
 	size:   3
-shield_color:            {r: 255, g: 255, b: 255}
+shield_color:       {r: 255, g: 255, b: 255}
 on_destroy:
 	*	type:       "heal"
 		reflexive:  true
@@ -61,12 +57,9 @@ on_destroy:
 		reflexive:  true
 		delay:      60
 		base:       "zzz/ish/etc/trgtdrne"
-destroy_dont_die:        true
-expire_dont_die:         false
-arrive_action_distance:  50000
-skill_num:               3
-skill_den:               21
-offense:                 0.5
-destination_class:       1
-friend_deficit:          0.0
-danger_threshold:        2.0
+destroy_dont_die:   true
+skill_num:          3
+skill_den:          21
+offense:            0.5
+destination_class:  1
+danger_threshold:   2.0

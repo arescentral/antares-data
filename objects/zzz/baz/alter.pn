@@ -1,31 +1,10 @@
+template:           "tpl/gun"
 long_name:          "Alter Battleship"
 short_name:         "ALTERTST"
 notes:              "Alter Battleship"
-class:              -1
-damage:             0
-energy:             0
-price:              0
-build_ratio:        0.0
-build_time:         0
-occupy_count:       0
-mass:               0.0
 initial_direction:  {begin: -5, end: 5}
-warp_speed:         0.0
-warp_out_distance:  0
-device:
-	usage:          {attacking: true}
-	energy_cost:    10
-	fire_time:      20
-	range:          50625
-	inverse_speed:  0.066
+device:             {energy_cost: 10, fire_time: 20, range: 50625, inverse_speed: 0.066}
 on_activate:
 	*	type:       "morph"
 		reflexive:  true
 		base:       "baz/bttlship"
-destroy_dont_die:   false
-expire_dont_die:    false
-skill_num:          0
-skill_den:          0
-offense:            0.0
-friend_deficit:     0.0
-danger_threshold:   0.0
