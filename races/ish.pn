@@ -2,23 +2,20 @@ singular:        "Ishiman"
 plural:          "Ishimans"
 military:        "Ishiman Protectorate"
 homeworld:       "Ishima"
-
+numeric:         100
 apparent_color:  "aqua"
 illegal_colors:  0
 advantage:       2.15
-
 ships:
-	fighter:       "ish/fighter"
-	cruiser:       "ish/cruiser"
-	hvc:           "ish/hvc"
-	gunship:       "ish/gunship"
-	hvd:           "ish/hvd"
-	carrier:       "ish/carrier"
-	defdrone:      "ish/defdrone"
-
-	transprt:      "ish/transprt"
-	engineer:      "ish/engineer"
-	aslttran:      "ish/aslttran"
-
-	tut3/cruiser:  "ish/etc/cruiser/tut3"
-	prctcdrn:      "zzz/ish/etc/prctcdrn"
+	evat:      "ish/evat"
+	fighter:   "ish/fighter"
+	cruiser:   "ish/cruiser"
+	schooner:  "ish/schooner"
+	hvc:       "ish/hvc"
+	gunship:   "ish/gunship"
+	hvd:       "ish/hvd"
+	carrier:   "ish/carrier"
+	defdrone:  "ish/defdrone"
+	transprt:  "ish/transprt"
+	engineer:  "ish/engineer"
+	aslttran:  "ish/aslttran"

@@ -2,10 +2,9 @@ singular:        "Elejeetian"
 plural:          "Elejeetians"
 military:        "Elejeetian Empire"
 homeworld:       "Elejee"
-
+numeric:         800
 apparent_color:  "gold"
 illegal_colors:  0
 advantage:       3.0
-
 ships:
 	cruiser:  "ele/cruiser"
