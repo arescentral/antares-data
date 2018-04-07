@@ -60,6 +60,7 @@ initials:
 			*	"gunship"
 			*	"escort"
 			*	"hvd"
+			*	"transport"
 	*	base:      "hvd"
 		owner:     0
 		at:        {x: 9000, y: 0}
