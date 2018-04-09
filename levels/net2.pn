@@ -92,13 +92,14 @@ initials:
 		hide:      true
 		flagship:  true
 conditions:
-	*	type:   "time"
-		op:     "ge"
+	*	type:               "time"
+		op:                 "ge"
 		action:
 			*	type:       "reveal"
 				reflexive:  true
 				which:      {begin: 9, end: 11}
-		value:  4780
+		value:              4780
+		legacy_start_time:  true
 	*	type:     "owner"
 		op:       "eq"
 		subject:  2

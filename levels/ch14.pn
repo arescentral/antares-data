@@ -147,8 +147,8 @@ conditions:
 			*	type:    "capture"
 				player:  1
 		player:   1
-	*	type:   "time"
-		op:     "ge"
+	*	type:               "time"
+		op:                 "ge"
 		action:
 			*	type:       "reveal"
 				reflexive:  true
@@ -159,7 +159,8 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				which:      17
-		value:  7200
+		value:              7200
+		legacy_start_time:  true
 	*	type:        "owner"
 		op:          "eq"
 		subject:     8

@@ -184,13 +184,14 @@ conditions:
 		player:   0
 		counter:  0
 		value:    2
-	*	type:   "time"
-		op:     "ge"
+	*	type:               "time"
+		op:                 "ge"
 		action:
 			*	type:       "reveal"
 				reflexive:  true
 				which:      {begin: 31, end: 35}
-		value:  28167
+		value:              28167
+		legacy_start_time:  true
 	*	type:     "owner"
 		op:       "eq"
 		subject:  1

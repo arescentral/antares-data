@@ -77,8 +77,8 @@ conditions:
 				text:
 					>	You took the Gaitori base on Demeter Beta. The mission was a success.
 		player:   0
-	*	type:   "time"
-		op:     "ge"
+	*	type:               "time"
+		op:                 "ge"
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -94,7 +94,8 @@ conditions:
 				reflexive:  true
 				delay:      400
 				which:      4
-		value:  3600
+		value:              3600
+		legacy_start_time:  true
 briefings:
 	*	title:  "Demeter"
 		content:

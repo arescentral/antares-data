@@ -68,8 +68,8 @@ initials:
 		override:
 			name:  "Proteus"
 conditions:
-	*	type:   "time"
-		op:     "ge"
+	*	type:               "time"
+		op:                 "ge"
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -85,7 +85,8 @@ conditions:
 						>	are extremely well armored. \i<EOT>\i 
 			*	type:   "reveal"
 				which:  1
-		value:  1200
+		value:              1200
+		legacy_start_time:  true
 	*	type:        "owner"
 		op:          "eq"
 		subject:     0

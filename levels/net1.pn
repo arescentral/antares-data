@@ -79,13 +79,14 @@ initials:
 		flagship:  true
 		target:    {initial: 3}
 conditions:
-	*	type:   "time"
-		op:     "ge"
+	*	type:               "time"
+		op:                 "ge"
 		action:
 			*	type:       "reveal"
 				reflexive:  true
 				which:      {begin: 6, end: 8}
-		value:  4780
+		value:              4780
+		legacy_start_time:  true
 	*	type:     "owner"
 		op:       "eq"
 		subject:  2

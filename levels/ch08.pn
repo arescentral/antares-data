@@ -50,8 +50,8 @@ initials:
 		at:     {x: 32768, y: 0}
 		hide:   true
 conditions:
-	*	type:   "time"
-		op:     "ge"
+	*	type:               "time"
+		op:                 "ge"
 		action:
 			*	type:       "reveal"
 				reflexive:  true
@@ -59,22 +59,25 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				which:      {begin: 4, end: 7}
-		value:  4760
-	*	type:   "time"
-		op:     "ge"
+		value:              4760
+		legacy_start_time:  true
+	*	type:               "time"
+		op:                 "ge"
 		action:
 			*	type:       "reveal"
 				reflexive:  true
 				which:      7
-		value:  5500
-	*	type:   "time"
-		op:     "ge"
+		value:              5500
+		legacy_start_time:  true
+	*	type:               "time"
+		op:                 "ge"
 		action:
 			*	type:             "push"
 				reflexive:        true
 				initial_subject:  0
 				kind:             "stop"
-		value:  3
+		value:              3
+		legacy_start_time:  true
 	*	type:        "counter"
 		op:          "ge"
 		action:

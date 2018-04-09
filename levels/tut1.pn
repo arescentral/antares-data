@@ -54,8 +54,8 @@ initials:
 		hide:    true
 		target:  {initial: 8, lock: true}
 conditions:
-	*	type:   "time"
-		op:     "ge"
+	*	type:               "time"
+		op:                 "ge"
 		action:
 			*	type:  "key"
 				disable:
@@ -99,7 +99,8 @@ conditions:
 						>
 						>	Use the mouse to double click the <Message>
 						|	item now.
-		value:  0
+		value:              0
+		legacy_start_time:  true
 	*	type:    "computer"
 		op:      "eq"
 		action:

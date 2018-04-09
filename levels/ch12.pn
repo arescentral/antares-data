@@ -116,8 +116,8 @@ initials:
 		at:      {x: 18086, y: 2434}
 		target:  {initial: 4, lock: true}
 conditions:
-	*	type:   "time"
-		op:     "ge"
+	*	type:               "time"
+		op:                 "ge"
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -150,7 +150,8 @@ conditions:
 				reflexive:  true
 				delay:      1200
 				which:      8
-		value:  18000
+		value:              18000
+		legacy_start_time:  true
 	*	type:     "counter"
 		op:       "eq"
 		action:
