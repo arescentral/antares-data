@@ -2,6 +2,6 @@ template:           "tpl/special"
 long_name:          "Monkey Friend"
 short_name:         "MONKEY"
 notes:              "Monkey Friend"
-device:             {fire_time: 0, ammo: 0, restock_cost: 0}
+device:             {ammo: 0, restock_cost: 0}
 offense:            -1.0
 destination_class:  0

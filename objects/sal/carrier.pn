@@ -4,7 +4,7 @@ race:               "sal"
 health:             7500
 energy:             6500
 price:              6000
-build_time:         3000
+build_time:         "50s"
 mass:               2.5
 max_velocity:       4.0
 max_thrust:         0.02

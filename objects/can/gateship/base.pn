@@ -5,7 +5,7 @@ notes:              "Instead of dying, opens up jump gate & escapes (health 4000
 class:              550
 race:               "can"
 health:             40000
-build_time:         3000
+build_time:         "50s"
 warp_speed:         20.0
 warp_out_distance:  1406447
 weapons:
@@ -49,7 +49,7 @@ on_destroy:
 		value:      80000
 	*	type:       "message"
 		reflexive:  true
-		delay:      60
+		delay:      "1s"
 		id:         5520
 		pages:
 			*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM

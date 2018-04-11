@@ -2,7 +2,7 @@ template:           "tpl/oriented"
 attributes:         {can_collide: true}
 health:             1000
 damage:             100
-initial_age:        40
+initial_age:        "40t"
 mass:               0.5
 max_velocity:       7.0
 initial_velocity:   7.0

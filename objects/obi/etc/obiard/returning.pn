@@ -22,14 +22,14 @@ icon:
 	size:   1
 on_create:
 	*	type:            "order"
-		delay:           3
+		delay:           "0.05s"
 		initial_object:  0
 on_arrive:
 	*	type:              "sound"
 		level_key_filter:  "6"
 		id:                31989
 		priority:          3
-		persistence:       10
+		persistence:       "10t"
 		volume:            255
 	*	type:              "score"
 		level_key_filter:  "6"

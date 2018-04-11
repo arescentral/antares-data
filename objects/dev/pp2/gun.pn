@@ -2,13 +2,18 @@ template:    "tpl/gun"
 long_name:   "Protopulse 2 Gun"
 short_name:  "PRTOPLSE"
 notes:       "Protopulse 2 Gun"
-device:      {fire_time: 15, ammo: 250, range: 270400, inverse_speed: 0.074, restock_cost: 12}
+device:
+	fire_time:      "0.25s"
+	ammo:           250
+	range:          270400
+	inverse_speed:  0.074
+	restock_cost:   12
 on_activate:
 	*	type:         "sound"
 		reflexive:    true
 		id:           519
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:                "create"
 		reflexive:           true

@@ -3,7 +3,7 @@ long_name:         "ASB Beam"
 short_name:        "ASB BEAM"
 notes:             "ASB Beam"
 damage:            80
-initial_age:       40
+initial_age:       "40t"
 max_velocity:      20.0
 max_thrust:        0.45
 initial_velocity:  2.0

@@ -92,9 +92,9 @@ conditions:
 						>	Destroy the carrier if possible.\i<EOT>\i 
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      400
+				delay:      "6s40t"
 				which:      4
-		value:              3600
+		duration:           "1m"
 		legacy_start_time:  true
 briefings:
 	*	title:  "Demeter"
@@ -155,7 +155,7 @@ briefings:
 			|	^Pgai/gunship^
 			|	Good luck.
 starmap:     {x: 354, y: 271}
-par_time:    180
+par_time:    "3m"
 par_kills:   16
 par_losses:  4
 no_ships:

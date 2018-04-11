@@ -5,7 +5,7 @@ notes:       "Stealth Field"
 device:
 	usage:         {transportation: true, defense: true}
 	energy_cost:   1
-	fire_time:     9
+	fire_time:     "0.15s"
 	restock_cost:  0
 on_activate:
 	*	type:       "cloak"

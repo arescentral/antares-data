@@ -2,7 +2,7 @@ template:           "tpl/capship"
 long_name:          "Carrier"
 short_name:         "CARRIER"
 class:              500
-build_time:         1800
+build_time:         "30s"
 warp_out_distance:  22503164
 on_destroy:
 	*	type:                "create"

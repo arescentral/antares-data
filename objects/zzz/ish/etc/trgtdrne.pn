@@ -10,7 +10,7 @@ health:             250
 energy:             600
 price:              600
 build_ratio:        0.75
-build_time:         180
+build_time:         "3s"
 mass:               0.797
 max_velocity:       3.0
 max_thrust:         0.297
@@ -44,18 +44,18 @@ on_destroy:
 		absolute:     true
 		id:           551
 		priority:     4
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:         "sound"
 		reflexive:    true
-		delay:        360
+		delay:        "6s"
 		id:           525
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:       "morph"
 		reflexive:  true
-		delay:      60
+		delay:      "1s"
 		base:       "zzz/ish/etc/trgtdrne"
 destroy_dont_die:   true
 skill_num:          3

@@ -2,7 +2,12 @@ template:    "tpl/turret"
 long_name:   "Atomic Pulse Gun"
 short_name:  "ATOMPLSE"
 notes:       "Atomic Pulse Gun"
-device:      {fire_time: 240, ammo: 100, range: 4618201, inverse_speed: 0.14, restock_cost: 80}
+device:
+	fire_time:      "4s"
+	ammo:           100
+	range:          4618201
+	inverse_speed:  0.14
+	restock_cost:   80
 on_activate:
 	*	type:                "create"
 		reflexive:           true

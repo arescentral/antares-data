@@ -2,7 +2,7 @@ template:          "tpl/opulse"
 attributes:        {can_turn: true, has_direction_goal: true, does_bounce: true, can_engage: true, can_be_hit: true, hated: true, can_be_evaded: true, is_guided: true, appear_on_radar: true}
 health:            25
 damage:            200
-initial_age:       160
+initial_age:       "2s40t"
 max_velocity:      9.0
 max_thrust:        0.2
 initial_velocity:  0.5

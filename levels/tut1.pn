@@ -99,7 +99,7 @@ conditions:
 						>
 						>	Use the mouse to double click the <Message>
 						|	item now.
-		value:              0
+		duration:           "0s"
 		legacy_start_time:  true
 	*	type:    "computer"
 		op:      "eq"
@@ -229,7 +229,7 @@ conditions:
 				initial_subject:  5
 				initial_object:   4
 			*	type:    "condition"
-				delay:   120
+				delay:   "2s"
 				enable:  8
 		initially_disabled:  true
 		value:               50000
@@ -242,7 +242,7 @@ conditions:
 				initial_subject:  5
 				initial_object:   0
 			*	type:    "condition"
-				delay:   120
+				delay:   "2s"
 				enable:  7
 		initially_disabled:  true
 		value:               50000
@@ -647,7 +647,7 @@ conditions:
 		player:              0
 		screen:              "message"
 starmap:      {x: 330, y: 287}
-par_time:     120
+par_time:     "2m"
 par_kills:    9
 angle:        8
 is_training:  true

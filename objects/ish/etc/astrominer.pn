@@ -8,7 +8,7 @@ race:               "ish"
 health:             700
 energy:             2000
 price:              800
-build_time:         360
+build_time:         "6s"
 mass:               1.2
 max_velocity:       4.0
 max_thrust:         0.15

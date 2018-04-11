@@ -243,7 +243,7 @@ briefings:
 			>	For the mission to be considered successful, you must rescue at least
 			>	eleven of the fifteen total hostages. Good luck.
 starmap:    {x: 460, y: 259}
-par_time:   720
+par_time:   "12m"
 par_kills:  25
 no_ships:
 	>	You lost your ships without rescuing enough Obiards.

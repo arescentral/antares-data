@@ -162,7 +162,7 @@ briefings:
 			>	2020187 is destroyed, the mission will be aborted. It has its own group
 			>	of escorts, including some Obish ships.
 starmap:     {x: 311, y: 192}
-par_time:    120
+par_time:    "2m"
 par_kills:   10
 par_losses:  25
 no_ships:

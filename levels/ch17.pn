@@ -113,7 +113,7 @@ conditions:
 				initial_subject:  3
 				value:            10000.0
 				player:           1
-		value:              4780
+		duration:           "1m19s40t"
 		legacy_start_time:  true
 	*	type:     "owner"
 		op:       "eq"
@@ -178,9 +178,9 @@ briefings:
 			>	greatly outmatch ours.
 			|	^Paud/cruiser^
 starmap:     {x: 156, y: 81}
-par_time:    960
+par_time:    "16m"
 par_kills:   45
 par_losses:  30
-start_time:  240
+start_time:  "4m"
 no_ships:
 	>	All of your ships were destroyed.

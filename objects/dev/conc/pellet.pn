@@ -8,7 +8,7 @@ on_collide:
 		reflexive:    true
 		id:           {begin: 552, end: 554}
 		priority:     3
-		persistence:  15
+		persistence:  "0.25s"
 		volume:       255
 	*	type:       "spark"
 		reflexive:  true

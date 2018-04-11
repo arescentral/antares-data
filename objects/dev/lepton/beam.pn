@@ -3,7 +3,7 @@ long_name:         "Lepton Beam"
 short_name:        "L BEAM"
 notes:             "Lepton Beam"
 damage:            80
-initial_age:       29
+initial_age:       "29t"
 max_velocity:      20.0
 max_thrust:        0.65
 initial_velocity:  5.0
@@ -15,7 +15,7 @@ on_create:
 		reflexive:    true
 		id:           512
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 on_collide:
 	*	type:                "create"

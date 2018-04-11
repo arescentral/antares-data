@@ -5,7 +5,9 @@ notes:              "Castaway Crew Member"
 attributes:         {can_turn: true, has_direction_goal: true, does_bounce: true, animation_cycle: true}
 health:             1
 damage:             1
-initial_age:        {begin: 1000, end: 1500}
+initial_age:
+	begin:  "16s40t"
+	end:    "25s"
 mass:               0.5
 max_velocity:       3.0
 initial_velocity:   {begin: 0.5, end: 2.0}

@@ -159,7 +159,7 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				which:      17
-		value:              7200
+		duration:           "2m"
 		legacy_start_time:  true
 	*	type:        "owner"
 		op:          "eq"
@@ -271,7 +271,7 @@ briefings:
 			>	^Pish/hvc^You'll initially be using this heavy cruiser. You are welcome
 			>	to transfer control to any other ship you see fit.
 starmap:     {x: 222, y: 130}
-par_time:    1320
+par_time:    "22m"
 par_kills:   95
 par_losses:  30
 prologue:

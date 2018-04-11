@@ -2,7 +2,11 @@ template:    "tpl/gun"
 long_name:   "KL Beam Cannon"
 short_name:  "KLBEAM"
 notes:       "Identical to #2, really"
-device:      {energy_cost: 10, fire_time: 12, range: 50625, inverse_speed: 0.066}
+device:
+	energy_cost:    10
+	fire_time:      "0.2s"
+	range:          50625
+	inverse_speed:  0.066
 on_activate:
 	*	type:                "create"
 		reflexive:           true

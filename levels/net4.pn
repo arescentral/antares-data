@@ -37,7 +37,7 @@ conditions:
 				player:     0
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      360
+				delay:      "6s"
 				which:      0
 			*	type:    "condition"
 				enable:  0
@@ -53,7 +53,7 @@ conditions:
 				player:     1
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      360
+				delay:      "6s"
 				which:      1
 			*	type:       "condition"
 				reflexive:  true

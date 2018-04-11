@@ -3,7 +3,7 @@ long_name:         "Newo Beam"
 short_name:        "NEWOBEAM"
 notes:             "Newo Beam"
 damage:            80
-initial_age:       30
+initial_age:       "0.5s"
 max_velocity:      20.0
 max_thrust:        0.45
 initial_velocity:  10.0

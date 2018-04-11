@@ -4,7 +4,7 @@ short_name:        "APULSE 2"
 notes:             "Antimatter Pulse Type II"
 attributes:        {animation_cycle: true}
 damage:            500
-initial_age:       30
+initial_age:       "0.5s"
 max_velocity:      3.0
 initial_velocity:  3.0
 animation:
@@ -26,7 +26,7 @@ on_create:
 		reflexive:    true
 		id:           505
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 on_collide:
 	*	type:                "create"

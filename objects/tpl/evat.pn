@@ -9,7 +9,7 @@ order_tag:               "a"
 class:                   10
 health:                  10
 energy:                  50
-initial_age:             4000
+initial_age:             "1m6s40t"
 mass:                    0.008
 max_velocity:            0.5
 max_thrust:              0.02
@@ -23,7 +23,7 @@ on_destroy:
 	*	type:         "sound"
 		id:           12558
 		priority:     3
-		persistence:  20
+		persistence:  "20t"
 		volume:       255
 	*	type:       "create"
 		reflexive:  true
@@ -39,7 +39,7 @@ on_arrive:
 		absolute:          true
 		id:                31989
 		priority:          4
-		persistence:       60
+		persistence:       "1s"
 		volume:            255
 	*	type:              "occupy"
 		level_key_filter:  "a"

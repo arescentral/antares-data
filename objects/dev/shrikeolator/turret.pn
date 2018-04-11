@@ -2,7 +2,12 @@ template:    "tpl/turret"
 long_name:   "Shrikeolator"
 short_name:  "SHRKOLTR"
 notes:       "Pushes you far far away"
-device:      {fire_time: 70, ammo: 150, range: 2073600, inverse_speed: 0.11, restock_cost: 24}
+device:
+	fire_time:      "1s10t"
+	ammo:           150
+	range:          2073600
+	inverse_speed:  0.11
+	restock_cost:   24
 on_activate:
 	*	type:                "create"
 		reflexive:           true
@@ -13,5 +18,5 @@ on_activate:
 		reflexive:    true
 		id:           544
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255

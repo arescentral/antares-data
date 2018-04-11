@@ -5,7 +5,9 @@ notes:              "Debris"
 attributes:         {does_bounce: false, occupies_space: false, appear_on_radar: false}
 health:             10
 damage:             8
-initial_age:        {begin: 160, end: 320}
+initial_age:
+	begin:  "2s40t"
+	end:    "5s20t"
 mass:               0.5
 max_velocity:       4.0
 initial_velocity:   {begin: 0.5, end: 1.5}

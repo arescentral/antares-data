@@ -3,7 +3,7 @@ long_name:         "Fireball"
 short_name:        "FIREBALL"
 notes:             "Fireball"
 attributes:        {animation_cycle: true}
-initial_age:       45
+initial_age:       "0.75s"
 mass:              0.098
 max_velocity:      12.0
 initial_velocity:  12.0
@@ -22,6 +22,6 @@ on_activate:
 		reflexive:           true
 		base:                "dev/fireball/trail"
 		relative_direction:  true
-activate_period:   1
+activate_period:   "1t"
 skill_num:         3
 skill_den:         21

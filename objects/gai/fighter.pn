@@ -5,7 +5,7 @@ race:              "gai"
 health:            50
 price:             500
 build_ratio:       0.5
-build_time:        150
+build_time:        "2.5s"
 mass:              0.5
 max_velocity:      5.0
 initial_velocity:  5.0

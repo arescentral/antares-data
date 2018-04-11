@@ -2,13 +2,18 @@ template:    "tpl/gun"
 long_name:   "Light Phtoreactor"
 short_name:  "LTPHTORT"
 notes:       "Light Photoreactor Pulse Cannon"
-device:      {fire_time: 39, ammo: 150, range: 810000, inverse_speed: 0.066, restock_cost: 30}
+device:
+	fire_time:      "0.65s"
+	ammo:           150
+	range:          810000
+	inverse_speed:  0.066
+	restock_cost:   30
 on_activate:
 	*	type:         "sound"
 		reflexive:    true
 		id:           557
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:                "create"
 		reflexive:           true

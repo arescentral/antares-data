@@ -2,7 +2,7 @@ template:      "tpl/cruiser"
 notes:         "Cruiser -- for newtorial 3; adopts init ob # of score 0"
 class:         267
 race:          "ish"
-build_time:    900
+build_time:    "15s"
 weapons:
 	pulse:
 		base:  "dev/fusion/gun"

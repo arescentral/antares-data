@@ -5,7 +5,7 @@ notes:             "Atomic Pulse"
 attributes:        {can_engage: true, autotarget: true, animation_cycle: true, hated: true, can_be_evaded: true, is_guided: true, appear_on_radar: true}
 health:            5
 damage:            200
-initial_age:       307
+initial_age:       "5s7t"
 mass:              4.0
 max_thrust:        0.098
 initial_velocity:  2.0
@@ -20,7 +20,7 @@ on_create:
 		reflexive:    true
 		id:           561
 		priority:     3
-		persistence:  20
+		persistence:  "20t"
 		volume:       255
 on_collide:
 	*	type:                "create"
@@ -41,6 +41,6 @@ on_activate:
 		base:       "sfx/sparkle"
 		count:      {begin: 1, end: 3}
 		distance:   16
-activate_period:   3
+activate_period:   "0.05s"
 skill_num:         3
 skill_den:         21

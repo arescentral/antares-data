@@ -3,7 +3,7 @@ notes:         "Gaitori Extra-vehicular Assault Trooper"
 attributes:    {static_destination: false}
 race:          "gai"
 price:         600
-build_time:    180
+build_time:    "3s"
 weapons:
 	beam:
 		base:  "dev/conc/gun"

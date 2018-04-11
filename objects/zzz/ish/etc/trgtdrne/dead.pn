@@ -10,7 +10,7 @@ health:             250
 energy:             600
 price:              600
 build_ratio:        0.75
-build_time:         180
+build_time:         "3s"
 mass:               0.797
 max_thrust:         0.25
 initial_direction:  {begin: 0, end: 360}

@@ -108,7 +108,7 @@ conditions:
 					*	"send_message"
 			*	type:   "zoom"
 				value:  "1:2"
-		value:              0
+		duration:           "0s"
 		legacy_start_time:  true
 	*	type:    "message"
 		op:      "eq"
@@ -776,7 +776,7 @@ conditions:
 					*	"send_message"
 					*	"mouse"
 			*	type:             "order"
-				delay:            120
+				delay:            "2s"
 				initial_subject:  1
 				initial_object:   5
 			*	type:    "condition"

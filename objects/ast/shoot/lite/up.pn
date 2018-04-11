@@ -1,12 +1,12 @@
-template:         "tpl/scenery"
-long_name:        "Ast Shoot Up Lite"
-short_name:       "ASTSHOOT"
-notes:            "For Net Level 1 (Rock & Rock)"
-attributes:       {animation_cycle: true}
-health:           1000
+template:      "tpl/scenery"
+long_name:     "Ast Shoot Up Lite"
+short_name:    "ASTSHOOT"
+notes:         "For Net Level 1 (Rock & Rock)"
+attributes:    {animation_cycle: true}
+health:        1000
 animation:
 	sprite:  "sfx/invisible"
-shield_color:     {r: 240, g: 0, b: 0}
+shield_color:  {r: 240, g: 0, b: 0}
 on_activate:
 	*	type:                "create"
 		reflexive:           true
@@ -22,4 +22,6 @@ on_activate:
 		relative_velocity:   true
 		relative_direction:  true
 		distance:            1024
-activate_period:  {begin: 255, end: 510}
+activate_period:
+	begin:  "4.25s"
+	end:    "8.5s"

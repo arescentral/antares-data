@@ -2,13 +2,17 @@ template:    "tpl/turret"
 long_name:   "Laser Turret"
 short_name:  "LSRTURRT"
 notes:       "Laser Turret"
-device:      {energy_cost: 10, fire_time: 10, range: 202500, inverse_speed: 0.066}
+device:
+	energy_cost:    10
+	fire_time:      "10t"
+	range:          202500
+	inverse_speed:  0.066
 on_activate:
 	*	type:         "sound"
 		reflexive:    true
 		id:           545
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:                "create"
 		reflexive:           true

@@ -4,7 +4,9 @@ short_name:         "FLAKSHL"
 notes:              "Flak Shell"
 attributes:         {autotarget: true, animation_cycle: true}
 damage:             25
-initial_age:        {begin: 15, end: 45}
+initial_age:
+	begin:  "0.25s"
+	end:    "0.75s"
 max_velocity:       15.0
 initial_velocity:   {begin: 15.0, end: 20.0}
 initial_direction:  {begin: -15, end: 15}

@@ -9,7 +9,7 @@ health:             250
 energy:             1000
 price:              800
 build_ratio:        0.098
-build_time:         450
+build_time:         "7.5s"
 mass:               1.2
 max_velocity:       3.0
 max_thrust:         0.156
@@ -35,7 +35,7 @@ on_arrive:
 		absolute:          true
 		id:                513
 		priority:          5
-		persistence:       20
+		persistence:       "20t"
 		volume:            255
 offense:            3.0
 destination_class:  9

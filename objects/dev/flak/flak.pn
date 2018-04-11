@@ -5,7 +5,9 @@ notes:              "Flak"
 attributes:         {animation_cycle: true, can_be_hit: true}
 health:             10
 damage:             50
-initial_age:        {begin: 10, end: 20}
+initial_age:
+	begin:  "10t"
+	end:    "20t"
 max_velocity:       5.0
 initial_velocity:   {begin: 5.0, end: 6.0}
 initial_direction:  {begin: 0, end: 360}

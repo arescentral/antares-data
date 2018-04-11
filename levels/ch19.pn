@@ -230,7 +230,7 @@ briefings:
 			>	out the electronic systems of nearby ships. Nonetheless, you must
 			>	destroy this ship to complete this mission.
 starmap:     {x: 241, y: 53}
-par_time:    780
+par_time:    "13m"
 par_kills:   50
 par_losses:  35
 no_ships:

@@ -10,7 +10,7 @@ health:             250
 energy:             600
 price:              600
 build_ratio:        0.75
-build_time:         180
+build_time:         "3s"
 mass:               0.797
 max_velocity:       3.0
 max_thrust:         0.297
@@ -29,7 +29,7 @@ shield_color:       {r: 255, g: 255, b: 255}
 on_create:
 	*	type:       "message"
 		reflexive:  true
-		delay:      360
+		delay:      "6s"
 		id:         5508
 		pages:
 			*	>	Good work. You built a practice drone. Normally, you can give ships you
@@ -38,12 +38,12 @@ on_create:
 	*	type:            "order"
 		initial_object:  5
 	*	type:            "land"
-		delay:           120
+		delay:           "2s"
 		initial_object:  5
 		speed:           128
 	*	type:       "condition"
 		reflexive:  true
-		delay:      2400
+		delay:      "40s"
 		enable:     13
 skill_num:          3
 skill_den:          21

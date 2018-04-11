@@ -2,7 +2,12 @@ template:    "tpl/turret"
 long_name:   "Electronic Jam"
 short_name:  "ELCTJAM"
 notes:       "Electronic Jamming Device"
-device:      {fire_time: 70, ammo: 150, range: 2073600, inverse_speed: 0.11, restock_cost: 24}
+device:
+	fire_time:      "1s10t"
+	ammo:           150
+	range:          2073600
+	inverse_speed:  0.11
+	restock_cost:   24
 on_activate:
 	*	type:   "disable"
 		value:  40.0

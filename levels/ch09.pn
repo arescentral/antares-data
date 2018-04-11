@@ -85,7 +85,7 @@ conditions:
 						>	are extremely well armored. \i<EOT>\i 
 			*	type:   "reveal"
 				which:  1
-		value:              1200
+		duration:           "20s"
 		legacy_start_time:  true
 	*	type:        "owner"
 		op:          "eq"
@@ -167,7 +167,7 @@ briefings:
 			>	^Pcan/carrier^We expect the Cantharans to have a carrier in the area. Be
 			>	prepared.
 starmap:     {x: 368, y: 201}
-par_time:    960
+par_time:    "16m"
 par_kills:   14
 par_losses:  8
 no_ships:

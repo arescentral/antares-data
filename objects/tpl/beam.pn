@@ -2,7 +2,7 @@ template:           "tpl/vector"
 attributes:         {can_collide: true}
 health:             1000
 damage:             15
-initial_age:        45
+initial_age:        "0.75s"
 vector:
 	kind:   "bolt to coord"
 	range:  900

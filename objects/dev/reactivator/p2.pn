@@ -2,14 +2,18 @@ template:    "tpl/turret"
 long_name:   "Reactivator"
 short_name:  "RCTVTR"
 notes:       "Reactivator, for CTF, P2"
-device:      {fire_time: 70, range: 2073600, inverse_speed: 0.11, restock_cost: 0}
+device:
+	fire_time:      "1s10t"
+	range:          2073600
+	inverse_speed:  0.11
+	restock_cost:   0
 on_activate:
 	*	type:  "morph"
 		base:  "gro/ctf/cruiser/p2-active"
 	*	type:         "sound"
 		id:           551
 		priority:     5
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:       "hold"
 		reflexive:  true

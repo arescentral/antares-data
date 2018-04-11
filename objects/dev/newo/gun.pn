@@ -2,13 +2,17 @@ template:    "tpl/gun"
 long_name:   "Newo Beam Cannon"
 short_name:  "NEWOBEAM"
 notes:       "Newo Beam Cannon"
-device:      {energy_cost: 10, fire_time: 20, range: 360000, inverse_speed: 0.047}
+device:
+	energy_cost:    10
+	fire_time:      "20t"
+	range:          360000
+	inverse_speed:  0.047
 on_activate:
 	*	type:         "sound"
 		reflexive:    true
 		id:           539
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:                "create"
 		reflexive:           true

@@ -2,13 +2,16 @@ template:    "tpl/gun"
 long_name:   "Onas Pulse Gun"
 short_name:  "ONASPULS"
 notes:       "Onas Pulse Gun"
-device:      {fire_time: 13, range: 810000, inverse_speed: 0.047}
+device:
+	fire_time:      "13t"
+	range:          810000
+	inverse_speed:  0.047
 on_activate:
 	*	type:         "sound"
 		reflexive:    true
 		id:           540
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:                "create"
 		reflexive:           true

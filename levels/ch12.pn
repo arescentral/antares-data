@@ -132,25 +132,25 @@ conditions:
 						>	follow with a minute between each of them.\i<EOT>\i 
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      1200
+				delay:      "20s"
 				which:      3
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      1200
+				delay:      "20s"
 				which:      5
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      1200
+				delay:      "20s"
 				which:      6
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      1200
+				delay:      "20s"
 				which:      7
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      1200
+				delay:      "20s"
 				which:      8
-		value:              18000
+		duration:           "5m"
 		legacy_start_time:  true
 	*	type:     "counter"
 		op:       "eq"
@@ -284,7 +284,7 @@ briefings:
 			>	Fansi system. Its missiles are very effective against the bunker
 			>	stations' defenses.
 starmap:     {x: 259, y: 158}
-par_time:    900
+par_time:    "15m"
 par_kills:   10
 par_losses:  20
 no_ships:

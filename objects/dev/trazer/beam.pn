@@ -3,7 +3,7 @@ long_name:    "Trazer Beam"
 short_name:   "TRZRBEAM"
 notes:        "Trazer Beam"
 damage:       30
-initial_age:  90
+initial_age:  "1.5s"
 vector:
 	hue:       "pale purple"
 	kind:      "static to coord"

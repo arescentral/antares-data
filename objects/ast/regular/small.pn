@@ -27,7 +27,7 @@ on_collide:
 		reflexive:    true
 		id:           514
 		priority:     3
-		persistence:  5
+		persistence:  "5t"
 		volume:       255
 	*	type:       "kill"
 		reflexive:  true

@@ -3,7 +3,7 @@ long_name:          "Gunsmoke"
 short_name:         "GUNSMOKE"
 notes:              "Gunsmoke"
 health:             1000
-initial_age:        4
+initial_age:        "4t"
 rotation:
 	sprite:  "sfx/gunsmoke"
 	layer:   3

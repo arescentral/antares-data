@@ -5,7 +5,6 @@ notes:       "Gaitor"
 attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true, defense: true}
-	fire_time:      0
 	ammo:           10
 	inverse_speed:  0.137
 on_activate:

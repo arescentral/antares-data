@@ -10,7 +10,7 @@ on_create:
 		reflexive:    true
 		id:           533
 		priority:     3
-		persistence:  30
+		persistence:  "0.5s"
 		volume:       255
 skill_num:   1
 skill_den:   1

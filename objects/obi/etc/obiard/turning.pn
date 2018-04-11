@@ -47,20 +47,22 @@ on_activate:
 		value:      {begin: -1.0, end: 0.0}
 	*	type:       "push"
 		reflexive:  true
-		delay:      20
+		delay:      "20t"
 		kind:       "boost"
 		value:      0.5
 	*	type:       "morph"
 		reflexive:  true
-		delay:      270
+		delay:      "4.5s"
 		base:       "obi/etc/obiard/waving"
 		keep_ammo:  true
 	*	type:       "morph"
 		reflexive:  true
-		delay:      270
+		delay:      "4.5s"
 		base:       "obi/etc/obiard/turning"
 		keep_ammo:  true
-activate_period:    {begin: 32, end: 64}
+activate_period:
+	begin:  "32t"
+	end:    "1s4t"
 skill_num:          3
 skill_den:          21
 destination_class:  -256

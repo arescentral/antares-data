@@ -4,7 +4,7 @@ short_name:         "QSIPULSE"
 notes:              "Quasimatter Pulse"
 attributes:         {animation_cycle: true}
 damage:             200
-initial_age:        60
+initial_age:        "1s"
 max_velocity:       15.0
 initial_velocity:   15.0
 initial_direction:  {begin: -2, end: 2}
@@ -24,7 +24,7 @@ on_collide:
 		reflexive:    true
 		id:           542
 		priority:     1
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:                "create"
 		reflexive:           true

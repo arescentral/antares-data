@@ -85,7 +85,7 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				which:      {begin: 6, end: 8}
-		value:              4780
+		duration:           "1m19s40t"
 		legacy_start_time:  true
 	*	type:     "owner"
 		op:       "eq"
@@ -114,7 +114,7 @@ briefings:
 			|	This system is under the control of the Gaitori, a race of ruthless
 			>	mercenaries and minions of our common enemy, the Cantharan Order.
 starmap:     {x: 200, y: 200}
-start_time:  240
+start_time:  "4m"
 description:
 	>	Basic head to head: capture the enemy planet. An asteroid belt, two
 	>	planets, and two bunker stations. Asteroids mask ships at long range.

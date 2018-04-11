@@ -4,7 +4,7 @@ short_name:    "RPLASMA"
 notes:         "R-Plasma"
 attributes:    {can_engage: true, animation_cycle: true, can_be_evaded: true, is_guided: true, appear_on_radar: true}
 damage:        200
-initial_age:   160
+initial_age:   "2s40t"
 max_velocity:  9.0
 max_thrust:    0.2
 animation:
@@ -18,7 +18,7 @@ on_create:
 		reflexive:    true
 		id:           530
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 on_collide:
 	*	type:       "disable"

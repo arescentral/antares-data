@@ -2,7 +2,7 @@ template:     "tpl/bolt"
 long_name:    "P-K Beam"
 short_name:   "PK BEAM"
 notes:        "P-K Beam"
-initial_age:  25
+initial_age:  "25t"
 vector:
 	color:     {r: 0, g: 255, b: 0}
 	accuracy:  131072
@@ -11,7 +11,7 @@ on_create:
 		reflexive:    true
 		id:           500
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 on_collide:
 	*	type:                "create"

@@ -3,7 +3,7 @@ short_name:    "EVATROOP"
 notes:         "EVA Trooper"
 race:          "ish"
 price:         600
-build_time:    180
+build_time:    "3s"
 weapons:
 	beam:
 		base:  "dev/pk/ish/hand"

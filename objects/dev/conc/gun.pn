@@ -2,7 +2,11 @@ template:    "tpl/gun"
 long_name:   "Concsv Pellet Gun"
 short_name:  "CCPLTGUN"
 notes:       "Machine gun"
-device:      {energy_cost: 10, fire_time: 5, range: 50625, inverse_speed: 0.066}
+device:
+	energy_cost:    10
+	fire_time:      "5t"
+	range:          50625
+	inverse_speed:  0.066
 on_activate:
 	*	type:                "create"
 		reflexive:           true
@@ -13,7 +17,7 @@ on_activate:
 		reflexive:    true
 		id:           550
 		priority:     0
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:                "create"
 		reflexive:           true

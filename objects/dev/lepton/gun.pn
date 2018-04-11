@@ -2,7 +2,11 @@ template:    "tpl/gun"
 long_name:   "Lepton Beam Cannon"
 short_name:  "LBEAM 1"
 notes:       "Lepton Beam Cannon"
-device:      {energy_cost: 10, fire_time: 8, range: 160000, inverse_speed: 0.047}
+device:
+	energy_cost:    10
+	fire_time:      "8t"
+	range:          160000
+	inverse_speed:  0.047
 on_activate:
 	*	type:                "create"
 		reflexive:           true

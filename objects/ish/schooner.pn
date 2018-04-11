@@ -1,7 +1,7 @@
 template:      "tpl/schooner"
 notes:         "Schooner"
 race:          "ish"
-build_time:    300
+build_time:    "5s"
 weapons:
 	beam:
 		base:  "dev/pk/ish/gun"

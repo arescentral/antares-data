@@ -2,13 +2,18 @@ template:    "tpl/turret"
 long_name:   "ClusterCell Array"
 short_name:  "CLSTRCEL"
 notes:       "ClusterCell Array"
-device:      {fire_time: 15, ammo: 110, range: 78400, inverse_speed: 8388607.996, restock_cost: 50}
+device:
+	fire_time:      "0.25s"
+	ammo:           110
+	range:          78400
+	inverse_speed:  8388607.996
+	restock_cost:   50
 on_activate:
 	*	type:         "sound"
 		reflexive:    true
 		id:           521
 		priority:     0
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:                "create"
 		reflexive:           true

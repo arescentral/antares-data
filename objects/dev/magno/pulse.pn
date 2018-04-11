@@ -4,7 +4,7 @@ short_name:    "MGNOPULS"
 notes:         "Magno Pulse"
 attributes:    {can_engage: true, autotarget: true, animation_cycle: true, hated: true, can_be_evaded: true, is_guided: true, appear_on_radar: true}
 damage:        200
-initial_age:   160
+initial_age:   "2s40t"
 max_velocity:  9.0
 max_thrust:    0.2
 animation:

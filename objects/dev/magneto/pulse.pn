@@ -4,7 +4,7 @@ short_name:         "MGNOPULS"
 notes:              "Magneto Pulse"
 attributes:         {animation_cycle: true}
 damage:             50
-initial_age:        30
+initial_age:        "0.5s"
 max_velocity:       10.0
 initial_velocity:   10.0
 initial_direction:  {begin: -2, end: 2}

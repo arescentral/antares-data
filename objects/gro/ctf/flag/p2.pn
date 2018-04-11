@@ -9,7 +9,7 @@ health:             100000
 energy:             1000
 price:              1000
 build_ratio:        1.0
-build_time:         300
+build_time:         "5s"
 mass:               1.0
 max_velocity:       3.0
 max_thrust:         0.06

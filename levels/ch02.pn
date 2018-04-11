@@ -139,7 +139,7 @@ conditions:
 				which:      13
 			*	type:       "message"
 				reflexive:  true
-				delay:      120
+				delay:      "2s"
 				id:         4210
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
@@ -206,7 +206,7 @@ briefings:
 			>	choose to join you during the mission. The Obish Escorts have Salrilian
 			>	stealth fields and Ishiman core pulse guns.
 starmap:    {x: 393, y: 282}
-par_time:   120
+par_time:   "2m"
 par_kills:  10
 no_ships:
 	>	Your ship was destroyed. We cannot supply you with vessels if you are

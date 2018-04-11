@@ -2,7 +2,12 @@ template:    "tpl/turret"
 long_name:   "Twin Pulse Cannon"
 short_name:  "TWNPPULS"
 notes:       "Twin Pulse Cannon"
-device:      {fire_time: 25, ammo: 110, range: 270400, inverse_speed: 8388607.996, restock_cost: 36}
+device:
+	fire_time:      "25t"
+	ammo:           110
+	range:          270400
+	inverse_speed:  8388607.996
+	restock_cost:   36
 on_activate:
 	*	type:                "create"
 		reflexive:           true

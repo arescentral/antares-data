@@ -3,7 +3,11 @@ long_name:          "Alter Battleship"
 short_name:         "ALTERTST"
 notes:              "Alter Battleship"
 initial_direction:  {begin: -5, end: 5}
-device:             {energy_cost: 10, fire_time: 20, range: 50625, inverse_speed: 0.066}
+device:
+	energy_cost:    10
+	fire_time:      "20t"
+	range:          50625
+	inverse_speed:  0.066
 on_activate:
 	*	type:       "morph"
 		reflexive:  true

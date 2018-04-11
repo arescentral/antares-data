@@ -1,3 +1,6 @@
 template:           "tpl/any"
-device:             {range: 0, inverse_speed: 0.0}
+device:
+	fire_time:      "0s"
+	range:          0
+	inverse_speed:  0.0
 destination_class:  -256

@@ -1,7 +1,7 @@
-template:         "tpl/effect"
-long_name:        "Super Nova"
-short_name:       "SUPRNOVA"
-notes:            "Gate Ship Explodes"
+template:    "tpl/effect"
+long_name:   "Super Nova"
+short_name:  "SUPRNOVA"
+notes:       "Gate Ship Explodes"
 animation:
 	sprite:     "sfx/explosion/gas"
 	scale:      6.0
@@ -24,4 +24,6 @@ on_activate:
 		hue:        "yellow"
 		length:     128
 		shade:      15
-activate_period:  {begin: 4, end: 8}
+activate_period:
+	begin:  "4t"
+	end:    "8t"

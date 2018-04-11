@@ -2,13 +2,18 @@ template:    "tpl/gun"
 long_name:   "Quasimatter Gun"
 short_name:  "QUASMTTR"
 notes:       "Quasimatter Gun"
-device:      {fire_time: 10, ammo: 150, range: 810000, inverse_speed: 0.066, restock_cost: 30}
+device:
+	fire_time:      "10t"
+	ammo:           150
+	range:          810000
+	inverse_speed:  0.066
+	restock_cost:   30
 on_activate:
 	*	type:         "sound"
 		reflexive:    true
 		id:           554
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:                "create"
 		reflexive:           true

@@ -1,6 +1,6 @@
 template:           "tpl/special"
 short_name:         "Untitled"
 notes:              "Untitled"
-device:             {fire_time: 0, ammo: 0, restock_cost: 0}
+device:             {ammo: 0, restock_cost: 0}
 offense:            -1.0
 destination_class:  0

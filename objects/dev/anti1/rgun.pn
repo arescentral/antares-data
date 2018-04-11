@@ -2,7 +2,12 @@ template:    "tpl/gun"
 long_name:   "Rap A Pulse React"
 short_name:  "RPAPULSE"
 notes:       "Rap A Pulse React"
-device:      {fire_time: 16, ammo: 150, range: 78400, inverse_speed: 8388607.996, restock_cost: 24}
+device:
+	fire_time:      "16t"
+	ammo:           150
+	range:          78400
+	inverse_speed:  8388607.996
+	restock_cost:   24
 on_activate:
 	*	type:                "create"
 		reflexive:           true

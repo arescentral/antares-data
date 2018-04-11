@@ -6,7 +6,7 @@ health:             750
 energy:             1000
 price:              1000
 build_ratio:        0.75
-build_time:         1000
+build_time:         "16s40t"
 mass:               1.0
 max_velocity:       7.0
 max_thrust:         0.297

@@ -567,7 +567,7 @@ conditions:
 				which:      22
 			*	type:       "win"
 				reflexive:  true
-				delay:      60
+				delay:      "1s"
 				player:     0
 				next:       "ch01"
 				text:

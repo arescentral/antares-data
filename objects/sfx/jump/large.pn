@@ -15,5 +15,5 @@ on_create:
 		reflexive:    true
 		id:           9800
 		priority:     4
-		persistence:  20
+		persistence:  "20t"
 		volume:       255

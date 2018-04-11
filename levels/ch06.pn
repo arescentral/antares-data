@@ -180,7 +180,7 @@ briefings:
 		content:
 			>	^Ploc/power^The is the last of the three Gaitori power stations.
 starmap:     {x: 431, y: 237}
-par_time:    450
+par_time:    "7m30s"
 par_kills:   45
 par_losses:  12
 no_ships:

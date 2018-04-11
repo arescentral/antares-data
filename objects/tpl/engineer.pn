@@ -11,7 +11,7 @@ health:                  800
 energy:                  200
 price:                   800
 build_ratio:             0.7
-build_time:              660
+build_time:              "11s"
 mass:                    1.098
 max_velocity:            3.0
 max_thrust:              0.156
@@ -26,7 +26,7 @@ on_expire:
 		reflexive:    true
 		id:           501
 		priority:     5
-		persistence:  60
+		persistence:  "1s"
 		volume:       255
 	*	type:                "create"
 		reflexive:           true
@@ -64,12 +64,12 @@ on_arrive:
 		owner:             "different"
 		id:                570
 		priority:          3
-		persistence:       10
+		persistence:       "10t"
 		volume:            255
 	*	type:              "kill"
 		level_key_filter:  "5"
 		owner:             "different"
-		delay:             160
+		delay:             "2s40t"
 		kind:              "expire"
 	*	type:              "capture"
 		level_key_filter:  "5"

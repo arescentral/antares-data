@@ -4,7 +4,7 @@ short_name:   "LASER"
 notes:        "Laser"
 attributes:   {autotarget: true}
 damage:       15
-initial_age:  30
+initial_age:  "0.5s"
 vector:
 	color:     {r: 127, g: 255, b: 127}
 	accuracy:  131072

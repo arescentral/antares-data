@@ -5,7 +5,7 @@ race:          "aud"
 health:        100
 energy:        200
 price:         600
-build_time:    180
+build_time:    "3s"
 weapons:
 	beam:
 		base:  "dev/asb/gun"

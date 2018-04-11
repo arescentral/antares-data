@@ -6,7 +6,7 @@ health:             3000
 energy:             2000
 price:              2200
 build_ratio:        0.348
-build_time:         600
+build_time:         "10s"
 mass:               1.2
 max_velocity:       4.0
 max_thrust:         0.04

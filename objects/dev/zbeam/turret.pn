@@ -2,7 +2,10 @@ template:    "tpl/turret"
 long_name:   "Z Beam Cannon"
 short_name:  "Z BEAM"
 notes:       "Z Beam Cannon"
-device:      {fire_time: 17, range: 270400, inverse_speed: 0.074}
+device:
+	fire_time:      "17t"
+	range:          270400
+	inverse_speed:  0.074
 on_activate:
 	*	type:                "create"
 		reflexive:           true

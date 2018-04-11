@@ -148,10 +148,10 @@ conditions:
 						|	You can simply click on it with the mouse.
 			*	type:             "capture"
 				reflexive:        true
-				delay:            160
+				delay:            "2s40t"
 				initial_subject:  1
 				player:           0
-		value:              0
+		duration:           "0s"
 		legacy_start_time:  true
 	*	type:     "message"
 		op:       "eq"
@@ -633,7 +633,7 @@ conditions:
 		subject:             1
 		action:
 			*	type:   "message"
-				delay:  280
+				delay:  "4s40t"
 				id:     5975
 				pages:
 					*	>	Very good. You recaptured the planet. Transports must have a planet
@@ -966,7 +966,7 @@ conditions:
 			*	type:   "reveal"
 				which:  {begin: 7, end: 17}
 			*	type:    "condition"
-				delay:   360
+				delay:   "6s"
 				enable:  42
 			*	type:  "key"
 				enable:

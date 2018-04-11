@@ -3,7 +3,7 @@ long_name:    "Repulser Beam"
 short_name:   "REPULSE"
 notes:        "Repulser Beam"
 attributes:   {autotarget: true}
-initial_age:  30
+initial_age:  "0.5s"
 vector:
 	color:     {r: 255, g: 0, b: 127}
 	accuracy:  131072
@@ -12,7 +12,7 @@ on_create:
 		reflexive:    true
 		id:           531
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 on_collide:
 	*	type:       "disable"

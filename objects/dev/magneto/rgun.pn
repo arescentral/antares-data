@@ -2,13 +2,18 @@ template:    "tpl/gun"
 long_name:   "Rapid Magneto"
 short_name:  "MGNTOPLS"
 notes:       "Rapid Magneto"
-device:      {fire_time: 6, ammo: 500, range: 90000, inverse_speed: 0.098, restock_cost: 30}
+device:
+	fire_time:      "0.1s"
+	ammo:           500
+	range:          90000
+	inverse_speed:  0.098
+	restock_cost:   30
 on_activate:
 	*	type:         "sound"
 		reflexive:    true
 		id:           546
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:                "create"
 		reflexive:           true

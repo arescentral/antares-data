@@ -6,8 +6,10 @@ attributes:         {can_turn: true, can_be_engaged: true, does_bounce: true, ha
 health:             1500
 energy:             1000
 build_ratio:        1.0
-build_time:         300
-initial_age:        {begin: 90, end: 180}
+build_time:         "5s"
+initial_age:
+	begin:  "1.5s"
+	end:    "3s"
 mass:               1.0
 max_velocity:       7.5
 max_thrust:         0.156

@@ -2,7 +2,10 @@ template:    "tpl/turret"
 long_name:   "Flak Artillery"
 short_name:  "FLAKART"
 notes:       "Flak Artillery"
-device:      {fire_time: 15, range: 810000, inverse_speed: 0.066}
+device:
+	fire_time:      "0.25s"
+	range:          810000
+	inverse_speed:  0.066
 on_activate:
 	*	type:                "create"
 		reflexive:           true

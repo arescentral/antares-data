@@ -5,7 +5,6 @@ notes:       "Enemy Shooter Wpn"
 attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true, defense: true}
-	fire_time:      0
 	ammo:           5
 	inverse_speed:  0.137
 on_activate:

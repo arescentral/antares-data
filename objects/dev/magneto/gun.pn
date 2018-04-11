@@ -2,13 +2,18 @@ template:    "tpl/gun"
 long_name:   "Magneto Pulse Gun"
 short_name:  "MGNTOPLS"
 notes:       "Magneto Pulse Gun"
-device:      {fire_time: 18, ammo: 200, range: 90000, inverse_speed: 0.098, restock_cost: 24}
+device:
+	fire_time:      "0.3s"
+	ammo:           200
+	range:          90000
+	inverse_speed:  0.098
+	restock_cost:   24
 on_activate:
 	*	type:         "sound"
 		reflexive:    true
 		id:           546
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:                "create"
 		reflexive:           true

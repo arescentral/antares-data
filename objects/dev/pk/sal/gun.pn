@@ -2,13 +2,17 @@ template:    "tpl/gun"
 long_name:   "LRPK Beam Cannon"
 short_name:  "LRPKBEAM"
 notes:       "LRPK Beam Cannon"
-device:      {energy_cost: 10, fire_time: 16, range: 1562500, inverse_speed: 0.04}
+device:
+	energy_cost:    10
+	fire_time:      "16t"
+	range:          1562500
+	inverse_speed:  0.04
 on_activate:
 	*	type:         "sound"
 		reflexive:    true
 		id:           28007
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:                "create"
 		reflexive:           true

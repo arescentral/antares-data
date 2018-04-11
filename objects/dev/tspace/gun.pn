@@ -6,14 +6,14 @@ attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true, defense: true}
 	energy_cost:    50
-	fire_time:      60
+	fire_time:      "1s"
 	range:          810000
 	inverse_speed:  0.047
 on_activate:
 	*	type:         "sound"
 		id:           563
 		priority:     3
-		persistence:  30
+		persistence:  "0.5s"
 		volume:       255
 	*	type:                "create"
 		reflexive:           true

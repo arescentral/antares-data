@@ -4,7 +4,7 @@ short_name:  "HLOGNRTR"
 notes:       "Holo Generator"
 device:
 	usage:          {defense: true}
-	fire_time:      120
+	fire_time:      "2s"
 	range:          810000
 	inverse_speed:  0.047
 on_activate:

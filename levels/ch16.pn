@@ -160,7 +160,7 @@ conditions:
 						>	massive object. There are also five smaller ships on an intercept
 						>	course. We remind you that the success of this mission depends on the
 						>	safety of this ship.\i<EOT>\i 
-		value:              60
+		duration:           "1s"
 		legacy_start_time:  true
 	*	type:               "time"
 		op:                 "ge"
@@ -183,13 +183,13 @@ conditions:
 				reflexive:  true
 				disable:    0
 			*	type:             "order"
-				delay:            1200
+				delay:            "20s"
 				initial_subject:  3
 				initial_object:   0
 			*	type:             "order"
 				initial_subject:  4
 				initial_object:   0
-		value:              2400
+		duration:           "40s"
 		legacy_start_time:  true
 	*	type:     "destroyed"
 		op:       "eq"
@@ -205,7 +205,7 @@ conditions:
 				disable:    2
 			*	type:       "message"
 				reflexive:  true
-				delay:      360
+				delay:      "6s"
 				id:         5243
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
@@ -214,15 +214,15 @@ conditions:
 						>	Destroy all hostile vessels and protect our carriers. \i<EOT>\i 
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      360
+				delay:      "6s"
 				which:      {begin: 20, end: 25}
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      360
+				delay:      "6s"
 				which:      {begin: 14, end: 20}
 			*	type:       "condition"
 				reflexive:  true
-				delay:      360
+				delay:      "6s"
 				enable:     4
 		initial:  0
 		value:    true
@@ -277,7 +277,7 @@ briefings:
 			>	When the UNS 0917996 has completed its analysis, we'll give you further
 			>	instructions.
 starmap:     {x: 104, y: 98}
-par_time:    210
+par_time:    "3m30s"
 par_kills:   42
 par_losses:  23
 prologue:

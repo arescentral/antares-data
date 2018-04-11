@@ -4,7 +4,7 @@ notes:         "EVA Trooper"
 attributes:    {static_destination: false}
 race:          "can"
 price:         600
-build_time:    180
+build_time:    "3s"
 weapons:
 	beam:
 		base:  "dev/pk/ish/hand"

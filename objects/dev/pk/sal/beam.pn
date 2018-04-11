@@ -2,7 +2,7 @@ template:      "tpl/bolt"
 long_name:     "LR PK Beam"
 short_name:    "LRPKMEAM"
 notes:         "LR PK Beam"
-initial_age:   55
+initial_age:   "55t"
 max_velocity:  25.0
 vector:
 	color:     {r: 255, g: 127, b: 0}

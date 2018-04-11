@@ -2,13 +2,18 @@ template:    "tpl/turret"
 long_name:   "Magno Launcher"
 short_name:  "MGNOPULS"
 notes:       "Magno Launcher"
-device:      {fire_time: 125, ammo: 150, range: 2073600, inverse_speed: 0.11, restock_cost: 30}
+device:
+	fire_time:      "2s5t"
+	ammo:           150
+	range:          2073600
+	inverse_speed:  0.11
+	restock_cost:   30
 on_activate:
 	*	type:         "sound"
 		reflexive:    true
 		id:           28853
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:                "create"
 		reflexive:           true

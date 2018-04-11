@@ -1,7 +1,7 @@
 template:      "tpl/carrier"
 notes:         "Carrier"
 race:          "can"
-build_time:    3000
+build_time:    "50s"
 weapons:
 	pulse:
 		base:  "dev/cm/launcher"

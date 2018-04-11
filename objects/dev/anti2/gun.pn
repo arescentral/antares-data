@@ -2,7 +2,12 @@ template:    "tpl/gun"
 long_name:   "Antimatter Pulse Reactor Type II"
 short_name:  "APULSE 2"
 notes:       "Antimatter Pulse Reactor Type II"
-device:      {fire_time: 50, ammo: 50, range: 90000, inverse_speed: 0.164, restock_cost: 24}
+device:
+	fire_time:      "50t"
+	ammo:           50
+	range:          90000
+	inverse_speed:  0.164
+	restock_cost:   24
 on_activate:
 	*	type:                "create"
 		reflexive:           true

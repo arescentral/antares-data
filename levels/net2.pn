@@ -98,7 +98,7 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				which:      {begin: 9, end: 11}
-		value:              4780
+		duration:           "1m19s40t"
 		legacy_start_time:  true
 	*	type:     "owner"
 		op:       "eq"
@@ -127,7 +127,7 @@ briefings:
 			|	This system is under the control of the Gaitori, a race of ruthless
 			>	mercenaries and minions of our common enemy, the Cantharan Order.
 starmap:     {x: 100, y: 100}
-start_time:  240
+start_time:  "4m"
 description:
 	>	Dispersed asteroid field, two planets, one bunker station, four
 	>	outposts. Outposts earn 1/2 as much as planets & stations. (PPC

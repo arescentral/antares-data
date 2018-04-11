@@ -3,7 +3,7 @@ short_name:         "Carrier"
 notes:              "Modified"
 class:              501
 race:               "uns"
-build_time:         3000
+build_time:         "50s"
 warp_speed:         20.0
 warp_out_distance:  1406447
 weapons:

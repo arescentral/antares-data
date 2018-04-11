@@ -193,7 +193,7 @@ conditions:
 		action:
 			*	type:       "message"
 				reflexive:  true
-				delay:      360
+				delay:      "6s"
 				id:         5171
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i NO KEY - NW2 BROAD BEAM
@@ -203,7 +203,7 @@ conditions:
 						>	hostile ships. You did it! \i<EOT>\i 
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      360
+				delay:      "6s"
 				which:      {begin: 12, end: 33}
 		initially_disabled:  true
 		player:              1
@@ -264,7 +264,7 @@ briefings:
 			>	Cantharan gateship. They are depending on you to deliver them a
 			>	liberated Earth. You must not fail.
 starmap:    {x: 284, y: 43}
-par_time:   600
+par_time:   "10m"
 par_kills:  50
 epilogue:
 	>	#+Blog/starfield/a

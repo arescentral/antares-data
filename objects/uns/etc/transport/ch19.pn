@@ -16,5 +16,5 @@ on_arrive:
 		absolute:          true
 		id:                513
 		priority:          5
-		persistence:       20
+		persistence:       "20t"
 		volume:            255

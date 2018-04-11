@@ -6,7 +6,7 @@ attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true, defense: true}
 	energy_cost:    40
-	fire_time:      25
+	fire_time:      "25t"
 	range:          202500
 	inverse_speed:  0.066
 on_activate:

@@ -2,7 +2,11 @@ template:    "tpl/turret"
 long_name:   "Inert Beam Cannon"
 short_name:  "INRTBEAM"
 notes:       "Inert Beam Cannon"
-device:      {energy_cost: 10, fire_time: 20, range: 50625, inverse_speed: 0.066}
+device:
+	energy_cost:    10
+	fire_time:      "20t"
+	range:          50625
+	inverse_speed:  0.066
 on_activate:
 	*	type:                "create"
 		reflexive:           true
@@ -13,5 +17,5 @@ on_activate:
 		reflexive:    true
 		id:           549
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       180

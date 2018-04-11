@@ -10,7 +10,7 @@ damage:                  20
 energy:                  600
 price:                   600
 build_ratio:             0.75
-build_time:              180
+build_time:              "3s"
 mass:                    0.098
 max_velocity:            6.0
 max_thrust:              0.098
@@ -34,7 +34,7 @@ on_destroy:
 		reflexive:    true
 		id:           548
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 on_collide:
 	*	type:   "disable"
@@ -44,14 +44,16 @@ on_collide:
 		reflexive:    true
 		id:           547
 		priority:     3
-		persistence:  10
+		persistence:  "10t"
 		volume:       255
 	*	type:       "age"
 		reflexive:  true
-		value:      {begin: 180, end: 360}
+		value:
+			begin:  "3s"
+			end:    "6s"
 	*	type:       "create"
 		reflexive:  true
-		delay:      120
+		delay:      "2s"
 		base:       "zrb/spawn"
 		count:      {begin: -1, end: 3}
 		distance:   2

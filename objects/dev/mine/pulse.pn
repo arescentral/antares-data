@@ -4,7 +4,7 @@ short_name:         "L PULSE"
 notes:              "Lightwave Pulse"
 attributes:         {animation_cycle: true}
 damage:             50
-initial_age:        20
+initial_age:        "20t"
 mass:               0.02
 max_velocity:       13.0
 max_thrust:         0.098
