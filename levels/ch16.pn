@@ -147,8 +147,8 @@ conditions:
 				disable:    2
 		initial:  1
 		value:    true
-	*	type:               "time"
-		op:                 "ge"
+	*	type:      "time"
+		op:        "ge"
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -160,10 +160,9 @@ conditions:
 						>	massive object. There are also five smaller ships on an intercept
 						>	course. We remind you that the success of this mission depends on the
 						>	safety of this ship.\i<EOT>\i 
-		duration:           "1s"
-		legacy_start_time:  true
-	*	type:               "time"
-		op:                 "ge"
+		duration:  "1s"
+	*	type:      "time"
+		op:        "ge"
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -189,8 +188,7 @@ conditions:
 			*	type:             "order"
 				initial_subject:  4
 				initial_object:   0
-		duration:           "40s"
-		legacy_start_time:  true
+		duration:  "40s"
 	*	type:     "destroyed"
 		op:       "eq"
 		action:

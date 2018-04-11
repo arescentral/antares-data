@@ -101,8 +101,8 @@ initials:
 		hide:    true
 		target:  {lock: true}
 conditions:
-	*	type:               "time"
-		op:                 "ge"
+	*	type:      "time"
+		op:        "ge"
 		action:
 			*	type:             "push"
 				initial_subject:  0
@@ -151,8 +151,7 @@ conditions:
 				delay:            "2s40t"
 				initial_subject:  1
 				player:           0
-		duration:           "0s"
-		legacy_start_time:  true
+		duration:  "0s"
 	*	type:     "message"
 		op:       "eq"
 		subject:  1

@@ -57,8 +57,8 @@ initials:
 		hide:    true
 		target:  {initial: 7, lock: true}
 conditions:
-	*	type:               "time"
-		op:                 "ge"
+	*	type:      "time"
+		op:        "ge"
 		action:
 			*	type:  "message"
 				id:    5800
@@ -108,8 +108,7 @@ conditions:
 					*	"send_message"
 			*	type:   "zoom"
 				value:  "1:2"
-		duration:           "0s"
-		legacy_start_time:  true
+		duration:  "0s"
 	*	type:    "message"
 		op:      "eq"
 		action:

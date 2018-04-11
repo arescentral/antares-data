@@ -26,7 +26,7 @@ shield_color:       {r: 240, g: 0, b: 0}
 on_expire:
 	*	type:       "age"
 		reflexive:  true
-		value:      "-1h59m59s59t"
+		value:      "-1t"
 	*	type:       "morph"
 		reflexive:  true
 		base:       "gro/ctf/moor/p2-active"
