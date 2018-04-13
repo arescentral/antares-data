@@ -20,10 +20,11 @@ rotation:
 	frames:  {begin: 0, end: 24}
 shield_color:  {r: 240, g: 240, b: 120}
 on_destroy:
-	*	type:              "fire"
-		level_key_filter:  "a"
-		owner:             "different"
-		which:             "special"
+	*	type:   "fire"
+		if:
+			level_tag:  "a"
+			owner:      "different"
+		which:  "special"
 	*	type:       "create"
 		reflexive:  true
 		base:       "sfx/explosion/large"

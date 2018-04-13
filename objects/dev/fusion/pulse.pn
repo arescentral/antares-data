@@ -18,16 +18,19 @@ on_create:
 on_collide:
 	*	type:       "disable"
 		reflexive:  true
-		owner:      "different"
+		if:
+			owner:  "different"
 		value:      {begin: -30.0, end: 30.0}
 	*	type:       "thrust"
 		reflexive:  true
-		owner:      "different"
+		if:
+			owner:  "different"
 		relative:   true
 		value:      0.047
 	*	type:       "spin"
 		reflexive:  true
-		owner:      "different"
+		if:
+			owner:  "different"
 		value:      {begin: -2.0, end: 2.0}
 	*	type:                "create"
 		reflexive:           true

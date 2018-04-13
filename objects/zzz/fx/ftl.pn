@@ -22,10 +22,11 @@ animation:
 	first:      {begin: 0.0, end: 23.0}
 icon:                    null
 on_arrive:
-	*	type:              "equip"
-		inclusive_filter:  {can_be_destination: true}
-		which:             "special"
-		base:              "dev/anti2/gun"
+	*	type:   "equip"
+		if:
+			attributes:  {can_be_destination: true}
+		which:  "special"
+		base:   "dev/anti2/gun"
 	*	type:       "kill"
 		reflexive:  true
 		kind:       "expire"

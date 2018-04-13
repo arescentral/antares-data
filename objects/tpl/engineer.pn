@@ -48,32 +48,37 @@ on_expire:
 		reflexive:  true
 		kind:       "expire"
 on_arrive:
-	*	type:              "push"
-		reflexive:         true
-		level_key_filter:  "5"
-		owner:             "different"
-		kind:              "stop"
-	*	type:              "cap-speed"
-		reflexive:         true
-		level_key_filter:  "5"
-		owner:             "different"
-		value:             0.0
-	*	type:              "sound"
-		reflexive:         true
-		level_key_filter:  "5"
-		owner:             "different"
-		id:                570
-		priority:          3
-		persistence:       "10t"
-		volume:            255
-	*	type:              "kill"
-		level_key_filter:  "5"
-		owner:             "different"
-		delay:             "2s40t"
-		kind:              "expire"
-	*	type:              "capture"
-		level_key_filter:  "5"
-		owner:             "different"
+	*	type:       "push"
+		reflexive:  true
+		if:
+			level_tag:  "5"
+			owner:      "different"
+		kind:       "stop"
+	*	type:       "cap-speed"
+		reflexive:  true
+		if:
+			level_tag:  "5"
+			owner:      "different"
+		value:      0.0
+	*	type:         "sound"
+		reflexive:    true
+		if:
+			level_tag:  "5"
+			owner:      "different"
+		id:           570
+		priority:     3
+		persistence:  "10t"
+		volume:       255
+	*	type:   "kill"
+		if:
+			level_tag:  "5"
+			owner:      "different"
+		delay:  "2s40t"
+		kind:   "expire"
+	*	type:  "capture"
+		if:
+			level_tag:  "5"
+			owner:      "different"
 	*	type:       "cap-speed"
 		reflexive:  true
 arrive_action_distance:  5000

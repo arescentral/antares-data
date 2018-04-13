@@ -26,10 +26,12 @@ on_expire:
 		value:      1
 		player:     0
 on_arrive:
-	*	type:              "create"
-		level_key_filter:  "3"
-		base:              "sfx/jump/small"
-	*	type:              "land"
-		level_key_filter:  "3"
-		delay:             "2s"
-		speed:             80
+	*	type:  "create"
+		if:
+			level_tag:  "3"
+		base:  "sfx/jump/small"
+	*	type:   "land"
+		if:
+			level_tag:  "3"
+		delay:  "2s"
+		speed:  80

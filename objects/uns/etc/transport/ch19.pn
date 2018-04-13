@@ -8,13 +8,15 @@ on_expire:
 		value:      1
 		player:     0
 on_arrive:
-	*	type:              "land"
-		level_key_filter:  "f"
-		speed:             32
-	*	type:              "sound"
-		level_key_filter:  "f"
-		absolute:          true
-		id:                513
-		priority:          5
-		persistence:       "20t"
-		volume:            255
+	*	type:   "land"
+		if:
+			level_tag:  "f"
+		speed:  32
+	*	type:         "sound"
+		if:
+			level_tag:  "f"
+		absolute:     true
+		id:           513
+		priority:     5
+		persistence:  "20t"
+		volume:       255

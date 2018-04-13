@@ -20,10 +20,11 @@ on_destroy:
 		reflexive:  true
 		base:       "sfx/explosion/large"
 on_arrive:
-	*	type:              "fire"
-		level_key_filter:  "a"
-		owner:             "different"
-		which:             "special"
+	*	type:   "fire"
+		if:
+			level_tag:  "a"
+			owner:      "different"
+		which:  "special"
 arrive_action_distance:  320000
 offense:                 0.2
 destination_class:       9

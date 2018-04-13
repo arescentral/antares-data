@@ -37,10 +37,11 @@ on_destroy:
 		reflexive:  true
 		kind:       "expire"
 on_arrive:
-	*	type:              "kill"
-		inclusive_filter:  {can_be_engaged: true}
-		owner:             "different"
-		kind:              "destroy"
+	*	type:  "kill"
+		if:
+			attributes:  {can_be_engaged: true}
+			owner:       "different"
+		kind:  "destroy"
 offense:            0.5
 destination_class:  1
 danger_threshold:   1.0

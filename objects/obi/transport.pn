@@ -35,22 +35,25 @@ on_destroy:
 		base:                "sfx/explosion/large"
 		relative_direction:  true
 on_expire:
-	*	type:              "capture"
-		level_key_filter:  "f"
-		owner:             "different"
+	*	type:  "capture"
+		if:
+			level_tag:  "f"
+			owner:      "different"
 on_arrive:
-	*	type:              "land"
-		level_key_filter:  "f"
-		owner:             "different"
-		speed:             32
-	*	type:              "sound"
-		level_key_filter:  "f"
-		owner:             "different"
-		absolute:          true
-		id:                513
-		priority:          5
-		persistence:       "20t"
-		volume:            255
+	*	type:   "land"
+		if:
+			level_tag:  "f"
+			owner:      "different"
+		speed:  32
+	*	type:         "sound"
+		if:
+			level_tag:  "f"
+			owner:      "different"
+		absolute:     true
+		id:           513
+		priority:     5
+		persistence:  "20t"
+		volume:       255
 offense:            0.098
 destination_class:  9
 friend_deficit:     2.0

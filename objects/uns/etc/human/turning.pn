@@ -28,14 +28,16 @@ on_create:
 		reflexive:  true
 		player:     -1
 on_collide:
-	*	type:              "score"
-		level_key_filter:  "e"
-		which:             0
-		value:             1
-		player:            0
-	*	type:              "kill"
-		level_key_filter:  "e"
-		kind:              "expire"
+	*	type:    "score"
+		if:
+			level_tag:  "e"
+		which:   0
+		value:   1
+		player:  0
+	*	type:  "kill"
+		if:
+			level_tag:  "e"
+		kind:  "expire"
 on_activate:
 	*	type:       "disable"
 		reflexive:  true

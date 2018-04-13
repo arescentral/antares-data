@@ -29,22 +29,25 @@ on_destroy:
 		reflexive:  true
 		base:       "sfx/explosion/small"
 on_arrive:
-	*	type:              "kill"
-		level_key_filter:  "a"
-		owner:             "different"
-		kind:              "expire"
-	*	type:              "sound"
-		level_key_filter:  "a"
-		owner:             "different"
-		absolute:          true
-		id:                31989
-		priority:          4
-		persistence:       "1s"
-		volume:            255
-	*	type:              "occupy"
-		level_key_filter:  "a"
-		owner:             "different"
-		value:             1
+	*	type:  "kill"
+		if:
+			level_tag:  "a"
+			owner:      "different"
+		kind:  "expire"
+	*	type:         "sound"
+		if:
+			level_tag:  "a"
+			owner:      "different"
+		absolute:     true
+		id:           31989
+		priority:     4
+		persistence:  "1s"
+		volume:       255
+	*	type:   "occupy"
+		if:
+			level_tag:  "a"
+			owner:      "different"
+		value:  1
 arrive_action_distance:  5000
 skill_num:               3
 skill_den:               21
