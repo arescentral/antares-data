@@ -7,15 +7,16 @@ device:
 	fire_time:      "20t"
 	range:          50625
 	inverse_speed:  0.066
-on_activate:
-	*	type:                "create"
-		reflexive:           true
-		base:                "dev/laser/gun-bolt"
-		relative_velocity:   true
-		relative_direction:  true
-	*	type:         "sound"
-		reflexive:    true
-		id:           543
-		priority:     3
-		persistence:  "10t"
-		volume:       255
+activate:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/laser/gun-bolt"
+			relative_velocity:   true
+			relative_direction:  true
+		*	type:         "sound"
+			reflexive:    true
+			id:           543
+			priority:     3
+			persistence:  "10t"
+			volume:       255

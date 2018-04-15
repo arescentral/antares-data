@@ -15,13 +15,14 @@ animation:
 	direction:  "+"
 	speed:      0.094
 	first:      {begin: 0.0, end: 5.0}
-on_collide:
-	*	type:   "push"
-		kind:   "collide"
-		value:  100.0
-	*	type:       "create"
-		reflexive:  true
-		base:       "sfx/explosion/gas"
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
+collide:
+	action:
+		*	type:   "push"
+			kind:   "collide"
+			value:  100.0
+		*	type:       "create"
+			reflexive:  true
+			base:       "sfx/explosion/gas"
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"

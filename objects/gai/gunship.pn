@@ -25,10 +25,11 @@ rotation:
 	turn_rate:  1.5
 portrait:          "gai/gunship"
 shield_color:      {r: 240, g: 234, b: 195}
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/large"
-		relative_direction:  true
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/large"
+			relative_direction:  true
 friend_deficit:    0.0
 danger_threshold:  0.0

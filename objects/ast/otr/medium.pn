@@ -15,13 +15,14 @@ animation:
 	speed:      0.117
 	first:      {begin: 0.0, end: 20.0}
 icon:               {size: 3}
-on_destroy:
-	*	type:       "create"
-		reflexive:  true
-		base:       "sfx/explosion/small"
-	*	type:                "create"
-		reflexive:           true
-		base:                "ast/otr/small"
-		count:               3
-		relative_velocity:   true
-		relative_direction:  true
+destroy:
+	action:
+		*	type:       "create"
+			reflexive:  true
+			base:       "sfx/explosion/small"
+		*	type:                "create"
+			reflexive:           true
+			base:                "ast/otr/small"
+			count:               3
+			relative_velocity:   true
+			relative_direction:  true

@@ -14,21 +14,23 @@ animation:
 	sprite:     "dev/cluster"
 	scale:      0.5
 	direction:  "+"
-on_expire:
-	*	type:       "create"
-		reflexive:  true
-		base:       "dev/flak/flak"
-		count:      {begin: 8, end: 12}
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/flak"
-		relative_direction:  true
-on_collide:
-	*	type:       "create"
-		reflexive:  true
-		base:       "dev/flak/flak"
-		count:      {begin: 8, end: 12}
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/flak"
-		relative_direction:  true
+expire:
+	action:
+		*	type:       "create"
+			reflexive:  true
+			base:       "dev/flak/flak"
+			count:      {begin: 8, end: 12}
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/flak"
+			relative_direction:  true
+collide:
+	action:
+		*	type:       "create"
+			reflexive:  true
+			base:       "dev/flak/flak"
+			count:      {begin: 8, end: 12}
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/flak"
+			relative_direction:  true

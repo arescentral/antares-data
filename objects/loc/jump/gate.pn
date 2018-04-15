@@ -8,14 +8,15 @@ health:             1000
 animation:
 	sprite:  "sfx/invisible"
 shield_color:       {r: 240, g: 0, b: 0}
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/large"
-		relative_direction:  true
-	*	type:       "score"
-		reflexive:  true
-		which:      0
-		value:      1
-		player:     0
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/large"
+			relative_direction:  true
+		*	type:       "score"
+			reflexive:  true
+			which:      0
+			value:      1
+			player:     0
 destination_class:  -256

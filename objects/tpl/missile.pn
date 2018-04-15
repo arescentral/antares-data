@@ -9,21 +9,23 @@ initial_velocity:  0.5
 rotation:          {turn_rate: 1.0}
 icon:
 	shape:  "square"
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/energy"
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
-on_collide:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/gas"
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/energy"
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"
+collide:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/gas"
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"
 skill_num:         3
 skill_den:         21

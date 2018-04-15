@@ -6,11 +6,12 @@ damage:      15
 vector:
 	color:     {r: 0, g: 127, b: 255}
 	accuracy:  131072
-on_collide:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/energy"
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
+collide:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/energy"
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"

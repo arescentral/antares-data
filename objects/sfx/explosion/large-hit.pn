@@ -10,16 +10,17 @@ animation:
 	frames:     {begin: 0.0, end: 11.004}
 	direction:  "+"
 	speed:      0.234
-on_create:
-	*	type:         "sound"
-		reflexive:    true
-		id:           501
-		priority:     3
-		persistence:  "20t"
-		volume:       255
-	*	type:       "spark"
-		reflexive:  true
-		count:      10
-		hue:        "orange"
-		decay:      20
-		velocity:   2.0
+create:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           501
+			priority:     3
+			persistence:  "20t"
+			volume:       255
+		*	type:       "spark"
+			reflexive:  true
+			count:      10
+			hue:        "orange"
+			decay:      20
+			velocity:   2.0

@@ -3,23 +3,24 @@ notes:             "Practice Active"
 class:             1803
 initial_velocity:  null
 portrait:          null
-on_destroy:
-	*	type:       "heal"
-		reflexive:  true
-		value:      1000
-	*	type:             "sound"
-		reflexive:        true
-		initial_subject:  0
-		initial_object:   0
-		id:               551
-		priority:         4
-		persistence:      "10t"
-		volume:           255
-	*	type:       "morph"
-		reflexive:  true
-		base:       "zzz/ish/cruiser/inactive"
-	*	type:       "morph"
-		reflexive:  true
-		delay:      "6s"
-		base:       "zzz/ish/cruiser/active"
+destroy:
+	action:
+		*	type:       "heal"
+			reflexive:  true
+			value:      1000
+		*	type:             "sound"
+			reflexive:        true
+			initial_subject:  0
+			initial_object:   0
+			id:               551
+			priority:         4
+			persistence:      "10t"
+			volume:           255
+		*	type:       "morph"
+			reflexive:  true
+			base:       "zzz/ish/cruiser/inactive"
+		*	type:       "morph"
+			reflexive:  true
+			delay:      "6s"
+			base:       "zzz/ish/cruiser/active"
 destroy_dont_die:  true

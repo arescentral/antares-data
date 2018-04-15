@@ -13,11 +13,12 @@ animation:
 	direction:  "+"
 	speed:      0.312
 icon:              null
-on_collide:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/energy"
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
+collide:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/energy"
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"

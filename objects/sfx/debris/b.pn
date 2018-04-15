@@ -19,11 +19,12 @@ animation:
 	speed:      0.39
 	first:      {begin: 9.0, end: 17.0}
 icon:               null
-on_collide:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/energy"
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
+collide:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/energy"
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"

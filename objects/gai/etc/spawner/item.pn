@@ -7,15 +7,16 @@ device:
 	usage:          {attacking: true, defense: true}
 	ammo:           10
 	inverse_speed:  0.137
-on_activate:
-	*	type:               "create"
-		reflexive:          true
-		base:               "gai/cruiser"
-		count:              {begin: 1, end: 3}
-		relative_velocity:  true
-		distance:           256
-	*	type:       "create"
-		reflexive:  true
-		base:       "gai/fighter"
-		count:      {begin: 1, end: 5}
-		distance:   256
+activate:
+	action:
+		*	type:               "create"
+			reflexive:          true
+			base:               "gai/cruiser"
+			count:              {begin: 1, end: 3}
+			relative_velocity:  true
+			distance:           256
+		*	type:       "create"
+			reflexive:  true
+			base:       "gai/fighter"
+			count:      {begin: 1, end: 5}
+			distance:   256

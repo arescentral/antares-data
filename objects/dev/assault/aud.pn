@@ -7,16 +7,17 @@ device:
 	ammo:           2
 	range:          2073600
 	inverse_speed:  0.11
-on_activate:
-	*	type:         "sound"
-		reflexive:    true
-		id:           569
-		priority:     3
-		persistence:  "76h27m31.2s"
-		volume:       255
-	*	type:       "create"
-		reflexive:  true
-		base:       "aud/evat"
-		count:      10
-		distance:   4
-		inherit:    true
+activate:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           569
+			priority:     3
+			persistence:  "76h27m31.2s"
+			volume:       255
+		*	type:       "create"
+			reflexive:  true
+			base:       "aud/evat"
+			count:      10
+			distance:   4
+			inherit:    true

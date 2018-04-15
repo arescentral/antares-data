@@ -19,19 +19,21 @@ rotation:
 icon:               {size: 5}
 portrait:           "ish/etc/tug"
 shield_color:       {r: 255, g: 255, b: 255}
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/giant"
-		relative_direction:  true
-on_create:
-	*	type:       "create"
-		reflexive:  true
-		base:       "ish/hvc"
-		count:      2
-	*	type:       "create"
-		reflexive:  true
-		base:       "sfx/jump/small"
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/giant"
+			relative_direction:  true
+create:
+	action:
+		*	type:       "create"
+			reflexive:  true
+			base:       "ish/hvc"
+			count:      2
+		*	type:       "create"
+			reflexive:  true
+			base:       "sfx/jump/small"
 offense:            1.5
 destination_class:  5
 friend_deficit:     1.0

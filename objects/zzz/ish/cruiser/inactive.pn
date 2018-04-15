@@ -7,4 +7,4 @@ max_thrust:    0.0
 warp_speed:    0.0
 weapons:       {pulse: null, beam: null}
 rotation:      {turn_rate: null}
-on_destroy:    null
+destroy:       {action: null}

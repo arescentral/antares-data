@@ -6,6 +6,6 @@ order_flags:   {stronger_than_target: false, base: false, foe: false}
 max_velocity:  0.5
 max_thrust:    0.0
 portrait:      null
-on_expire:     null
+expire:        {action: null}
 skill_num:     0
 skill_den:     0

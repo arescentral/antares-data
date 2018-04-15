@@ -6,15 +6,16 @@ device:
 	fire_time:      "23t"
 	range:          810000
 	inverse_speed:  0.047
-on_activate:
-	*	type:         "sound"
-		reflexive:    true
-		id:           538
-		priority:     3
-		persistence:  "10t"
-		volume:       255
-	*	type:                "create"
-		reflexive:           true
-		base:                "dev/inasa/pulse"
-		relative_velocity:   true
-		relative_direction:  true
+activate:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           538
+			priority:     3
+			persistence:  "10t"
+			volume:       255
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/inasa/pulse"
+			relative_velocity:   true
+			relative_direction:  true

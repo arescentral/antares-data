@@ -16,11 +16,12 @@ max_thrust:         0.047
 initial_velocity:   0.098
 rotation:           {turn_rate: 5.0}
 icon:               {size: 3}
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/large"
-		relative_direction:  true
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/large"
+			relative_direction:  true
 offense:            1.5
 destination_class:  9
 danger_threshold:   1.0

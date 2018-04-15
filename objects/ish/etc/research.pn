@@ -25,11 +25,12 @@ rotation:
 icon:               {size: 7}
 portrait:           "ish/etc/research"
 shield_color:       {r: 255, g: 255, b: 255}
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/large"
-		relative_direction:  true
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/large"
+			relative_direction:  true
 offense:            0.098
 destination_class:  9
 friend_deficit:     2.0

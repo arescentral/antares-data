@@ -10,18 +10,20 @@ initial_velocity:  5.0
 vector:
 	color:     {r: 255, g: 255, b: 127}
 	accuracy:  2424832
-on_create:
-	*	type:         "sound"
-		reflexive:    true
-		id:           512
-		priority:     3
-		persistence:  "10t"
-		volume:       255
-on_collide:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/energy"
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
+create:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           512
+			priority:     3
+			persistence:  "10t"
+			volume:       255
+collide:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/energy"
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"

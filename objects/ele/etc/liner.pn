@@ -23,24 +23,26 @@ rotation:
 icon:               {size: 7}
 portrait:           "ele/etc/liner"
 shield_color:       {r: 255, g: 255, b: 255}
-on_destroy:
-	*	type:       "create"
-		reflexive:  true
-		base:       "sfx/explosion/large"
-	*	type:       "win"
-		reflexive:  true
-		player:     1
-		text:
-			>	The Elejeetian liner was destroyed.
-on_expire:
-	*	type:       "win"
-		reflexive:  true
-		player:     0
-		next:       "ch14"
-		text:
-			>	The Elejeetian liner successfully exited through the jumpgate. Minister
-			>	Jommo pledges to do what he can to convince his Emperor to provide you
-			>	with ships or technology.
+destroy:
+	action:
+		*	type:       "create"
+			reflexive:  true
+			base:       "sfx/explosion/large"
+		*	type:       "win"
+			reflexive:  true
+			player:     1
+			text:
+				>	The Elejeetian liner was destroyed.
+expire:
+	action:
+		*	type:       "win"
+			reflexive:  true
+			player:     0
+			next:       "ch14"
+			text:
+				>	The Elejeetian liner successfully exited through the jumpgate. Minister
+				>	Jommo pledges to do what he can to convince his Emperor to provide you
+				>	with ships or technology.
 destination_class:  9
 friend_deficit:     2.0
 danger_threshold:   4.0

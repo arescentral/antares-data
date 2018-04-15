@@ -8,16 +8,17 @@ device:
 	range:          810000
 	inverse_speed:  0.066
 	restock_cost:   30
-on_activate:
-	*	type:         "sound"
-		reflexive:    true
-		id:           556
-		priority:     101
-		persistence:  "10t"
-		volume:       255
-	*	type:                "create"
-		reflexive:           true
-		base:                "dev/chronon/pulse"
-		relative_velocity:   true
-		relative_direction:  true
-		distance:            8
+activate:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           556
+			priority:     101
+			persistence:  "10t"
+			volume:       255
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/chronon/pulse"
+			relative_velocity:   true
+			relative_direction:  true
+			distance:            8

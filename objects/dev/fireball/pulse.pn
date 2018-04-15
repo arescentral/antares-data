@@ -9,19 +9,21 @@ max_velocity:      12.0
 initial_velocity:  12.0
 animation:
 	sprite:  "dev/fireball"
-on_collide:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/energy"
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
-on_activate:
-	*	type:                "create"
-		reflexive:           true
-		base:                "dev/fireball/trail"
-		relative_direction:  true
+collide:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/energy"
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"
+activate:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/fireball/trail"
+			relative_direction:  true
 activate_period:   "1t"
 skill_num:         3
 skill_den:         21

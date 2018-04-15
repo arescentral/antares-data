@@ -14,30 +14,33 @@ animation:
 	direction:  "+"
 	speed:      0.04
 	first:      {begin: 0.0, end: 3.0}
-on_expire:
-	*	type:                "create"
-		reflexive:           true
-		base:                "dev/anti2/pulse2"
-		count:               {begin: 2, end: 5}
-		relative_velocity:   true
-		relative_direction:  true
-on_create:
-	*	type:         "sound"
-		reflexive:    true
-		id:           505
-		priority:     3
-		persistence:  "10t"
-		volume:       255
-on_collide:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/large-hit"
-		relative_direction:  true
-	*	type:   "push"
-		kind:   "collide"
-		value:  24.0
-	*	type:   "disable"
-		value:  {begin: -2.0, end: 2.0}
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
+expire:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/anti2/pulse2"
+			count:               {begin: 2, end: 5}
+			relative_velocity:   true
+			relative_direction:  true
+create:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           505
+			priority:     3
+			persistence:  "10t"
+			volume:       255
+collide:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/large-hit"
+			relative_direction:  true
+		*	type:   "push"
+			kind:   "collide"
+			value:  24.0
+		*	type:   "disable"
+			value:  {begin: -2.0, end: 2.0}
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"

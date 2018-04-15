@@ -19,35 +19,37 @@ rotation:                {scale: 0.5, turn_rate: 6.0}
 icon:
 	shape:  "triangle"
 	size:   1
-on_destroy:
-	*	type:         "sound"
-		id:           12558
-		priority:     3
-		persistence:  "20t"
-		volume:       255
-	*	type:       "create"
-		reflexive:  true
-		base:       "sfx/explosion/small"
-on_arrive:
-	*	type:  "kill"
-		if:
-			level_tag:  "a"
-			owner:      "different"
-		kind:  "expire"
-	*	type:         "sound"
-		if:
-			level_tag:  "a"
-			owner:      "different"
-		absolute:     true
-		id:           31989
-		priority:     4
-		persistence:  "1s"
-		volume:       255
-	*	type:   "occupy"
-		if:
-			level_tag:  "a"
-			owner:      "different"
-		value:  1
+destroy:
+	action:
+		*	type:         "sound"
+			id:           12558
+			priority:     3
+			persistence:  "20t"
+			volume:       255
+		*	type:       "create"
+			reflexive:  true
+			base:       "sfx/explosion/small"
+arrive:
+	action:
+		*	type:  "kill"
+			if:
+				level_tag:  "a"
+				owner:      "different"
+			kind:  "expire"
+		*	type:         "sound"
+			if:
+				level_tag:  "a"
+				owner:      "different"
+			absolute:     true
+			id:           31989
+			priority:     4
+			persistence:  "1s"
+			volume:       255
+		*	type:   "occupy"
+			if:
+				level_tag:  "a"
+				owner:      "different"
+			value:  1
 arrive_action_distance:  5000
 skill_num:               3
 skill_den:               21

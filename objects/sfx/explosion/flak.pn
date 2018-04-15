@@ -8,10 +8,11 @@ animation:
 	frames:     {begin: 0.0, end: 5.004}
 	direction:  "+"
 	speed:      0.47
-on_create:
-	*	type:         "sound"
-		reflexive:    true
-		id:           536
-		priority:     3
-		persistence:  "20t"
-		volume:       255
+create:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           536
+			priority:     3
+			persistence:  "20t"
+			volume:       255

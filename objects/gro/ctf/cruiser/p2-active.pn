@@ -20,25 +20,26 @@ rotation:
 	sprite:  "gro/ctf/cruiser"
 	frames:  {begin: 0, end: 24}
 shield_color:       {r: 255, g: 255, b: 255}
-on_destroy:
-	*	type:         "sound"
-		reflexive:    true
-		id:           571
-		priority:     3
-		persistence:  "10t"
-		volume:       255
-	*	type:            "move"
-		reflexive:       true
-		initial_object:  2
-		origin:          "object"
-		distance:        600
-	*	type:       "heal"
-		reflexive:  true
-		value:      1000
-	*	type:       "push"
-		reflexive:  true
-		kind:       "stop"
-	*	type:       "morph"
-		reflexive:  true
-		base:       "gro/ctf/cruiser/p2-inactive"
+destroy:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           571
+			priority:     3
+			persistence:  "10t"
+			volume:       255
+		*	type:            "move"
+			reflexive:       true
+			initial_object:  2
+			origin:          "object"
+			distance:        600
+		*	type:       "heal"
+			reflexive:  true
+			value:      1000
+		*	type:       "push"
+			reflexive:  true
+			kind:       "stop"
+		*	type:       "morph"
+			reflexive:  true
+			base:       "gro/ctf/cruiser/p2-inactive"
 destroy_dont_die:   true

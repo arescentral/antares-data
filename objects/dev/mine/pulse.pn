@@ -16,14 +16,15 @@ animation:
 	direction:  "+"
 	speed:      0.156
 	first:      {begin: 0.0, end: 5.0}
-on_collide:
-	*	type:   "push"
-		kind:   "decelerate"
-		value:  0.047
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/missile-hit"
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "none"
+collide:
+	action:
+		*	type:   "push"
+			kind:   "decelerate"
+			value:  0.047
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/missile-hit"
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "none"

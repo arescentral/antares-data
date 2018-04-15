@@ -3,19 +3,20 @@ long_name:   "Concussive Pellet"
 short_name:  "CCPELLET"
 notes:       "Invisible Bullet"
 vector:      {accuracy: 4456448}
-on_collide:
-	*	type:         "sound"
-		reflexive:    true
-		id:           {begin: 552, end: 554}
-		priority:     3
-		persistence:  "0.25s"
-		volume:       255
-	*	type:       "spark"
-		reflexive:  true
-		count:      2
-		hue:        "yellow"
-		decay:      20
-		velocity:   3.0
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "none"
+collide:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           {begin: 552, end: 554}
+			priority:     3
+			persistence:  "0.25s"
+			volume:       255
+		*	type:       "spark"
+			reflexive:  true
+			count:      2
+			hue:        "yellow"
+			decay:      20
+			velocity:   3.0
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "none"

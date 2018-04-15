@@ -28,9 +28,10 @@ rotation:
 	frames:  {begin: 0, end: 24}
 icon:               {size: 9}
 shield_color:       {r: 255, g: 255, b: 255}
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/giant"
-		relative_direction:  true
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/giant"
+			relative_direction:  true
 offense:            4.5

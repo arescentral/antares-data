@@ -18,28 +18,30 @@ animation:
 	first:      {begin: 0.0, end: 19.0}
 icon:              {size: 4}
 portrait:          "ast/regular/big"
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/asteroid"
-		relative_velocity:   true
-		relative_direction:  true
-	*	type:                "create"
-		reflexive:           true
-		base:                "ast/regular/medium"
-		count:               {begin: 2, end: 4}
-		relative_velocity:   true
-		relative_direction:  true
-on_create:
-	*	type:       "push"
-		reflexive:  true
-		kind:       "boost"
-		value:      0.0
-	*	type:                "create"
-		reflexive:           true
-		base:                "zrb/base"
-		count:               {begin: -10, end: 2}
-		relative_velocity:   true
-		relative_direction:  true
-		distance:            2
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/asteroid"
+			relative_velocity:   true
+			relative_direction:  true
+		*	type:                "create"
+			reflexive:           true
+			base:                "ast/regular/medium"
+			count:               {begin: 2, end: 4}
+			relative_velocity:   true
+			relative_direction:  true
+create:
+	action:
+		*	type:       "push"
+			reflexive:  true
+			kind:       "boost"
+			value:      0.0
+		*	type:                "create"
+			reflexive:           true
+			base:                "zrb/base"
+			count:               {begin: -10, end: 2}
+			relative_velocity:   true
+			relative_direction:  true
+			distance:            2
 friend_deficit:    1.0

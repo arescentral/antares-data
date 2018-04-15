@@ -7,9 +7,10 @@ device:
 	ammo:           100
 	range:          270400
 	inverse_speed:  0.066
-on_activate:
-	*	type:                "create"
-		reflexive:           true
-		base:                "dev/pp/pulse"
-		relative_velocity:   true
-		relative_direction:  true
+activate:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/pp/pulse"
+			relative_velocity:   true
+			relative_direction:  true

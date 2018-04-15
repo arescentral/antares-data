@@ -26,25 +26,26 @@ icon:
 	shape:  "plus"
 	size:   4
 shield_color:       {r: 255, g: 255, b: 255}
-on_create:
-	*	type:       "message"
-		reflexive:  true
-		delay:      "6s"
-		id:         5508
-		pages:
-			*	>	Good work. You built a practice drone. Normally, you can give ships you
-				>	build commands, or assume control of them. Here, however, the drone will
-				>	simply return to the planet.
-	*	type:            "order"
-		initial_object:  5
-	*	type:            "land"
-		delay:           "2s"
-		initial_object:  5
-		speed:           128
-	*	type:       "condition"
-		reflexive:  true
-		delay:      "40s"
-		enable:     13
+create:
+	action:
+		*	type:       "message"
+			reflexive:  true
+			delay:      "6s"
+			id:         5508
+			pages:
+				*	>	Good work. You built a practice drone. Normally, you can give ships you
+					>	build commands, or assume control of them. Here, however, the drone will
+					>	simply return to the planet.
+		*	type:            "order"
+			initial_object:  5
+		*	type:            "land"
+			delay:           "2s"
+			initial_object:  5
+			speed:           128
+		*	type:       "condition"
+			reflexive:  true
+			delay:      "40s"
+			enable:     13
 skill_num:          3
 skill_den:          21
 offense:            0.5

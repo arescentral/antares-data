@@ -26,38 +26,40 @@ icon:
 	shape:  "triangle"
 	size:   2
 shield_color:            {r: 240, g: 240, b: 120}
-on_destroy:
-	*	type:       "create"
-		reflexive:  true
-		base:       "sfx/explosion/small"
-	*	type:         "sound"
-		reflexive:    true
-		id:           548
-		priority:     3
-		persistence:  "10t"
-		volume:       255
-on_collide:
-	*	type:   "disable"
-		if:
-			owner:  "different"
-		value:  {begin: 0.0, end: 60.0}
-	*	type:         "sound"
-		reflexive:    true
-		id:           547
-		priority:     3
-		persistence:  "10t"
-		volume:       255
-	*	type:       "age"
-		reflexive:  true
-		value:
-			begin:  "3s"
-			end:    "6s"
-	*	type:       "create"
-		reflexive:  true
-		delay:      "2s"
-		base:       "zrb/spawn"
-		count:      {begin: -1, end: 3}
-		distance:   2
+destroy:
+	action:
+		*	type:       "create"
+			reflexive:  true
+			base:       "sfx/explosion/small"
+		*	type:         "sound"
+			reflexive:    true
+			id:           548
+			priority:     3
+			persistence:  "10t"
+			volume:       255
+collide:
+	action:
+		*	type:   "disable"
+			if:
+				owner:  "different"
+			value:  {begin: 0.0, end: 60.0}
+		*	type:         "sound"
+			reflexive:    true
+			id:           547
+			priority:     3
+			persistence:  "10t"
+			volume:       255
+		*	type:       "age"
+			reflexive:  true
+			value:
+				begin:  "3s"
+				end:    "6s"
+		*	type:       "create"
+			reflexive:  true
+			delay:      "2s"
+			base:       "zrb/spawn"
+			count:      {begin: -1, end: 3}
+			distance:   2
 arrive_action_distance:  0
 skill_num:               3
 skill_den:               21

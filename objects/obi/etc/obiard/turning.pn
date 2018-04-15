@@ -19,49 +19,53 @@ rotation:
 icon:
 	shape:  "plus"
 	size:   1
-on_destroy:
-	*	type:       "score"
-		reflexive:  true
-		which:      2
-		value:      1
-		player:     0
-on_create:
-	*	type:       "capture"
-		reflexive:  true
-		player:     -1
-on_collide:
-	*	type:    "score"
-		if:
-			level_tag:  "e"
-		which:   0
-		value:   1
-		player:  0
-	*	type:  "kill"
-		if:
-			level_tag:  "e"
-		kind:  "expire"
-on_activate:
-	*	type:       "disable"
-		reflexive:  true
-		value:      {begin: -30.0, end: 30.0}
-	*	type:       "spin"
-		reflexive:  true
-		value:      {begin: -1.0, end: 0.0}
-	*	type:       "push"
-		reflexive:  true
-		delay:      "20t"
-		kind:       "boost"
-		value:      0.5
-	*	type:       "morph"
-		reflexive:  true
-		delay:      "4.5s"
-		base:       "obi/etc/obiard/waving"
-		keep_ammo:  true
-	*	type:       "morph"
-		reflexive:  true
-		delay:      "4.5s"
-		base:       "obi/etc/obiard/turning"
-		keep_ammo:  true
+destroy:
+	action:
+		*	type:       "score"
+			reflexive:  true
+			which:      2
+			value:      1
+			player:     0
+create:
+	action:
+		*	type:       "capture"
+			reflexive:  true
+			player:     -1
+collide:
+	action:
+		*	type:    "score"
+			if:
+				level_tag:  "e"
+			which:   0
+			value:   1
+			player:  0
+		*	type:  "kill"
+			if:
+				level_tag:  "e"
+			kind:  "expire"
+activate:
+	action:
+		*	type:       "disable"
+			reflexive:  true
+			value:      {begin: -30.0, end: 30.0}
+		*	type:       "spin"
+			reflexive:  true
+			value:      {begin: -1.0, end: 0.0}
+		*	type:       "push"
+			reflexive:  true
+			delay:      "20t"
+			kind:       "boost"
+			value:      0.5
+		*	type:       "morph"
+			reflexive:  true
+			delay:      "4.5s"
+			base:       "obi/etc/obiard/waving"
+			keep_ammo:  true
+		*	type:       "morph"
+			reflexive:  true
+			delay:      "4.5s"
+			base:       "obi/etc/obiard/turning"
+			keep_ammo:  true
 activate_period:
 	begin:  "32t"
 	end:    "1s4t"

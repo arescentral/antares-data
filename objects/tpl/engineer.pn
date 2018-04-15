@@ -16,71 +16,74 @@ mass:                    1.098
 max_velocity:            3.0
 max_thrust:              0.156
 initial_velocity:        3.0
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/large"
-		relative_direction:  true
-on_expire:
-	*	type:         "sound"
-		reflexive:    true
-		id:           501
-		priority:     5
-		persistence:  "1s"
-		volume:       255
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/debris/a"
-		count:               {begin: 1, end: 3}
-		relative_direction:  true
-		distance:            32
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/debris/b"
-		count:               {begin: 1, end: 3}
-		relative_direction:  true
-		distance:            32
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/energy"
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
-on_arrive:
-	*	type:       "push"
-		reflexive:  true
-		if:
-			level_tag:  "5"
-			owner:      "different"
-		kind:       "stop"
-	*	type:       "cap-speed"
-		reflexive:  true
-		if:
-			level_tag:  "5"
-			owner:      "different"
-		value:      0.0
-	*	type:         "sound"
-		reflexive:    true
-		if:
-			level_tag:  "5"
-			owner:      "different"
-		id:           570
-		priority:     3
-		persistence:  "10t"
-		volume:       255
-	*	type:   "kill"
-		if:
-			level_tag:  "5"
-			owner:      "different"
-		delay:  "2s40t"
-		kind:   "expire"
-	*	type:  "capture"
-		if:
-			level_tag:  "5"
-			owner:      "different"
-	*	type:       "cap-speed"
-		reflexive:  true
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/large"
+			relative_direction:  true
+expire:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           501
+			priority:     5
+			persistence:  "1s"
+			volume:       255
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/debris/a"
+			count:               {begin: 1, end: 3}
+			relative_direction:  true
+			distance:            32
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/debris/b"
+			count:               {begin: 1, end: 3}
+			relative_direction:  true
+			distance:            32
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/energy"
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"
+arrive:
+	action:
+		*	type:       "push"
+			reflexive:  true
+			if:
+				level_tag:  "5"
+				owner:      "different"
+			kind:       "stop"
+		*	type:       "cap-speed"
+			reflexive:  true
+			if:
+				level_tag:  "5"
+				owner:      "different"
+			value:      0.0
+		*	type:         "sound"
+			reflexive:    true
+			if:
+				level_tag:  "5"
+				owner:      "different"
+			id:           570
+			priority:     3
+			persistence:  "10t"
+			volume:       255
+		*	type:   "kill"
+			if:
+				level_tag:  "5"
+				owner:      "different"
+			delay:  "2s40t"
+			kind:   "expire"
+		*	type:  "capture"
+			if:
+				level_tag:  "5"
+				owner:      "different"
+		*	type:       "cap-speed"
+			reflexive:  true
 arrive_action_distance:  5000
 offense:                 0.2
 destination_class:       9

@@ -8,14 +8,15 @@ device:
 	range:          810000
 	inverse_speed:  0.066
 	restock_cost:   30
-on_activate:
-	*	type:         "sound"
-		reflexive:    true
-		id:           554
-		priority:     3
-		persistence:  "10t"
-		volume:       255
-	*	type:                "create"
-		reflexive:           true
-		base:                "dev/quasi/pulse"
-		relative_direction:  true
+activate:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           554
+			priority:     3
+			persistence:  "10t"
+			volume:       255
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/quasi/pulse"
+			relative_direction:  true

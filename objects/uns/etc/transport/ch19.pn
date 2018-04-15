@@ -1,22 +1,24 @@
 template:  "uns/transport"
 notes:     "Transport -- special, for chapter 19"
 class:     1801
-on_expire:
-	*	type:       "score"
-		reflexive:  true
-		which:      0
-		value:      1
-		player:     0
-on_arrive:
-	*	type:   "land"
-		if:
-			level_tag:  "f"
-		speed:  32
-	*	type:         "sound"
-		if:
-			level_tag:  "f"
-		absolute:     true
-		id:           513
-		priority:     5
-		persistence:  "20t"
-		volume:       255
+expire:
+	action:
+		*	type:       "score"
+			reflexive:  true
+			which:      0
+			value:      1
+			player:     0
+arrive:
+	action:
+		*	type:   "land"
+			if:
+				level_tag:  "f"
+			speed:  32
+		*	type:         "sound"
+			if:
+				level_tag:  "f"
+			absolute:     true
+			id:           513
+			priority:     5
+			persistence:  "20t"
+			volume:       255

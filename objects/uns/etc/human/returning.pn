@@ -20,28 +20,30 @@ rotation:
 icon:
 	shape:  "plus"
 	size:   2
-on_create:
-	*	type:            "order"
-		delay:           "0.05s"
-		initial_object:  0
-on_arrive:
-	*	type:         "sound"
-		if:
-			level_tag:  "6"
-		id:           31989
-		priority:     3
-		persistence:  "10t"
-		volume:       255
-	*	type:    "score"
-		if:
-			level_tag:  "6"
-		which:   1
-		value:   1
-		player:  0
-	*	type:  "kill"
-		if:
-			level_tag:  "6"
-		kind:  "expire"
+create:
+	action:
+		*	type:            "order"
+			delay:           "0.05s"
+			initial_object:  0
+arrive:
+	action:
+		*	type:         "sound"
+			if:
+				level_tag:  "6"
+			id:           31989
+			priority:     3
+			persistence:  "10t"
+			volume:       255
+		*	type:    "score"
+			if:
+				level_tag:  "6"
+			which:   1
+			value:   1
+			player:  0
+		*	type:  "kill"
+			if:
+				level_tag:  "6"
+			kind:  "expire"
 arrive_action_distance:  5000
 skill_num:               3
 skill_den:               21

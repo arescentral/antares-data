@@ -20,12 +20,13 @@ rotation:
 icon:
 	shape:  "square"
 	size:   1
-on_expire:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/missile-hit"
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
+expire:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/missile-hit"
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"
 destination_class:  -256

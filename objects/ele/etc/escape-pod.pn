@@ -24,29 +24,31 @@ icon:
 	size:   3
 portrait:           "ele/etc/escape-pod"
 shield_color:       {r: 255, g: 255, b: 255}
-on_destroy:
-	*	type:       "create"
-		reflexive:  true
-		base:       "sfx/explosion/large"
-	*	type:       "win"
-		reflexive:  true
-		player:     1
-		text:
-			>	One of the escape pods was destroyed.
-on_collide:
-	*	type:    "score"
-		which:   1
-		value:   1
-		player:  0
-	*	type:         "sound"
-		reflexive:    true
-		id:           514
-		priority:     3
-		persistence:  "5t"
-		volume:       255
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "none"
+destroy:
+	action:
+		*	type:       "create"
+			reflexive:  true
+			base:       "sfx/explosion/large"
+		*	type:       "win"
+			reflexive:  true
+			player:     1
+			text:
+				>	One of the escape pods was destroyed.
+collide:
+	action:
+		*	type:    "score"
+			which:   1
+			value:   1
+			player:  0
+		*	type:         "sound"
+			reflexive:    true
+			id:           514
+			priority:     3
+			persistence:  "5t"
+			volume:       255
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "none"
 destination_class:  9
 friend_deficit:     2.0
 danger_threshold:   4.0

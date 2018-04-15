@@ -15,32 +15,35 @@ animation:
 	direction:  "+"
 	speed:      0.312
 	first:      {begin: 0.0, end: 5.0}
-on_create:
-	*	type:         "sound"
-		reflexive:    true
-		id:           561
-		priority:     3
-		persistence:  "20t"
-		volume:       255
-on_collide:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/large-hit"
-		relative_direction:  true
-	*	type:   "push"
-		kind:   "collide"
-		value:  24.0
-	*	type:   "disable"
-		value:  {begin: -2.0, end: 2.0}
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
-on_activate:
-	*	type:       "create"
-		reflexive:  true
-		base:       "sfx/sparkle"
-		count:      {begin: 1, end: 3}
-		distance:   16
+create:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           561
+			priority:     3
+			persistence:  "20t"
+			volume:       255
+collide:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/large-hit"
+			relative_direction:  true
+		*	type:   "push"
+			kind:   "collide"
+			value:  24.0
+		*	type:   "disable"
+			value:  {begin: -2.0, end: 2.0}
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"
+activate:
+	action:
+		*	type:       "create"
+			reflexive:  true
+			base:       "sfx/sparkle"
+			count:      {begin: 1, end: 3}
+			distance:   16
 activate_period:   "0.05s"
 skill_num:         3
 skill_den:         21

@@ -14,11 +14,12 @@ initial_velocity:   5.0
 warp_speed:         40.0
 warp_out_distance:  13505625
 icon:               {size: 4}
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/large"
-		relative_direction:  true
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/large"
+			relative_direction:  true
 offense:            1.0
 destination_class:  3
 danger_threshold:   1.0

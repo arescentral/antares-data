@@ -19,22 +19,23 @@ animation:
 	direction:  "+"
 	speed:      0.156
 	first:      {begin: 0.0, end: 2.0}
-on_collide:
-	*	type:   "energize"
-		if:
-			attributes:  {can_be_destination: true}
-		value:  150
-	*	type:  "kill"
-		if:
-			attributes:  {can_be_destination: true}
-		kind:  "expire"
-	*	type:         "sound"
-		if:
-			attributes:  {can_be_destination: true}
-		id:           514
-		priority:     3
-		persistence:  "10t"
-		volume:       255
+collide:
+	action:
+		*	type:   "energize"
+			if:
+				attributes:  {can_be_destination: true}
+			value:  150
+		*	type:  "kill"
+			if:
+				attributes:  {can_be_destination: true}
+			kind:  "expire"
+		*	type:         "sound"
+			if:
+				attributes:  {can_be_destination: true}
+			id:           514
+			priority:     3
+			persistence:  "10t"
+			volume:       255
 arrive_action_distance:  18
 skill_num:               3
 skill_den:               21

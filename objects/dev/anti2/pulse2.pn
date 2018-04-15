@@ -10,27 +10,28 @@ animation:
 	direction:  "+"
 	speed:      0.03
 	first:      {begin: 0.0, end: 4.0}
-on_collide:
-	*	type:       "disable"
-		reflexive:  true
-		if:
-			owner:  "different"
-		value:      {begin: -30.0, end: 30.0}
-	*	type:       "thrust"
-		reflexive:  true
-		if:
-			owner:  "different"
-		relative:   true
-		value:      0.047
-	*	type:       "spin"
-		reflexive:  true
-		if:
-			owner:  "different"
-		value:      {begin: -2.0, end: 2.0}
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/missile-hit"
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "none"
+collide:
+	action:
+		*	type:       "disable"
+			reflexive:  true
+			if:
+				owner:  "different"
+			value:      {begin: -30.0, end: 30.0}
+		*	type:       "thrust"
+			reflexive:  true
+			if:
+				owner:  "different"
+			relative:   true
+			value:      0.047
+		*	type:       "spin"
+			reflexive:  true
+			if:
+				owner:  "different"
+			value:      {begin: -2.0, end: 2.0}
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/missile-hit"
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "none"

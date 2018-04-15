@@ -7,13 +7,14 @@ animation:
 	sprite:  "loc/relay"
 icon:          {size: 6}
 shield_color:  {r: 240, g: 234, b: 195}
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/large"
-		relative_direction:  true
-	*	type:       "score"
-		reflexive:  true
-		which:      0
-		value:      1
-		player:     0
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/large"
+			relative_direction:  true
+		*	type:       "score"
+			reflexive:  true
+			which:      0
+			value:      1
+			player:     0

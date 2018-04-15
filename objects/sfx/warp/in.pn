@@ -10,10 +10,11 @@ animation:
 	frames:     {begin: 0.0, end: 2.004}
 	direction:  "+"
 	speed:      0.08
-on_create:
-	*	type:         "sound"
-		reflexive:    true
-		id:           517
-		priority:     3
-		persistence:  "20t"
-		volume:       255
+create:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           517
+			priority:     3
+			persistence:  "20t"
+			volume:       255

@@ -8,4 +8,4 @@ class:             204
 max_velocity:      0.0
 initial_velocity:  null
 weapons:           {pulse: null, beam: null}
-on_destroy:        null
+destroy:           {action: null}

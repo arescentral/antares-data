@@ -32,11 +32,12 @@ icon:
 	size:   3
 portrait:           "can/etc/border-drone"
 shield_color:       {r: 240, g: 240, b: 120}
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/large"
-		relative_direction:  true
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/large"
+			relative_direction:  true
 skill_num:          3
 skill_den:          21
 offense:            1.5

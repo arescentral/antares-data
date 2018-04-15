@@ -9,13 +9,14 @@ device:
 	fire_time:      "1s"
 	range:          810000
 	inverse_speed:  0.047
-on_activate:
-	*	type:         "sound"
-		id:           563
-		priority:     3
-		persistence:  "0.5s"
-		volume:       255
-	*	type:                "create"
-		reflexive:           true
-		base:                "dev/tspace/beam"
-		relative_direction:  true
+activate:
+	action:
+		*	type:         "sound"
+			id:           563
+			priority:     3
+			persistence:  "0.5s"
+			volume:       255
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/tspace/beam"
+			relative_direction:  true

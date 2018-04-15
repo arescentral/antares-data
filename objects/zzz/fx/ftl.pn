@@ -21,15 +21,16 @@ animation:
 	speed:      0.156
 	first:      {begin: 0.0, end: 23.0}
 icon:                    null
-on_arrive:
-	*	type:   "equip"
-		if:
-			attributes:  {can_be_destination: true}
-		which:  "special"
-		base:   "dev/anti2/gun"
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
+arrive:
+	action:
+		*	type:   "equip"
+			if:
+				attributes:  {can_be_destination: true}
+			which:  "special"
+			base:   "dev/anti2/gun"
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"
 arrive_action_distance:  5000
 skill_num:               3
 skill_den:               21

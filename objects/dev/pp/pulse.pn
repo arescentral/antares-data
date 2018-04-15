@@ -12,18 +12,20 @@ animation:
 	direction:  "+"
 	speed:      0.055
 	first:      {begin: 0.0, end: 5.0}
-on_create:
-	*	type:         "sound"
-		reflexive:    true
-		id:           519
-		priority:     3
-		persistence:  "10t"
-		volume:       255
-on_collide:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/missile-hit"
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
+create:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           519
+			priority:     3
+			persistence:  "10t"
+			volume:       255
+collide:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/missile-hit"
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"

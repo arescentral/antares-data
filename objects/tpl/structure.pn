@@ -3,9 +3,10 @@ attributes:         {can_be_engaged: true, can_collide: true, can_be_hit: true, 
 health:             1000
 icon:
 	shape:  "square"
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/large"
-		relative_direction:  true
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/large"
+			relative_direction:  true
 destination_class:  -256

@@ -13,22 +13,23 @@ animation:
 icon:
 	shape:  "square"
 	size:   2
-on_create:
-	*	type:         "sound"
-		reflexive:    true
-		id:           501
-		priority:     5
-		persistence:  "1s"
-		volume:       255
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/debris/a"
-		count:               {begin: 1, end: 3}
-		relative_direction:  true
-		distance:            32
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/debris/b"
-		count:               {begin: 1, end: 3}
-		relative_direction:  true
-		distance:            32
+create:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           501
+			priority:     5
+			persistence:  "1s"
+			volume:       255
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/debris/a"
+			count:               {begin: 1, end: 3}
+			relative_direction:  true
+			distance:            32
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/debris/b"
+			count:               {begin: 1, end: 3}
+			relative_direction:  true
+			distance:            32

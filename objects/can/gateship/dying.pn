@@ -5,52 +5,54 @@ health:       1
 initial_age:  "12s"
 max_thrust:   0.0
 weapons:      {pulse: null, beam: null, special: null}
-on_destroy:   null
-on_expire:
-	*	type:         "sound"
-		reflexive:    true
-		id:           515
-		priority:     4
-		persistence:  "20t"
-		volume:       255
-	*	type:       "create"
-		reflexive:  true
-		base:       "sfx/explosion/supernova"
-		count:      11
-	*	type:       "condition"
-		reflexive:  true
-		enable:     1
-on_activate:
-	*	type:               "create"
-		reflexive:          true
-		base:               "sfx/explosion/large"
-		count:              {begin: 0, end: 3}
-		relative_velocity:  true
-		distance:           128
-	*	type:               "create"
-		reflexive:          true
-		delay:              "20t"
-		base:               "sfx/explosion/giant"
-		count:              {begin: 0, end: 2}
-		relative_velocity:  true
-		distance:           128
-	*	type:               "create"
-		reflexive:          true
-		delay:              "20t"
-		base:               "sfx/explosion/large-hit"
-		count:              {begin: 0, end: 4}
-		relative_velocity:  true
-		distance:           128
-	*	type:               "create"
-		reflexive:          true
-		delay:              "20t"
-		base:               "sfx/explosion/energy"
-		count:              {begin: 0, end: 4}
-		relative_velocity:  true
-		distance:           128
-	*	type:       "reveal"
-		reflexive:  true
-		which:      {begin: 4, end: 12}
+destroy:      {action: null}
+expire:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           515
+			priority:     4
+			persistence:  "20t"
+			volume:       255
+		*	type:       "create"
+			reflexive:  true
+			base:       "sfx/explosion/supernova"
+			count:      11
+		*	type:       "condition"
+			reflexive:  true
+			enable:     1
+activate:
+	action:
+		*	type:               "create"
+			reflexive:          true
+			base:               "sfx/explosion/large"
+			count:              {begin: 0, end: 3}
+			relative_velocity:  true
+			distance:           128
+		*	type:               "create"
+			reflexive:          true
+			delay:              "20t"
+			base:               "sfx/explosion/giant"
+			count:              {begin: 0, end: 2}
+			relative_velocity:  true
+			distance:           128
+		*	type:               "create"
+			reflexive:          true
+			delay:              "20t"
+			base:               "sfx/explosion/large-hit"
+			count:              {begin: 0, end: 4}
+			relative_velocity:  true
+			distance:           128
+		*	type:               "create"
+			reflexive:          true
+			delay:              "20t"
+			base:               "sfx/explosion/energy"
+			count:              {begin: 0, end: 4}
+			relative_velocity:  true
+			distance:           128
+		*	type:       "reveal"
+			reflexive:  true
+			which:      {begin: 4, end: 12}
 activate_period:
 	begin:  "16t"
 	end:    "32t"

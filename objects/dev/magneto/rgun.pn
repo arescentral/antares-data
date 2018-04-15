@@ -8,15 +8,16 @@ device:
 	range:          90000
 	inverse_speed:  0.098
 	restock_cost:   30
-on_activate:
-	*	type:         "sound"
-		reflexive:    true
-		id:           546
-		priority:     3
-		persistence:  "10t"
-		volume:       255
-	*	type:                "create"
-		reflexive:           true
-		base:                "dev/magneto/pulse"
-		relative_velocity:   true
-		relative_direction:  true
+activate:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           546
+			priority:     3
+			persistence:  "10t"
+			volume:       255
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/magneto/pulse"
+			relative_velocity:   true
+			relative_direction:  true

@@ -14,23 +14,24 @@ animation:
 	direction:  "+"
 	speed:      0.105
 	first:      {begin: 0.0, end: 5.0}
-on_collide:
-	*	type:      "spark"
-		count:     20
-		hue:       "aqua"
-		decay:     8
-		velocity:  5.0
-	*	type:         "sound"
-		reflexive:    true
-		id:           542
-		priority:     1
-		persistence:  "10t"
-		volume:       255
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/quasi"
-		relative_velocity:   true
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
+collide:
+	action:
+		*	type:      "spark"
+			count:     20
+			hue:       "aqua"
+			decay:     8
+			velocity:  5.0
+		*	type:         "sound"
+			reflexive:    true
+			id:           542
+			priority:     1
+			persistence:  "10t"
+			volume:       255
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/quasi"
+			relative_velocity:   true
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"

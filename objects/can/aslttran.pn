@@ -22,13 +22,14 @@ rotation:
 	frames:  {begin: 0, end: 24}
 portrait:           "can/aslttran"
 shield_color:       {r: 240, g: 240, b: 120}
-on_destroy:
-	*	type:   "fire"
-		if:
-			level_tag:  "a"
-			owner:      "different"
-		which:  "special"
-	*	type:       "create"
-		reflexive:  true
-		base:       "sfx/explosion/large"
+destroy:
+	action:
+		*	type:   "fire"
+			if:
+				level_tag:  "a"
+				owner:      "different"
+			which:  "special"
+		*	type:       "create"
+			reflexive:  true
+			base:       "sfx/explosion/large"
 friend_deficit:     5.0

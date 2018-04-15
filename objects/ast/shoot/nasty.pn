@@ -7,14 +7,15 @@ health:        1000
 animation:
 	sprite:  "sfx/invisible"
 shield_color:  {r: 240, g: 0, b: 0}
-on_activate:
-	*	type:                "create"
-		reflexive:           true
-		base:                "ast/nasty"
-		relative_velocity:   true
-		relative_direction:  true
-		distance:            1024
-		legacy_random:       true
+activate:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "ast/nasty"
+			relative_velocity:   true
+			relative_direction:  true
+			distance:            1024
+			legacy_random:       true
 activate_period:
 	begin:  "4.25s"
 	end:    "8.5s"

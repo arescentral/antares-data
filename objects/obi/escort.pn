@@ -35,11 +35,12 @@ rotation:
 icon:               {size: 4}
 portrait:           "obi/escort"
 shield_color:       {r: 255, g: 255, b: 255}
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/large"
-		relative_direction:  true
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/large"
+			relative_direction:  true
 offense:            1.0
 destination_class:  3
 danger_threshold:   -5.0

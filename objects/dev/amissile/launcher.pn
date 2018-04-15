@@ -8,15 +8,16 @@ device:
 	range:          2073600
 	inverse_speed:  0.11
 	restock_cost:   12
-on_activate:
-	*	type:         "sound"
-		reflexive:    true
-		id:           533
-		priority:     3
-		persistence:  "0.25s"
-		volume:       255
-	*	type:                "create"
-		reflexive:           true
-		base:                "dev/amissile/missile"
-		relative_velocity:   true
-		relative_direction:  true
+activate:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           533
+			priority:     3
+			persistence:  "0.25s"
+			volume:       255
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/amissile/missile"
+			relative_velocity:   true
+			relative_direction:  true

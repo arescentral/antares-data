@@ -9,14 +9,15 @@ device:
 	ammo:           10
 	range:          100000
 	inverse_speed:  0.137
-on_activate:
-	*	type:         "sound"
-		reflexive:    true
-		id:           520
-		priority:     3
-		persistence:  "10t"
-		volume:       255
-	*	type:                "create"
-		reflexive:           true
-		base:                "can/fighter"
-		relative_direction:  true
+activate:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           520
+			priority:     3
+			persistence:  "10t"
+			volume:       255
+		*	type:                "create"
+			reflexive:           true
+			base:                "can/fighter"
+			relative_direction:  true

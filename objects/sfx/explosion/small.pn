@@ -14,10 +14,11 @@ animation:
 icon:
 	shape:  "square"
 	size:   2
-on_create:
-	*	type:         "sound"
-		reflexive:    true
-		id:           501
-		priority:     3
-		persistence:  "20t"
-		volume:       255
+create:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           501
+			priority:     3
+			persistence:  "20t"
+			volume:       255

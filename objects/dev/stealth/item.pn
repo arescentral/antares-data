@@ -7,6 +7,7 @@ device:
 	energy_cost:   1
 	fire_time:     "0.15s"
 	restock_cost:  0
-on_activate:
-	*	type:       "cloak"
-		reflexive:  true
+activate:
+	action:
+		*	type:       "cloak"
+			reflexive:  true

@@ -11,16 +11,17 @@ animation:
 	direction:  "+"
 	speed:      0.156
 	first:      18.0
-on_create:
-	*	type:         "sound"
-		reflexive:    true
-		id:           503
-		priority:     3
-		persistence:  "20t"
-		volume:       255
-	*	type:       "spark"
-		reflexive:  true
-		count:      10
-		hue:        "orange"
-		decay:      20
-		velocity:   2.0
+create:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           503
+			priority:     3
+			persistence:  "20t"
+			volume:       255
+		*	type:       "spark"
+			reflexive:  true
+			count:      10
+			hue:        "orange"
+			decay:      20
+			velocity:   2.0

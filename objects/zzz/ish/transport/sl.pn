@@ -19,26 +19,28 @@ rotation:
 	frames:  {begin: 0, end: 24}
 icon:               {size: 5}
 shield_color:       {r: 255, g: 255, b: 255}
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/large"
-		relative_direction:  true
-on_arrive:
-	*	type:   "land"
-		if:
-			attributes:  {is_destination: true}
-			owner:       "different"
-		speed:  32
-	*	type:         "sound"
-		if:
-			attributes:  {is_destination: true}
-			owner:       "different"
-		absolute:     true
-		id:           513
-		priority:     5
-		persistence:  "20t"
-		volume:       255
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/large"
+			relative_direction:  true
+arrive:
+	action:
+		*	type:   "land"
+			if:
+				attributes:  {is_destination: true}
+				owner:       "different"
+			speed:  32
+		*	type:         "sound"
+			if:
+				attributes:  {is_destination: true}
+				owner:       "different"
+			absolute:     true
+			id:           513
+			priority:     5
+			persistence:  "20t"
+			volume:       255
 offense:            3.0
 destination_class:  9
 friend_deficit:     3.0

@@ -8,9 +8,10 @@ device:
 	range:          4618201
 	inverse_speed:  0.14
 	restock_cost:   80
-on_activate:
-	*	type:                "create"
-		reflexive:           true
-		base:                "dev/atomic/pulse"
-		relative_velocity:   true
-		relative_direction:  true
+activate:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/atomic/pulse"
+			relative_velocity:   true
+			relative_direction:  true

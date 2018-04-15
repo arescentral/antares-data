@@ -12,18 +12,20 @@ animation:
 icon:
 	shape:  "square"
 	size:   2
-on_create:
-	*	type:       "flash"
-		reflexive:  true
-		hue:        "yellow"
-		length:     128
-		shade:      15
-on_activate:
-	*	type:       "flash"
-		reflexive:  true
-		hue:        "yellow"
-		length:     128
-		shade:      15
+create:
+	action:
+		*	type:       "flash"
+			reflexive:  true
+			hue:        "yellow"
+			length:     128
+			shade:      15
+activate:
+	action:
+		*	type:       "flash"
+			reflexive:  true
+			hue:        "yellow"
+			length:     128
+			shade:      15
 activate_period:
 	begin:  "4t"
 	end:    "8t"

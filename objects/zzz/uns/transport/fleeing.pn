@@ -8,30 +8,33 @@ rotation:
 	sprite:  "uns/transport"
 	frames:  {begin: 0, end: 24}
 shield_color:       {r: 255, g: 255, b: 255}
-on_destroy:
-	*	type:             "create"
-		reflexive:        true
-		initial_subject:  0
-		initial_object:   0
-		base:             "sfx/explosion/large"
-	*	type:       "win"
-		reflexive:  true
-		player:     1
-		text:
-			>	Out base on Lelande Alpha was captured.
-on_expire:
-	*	type:       "score"
-		reflexive:  true
-		which:      0
-		value:      1
-		player:     0
-on_arrive:
-	*	type:  "create"
-		if:
-			level_tag:  "3"
-		base:  "sfx/jump/small"
-	*	type:   "land"
-		if:
-			level_tag:  "3"
-		delay:  "2s"
-		speed:  80
+destroy:
+	action:
+		*	type:             "create"
+			reflexive:        true
+			initial_subject:  0
+			initial_object:   0
+			base:             "sfx/explosion/large"
+		*	type:       "win"
+			reflexive:  true
+			player:     1
+			text:
+				>	Out base on Lelande Alpha was captured.
+expire:
+	action:
+		*	type:       "score"
+			reflexive:  true
+			which:      0
+			value:      1
+			player:     0
+arrive:
+	action:
+		*	type:  "create"
+			if:
+				level_tag:  "3"
+			base:  "sfx/jump/small"
+		*	type:   "land"
+			if:
+				level_tag:  "3"
+			delay:  "2s"
+			speed:  80

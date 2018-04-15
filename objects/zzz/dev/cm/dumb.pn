@@ -15,33 +15,37 @@ rotation:
 	turn_rate:  0.008
 icon:
 	shape:  "square"
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/energy"
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
-on_expire:
-	*	type:       "morph"
-		reflexive:  true
-		base:       "dev/cm/missile"
-		keep_ammo:  true
-on_create:
-	*	type:         "sound"
-		reflexive:    true
-		id:           533
-		priority:     3
-		persistence:  "0.5s"
-		volume:       255
-on_collide:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/gas"
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/energy"
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"
+expire:
+	action:
+		*	type:       "morph"
+			reflexive:  true
+			base:       "dev/cm/missile"
+			keep_ammo:  true
+create:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           533
+			priority:     3
+			persistence:  "0.5s"
+			volume:       255
+collide:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/gas"
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"
 skill_num:         1
 skill_den:         1

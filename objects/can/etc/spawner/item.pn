@@ -7,19 +7,20 @@ device:
 	usage:          {attacking: true, defense: true}
 	ammo:           5
 	inverse_speed:  0.137
-on_activate:
-	*	type:       "create"
-		reflexive:  true
-		base:       "can/cruiser"
-		count:      {begin: 0, end: 2}
-		distance:   256
-	*	type:       "create"
-		reflexive:  true
-		base:       "can/fighter"
-		count:      {begin: 0, end: 2}
-		distance:   256
-	*	type:       "create"
-		reflexive:  true
-		base:       "can/schooner"
-		count:      {begin: 0, end: 2}
-		distance:   256
+activate:
+	action:
+		*	type:       "create"
+			reflexive:  true
+			base:       "can/cruiser"
+			count:      {begin: 0, end: 2}
+			distance:   256
+		*	type:       "create"
+			reflexive:  true
+			base:       "can/fighter"
+			count:      {begin: 0, end: 2}
+			distance:   256
+		*	type:       "create"
+			reflexive:  true
+			base:       "can/schooner"
+			count:      {begin: 0, end: 2}
+			distance:   256

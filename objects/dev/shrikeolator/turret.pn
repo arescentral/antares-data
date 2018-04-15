@@ -8,15 +8,16 @@ device:
 	range:          2073600
 	inverse_speed:  0.11
 	restock_cost:   24
-on_activate:
-	*	type:                "create"
-		reflexive:           true
-		base:                "dev/shrikeolator/pulse"
-		relative_velocity:   true
-		relative_direction:  true
-	*	type:         "sound"
-		reflexive:    true
-		id:           544
-		priority:     3
-		persistence:  "10t"
-		volume:       255
+activate:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/shrikeolator/pulse"
+			relative_velocity:   true
+			relative_direction:  true
+		*	type:         "sound"
+			reflexive:    true
+			id:           544
+			priority:     3
+			persistence:  "10t"
+			volume:       255

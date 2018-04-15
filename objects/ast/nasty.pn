@@ -19,12 +19,14 @@ animation:
 icon:
 	shape:  "diamond"
 	size:   8
-on_destroy:
-	*	type:       "create"
-		reflexive:  true
-		base:       "sfx/explosion/giant"
-on_collide:
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "destroy"
+destroy:
+	action:
+		*	type:       "create"
+			reflexive:  true
+			base:       "sfx/explosion/giant"
+collide:
+	action:
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "destroy"
 friend_deficit:    1.0

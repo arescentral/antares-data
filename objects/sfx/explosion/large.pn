@@ -14,20 +14,21 @@ animation:
 icon:
 	shape:  "square"
 	size:   2
-on_create:
-	*	type:         "sound"
-		reflexive:    true
-		id:           515
-		priority:     4
-		persistence:  "1s"
-		volume:       255
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/debris/a"
-		count:               {begin: 1, end: 3}
-		relative_direction:  true
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/crew"
-		count:               {begin: 1, end: 3}
-		relative_direction:  true
+create:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           515
+			priority:     4
+			persistence:  "1s"
+			volume:       255
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/debris/a"
+			count:               {begin: 1, end: 3}
+			relative_direction:  true
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/crew"
+			count:               {begin: 1, end: 3}
+			relative_direction:  true

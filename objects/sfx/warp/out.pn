@@ -11,10 +11,11 @@ animation:
 	direction:  "-"
 	speed:      0.08
 	first:      2.0
-on_create:
-	*	type:         "sound"
-		reflexive:    true
-		id:           518
-		priority:     3
-		persistence:  "20t"
-		volume:       255
+create:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           518
+			priority:     3
+			persistence:  "20t"
+			volume:       255

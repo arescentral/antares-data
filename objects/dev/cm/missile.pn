@@ -5,12 +5,13 @@ notes:       "C Missile"
 rotation:
 	sprite:  "dev/cm"
 	frames:  {begin: 0, end: 24}
-on_create:
-	*	type:         "sound"
-		reflexive:    true
-		id:           533
-		priority:     3
-		persistence:  "0.5s"
-		volume:       255
+create:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           533
+			priority:     3
+			persistence:  "0.5s"
+			volume:       255
 skill_num:   1
 skill_den:   1

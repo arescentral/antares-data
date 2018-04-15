@@ -15,6 +15,6 @@ weapons:
 			*	{x: 0.0, y: 0.0}
 			*	{x: 5.0, y: 0.0}
 portrait:           null
-on_expire:          null
-on_arrive:          null
+expire:             {action: null}
+arrive:             {action: null}
 offense:            1.0

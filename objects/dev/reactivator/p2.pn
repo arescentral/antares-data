@@ -7,13 +7,14 @@ device:
 	range:          2073600
 	inverse_speed:  0.11
 	restock_cost:   0
-on_activate:
-	*	type:  "morph"
-		base:  "gro/ctf/cruiser/p2-active"
-	*	type:         "sound"
-		id:           551
-		priority:     5
-		persistence:  "10t"
-		volume:       255
-	*	type:       "hold"
-		reflexive:  true
+activate:
+	action:
+		*	type:  "morph"
+			base:  "gro/ctf/cruiser/p2-active"
+		*	type:         "sound"
+			id:           551
+			priority:     5
+			persistence:  "10t"
+			volume:       255
+		*	type:       "hold"
+			reflexive:  true

@@ -21,26 +21,29 @@ rotation:
 icon:                    {size: 6}
 portrait:                "ish/etc/cargo"
 shield_color:            {r: 255, g: 255, b: 255}
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/large"
-		relative_direction:  true
-on_create:
-	*	type:       "create"
-		reflexive:  true
-		base:       "sfx/jump/small"
-on_arrive:
-	*	type:    "score"
-		if:
-			level_tag:  "6"
-		which:   0
-		value:   1
-		player:  0
-	*	type:  "kill"
-		if:
-			level_tag:  "6"
-		kind:  "expire"
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/large"
+			relative_direction:  true
+create:
+	action:
+		*	type:       "create"
+			reflexive:  true
+			base:       "sfx/jump/small"
+arrive:
+	action:
+		*	type:    "score"
+			if:
+				level_tag:  "6"
+			which:   0
+			value:   1
+			player:  0
+		*	type:  "kill"
+			if:
+				level_tag:  "6"
+			kind:  "expire"
 arrive_action_distance:  20000
 offense:                 0.098
 destination_class:       9

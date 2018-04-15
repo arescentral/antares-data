@@ -8,9 +8,10 @@ device:
 	range:          78400
 	inverse_speed:  8388607.996
 	restock_cost:   24
-on_activate:
-	*	type:                "create"
-		reflexive:           true
-		base:                "dev/fusion/pulse"
-		relative_velocity:   true
-		relative_direction:  true
+activate:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/fusion/pulse"
+			relative_velocity:   true
+			relative_direction:  true

@@ -8,34 +8,36 @@ rotation:
 	frames:  {begin: 0, end: 24}
 icon:
 	shape:  "square"
-on_create:
-	*	type:         "sound"
-		reflexive:    true
-		id:           502
-		priority:     3
-		persistence:  "10t"
-		volume:       255
-on_collide:
-	*	type:       "disable"
-		reflexive:  true
-		if:
-			owner:  "different"
-		value:      {begin: -30.0, end: 30.0}
-	*	type:       "thrust"
-		reflexive:  true
-		if:
-			owner:  "different"
-		relative:   true
-		value:      0.047
-	*	type:       "spin"
-		reflexive:  true
-		if:
-			owner:  "different"
-		value:      {begin: -2.0, end: 2.0}
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/missile-hit"
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "none"
+create:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           502
+			priority:     3
+			persistence:  "10t"
+			volume:       255
+collide:
+	action:
+		*	type:       "disable"
+			reflexive:  true
+			if:
+				owner:  "different"
+			value:      {begin: -30.0, end: 30.0}
+		*	type:       "thrust"
+			reflexive:  true
+			if:
+				owner:  "different"
+			relative:   true
+			value:      0.047
+		*	type:       "spin"
+			reflexive:  true
+			if:
+				owner:  "different"
+			value:      {begin: -2.0, end: 2.0}
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/missile-hit"
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "none"

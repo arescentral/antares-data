@@ -22,26 +22,28 @@ icon:
 	shape:  "square"
 	size:   3
 shield_color:       {r: 240, g: 0, b: 0}
-on_destroy:
-	*	type:                "create"
-		reflexive:           true
-		base:                "zzz/gai/etc/kamipulse"
-		count:               {begin: 20, end: 30}
-		relative_velocity:   true
-		relative_direction:  true
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/gas"
-		relative_direction:  true
-	*	type:       "kill"
-		reflexive:  true
-		kind:       "expire"
-on_arrive:
-	*	type:  "kill"
-		if:
-			attributes:  {can_be_engaged: true}
-			owner:       "different"
-		kind:  "destroy"
+destroy:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "zzz/gai/etc/kamipulse"
+			count:               {begin: 20, end: 30}
+			relative_velocity:   true
+			relative_direction:  true
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/gas"
+			relative_direction:  true
+		*	type:       "kill"
+			reflexive:  true
+			kind:       "expire"
+arrive:
+	action:
+		*	type:  "kill"
+			if:
+				attributes:  {can_be_engaged: true}
+				owner:       "different"
+			kind:  "destroy"
 offense:            0.5
 destination_class:  1
 danger_threshold:   1.0

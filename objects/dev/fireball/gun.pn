@@ -8,15 +8,16 @@ device:
 	range:          291600
 	inverse_speed:  0.082
 	restock_cost:   3
-on_activate:
-	*	type:                "create"
-		reflexive:           true
-		base:                "dev/fireball/pulse"
-		relative_velocity:   true
-		relative_direction:  true
-	*	type:         "sound"
-		reflexive:    true
-		id:           565
-		priority:     3
-		persistence:  "0.25s"
-		volume:       255
+activate:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/fireball/pulse"
+			relative_velocity:   true
+			relative_direction:  true
+		*	type:         "sound"
+			reflexive:    true
+			id:           565
+			priority:     3
+			persistence:  "0.25s"
+			volume:       255

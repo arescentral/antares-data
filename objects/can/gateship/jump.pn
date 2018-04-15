@@ -4,4 +4,4 @@ attributes:  {can_be_engaged: false, can_engage: false, can_evade: false, hated:
 health:      80000
 max_thrust:  0.0
 weapons:     {pulse: null, special: null}
-on_destroy:  null
+destroy:     {action: null}

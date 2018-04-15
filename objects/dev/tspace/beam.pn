@@ -4,8 +4,9 @@ short_name:  "TRNSBOLT"
 notes:       "Trans-Space Bolt"
 vector:
 	hue:  "gold"
-on_collide:
-	*	type:                "create"
-		reflexive:           true
-		base:                "sfx/explosion/energy"
-		relative_direction:  true
+collide:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/energy"
+			relative_direction:  true

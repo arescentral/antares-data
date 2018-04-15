@@ -8,9 +8,10 @@ device:
 	range:          2073600
 	inverse_speed:  0.11
 	restock_cost:   18
-on_activate:
-	*	type:                "create"
-		reflexive:           true
-		base:                "dev/rplasma/pulse"
-		relative_velocity:   true
-		relative_direction:  true
+activate:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/rplasma/pulse"
+			relative_velocity:   true
+			relative_direction:  true

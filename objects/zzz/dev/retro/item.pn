@@ -7,18 +7,19 @@ device:
 	energy_cost:   10
 	fire_time:     "0.25s"
 	restock_cost:  0
-on_activate:
-	*	type:         "sound"
-		reflexive:    true
-		id:           524
-		priority:     3
-		persistence:  "14t"
-		volume:       255
-	*	type:       "push"
-		reflexive:  true
-		kind:       "cruise"
-		value:      -15.0
-	*	type:       "push"
-		reflexive:  true
-		delay:      "7t"
-		kind:       "stop"
+activate:
+	action:
+		*	type:         "sound"
+			reflexive:    true
+			id:           524
+			priority:     3
+			persistence:  "14t"
+			volume:       255
+		*	type:       "push"
+			reflexive:  true
+			kind:       "cruise"
+			value:      -15.0
+		*	type:       "push"
+			reflexive:  true
+			delay:      "7t"
+			kind:       "stop"

@@ -13,11 +13,12 @@ icon:
 	shape:  "plus"
 	size:   3
 shield_color:      {r: 240, g: 0, b: 0}
-on_destroy:
-	*	type:       "heal"
-		reflexive:  true
-		value:      1000
-	*	type:       "morph"
-		reflexive:  true
-		base:       "gro/ctf/moor/p1-inactive"
+destroy:
+	action:
+		*	type:       "heal"
+			reflexive:  true
+			value:      1000
+		*	type:       "morph"
+			reflexive:  true
+			base:       "gro/ctf/moor/p1-inactive"
 destroy_dont_die:  true

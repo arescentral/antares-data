@@ -8,7 +8,8 @@ device:
 	fire_time:      "20t"
 	range:          50625
 	inverse_speed:  0.066
-on_activate:
-	*	type:       "morph"
-		reflexive:  true
-		base:       "baz/bttlship"
+activate:
+	action:
+		*	type:       "morph"
+			reflexive:  true
+			base:       "baz/bttlship"

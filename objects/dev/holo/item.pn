@@ -7,10 +7,11 @@ device:
 	fire_time:      "2s"
 	range:          810000
 	inverse_speed:  0.047
-on_activate:
-	*	type:                "create"
-		reflexive:           true
-		base:                "dev/holo/decoy"
-		count:               {begin: 1, end: 3}
-		relative_velocity:   true
-		relative_direction:  true
+activate:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/holo/decoy"
+			count:               {begin: 1, end: 3}
+			relative_velocity:   true
+			relative_direction:  true
