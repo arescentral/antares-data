@@ -1,3 +1,2 @@
-template:    "tpl/any"
-attributes:  {shape_from_direction: true}
-rotation:    {layer: 2}
+template:  "tpl/any"
+rotation:  {layer: 2}

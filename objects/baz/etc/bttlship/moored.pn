@@ -2,7 +2,7 @@ template:                "baz/etc/bttlship"
 long_name:               "Battleship-Moored"
 short_name:              "BTTLSHIP"
 notes:                   "Battleship-Moored"
-attributes:              {can_turn: true, does_bounce: true, shape_from_direction: true, occupies_space: true, appear_on_radar: true}
+attributes:              {can_turn: true, does_bounce: true, occupies_space: true, appear_on_radar: true}
 class:                   550
 race:                    "baz"
 health:                  6500

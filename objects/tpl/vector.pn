@@ -1,3 +1,2 @@
-template:    "tpl/any"
-attributes:  {is_beam: true}
-vector:      {accuracy: 0, range: 0}
+template:  "tpl/any"
+vector:    {accuracy: 0, range: 0}

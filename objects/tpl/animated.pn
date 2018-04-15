@@ -1,2 +1,2 @@
-template:    "tpl/any"
-attributes:  {is_self_animated: true}
+template:   "tpl/any"
+animation:  {layer: 2}

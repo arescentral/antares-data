@@ -8,7 +8,6 @@ health:             1000
 damage:             1
 animation:
 	sprite:  "obi/etc/liner"
-	layer:   2
 	scale:   2.0
 	frames:  {begin: 0.0, end: 15.004}
 icon:

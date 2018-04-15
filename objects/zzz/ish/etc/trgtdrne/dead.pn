@@ -16,7 +16,6 @@ max_thrust:         0.25
 initial_direction:  {begin: 0, end: 360}
 animation:
 	sprite:     "ish/etc/trgtdrne"
-	layer:      2
 	frames:     {begin: 0.0, end: 23.004}
 	direction:  "+"
 	speed:      0.28
