@@ -21,6 +21,7 @@ rotation:
 	frames:  {begin: 0, end: 24}
 shield_color:       {r: 255, g: 255, b: 255}
 destroy:
+	dont_die:  true
 	action:
 		*	type:         "sound"
 			reflexive:    true
@@ -42,4 +43,3 @@ destroy:
 		*	type:       "morph"
 			reflexive:  true
 			base:       "gro/ctf/cruiser/p2-inactive"
-destroy_dont_die:   true

@@ -4,6 +4,7 @@ class:             1803
 initial_velocity:  null
 portrait:          null
 destroy:
+	dont_die:  true
 	action:
 		*	type:       "heal"
 			reflexive:  true
@@ -23,4 +24,3 @@ destroy:
 			reflexive:  true
 			delay:      "6s"
 			base:       "zzz/ish/cruiser/active"
-destroy_dont_die:  true

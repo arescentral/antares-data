@@ -14,5 +14,5 @@ icon:
 	shape:  "square"
 	size:   6
 shield_color:       {r: 240, g: 0, b: 0}
-destroy_dont_die:   true
+destroy:            {dont_die: true}
 destination_class:  -256

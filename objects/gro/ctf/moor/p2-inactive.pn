@@ -23,7 +23,9 @@ icon:
 	shape:  "plus"
 	size:   5
 shield_color:       {r: 240, g: 0, b: 0}
+destroy:            {dont_die: true}
 expire:
+	dont_die:  true
 	action:
 		*	type:       "age"
 			reflexive:  true
@@ -31,6 +33,4 @@ expire:
 		*	type:       "morph"
 			reflexive:  true
 			base:       "gro/ctf/moor/p2-active"
-destroy_dont_die:   true
-expire_dont_die:    true
 destination_class:  -256

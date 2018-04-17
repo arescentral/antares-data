@@ -33,6 +33,7 @@ icon:
 	size:   3
 shield_color:       {r: 255, g: 255, b: 255}
 destroy:
+	dont_die:  true
 	action:
 		*	type:       "heal"
 			reflexive:  true
@@ -58,7 +59,6 @@ destroy:
 			reflexive:  true
 			delay:      "1s"
 			base:       "zzz/ish/etc/trgtdrne"
-destroy_dont_die:   true
 skill_num:          3
 skill_den:          21
 offense:            0.5

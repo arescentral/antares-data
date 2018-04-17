@@ -29,13 +29,13 @@ icon:
 	size:   9
 shield_color:            {r: 255, g: 255, b: 255}
 destroy:
+	dont_die:  false
 	action:
 		*	type:                "create"
 			reflexive:           true
 			base:                "sfx/explosion/giant"
 			relative_direction:  true
-destroy_dont_die:        false
-expire_dont_die:         false
+expire:                  {dont_die: false}
 arrive_action_distance:  50000
 skill_num:               0
 skill_den:               0

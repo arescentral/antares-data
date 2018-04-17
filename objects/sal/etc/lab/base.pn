@@ -1,13 +1,14 @@
-template:          "tpl/structure"
-long_name:         "Lab"
-short_name:        "LAB"
-notes:             "Fresh"
-attributes:        {animation_cycle: true, is_destination: true}
+template:      "tpl/structure"
+long_name:     "Lab"
+short_name:    "LAB"
+notes:         "Fresh"
+attributes:    {animation_cycle: true, is_destination: true}
 animation:
 	sprite:  "sal/etc/lab"
-icon:              {size: 6}
-shield_color:      {r: 240, g: 0, b: 0}
+icon:          {size: 6}
+shield_color:  {r: 240, g: 0, b: 0}
 destroy:
+	dont_die:  true
 	action:
 		*	type:       "create"
 			reflexive:  true
@@ -20,4 +21,3 @@ destroy:
 		*	type:       "morph"
 			reflexive:  true
 			base:       "sal/etc/lab/burning"
-destroy_dont_die:  true

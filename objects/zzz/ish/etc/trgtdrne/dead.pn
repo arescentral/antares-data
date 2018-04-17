@@ -24,7 +24,7 @@ icon:
 	shape:  "triangle"
 	size:   3
 shield_color:       {r: 255, g: 255, b: 255}
-destroy_dont_die:   true
+destroy:            {dont_die: true}
 offense:            0.5
 destination_class:  1
 danger_threshold:   2.0

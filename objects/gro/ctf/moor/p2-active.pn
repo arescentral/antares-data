@@ -1,8 +1,8 @@
-template:          "tpl/structure"
-long_name:         "Tractor Moor"
-short_name:        "MOOR 2 Y"
-notes:             "Moor, for CTF, P2 Active"
-attributes:        {animation_cycle: true}
+template:      "tpl/structure"
+long_name:     "Tractor Moor"
+short_name:    "MOOR 2 Y"
+notes:         "Moor, for CTF, P2 Active"
+attributes:    {animation_cycle: true}
 animation:
 	sprite:     "gro/ctf/moor"
 	frames:     {begin: 0.0, end: 11.004}
@@ -12,8 +12,9 @@ animation:
 icon:
 	shape:  "plus"
 	size:   3
-shield_color:      {r: 240, g: 0, b: 0}
+shield_color:  {r: 240, g: 0, b: 0}
 destroy:
+	dont_die:  true
 	action:
 		*	type:       "heal"
 			reflexive:  true
@@ -21,4 +22,3 @@ destroy:
 		*	type:       "morph"
 			reflexive:  true
 			base:       "gro/ctf/moor/p2-inactive"
-destroy_dont_die:  true
