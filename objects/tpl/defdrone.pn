@@ -11,10 +11,10 @@ price:              1000
 build_ratio:        0.5
 build_time:         "5s"
 mass:               1.0
+turn_rate:          5.0
 max_velocity:       0.348
 max_thrust:         0.047
 initial_velocity:   0.098
-rotation:           {turn_rate: 5.0}
 icon:               {size: 3}
 destroy:
 	action:

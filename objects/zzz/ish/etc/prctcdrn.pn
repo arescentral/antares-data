@@ -2,7 +2,7 @@ template:           "tpl/hazard"
 long_name:          "Practice Drone"
 short_name:         "PRCTCDRN"
 notes:              "Practice Drone"
-attributes:         {can_turn: true, can_be_engaged: true, has_direction_goal: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, release_energy_on_death: true, hated: true, static_destination: true, can_be_evaded: true}
+attributes:         {can_be_engaged: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, release_energy_on_death: true, hated: true, static_destination: true, can_be_evaded: true}
 order_flags:        {local: true}
 class:              1802
 race:               "ish"
@@ -12,6 +12,7 @@ price:              600
 build_ratio:        0.75
 build_time:         "3s"
 mass:               0.797
+turn_rate:          2.0
 max_velocity:       3.0
 max_thrust:         0.297
 initial_velocity:   0.5

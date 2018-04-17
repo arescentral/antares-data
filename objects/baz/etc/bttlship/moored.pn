@@ -2,7 +2,7 @@ template:           "baz/etc/bttlship"
 long_name:          "Battleship-Moored"
 short_name:         "BTTLSHIP"
 notes:              "Battleship-Moored"
-attributes:         {can_turn: true, does_bounce: true, occupies_space: true, appear_on_radar: true}
+attributes:         {does_bounce: true, occupies_space: true, appear_on_radar: true}
 class:              550
 race:               "baz"
 health:             6500
@@ -19,11 +19,10 @@ initial_direction:  {begin: 0, end: 360}
 warp_speed:         0.0
 warp_out_distance:  9734400
 rotation:
-	sprite:     "baz/bttlship"
-	layer:      2
-	scale:      2.0
-	frames:     {begin: 0, end: 36}
-	turn_rate:  1.0
+	sprite:  "baz/bttlship"
+	layer:   2
+	scale:   2.0
+	frames:  {begin: 0, end: 36}
 icon:
 	shape:  "diamond"
 	size:   9

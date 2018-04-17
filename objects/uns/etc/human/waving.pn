@@ -2,9 +2,10 @@ template:           "tpl/hazard"
 long_name:          "Human"
 short_name:         "HUMAN"
 notes:              "Human needs rescuing (waving)"
-attributes:         {can_turn: true, has_direction_goal: true, can_engage: true, occupies_space: false, static_destination: true}
+attributes:         {can_engage: true, occupies_space: false, static_destination: true}
 health:             1
 mass:               0.5
+turn_rate:          2.0
 max_thrust:         0.008
 initial_velocity:   {begin: 0.5, end: 2.0}
 initial_direction:  {begin: 0, end: 360}

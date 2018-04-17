@@ -4,6 +4,7 @@ race:              "gai"
 health:            650
 price:             800
 mass:              0.9
+turn_rate:         1.5
 max_velocity:      3.5
 initial_velocity:  3.5
 weapons:
@@ -13,9 +14,8 @@ weapons:
 			*	{x: -10.0, y: 0.0}
 			*	{x: 10.0, y: 0.0}
 rotation:
-	sprite:     "gai/cruiser"
-	frames:     {begin: 0, end: 24}
-	turn_rate:  1.5
+	sprite:  "gai/cruiser"
+	frames:  {begin: 0, end: 24}
 portrait:          "gai/cruiser"
 shield_color:      {r: 240, g: 234, b: 195}
 danger_threshold:  0.0

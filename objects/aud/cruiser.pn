@@ -2,6 +2,7 @@ template:           "tpl/cruiser"
 notes:              "Cruiser"
 race:               "aud"
 health:             1500
+turn_rate:          2.5
 max_velocity:       7.5
 warp_speed:         50.0
 warp_out_distance:  32972718
@@ -20,8 +21,7 @@ weapons:
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:
-	sprite:     "aud/cruiser"
-	frames:     {begin: 0, end: 24}
-	turn_rate:  2.5
+	sprite:  "aud/cruiser"
+	frames:  {begin: 0, end: 24}
 portrait:           "aud/cruiser"
 shield_color:       {r: 120, g: 120, b: 240}

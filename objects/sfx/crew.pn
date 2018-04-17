@@ -2,21 +2,21 @@ template:           "tpl/oriented"
 long_name:          "Castaway Crew Member"
 short_name:         "CREW"
 notes:              "Castaway Crew Member"
-attributes:         {can_turn: true, has_direction_goal: true, does_bounce: true, animation_cycle: true}
+attributes:         {does_bounce: true, animation_cycle: true}
 health:             1
 damage:             1
 initial_age:
 	begin:  "16s40t"
 	end:    "25s"
 mass:               0.5
+turn_rate:          2.0
 max_velocity:       3.0
 initial_velocity:   {begin: 0.5, end: 2.0}
 initial_direction:  {begin: 0, end: 360}
 rotation:
-	sprite:     "sfx/crew"
-	scale:      0.5
-	frames:     {begin: 0, end: 24}
-	turn_rate:  2.0
+	sprite:  "sfx/crew"
+	scale:   0.5
+	frames:  {begin: 0, end: 24}
 icon:
 	shape:  "square"
 	size:   1

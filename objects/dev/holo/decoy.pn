@@ -2,7 +2,7 @@ template:           "tpl/oriented"
 long_name:          "Holographic Decoy"
 short_name:         "HOLODCOY"
 notes:              "Holographic Decoy"
-attributes:         {can_turn: true, can_be_engaged: true, does_bounce: true, hated: true, can_be_evaded: true, appear_on_radar: true}
+attributes:         {can_be_engaged: true, does_bounce: true, hated: true, can_be_evaded: true, appear_on_radar: true}
 health:             1500
 energy:             1000
 build_ratio:        1.0
@@ -18,9 +18,8 @@ initial_direction:  {begin: 0, end: 360}
 warp_speed:         50.0
 warp_out_distance:  32972718
 rotation:
-	sprite:     "aud/cruiser"
-	frames:     {begin: 0, end: 24}
-	turn_rate:  2.5
+	sprite:  "aud/cruiser"
+	frames:  {begin: 0, end: 24}
 icon:
 	shape:  "triangle"
 	size:   4

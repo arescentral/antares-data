@@ -2,18 +2,18 @@ template:           "tpl/oriented"
 long_name:          "Human"
 short_name:         "HUMAN"
 notes:              "Needs rescuing, Not Waving"
-attributes:         {can_turn: true, has_direction_goal: true, does_bounce: true, can_engage: true, can_accept_destination: true, animation_cycle: true, can_collide: true, can_be_hit: true, static_destination: true, appear_on_radar: true}
+attributes:         {does_bounce: true, can_engage: true, can_accept_destination: true, animation_cycle: true, can_collide: true, can_be_hit: true, static_destination: true, appear_on_radar: true}
 health:             1
 mass:               0.5
+turn_rate:          2.0
 max_velocity:       1.0
 max_thrust:         0.098
 initial_velocity:   {begin: 0.5, end: 2.0}
 initial_direction:  {begin: 0, end: 360}
 rotation:
-	sprite:     "uns/etc/human/turning"
-	scale:      0.5
-	frames:     {begin: 0, end: 24}
-	turn_rate:  2.0
+	sprite:  "uns/etc/human/turning"
+	scale:   0.5
+	frames:  {begin: 0, end: 24}
 icon:
 	shape:  "plus"
 	size:   2

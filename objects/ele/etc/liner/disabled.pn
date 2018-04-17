@@ -1,8 +1,9 @@
 template:      "ele/etc/liner"
 notes:         "Liner Disabled"
-attributes:    {can_turn: false, can_be_engaged: false, has_direction_goal: false, does_bounce: false, can_evade: false, can_accept_destination: false, hated: false}
+attributes:    {can_be_engaged: false, does_bounce: false, can_evade: false, can_accept_destination: false, hated: false}
 build_flags:   {uncaptured_base_exists: false, sufficient_escorts_exist: false}
 order_flags:   {stronger_than_target: false, base: false, foe: false}
+turn_rate:     null
 max_velocity:  0.5
 max_thrust:    0.0
 portrait:      null

@@ -2,11 +2,12 @@ template:           "tpl/hazard"
 long_name:          "Obiard"
 short_name:         "OBIARD"
 notes:              "Needs rescuing, waving"
-attributes:         {can_turn: true, has_direction_goal: true, can_engage: true, occupies_space: false, static_destination: true}
+attributes:         {can_engage: true, occupies_space: false, static_destination: true}
 build_flags:        {can_only_engage: true}
 engage_tag:         "e"
 health:             1
 mass:               0.5
+turn_rate:          2.0
 max_thrust:         0.008
 initial_velocity:   {begin: 0.5, end: 2.0}
 initial_direction:  {begin: 0, end: 360}

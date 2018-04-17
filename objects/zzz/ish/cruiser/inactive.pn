@@ -2,9 +2,9 @@ template:      "zzz/ish/cruiser/active"
 long_name:     "Cruiser Dead"
 notes:         "Practice Inactive"
 attributes:    {can_be_engaged: false, can_engage: false, can_evade: false, can_collide: false, can_be_hit: false, hated: false, can_be_evaded: false}
+turn_rate:     null
 max_velocity:  0.0
 max_thrust:    0.0
 warp_speed:    0.0
 weapons:       {pulse: null, beam: null}
-rotation:      {turn_rate: null}
 destroy:       {action: null}

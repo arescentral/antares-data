@@ -2,17 +2,17 @@ template:          "tpl/opulse"
 long_name:         "C Missile"
 short_name:        "CMISSILE"
 notes:             "Can't target or turn?"
-attributes:        {can_turn: true, has_direction_goal: true, does_bounce: true, can_engage: true, can_be_hit: true, hated: true, can_be_evaded: true, appear_on_radar: true}
+attributes:        {does_bounce: true, can_engage: true, can_be_hit: true, hated: true, can_be_evaded: true, appear_on_radar: true}
 health:            25
 damage:            200
 initial_age:       "0.5s"
+turn_rate:         0.008
 max_velocity:      9.0
 max_thrust:        0.2
 initial_velocity:  0.5
 rotation:
-	sprite:     "dev/cm"
-	frames:     {begin: 0, end: 24}
-	turn_rate:  0.008
+	sprite:  "dev/cm"
+	frames:  {begin: 0, end: 24}
 icon:
 	shape:  "square"
 destroy:

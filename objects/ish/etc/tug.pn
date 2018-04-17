@@ -9,13 +9,13 @@ health:             700
 energy:             2000
 price:              2200
 mass:               1.2
+turn_rate:          0.4
 max_velocity:       2.0
 max_thrust:         0.18
 initial_velocity:   0.5
 rotation:
-	sprite:     "ish/etc/astrominer"
-	frames:     {begin: 0, end: 24}
-	turn_rate:  0.4
+	sprite:  "ish/etc/astrominer"
+	frames:  {begin: 0, end: 24}
 icon:               {size: 5}
 portrait:           "ish/etc/tug"
 shield_color:       {r: 255, g: 255, b: 255}

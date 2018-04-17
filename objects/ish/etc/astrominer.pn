@@ -10,6 +10,7 @@ energy:             2000
 price:              800
 build_time:         "6s"
 mass:               1.2
+turn_rate:          0.797
 max_velocity:       4.0
 max_thrust:         0.15
 initial_velocity:   4.0
@@ -22,9 +23,8 @@ weapons:
 			*	{x: 15.0, y: 0.0}
 			*	{x: -15.0, y: 0.0}
 rotation:
-	sprite:     "ish/etc/astrominer"
-	frames:     {begin: 0, end: 24}
-	turn_rate:  0.797
+	sprite:  "ish/etc/astrominer"
+	frames:  {begin: 0, end: 24}
 icon:               {size: 5}
 portrait:           "ish/etc/astrominer"
 shield_color:       {r: 255, g: 255, b: 255}

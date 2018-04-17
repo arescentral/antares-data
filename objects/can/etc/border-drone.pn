@@ -2,13 +2,14 @@ template:           "tpl/oriented"
 long_name:          "Border Drone"
 short_name:         "BRDRDRNE"
 notes:              "Border Drone"
-attributes:         {can_turn: true, has_direction_goal: true, does_bounce: true, can_engage: true, can_collide: true, can_be_hit: true, can_be_evaded: true, appear_on_radar: true}
+attributes:         {does_bounce: true, can_engage: true, can_collide: true, can_be_hit: true, can_be_evaded: true, appear_on_radar: true}
 class:              601
 race:               "can"
 health:             15000
 energy:             1000
 price:              1000
 mass:               1.0
+turn_rate:          5.0
 initial_direction:  {begin: 0, end: 360}
 weapons:
 	pulse:
@@ -24,9 +25,8 @@ weapons:
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:
-	sprite:     "loc/flak"
-	frames:     {begin: 0, end: 24}
-	turn_rate:  5.0
+	sprite:  "loc/flak"
+	frames:  {begin: 0, end: 24}
 icon:
 	shape:  "square"
 	size:   3
