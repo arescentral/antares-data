@@ -2,7 +2,7 @@ template:           "tpl/hazard"
 long_name:          "Target Drone"
 short_name:         "TRGTDRNE"
 notes:              "Target Drone"
-attributes:         {can_be_engaged: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, release_energy_on_death: true, hated: true, can_be_evaded: true}
+attributes:         {can_be_engaged: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, hated: true, can_be_evaded: true}
 order_flags:        {local: true}
 class:              123
 race:               "ish"
@@ -34,7 +34,8 @@ icon:
 	size:   3
 shield_color:       {r: 255, g: 255, b: 255}
 destroy:
-	dont_die:  true
+	dont_die:        true
+	release_energy:  true
 	action:
 		*	type:       "heal"
 			reflexive:  true

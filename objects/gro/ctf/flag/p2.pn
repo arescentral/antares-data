@@ -2,7 +2,7 @@ template:           "tpl/utilship"
 long_name:          "Player 2's Flag"
 short_name:         "FLAG P2"
 notes:              "Flag, for CTF, P2"
-attributes:         {can_engage: false, can_evade: false, release_energy_on_death: false}
+attributes:         {can_engage: false, can_evade: false}
 class:              222
 race:               "gro"
 health:             100000
@@ -21,6 +21,7 @@ rotation:
 icon:               {size: 5}
 shield_color:       {r: 255, g: 255, b: 255}
 destroy:
+	release_energy:  false
 	action:
 		*	type:                "create"
 			reflexive:           true

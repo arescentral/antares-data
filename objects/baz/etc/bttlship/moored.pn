@@ -28,7 +28,9 @@ icon:
 	size:   9
 shield_color:       {r: 255, g: 255, b: 255}
 destroy:
-	dont_die:  false
+	dont_die:        false
+	neutralize:      false
+	release_energy:  false
 	action:
 		*	type:                "create"
 			reflexive:           true

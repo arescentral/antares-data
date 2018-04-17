@@ -2,7 +2,7 @@ template:          "tpl/hazard"
 long_name:         "Nastiroid"
 short_name:        "NASTROID"
 notes:             "Nastiroid"
-attributes:        {does_bounce: false, release_energy_on_death: true, hated: true, can_be_evaded: true}
+attributes:        {does_bounce: false, hated: true, can_be_evaded: true}
 health:            500000
 damage:            40000
 energy:            2000
@@ -20,6 +20,7 @@ icon:
 	shape:  "diamond"
 	size:   8
 destroy:
+	release_energy:  true
 	action:
 		*	type:       "create"
 			reflexive:  true

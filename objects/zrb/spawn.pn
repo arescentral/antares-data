@@ -2,7 +2,7 @@ template:           "tpl/hazard"
 long_name:          "Zerbilite Spawn"
 short_name:         "ZERBLITE"
 notes:              "Zerbilite Spawn"
-attributes:         {can_be_engaged: true, does_bounce: false, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, release_energy_on_death: true, hated: true, can_be_evaded: true}
+attributes:         {can_be_engaged: true, does_bounce: false, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, hated: true, can_be_evaded: true}
 order_flags:        {local: true}
 class:              100
 health:             70
@@ -27,6 +27,7 @@ icon:
 	shape:  "triangle"
 shield_color:       {r: 240, g: 240, b: 120}
 destroy:
+	release_energy:  true
 	action:
 		*	type:       "create"
 			reflexive:  true
