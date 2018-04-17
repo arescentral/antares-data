@@ -1,14 +1,14 @@
-template:                "tpl/oriented"
-long_name:               "Obiard"
-short_name:              "OBIARD"
-notes:                   "Returning to Base"
-attributes:              {can_turn: true, has_direction_goal: true, does_bounce: true, can_engage: true, can_accept_destination: true, animation_cycle: true, static_destination: true, appear_on_radar: true}
-health:                  1
-mass:                    0.5
-max_velocity:            3.0
-max_thrust:              0.02
-initial_velocity:        {begin: 0.5, end: 2.0}
-initial_direction:       {begin: 0, end: 360}
+template:           "tpl/oriented"
+long_name:          "Obiard"
+short_name:         "OBIARD"
+notes:              "Returning to Base"
+attributes:         {can_turn: true, has_direction_goal: true, does_bounce: true, can_engage: true, can_accept_destination: true, animation_cycle: true, static_destination: true, appear_on_radar: true}
+health:             1
+mass:               0.5
+max_velocity:       3.0
+max_thrust:         0.02
+initial_velocity:   {begin: 0.5, end: 2.0}
+initial_direction:  {begin: 0, end: 360}
 weapons:
 	beam:
 		base:  "dev/pk/ish/hand"
@@ -26,6 +26,7 @@ create:
 			delay:           "0.05s"
 			initial_object:  0
 arrive:
+	distance:  5000
 	action:
 		*	type:         "sound"
 			if:
@@ -44,7 +45,6 @@ arrive:
 			if:
 				level_tag:  "6"
 			kind:  "expire"
-arrive_action_distance:  5000
-skill_num:               3
-skill_den:               21
-destination_class:       -256
+skill_num:          3
+skill_den:          21
+destination_class:  -256

@@ -42,6 +42,9 @@ collide:
 				level_tag:  "e"
 			kind:  "expire"
 activate:
+	period:
+		begin:  "32t"
+		end:    "1s4t"
 	action:
 		*	type:       "disable"
 			reflexive:  true
@@ -64,9 +67,6 @@ activate:
 			delay:      "4.5s"
 			base:       "uns/etc/human/turning"
 			keep_ammo:  true
-activate_period:
-	begin:  "32t"
-	end:    "1s4t"
 skill_num:          3
 skill_den:          21
 destination_class:  -256

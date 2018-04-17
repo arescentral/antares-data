@@ -38,12 +38,12 @@ collide:
 			reflexive:  true
 			kind:       "expire"
 activate:
+	period:  "0.05s"
 	action:
 		*	type:       "create"
 			reflexive:  true
 			base:       "sfx/sparkle"
 			count:      {begin: 1, end: 3}
 			distance:   16
-activate_period:   "0.05s"
 skill_num:         3
 skill_den:         21

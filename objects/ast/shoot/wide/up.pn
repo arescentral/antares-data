@@ -8,6 +8,9 @@ animation:
 	sprite:  "sfx/invisible"
 shield_color:  {r: 240, g: 0, b: 0}
 activate:
+	period:
+		begin:  "4.25s"
+		end:    "8.5s"
 	action:
 		*	type:                "create"
 			reflexive:           true
@@ -22,6 +25,3 @@ activate:
 			count:               {begin: -4, end: 1}
 			relative_direction:  true
 			distance:            4096
-activate_period:
-	begin:  "4.25s"
-	end:    "8.5s"

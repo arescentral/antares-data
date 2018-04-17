@@ -20,12 +20,12 @@ create:
 			length:     128
 			shade:      15
 activate:
+	period:
+		begin:  "4t"
+		end:    "8t"
 	action:
 		*	type:       "flash"
 			reflexive:  true
 			hue:        "yellow"
 			length:     128
 			shade:      15
-activate_period:
-	begin:  "4t"
-	end:    "8t"

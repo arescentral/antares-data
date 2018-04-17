@@ -1,21 +1,21 @@
-template:                "tpl/hazard"
-long_name:               "Zerbilite Spawn"
-short_name:              "ZERBLITE"
-notes:                   "Zerbilite Spawn"
-attributes:              {can_be_engaged: true, does_bounce: false, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, release_energy_on_death: true, hated: true, can_be_evaded: true}
-order_flags:             {local: true}
-class:                   100
-health:                  70
-damage:                  20
-energy:                  600
-price:                   600
-build_ratio:             0.75
-build_time:              "3s"
-mass:                    0.098
-max_velocity:            6.0
-max_thrust:              0.098
-initial_velocity:        6.0
-initial_direction:       {begin: 0, end: 360}
+template:           "tpl/hazard"
+long_name:          "Zerbilite Spawn"
+short_name:         "ZERBLITE"
+notes:              "Zerbilite Spawn"
+attributes:         {can_be_engaged: true, does_bounce: false, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, release_energy_on_death: true, hated: true, can_be_evaded: true}
+order_flags:        {local: true}
+class:              100
+health:             70
+damage:             20
+energy:             600
+price:              600
+build_ratio:        0.75
+build_time:         "3s"
+mass:               0.098
+max_velocity:       6.0
+max_thrust:         0.098
+initial_velocity:   6.0
+initial_direction:  {begin: 0, end: 360}
 animation:
 	sprite:     "zrb/base"
 	scale:      0.5
@@ -25,7 +25,7 @@ animation:
 	first:      {begin: 0.0, end: 3.0}
 icon:
 	shape:  "triangle"
-shield_color:            {r: 240, g: 240, b: 120}
+shield_color:       {r: 240, g: 240, b: 120}
 destroy:
 	action:
 		*	type:       "create"
@@ -49,9 +49,9 @@ collide:
 			priority:     3
 			persistence:  "10t"
 			volume:       255
-arrive_action_distance:  0
-skill_num:               3
-skill_den:               21
-offense:                 0.5
-destination_class:       1
-danger_threshold:        2.0
+arrive:             {distance: 0}
+skill_num:          3
+skill_den:          21
+offense:            0.5
+destination_class:  1
+danger_threshold:   2.0

@@ -1,25 +1,25 @@
-long_name:               "Untitled"
-short_name:              "UNTITLED"
-notes:                   "Untitled Object"
-class:                   -1
-health:                  0
-damage:                  0
-energy:                  0
-price:                   0
-build_ratio:             0.0
-build_time:              "0s"
-occupy_count:            0
-mass:                    0.0
-max_velocity:            0.0
-max_thrust:              0.0
-warp_speed:              0.0
-warp_out_distance:       0
-destroy:                 {dont_die: false}
-expire:                  {dont_die: false}
-arrive_action_distance:  50000
-skill_num:               0
-skill_den:               0
-offense:                 0.0
-destination_class:       0
-friend_deficit:          0.0
-danger_threshold:        0.0
+long_name:          "Untitled"
+short_name:         "UNTITLED"
+notes:              "Untitled Object"
+class:              -1
+health:             0
+damage:             0
+energy:             0
+price:              0
+build_ratio:        0.0
+build_time:         "0s"
+occupy_count:       0
+mass:               0.0
+max_velocity:       0.0
+max_thrust:         0.0
+warp_speed:         0.0
+warp_out_distance:  0
+destroy:            {dont_die: false}
+expire:             {dont_die: false}
+arrive:             {distance: 50000}
+skill_num:          0
+skill_den:          0
+offense:            0.0
+destination_class:  0
+friend_deficit:     0.0
+danger_threshold:   0.0

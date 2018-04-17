@@ -1,18 +1,18 @@
-template:                "tpl/apulse"
-long_name:               "Energy"
-short_name:              "ENERGY"
-notes:                   "Energy"
-attributes:              {can_be_engaged: true, can_engage: true, animation_cycle: true, appear_on_radar: true}
-health:                  100
-damage:                  0
+template:           "tpl/apulse"
+long_name:          "Energy"
+short_name:         "ENERGY"
+notes:              "Energy"
+attributes:         {can_be_engaged: true, can_engage: true, animation_cycle: true, appear_on_radar: true}
+health:             100
+damage:             0
 initial_age:
 	begin:  "9s"
 	end:    "10s10t"
-mass:                    0.0
-max_velocity:            2.0
-max_thrust:              0.5
-initial_velocity:        {begin: 0.0, end: 2.0}
-initial_direction:       {begin: 0, end: 360}
+mass:               0.0
+max_velocity:       2.0
+max_thrust:         0.5
+initial_velocity:   {begin: 0.0, end: 2.0}
+initial_direction:  {begin: 0, end: 360}
 animation:
 	sprite:     "sfx/energy"
 	frames:     {begin: 0.0, end: 2.004}
@@ -36,6 +36,6 @@ collide:
 			priority:     3
 			persistence:  "10t"
 			volume:       255
-arrive_action_distance:  18
-skill_num:               3
-skill_den:               21
+arrive:             {distance: 18}
+skill_num:          3
+skill_den:          21

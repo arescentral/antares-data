@@ -19,11 +19,11 @@ collide:
 			reflexive:  true
 			kind:       "expire"
 activate:
+	period:  "1t"
 	action:
 		*	type:                "create"
 			reflexive:           true
 			base:                "dev/fireball/trail"
 			relative_direction:  true
-activate_period:   "1t"
 skill_num:         3
 skill_den:         21

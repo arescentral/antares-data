@@ -22,6 +22,9 @@ expire:
 			reflexive:  true
 			enable:     1
 activate:
+	period:
+		begin:  "16t"
+		end:    "32t"
 	action:
 		*	type:               "create"
 			reflexive:          true
@@ -53,8 +56,5 @@ activate:
 		*	type:       "reveal"
 			reflexive:  true
 			which:      {begin: 4, end: 12}
-activate_period:
-	begin:  "16t"
-	end:    "32t"
 skill_num:    0
 skill_den:    0
