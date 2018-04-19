@@ -1,5 +1,5 @@
 template:           "tpl/waypoint"
-attributes:         {can_be_engaged: true, can_collide: true, can_be_hit: true, hated: true, appear_on_radar: true}
+attributes:         {can_be_engaged: true, hated: true, appear_on_radar: true}
 health:             1000
 icon:
 	shape:  "square"
@@ -9,4 +9,6 @@ destroy:
 			reflexive:           true
 			base:                "sfx/explosion/large"
 			relative_direction:  true
+collide:
+	as:  {subject: true, object: true}
 destination_class:  -256

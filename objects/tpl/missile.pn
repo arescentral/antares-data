@@ -1,7 +1,6 @@
 template:          "tpl/opulse"
-attributes:        {does_bounce: true, can_engage: true, can_be_hit: true, hated: true, can_be_evaded: true, is_guided: true, appear_on_radar: true}
+attributes:        {can_engage: true, hated: true, can_be_evaded: true, is_guided: true, appear_on_radar: true}
 health:            25
-damage:            200
 initial_age:       "2s40t"
 turn_rate:         1.0
 max_velocity:      9.0
@@ -19,6 +18,9 @@ destroy:
 			reflexive:  true
 			kind:       "expire"
 collide:
+	as:      {object: true}
+	damage:  200
+	edge:    true
 	action:
 		*	type:                "create"
 			reflexive:           true

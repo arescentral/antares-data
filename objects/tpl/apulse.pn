@@ -1,7 +1,5 @@
 template:           "tpl/animated"
-attributes:         {can_collide: true}
 health:             1000
-damage:             100
 initial_age:        "40t"
 mass:               0.5
 max_velocity:       7.0
@@ -10,4 +8,7 @@ animation:          {layer: 3}
 icon:
 	shape:  "square"
 	size:   1
+collide:
+	as:      {subject: true}
+	damage:  100
 destination_class:  -256

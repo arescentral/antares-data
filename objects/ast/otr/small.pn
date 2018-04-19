@@ -2,7 +2,7 @@ template:           "tpl/hazard"
 long_name:          "Asteroid Debris"
 short_name:         "ASTRDBRS"
 notes:              "Asteroid Debris"
-attributes:         {can_be_engaged: true, occupies_space: false}
+attributes:         {can_be_engaged: true}
 health:             1000
 mass:               1.0
 max_velocity:       4.0
@@ -21,6 +21,7 @@ destroy:
 			reflexive:  true
 			base:       "sfx/explosion/small"
 collide:
+	solid:  false
 	action:
 		*	type:    "score"
 			which:   1

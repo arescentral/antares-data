@@ -3,7 +3,6 @@ long_name:          "Lightwave Pulse"
 short_name:         "L PULSE"
 notes:              "Lightwave Pulse"
 attributes:         {animation_cycle: true}
-damage:             50
 initial_age:        "20t"
 mass:               0.02
 max_velocity:       13.0
@@ -17,6 +16,7 @@ animation:
 	speed:      0.156
 	first:      {begin: 0.0, end: 5.0}
 collide:
+	damage:  50
 	action:
 		*	type:   "push"
 			kind:   "decelerate"

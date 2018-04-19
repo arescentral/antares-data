@@ -2,7 +2,6 @@ template:          "tpl/bolt"
 long_name:         "Lepton Beam"
 short_name:        "L BEAM"
 notes:             "Lepton Beam"
-damage:            80
 initial_age:       "29t"
 max_velocity:      20.0
 max_thrust:        0.65
@@ -19,6 +18,7 @@ create:
 			persistence:  "10t"
 			volume:       255
 collide:
+	damage:  80
 	action:
 		*	type:                "create"
 			reflexive:           true

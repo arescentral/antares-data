@@ -2,7 +2,7 @@ template:           "tpl/hazard"
 long_name:          "Obiard"
 short_name:         "OBIARD"
 notes:              "Needs rescuing, waving"
-attributes:         {can_engage: true, occupies_space: false, static_destination: true}
+attributes:         {can_engage: true, static_destination: true}
 build_flags:        {can_only_engage: true}
 engage_tag:         "e"
 health:             1
@@ -27,6 +27,7 @@ destroy:
 			value:      1
 			player:     0
 collide:
+	solid:  false
 	action:
 		*	type:    "score"
 			if:

@@ -3,7 +3,6 @@ long_name:     "Small Destruction Explosion"
 short_name:    "EXPLSN"
 notes:         "Small Destruction Explosion"
 health:        1000
-damage:        100
 max_velocity:  20.0
 animation:
 	sprite:     "sfx/explosion/energy"
@@ -22,3 +21,4 @@ create:
 			priority:     3
 			persistence:  "20t"
 			volume:       255
+collide:       {damage: 100}

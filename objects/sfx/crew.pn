@@ -2,9 +2,8 @@ template:           "tpl/oriented"
 long_name:          "Castaway Crew Member"
 short_name:         "CREW"
 notes:              "Castaway Crew Member"
-attributes:         {does_bounce: true, animation_cycle: true}
+attributes:         {animation_cycle: true}
 health:             1
-damage:             1
 initial_age:
 	begin:  "16s40t"
 	end:    "25s"
@@ -29,4 +28,5 @@ expire:
 		*	type:       "kill"
 			reflexive:  true
 			kind:       "expire"
+collide:            {damage: 1, edge: true}
 destination_class:  -256

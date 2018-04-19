@@ -2,7 +2,6 @@ template:          "tpl/apulse"
 long_name:         "Fireball Trail"
 short_name:        "FIRETRL"
 notes:             "Fireball Trail"
-damage:            50
 initial_age:       null
 mass:              0.0
 max_velocity:      0.0
@@ -14,6 +13,7 @@ animation:
 	speed:      0.312
 icon:              null
 collide:
+	damage:  50
 	action:
 		*	type:                "create"
 			reflexive:           true

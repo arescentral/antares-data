@@ -3,7 +3,6 @@ long_name:   "Energy Explosion"
 short_name:  "EXPLSN"
 notes:       "Energy Explosion"
 health:      1000
-damage:      100
 animation:
 	sprite:     "sfx/explosion/energy"
 	scale:      0.25
@@ -25,3 +24,4 @@ create:
 			hue:        "orange"
 			decay:      20
 			velocity:   2.0
+collide:     {damage: 100}

@@ -5,7 +5,6 @@ notes:              "Ares for Shoplifter 2"
 attributes:         {can_be_destination: true}
 level_tag:          "6"
 health:             1000
-damage:             1
 animation:
 	sprite:  "uns/ares"
 	scale:   2.0
@@ -13,6 +12,7 @@ animation:
 icon:
 	shape:  "plus"
 	size:   7
+collide:            {damage: 1}
 offense:            -5.0
 destination_class:  -256
 friend_deficit:     -5.0

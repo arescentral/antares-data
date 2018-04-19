@@ -3,7 +3,6 @@ long_name:   "Large Energy Exp"
 short_name:  "ENRGYEXP"
 notes:       "Large Energy Exp"
 health:      1000
-damage:      100
 animation:
 	sprite:     "sfx/explosion/large-hit"
 	scale:      2.0
@@ -24,3 +23,4 @@ create:
 			hue:        "orange"
 			decay:      20
 			velocity:   2.0
+collide:     {damage: 100}

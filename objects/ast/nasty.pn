@@ -2,9 +2,8 @@ template:          "tpl/hazard"
 long_name:         "Nastiroid"
 short_name:        "NASTROID"
 notes:             "Nastiroid"
-attributes:        {does_bounce: false, hated: true, can_be_evaded: true}
+attributes:        {hated: true, can_be_evaded: true}
 health:            500000
-damage:            40000
 energy:            2000
 mass:              10.0
 max_velocity:      7.0
@@ -26,6 +25,8 @@ destroy:
 			reflexive:  true
 			base:       "sfx/explosion/giant"
 collide:
+	damage:  40000
+	edge:    false
 	action:
 		*	type:       "kill"
 			reflexive:  true

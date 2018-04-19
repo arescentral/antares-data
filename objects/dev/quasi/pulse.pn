@@ -3,7 +3,6 @@ long_name:          "Quasimatter Pulse"
 short_name:         "QSIPULSE"
 notes:              "Quasimatter Pulse"
 attributes:         {animation_cycle: true}
-damage:             200
 initial_age:        "1s"
 max_velocity:       15.0
 initial_velocity:   15.0
@@ -15,6 +14,7 @@ animation:
 	speed:      0.105
 	first:      {begin: 0.0, end: 5.0}
 collide:
+	damage:  200
 	action:
 		*	type:      "spark"
 			count:     20

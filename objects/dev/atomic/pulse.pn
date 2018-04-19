@@ -4,7 +4,6 @@ short_name:        "ATOMPLSE"
 notes:             "Atomic Pulse"
 attributes:        {can_engage: true, autotarget: true, animation_cycle: true, hated: true, can_be_evaded: true, is_guided: true, appear_on_radar: true}
 health:            5
-damage:            200
 initial_age:       "5s7t"
 mass:              4.0
 max_thrust:        0.098
@@ -24,6 +23,7 @@ create:
 			persistence:  "20t"
 			volume:       255
 collide:
+	damage:  200
 	action:
 		*	type:                "create"
 			reflexive:           true

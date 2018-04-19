@@ -2,7 +2,7 @@ template:    "tpl/opulse"
 long_name:   "Fusion Pulse"
 short_name:  "FPULSE 1"
 notes:       "Fusion Pulse"
-attributes:  {does_bounce: true, animation_cycle: true}
+attributes:  {animation_cycle: true}
 rotation:
 	sprite:  "dev/fusion"
 	frames:  {begin: 0, end: 24}
@@ -17,6 +17,7 @@ create:
 			persistence:  "10t"
 			volume:       255
 collide:
+	edge:  true
 	action:
 		*	type:       "disable"
 			reflexive:  true

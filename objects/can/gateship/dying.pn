@@ -1,6 +1,6 @@
 template:     "can/gateship/base"
 notes:        "Blowing up & Dying Left & Right"
-attributes:   {can_be_engaged: false, can_be_destination: false, can_engage: false, can_evade: false, can_accept_destination: false, can_collide: false, can_be_hit: false, hated: false, can_be_evaded: false}
+attributes:   {can_be_engaged: false, can_be_destination: false, can_engage: false, can_evade: false, can_accept_destination: false, hated: false, can_be_evaded: false}
 health:       1
 initial_age:  "12s"
 max_thrust:   0.0
@@ -21,6 +21,8 @@ expire:
 		*	type:       "condition"
 			reflexive:  true
 			enable:     1
+collide:
+	as:  {subject: false, object: false}
 activate:
 	period:
 		begin:  "16t"

@@ -2,7 +2,7 @@ template:           "tpl/oriented"
 long_name:          "Border Drone"
 short_name:         "BRDRDRNE"
 notes:              "Border Drone"
-attributes:         {does_bounce: true, can_engage: true, can_collide: true, can_be_hit: true, can_be_evaded: true, appear_on_radar: true}
+attributes:         {can_engage: true, can_be_evaded: true, appear_on_radar: true}
 class:              601
 race:               "can"
 health:             15000
@@ -38,6 +38,9 @@ destroy:
 			reflexive:           true
 			base:                "sfx/explosion/large"
 			relative_direction:  true
+collide:
+	as:    {subject: true, object: true}
+	edge:  true
 skill_num:          3
 skill_den:          21
 offense:            1.5

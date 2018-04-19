@@ -1,5 +1,4 @@
 template:          "tpl/beam"
-damage:            30
 initial_age:       "0.25s"
 max_velocity:      15.0
 initial_velocity:  15.0
@@ -7,3 +6,4 @@ vector:
 	kind:      "kinetic"
 	accuracy:  1966080
 	range:     65536
+collide:           {damage: 30}

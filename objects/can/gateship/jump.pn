@@ -1,7 +1,8 @@
 template:    "can/gateship/base"
 notes:       "Going through Jump Gate"
-attributes:  {can_be_engaged: false, can_engage: false, can_evade: false, hated: false, occupies_space: false, static_destination: true, can_be_evaded: false}
+attributes:  {can_be_engaged: false, can_engage: false, can_evade: false, hated: false, static_destination: true, can_be_evaded: false}
 health:      80000
 max_thrust:  0.0
 weapons:     {pulse: null, special: null}
 destroy:     {action: null}
+collide:     {solid: false}

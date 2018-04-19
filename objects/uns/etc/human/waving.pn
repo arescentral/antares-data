@@ -2,7 +2,7 @@ template:           "tpl/hazard"
 long_name:          "Human"
 short_name:         "HUMAN"
 notes:              "Human needs rescuing (waving)"
-attributes:         {can_engage: true, occupies_space: false, static_destination: true}
+attributes:         {can_engage: true, static_destination: true}
 health:             1
 mass:               0.5
 turn_rate:          2.0
@@ -26,6 +26,7 @@ destroy:
 			value:      1
 			player:     0
 collide:
+	solid:  false
 	action:
 		*	type:    "score"
 			if:

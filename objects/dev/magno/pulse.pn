@@ -3,7 +3,6 @@ long_name:     "Magno Pulse"
 short_name:    "MGNOPULS"
 notes:         "Magno Pulse"
 attributes:    {can_engage: true, autotarget: true, animation_cycle: true, hated: true, can_be_evaded: true, is_guided: true, appear_on_radar: true}
-damage:        200
 initial_age:   "2s40t"
 max_velocity:  9.0
 max_thrust:    0.2
@@ -23,6 +22,7 @@ destroy:
 			reflexive:  true
 			kind:       "expire"
 collide:
+	damage:  200
 	action:
 		*	type:                "create"
 			reflexive:           true

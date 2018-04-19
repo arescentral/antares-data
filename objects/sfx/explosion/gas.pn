@@ -3,7 +3,6 @@ long_name:     "Gas Explosion"
 short_name:    "EXPLSN"
 notes:         "Gas Explosion"
 health:        1000
-damage:        100
 max_velocity:  20.0
 animation:
 	sprite:     "sfx/explosion/gas"
@@ -21,3 +20,4 @@ create:
 			priority:     4
 			persistence:  "0.5s"
 			volume:       255
+collide:       {damage: 100}

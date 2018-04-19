@@ -2,11 +2,10 @@ template:           "tpl/hazard"
 long_name:          "Zerbilite Spawn"
 short_name:         "ZERBLITE"
 notes:              "Zerbilite Spawn"
-attributes:         {can_be_engaged: true, does_bounce: false, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, hated: true, can_be_evaded: true}
+attributes:         {can_be_engaged: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, hated: true, can_be_evaded: true}
 order_flags:        {local: true}
 class:              100
 health:             70
-damage:             20
 energy:             600
 price:              600
 build_ratio:        0.75
@@ -39,6 +38,8 @@ destroy:
 			persistence:  "10t"
 			volume:       255
 collide:
+	damage:  20
+	edge:    false
 	action:
 		*	type:   "disable"
 			if:

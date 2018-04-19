@@ -4,7 +4,6 @@ short_name:         "ENERGY"
 notes:              "Energy"
 attributes:         {can_be_engaged: true, can_engage: true, animation_cycle: true, appear_on_radar: true}
 health:             100
-damage:             0
 initial_age:
 	begin:  "9s"
 	end:    "10s10t"
@@ -20,6 +19,7 @@ animation:
 	speed:      0.156
 	first:      {begin: 0.0, end: 2.0}
 collide:
+	damage:  0
 	action:
 		*	type:   "energize"
 			if:

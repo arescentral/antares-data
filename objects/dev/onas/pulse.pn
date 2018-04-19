@@ -3,7 +3,6 @@ long_name:          "Onas Pulse"
 short_name:         "ONASPULS"
 notes:              "Onas Pulse"
 attributes:         {animation_cycle: true}
-damage:             200
 initial_age:        "0.9s"
 max_velocity:       20.0
 max_thrust:         1.0
@@ -16,6 +15,7 @@ animation:
 	speed:      0.094
 	first:      {begin: 0.0, end: 5.0}
 collide:
+	damage:  200
 	action:
 		*	type:   "push"
 			kind:   "collide"

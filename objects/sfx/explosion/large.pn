@@ -3,7 +3,6 @@ long_name:     "Large Explosion"
 short_name:    "EXPLSN"
 notes:         "Large Explosion"
 health:        1000
-damage:        100
 max_velocity:  20.0
 animation:
 	sprite:     "sfx/explosion/energy"
@@ -32,3 +31,4 @@ create:
 			base:                "sfx/crew"
 			count:               {begin: 1, end: 3}
 			relative_direction:  true
+collide:       {damage: 100}

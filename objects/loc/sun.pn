@@ -3,10 +3,10 @@ long_name:   "Sun"
 short_name:  "SUN"
 notes:       "Sun"
 health:      1000
-damage:      1
 animation:
 	sprite:  "loc/sun"
 	scale:   2.0
 icon:
 	shape:  "square"
 	size:   9
+collide:     {damage: 1}

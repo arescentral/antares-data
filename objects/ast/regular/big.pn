@@ -2,11 +2,10 @@ template:          "tpl/hazard"
 long_name:         "Asteroid"
 short_name:        "ASTEROID"
 notes:             "Asteroid, regular"
-attributes:        {can_be_engaged: true, does_bounce: false, hide_effect: true, hated: true}
+attributes:        {can_be_engaged: true, hide_effect: true, hated: true}
 build_flags:       {only_engaged_by: true}
 level_tag:         "b"
 health:            10000
-damage:            10
 mass:              10.0
 max_velocity:      3.0
 initial_velocity:  {begin: 3.0, end: 4.0}
@@ -44,4 +43,5 @@ create:
 			relative_velocity:   true
 			relative_direction:  true
 			distance:            2
+collide:           {damage: 10, edge: false}
 friend_deficit:    1.0

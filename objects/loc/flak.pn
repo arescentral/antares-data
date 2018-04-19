@@ -2,7 +2,7 @@ template:           "tpl/oriented"
 long_name:          "Flak Drone"
 short_name:         "FLCKDRON"
 notes:              "Flak Drone"
-attributes:         {does_bounce: true, can_be_destination: true, can_engage: true, can_collide: true, can_be_hit: true, can_be_evaded: true, appear_on_radar: true}
+attributes:         {can_be_destination: true, can_engage: true, can_be_evaded: true, appear_on_radar: true}
 build_flags:        {can_only_engage: true}
 level_tag:          "5"
 class:              9999
@@ -39,6 +39,9 @@ destroy:
 			reflexive:           true
 			base:                "sfx/explosion/large"
 			relative_direction:  true
+collide:
+	as:    {subject: true, object: true}
+	edge:  true
 skill_num:          3
 skill_den:          21
 offense:            1.5

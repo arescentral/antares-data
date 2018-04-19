@@ -2,7 +2,6 @@ template:     "tpl/beam"
 long_name:    "Trazer Beam"
 short_name:   "TRZRBEAM"
 notes:        "Trazer Beam"
-damage:       30
 initial_age:  "1.5s"
 vector:
 	hue:       "pale purple"
@@ -10,6 +9,7 @@ vector:
 	accuracy:  50
 	range:     300
 collide:
+	damage:  30
 	action:
 		*	type:                "create"
 			reflexive:           true

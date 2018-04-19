@@ -3,13 +3,13 @@ long_name:          "Cluster Cell"
 short_name:         "CLSTRCEL"
 notes:              "Cluster Cell"
 attributes:         {autotarget: true, animation_cycle: true}
-damage:             25
 initial_velocity:   {begin: 6.0, end: 8.0}
 initial_direction:  {begin: -5, end: 5}
 animation:
 	sprite:     "dev/cluster"
 	direction:  "+"
 collide:
+	damage:  25
 	action:
 		*	type:                "create"
 			reflexive:           true

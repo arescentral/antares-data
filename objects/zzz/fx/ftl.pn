@@ -4,7 +4,6 @@ short_name:         "LGHTDRVE"
 notes:              "Superlight Boosters"
 attributes:         {can_be_engaged: true, can_be_destination: true, can_engage: true, animation_cycle: true}
 health:             100
-damage:             0
 price:              1000
 initial_age:
 	begin:  "9s"
@@ -21,6 +20,7 @@ animation:
 	speed:      0.156
 	first:      {begin: 0.0, end: 23.0}
 icon:               null
+collide:            {damage: 0}
 arrive:
 	distance:  5000
 	action:

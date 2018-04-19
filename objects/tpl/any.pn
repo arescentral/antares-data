@@ -3,7 +3,6 @@ short_name:         "UNTITLED"
 notes:              "Untitled Object"
 class:              -1
 health:             0
-damage:             0
 energy:             0
 price:              0
 build_ratio:        0.0
@@ -16,6 +15,11 @@ warp_speed:         0.0
 warp_out_distance:  0
 destroy:            {dont_die: false, neutralize: false, release_energy: false}
 expire:             {dont_die: false}
+collide:
+	as:      {subject: false, object: false}
+	damage:  0
+	solid:   false
+	edge:    false
 arrive:             {distance: 50000}
 skill_num:          0
 skill_den:          0

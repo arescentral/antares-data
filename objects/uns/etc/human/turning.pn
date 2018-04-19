@@ -2,7 +2,7 @@ template:           "tpl/oriented"
 long_name:          "Human"
 short_name:         "HUMAN"
 notes:              "Needs rescuing, Not Waving"
-attributes:         {does_bounce: true, can_engage: true, can_accept_destination: true, animation_cycle: true, can_collide: true, can_be_hit: true, static_destination: true, appear_on_radar: true}
+attributes:         {can_engage: true, can_accept_destination: true, animation_cycle: true, static_destination: true, appear_on_radar: true}
 health:             1
 mass:               0.5
 turn_rate:          2.0
@@ -30,6 +30,8 @@ create:
 			reflexive:  true
 			player:     -1
 collide:
+	as:    {subject: true, object: true}
+	edge:  true
 	action:
 		*	type:    "score"
 			if:

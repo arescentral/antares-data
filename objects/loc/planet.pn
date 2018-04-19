@@ -3,9 +3,9 @@ long_name:   "Planet"
 short_name:  "PLANET"
 notes:       "Planet"
 health:      -1
-damage:      1
 energy:      -1
 animation:
 	sprite:  "loc/planets/marslike"
 	scale:   2.0
 icon:        {size: 8}
+collide:     {damage: 1}

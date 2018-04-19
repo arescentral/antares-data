@@ -3,7 +3,6 @@ long_name:   "Warp In Flare"
 short_name:  "WARP IN"
 notes:       "Warp In Flare"
 health:      1000
-damage:      100
 animation:
 	sprite:     "sfx/warp"
 	scale:      2.0
@@ -18,3 +17,4 @@ create:
 			priority:     3
 			persistence:  "20t"
 			volume:       255
+collide:     {damage: 100}

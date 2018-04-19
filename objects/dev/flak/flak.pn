@@ -2,9 +2,8 @@ template:           "tpl/apulse"
 long_name:          "Flak"
 short_name:         "FLAK"
 notes:              "Flak"
-attributes:         {animation_cycle: true, can_be_hit: true}
+attributes:         {animation_cycle: true}
 health:             10
-damage:             50
 initial_age:
 	begin:  "10t"
 	end:    "20t"
@@ -20,6 +19,8 @@ animation:
 	first:      {begin: 0.0, end: 8.0}
 icon:               null
 collide:
+	as:      {object: true}
+	damage:  50
 	action:
 		*	type:                "create"
 			reflexive:           true

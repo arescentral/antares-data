@@ -2,9 +2,8 @@ template:           "tpl/hazard"
 long_name:          "Debris"
 short_name:         "DEBRIS"
 notes:              "Debris"
-attributes:         {does_bounce: false, occupies_space: false, appear_on_radar: false}
+attributes:         {appear_on_radar: false}
 health:             10
-damage:             8
 initial_age:
 	begin:  "2s40t"
 	end:    "5s20t"
@@ -20,6 +19,9 @@ animation:
 	first:      {begin: 0.0, end: 8.0}
 icon:               null
 collide:
+	damage:  8
+	solid:   false
+	edge:    false
 	action:
 		*	type:                "create"
 			reflexive:           true

@@ -3,7 +3,6 @@ long_name:     "Large Explosion"
 short_name:    "EXPLOSN"
 notes:         "No bodies, no debris"
 health:        1000
-damage:        100
 max_velocity:  20.0
 animation:
 	sprite:     "sfx/explosion/energy"
@@ -22,3 +21,4 @@ create:
 			priority:     4
 			persistence:  "1s"
 			volume:       255
+collide:       {damage: 100}

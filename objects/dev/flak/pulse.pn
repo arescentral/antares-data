@@ -3,7 +3,6 @@ long_name:          "Flak Shell"
 short_name:         "FLAKSHL"
 notes:              "Flak Shell"
 attributes:         {autotarget: true, animation_cycle: true}
-damage:             25
 initial_age:
 	begin:  "0.25s"
 	end:    "0.75s"
@@ -25,6 +24,7 @@ expire:
 			base:                "sfx/explosion/flak"
 			relative_direction:  true
 collide:
+	damage:  25
 	action:
 		*	type:       "create"
 			reflexive:  true

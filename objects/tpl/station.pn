@@ -1,10 +1,12 @@
 template:           "tpl/structure"
-attributes:         {can_engage: true, can_accept_build: true, can_collide: false, is_destination: true}
+attributes:         {can_engage: true, can_accept_build: true, is_destination: true}
 level_tag:          "a"
 health:             5000
 energy:             1000
 icon:               {size: 7}
 destroy:            {neutralize: true, action: null}
+collide:
+	as:  {subject: false}
 skill_num:          3
 skill_den:          21
 destination_class:  10

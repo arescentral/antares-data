@@ -4,8 +4,8 @@ short_name:  "MOON"
 notes:       "Moon"
 attributes:  {appear_on_radar: false}
 health:      -1
-damage:      1
 energy:      -1
 animation:
 	sprite:  "loc/planets/marslike"
 icon:        {size: 6}
+collide:     {damage: 1}

@@ -1,6 +1,6 @@
 template:          "gro/ctf/cruiser/p2-active"
 notes:             "Cruiser, for CTF, Player 2, Inactive"
-attributes:        {can_evade: false, can_be_hit: false, can_be_evaded: false}
+attributes:        {can_evade: false, can_be_evaded: false}
 build_flags:       {only_engaged_by: true}
 level_tag:         "9"
 engage_tag:        "9"
@@ -9,3 +9,5 @@ max_velocity:      0.0
 initial_velocity:  null
 weapons:           {pulse: null, beam: null}
 destroy:           {action: null}
+collide:
+	as:  {object: false}

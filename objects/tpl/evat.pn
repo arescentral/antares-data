@@ -1,7 +1,7 @@
 template:           "tpl/oriented"
 long_name:          "EVA Trooper"
 short_name:         "EVAT"
-attributes:         {can_be_engaged: true, does_bounce: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, hated: true, occupies_space: true, static_destination: true, can_be_evaded: true, appear_on_radar: true}
+attributes:         {can_be_engaged: true, can_engage: true, can_evade: true, can_accept_destination: true, hated: true, static_destination: true, can_be_evaded: true, appear_on_radar: true}
 build_flags:        {can_only_engage: true}
 order_flags:        {local: true, foe: true}
 engage_tag:         "a"
@@ -31,6 +31,10 @@ destroy:
 		*	type:       "create"
 			reflexive:  true
 			base:       "sfx/explosion/small"
+collide:
+	as:     {subject: true, object: true}
+	solid:  true
+	edge:   true
 arrive:
 	distance:  5000
 	action:

@@ -1,9 +1,13 @@
 template:           "tpl/oriented"
 long_name:          "Ship"
 short_name:         "SHIP"
-attributes:         {can_be_engaged: true, does_bounce: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, can_collide: true, can_be_hit: true, hated: true, occupies_space: true, can_be_evaded: true, appear_on_radar: true}
+attributes:         {can_be_engaged: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, hated: true, can_be_evaded: true, appear_on_radar: true}
 turn_rate:          2.0
 initial_direction:  {begin: 0, end: 360}
 destroy:            {release_energy: true}
+collide:
+	as:     {subject: true, object: true}
+	solid:  true
+	edge:   true
 skill_num:          3
 skill_den:          21

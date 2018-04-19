@@ -2,11 +2,10 @@ template:           "baz/etc/bttlship"
 long_name:          "Battleship-Moored"
 short_name:         "BTTLSHIP"
 notes:              "Battleship-Moored"
-attributes:         {does_bounce: true, occupies_space: true, appear_on_radar: true}
+attributes:         {appear_on_radar: true}
 class:              550
 race:               "baz"
 health:             6500
-damage:             0
 energy:             6500
 price:              6000
 build_ratio:        0.0
@@ -37,6 +36,11 @@ destroy:
 			base:                "sfx/explosion/giant"
 			relative_direction:  true
 expire:             {dont_die: false}
+collide:
+	as:      {subject: false, object: false}
+	damage:  0
+	solid:   true
+	edge:    true
 arrive:             {distance: 50000}
 skill_num:          0
 skill_den:          0

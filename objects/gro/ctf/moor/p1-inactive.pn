@@ -2,7 +2,7 @@ template:           "tpl/waypoint"
 long_name:          "Tractor Moor"
 short_name:         "MOOR 1 N"
 notes:              "Moor, for CTF, P1 Inactive"
-attributes:         {can_engage: true, animation_cycle: true, can_collide: true, appear_on_radar: true}
+attributes:         {can_engage: true, animation_cycle: true, appear_on_radar: true}
 build_flags:        {can_only_engage: true}
 level_tag:          "9"
 engage_tag:         "9"
@@ -33,4 +33,6 @@ expire:
 		*	type:       "morph"
 			reflexive:  true
 			base:       "gro/ctf/moor/p1-active"
+collide:
+	as:  {subject: true}
 destination_class:  -256

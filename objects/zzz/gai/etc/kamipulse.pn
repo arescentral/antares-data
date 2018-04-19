@@ -3,7 +3,6 @@ long_name:          "Clustercell 2"
 short_name:         "CLSTR2"
 notes:              "Clustercell 2"
 attributes:         {autotarget: true, animation_cycle: true}
-damage:             25
 initial_age:
 	begin:  "3s20t"
 	end:    "5s"
@@ -13,6 +12,7 @@ animation:
 	sprite:     "dev/cluster"
 	direction:  "+"
 collide:
+	damage:  25
 	action:
 		*	type:                "create"
 			reflexive:           true
