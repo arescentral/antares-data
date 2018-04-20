@@ -2,7 +2,6 @@ template:      "tpl/scenery"
 long_name:     "Asteroid Shoot Up"
 short_name:    "ASTRSHOT"
 notes:         "Asteroid Shoot Up"
-attributes:    {animation_cycle: true}
 health:        1000
 animation:
 	sprite:  "sfx/invisible"

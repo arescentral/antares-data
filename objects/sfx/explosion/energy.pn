@@ -10,6 +10,8 @@ animation:
 	direction:  "+"
 	speed:      0.156
 	first:      18.0
+expire:
+	after:  {animation: true}
 create:
 	action:
 		*	type:         "sound"

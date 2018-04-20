@@ -2,13 +2,15 @@ template:          "tpl/bolt"
 long_name:         "Lepton Beam"
 short_name:        "L BEAM"
 notes:             "Lepton Beam"
-initial_age:       "29t"
 max_velocity:      20.0
 max_thrust:        0.65
 initial_velocity:  5.0
 vector:
 	color:     {r: 255, g: 255, b: 127}
 	accuracy:  2424832
+expire:
+	after:
+		age:  "29t"
 create:
 	action:
 		*	type:         "sound"

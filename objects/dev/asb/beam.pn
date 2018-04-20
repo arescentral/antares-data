@@ -2,13 +2,15 @@ template:          "tpl/bolt"
 long_name:         "ASB Beam"
 short_name:        "ASB BEAM"
 notes:             "ASB Beam"
-initial_age:       "40t"
 max_velocity:      20.0
 max_thrust:        0.45
 initial_velocity:  2.0
 vector:
 	color:     {r: 0, g: 127, b: 255}
 	accuracy:  2424832
+expire:
+	after:
+		age:  "40t"
 collide:
 	damage:  80
 	action:

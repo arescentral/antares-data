@@ -1,11 +1,13 @@
-template:     "tpl/bolt"
-long_name:    "P-K Beam"
-short_name:   "PK BEAM"
-notes:        "P-K Beam"
-initial_age:  "25t"
+template:    "tpl/bolt"
+long_name:   "P-K Beam"
+short_name:  "PK BEAM"
+notes:       "P-K Beam"
 vector:
 	color:     {r: 0, g: 255, b: 0}
 	accuracy:  131072
+expire:
+	after:
+		age:  "25t"
 create:
 	action:
 		*	type:         "sound"

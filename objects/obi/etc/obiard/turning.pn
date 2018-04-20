@@ -2,7 +2,7 @@ template:           "tpl/oriented"
 long_name:          "Obiard"
 short_name:         "OBIARD"
 notes:              "Needs rescuing, turning"
-attributes:         {can_engage: true, can_accept_destination: true, animation_cycle: true, static_destination: true, appear_on_radar: true}
+attributes:         {can_engage: true, can_accept_destination: true, static_destination: true, appear_on_radar: true}
 build_flags:        {can_only_engage: true}
 engage_tag:         "e"
 health:             1

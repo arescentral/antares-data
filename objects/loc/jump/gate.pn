@@ -2,7 +2,7 @@ template:           "tpl/waypoint"
 long_name:          "Jump Gate"
 short_name:         "JUMPGATE"
 notes:              "Jump Gate"
-attributes:         {animation_cycle: true, is_destination: true}
+attributes:         {is_destination: true}
 level_tag:          "3"
 health:             1000
 animation:

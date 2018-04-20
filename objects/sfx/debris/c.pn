@@ -4,9 +4,6 @@ short_name:         "DEBRIS"
 notes:              "Debris"
 attributes:         {can_be_engaged: true, appear_on_radar: false}
 health:             10
-initial_age:
-	begin:  "2s40t"
-	end:    "5s20t"
 mass:               0.5
 initial_velocity:   {begin: 0.5, end: 1.5}
 initial_direction:  {begin: 0, end: 360}
@@ -16,6 +13,11 @@ animation:
 	direction:  "+"
 	speed:      0.117
 	first:      {begin: 18.0, end: 26.0}
+expire:
+	after:
+		age:
+			begin:  "2s40t"
+			end:    "5s20t"
 collide:
 	damage:  6
 	solid:   false

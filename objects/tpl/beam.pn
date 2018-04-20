@@ -1,9 +1,11 @@
 template:           "tpl/vector"
 health:             1000
-initial_age:        "0.75s"
 vector:
 	kind:   "bolt to coord"
 	range:  900
+expire:
+	after:
+		age:  "0.75s"
 collide:
 	as:      {subject: true}
 	damage:  15

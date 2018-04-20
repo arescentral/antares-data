@@ -2,8 +2,6 @@ template:           "tpl/apulse"
 long_name:          "Quasimatter Pulse"
 short_name:         "QSIPULSE"
 notes:              "Quasimatter Pulse"
-attributes:         {animation_cycle: true}
-initial_age:        "1s"
 max_velocity:       15.0
 initial_velocity:   15.0
 initial_direction:  {begin: -2, end: 2}
@@ -13,6 +11,9 @@ animation:
 	direction:  "+"
 	speed:      0.105
 	first:      {begin: 0.0, end: 5.0}
+expire:
+	after:
+		age:  "1s"
 collide:
 	damage:  200
 	action:

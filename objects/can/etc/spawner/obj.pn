@@ -2,7 +2,6 @@ template:           "tpl/scenery"
 long_name:          "Enemy Shooter Obj"
 short_name:         "ENSHTOBJ"
 notes:              "Enemy Shooter Obj"
-attributes:         {animation_cycle: true}
 health:             1000
 initial_direction:  {begin: 0, end: 360}
 weapons:

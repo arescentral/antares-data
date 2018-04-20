@@ -2,7 +2,6 @@ template:           "tpl/scenery"
 long_name:          "Enmy Object Shoot"
 short_name:         "ENOBJSHT"
 notes:              "Gaitori"
-attributes:         {animation_cycle: true}
 health:             1000
 initial_direction:  {begin: 0, end: 360}
 weapons:

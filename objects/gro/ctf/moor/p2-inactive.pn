@@ -2,12 +2,11 @@ template:           "tpl/waypoint"
 long_name:          "Tractor Moor"
 short_name:         "MOOR 2 N"
 notes:              "Moor, for CTF, P2 Inactive"
-attributes:         {can_engage: true, animation_cycle: true, appear_on_radar: true}
+attributes:         {can_engage: true, appear_on_radar: true}
 build_flags:        {can_only_engage: true}
 level_tag:          "9"
 engage_tag:         "9"
 health:             1000
-initial_age:        "30s"
 weapons:
 	special:
 		base:  "dev/reactivator/p1"
@@ -26,6 +25,8 @@ shield_color:       {r: 240, g: 0, b: 0}
 destroy:            {dont_die: true}
 expire:
 	dont_die:  true
+	after:
+		age:  "30s"
 	action:
 		*	type:       "age"
 			reflexive:  true

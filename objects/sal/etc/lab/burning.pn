@@ -2,7 +2,7 @@ template:           "tpl/waypoint"
 long_name:          "Lab"
 short_name:         "Lab"
 notes:              "Burning"
-attributes:         {animation_cycle: true, is_destination: true, appear_on_radar: true}
+attributes:         {is_destination: true, appear_on_radar: true}
 health:             1000
 animation:
 	sprite:     "sal/etc/lab"

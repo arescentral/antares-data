@@ -2,11 +2,7 @@ template:           "tpl/apulse"
 long_name:          "Flak"
 short_name:         "FLAK"
 notes:              "Flak"
-attributes:         {animation_cycle: true}
 health:             10
-initial_age:
-	begin:  "10t"
-	end:    "20t"
 max_velocity:       5.0
 initial_velocity:   {begin: 5.0, end: 6.0}
 initial_direction:  {begin: 0, end: 360}
@@ -18,6 +14,11 @@ animation:
 	speed:      0.39
 	first:      {begin: 0.0, end: 8.0}
 icon:               null
+expire:
+	after:
+		age:
+			begin:  "10t"
+			end:    "20t"
 collide:
 	as:      {object: true}
 	damage:  50

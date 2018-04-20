@@ -2,7 +2,7 @@ template:           "tpl/oriented"
 long_name:          "Obiard"
 short_name:         "OBIARD"
 notes:              "Returning to Base"
-attributes:         {can_engage: true, can_accept_destination: true, animation_cycle: true, static_destination: true, appear_on_radar: true}
+attributes:         {can_engage: true, can_accept_destination: true, static_destination: true, appear_on_radar: true}
 health:             1
 mass:               0.5
 turn_rate:          2.0

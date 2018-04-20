@@ -2,7 +2,6 @@ template:      "tpl/structure"
 long_name:     "Tractor Moor"
 short_name:    "MOOR"
 notes:         "Tractor Moor"
-attributes:    {animation_cycle: true}
 animation:
 	sprite:     "loc/moor"
 	frames:     {begin: 0.0, end: 11.004}

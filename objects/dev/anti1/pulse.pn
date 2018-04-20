@@ -2,7 +2,6 @@ template:    "tpl/apulse"
 long_name:   "Antimatter Pulse"
 short_name:  "A PULSE"
 notes:       "Antimatter Pulse"
-attributes:  {animation_cycle: true}
 animation:
 	sprite:     "dev/anti"
 	frames:     {begin: 0.0, end: 4.004}

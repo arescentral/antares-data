@@ -14,7 +14,9 @@ max_thrust:         0.0
 warp_speed:         0.0
 warp_out_distance:  0
 destroy:            {dont_die: false, neutralize: false, release_energy: false}
-expire:             {dont_die: false}
+expire:
+	dont_die:  false
+	after:     {animation: false}
 collide:
 	as:      {subject: false, object: false}
 	damage:  0

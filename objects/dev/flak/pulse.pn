@@ -2,10 +2,7 @@ template:           "tpl/apulse"
 long_name:          "Flak Shell"
 short_name:         "FLAKSHL"
 notes:              "Flak Shell"
-attributes:         {autotarget: true, animation_cycle: true}
-initial_age:
-	begin:  "0.25s"
-	end:    "0.75s"
+attributes:         {autotarget: true}
 max_velocity:       15.0
 initial_velocity:   {begin: 15.0, end: 20.0}
 initial_direction:  {begin: -15, end: 15}
@@ -14,6 +11,10 @@ animation:
 	scale:      0.5
 	direction:  "+"
 expire:
+	after:
+		age:
+			begin:  "0.25s"
+			end:    "0.75s"
 	action:
 		*	type:       "create"
 			reflexive:  true

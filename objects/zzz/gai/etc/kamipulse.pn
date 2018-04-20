@@ -2,15 +2,17 @@ template:           "tpl/apulse"
 long_name:          "Clustercell 2"
 short_name:         "CLSTR2"
 notes:              "Clustercell 2"
-attributes:         {autotarget: true, animation_cycle: true}
-initial_age:
-	begin:  "3s20t"
-	end:    "5s"
+attributes:         {autotarget: true}
 initial_velocity:   {begin: 6.0, end: 8.0}
 initial_direction:  {begin: 0, end: 360}
 animation:
 	sprite:     "dev/cluster"
 	direction:  "+"
+expire:
+	after:
+		age:
+			begin:  "3s20t"
+			end:    "5s"
 collide:
 	damage:  25
 	action:

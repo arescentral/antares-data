@@ -2,7 +2,7 @@ template:           "tpl/animated"
 long_name:          "Target Drone Dead"
 short_name:         "TRGTDRNE"
 notes:              "Target Drone Dead"
-attributes:         {animation_cycle: true, appear_on_radar: true}
+attributes:         {appear_on_radar: true}
 order_flags:        {local: true}
 class:              123
 race:               "ish"

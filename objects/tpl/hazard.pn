@@ -1,5 +1,5 @@
 template:           "tpl/animated"
-attributes:         {animation_cycle: true, appear_on_radar: true}
+attributes:         {appear_on_radar: true}
 icon:
 	shape:  "square"
 	size:   1

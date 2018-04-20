@@ -8,4 +8,6 @@ animation:
 	frames:     {begin: 0.0, end: 6.004}
 	direction:  "+"
 	speed:      0.156
+expire:
+	after:  {animation: true}
 collide:     {damage: 100}

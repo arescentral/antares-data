@@ -2,7 +2,7 @@ template:      "tpl/scenery"
 long_name:     "Jump Gate Non"
 short_name:    "JUMPNON"
 notes:         "Jump Gate Non"
-attributes:    {animation_cycle: true, appear_on_radar: true}
+attributes:    {appear_on_radar: true}
 health:        1000
 animation:
 	sprite:     "loc/jump/node"

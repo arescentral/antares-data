@@ -2,13 +2,14 @@ template:          "tpl/apulse"
 long_name:         "Fireball"
 short_name:        "FIREBALL"
 notes:             "Fireball"
-attributes:        {animation_cycle: true}
-initial_age:       "0.75s"
 mass:              0.098
 max_velocity:      12.0
 initial_velocity:  12.0
 animation:
 	sprite:  "dev/fireball"
+expire:
+	after:
+		age:  "0.75s"
 collide:
 	action:
 		*	type:                "create"

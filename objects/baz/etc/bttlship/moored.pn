@@ -35,7 +35,9 @@ destroy:
 			reflexive:           true
 			base:                "sfx/explosion/giant"
 			relative_direction:  true
-expire:             {dont_die: false}
+expire:
+	dont_die:  false
+	after:     {animation: false}
 collide:
 	as:      {subject: false, object: false}
 	damage:  0

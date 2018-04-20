@@ -2,7 +2,6 @@ template:      "tpl/scenery"
 long_name:     "Nastiroid Shooter"
 short_name:    "NSTSHOOT"
 notes:         "Nastiroid Shooter"
-attributes:    {animation_cycle: true}
 health:        1000
 animation:
 	sprite:  "sfx/invisible"

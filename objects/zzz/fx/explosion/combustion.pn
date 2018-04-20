@@ -12,6 +12,8 @@ animation:
 icon:
 	shape:  "square"
 	size:   2
+expire:
+	after:  {animation: true}
 create:
 	action:
 		*	type:         "sound"

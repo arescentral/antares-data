@@ -2,8 +2,7 @@ template:      "tpl/apulse"
 long_name:     "Temp Pulse"
 short_name:    "TEMPPLSE"
 notes:         "Temp Pulse"
-attributes:    {can_engage: true, autotarget: true, animation_cycle: true, hated: true, can_be_evaded: true, is_guided: true, appear_on_radar: true}
-initial_age:   "2s40t"
+attributes:    {can_engage: true, autotarget: true, hated: true, can_be_evaded: true, is_guided: true, appear_on_radar: true}
 max_velocity:  9.0
 max_thrust:    0.2
 animation:
@@ -21,6 +20,9 @@ destroy:
 		*	type:       "kill"
 			reflexive:  true
 			kind:       "expire"
+expire:
+	after:
+		age:  "2s40t"
 collide:
 	as:      {object: true}
 	damage:  200

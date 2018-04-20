@@ -2,11 +2,8 @@ template:           "tpl/apulse"
 long_name:          "Energy"
 short_name:         "ENERGY"
 notes:              "Energy"
-attributes:         {can_be_engaged: true, can_engage: true, animation_cycle: true, appear_on_radar: true}
+attributes:         {can_be_engaged: true, can_engage: true, appear_on_radar: true}
 health:             100
-initial_age:
-	begin:  "9s"
-	end:    "10s10t"
 mass:               0.0
 max_velocity:       2.0
 max_thrust:         0.5
@@ -18,6 +15,11 @@ animation:
 	direction:  "+"
 	speed:      0.156
 	first:      {begin: 0.0, end: 2.0}
+expire:
+	after:
+		age:
+			begin:  "9s"
+			end:    "10s10t"
 collide:
 	damage:  0
 	action:

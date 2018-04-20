@@ -4,9 +4,6 @@ short_name:         "DERBIS"
 notes:              "Debris"
 attributes:         {appear_on_radar: false}
 health:             10
-initial_age:
-	begin:  "2s40t"
-	end:    "5s20t"
 mass:               0.5
 max_velocity:       4.0
 initial_velocity:   {begin: 0.5, end: 1.5}
@@ -18,6 +15,11 @@ animation:
 	speed:      0.39
 	first:      {begin: 9.0, end: 17.0}
 icon:               null
+expire:
+	after:
+		age:
+			begin:  "2s40t"
+			end:    "5s20t"
 collide:
 	damage:  6
 	solid:   false

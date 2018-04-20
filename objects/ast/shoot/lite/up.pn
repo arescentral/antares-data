@@ -2,7 +2,6 @@ template:      "tpl/scenery"
 long_name:     "Ast Shoot Up Lite"
 short_name:    "ASTSHOOT"
 notes:         "For Net Level 1 (Rock & Rock)"
-attributes:    {animation_cycle: true}
 health:        1000
 animation:
 	sprite:  "sfx/invisible"

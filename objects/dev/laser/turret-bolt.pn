@@ -1,12 +1,14 @@
-template:     "tpl/bolt"
-long_name:    "Laser"
-short_name:   "LASER"
-notes:        "Laser"
-attributes:   {autotarget: true}
-initial_age:  "0.5s"
+template:    "tpl/bolt"
+long_name:   "Laser"
+short_name:  "LASER"
+notes:       "Laser"
+attributes:  {autotarget: true}
 vector:
 	color:     {r: 127, g: 255, b: 127}
 	accuracy:  131072
+expire:
+	after:
+		age:  "0.5s"
 collide:
 	damage:  15
 	action:

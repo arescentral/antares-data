@@ -2,12 +2,9 @@ template:           "tpl/apulse"
 long_name:          "Superlight Boosters"
 short_name:         "LGHTDRVE"
 notes:              "Superlight Boosters"
-attributes:         {can_be_engaged: true, can_be_destination: true, can_engage: true, animation_cycle: true}
+attributes:         {can_be_engaged: true, can_be_destination: true, can_engage: true}
 health:             100
 price:              1000
-initial_age:
-	begin:  "9s"
-	end:    "10s10t"
 mass:               0.0
 max_velocity:       6.0
 max_thrust:         2.0
@@ -20,6 +17,11 @@ animation:
 	speed:      0.156
 	first:      {begin: 0.0, end: 23.0}
 icon:               null
+expire:
+	after:
+		age:
+			begin:  "9s"
+			end:    "10s10t"
 collide:            {damage: 0}
 arrive:
 	distance:  5000

@@ -2,13 +2,15 @@ template:          "tpl/bolt"
 long_name:         "Newo Beam"
 short_name:        "NEWOBEAM"
 notes:             "Newo Beam"
-initial_age:       "0.5s"
 max_velocity:      20.0
 max_thrust:        0.45
 initial_velocity:  10.0
 vector:
 	color:     {r: 127, g: 127, b: 255}
 	accuracy:  2424832
+expire:
+	after:
+		age:  "0.5s"
 collide:
 	damage:  80
 	action:

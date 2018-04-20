@@ -2,8 +2,6 @@ template:          "tpl/apulse"
 long_name:         "Antimatter Pulse Type II"
 short_name:        "APULSE 2"
 notes:             "Antimatter Pulse Type II"
-attributes:        {animation_cycle: true}
-initial_age:       "0.5s"
 max_velocity:      3.0
 initial_velocity:  3.0
 animation:
@@ -14,6 +12,8 @@ animation:
 	speed:      0.04
 	first:      {begin: 0.0, end: 3.0}
 expire:
+	after:
+		age:  "0.5s"
 	action:
 		*	type:                "create"
 			reflexive:           true

@@ -9,7 +9,6 @@ order_tag:          "a"
 class:              10
 health:             10
 energy:             50
-initial_age:        "1m6s40t"
 mass:               0.008
 turn_rate:          6.0
 max_velocity:       0.5
@@ -31,6 +30,9 @@ destroy:
 		*	type:       "create"
 			reflexive:  true
 			base:       "sfx/explosion/small"
+expire:
+	after:
+		age:  "1m6s40t"
 collide:
 	as:     {subject: true, object: true}
 	solid:  true

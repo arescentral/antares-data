@@ -2,7 +2,6 @@ template:           "tpl/scenery"
 long_name:          "AsteroidShootDown"
 short_name:         "ASTSHTDN"
 notes:              "Asteroid Shoot Down, Random Direction"
-attributes:         {animation_cycle: true}
 health:             1000
 initial_direction:  180
 animation:

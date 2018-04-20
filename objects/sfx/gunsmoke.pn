@@ -3,9 +3,11 @@ long_name:          "Gunsmoke"
 short_name:         "GUNSMOKE"
 notes:              "Gunsmoke"
 health:             1000
-initial_age:        "4t"
 rotation:
 	sprite:  "sfx/gunsmoke"
 	layer:   3
 	frames:  {begin: 0, end: 24}
+expire:
+	after:
+		age:  "4t"
 destination_class:  -256
