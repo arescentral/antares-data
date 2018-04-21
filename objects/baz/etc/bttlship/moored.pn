@@ -1,52 +1,23 @@
-template:           "baz/etc/bttlship"
+template:           "baz/bttlship"
 long_name:          "Battleship-Moored"
-short_name:         "BTTLSHIP"
 notes:              "Battleship-Moored"
-attributes:         {appear_on_radar: true}
-class:              550
-race:               "baz"
-health:             6500
-energy:             6500
-price:              6000
+attributes:         {can_be_engaged: false, can_be_destination: false, can_engage: false, can_evade: false, can_accept_destination: false, hated: false, can_be_evaded: false}
 build_ratio:        0.0
 build_time:         "0s"
-occupy_count:       0
-mass:               2.5
+turn_rate:          null
 max_velocity:       0.0
 max_thrust:         0.0
-initial_direction:  {begin: 0, end: 360}
+initial_velocity:   null
 warp_speed:         0.0
 warp_out_distance:  9734400
-rotation:
-	sprite:  "baz/bttlship"
-	layer:   2
-	scale:   2.0
-	frames:  {begin: 0, end: 36}
-icon:
-	shape:  "diamond"
-	size:   9
-shield_color:       {r: 255, g: 255, b: 255}
-destroy:
-	dont_die:        false
-	neutralize:      false
-	release_energy:  false
-	action:
-		*	type:                "create"
-			reflexive:           true
-			base:                "sfx/explosion/giant"
-			relative_direction:  true
-expire:
-	dont_die:  false
-	after:     {animation: false}
+weapons:            {pulse: null, beam: null}
+icon:               {size: 9}
+portrait:           null
+destroy:            {release_energy: false}
 collide:
-	as:      {subject: false, object: false}
-	damage:  0
-	solid:   true
-	edge:    true
-arrive:             {distance: 50000}
+	as:  {subject: false, object: false}
 skill_num:          0
 skill_den:          0
 offense:            0.0
-destination_class:  7
 friend_deficit:     0.0
 danger_threshold:   0.0
