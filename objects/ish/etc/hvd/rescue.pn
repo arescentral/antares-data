@@ -2,7 +2,7 @@ template:           "ish/hvd"
 long_name:          "Destroyer"
 short_name:         "DESTROYR"
 notes:              "Can Rescue"
-level_tag:          "e"
+tags:               {e: true, 0: null}
 class:              451
 warp_out_distance:  13505625
 portrait:           null

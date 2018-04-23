@@ -26,19 +26,19 @@ expire:
 	action:
 		*	type:  "capture"
 			if:
-				level_tag:  "f"
-				owner:      "different"
+				tags:   {f: true}
+				owner:  "different"
 arrive:
 	action:
 		*	type:   "land"
 			if:
-				level_tag:  "f"
-				owner:      "different"
+				tags:   {f: true}
+				owner:  "different"
 			speed:  32
 		*	type:         "sound"
 			if:
-				level_tag:  "f"
-				owner:      "different"
+				tags:   {f: true}
+				owner:  "different"
 			absolute:     true
 			id:           513
 			priority:     5

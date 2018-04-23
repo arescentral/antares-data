@@ -26,8 +26,8 @@ destroy:
 	action:
 		*	type:   "fire"
 			if:
-				level_tag:  "a"
-				owner:      "different"
+				tags:   {a: true}
+				owner:  "different"
 			which:  "special"
 		*	type:       "create"
 			reflexive:  true

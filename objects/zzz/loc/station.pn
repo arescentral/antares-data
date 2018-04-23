@@ -3,7 +3,7 @@ long_name:          "Station"
 short_name:         "STATION"
 notes:              "Station"
 attributes:         {can_accept_build: true, is_destination: true}
-level_tag:          "a"
+tags:               {a: true, 0: null}
 health:             -1
 energy:             -1
 animation:

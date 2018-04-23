@@ -42,13 +42,13 @@ arrive:
 	action:
 		*	type:  "kill"
 			if:
-				level_tag:  "a"
-				owner:      "different"
+				tags:   {a: true}
+				owner:  "different"
 			kind:  "expire"
 		*	type:         "sound"
 			if:
-				level_tag:  "a"
-				owner:      "different"
+				tags:   {a: true}
+				owner:  "different"
 			absolute:     true
 			id:           31989
 			priority:     4
@@ -56,8 +56,8 @@ arrive:
 			volume:       255
 		*	type:   "occupy"
 			if:
-				level_tag:  "a"
-				owner:      "different"
+				tags:   {a: true}
+				owner:  "different"
 			value:  1
 skill_num:          3
 skill_den:          21

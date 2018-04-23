@@ -1,7 +1,7 @@
 long_name:          "Untitled"
 short_name:         "UNTITLED"
 notes:              "Untitled Object"
-level_tag:          "0"
+tags:               {0: true}
 engage_tag:         "0"
 order_tag:          "0"
 class:              -1

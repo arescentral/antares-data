@@ -5,7 +5,7 @@ notes:              "Transport"
 attributes:         {can_engage: false, hide_effect: true, can_be_evaded: false}
 build_flags:        {uncaptured_base_exists: true, sufficient_escorts_exist: true}
 order_flags:        {stronger_than_target: true, base: true, foe: true}
-level_tag:          "f"
+tags:               {f: true, 0: null}
 class:              800
 race:               "obi"
 health:             2000
@@ -39,19 +39,19 @@ expire:
 	action:
 		*	type:  "capture"
 			if:
-				level_tag:  "f"
-				owner:      "different"
+				tags:   {f: true}
+				owner:  "different"
 arrive:
 	action:
 		*	type:   "land"
 			if:
-				level_tag:  "f"
-				owner:      "different"
+				tags:   {f: true}
+				owner:  "different"
 			speed:  32
 		*	type:         "sound"
 			if:
-				level_tag:  "f"
-				owner:      "different"
+				tags:   {f: true}
+				owner:  "different"
 			absolute:     true
 			id:           513
 			priority:     5

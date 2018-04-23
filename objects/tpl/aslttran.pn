@@ -25,8 +25,8 @@ arrive:
 	action:
 		*	type:   "fire"
 			if:
-				level_tag:  "a"
-				owner:      "different"
+				tags:   {a: true}
+				owner:  "different"
 			which:  "special"
 offense:            0.2
 destination_class:  9
