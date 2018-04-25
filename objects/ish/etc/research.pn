@@ -4,7 +4,7 @@ short_name:         "RESEARCH"
 notes:              "Research Vessel"
 attributes:         {can_engage: false, can_be_evaded: false}
 build_flags:        {uncaptured_base_exists: true, sufficient_escorts_exist: true}
-order_flags:        {stronger_than_target: true, base: true, foe: true}
+order_flags:        {soft_base: true, soft_foe: true}
 class:              802
 race:               "ish"
 health:             1000

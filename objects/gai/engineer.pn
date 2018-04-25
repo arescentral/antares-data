@@ -1,6 +1,5 @@
 template:           "tpl/engineer"
 notes:              "Engineer Pod"
-order_flags:        {stronger_than_target: true}
 race:               "gai"
 warp_out_distance:  9734400
 weapons:

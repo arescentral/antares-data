@@ -3,7 +3,7 @@ long_name:          "Target Drone Dead"
 short_name:         "TRGTDRNE"
 notes:              "Target Drone Dead"
 attributes:         {appear_on_radar: true}
-order_flags:        {local: true}
+order_flags:        {soft_local: true}
 class:              123
 race:               "ish"
 health:             250

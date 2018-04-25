@@ -1,6 +1,6 @@
 template:           "tpl/aslttran"
 notes:              "Assault Transport"
-order_flags:        {base: true}
+order_flags:        {soft_base: true}
 race:               "sal"
 warp_out_distance:  9734400
 weapons:

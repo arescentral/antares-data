@@ -1,6 +1,6 @@
 template:          "tpl/fighter"
 notes:             "Fighter"
-order_flags:       {local: false}
+order_flags:       {soft_local: false}
 race:              "gai"
 health:            50
 price:             500

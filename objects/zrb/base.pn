@@ -3,7 +3,7 @@ long_name:          "Zerbilite"
 short_name:         "ZRBILITE"
 notes:              "Zerbilite"
 attributes:         {can_be_engaged: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, hated: true, can_be_evaded: true}
-order_flags:        {local: true}
+order_flags:        {soft_local: true}
 class:              1
 health:             70
 energy:             600

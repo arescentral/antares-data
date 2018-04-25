@@ -1,6 +1,6 @@
 template:          "tpl/defdrone"
 notes:             "Defense Drone"
-order_flags:       {hard_no_friendly_escort: true, hard_friend: true}
+order_flags:       {hard_friend: true}
 race:              "can"
 initial_velocity:  0.348
 weapons:

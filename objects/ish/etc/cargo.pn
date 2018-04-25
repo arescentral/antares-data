@@ -3,7 +3,7 @@ long_name:          "Cargo Ship"
 short_name:         "CARGO"
 notes:              "Cargo Ship"
 attributes:         {can_engage: false, can_be_evaded: false}
-order_flags:        {stronger_than_target: true, base: true, foe: true}
+order_flags:        {soft_base: true, soft_foe: true}
 class:              811
 race:               "ish"
 health:             250

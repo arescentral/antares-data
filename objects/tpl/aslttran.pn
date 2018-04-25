@@ -2,7 +2,7 @@ template:           "tpl/utilship"
 long_name:          "Assault Transport"
 short_name:         "ASLTTRAN"
 build_flags:        {sufficient_escorts_exist: true, matching_foe_exists: true}
-order_flags:        {foe: true, hard_matching_foe: true, hard_no_friendly_escort: true, hard_foe: true, matching_foe: true}
+order_flags:        {soft_foe: true, hard_foe: true, soft_matching_foe: true, hard_matching_foe: true}
 order_tag:          "station"
 class:              860
 health:             1200

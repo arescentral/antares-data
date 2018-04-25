@@ -1,7 +1,7 @@
 template:           "tpl/warship"
 long_name:          "Fighter"
 short_name:         "FIGHTER"
-order_flags:        {local: true}
+order_flags:        {soft_local: true}
 class:              100
 health:             100
 energy:             600

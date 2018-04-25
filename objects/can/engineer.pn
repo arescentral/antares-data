@@ -1,6 +1,6 @@
 template:           "tpl/engineer"
 notes:              "Engineer Pod"
-order_flags:        {stronger_than_target: true, base: true}
+order_flags:        {soft_base: true}
 race:               "can"
 warp_out_distance:  9734400
 weapons:

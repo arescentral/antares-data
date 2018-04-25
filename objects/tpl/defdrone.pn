@@ -3,7 +3,7 @@ long_name:          "Defense Drone"
 short_name:         "DEFDRONE"
 attributes:         {can_evade: false}
 build_flags:        {this_base_needs_protection: true}
-order_flags:        {base: true, local: true, friend: true, hard_local: true, hard_base: true}
+order_flags:        {soft_base: true, hard_base: true, soft_local: true, hard_local: true, soft_friend: true}
 class:              600
 health:             1500
 energy:             1000
