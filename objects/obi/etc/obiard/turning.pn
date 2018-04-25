@@ -4,7 +4,8 @@ short_name:         "OBIARD"
 notes:              "Needs rescuing, turning"
 attributes:         {can_engage: true, can_accept_destination: true, static_destination: true, appear_on_radar: true}
 build_flags:        {can_only_engage: true}
-engage_tag:         "e"
+tags:               {attack14: true, attack0: null}
+attack_tag:         "level14"
 health:             1
 mass:               0.5
 turn_rate:          2.0
@@ -37,13 +38,13 @@ collide:
 	action:
 		*	type:    "score"
 			if:
-				tags:  {e: true}
+				tags:  {level14: true}
 			which:   0
 			value:   1
 			player:  0
 		*	type:  "kill"
 			if:
-				tags:  {e: true}
+				tags:  {level14: true}
 			kind:  "expire"
 activate:
 	period:

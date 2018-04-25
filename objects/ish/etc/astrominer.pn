@@ -2,7 +2,7 @@ template:           "tpl/utilship"
 long_name:          "Astrominer"
 short_name:         "ASTROMNR"
 notes:              "Astrominer"
-engage_tag:         "b"
+tags:               {attack11: true, attack0: null}
 class:              301
 race:               "ish"
 health:             700

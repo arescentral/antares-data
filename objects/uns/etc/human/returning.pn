@@ -31,20 +31,20 @@ arrive:
 	action:
 		*	type:         "sound"
 			if:
-				tags:  {6: true}
+				tags:  {level6: true}
 			id:           31989
 			priority:     3
 			persistence:  "10t"
 			volume:       255
 		*	type:    "score"
 			if:
-				tags:  {6: true}
+				tags:  {level6: true}
 			which:   1
 			value:   1
 			player:  0
 		*	type:  "kill"
 			if:
-				tags:  {6: true}
+				tags:  {level6: true}
 			kind:  "expire"
 skill_num:          3
 skill_den:          21

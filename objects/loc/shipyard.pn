@@ -2,7 +2,7 @@ template:    "tpl/effect"
 long_name:   "Orbital Shipyard"
 short_name:  "ORBTYARD"
 notes:       "Orbital Shipyard"
-tags:        {6: true, 0: null}
+tags:        {level6: true, level0: null}
 health:      1000
 animation:
 	sprite:  "loc/shipyard"

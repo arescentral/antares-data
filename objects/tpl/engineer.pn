@@ -4,8 +4,8 @@ short_name:         "ENGINEER"
 attributes:         {can_engage: false, can_be_evaded: false}
 build_flags:        {sufficient_escorts_exist: true, matching_foe_exists: true}
 order_flags:        {foe: true, hard_matching_foe: true, hard_no_friendly_escort: true, hard_foe: true, hard_not_base: true, matching_foe: true}
-tags:               {d: true, 0: null}
-order_tag:          "5"
+tags:               {level13: true, level0: null}
+order_tag:          "level5"
 class:              850
 health:             800
 energy:             200
@@ -55,19 +55,19 @@ arrive:
 		*	type:       "push"
 			reflexive:  true
 			if:
-				tags:   {5: true}
+				tags:   {level5: true}
 				owner:  "different"
 			kind:       "stop"
 		*	type:       "cap-speed"
 			reflexive:  true
 			if:
-				tags:   {5: true}
+				tags:   {level5: true}
 				owner:  "different"
 			value:      0.0
 		*	type:         "sound"
 			reflexive:    true
 			if:
-				tags:   {5: true}
+				tags:   {level5: true}
 				owner:  "different"
 			id:           570
 			priority:     3
@@ -75,13 +75,13 @@ arrive:
 			volume:       255
 		*	type:   "kill"
 			if:
-				tags:   {5: true}
+				tags:   {level5: true}
 				owner:  "different"
 			delay:  "2s40t"
 			kind:   "expire"
 		*	type:  "capture"
 			if:
-				tags:   {5: true}
+				tags:   {level5: true}
 				owner:  "different"
 		*	type:       "cap-speed"
 			reflexive:  true

@@ -26,7 +26,7 @@ destroy:
 	action:
 		*	type:   "fire"
 			if:
-				tags:   {a: true}
+				tags:   {level10: true}
 				owner:  "different"
 			which:  "special"
 		*	type:       "create"

@@ -4,7 +4,8 @@ short_name:         "FLCKDRON"
 notes:              "Flak Drone"
 attributes:         {can_be_destination: true, can_engage: true, can_be_evaded: true, appear_on_radar: true}
 build_flags:        {can_only_engage: true}
-tags:               {5: true, 0: null}
+tags:               {level5: true, level0: null}
+attack_tag:         "level0"
 class:              9999
 health:             15000
 energy:             1000

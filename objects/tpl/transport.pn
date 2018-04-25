@@ -4,7 +4,7 @@ short_name:         "TRANSPRT"
 attributes:         {can_engage: false, can_be_evaded: false}
 build_flags:        {uncaptured_base_exists: true, sufficient_escorts_exist: true, matching_foe_exists: true}
 order_flags:        {stronger_than_target: true, base: true, foe: true, matching_foe: true}
-order_tag:          "f"
+order_tag:          "level15"
 class:              800
 health:             250
 energy:             1000
@@ -26,18 +26,18 @@ expire:
 	action:
 		*	type:  "capture"
 			if:
-				tags:   {f: true}
+				tags:   {level15: true}
 				owner:  "different"
 arrive:
 	action:
 		*	type:   "land"
 			if:
-				tags:   {f: true}
+				tags:   {level15: true}
 				owner:  "different"
 			speed:  32
 		*	type:         "sound"
 			if:
-				tags:   {f: true}
+				tags:   {level15: true}
 				owner:  "different"
 			absolute:     true
 			id:           513

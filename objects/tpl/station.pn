@@ -1,6 +1,6 @@
 template:           "tpl/structure"
 attributes:         {can_engage: true, can_accept_build: true, is_destination: true}
-tags:               {a: true, 0: null}
+tags:               {level10: true, attack10: true, level0: null, attack0: null}
 health:             5000
 energy:             1000
 icon:               {size: 7}

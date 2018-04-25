@@ -2,6 +2,7 @@ template:      "tpl/station"
 long_name:     "Bunker Station"
 short_name:    "STATION"
 notes:         "Bunker Station"
+tags:          {attack0: true, attack10: null}
 occupy_count:  5
 weapons:
 	pulse:

@@ -31,10 +31,10 @@ arrive:
 	action:
 		*	type:  "create"
 			if:
-				tags:  {3: true}
+				tags:  {level3: true}
 			base:  "sfx/jump/small"
 		*	type:   "land"
 			if:
-				tags:  {3: true}
+				tags:  {level3: true}
 			delay:  "2s"
 			speed:  80

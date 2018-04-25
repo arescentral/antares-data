@@ -12,11 +12,11 @@ arrive:
 	action:
 		*	type:   "land"
 			if:
-				tags:  {f: true}
+				tags:  {level15: true}
 			speed:  32
 		*	type:         "sound"
 			if:
-				tags:  {f: true}
+				tags:  {level15: true}
 			absolute:     true
 			id:           513
 			priority:     5
