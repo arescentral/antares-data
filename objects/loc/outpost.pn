@@ -2,7 +2,6 @@ template:      "tpl/station"
 long_name:     "Outpost Station"
 short_name:    "OUTPOST"
 notes:         "Outpost"
-tags:          {attack0: true, attack10: null}
 occupy_count:  5
 weapons:
 	beam:

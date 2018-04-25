@@ -35,13 +35,13 @@ collide:
 	action:
 		*	type:    "score"
 			if:
-				tags:  {level14: true}
+				tags:  {rescue: true}
 			which:   0
 			value:   1
 			player:  0
 		*	type:  "kill"
 			if:
-				tags:  {level14: true}
+				tags:  {rescue: true}
 			kind:  "expire"
 activate:
 	period:

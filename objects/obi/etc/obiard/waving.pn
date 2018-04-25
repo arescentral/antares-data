@@ -4,8 +4,8 @@ short_name:         "OBIARD"
 notes:              "Needs rescuing, waving"
 attributes:         {can_engage: true, static_destination: true}
 build_flags:        {can_only_engage: true}
-tags:               {attack14: true, attack0: null}
-attack_tag:         "level14"
+tags:               {prisoner: true, normal-attacker: null}
+attack_tag:         "rescue"
 health:             1
 mass:               0.5
 turn_rate:          2.0
@@ -32,13 +32,13 @@ collide:
 	action:
 		*	type:    "score"
 			if:
-				tags:  {level14: true}
+				tags:  {rescue: true}
 			which:   0
 			value:   1
 			player:  0
 		*	type:  "kill"
 			if:
-				tags:  {level14: true}
+				tags:  {rescue: true}
 			kind:  "expire"
 skill_num:          3
 skill_den:          21

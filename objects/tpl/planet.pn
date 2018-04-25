@@ -1,6 +1,6 @@
 template:           "tpl/waypoint"
 attributes:         {can_accept_build: true, is_destination: true, appear_on_radar: true}
-tags:               {level15: true, level0: null}
+tags:               {planet: true, normal: null}
 icon:
 	shape:  "square"
 destination_class:  10

@@ -3,7 +3,7 @@ long_name:   "Station"
 short_name:  "STATION"
 notes:       "Station"
 attributes:  {appear_on_radar: false}
-tags:        {level10: true, level15: null}
+tags:        {station: true, planet: null}
 health:      -1
 energy:      -1
 animation:

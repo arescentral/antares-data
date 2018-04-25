@@ -31,10 +31,10 @@ arrive:
 	action:
 		*	type:  "create"
 			if:
-				tags:  {level3: true}
+				tags:  {jumpgate: true}
 			base:  "sfx/jump/small"
 		*	type:   "land"
 			if:
-				tags:  {level3: true}
+				tags:  {jumpgate: true}
 			delay:  "2s"
 			speed:  80

@@ -4,8 +4,8 @@ short_name:         "MOOR 2 N"
 notes:              "Moor, for CTF, P2 Inactive"
 attributes:         {can_engage: true, appear_on_radar: true}
 build_flags:        {can_only_engage: true}
-tags:               {level9: true, attack9: true, level0: null, attack0: null}
-attack_tag:         "level9"
+tags:               {disabled: true, reactivator: true, normal: null, normal-attacker: null}
+attack_tag:         "disabled"
 health:             1000
 weapons:
 	special:

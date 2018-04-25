@@ -3,7 +3,7 @@ long_name:          "U.N.S. Ares"
 short_name:         "UNSARES"
 notes:              "Ares for Shoplifter 2"
 attributes:         {can_be_destination: true}
-tags:               {level6: true, level0: null}
+tags:               {rendezvous: true, normal: null}
 health:             1000
 animation:
 	sprite:  "uns/ares"

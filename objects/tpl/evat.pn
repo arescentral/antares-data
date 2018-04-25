@@ -4,9 +4,9 @@ short_name:         "EVAT"
 attributes:         {can_be_engaged: true, can_engage: true, can_evade: true, can_accept_destination: true, hated: true, static_destination: true, can_be_evaded: true, appear_on_radar: true}
 build_flags:        {can_only_engage: true}
 order_flags:        {local: true, foe: true, matching_foe: true}
-tags:               {attack10: true, attack0: null}
-attack_tag:         "level10"
-order_tag:          "level10"
+tags:               {boarder: true, normal-attacker: null}
+attack_tag:         "station"
+order_tag:          "station"
 class:              10
 health:             10
 energy:             50
@@ -43,12 +43,12 @@ arrive:
 	action:
 		*	type:  "kill"
 			if:
-				tags:   {level10: true}
+				tags:   {station: true}
 				owner:  "different"
 			kind:  "expire"
 		*	type:         "sound"
 			if:
-				tags:   {level10: true}
+				tags:   {station: true}
 				owner:  "different"
 			absolute:     true
 			id:           31989
@@ -57,7 +57,7 @@ arrive:
 			volume:       255
 		*	type:   "occupy"
 			if:
-				tags:   {level10: true}
+				tags:   {station: true}
 				owner:  "different"
 			value:  1
 skill_num:          3

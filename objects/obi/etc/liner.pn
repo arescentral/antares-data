@@ -3,7 +3,7 @@ long_name:          "Passenger Liner"
 short_name:         "LINER"
 notes:              "Receives Hostages"
 attributes:         {can_be_destination: true}
-tags:               {level6: true, level0: null}
+tags:               {rendezvous: true, normal: null}
 health:             1000
 animation:
 	sprite:  "obi/etc/liner"

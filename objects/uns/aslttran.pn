@@ -23,7 +23,7 @@ destroy:
 	action:
 		*	type:   "fire"
 			if:
-				tags:   {level10: true}
+				tags:   {station: true}
 				owner:  "different"
 			which:  "special"
 		*	type:       "create"

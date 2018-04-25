@@ -3,7 +3,7 @@ notes:              "Can Pick Up Guys"
 attributes:         {hide_effect: false, can_be_evaded: true}
 build_flags:        {uncaptured_base_exists: false, sufficient_escorts_exist: false}
 order_flags:        {stronger_than_target: false, base: false, foe: false}
-tags:               {level14: true, level15: null}
+tags:               {rescue: true, planet: null}
 class:              881
 build_ratio:        0.4
 initial_velocity:   1.5

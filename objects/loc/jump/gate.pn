@@ -3,7 +3,7 @@ long_name:          "Jump Gate"
 short_name:         "JUMPGATE"
 notes:              "Jump Gate"
 attributes:         {is_destination: true}
-tags:               {level3: true, level0: null}
+tags:               {jumpgate: true, normal: null}
 health:             1000
 animation:
 	sprite:  "sfx/invisible"

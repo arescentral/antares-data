@@ -37,13 +37,13 @@ arrive:
 	action:
 		*	type:    "score"
 			if:
-				tags:  {level6: true}
+				tags:  {rendezvous: true}
 			which:   0
 			value:   1
 			player:  0
 		*	type:  "kill"
 			if:
-				tags:  {level6: true}
+				tags:  {rendezvous: true}
 			kind:  "expire"
 offense:            0.098
 destination_class:  9
