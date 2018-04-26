@@ -5,7 +5,7 @@ notes:              "Moor, for CTF, P1 Inactive"
 attributes:         {can_engage: true, appear_on_radar: true}
 build_flags:        {can_only_engage: true}
 tags:               {disabled: true, reactivator: true, normal: null, normal-attacker: null}
-attack_tag:         "disabled"
+attack_tags:        {disabled: true}
 health:             1000
 weapons:
 	special:

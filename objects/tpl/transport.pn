@@ -4,7 +4,7 @@ short_name:         "TRANSPRT"
 attributes:         {can_engage: false, can_be_evaded: false}
 build_flags:        {uncaptured_base_exists: true, sufficient_escorts_exist: true, matching_foe_exists: true}
 order_flags:        {soft_base: true, soft_foe: true, soft_matching_foe: true}
-order_tag:          "planet"
+order_tags:         {planet: true}
 class:              800
 health:             250
 energy:             1000

@@ -1,13 +1,17 @@
-template:    "tpl/planet"
-long_name:   "Station"
-short_name:  "STATION"
-notes:       "Station"
-attributes:  {appear_on_radar: false}
-tags:        {station: true, planet: null}
-health:      -1
-energy:      -1
+template:           "tpl/waypoint"
+long_name:          "Station"
+short_name:         "STATION"
+notes:              "Station"
+attributes:         {can_accept_build: true, is_destination: true}
+tags:               {station: true, normal: null}
+health:             -1
+energy:             -1
 animation:
 	sprite:  "loc/planets/marslike"
 	scale:   2.0
-icon:        {size: 7}
-collide:     {damage: 1}
+icon:
+	shape:  "square"
+	size:   7
+collide:            {damage: 1}
+destination_class:  10
+friend_deficit:     3.0

@@ -5,8 +5,8 @@ attributes:         {can_be_engaged: true, can_engage: true, can_evade: true, ca
 build_flags:        {can_only_engage: true}
 order_flags:        {soft_local: true, soft_foe: true, soft_matching_foe: true}
 tags:               {boarder: true, normal-attacker: null}
-attack_tag:         "station"
-order_tag:          "station"
+attack_tags:        {station: true}
+order_tags:         {station: true}
 class:              10
 health:             10
 energy:             50

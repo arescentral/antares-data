@@ -5,7 +5,7 @@ notes:              "Needs rescuing, waving"
 attributes:         {can_engage: true, static_destination: true}
 build_flags:        {can_only_engage: true}
 tags:               {prisoner: true, normal-attacker: null}
-attack_tag:         "rescue"
+attack_tags:        {rescue: true}
 health:             1
 mass:               0.5
 turn_rate:          2.0

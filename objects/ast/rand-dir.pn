@@ -5,7 +5,7 @@ notes:              "Asteroid (random direction)"
 attributes:         {can_be_engaged: true, hide_effect: true, hated: true}
 build_flags:        {only_engaged_by: true}
 tags:               {asteroid: true, normal: null}
-defend_tag:         "miner"
+defend_tags:        {miner: true}
 health:             10000
 mass:               10.0
 max_velocity:       3.0
