@@ -3,6 +3,7 @@ long_name:          "SL Transport"
 short_name:         "TRANSPRT"
 notes:              "SL Transport"
 attributes:         {can_engage: false, hide_effect: true}
+build_flags:        {sufficient_escorts_exist: false}
 class:              801
 race:               "ish"
 health:             250

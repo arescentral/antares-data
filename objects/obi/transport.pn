@@ -3,7 +3,6 @@ long_name:          "Transport"
 short_name:         "TRANSPRT"
 notes:              "Transport"
 attributes:         {can_engage: false, hide_effect: true, can_be_evaded: false}
-build_flags:        {uncaptured_base_exists: true, sufficient_escorts_exist: true}
 order_flags:        {soft_base: true, soft_foe: true}
 tags:               {planet: true, normal: null}
 class:              800

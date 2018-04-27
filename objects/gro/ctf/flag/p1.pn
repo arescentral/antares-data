@@ -3,6 +3,7 @@ long_name:          "Player 1's Flag"
 short_name:         "FLAG P1"
 notes:              "Flag, for CTF, P1"
 attributes:         {can_engage: false, can_evade: false}
+build_flags:        {sufficient_escorts_exist: false}
 class:              221
 race:               "gro"
 health:             100000

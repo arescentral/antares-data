@@ -3,6 +3,7 @@ long_name:          "Cargo Ship"
 short_name:         "CARGO"
 notes:              "Cargo Ship"
 attributes:         {can_engage: false, can_be_evaded: false}
+build_flags:        {sufficient_escorts_exist: false}
 order_flags:        {soft_base: true, soft_foe: true}
 class:              811
 race:               "ish"
