@@ -3,7 +3,6 @@ long_name:          "Flak Drone"
 short_name:         "FLCKDRON"
 notes:              "Flak Drone"
 attributes:         {can_be_destination: true, can_engage: true, can_be_evaded: true, appear_on_radar: true}
-build_flags:        {can_only_engage: true}
 tags:               {flak: true, normal: null}
 attack_tags:        {normal: true}
 class:              9999

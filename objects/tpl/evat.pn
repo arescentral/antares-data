@@ -2,7 +2,6 @@ template:           "tpl/oriented"
 long_name:          "EVA Trooper"
 short_name:         "EVAT"
 attributes:         {can_be_engaged: true, can_engage: true, can_evade: true, can_accept_destination: true, hated: true, static_destination: true, can_be_evaded: true, appear_on_radar: true}
-build_flags:        {can_only_engage: true}
 order_flags:        {soft_local: true, soft_foe: true, soft_matching_foe: true}
 tags:               {boarder: true, normal-attacker: null}
 attack_tags:        {station: true}

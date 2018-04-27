@@ -3,7 +3,6 @@ long_name:          "Asteroid"
 short_name:         "Asteroid"
 notes:              "Asteroid (random direction)"
 attributes:         {can_be_engaged: true, hide_effect: true, hated: true}
-build_flags:        {only_engaged_by: true}
 tags:               {asteroid: true, normal: null}
 defend_tags:        {miner: true}
 health:             10000

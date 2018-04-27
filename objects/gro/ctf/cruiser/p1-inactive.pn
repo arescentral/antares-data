@@ -1,7 +1,6 @@
 template:          "gro/ctf/cruiser/p1-active"
 notes:             "Cruiser, for CTF, Player 1, Inactive"
 attributes:        {can_evade: false, can_be_evaded: false}
-build_flags:       {only_engaged_by: true}
 tags:              {disabled: true, reactivator: true, normal: null, normal-attacker: null}
 defend_tags:       {reactivator: true}
 class:             203
