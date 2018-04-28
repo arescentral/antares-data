@@ -3,7 +3,6 @@ long_name:          "Transport"
 short_name:         "TRANSPRT"
 notes:              "Transport"
 attributes:         {can_engage: false, hide_effect: true, can_be_evaded: false}
-order_flags:        {soft_base: true, soft_foe: true}
 tags:               {planet: true, normal: null}
 class:              800
 race:               "obi"
@@ -60,3 +59,8 @@ offense:            0.098
 destination_class:  9
 friend_deficit:     2.0
 danger_threshold:   4.0
+ai:
+	target:
+		prefer:
+			base:   true
+			owner:  "different"

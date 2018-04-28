@@ -1,7 +1,6 @@
 template:           "tpl/warship"
 long_name:          "Fighter"
 short_name:         "FIGHTER"
-order_flags:        {soft_local: true}
 class:              100
 health:             100
 energy:             600
@@ -23,3 +22,6 @@ destroy:
 offense:            0.5
 destination_class:  1
 danger_threshold:   2.0
+ai:
+	target:
+		prefer:  {local: true}

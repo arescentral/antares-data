@@ -3,7 +3,6 @@ long_name:          "Research Vessel"
 short_name:         "RESEARCH"
 notes:              "Research Vessel"
 attributes:         {can_engage: false, can_be_evaded: false}
-order_flags:        {soft_base: true, soft_foe: true}
 class:              802
 race:               "ish"
 health:             1000
@@ -34,3 +33,8 @@ offense:            0.098
 destination_class:  9
 friend_deficit:     2.0
 danger_threshold:   4.0
+ai:
+	target:
+		prefer:
+			base:   true
+			owner:  "different"

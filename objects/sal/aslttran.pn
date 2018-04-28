@@ -1,6 +1,5 @@
 template:           "tpl/aslttran"
 notes:              "Assault Transport"
-order_flags:        {soft_base: true}
 race:               "sal"
 warp_out_distance:  9734400
 weapons:
@@ -33,3 +32,6 @@ destroy:
 			reflexive:  true
 			base:       "sfx/explosion/large"
 friend_deficit:     5.0
+ai:
+	target:
+		prefer:  {base: true}

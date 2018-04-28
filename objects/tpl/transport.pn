@@ -3,8 +3,6 @@ long_name:          "Transport"
 short_name:         "TRANSPRT"
 attributes:         {can_engage: false, can_be_evaded: false}
 build_flags:        {matching_foe_exists: true}
-order_flags:        {soft_base: true, soft_foe: true, soft_matching_foe: true}
-order_tags:         {planet: true}
 class:              800
 health:             250
 energy:             1000
@@ -48,3 +46,9 @@ offense:            0.098
 destination_class:  9
 friend_deficit:     2.0
 danger_threshold:   4.0
+ai:
+	target:
+		prefer:
+			base:   true
+			owner:  "different"
+			tags:   {planet: true}

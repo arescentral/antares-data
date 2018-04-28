@@ -3,7 +3,6 @@ long_name:          "Luxury Liner"
 short_name:         "LUXLINER"
 notes:              "Luxury Liner"
 attributes:         {can_engage: false, can_be_evaded: false}
-order_flags:        {soft_base: true, soft_foe: true}
 class:              803
 race:               "ele"
 health:             250
@@ -45,3 +44,8 @@ expire:
 destination_class:  9
 friend_deficit:     2.0
 danger_threshold:   4.0
+ai:
+	target:
+		prefer:
+			base:   true
+			owner:  "different"

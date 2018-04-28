@@ -3,7 +3,6 @@ long_name:          "Zerbilite Spawn"
 short_name:         "ZERBLITE"
 notes:              "Zerbilite Spawn"
 attributes:         {can_be_engaged: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, hated: true, can_be_evaded: true}
-order_flags:        {soft_local: true}
 class:              100
 health:             70
 energy:             600
@@ -57,3 +56,6 @@ skill_den:          21
 offense:            0.5
 destination_class:  1
 danger_threshold:   2.0
+ai:
+	target:
+		prefer:  {local: true}

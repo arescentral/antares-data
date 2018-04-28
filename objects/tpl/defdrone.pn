@@ -2,7 +2,6 @@ template:           "tpl/warship"
 long_name:          "Defense Drone"
 short_name:         "DEFDRONE"
 attributes:         {can_evade: false}
-order_flags:        {soft_base: true, hard_base: true, soft_local: true, hard_local: true, soft_friend: true}
 class:              600
 health:             1500
 energy:             1000
@@ -24,3 +23,10 @@ destroy:
 offense:            1.5
 destination_class:  9
 danger_threshold:   1.0
+ai:
+	target:
+		prefer:
+			local:  true
+			base:   true
+			owner:  "same"
+		force:  {local: true, base: true}

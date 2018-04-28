@@ -4,7 +4,6 @@ short_name:         "CARGO"
 notes:              "Cargo Ship"
 attributes:         {can_engage: false, can_be_evaded: false}
 build_flags:        {sufficient_escorts_exist: false}
-order_flags:        {soft_base: true, soft_foe: true}
 class:              811
 race:               "ish"
 health:             250
@@ -50,3 +49,8 @@ offense:            0.098
 destination_class:  9
 friend_deficit:     2.0
 danger_threshold:   4.0
+ai:
+	target:
+		prefer:
+			base:   true
+			owner:  "different"

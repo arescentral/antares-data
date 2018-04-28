@@ -1,6 +1,5 @@
 template:          "tpl/fighter"
 notes:             "Fighter"
-order_flags:       {soft_local: false}
 race:              "gai"
 health:            50
 price:             500
@@ -21,3 +20,6 @@ rotation:
 portrait:          "gai/fighter"
 shield_color:      {r: 240, g: 234, b: 195}
 danger_threshold:  1.0
+ai:
+	target:
+		prefer:  {local: null}

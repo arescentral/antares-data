@@ -2,8 +2,6 @@ template:           "tpl/utilship"
 long_name:          "Assault Transport"
 short_name:         "ASLTTRAN"
 build_flags:        {matching_foe_exists: true}
-order_flags:        {soft_foe: true, hard_foe: true, soft_matching_foe: true, hard_matching_foe: true}
-order_tags:         {station: true}
 class:              860
 health:             1200
 energy:             800
@@ -32,3 +30,11 @@ offense:            0.2
 destination_class:  9
 friend_deficit:     8.0
 danger_threshold:   4.0
+ai:
+	target:
+		prefer:
+			owner:  "different"
+			tags:   {station: true}
+		force:
+			owner:  "different"
+			tags:   {station: true}

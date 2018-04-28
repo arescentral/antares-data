@@ -1,6 +1,5 @@
 template:           "tpl/engineer"
 notes:              "Engineer Pod"
-order_flags:        {soft_base: true}
 race:               "can"
 warp_out_distance:  9734400
 weapons:
@@ -13,3 +12,6 @@ rotation:
 	frames:  {begin: 0, end: 24}
 portrait:           "can/engineer"
 shield_color:       {r: 240, g: 240, b: 120}
+ai:
+	target:
+		prefer:  {base: true}
