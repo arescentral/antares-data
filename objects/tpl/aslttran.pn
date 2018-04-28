@@ -36,4 +36,4 @@ ai:
 		force:
 			owner:  "different"
 			tags:   {station: true}
-	build:  {ratio: 0.7, needs_target: true}
+	build:  {ratio: 0.7}

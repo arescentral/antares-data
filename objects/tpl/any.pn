@@ -30,4 +30,4 @@ danger_threshold:   0.0
 ai:
 	combat:
 		skill:  {num: 0, den: 0}
-	build:  {ratio: 0.0, needs_escort: false, needs_target: false}
+	build:  {ratio: 0.0, needs_escort: false}

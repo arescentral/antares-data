@@ -9,5 +9,3 @@ rotation:
 portrait:           "gai/transport"
 shield_color:       {r: 240, g: 240, b: 120}
 offense:            0.2
-ai:
-	build:  {needs_target: false}

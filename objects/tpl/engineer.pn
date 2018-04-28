@@ -94,4 +94,4 @@ ai:
 			base:   false
 			owner:  "different"
 			tags:   {flak: true}
-	build:  {ratio: 0.7, needs_target: true}
+	build:  {ratio: 0.7}

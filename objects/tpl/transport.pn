@@ -50,4 +50,4 @@ ai:
 			base:   true
 			owner:  "different"
 			tags:   {planet: true}
-	build:  {ratio: 0.7, needs_target: true}
+	build:  {ratio: 0.7}
