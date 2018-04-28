@@ -5,7 +5,6 @@ class:              300
 health:             3000
 energy:             2000
 price:              2200
-build_ratio:        0.348
 build_time:         "10s"
 mass:               1.2
 turn_rate:          1.2
@@ -25,3 +24,5 @@ offense:            1.5
 destination_class:  5
 friend_deficit:     1.0
 danger_threshold:   -10.0
+ai:
+	build:  {ratio: 0.348}

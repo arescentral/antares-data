@@ -1,6 +1,5 @@
 template:           "tpl/transport"
 notes:              "Transport"
-build_flags:        {matching_foe_exists: false}
 race:               "gai"
 energy:             800
 warp_out_distance:  9734400
@@ -10,3 +9,5 @@ rotation:
 portrait:           "gai/transport"
 shield_color:       {r: 240, g: 240, b: 120}
 offense:            0.2
+ai:
+	build:  {needs_target: false}

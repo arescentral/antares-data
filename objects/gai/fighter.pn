@@ -3,7 +3,6 @@ notes:             "Fighter"
 race:              "gai"
 health:            50
 price:             500
-build_ratio:       0.5
 build_time:        "2.5s"
 mass:              0.5
 max_velocity:      5.0
@@ -23,3 +22,4 @@ danger_threshold:  1.0
 ai:
 	target:
 		prefer:  {local: null}
+	build:  {ratio: 0.5}

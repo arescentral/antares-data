@@ -7,7 +7,6 @@ race:               "obi"
 health:             1500
 energy:             1500
 price:              1500
-build_ratio:        0.75
 build_time:         "10s"
 mass:               1.0
 max_velocity:       6.5
@@ -44,3 +43,5 @@ destroy:
 offense:            1.0
 destination_class:  3
 danger_threshold:   -5.0
+ai:
+	build:  {ratio: 0.75}

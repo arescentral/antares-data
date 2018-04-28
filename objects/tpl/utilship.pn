@@ -1,5 +1,6 @@
-template:     "tpl/ship"
-build_flags:  {sufficient_escorts_exist: true}
+template:  "tpl/ship"
 icon:
 	shape:  "plus"
 	size:   4
+ai:
+	build:  {needs_escort: true}

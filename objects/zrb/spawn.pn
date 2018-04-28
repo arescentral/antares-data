@@ -7,7 +7,6 @@ class:              100
 health:             70
 energy:             600
 price:              600
-build_ratio:        0.75
 build_time:         "3s"
 mass:               0.098
 max_velocity:       6.0
@@ -59,3 +58,4 @@ ai:
 		skill:  {num: 3, den: 21}
 	target:
 		prefer:  {local: true}
+	build:  {ratio: 0.75}

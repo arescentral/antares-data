@@ -2,7 +2,6 @@ template:           "tpl/ship"
 health:             5000
 energy:             5000
 price:              4500
-build_ratio:        0.098
 build_time:         "1m40s"
 mass:               2.0
 turn_rate:          1.0
@@ -18,3 +17,5 @@ offense:            4.0
 destination_class:  7
 friend_deficit:     2.0
 danger_threshold:   -20.0
+ai:
+	build:  {ratio: 0.098}

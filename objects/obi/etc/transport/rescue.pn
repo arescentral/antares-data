@@ -1,10 +1,8 @@
 template:           "obi/transport"
 notes:              "Can Pick Up Guys"
 attributes:         {hide_effect: false, can_be_evaded: true}
-build_flags:        {sufficient_escorts_exist: false}
 tags:               {rescue: true, planet: null}
 class:              881
-build_ratio:        0.4
 initial_velocity:   1.5
 warp_out_distance:  0
 weapons:
@@ -20,3 +18,4 @@ offense:            1.0
 ai:
 	target:
 		prefer:  {base: null, owner: null}
+	build:  {ratio: 0.4, needs_escort: false}

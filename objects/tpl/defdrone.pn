@@ -6,7 +6,6 @@ class:              600
 health:             1500
 energy:             1000
 price:              1000
-build_ratio:        0.5
 build_time:         "5s"
 mass:               1.0
 turn_rate:          5.0
@@ -30,3 +29,4 @@ ai:
 			base:   true
 			owner:  "same"
 		force:  {local: true, base: true}
+	build:  {ratio: 0.5}

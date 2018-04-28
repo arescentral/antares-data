@@ -5,7 +5,6 @@ class:              100
 health:             100
 energy:             600
 price:              600
-build_ratio:        0.75
 build_time:         "3s"
 mass:               0.797
 turn_rate:          3.0
@@ -25,3 +24,4 @@ danger_threshold:   2.0
 ai:
 	target:
 		prefer:  {local: true}
+	build:  {ratio: 0.75}

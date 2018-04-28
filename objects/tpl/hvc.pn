@@ -5,7 +5,6 @@ class:              250
 health:             1000
 energy:             1000
 price:              1500
-build_ratio:        0.797
 build_time:         "7.5s"
 mass:               1.0
 max_velocity:       5.0
@@ -23,3 +22,5 @@ destroy:
 offense:            1.0
 destination_class:  3
 danger_threshold:   1.0
+ai:
+	build:  {ratio: 0.797}

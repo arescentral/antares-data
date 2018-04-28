@@ -2,7 +2,6 @@ template:           "tpl/utilship"
 long_name:          "Astrominer"
 short_name:         "ASTROMNR"
 notes:              "Astrominer"
-build_flags:        {sufficient_escorts_exist: false}
 tags:               {miner: true, normal-attacker: null}
 class:              301
 race:               "ish"
@@ -42,3 +41,4 @@ danger_threshold:   -10.0
 ai:
 	combat:
 		skill:  {num: 14}
+	build:  {needs_escort: false}

@@ -5,7 +5,6 @@ notes:              "Holographic Decoy"
 attributes:         {can_be_engaged: true, hated: true, can_be_evaded: true, appear_on_radar: true}
 health:             1500
 energy:             1000
-build_ratio:        1.0
 build_time:         "5s"
 mass:               1.0
 max_velocity:       7.5
@@ -30,3 +29,5 @@ collide:            {edge: true}
 offense:            1.0
 destination_class:  3
 danger_threshold:   1.0
+ai:
+	build:  {ratio: 1.0}

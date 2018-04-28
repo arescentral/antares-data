@@ -1,12 +1,10 @@
 template:           "tpl/utilship"
 long_name:          "Assault Transport"
 short_name:         "ASLTTRAN"
-build_flags:        {matching_foe_exists: true}
 class:              860
 health:             1200
 energy:             800
 price:              2000
-build_ratio:        0.7
 build_time:         "11s"
 mass:               1.098
 max_velocity:       3.0
@@ -38,3 +36,4 @@ ai:
 		force:
 			owner:  "different"
 			tags:   {station: true}
+	build:  {ratio: 0.7, needs_target: true}

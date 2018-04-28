@@ -8,7 +8,6 @@ race:               "ele"
 health:             250
 energy:             1000
 price:              800
-build_ratio:        0.7
 build_time:         "11s"
 mass:               0.098
 max_velocity:       1.5
@@ -53,3 +52,5 @@ collide:
 destination_class:  9
 friend_deficit:     2.0
 danger_threshold:   4.0
+ai:
+	build:  {ratio: 0.7}

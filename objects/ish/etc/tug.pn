@@ -3,7 +3,6 @@ long_name:          "Tractor Tug"
 short_name:         "TUG"
 notes:              "Tractor Tug"
 attributes:         {can_engage: false, can_be_evaded: false}
-build_flags:        {sufficient_escorts_exist: false}
 class:              301
 race:               "ish"
 health:             700
@@ -39,3 +38,5 @@ offense:            1.5
 destination_class:  5
 friend_deficit:     1.0
 danger_threshold:   -10.0
+ai:
+	build:  {needs_escort: false}

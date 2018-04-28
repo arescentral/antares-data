@@ -1,7 +1,6 @@
 template:           "tpl/transport"
 notes:              "Transport"
 attributes:         {hide_effect: true}
-build_flags:        {matching_foe_exists: false}
 race:               "aud"
 energy:             800
 warp_out_distance:  9734400
@@ -10,3 +9,5 @@ rotation:
 	frames:  {begin: 0, end: 24}
 shield_color:       {r: 240, g: 240, b: 120}
 offense:            0.2
+ai:
+	build:  {needs_target: false}

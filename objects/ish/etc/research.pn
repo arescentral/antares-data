@@ -8,7 +8,6 @@ race:               "ish"
 health:             1000
 energy:             1000
 price:              800
-build_ratio:        0.7
 build_time:         "11s"
 mass:               1.098
 turn_rate:          0.5
@@ -38,3 +37,4 @@ ai:
 		prefer:
 			base:   true
 			owner:  "different"
+	build:  {ratio: 0.7}

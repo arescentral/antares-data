@@ -6,7 +6,6 @@ class:              -1
 health:             0
 energy:             0
 price:              0
-build_ratio:        0.0
 build_time:         "0s"
 occupy_count:       0
 mass:               0.0
@@ -31,3 +30,4 @@ danger_threshold:   0.0
 ai:
 	combat:
 		skill:  {num: 0, den: 0}
+	build:  {ratio: 0.0, needs_escort: false, needs_target: false}

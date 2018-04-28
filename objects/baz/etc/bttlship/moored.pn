@@ -2,7 +2,6 @@ template:           "baz/bttlship"
 long_name:          "Battleship-Moored"
 notes:              "Battleship-Moored"
 attributes:         {can_be_engaged: false, can_be_destination: false, can_engage: false, can_evade: false, can_accept_destination: false, hated: false, can_be_evaded: false}
-build_ratio:        0.0
 build_time:         "0s"
 turn_rate:          null
 max_velocity:       0.0
@@ -22,3 +21,4 @@ danger_threshold:   0.0
 ai:
 	combat:
 		skill:  {num: 0, den: 0}
+	build:  {ratio: 0.0}

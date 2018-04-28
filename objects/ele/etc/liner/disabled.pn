@@ -1,7 +1,6 @@
 template:      "ele/etc/liner"
 notes:         "Liner Disabled"
 attributes:    {can_be_engaged: false, can_evade: false, can_accept_destination: false, hated: false}
-build_flags:   {sufficient_escorts_exist: false}
 turn_rate:     null
 max_velocity:  0.5
 max_thrust:    0.0
@@ -13,3 +12,4 @@ ai:
 		skill:  {num: 0, den: 0}
 	target:
 		prefer:  {base: null, owner: null}
+	build:  {needs_escort: false}

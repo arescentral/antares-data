@@ -2,12 +2,10 @@ template:           "tpl/utilship"
 long_name:          "Transport"
 short_name:         "TRANSPRT"
 attributes:         {can_engage: false, can_be_evaded: false}
-build_flags:        {matching_foe_exists: true}
 class:              800
 health:             250
 energy:             1000
 price:              800
-build_ratio:        0.7
 build_time:         "11s"
 mass:               1.098
 max_velocity:       3.0
@@ -52,3 +50,4 @@ ai:
 			base:   true
 			owner:  "different"
 			tags:   {planet: true}
+	build:  {ratio: 0.7, needs_target: true}
