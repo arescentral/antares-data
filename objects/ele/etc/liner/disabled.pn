@@ -8,8 +8,8 @@ max_thrust:    0.0
 portrait:      null
 expire:        {action: null}
 collide:       {edge: false}
-skill_num:     0
-skill_den:     0
 ai:
+	combat:
+		skill:  {num: 0, den: 0}
 	target:
 		prefer:  {base: null, owner: null}

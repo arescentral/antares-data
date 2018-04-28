@@ -9,5 +9,6 @@ collide:
 	as:     {subject: true, object: true}
 	solid:  true
 	edge:   true
-skill_num:          3
-skill_den:          21
+ai:
+	combat:
+		skill:  {num: 3, den: 21}

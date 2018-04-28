@@ -7,7 +7,8 @@ icon:               {size: 7}
 destroy:            {neutralize: true, action: null}
 collide:
 	as:  {subject: false}
-skill_num:          3
-skill_den:          21
 destination_class:  10
 friend_deficit:     3.0
+ai:
+	combat:
+		skill:  {num: 3, den: 21}

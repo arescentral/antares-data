@@ -24,9 +24,10 @@ collide:
 	solid:   false
 	edge:    false
 arrive:             {distance: 50000}
-skill_num:          0
-skill_den:          0
 offense:            0.0
 destination_class:  0
 friend_deficit:     0.0
 danger_threshold:   0.0
+ai:
+	combat:
+		skill:  {num: 0, den: 0}

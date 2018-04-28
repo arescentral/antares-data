@@ -50,5 +50,6 @@ collide:
 		*	type:       "kill"
 			reflexive:  true
 			kind:       "expire"
-skill_num:         1
-skill_den:         1
+ai:
+	combat:
+		skill:  {num: 1, den: 1}

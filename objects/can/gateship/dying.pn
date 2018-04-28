@@ -59,5 +59,6 @@ activate:
 		*	type:       "reveal"
 			reflexive:  true
 			which:      {begin: 4, end: 12}
-skill_num:   0
-skill_den:   0
+ai:
+	combat:
+		skill:  {num: 0, den: 0}

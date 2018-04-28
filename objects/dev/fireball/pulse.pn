@@ -26,5 +26,6 @@ activate:
 			reflexive:           true
 			base:                "dev/fireball/trail"
 			relative_direction:  true
-skill_num:         3
-skill_den:         21
+ai:
+	combat:
+		skill:  {num: 3, den: 21}

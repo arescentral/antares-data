@@ -69,6 +69,7 @@ activate:
 			delay:      "4.5s"
 			base:       "uns/etc/human/turning"
 			keep_ammo:  true
-skill_num:          3
-skill_den:          21
 destination_class:  -256
+ai:
+	combat:
+		skill:  {num: 3, den: 21}

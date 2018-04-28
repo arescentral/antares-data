@@ -8,4 +8,6 @@ collide:
 	as:     {subject: false, object: false}
 	solid:  false
 arrive:      {action: null}
-skill_num:   20
+ai:
+	combat:
+		skill:  {num: 20}

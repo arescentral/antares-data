@@ -62,11 +62,11 @@ collide:
 			count:      {begin: -1, end: 3}
 			distance:   2
 arrive:             {distance: 0}
-skill_num:          3
-skill_den:          21
 offense:            0.5
 destination_class:  1
 danger_threshold:   2.0
 ai:
+	combat:
+		skill:  {num: 3, den: 21}
 	target:
 		prefer:  {local: true}

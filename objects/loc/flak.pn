@@ -42,7 +42,8 @@ destroy:
 collide:
 	as:    {subject: true, object: true}
 	edge:  true
-skill_num:          3
-skill_den:          21
 offense:            1.5
 destination_class:  9
+ai:
+	combat:
+		skill:  {num: 3, den: 21}

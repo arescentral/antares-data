@@ -16,8 +16,9 @@ portrait:           null
 destroy:            {release_energy: false}
 collide:
 	as:  {subject: false, object: false}
-skill_num:          0
-skill_den:          0
 offense:            0.0
 friend_deficit:     0.0
 danger_threshold:   0.0
+ai:
+	combat:
+		skill:  {num: 0, den: 0}

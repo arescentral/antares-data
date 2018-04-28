@@ -13,5 +13,6 @@ create:
 			priority:     3
 			persistence:  "0.5s"
 			volume:       255
-skill_num:   1
-skill_den:   1
+ai:
+	combat:
+		skill:  {num: 1, den: 1}
