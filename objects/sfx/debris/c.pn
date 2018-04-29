@@ -2,7 +2,7 @@ template:           "tpl/hazard"
 long_name:          "Debris"
 short_name:         "DEBRIS"
 notes:              "Debris"
-attributes:         {can_be_engaged: true, appear_on_radar: false}
+attributes:         {appear_on_radar: false}
 health:             10
 mass:               0.5
 initial_velocity:   {begin: 0.5, end: 1.5}
@@ -30,3 +30,5 @@ collide:
 		*	type:       "kill"
 			reflexive:  true
 			kind:       "expire"
+ai:
+	combat:  {engaged: true}

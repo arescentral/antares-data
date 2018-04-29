@@ -1,5 +1,5 @@
 template:           "tpl/waypoint"
-attributes:         {can_be_engaged: true, hated: true, appear_on_radar: true}
+attributes:         {appear_on_radar: true}
 health:             1000
 icon:
 	shape:  "square"
@@ -12,3 +12,5 @@ destroy:
 collide:
 	as:  {subject: true, object: true}
 destination_class:  -256
+ai:
+	combat:  {hated: true, engaged: true}

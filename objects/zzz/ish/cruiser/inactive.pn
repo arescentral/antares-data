@@ -1,7 +1,6 @@
 template:      "zzz/ish/cruiser/active"
 long_name:     "Cruiser Dead"
 notes:         "Practice Inactive"
-attributes:    {can_be_engaged: false, can_engage: false, can_evade: false, hated: false, can_be_evaded: false}
 turn_rate:     null
 max_velocity:  0.0
 max_thrust:    0.0
@@ -10,3 +9,5 @@ weapons:       {pulse: null, beam: null}
 destroy:       {action: null}
 collide:
 	as:  {subject: false, object: false}
+ai:
+	combat:  {hated: false, engages: false, engaged: false, evades: false, evaded: false}

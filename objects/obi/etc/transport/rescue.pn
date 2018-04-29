@@ -1,6 +1,6 @@
 template:           "obi/transport"
 notes:              "Can Pick Up Guys"
-attributes:         {hide_effect: false, can_be_evaded: true}
+attributes:         {hide_effect: false}
 tags:               {rescue: true, planet: null}
 class:              881
 initial_velocity:   1.5
@@ -16,6 +16,7 @@ expire:             {action: null}
 arrive:             {action: null}
 offense:            1.0
 ai:
+	combat:  {evaded: true}
 	target:
 		prefer:  {base: null, owner: null}
-	build:  {ratio: 0.4, needs_escort: false}
+	build:   {ratio: 0.4, needs_escort: false}

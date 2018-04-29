@@ -2,9 +2,8 @@ template:           "tpl/waypoint"
 long_name:          "Tractor Moor"
 short_name:         "MOOR 2 N"
 notes:              "Moor, for CTF, P2 Inactive"
-attributes:         {can_engage: true, appear_on_radar: true}
+attributes:         {appear_on_radar: true}
 tags:               {disabled: true, reactivator: true, normal: null, normal-attacker: null}
-attack_tags:        {disabled: true}
 health:             1000
 weapons:
 	special:
@@ -36,3 +35,7 @@ expire:
 collide:
 	as:  {subject: true}
 destination_class:  -256
+ai:
+	combat:
+		engages:     true
+		engages_if:  {disabled: true}

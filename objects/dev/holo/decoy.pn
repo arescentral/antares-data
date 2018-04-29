@@ -2,7 +2,7 @@ template:           "tpl/oriented"
 long_name:          "Holographic Decoy"
 short_name:         "HOLODCOY"
 notes:              "Holographic Decoy"
-attributes:         {can_be_engaged: true, hated: true, can_be_evaded: true, appear_on_radar: true}
+attributes:         {appear_on_radar: true}
 health:             1500
 energy:             1000
 build_time:         "5s"
@@ -30,4 +30,5 @@ offense:            1.0
 destination_class:  3
 danger_threshold:   1.0
 ai:
-	build:  {ratio: 1.0}
+	combat:  {hated: true, engaged: true, evaded: true}
+	build:   {ratio: 1.0}

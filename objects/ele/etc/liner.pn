@@ -2,7 +2,6 @@ template:           "tpl/utilship"
 long_name:          "Luxury Liner"
 short_name:         "LUXLINER"
 notes:              "Luxury Liner"
-attributes:         {can_engage: false, can_be_evaded: false}
 class:              803
 race:               "ele"
 health:             250
@@ -44,8 +43,9 @@ destination_class:  9
 friend_deficit:     2.0
 danger_threshold:   4.0
 ai:
+	combat:  {engages: false, evaded: false}
 	target:
 		prefer:
 			base:   true
 			owner:  "different"
-	build:  {ratio: 0.7}
+	build:   {ratio: 0.7}

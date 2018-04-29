@@ -2,9 +2,8 @@ template:           "tpl/oriented"
 long_name:          "Obiard"
 short_name:         "OBIARD"
 notes:              "Needs rescuing, turning"
-attributes:         {can_engage: true, can_accept_destination: true, static_destination: true, appear_on_radar: true}
+attributes:         {can_accept_destination: true, static_destination: true, appear_on_radar: true}
 tags:               {prisoner: true, normal-attacker: null}
-attack_tags:        {rescue: true}
 health:             1
 mass:               0.5
 turn_rate:          2.0
@@ -74,4 +73,6 @@ activate:
 destination_class:  -256
 ai:
 	combat:
-		skill:  {num: 3, den: 21}
+		engages:     true
+		engages_if:  {rescue: true}
+		skill:       {num: 3, den: 21}

@@ -1,8 +1,6 @@
 template:          "gro/ctf/cruiser/p2-active"
 notes:             "Cruiser, for CTF, Player 2, Inactive"
-attributes:        {can_evade: false, can_be_evaded: false}
 tags:              {disabled: true, reactivator: true, normal: null, normal-attacker: null}
-defend_tags:       {reactivator: true}
 class:             204
 max_velocity:      0.0
 initial_velocity:  null
@@ -10,3 +8,8 @@ weapons:           {pulse: null, beam: null}
 destroy:           {action: null}
 collide:
 	as:  {object: false}
+ai:
+	combat:
+		engaged_if:  {reactivator: true}
+		evades:      false
+		evaded:      false

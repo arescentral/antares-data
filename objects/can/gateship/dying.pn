@@ -1,6 +1,6 @@
 template:    "can/gateship/base"
 notes:       "Blowing up & Dying Left & Right"
-attributes:  {can_be_engaged: false, can_be_destination: false, can_engage: false, can_evade: false, can_accept_destination: false, hated: false, can_be_evaded: false}
+attributes:  {can_be_destination: false, can_accept_destination: false}
 health:      1
 max_thrust:  0.0
 weapons:     {pulse: null, beam: null, special: null}
@@ -61,4 +61,9 @@ activate:
 			which:      {begin: 4, end: 12}
 ai:
 	combat:
-		skill:  {num: 0, den: 0}
+		hated:    false
+		engages:  false
+		engaged:  false
+		evades:   false
+		evaded:   false
+		skill:    {num: 0, den: 0}

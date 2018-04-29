@@ -1,5 +1,5 @@
 template:           "tpl/structure"
-attributes:         {can_engage: true, can_accept_build: true, is_destination: true}
+attributes:         {can_accept_build: true, is_destination: true}
 tags:               {station: true, normal: null}
 health:             5000
 energy:             1000
@@ -11,4 +11,5 @@ destination_class:  10
 friend_deficit:     3.0
 ai:
 	combat:
-		skill:  {num: 3, den: 21}
+		engages:  true
+		skill:    {num: 3, den: 21}

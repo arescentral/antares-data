@@ -2,7 +2,6 @@ template:           "tpl/utilship"
 long_name:          "Player 1's Flag"
 short_name:         "FLAG P1"
 notes:              "Flag, for CTF, P1"
-attributes:         {can_engage: false, can_evade: false}
 class:              221
 race:               "gro"
 health:             100000
@@ -34,4 +33,5 @@ offense:            1.0
 destination_class:  3
 danger_threshold:   1.0
 ai:
-	build:  {ratio: 1.0, needs_escort: false}
+	combat:  {engages: false, evades: false}
+	build:   {ratio: 1.0, needs_escort: false}

@@ -2,7 +2,7 @@ template:           "tpl/utilship"
 long_name:          "Transport"
 short_name:         "TRANSPRT"
 notes:              "Transport"
-attributes:         {can_engage: false, hide_effect: true, can_be_evaded: false}
+attributes:         {hide_effect: true}
 tags:               {planet: true, normal: null}
 class:              800
 race:               "obi"
@@ -59,8 +59,9 @@ destination_class:  9
 friend_deficit:     2.0
 danger_threshold:   4.0
 ai:
+	combat:  {engages: false, evaded: false}
 	target:
 		prefer:
 			base:   true
 			owner:  "different"
-	build:  {ratio: 0.7}
+	build:   {ratio: 0.7}

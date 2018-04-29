@@ -2,7 +2,6 @@ template:          "tpl/hazard"
 long_name:         "Nastiroid"
 short_name:        "NASTROID"
 notes:             "Nastiroid"
-attributes:        {hated: true, can_be_evaded: true}
 health:            500000
 energy:            2000
 mass:              10.0
@@ -32,3 +31,5 @@ collide:
 			reflexive:  true
 			kind:       "destroy"
 friend_deficit:    1.0
+ai:
+	combat:  {hated: true, evaded: true}

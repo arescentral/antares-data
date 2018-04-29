@@ -2,7 +2,6 @@ template:           "tpl/hazard"
 long_name:          "Astroid Fragment"
 short_name:         "ASTRFRGM"
 notes:              "Astroid Fragment"
-attributes:         {can_be_engaged: true, hated: true}
 health:             2500
 mass:               3.0
 max_velocity:       1.5
@@ -26,3 +25,5 @@ destroy:
 			count:               3
 			relative_velocity:   true
 			relative_direction:  true
+ai:
+	combat:  {hated: true, engaged: true}

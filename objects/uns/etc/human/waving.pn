@@ -2,7 +2,7 @@ template:           "tpl/hazard"
 long_name:          "Human"
 short_name:         "HUMAN"
 notes:              "Human needs rescuing (waving)"
-attributes:         {can_engage: true, static_destination: true}
+attributes:         {static_destination: true}
 health:             1
 mass:               0.5
 turn_rate:          2.0
@@ -40,4 +40,5 @@ collide:
 			kind:  "expire"
 ai:
 	combat:
-		skill:  {num: 3, den: 21}
+		engages:  true
+		skill:    {num: 3, den: 21}

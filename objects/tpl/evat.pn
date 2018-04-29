@@ -1,9 +1,8 @@
 template:           "tpl/oriented"
 long_name:          "EVA Trooper"
 short_name:         "EVAT"
-attributes:         {can_be_engaged: true, can_engage: true, can_evade: true, can_accept_destination: true, hated: true, static_destination: true, can_be_evaded: true, appear_on_radar: true}
+attributes:         {can_accept_destination: true, static_destination: true, appear_on_radar: true}
 tags:               {boarder: true, normal-attacker: null}
-attack_tags:        {station: true}
 class:              10
 health:             10
 energy:             50
@@ -62,7 +61,13 @@ destination_class:  1
 danger_threshold:   2.0
 ai:
 	combat:
-		skill:  {num: 3, den: 21}
+		hated:       true
+		engages:     true
+		engages_if:  {station: true}
+		engaged:     true
+		evades:      true
+		evaded:      true
+		skill:       {num: 3, den: 21}
 	target:
 		prefer:
 			local:  true

@@ -2,7 +2,7 @@ template:          "tpl/opulse"
 long_name:         "C Missile"
 short_name:        "CMISSILE"
 notes:             "Can't target or turn?"
-attributes:        {can_engage: true, hated: true, can_be_evaded: true, appear_on_radar: true}
+attributes:        {appear_on_radar: true}
 health:            25
 turn_rate:         0.008
 max_velocity:      9.0
@@ -52,4 +52,7 @@ collide:
 			kind:       "expire"
 ai:
 	combat:
-		skill:  {num: 1, den: 1}
+		hated:    true
+		engages:  true
+		evaded:   true
+		skill:    {num: 1, den: 1}

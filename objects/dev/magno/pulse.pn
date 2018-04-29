@@ -2,7 +2,7 @@ template:      "tpl/apulse"
 long_name:     "Magno Pulse"
 short_name:    "MGNOPULS"
 notes:         "Magno Pulse"
-attributes:    {can_engage: true, autotarget: true, hated: true, can_be_evaded: true, is_guided: true, appear_on_radar: true}
+attributes:    {autotarget: true, is_guided: true, appear_on_radar: true}
 max_velocity:  9.0
 max_thrust:    0.2
 animation:
@@ -35,4 +35,7 @@ collide:
 			kind:       "expire"
 ai:
 	combat:
-		skill:  {num: 3, den: 21}
+		hated:    true
+		engages:  true
+		evaded:   true
+		skill:    {num: 3, den: 21}

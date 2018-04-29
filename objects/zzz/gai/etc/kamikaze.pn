@@ -2,7 +2,6 @@ template:           "tpl/ship"
 long_name:          "Kamikaze"
 short_name:         "KAMIKAZI"
 notes:              "Kamikaze"
-attributes:         {can_engage: false, can_evade: false}
 class:              99
 race:               "gai"
 health:             50
@@ -47,4 +46,5 @@ offense:            0.5
 destination_class:  1
 danger_threshold:   1.0
 ai:
-	build:  {ratio: 0.5}
+	combat:  {engages: false, evades: false}
+	build:   {ratio: 0.5}

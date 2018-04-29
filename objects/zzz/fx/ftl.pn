@@ -2,7 +2,7 @@ template:           "tpl/apulse"
 long_name:          "Superlight Boosters"
 short_name:         "LGHTDRVE"
 notes:              "Superlight Boosters"
-attributes:         {can_be_engaged: true, can_be_destination: true, can_engage: true}
+attributes:         {can_be_destination: true}
 health:             100
 price:              1000
 mass:               0.0
@@ -36,4 +36,6 @@ arrive:
 			kind:       "expire"
 ai:
 	combat:
-		skill:  {num: 3, den: 21}
+		engages:  true
+		engaged:  true
+		skill:    {num: 3, den: 21}

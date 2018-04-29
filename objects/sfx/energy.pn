@@ -2,7 +2,7 @@ template:           "tpl/apulse"
 long_name:          "Energy"
 short_name:         "ENERGY"
 notes:              "Energy"
-attributes:         {can_be_engaged: true, can_engage: true, appear_on_radar: true}
+attributes:         {appear_on_radar: true}
 health:             100
 mass:               0.0
 max_velocity:       2.0
@@ -41,4 +41,6 @@ collide:
 arrive:             {distance: 18}
 ai:
 	combat:
-		skill:  {num: 3, den: 21}
+		engages:  true
+		engaged:  true
+		skill:    {num: 3, den: 21}

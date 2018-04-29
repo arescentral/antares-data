@@ -2,7 +2,7 @@ template:      "tpl/apulse"
 long_name:     "R-Plasma"
 short_name:    "RPLASMA"
 notes:         "R-Plasma"
-attributes:    {can_engage: true, can_be_evaded: true, is_guided: true, appear_on_radar: true}
+attributes:    {is_guided: true, appear_on_radar: true}
 max_velocity:  9.0
 max_thrust:    0.2
 animation:
@@ -50,4 +50,6 @@ collide:
 			kind:       "none"
 ai:
 	combat:
-		skill:  {num: 3, den: 21}
+		engages:  true
+		evaded:   true
+		skill:    {num: 3, den: 21}

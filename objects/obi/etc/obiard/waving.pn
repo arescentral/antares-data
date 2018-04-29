@@ -2,9 +2,8 @@ template:           "tpl/hazard"
 long_name:          "Obiard"
 short_name:         "OBIARD"
 notes:              "Needs rescuing, waving"
-attributes:         {can_engage: true, static_destination: true}
+attributes:         {static_destination: true}
 tags:               {prisoner: true, normal-attacker: null}
-attack_tags:        {rescue: true}
 health:             1
 mass:               0.5
 turn_rate:          2.0
@@ -41,4 +40,6 @@ collide:
 			kind:  "expire"
 ai:
 	combat:
-		skill:  {num: 3, den: 21}
+		engages:     true
+		engages_if:  {rescue: true}
+		skill:       {num: 3, den: 21}

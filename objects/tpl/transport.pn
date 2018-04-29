@@ -1,7 +1,6 @@
 template:           "tpl/utilship"
 long_name:          "Transport"
 short_name:         "TRANSPRT"
-attributes:         {can_engage: false, can_be_evaded: false}
 class:              800
 health:             250
 energy:             1000
@@ -45,9 +44,10 @@ destination_class:  9
 friend_deficit:     2.0
 danger_threshold:   4.0
 ai:
+	combat:  {engages: false, evaded: false}
 	target:
 		prefer:
 			base:   true
 			owner:  "different"
 			tags:   {planet: true}
-	build:  {ratio: 0.7}
+	build:   {ratio: 0.7}

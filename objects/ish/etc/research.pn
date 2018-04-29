@@ -2,7 +2,6 @@ template:           "tpl/utilship"
 long_name:          "Research Vessel"
 short_name:         "RESEARCH"
 notes:              "Research Vessel"
-attributes:         {can_engage: false, can_be_evaded: false}
 class:              802
 race:               "ish"
 health:             1000
@@ -33,8 +32,9 @@ destination_class:  9
 friend_deficit:     2.0
 danger_threshold:   4.0
 ai:
+	combat:  {engages: false, evaded: false}
 	target:
 		prefer:
 			base:   true
 			owner:  "different"
-	build:  {ratio: 0.7}
+	build:   {ratio: 0.7}

@@ -29,5 +29,10 @@ friend_deficit:     0.0
 danger_threshold:   0.0
 ai:
 	combat:
-		skill:  {num: 0, den: 0}
+		hated:    false
+		engages:  false
+		engaged:  false
+		evades:   false
+		evaded:   false
+		skill:    {num: 0, den: 0}
 	build:  {ratio: 0.0, needs_escort: false}

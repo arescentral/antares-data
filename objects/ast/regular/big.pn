@@ -2,9 +2,8 @@ template:          "tpl/hazard"
 long_name:         "Asteroid"
 short_name:        "ASTEROID"
 notes:             "Asteroid, regular"
-attributes:        {can_be_engaged: true, hide_effect: true, hated: true}
+attributes:        {hide_effect: true}
 tags:              {asteroid: true, normal: null}
-defend_tags:       {miner: true}
 health:            10000
 mass:              10.0
 max_velocity:      3.0
@@ -45,3 +44,8 @@ create:
 			distance:            2
 collide:           {damage: 10, edge: false}
 friend_deficit:    1.0
+ai:
+	combat:
+		hated:       true
+		engaged:     true
+		engaged_if:  {miner: true}

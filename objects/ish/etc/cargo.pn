@@ -2,7 +2,6 @@ template:           "tpl/utilship"
 long_name:          "Cargo Ship"
 short_name:         "CARGO"
 notes:              "Cargo Ship"
-attributes:         {can_engage: false, can_be_evaded: false}
 class:              811
 race:               "ish"
 health:             250
@@ -48,8 +47,9 @@ destination_class:  9
 friend_deficit:     2.0
 danger_threshold:   4.0
 ai:
+	combat:  {engages: false, evaded: false}
 	target:
 		prefer:
 			base:   true
 			owner:  "different"
-	build:  {ratio: 0.7, needs_escort: false}
+	build:   {ratio: 0.7, needs_escort: false}

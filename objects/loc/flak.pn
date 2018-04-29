@@ -2,9 +2,8 @@ template:           "tpl/oriented"
 long_name:          "Flak Drone"
 short_name:         "FLCKDRON"
 notes:              "Flak Drone"
-attributes:         {can_be_destination: true, can_engage: true, can_be_evaded: true, appear_on_radar: true}
+attributes:         {can_be_destination: true, appear_on_radar: true}
 tags:               {flak: true, normal: null}
-attack_tags:        {normal: true}
 class:              9999
 health:             15000
 energy:             1000
@@ -46,4 +45,7 @@ offense:            1.5
 destination_class:  9
 ai:
 	combat:
-		skill:  {num: 3, den: 21}
+		engages:     true
+		engages_if:  {normal: true}
+		evaded:      true
+		skill:       {num: 3, den: 21}

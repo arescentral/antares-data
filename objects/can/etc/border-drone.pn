@@ -2,7 +2,7 @@ template:           "tpl/oriented"
 long_name:          "Border Drone"
 short_name:         "BRDRDRNE"
 notes:              "Border Drone"
-attributes:         {can_engage: true, can_be_evaded: true, appear_on_radar: true}
+attributes:         {appear_on_radar: true}
 class:              601
 race:               "can"
 health:             15000
@@ -45,4 +45,6 @@ offense:            1.5
 destination_class:  9
 ai:
 	combat:
-		skill:  {num: 3, den: 21}
+		engages:  true
+		evaded:   true
+		skill:    {num: 3, den: 21}

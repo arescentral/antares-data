@@ -2,7 +2,7 @@ template:           "tpl/hazard"
 long_name:          "Asteroid"
 short_name:         "ASTEROID"
 notes:              "Asteroid"
-attributes:         {can_be_engaged: true, is_destination: true, hated: true}
+attributes:         {is_destination: true}
 health:             10000
 mass:               10.0
 max_velocity:       0.5
@@ -27,3 +27,5 @@ destroy:
 			relative_velocity:   true
 			relative_direction:  true
 friend_deficit:     1.0
+ai:
+	combat:  {hated: true, engaged: true}

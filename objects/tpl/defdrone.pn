@@ -1,7 +1,6 @@
 template:           "tpl/warship"
 long_name:          "Defense Drone"
 short_name:         "DEFDRONE"
-attributes:         {can_evade: false}
 class:              600
 health:             1500
 energy:             1000
@@ -23,10 +22,11 @@ offense:            1.5
 destination_class:  9
 danger_threshold:   1.0
 ai:
+	combat:  {evades: false}
 	target:
 		prefer:
 			local:  true
 			base:   true
 			owner:  "same"
 		force:  {local: true, base: true}
-	build:  {ratio: 0.5}
+	build:   {ratio: 0.5}

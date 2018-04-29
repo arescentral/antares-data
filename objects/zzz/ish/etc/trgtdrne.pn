@@ -2,7 +2,7 @@ template:           "tpl/hazard"
 long_name:          "Target Drone"
 short_name:         "TRGTDRNE"
 notes:              "Target Drone"
-attributes:         {can_be_engaged: true, can_be_destination: true, can_engage: true, can_evade: true, can_accept_destination: true, hated: true, can_be_evaded: true}
+attributes:         {can_be_destination: true, can_accept_destination: true}
 class:              123
 race:               "ish"
 health:             250
@@ -64,7 +64,12 @@ destination_class:  1
 danger_threshold:   2.0
 ai:
 	combat:
-		skill:  {num: 3, den: 21}
+		hated:    true
+		engages:  true
+		engaged:  true
+		evades:   true
+		evaded:   true
+		skill:    {num: 3, den: 21}
 	target:
 		prefer:  {local: true}
 	build:  {ratio: 0.75}

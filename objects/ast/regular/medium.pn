@@ -2,7 +2,6 @@ template:           "tpl/hazard"
 long_name:          "Asteroid Fragment"
 short_name:         "FRAGMENT"
 notes:              "Asteroid Fragment"
-attributes:         {can_be_engaged: true, hated: true}
 health:             2500
 mass:               3.0
 max_velocity:       1.5
@@ -27,3 +26,5 @@ destroy:
 			reflexive:  true
 			base:       "sfx/explosion/small"
 collide:            {edge: false}
+ai:
+	combat:  {hated: true, engaged: true}

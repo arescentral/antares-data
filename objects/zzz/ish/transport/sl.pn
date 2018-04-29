@@ -2,7 +2,7 @@ template:           "tpl/utilship"
 long_name:          "SL Transport"
 short_name:         "TRANSPRT"
 notes:              "SL Transport"
-attributes:         {can_engage: false, hide_effect: true}
+attributes:         {hide_effect: true}
 class:              801
 race:               "ish"
 health:             250
@@ -45,4 +45,5 @@ destination_class:  9
 friend_deficit:     3.0
 danger_threshold:   4.0
 ai:
-	build:  {ratio: 0.098, needs_escort: false}
+	combat:  {engages: false}
+	build:   {ratio: 0.098, needs_escort: false}
