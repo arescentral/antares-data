@@ -1,18 +1,14 @@
-template:           "tpl/hazard"
-long_name:          "Zerbilite Spawn"
-short_name:         "ZERBLITE"
-notes:              "Zerbilite Spawn"
-attributes:         {can_be_destination: true, can_accept_destination: true}
-class:              100
-health:             70
-energy:             600
-price:              600
-build_time:         "3s"
-mass:               0.098
-max_velocity:       6.0
-max_thrust:         0.098
-initial_velocity:   6.0
-initial_direction:  {begin: 0, end: 360}
+template:          "tpl/drone"
+long_name:         "Zerbilite Spawn"
+short_name:        "ZERBLITE"
+notes:             "Zerbilite Spawn"
+class:             100
+health:            70
+mass:              0.098
+turn_rate:         null
+max_velocity:      6.0
+max_thrust:        0.098
+initial_velocity:  6.0
 animation:
 	sprite:     "zrb/base"
 	scale:      0.5
@@ -22,9 +18,9 @@ animation:
 	first:      {begin: 0.0, end: 3.0}
 icon:
 	shape:  "triangle"
-shield_color:       {r: 240, g: 240, b: 120}
+	size:   1
+shield_color:      {r: 240, g: 240, b: 120}
 destroy:
-	release_energy:  true
 	action:
 		*	type:       "create"
 			reflexive:  true
@@ -49,18 +45,8 @@ collide:
 			priority:     3
 			persistence:  "10t"
 			volume:       255
-arrive:             {distance: 0}
-offense:            0.5
-destination_class:  1
-danger_threshold:   2.0
+arrive:            {distance: 0}
 ai:
-	combat:
-		hated:    true
-		engages:  true
-		engaged:  true
-		evades:   true
-		evaded:   true
-		skill:    {num: 3, den: 21}
 	target:
 		prefer:  {local: true}
 	build:  {ratio: 0.75}

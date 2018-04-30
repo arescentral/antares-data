@@ -1,12 +1,6 @@
-template:           "tpl/hazard"
-long_name:          "Asteroid"
+template:           "tpl/asteroid"
 short_name:         "Asteroid"
 notes:              "Asteroid (random direction)"
-attributes:         {hide_effect: true}
-tags:               {asteroid: true, normal: null}
-health:             10000
-mass:               10.0
-max_velocity:       3.0
 initial_velocity:   {begin: 3.0, end: 4.0}
 initial_direction:  {begin: -45, end: 45}
 animation:
@@ -15,7 +9,6 @@ animation:
 	direction:  "?"
 	speed:      0.117
 	first:      {begin: 0.0, end: 19.0}
-icon:               {size: 4}
 destroy:
 	action:
 		*	type:                "create"
@@ -42,10 +35,3 @@ create:
 			relative_velocity:   true
 			relative_direction:  true
 			distance:            2
-collide:            {damage: 10, edge: false}
-friend_deficit:     1.0
-ai:
-	combat:
-		hated:       true
-		engaged:     true
-		engaged_if:  {miner: true}

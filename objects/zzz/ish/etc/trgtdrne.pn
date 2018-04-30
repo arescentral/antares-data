@@ -1,20 +1,10 @@
-template:           "tpl/hazard"
-long_name:          "Target Drone"
-short_name:         "TRGTDRNE"
-notes:              "Target Drone"
-attributes:         {can_be_destination: true, can_accept_destination: true}
-class:              123
-race:               "ish"
-health:             250
-energy:             600
-price:              600
-build_time:         "3s"
-mass:               0.797
-turn_rate:          2.0
-max_velocity:       3.0
-max_thrust:         0.297
-initial_velocity:   0.5
-initial_direction:  {begin: 0, end: 360}
+template:          "tpl/drone"
+long_name:         "Target Drone"
+short_name:        "TRGTDRNE"
+notes:             "Target Drone"
+class:             123
+race:              "ish"
+initial_velocity:  0.5
 weapons:
 	beam:
 		base:  "zzz/dev/inert/turret"
@@ -30,10 +20,9 @@ animation:
 icon:
 	shape:  "triangle"
 	size:   3
-shield_color:       {r: 255, g: 255, b: 255}
+shield_color:      {r: 255, g: 255, b: 255}
 destroy:
-	dont_die:        true
-	release_energy:  true
+	dont_die:  true
 	action:
 		*	type:       "heal"
 			reflexive:  true
@@ -59,17 +48,7 @@ destroy:
 			reflexive:  true
 			delay:      "1s"
 			base:       "zzz/ish/etc/trgtdrne"
-offense:            0.5
-destination_class:  1
-danger_threshold:   2.0
 ai:
-	combat:
-		hated:    true
-		engages:  true
-		engaged:  true
-		evades:   true
-		evaded:   true
-		skill:    {num: 3, den: 21}
 	target:
 		prefer:  {local: true}
 	build:  {ratio: 0.75}

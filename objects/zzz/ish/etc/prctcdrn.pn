@@ -1,20 +1,11 @@
-template:           "tpl/hazard"
-long_name:          "Practice Drone"
-short_name:         "PRCTCDRN"
-notes:              "Practice Drone"
-attributes:         {can_be_destination: true, can_accept_destination: true, static_destination: true}
-class:              1802
-race:               "ish"
-health:             250
-energy:             600
-price:              600
-build_time:         "3s"
-mass:               0.797
-turn_rate:          2.0
-max_velocity:       3.0
-max_thrust:         0.297
-initial_velocity:   0.5
-initial_direction:  {begin: 0, end: 360}
+template:          "tpl/drone"
+long_name:         "Practice Drone"
+short_name:        "PRCTCDRN"
+notes:             "Practice Drone"
+attributes:        {static_destination: true}
+class:             1802
+race:              "ish"
+initial_velocity:  0.5
 animation:
 	sprite:     "ish/etc/trgtdrne"
 	frames:     {begin: 0.0, end: 23.004}
@@ -24,8 +15,7 @@ animation:
 icon:
 	shape:  "plus"
 	size:   4
-shield_color:       {r: 255, g: 255, b: 255}
-destroy:            {release_energy: true}
+shield_color:      {r: 255, g: 255, b: 255}
 create:
 	action:
 		*	type:       "message"
@@ -46,17 +36,7 @@ create:
 			reflexive:  true
 			delay:      "40s"
 			enable:     13
-offense:            0.5
-destination_class:  1
-danger_threshold:   2.0
 ai:
-	combat:
-		hated:    true
-		engages:  true
-		engaged:  true
-		evades:   true
-		evaded:   true
-		skill:    {num: 3, den: 21}
 	target:
 		prefer:  {local: true}
 	build:  {ratio: 0.75}

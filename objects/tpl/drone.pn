@@ -1,0 +1,30 @@
+template:           "tpl/animated"
+long_name:          "Drone"
+short_name:         "DRONE"
+attributes:         {can_be_destination: true, can_accept_destination: true, appear_on_radar: true}
+health:             250
+energy:             600
+price:              600
+build_time:         "3s"
+mass:               0.797
+turn_rate:          2.0
+max_velocity:       3.0
+max_thrust:         0.297
+initial_velocity:   3.0
+initial_direction:  {begin: 0, end: 360}
+destroy:            {release_energy: true}
+collide:
+	as:     {subject: true, object: true}
+	solid:  true
+	edge:   true
+offense:            0.5
+destination_class:  1
+danger_threshold:   2.0
+ai:
+	combat:
+		hated:    true
+		engages:  true
+		engaged:  true
+		evades:   true
+		evaded:   true
+		skill:    {num: 3, den: 21}
