@@ -1,5 +1,5 @@
 template:          "tpl/opulse"
-attributes:        {is_guided: true, appear_on_radar: true}
+attributes:        {appear_on_radar: true}
 health:            25
 turn_rate:         1.0
 max_velocity:      9.0
@@ -34,6 +34,7 @@ collide:
 ai:
 	combat:
 		hated:    true
+		guided:   true
 		engages:  true
 		evaded:   true
 		skill:    {num: 3, den: 21}

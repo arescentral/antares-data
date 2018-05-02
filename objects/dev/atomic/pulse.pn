@@ -2,7 +2,7 @@ template:          "tpl/apulse"
 long_name:         "Atomic Pulse"
 short_name:        "ATOMPLSE"
 notes:             "Atomic Pulse"
-attributes:        {autotarget: true, is_guided: true, appear_on_radar: true}
+attributes:        {autotarget: true, appear_on_radar: true}
 health:            5
 mass:              4.0
 max_thrust:        0.098
@@ -50,6 +50,7 @@ activate:
 ai:
 	combat:
 		hated:    true
+		guided:   true
 		engages:  true
 		evaded:   true
 		skill:    {num: 3, den: 21}

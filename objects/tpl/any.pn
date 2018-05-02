@@ -30,6 +30,7 @@ danger_threshold:   0.0
 ai:
 	combat:
 		hated:    false
+		guided:   false
 		engages:  false
 		engaged:  false
 		evades:   false

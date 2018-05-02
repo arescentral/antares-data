@@ -2,7 +2,7 @@ template:      "tpl/apulse"
 long_name:     "Temp Pulse"
 short_name:    "TEMPPLSE"
 notes:         "Temp Pulse"
-attributes:    {autotarget: true, is_guided: true, appear_on_radar: true}
+attributes:    {autotarget: true, appear_on_radar: true}
 max_velocity:  9.0
 max_thrust:    0.2
 animation:
@@ -39,6 +39,7 @@ collide:
 ai:
 	combat:
 		hated:    true
+		guided:   true
 		engages:  true
 		evaded:   true
 		skill:    {num: 3, den: 21}
