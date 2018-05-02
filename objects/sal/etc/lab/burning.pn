@@ -16,3 +16,5 @@ icon:
 shield_color:       {r: 240, g: 0, b: 0}
 destroy:            {dont_die: true}
 destination_class:  -256
+ai:
+	build:  {legacy_non_builder: true}

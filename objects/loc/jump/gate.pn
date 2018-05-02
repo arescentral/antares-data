@@ -20,3 +20,5 @@ destroy:
 			value:      1
 			player:     0
 destination_class:  -256
+ai:
+	build:  {legacy_non_builder: true}

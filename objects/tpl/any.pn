@@ -35,4 +35,4 @@ ai:
 		evades:   false
 		evaded:   false
 		skill:    {num: 0, den: 0}
-	build:  {ratio: 0.0, needs_escort: false}
+	build:  {ratio: 0.0, needs_escort: false, legacy_non_builder: false}

@@ -9,3 +9,5 @@ animation:
 	scale:   2.0
 icon:          {size: 7}
 shield_color:  {r: 120, g: 120, b: 240}
+ai:
+	build:  {legacy_non_builder: true}

@@ -25,3 +25,5 @@ destroy:
 		*	type:       "morph"
 			reflexive:  true
 			base:       "gai/etc/lab/burning"
+ai:
+	build:  {legacy_non_builder: true}

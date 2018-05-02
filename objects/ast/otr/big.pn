@@ -29,3 +29,4 @@ destroy:
 friend_deficit:     1.0
 ai:
 	combat:  {hated: true, engaged: true}
+	build:   {legacy_non_builder: true}

@@ -1,5 +1,5 @@
 template:           "tpl/structure"
-attributes:         {can_accept_build: true, is_destination: true}
+attributes:         {is_destination: true}
 tags:               {station: true, normal: null}
 health:             5000
 energy:             1000

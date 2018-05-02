@@ -2,7 +2,7 @@ template:           "tpl/waypoint"
 long_name:          "Station"
 short_name:         "STATION"
 notes:              "Station"
-attributes:         {can_accept_build: true, is_destination: true}
+attributes:         {is_destination: true}
 tags:               {station: true, normal: null}
 health:             -1
 energy:             -1

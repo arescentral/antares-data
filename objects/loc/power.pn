@@ -8,3 +8,5 @@ animation:
 icon:          {size: 6}
 portrait:      "loc/power"
 shield_color:  {r: 240, g: 0, b: 0}
+ai:
+	build:  {legacy_non_builder: true}

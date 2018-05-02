@@ -18,3 +18,5 @@ destroy:
 			which:      0
 			value:      1
 			player:     0
+ai:
+	build:  {legacy_non_builder: true}

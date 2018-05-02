@@ -1,5 +1,5 @@
 template:           "tpl/waypoint"
-attributes:         {can_accept_build: true, is_destination: true, appear_on_radar: true}
+attributes:         {is_destination: true, appear_on_radar: true}
 tags:               {planet: true, normal: null}
 icon:
 	shape:  "square"
