@@ -41,7 +41,6 @@ expire:
 				>	with ships or technology.
 destination_class:  9
 friend_deficit:     2.0
-danger_threshold:   4.0
 ai:
 	combat:  {engages: false, evaded: false}
 	target:

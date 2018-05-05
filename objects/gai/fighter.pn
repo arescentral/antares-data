@@ -18,7 +18,6 @@ rotation:
 	frames:  {begin: 0, end: 24}
 portrait:          "gai/fighter"
 shield_color:      {r: 240, g: 234, b: 195}
-danger_threshold:  1.0
 ai:
 	target:
 		prefer:  {local: null}

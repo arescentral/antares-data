@@ -17,7 +17,6 @@ collide:
 	as:  {subject: false, object: false}
 offense:            0.0
 friend_deficit:     0.0
-danger_threshold:   0.0
 ai:
 	combat:
 		hated:    false

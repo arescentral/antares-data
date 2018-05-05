@@ -25,7 +25,6 @@ shield_color:       {r: 255, g: 255, b: 255}
 destroy:            {dont_die: true}
 offense:            0.5
 destination_class:  1
-danger_threshold:   2.0
 ai:
 	target:
 		prefer:  {local: true}

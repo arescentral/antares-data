@@ -26,7 +26,6 @@ arrive:             {distance: 50000}
 offense:            0.0
 destination_class:  0
 friend_deficit:     0.0
-danger_threshold:   0.0
 ai:
 	combat:
 		hated:    false

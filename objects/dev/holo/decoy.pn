@@ -28,7 +28,6 @@ expire:
 collide:            {edge: true}
 offense:            1.0
 destination_class:  3
-danger_threshold:   1.0
 ai:
 	combat:  {hated: true, engaged: true, evaded: true}
 	build:   {ratio: 1.0}

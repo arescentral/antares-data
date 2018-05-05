@@ -27,7 +27,6 @@ arrive:
 offense:            0.2
 destination_class:  9
 friend_deficit:     8.0
-danger_threshold:   4.0
 ai:
 	target:
 		prefer:

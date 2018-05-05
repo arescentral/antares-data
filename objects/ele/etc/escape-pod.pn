@@ -51,6 +51,5 @@ collide:
 			kind:       "none"
 destination_class:  9
 friend_deficit:     2.0
-danger_threshold:   4.0
 ai:
 	build:  {ratio: 0.7}

@@ -43,7 +43,6 @@ arrive:
 offense:            3.0
 destination_class:  9
 friend_deficit:     3.0
-danger_threshold:   4.0
 ai:
 	combat:  {engages: false}
 	build:   {ratio: 0.098, needs_escort: false}

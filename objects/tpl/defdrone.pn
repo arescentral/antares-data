@@ -20,7 +20,6 @@ destroy:
 			relative_direction:  true
 offense:            1.5
 destination_class:  9
-danger_threshold:   1.0
 ai:
 	combat:  {evades: false}
 	target:

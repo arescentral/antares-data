@@ -37,7 +37,6 @@ destroy:
 offense:            1.5
 destination_class:  5
 friend_deficit:     1.0
-danger_threshold:   -10.0
 ai:
 	combat:
 		skill:  {num: 14}

@@ -20,7 +20,6 @@ destroy:
 			relative_direction:  true
 offense:            0.5
 destination_class:  1
-danger_threshold:   2.0
 ai:
 	target:
 		prefer:  {local: true}

@@ -16,7 +16,6 @@ rotation:
 	frames:  {begin: 0, end: 24}
 portrait:          "can/defdrone"
 shield_color:      {r: 240, g: 240, b: 120}
-danger_threshold:  0.0
 ai:
 	target:
 		force:

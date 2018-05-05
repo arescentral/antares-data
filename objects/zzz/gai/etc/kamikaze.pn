@@ -44,7 +44,6 @@ arrive:
 			kind:  "destroy"
 offense:            0.5
 destination_class:  1
-danger_threshold:   1.0
 ai:
 	combat:  {engages: false, evades: false}
 	build:   {ratio: 0.5}

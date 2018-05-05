@@ -33,6 +33,5 @@ destroy:
 			base:                "sfx/explosion/large"
 			relative_direction:  true
 friend_deficit:     0.0
-danger_threshold:   0.0
 ai:
 	build:  {ratio: 0.25}

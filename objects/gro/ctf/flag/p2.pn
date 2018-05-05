@@ -31,7 +31,6 @@ collide:
 			reflexive:  true
 offense:            1.0
 destination_class:  3
-danger_threshold:   1.0
 ai:
 	combat:  {engages: false, evades: false}
 	build:   {ratio: 1.0, needs_escort: false}

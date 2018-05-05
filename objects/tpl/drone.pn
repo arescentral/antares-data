@@ -19,7 +19,6 @@ collide:
 	edge:   true
 offense:            0.5
 destination_class:  1
-danger_threshold:   2.0
 ai:
 	combat:
 		hated:    true

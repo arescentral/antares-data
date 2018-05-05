@@ -22,6 +22,5 @@ destroy:
 			relative_direction:  true
 offense:            1.0
 destination_class:  3
-danger_threshold:   1.0
 ai:
 	build:  {ratio: 0.75}

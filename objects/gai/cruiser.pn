@@ -18,4 +18,3 @@ rotation:
 	frames:  {begin: 0, end: 24}
 portrait:          "gai/cruiser"
 shield_color:      {r: 240, g: 234, b: 195}
-danger_threshold:  0.0

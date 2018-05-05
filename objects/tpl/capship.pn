@@ -16,6 +16,5 @@ icon:
 offense:            4.0
 destination_class:  7
 friend_deficit:     2.0
-danger_threshold:   -20.0
 ai:
 	build:  {ratio: 0.098}
