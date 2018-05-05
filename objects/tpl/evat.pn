@@ -56,8 +56,6 @@ arrive:
 				tags:   {station: true}
 				owner:  "different"
 			value:  1
-offense:            0.5
-destination_class:  1
 ai:
 	combat:
 		hated:       true
@@ -72,3 +70,4 @@ ai:
 			local:  true
 			owner:  "different"
 			tags:   {station: true}
+	escort:  {class: 1, power: 0.5}

@@ -1,10 +1,10 @@
-template:           "tpl/animated"
-long_name:          "Passenger Liner"
-short_name:         "LINER"
-notes:              "Receives Hostages"
-attributes:         {can_be_destination: true}
-tags:               {rendezvous: true, normal: null}
-health:             1000
+template:    "tpl/animated"
+long_name:   "Passenger Liner"
+short_name:  "LINER"
+notes:       "Receives Hostages"
+attributes:  {can_be_destination: true}
+tags:        {rendezvous: true, normal: null}
+health:      1000
 animation:
 	sprite:  "obi/etc/liner"
 	scale:   2.0
@@ -12,7 +12,6 @@ animation:
 icon:
 	shape:  "plus"
 	size:   7
-collide:            {damage: 1}
-offense:            -5.0
-destination_class:  -256
-friend_deficit:     -5.0
+collide:     {damage: 1}
+ai:
+	escort:  {class: -256, power: -5.0, need: -5.0}

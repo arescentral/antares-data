@@ -13,4 +13,5 @@ rotation:
 	frames:  {begin: 0, end: 24}
 portrait:           "sal/transport"
 shield_color:       {r: 240, g: 240, b: 120}
-offense:            0.15
+ai:
+	escort:  {power: 0.15}

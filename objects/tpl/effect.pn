@@ -1,3 +1,4 @@
-template:           "tpl/animated"
-animation:          {layer: 3}
-destination_class:  -256
+template:   "tpl/animated"
+animation:  {layer: 3}
+ai:
+	escort:  {class: -256}

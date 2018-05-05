@@ -15,8 +15,6 @@ portrait:           null
 destroy:            {release_energy: false}
 collide:
 	as:  {subject: false, object: false}
-offense:            0.0
-friend_deficit:     0.0
 ai:
 	combat:
 		hated:    false
@@ -25,4 +23,5 @@ ai:
 		evades:   false
 		evaded:   false
 		skill:    {num: 0, den: 0}
-	build:  {ratio: 0.0}
+	escort:  {power: 0.0, need: 0.0}
+	build:   {ratio: 0.0}

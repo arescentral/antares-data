@@ -23,9 +23,8 @@ icon:
 	size:   3
 shield_color:       {r: 255, g: 255, b: 255}
 destroy:            {dont_die: true}
-offense:            0.5
-destination_class:  1
 ai:
 	target:
 		prefer:  {local: true}
-	build:  {ratio: 0.75}
+	escort:  {class: 1, power: 0.5}
+	build:   {ratio: 0.75}

@@ -1,15 +1,14 @@
-template:           "tpl/structure"
-attributes:         {is_destination: true}
-tags:               {station: true, normal: null}
-health:             5000
-energy:             1000
-icon:               {size: 7}
-destroy:            {neutralize: true, action: null}
+template:    "tpl/structure"
+attributes:  {is_destination: true}
+tags:        {station: true, normal: null}
+health:      5000
+energy:      1000
+icon:        {size: 7}
+destroy:     {neutralize: true, action: null}
 collide:
 	as:  {subject: false}
-destination_class:  10
-friend_deficit:     3.0
 ai:
 	combat:
 		engages:  true
 		skill:    {num: 3, den: 21}
+	escort:  {class: 10, need: 3.0}

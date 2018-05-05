@@ -1,5 +1,5 @@
-template:           "tpl/vector"
-health:             1000
+template:  "tpl/vector"
+health:    1000
 vector:
 	kind:   "bolt to coord"
 	range:  900
@@ -9,4 +9,5 @@ expire:
 collide:
 	as:      {subject: true}
 	damage:  15
-destination_class:  -256
+ai:
+	escort:  {class: -256}

@@ -49,7 +49,6 @@ collide:
 		*	type:       "kill"
 			reflexive:  true
 			kind:       "none"
-destination_class:  9
-friend_deficit:     2.0
 ai:
-	build:  {ratio: 0.7}
+	escort:  {class: 9, need: 2.0}
+	build:   {ratio: 0.7}

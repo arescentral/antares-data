@@ -1,25 +1,25 @@
-template:           "tpl/ship"
-long_name:          "Kamikaze"
-short_name:         "KAMIKAZI"
-notes:              "Kamikaze"
-class:              99
-race:               "gai"
-health:             50
-energy:             600
-price:              500
-build_time:         "2.5s"
-mass:               0.5
-turn_rate:          3.0
-max_velocity:       8.0
-max_thrust:         0.098
-initial_velocity:   5.0
+template:          "tpl/ship"
+long_name:         "Kamikaze"
+short_name:        "KAMIKAZI"
+notes:             "Kamikaze"
+class:             99
+race:              "gai"
+health:            50
+energy:            600
+price:             500
+build_time:        "2.5s"
+mass:              0.5
+turn_rate:         3.0
+max_velocity:      8.0
+max_thrust:        0.098
+initial_velocity:  5.0
 rotation:
 	sprite:  "gai/fighter"
 	frames:  {begin: 0, end: 24}
 icon:
 	shape:  "square"
 	size:   3
-shield_color:       {r: 240, g: 0, b: 0}
+shield_color:      {r: 240, g: 0, b: 0}
 destroy:
 	action:
 		*	type:                "create"
@@ -42,8 +42,7 @@ arrive:
 				attributes:  {can_be_engaged: true}
 				owner:       "different"
 			kind:  "destroy"
-offense:            0.5
-destination_class:  1
 ai:
 	combat:  {engages: false, evades: false}
+	escort:  {class: 1, power: 0.5}
 	build:   {ratio: 0.5}

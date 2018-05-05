@@ -31,7 +31,7 @@ destroy:
 		*	type:       "create"
 			reflexive:  true
 			base:       "sfx/explosion/large"
-friend_deficit:     5.0
 ai:
 	target:
 		prefer:  {base: true}
+	escort:  {need: 5.0}

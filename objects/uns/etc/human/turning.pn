@@ -69,8 +69,8 @@ activate:
 			delay:      "4.5s"
 			base:       "uns/etc/human/turning"
 			keep_ammo:  true
-destination_class:  -256
 ai:
 	combat:
 		engages:  true
 		skill:    {num: 3, den: 21}
+	escort:  {class: -256}

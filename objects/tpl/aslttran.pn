@@ -1,16 +1,16 @@
-template:           "tpl/utilship"
-long_name:          "Assault Transport"
-short_name:         "ASLTTRAN"
-class:              860
-health:             1200
-energy:             800
-price:              2000
-build_time:         "11s"
-mass:               1.098
-max_velocity:       3.0
-max_thrust:         0.156
-initial_velocity:   3.0
-icon:               {size: 5}
+template:          "tpl/utilship"
+long_name:         "Assault Transport"
+short_name:        "ASLTTRAN"
+class:             860
+health:            1200
+energy:            800
+price:             2000
+build_time:        "11s"
+mass:              1.098
+max_velocity:      3.0
+max_thrust:        0.156
+initial_velocity:  3.0
+icon:              {size: 5}
 destroy:
 	action:
 		*	type:       "create"
@@ -24,9 +24,6 @@ arrive:
 				tags:   {station: true}
 				owner:  "different"
 			which:  "special"
-offense:            0.2
-destination_class:  9
-friend_deficit:     8.0
 ai:
 	target:
 		prefer:
@@ -35,4 +32,5 @@ ai:
 		force:
 			owner:  "different"
 			tags:   {station: true}
-	build:  {ratio: 0.7}
+	escort:  {class: 9, power: 0.2, need: 8.0}
+	build:   {ratio: 0.7}

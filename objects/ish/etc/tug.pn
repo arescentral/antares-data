@@ -1,23 +1,23 @@
-template:           "tpl/utilship"
-long_name:          "Tractor Tug"
-short_name:         "TUG"
-notes:              "Tractor Tug"
-class:              301
-race:               "ish"
-health:             700
-energy:             2000
-price:              2200
-mass:               1.2
-turn_rate:          0.4
-max_velocity:       2.0
-max_thrust:         0.18
-initial_velocity:   0.5
+template:          "tpl/utilship"
+long_name:         "Tractor Tug"
+short_name:        "TUG"
+notes:             "Tractor Tug"
+class:             301
+race:              "ish"
+health:            700
+energy:            2000
+price:             2200
+mass:              1.2
+turn_rate:         0.4
+max_velocity:      2.0
+max_thrust:        0.18
+initial_velocity:  0.5
 rotation:
 	sprite:  "ish/etc/astrominer"
 	frames:  {begin: 0, end: 24}
-icon:               {size: 5}
-portrait:           "ish/etc/tug"
-shield_color:       {r: 255, g: 255, b: 255}
+icon:              {size: 5}
+portrait:          "ish/etc/tug"
+shield_color:      {r: 255, g: 255, b: 255}
 destroy:
 	action:
 		*	type:                "create"
@@ -33,9 +33,7 @@ create:
 		*	type:       "create"
 			reflexive:  true
 			base:       "sfx/jump/small"
-offense:            1.5
-destination_class:  5
-friend_deficit:     1.0
 ai:
 	combat:  {engages: false, evaded: false}
+	escort:  {class: 5, power: 1.5, need: 1.0}
 	build:   {needs_escort: false}

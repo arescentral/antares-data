@@ -14,9 +14,9 @@ weapons:
 portrait:           null
 expire:             {action: null}
 arrive:             {action: null}
-offense:            1.0
 ai:
 	combat:  {evaded: true}
 	target:
 		prefer:  {base: null, owner: null}
+	escort:  {power: 1.0}
 	build:   {ratio: 0.4, needs_escort: false}

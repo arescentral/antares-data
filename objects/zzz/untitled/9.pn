@@ -1,6 +1,6 @@
-template:           "tpl/special"
-short_name:         "Untitled"
-notes:              "Untitled"
-device:             {ammo: 0, restock_cost: 0}
-offense:            -1.0
-destination_class:  0
+template:    "tpl/special"
+short_name:  "Untitled"
+notes:       "Untitled"
+device:      {ammo: 0, restock_cost: 0}
+ai:
+	escort:  {class: 0, power: -1.0}

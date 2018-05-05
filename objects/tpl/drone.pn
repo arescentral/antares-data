@@ -17,8 +17,6 @@ collide:
 	as:     {subject: true, object: true}
 	solid:  true
 	edge:   true
-offense:            0.5
-destination_class:  1
 ai:
 	combat:
 		hated:    true
@@ -27,3 +25,4 @@ ai:
 		evades:   true
 		evaded:   true
 		skill:    {num: 3, den: 21}
+	escort:  {class: 1, power: 0.5}

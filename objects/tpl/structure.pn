@@ -1,6 +1,6 @@
-template:           "tpl/waypoint"
-attributes:         {appear_on_radar: true}
-health:             1000
+template:    "tpl/waypoint"
+attributes:  {appear_on_radar: true}
+health:      1000
 icon:
 	shape:  "square"
 destroy:
@@ -11,6 +11,6 @@ destroy:
 			relative_direction:  true
 collide:
 	as:  {subject: true, object: true}
-destination_class:  -256
 ai:
 	combat:  {hated: true, engaged: true}
+	escort:  {class: -256}

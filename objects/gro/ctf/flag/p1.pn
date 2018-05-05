@@ -29,8 +29,7 @@ collide:
 	action:
 		*	type:       "capture"
 			reflexive:  true
-offense:            1.0
-destination_class:  3
 ai:
 	combat:  {engages: false, evades: false}
+	escort:  {class: 3, power: 1.0}
 	build:   {ratio: 1.0, needs_escort: false}

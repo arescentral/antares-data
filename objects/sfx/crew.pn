@@ -29,4 +29,5 @@ expire:
 			reflexive:  true
 			kind:       "expire"
 collide:            {damage: 1, edge: true}
-destination_class:  -256
+ai:
+	escort:  {class: -256}

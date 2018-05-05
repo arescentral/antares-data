@@ -1,24 +1,24 @@
-template:           "tpl/utilship"
-long_name:          "Luxury Liner"
-short_name:         "LUXLINER"
-notes:              "Luxury Liner"
-class:              803
-race:               "ele"
-health:             250
-energy:             1000
-price:              800
-build_time:         "11s"
-mass:               1.098
-max_velocity:       2.0
-max_thrust:         0.2
-initial_velocity:   0.5
+template:          "tpl/utilship"
+long_name:         "Luxury Liner"
+short_name:        "LUXLINER"
+notes:             "Luxury Liner"
+class:             803
+race:              "ele"
+health:            250
+energy:            1000
+price:             800
+build_time:        "11s"
+mass:              1.098
+max_velocity:      2.0
+max_thrust:        0.2
+initial_velocity:  0.5
 rotation:
 	sprite:  "ele/etc/liner"
 	scale:   2.0
 	frames:  {begin: 0, end: 24}
-icon:               {size: 7}
-portrait:           "ele/etc/liner"
-shield_color:       {r: 255, g: 255, b: 255}
+icon:              {size: 7}
+portrait:          "ele/etc/liner"
+shield_color:      {r: 255, g: 255, b: 255}
 destroy:
 	action:
 		*	type:       "create"
@@ -39,12 +39,11 @@ expire:
 				>	The Elejeetian liner successfully exited through the jumpgate. Minister
 				>	Jommo pledges to do what he can to convince his Emperor to provide you
 				>	with ships or technology.
-destination_class:  9
-friend_deficit:     2.0
 ai:
 	combat:  {engages: false, evaded: false}
 	target:
 		prefer:
 			base:   true
 			owner:  "different"
+	escort:  {class: 9, need: 2.0}
 	build:   {ratio: 0.7}

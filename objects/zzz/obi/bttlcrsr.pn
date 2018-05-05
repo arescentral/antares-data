@@ -34,4 +34,5 @@ destroy:
 			reflexive:           true
 			base:                "sfx/explosion/giant"
 			relative_direction:  true
-offense:            4.5
+ai:
+	escort:  {power: 4.5}

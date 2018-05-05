@@ -1,7 +1,7 @@
-template:           "tpl/special"
-long_name:          "Monkey Friend"
-short_name:         "MONKEY"
-notes:              "Monkey Friend"
-device:             {ammo: 0, restock_cost: 0}
-offense:            -1.0
-destination_class:  0
+template:    "tpl/special"
+long_name:   "Monkey Friend"
+short_name:  "MONKEY"
+notes:       "Monkey Friend"
+device:      {ammo: 0, restock_cost: 0}
+ai:
+	escort:  {class: 0, power: -1.0}

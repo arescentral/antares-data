@@ -41,11 +41,10 @@ destroy:
 collide:
 	as:    {subject: true, object: true}
 	edge:  true
-offense:            1.5
-destination_class:  9
 ai:
 	combat:
 		engages:     true
 		engages_if:  {normal: true}
 		evaded:      true
 		skill:       {num: 3, den: 21}
+	escort:  {class: 9, power: 1.5}

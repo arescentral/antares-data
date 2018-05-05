@@ -46,8 +46,8 @@ arrive:
 			if:
 				tags:  {rendezvous: true}
 			kind:  "expire"
-destination_class:  -256
 ai:
 	combat:
 		engages:  true
 		skill:    {num: 3, den: 21}
+	escort:  {class: -256}

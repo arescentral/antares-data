@@ -28,4 +28,5 @@ rotation:
 	frames:  {begin: 0, end: 24}
 portrait:           "aud/carrier"
 shield_color:       {r: 120, g: 120, b: 240}
-offense:            4.5
+ai:
+	escort:  {power: 4.5}

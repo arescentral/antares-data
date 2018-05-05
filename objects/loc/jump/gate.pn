@@ -1,13 +1,13 @@
-template:           "tpl/waypoint"
-long_name:          "Jump Gate"
-short_name:         "JUMPGATE"
-notes:              "Jump Gate"
-attributes:         {is_destination: true}
-tags:               {jumpgate: true, normal: null}
-health:             1000
+template:      "tpl/waypoint"
+long_name:     "Jump Gate"
+short_name:    "JUMPGATE"
+notes:         "Jump Gate"
+attributes:    {is_destination: true}
+tags:          {jumpgate: true, normal: null}
+health:        1000
 animation:
 	sprite:  "sfx/invisible"
-shield_color:       {r: 240, g: 0, b: 0}
+shield_color:  {r: 240, g: 0, b: 0}
 destroy:
 	action:
 		*	type:                "create"
@@ -19,6 +19,6 @@ destroy:
 			which:      0
 			value:      1
 			player:     0
-destination_class:  -256
 ai:
-	build:  {legacy_non_builder: true}
+	escort:  {class: -256}
+	build:   {legacy_non_builder: true}

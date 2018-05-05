@@ -28,4 +28,5 @@ rotation:
 	frames:  {begin: 0, end: 24}
 portrait:           "sal/carrier"
 shield_color:       {r: 255, g: 255, b: 255}
-offense:            4.5
+ai:
+	escort:  {power: 4.5}

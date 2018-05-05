@@ -20,8 +20,6 @@ destroy:
 			reflexive:           true
 			base:                "sfx/explosion/giant"
 			relative_direction:  true
-offense:            1.5
-destination_class:  5
-friend_deficit:     1.0
 ai:
-	build:  {ratio: 0.348}
+	escort:  {class: 5, power: 1.5, need: 1.0}
+	build:   {ratio: 0.348}

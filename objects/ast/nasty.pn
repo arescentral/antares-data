@@ -30,6 +30,6 @@ collide:
 		*	type:       "kill"
 			reflexive:  true
 			kind:       "destroy"
-friend_deficit:    1.0
 ai:
 	combat:  {hated: true, evaded: true}
+	escort:  {need: 1.0}

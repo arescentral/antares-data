@@ -42,13 +42,11 @@ arrive:
 			if:
 				tags:  {rendezvous: true}
 			kind:  "expire"
-offense:            0.098
-destination_class:  9
-friend_deficit:     2.0
 ai:
 	combat:  {engages: false, evaded: false}
 	target:
 		prefer:
 			base:   true
 			owner:  "different"
+	escort:  {class: 9, power: 0.098, need: 2.0}
 	build:   {ratio: 0.7, needs_escort: false}

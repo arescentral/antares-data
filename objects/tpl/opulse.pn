@@ -1,14 +1,15 @@
-template:           "tpl/oriented"
-health:             1000
-mass:               0.5
-max_velocity:       7.0
-initial_velocity:   7.0
-rotation:           {layer: 3}
-icon:               {size: 1}
+template:          "tpl/oriented"
+health:            1000
+mass:              0.5
+max_velocity:      7.0
+initial_velocity:  7.0
+rotation:          {layer: 3}
+icon:              {size: 1}
 expire:
 	after:
 		age:  "40t"
 collide:
 	as:      {subject: true}
 	damage:  100
-destination_class:  -256
+ai:
+	escort:  {class: -256}

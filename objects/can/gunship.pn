@@ -15,4 +15,5 @@ rotation:
 	frames:  {begin: 0, end: 24}
 portrait:      "can/gunship"
 shield_color:  {r: 240, g: 240, b: 120}
-offense:       2.0
+ai:
+	escort:  {power: 2.0}

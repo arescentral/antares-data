@@ -1,6 +1,7 @@
-template:           "tpl/any"
+template:  "tpl/any"
 device:
 	fire_time:      "0s"
 	range:          0
 	inverse_speed:  0.0
-destination_class:  -256
+ai:
+	escort:  {class: -256}

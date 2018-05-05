@@ -32,6 +32,6 @@ destroy:
 			reflexive:           true
 			base:                "sfx/explosion/large"
 			relative_direction:  true
-friend_deficit:     0.0
 ai:
-	build:  {ratio: 0.25}
+	escort:  {need: 0.0}
+	build:   {ratio: 0.25}

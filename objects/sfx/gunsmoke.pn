@@ -1,8 +1,8 @@
-template:           "tpl/oriented"
-long_name:          "Gunsmoke"
-short_name:         "GUNSMOKE"
-notes:              "Gunsmoke"
-health:             1000
+template:    "tpl/oriented"
+long_name:   "Gunsmoke"
+short_name:  "GUNSMOKE"
+notes:       "Gunsmoke"
+health:      1000
 rotation:
 	sprite:  "sfx/gunsmoke"
 	layer:   3
@@ -10,4 +10,5 @@ rotation:
 expire:
 	after:
 		age:  "4t"
-destination_class:  -256
+ai:
+	escort:  {class: -256}

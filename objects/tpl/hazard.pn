@@ -1,5 +1,5 @@
-template:           "tpl/animated"
-attributes:         {appear_on_radar: true}
+template:    "tpl/animated"
+attributes:  {appear_on_radar: true}
 icon:
 	shape:  "square"
 	size:   1
@@ -7,4 +7,5 @@ collide:
 	as:     {subject: true, object: true}
 	solid:  true
 	edge:   true
-destination_class:  -256
+ai:
+	escort:  {class: -256}

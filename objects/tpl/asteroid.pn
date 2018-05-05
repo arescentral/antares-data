@@ -9,9 +9,9 @@ max_velocity:      3.0
 initial_velocity:  3.0
 icon:              {size: 4}
 collide:           {damage: 10, edge: false}
-friend_deficit:    1.0
 ai:
 	combat:
 		hated:       true
 		engaged:     true
 		engaged_if:  {miner: true}
+	escort:  {need: 1.0}

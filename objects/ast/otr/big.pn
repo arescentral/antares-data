@@ -26,7 +26,7 @@ destroy:
 			count:               3
 			relative_velocity:   true
 			relative_direction:  true
-friend_deficit:     1.0
 ai:
 	combat:  {hated: true, engaged: true}
+	escort:  {need: 1.0}
 	build:   {legacy_non_builder: true}

@@ -1,7 +1,7 @@
-template:           "tpl/waypoint"
-attributes:         {is_destination: true, appear_on_radar: true}
-tags:               {planet: true, normal: null}
+template:    "tpl/waypoint"
+attributes:  {is_destination: true, appear_on_radar: true}
+tags:        {planet: true, normal: null}
 icon:
 	shape:  "square"
-destination_class:  10
-friend_deficit:     3.0
+ai:
+	escort:  {class: 10, need: 3.0}

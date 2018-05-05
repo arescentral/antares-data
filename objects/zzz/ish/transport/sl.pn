@@ -1,23 +1,23 @@
-template:           "tpl/utilship"
-long_name:          "SL Transport"
-short_name:         "TRANSPRT"
-notes:              "SL Transport"
-attributes:         {hide_effect: true}
-class:              801
-race:               "ish"
-health:             250
-energy:             1000
-price:              800
-build_time:         "7.5s"
-mass:               1.2
-max_velocity:       3.0
-max_thrust:         0.156
-initial_velocity:   3.0
+template:          "tpl/utilship"
+long_name:         "SL Transport"
+short_name:        "TRANSPRT"
+notes:             "SL Transport"
+attributes:        {hide_effect: true}
+class:             801
+race:              "ish"
+health:            250
+energy:            1000
+price:             800
+build_time:        "7.5s"
+mass:              1.2
+max_velocity:      3.0
+max_thrust:        0.156
+initial_velocity:  3.0
 rotation:
 	sprite:  "ish/transport"
 	frames:  {begin: 0, end: 24}
-icon:               {size: 5}
-shield_color:       {r: 255, g: 255, b: 255}
+icon:              {size: 5}
+shield_color:      {r: 255, g: 255, b: 255}
 destroy:
 	action:
 		*	type:                "create"
@@ -40,9 +40,7 @@ arrive:
 			priority:     5
 			persistence:  "20t"
 			volume:       255
-offense:            3.0
-destination_class:  9
-friend_deficit:     3.0
 ai:
 	combat:  {engages: false}
+	escort:  {class: 9, power: 3.0, need: 3.0}
 	build:   {ratio: 0.098, needs_escort: false}
