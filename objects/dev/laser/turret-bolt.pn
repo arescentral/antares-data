@@ -3,9 +3,8 @@ long_name:   "Laser"
 short_name:  "LASER"
 notes:       "Laser"
 attributes:  {autotarget: true}
-vector:
-	color:     {r: 127, g: 255, b: 127}
-	accuracy:  131072
+bolt:
+	color:  {r: 127, g: 255, b: 127}
 expire:
 	after:
 		age:  "0.5s"

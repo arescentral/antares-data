@@ -3,9 +3,8 @@ long_name:     "LR PK Beam"
 short_name:    "LRPKMEAM"
 notes:         "LR PK Beam"
 max_velocity:  25.0
-vector:
-	color:     {r: 255, g: 127, b: 0}
-	accuracy:  131072
+bolt:
+	color:  {r: 255, g: 127, b: 0}
 expire:
 	after:
 		age:  "55t"

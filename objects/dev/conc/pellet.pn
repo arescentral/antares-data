@@ -2,7 +2,8 @@ template:    "tpl/bolt"
 long_name:   "Concussive Pellet"
 short_name:  "CCPELLET"
 notes:       "Invisible Bullet"
-vector:      {accuracy: 4456448}
+bolt:
+	color:  {r: 0, g: 0, b: 0, a: 0}
 collide:
 	action:
 		*	type:         "sound"

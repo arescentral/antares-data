@@ -1,11 +1,14 @@
-template:          "tpl/beam"
+template:          "tpl/any"
+health:            1000
 max_velocity:      15.0
 initial_velocity:  15.0
-vector:
-	kind:      "kinetic"
-	accuracy:  1966080
-	range:     65536
+bolt:
+	color:  {r: 255, g: 255, b: 255}
 expire:
 	after:
 		age:  "0.25s"
-collide:           {damage: 30}
+collide:
+	as:      {subject: true}
+	damage:  30
+ai:
+	escort:  {class: -256}

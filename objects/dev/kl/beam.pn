@@ -2,9 +2,8 @@ template:    "tpl/bolt"
 long_name:   "Kinetic Laser"
 short_name:  "KLBEAM"
 notes:       "Same as #3, except sound"
-vector:
-	color:     {r: 127, g: 255, b: 127}
-	accuracy:  131072
+bolt:
+	color:  {r: 127, g: 255, b: 127}
 create:
 	action:
 		*	type:         "sound"

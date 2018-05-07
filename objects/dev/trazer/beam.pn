@@ -1,10 +1,10 @@
-template:    "tpl/beam"
+template:    "tpl/ray"
 long_name:   "Trazer Beam"
 short_name:  "TRZRBEAM"
 notes:       "Trazer Beam"
-vector:
+ray:
+	to:        "coord"
 	hue:       "pale purple"
-	kind:      "static to coord"
 	accuracy:  50
 	range:     300
 expire:

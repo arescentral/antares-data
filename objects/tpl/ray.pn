@@ -1,8 +1,6 @@
-template:  "tpl/vector"
+template:  "tpl/any"
 health:    1000
-vector:
-	kind:   "bolt to coord"
-	range:  900
+ray:       {lightning: false, accuracy: 0, range: 900}
 expire:
 	after:
 		age:  "0.75s"

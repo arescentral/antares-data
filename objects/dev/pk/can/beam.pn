@@ -2,7 +2,7 @@ template:    "tpl/bolt"
 long_name:   "P-K Beam"
 short_name:  "PK BEAM"
 notes:       "P-K Beam"
-vector:
+bolt:
 	color:  {r: 255, g: 0, b: 0}
 create:
 	action:

@@ -5,9 +5,8 @@ notes:             "ASB Beam"
 max_velocity:      20.0
 max_thrust:        0.45
 initial_velocity:  2.0
-vector:
-	color:     {r: 0, g: 127, b: 255}
-	accuracy:  2424832
+bolt:
+	color:  {r: 0, g: 127, b: 255}
 expire:
 	after:
 		age:  "40t"

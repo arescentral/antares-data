@@ -2,9 +2,8 @@ template:    "tpl/bolt"
 long_name:   "Laser"
 short_name:  "LASER"
 notes:       "Laser"
-vector:
-	color:     {r: 0, g: 127, b: 255}
-	accuracy:  131072
+bolt:
+	color:  {r: 0, g: 127, b: 255}
 collide:
 	damage:  15
 	action:

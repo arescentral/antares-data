@@ -1,9 +1,11 @@
-template:    "tpl/beam"
+template:    "tpl/ray"
 long_name:   "Trans-Space Bolt"
 short_name:  "TRNSBOLT"
 notes:       "Trans-Space Bolt"
-vector:
-	hue:  "gold"
+ray:
+	to:         "coord"
+	hue:        "gold"
+	lightning:  true
 collide:
 	action:
 		*	type:                "create"

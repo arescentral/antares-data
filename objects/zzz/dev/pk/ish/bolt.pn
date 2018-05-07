@@ -3,9 +3,8 @@ long_name:     "PK Beam"
 short_name:    "PK BEAM"
 notes:         "PK Beam"
 max_velocity:  10.0
-vector:
-	color:     {r: 0, g: 255, b: 0}
-	accuracy:  131072
+bolt:
+	color:  {r: 0, g: 255, b: 0}
 create:
 	action:
 		*	type:         "sound"

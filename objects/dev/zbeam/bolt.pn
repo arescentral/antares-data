@@ -3,9 +3,8 @@ long_name:   "Z Beam"
 short_name:  "Z BEAM"
 notes:       "Z Beam"
 attributes:  {autotarget: true}
-vector:
-	color:     {r: 255, g: 127, b: 255}
-	accuracy:  131072
+bolt:
+	color:  {r: 255, g: 127, b: 255}
 create:
 	action:
 		*	type:         "sound"

@@ -3,9 +3,8 @@ long_name:   "Repulser Beam"
 short_name:  "REPULSE"
 notes:       "Repulser Beam"
 attributes:  {autotarget: true}
-vector:
-	color:     {r: 255, g: 0, b: 127}
-	accuracy:  131072
+bolt:
+	color:  {r: 255, g: 0, b: 127}
 expire:
 	after:
 		age:  "0.5s"
