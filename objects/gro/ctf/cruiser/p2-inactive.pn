@@ -3,7 +3,7 @@ notes:             "Cruiser, for CTF, Player 2, Inactive"
 tags:              {disabled: true, reactivator: true, normal: null, normal-attacker: null}
 class:             204
 max_velocity:      0.0
-initial_velocity:  null
+initial_velocity:  0.0
 weapons:           {pulse: null, beam: null}
 destroy:           {action: null}
 collide:

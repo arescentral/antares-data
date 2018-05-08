@@ -12,6 +12,8 @@ mass:               0.0
 turn_rate:          0.0
 max_velocity:       0.0
 max_thrust:         0.0
+initial_velocity:   0.0
+initial_direction:  0
 warp_speed:         0.0
 warp_out_distance:  0
 destroy:            {dont_die: false, neutralize: false, release_energy: false}
@@ -33,5 +35,10 @@ ai:
 		evades:   false
 		evaded:   false
 		skill:    {num: 0, den: 0}
+	target:
+		prefer:
+			owner:  "any"
+		force:
+			owner:  "any"
 	escort:  {class: 0, power: 0.0, need: 0.0}
 	build:   {ratio: 0.0, needs_escort: false, legacy_non_builder: false}

@@ -4,7 +4,7 @@ short_name:        "FIRETRL"
 notes:             "Fireball Trail"
 mass:              0.0
 max_velocity:      0.0
-initial_velocity:  null
+initial_velocity:  0.0
 animation:
 	sprite:     "dev/fireball"
 	frames:     {begin: 0.0, end: 4.004}

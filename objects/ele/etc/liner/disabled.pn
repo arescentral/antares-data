@@ -14,5 +14,7 @@ ai:
 		evades:   false
 		skill:    {num: 0, den: 0}
 	target:
-		prefer:  {base: null, owner: null}
+		prefer:
+			base:   null
+			owner:  "any"
 	build:  {needs_escort: false}
