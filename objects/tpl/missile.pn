@@ -5,8 +5,6 @@ turn_rate:         1.0
 max_velocity:      9.0
 max_thrust:        0.2
 initial_velocity:  0.5
-icon:
-	shape:  "square"
 destroy:
 	action:
 		*	type:                "create"

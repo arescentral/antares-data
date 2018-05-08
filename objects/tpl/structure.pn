@@ -3,6 +3,7 @@ attributes:  {appear_on_radar: true}
 health:      1000
 icon:
 	shape:  "square"
+	size:   0
 destroy:
 	action:
 		*	type:                "create"

@@ -11,8 +11,6 @@ initial_velocity:  0.5
 rotation:
 	sprite:  "dev/cm"
 	frames:  {begin: 0, end: 24}
-icon:
-	shape:  "square"
 destroy:
 	action:
 		*	type:                "create"

@@ -1,3 +1,4 @@
 template:  "tpl/ship"
 icon:
 	shape:  "triangle"
+	size:   0

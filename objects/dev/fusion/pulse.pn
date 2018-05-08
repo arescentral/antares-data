@@ -5,8 +5,6 @@ notes:       "Fusion Pulse"
 rotation:
 	sprite:  "dev/fusion"
 	frames:  {begin: 0, end: 24}
-icon:
-	shape:  "square"
 create:
 	action:
 		*	type:         "sound"
