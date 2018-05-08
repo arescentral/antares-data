@@ -9,6 +9,7 @@ price:              0
 build_time:         "0s"
 occupy_count:       0
 mass:               0.0
+turn_rate:          0.0
 max_velocity:       0.0
 max_thrust:         0.0
 warp_speed:         0.0

@@ -1,7 +1,10 @@
 template:  "tpl/any"
 device:
+	energy_cost:    0
 	fire_time:      "0s"
+	ammo:           -1
 	range:          0
 	inverse_speed:  0.0
+	restock_cost:   -1
 ai:
 	escort:  {class: -256}

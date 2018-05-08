@@ -1,7 +1,7 @@
 template:      "ele/etc/liner"
 notes:         "Liner Disabled"
 attributes:    {can_accept_destination: false}
-turn_rate:     null
+turn_rate:     0.0
 max_velocity:  0.5
 max_thrust:    0.0
 portrait:      null

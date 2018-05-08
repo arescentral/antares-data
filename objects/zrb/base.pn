@@ -5,7 +5,7 @@ notes:             "Zerbilite"
 class:             1
 health:            70
 mass:              0.098
-turn_rate:         null
+turn_rate:         0.0
 max_velocity:      6.0
 max_thrust:        0.098
 initial_velocity:  6.0

@@ -3,7 +3,7 @@ long_name:          "Battleship-Moored"
 notes:              "Battleship-Moored"
 attributes:         {can_be_destination: false, can_accept_destination: false}
 build_time:         "0s"
-turn_rate:          null
+turn_rate:          0.0
 max_velocity:       0.0
 max_thrust:         0.0
 initial_velocity:   null

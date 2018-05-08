@@ -1,2 +1,6 @@
-template:   "tpl/any"
-animation:  {layer: 2}
+template:  "tpl/any"
+animation:
+	layer:      2
+	scale:      1.0
+	direction:  "0"
+	speed:      0.0
