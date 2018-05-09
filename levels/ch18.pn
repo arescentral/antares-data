@@ -15,7 +15,7 @@ players:
 score:
 	*	"-Capture Proxima"
 	*	"_-Alpha & Beta"
-song:     5002
+song:     "targetron"
 initials:
 	*	base:     "loc/planet"
 		at:       {x: 1390, y: -2696}

@@ -15,7 +15,7 @@ score:
 	*	"-Destroy all 4"
 	*	"_-relay dishes."
 	*	"4\\0\\0\\4\\f\\t\\Remaining: \\/4"
-song:     5001
+song:     "yesterday"
 initials:
 	*	base:     "loc/relay"
 		owner:    1

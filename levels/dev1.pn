@@ -17,7 +17,7 @@ players:
 		race:           "aud"
 		name:           "The Audemedon Axis"
 		earning_power:  2.0
-song:     5002
+song:     "targetron"
 initials:
 	*	base:     "loc/planet"
 		owner:    0

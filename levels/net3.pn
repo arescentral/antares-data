@@ -9,7 +9,7 @@ players:
 	*	type:  "human"
 		races:
 			*	"gro"
-song:  5001
+song:  "yesterday"
 initials:
 	*	base:     "loc/planet"
 		owner:    0

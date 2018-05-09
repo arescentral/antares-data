@@ -9,7 +9,7 @@ players:
 	*	type:  "human"
 		races:
 			*	"gro"
-song:  5003
+song:  "eyes-of-fire"
 initials:
 	*	base:      "gro/cruiser"
 		owner:     0

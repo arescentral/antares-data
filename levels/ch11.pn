@@ -16,7 +16,7 @@ score:
 	*	"_-humans"
 	*	"2\\0\\0\\0\\f\\t\\On board: \\/5"
 	*	"2\\1\\0\\0\\f\\t\\Rescued: \\/21"
-song:     5000
+song:     "getalong"
 initials:
 	*	base:   "uns/ares"
 		owner:  0

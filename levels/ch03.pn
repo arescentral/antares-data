@@ -15,7 +15,7 @@ players:
 score:
 	*	"-Capture Demeter"
 	*	"_-Beta"
-song:     5002
+song:     "targetron"
 initials:
 	*	base:     "loc/planet"
 		owner:    0

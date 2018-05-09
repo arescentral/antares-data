@@ -17,7 +17,7 @@ score:
 	*	"_1\\0\\0\\0\\pods\\tug"
 	*	"2\\1\\0\\0\\f\\t\\Rescued: \\/6"
 	*	"1\\1\\0\\0\\N\\Y\\Liner secure: \\"
-song:     5002
+song:     "targetron"
 initials:
 	*	base:    "ele/etc/liner/disabled"
 		owner:   0

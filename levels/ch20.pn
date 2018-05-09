@@ -15,7 +15,7 @@ players:
 score:
 	*	"-Destroy hostile"
 	*	"_-gateship"
-song:     5004
+song:     "technobee"
 initials:
 	*	base:      "ish/etc/hvc/mod"
 		owner:     0

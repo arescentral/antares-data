@@ -21,7 +21,7 @@ players:
 			*	"sal"
 			*	"uns"
 		earning_power:  1.0
-song:        5000
+song:        "getalong"
 initials:
 	*	base:  "ast/shoot/wide/up"
 		at:    {x: 0, y: 32767}

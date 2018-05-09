@@ -15,7 +15,7 @@ players:
 score:
 	*	"-Capture Thasero"
 	*	"_-Beta"
-song:     5004
+song:     "technobee"
 initials:
 	*	base:     "loc/planet"
 		owner:    0

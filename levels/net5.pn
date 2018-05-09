@@ -15,7 +15,7 @@ players:
 			*	"gai"
 			*	"ish"
 		earning_power:  1.0
-song:  5004
+song:  "technobee"
 initials:
 	*	base:     "loc/planet"
 		owner:    0

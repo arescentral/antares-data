@@ -11,7 +11,7 @@ players:
 	*	type:  "cpu"
 		race:  "ish"
 		name:  "The Human/Ishiman Cooperative"
-song:     5001
+song:     "yesterday"
 initials:
 	*	base:     "loc/planet"
 		owner:    0

@@ -14,7 +14,7 @@ score:
 	*	"-Collect 4"
 	*	"_-asteroid samples"
 	*	"2\\1\\0\\0\\f\\t\\Collected: \\/4"
-song:     5001
+song:     "yesterday"
 initials:
 	*	base:   "can/hvc"
 		owner:  1

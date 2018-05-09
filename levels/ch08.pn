@@ -16,7 +16,7 @@ score:
 	*	"-Collect 10"
 	*	"_-asteroid samples"
 	*	"2\\1\\0\\0\\f\\t\\Collected: \\/10"
-song:        5002
+song:        "targetron"
 initials:
 	*	base:      "ish/hvc"
 		owner:     0

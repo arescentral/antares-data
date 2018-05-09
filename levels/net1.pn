@@ -21,7 +21,7 @@ players:
 			*	"sal"
 			*	"uns"
 		earning_power:  1.0
-song:        5002
+song:        "targetron"
 initials:
 	*	base:  "ast/shoot/lite/up"
 		at:    {x: 0, y: 32767}

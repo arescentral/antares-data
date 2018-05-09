@@ -15,7 +15,7 @@ players:
 score:
 	*	"-Capture Proteus"
 	*	"_-Gamma"
-song:     5003
+song:     "eyes-of-fire"
 initials:
 	*	base:     "loc/planet"
 		owner:    0

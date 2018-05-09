@@ -15,7 +15,7 @@ players:
 score:
 	*	"-Capture Lalande"
 	*	"_-Beta"
-song:        5001
+song:        "yesterday"
 initials:
 	*	base:  "ast/shoot/wide/up"
 		at:    {x: 0, y: 32767}

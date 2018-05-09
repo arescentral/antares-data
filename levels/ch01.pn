@@ -16,7 +16,7 @@ score:
 	*	"-Destroy all 5"
 	*	"_-transports."
 	*	"4\\0\\0\\5\\f\\t\\Remaining: \\/5"
-song:     5000
+song:     "getalong"
 initials:
 	*	base:     "loc/planet"
 		owner:    1

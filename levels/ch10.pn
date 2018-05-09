@@ -14,7 +14,7 @@ players:
 score:
 	*	"-Destroy all"
 	*	"_-hostile ships"
-song:     5004
+song:     "technobee"
 initials:
 	*	base:      "ish/hvc"
 		owner:     0

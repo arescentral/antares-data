@@ -15,7 +15,7 @@ players:
 score:
 	*	"-Capture Aeneas"
 	*	"_-Beta"
-song:     5004
+song:     "technobee"
 initials:
 	*	base:      "ish/cruiser"
 		owner:     0

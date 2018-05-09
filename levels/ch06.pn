@@ -15,7 +15,7 @@ players:
 score:
 	*	"-Capture Hades"
 	*	"_-Beta"
-song:     5000
+song:     "getalong"
 initials:
 	*	base:     "loc/power"
 		owner:    0

@@ -17,7 +17,7 @@ score:
 	*	"_-Obiards"
 	*	"2\\0\\0\\0\\f\\t\\In transport: \\/5"
 	*	"2\\1\\0\\0\\f\\t\\Rescued: \\/11"
-song:     5003
+song:     "eyes-of-fire"
 initials:
 	*	base:   "obi/etc/liner"
 		owner:  0
