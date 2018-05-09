@@ -1,5 +1,4 @@
-type:     "net"
-chapter:  29
+type:  "net"
 title:
 	>	\i Spaze Warz 
 	|	\i 
@@ -10,7 +9,7 @@ players:
 	*	type:  "human"
 		races:
 			*	"gro"
-song:     5003
+song:  5003
 initials:
 	*	base:      "gro/cruiser"
 		owner:     0

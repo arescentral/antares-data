@@ -1,5 +1,4 @@
-type:     "net"
-chapter:  30
+type:  "net"
 title:
 	>	\i Location, Location, Location 
 	|	\i 
@@ -16,7 +15,7 @@ players:
 			*	"gai"
 			*	"ish"
 		earning_power:  1.0
-song:     5004
+song:  5004
 initials:
 	*	base:     "loc/planet"
 		owner:    0

@@ -1,5 +1,4 @@
-type:     "net"
-chapter:  28
+type:  "net"
 title:
 	>	\i Capture the Flagpod 
 	|	\i 
@@ -10,7 +9,7 @@ players:
 	*	type:  "human"
 		races:
 			*	"gro"
-song:     5001
+song:  5001
 initials:
 	*	base:     "loc/planet"
 		owner:    0
