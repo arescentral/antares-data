@@ -1,5 +1,5 @@
-type:        "solo"
-chapter:     8
+type:     "solo"
+chapter:  8
 title:
 	>	\i Chapter 5 
 	|	\iOut of the Frying Pan...
@@ -15,7 +15,7 @@ players:
 score:
 	*	"-Capture Aeneas"
 	*	"_-Beta"
-song:        5004
+song:     5004
 initials:
 	*	base:      "ish/cruiser"
 		owner:     0
@@ -144,9 +144,10 @@ briefings:
 		content:
 			>	^Pgai/hvd^There's a Gaitori heavy destroyer currently over Beta.
 			>	Compared to our cruisers, it is an extremely dangerous ship.
-starmap:     {x: 366, y: 250}
-par_time:    "7m"
-par_kills:   15
-par_losses:  15
+starmap:  {x: 366, y: 250}
+par:
+	time:    "7m"
+	kills:   15
+	losses:  15
 no_ships:
 	>	You lost all of your ships, and failed to repel the Gaitori Military.

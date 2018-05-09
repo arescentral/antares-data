@@ -1,5 +1,5 @@
-type:       "solo"
-chapter:    2
+type:     "solo"
+chapter:  2
 title:
 	>	\i Chapter 1 
 	|	\iEasy Street
@@ -16,7 +16,7 @@ score:
 	*	"-Destroy all 5"
 	*	"_-transports."
 	*	"4\\0\\0\\5\\f\\t\\Remaining: \\/5"
-song:       5000
+song:     5000
 initials:
 	*	base:     "loc/planet"
 		owner:    1
@@ -149,9 +149,11 @@ briefings:
 		content:
 			>	^Pbrf/habitat^If any one of the transports reaches the Gaitori base, the
 			>	mission will be aborted. Good luck.
-starmap:    {x: 330, y: 287}
-par_time:   "2m"
-par_kills:  9
+starmap:  {x: 330, y: 287}
+par:
+	time:    "2m"
+	kills:   9
+	losses:  0
 prologue:
 	>	#+Blog/starfield/a
 	|	\i PART 1 

@@ -1,5 +1,5 @@
-type:      "solo"
-chapter:   26
+type:     "solo"
+chapter:  26
 title:
 	>	\i Space Race, the Musical! \i 
 players:
@@ -11,7 +11,7 @@ players:
 		race:           "gai"
 		name:           "The Gaitori Union"
 		earning_power:  1.0
-song:      5003
+song:     5003
 initials:
 	*	base:      "ish/hvd"
 		owner:     0
@@ -173,4 +173,7 @@ briefings:
 			>	^Pgai/race^Welcome to your first combat mission, humans.
 			|	This system is under the control of the Gaitori, a race of ruthless
 			>	mercenaries and minions of our common enemy, the Cantharan Order.
-par_time:  "1s"
+par:
+	time:    "1s"
+	kills:   0
+	losses:  0

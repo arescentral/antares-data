@@ -1,5 +1,5 @@
-type:        "solo"
-chapter:     6
+type:     "solo"
+chapter:  6
 title:
 	>	\i Chapter 3 
 	|	\iWhile The Iron Is Hot
@@ -15,7 +15,7 @@ players:
 score:
 	*	"-Capture Demeter"
 	*	"_-Beta"
-song:        5002
+song:     5002
 initials:
 	*	base:     "loc/planet"
 		owner:    0
@@ -153,10 +153,11 @@ briefings:
 			>	The Gaitori base can also construct gunships.
 			|	^Pgai/gunship^
 			|	Good luck.
-starmap:     {x: 354, y: 271}
-par_time:    "3m"
-par_kills:   16
-par_losses:  4
+starmap:  {x: 354, y: 271}
+par:
+	time:    "3m"
+	kills:   16
+	losses:  4
 no_ships:
 	>	All of your ships have been destroyed, and the Gaitori control the
 	>	system. Although we’ve supplied you with superior fire-power, you’ve

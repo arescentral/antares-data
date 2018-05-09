@@ -646,8 +646,10 @@ conditions:
 		player:              0
 		screen:              "message"
 starmap:      {x: 330, y: 287}
-par_time:     "2m"
-par_kills:    9
+par:
+	time:    "2m"
+	kills:   9
+	losses:  0
 angle:        8
 is_training:  true
 prologue:

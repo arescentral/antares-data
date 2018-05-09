@@ -1,5 +1,5 @@
-type:        "solo"
-chapter:     9
+type:     "solo"
+chapter:  9
 title:
 	>	\i Chapter 6 
 	|	\i...Into the Fire
@@ -15,7 +15,7 @@ players:
 score:
 	*	"-Capture Hades"
 	*	"_-Beta"
-song:        5000
+song:     5000
 initials:
 	*	base:     "loc/power"
 		owner:    0
@@ -179,10 +179,11 @@ briefings:
 		title:   "Power Station G-3"
 		content:
 			>	^Ploc/power^The is the last of the three Gaitori power stations.
-starmap:     {x: 431, y: 237}
-par_time:    "7m30s"
-par_kills:   45
-par_losses:  12
+starmap:  {x: 431, y: 237}
+par:
+	time:    "7m30s"
+	kills:   45
+	losses:  12
 no_ships:
 	>	You lost all of your ships. The Hades system is in the hands of the
 	>	Gaitori, and Earth is still well beyond our reach.

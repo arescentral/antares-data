@@ -1,5 +1,5 @@
-type:        "solo"
-chapter:     21
+type:     "solo"
+chapter:  21
 title:
 	>	\i Chapter 18 
 	|	\iBlood, Toil, Tears, and Sweat
@@ -15,7 +15,7 @@ players:
 score:
 	*	"-Capture Proxima"
 	*	"_-Alpha & Beta"
-song:        5002
+song:     5002
 initials:
 	*	base:     "loc/planet"
 		at:       {x: 1390, y: -2696}
@@ -253,10 +253,11 @@ briefings:
 			>	access to its considerable store of resources. To complete the mission,
 			>	build a transport and land it at the unoccupied base on Centauri Beta so
 			>	the humans can begin to shore up defenses there.
-starmap:     {x: 182, y: 62}
-par_time:    "6m15s"
-par_kills:   29
-par_losses:  34
+starmap:  {x: 182, y: 62}
+par:
+	time:    "6m15s"
+	kills:   29
+	losses:  34
 no_ships:
 	>	The combined forces of the Cantharan Order and the Audemedon Axis have
 	>	wiped out all of your ships.

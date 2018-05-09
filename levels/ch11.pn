@@ -1,5 +1,5 @@
-type:       "solo"
-chapter:    14
+type:     "solo"
+chapter:  14
 title:
 	>	\i Chapter 11 
 	|	\iShoplifter 2
@@ -16,7 +16,7 @@ score:
 	*	"_-humans"
 	*	"2\\0\\0\\0\\f\\t\\On board: \\/5"
 	*	"2\\1\\0\\0\\f\\t\\Rescued: \\/21"
-song:       5000
+song:     5000
 initials:
 	*	base:   "uns/ares"
 		owner:  0
@@ -238,9 +238,11 @@ briefings:
 		content:
 			>	For this mission to be considered successful, you must rescue at least
 			>	twenty one of the thirty humans in the labs. Good luck.
-starmap:    {x: 160, y: 179}
-par_time:   "7m15s"
-par_kills:  8
+starmap:  {x: 160, y: 179}
+par:
+	time:    "7m15s"
+	kills:   8
+	losses:  0
 prologue:
 	>	#+Blog/starfield/c
 	|	#+sal/race

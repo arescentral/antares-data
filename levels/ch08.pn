@@ -118,9 +118,10 @@ briefings:
 			>	your astrominers don't collide with one of the green unstable asteroids.
 			>	A collision with one of those giants is fatal.
 starmap:     {x: 286, y: 211}
-par_time:    "4m30s"
-par_kills:   6
-par_losses:  1
+par:
+	time:    "4m30s"
+	kills:   6
+	losses:  1
 start_time:  "4m"
 no_ships:
 	>	You lost all of your ships. Without more data, we cannot determine the

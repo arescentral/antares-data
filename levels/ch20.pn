@@ -1,5 +1,5 @@
-type:       "solo"
-chapter:    23
+type:     "solo"
+chapter:  23
 title:
 	>	\i Chapter 20 
 	|	\iThe Mothership Connection
@@ -15,7 +15,7 @@ players:
 score:
 	*	"-Destroy hostile"
 	*	"_-gateship"
-song:       5004
+song:     5004
 initials:
 	*	base:      "ish/etc/hvc/mod"
 		owner:     0
@@ -263,9 +263,11 @@ briefings:
 			>	merely intended to draw the Cantharan fleet away from Sol and the
 			>	Cantharan gateship. They are depending on you to deliver them a
 			>	liberated Earth. You must not fail.
-starmap:    {x: 284, y: 43}
-par_time:   "10m"
-par_kills:  50
+starmap:  {x: 284, y: 43}
+par:
+	time:    "10m"
+	kills:   50
+	losses:  0
 epilogue:
 	>	#+Blog/starfield/a
 	|	#+log/ares-returns

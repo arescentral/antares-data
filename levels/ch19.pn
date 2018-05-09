@@ -1,5 +1,5 @@
-type:        "solo"
-chapter:     22
+type:     "solo"
+chapter:  22
 title:
 	>	\i Chapter 19 
 	|	\iYou Should Have Seen the One that Got Away
@@ -17,7 +17,7 @@ score:
 	*	"Beta, 1 & 2"
 	*	"-Destroy hostile"
 	*	"_-gateship"
-song:        5003
+song:     5003
 initials:
 	*	base:     "loc/planet"
 		owner:    0
@@ -229,9 +229,10 @@ briefings:
 			>	exotic weaponry, including a magnetic field that may be able to knock
 			>	out the electronic systems of nearby ships. Nonetheless, you must
 			>	destroy this ship to complete this mission.
-starmap:     {x: 241, y: 53}
-par_time:    "13m"
-par_kills:   50
-par_losses:  35
+starmap:  {x: 241, y: 53}
+par:
+	time:    "13m"
+	kills:   50
+	losses:  35
 no_ships:
 	>	The Cantharan Order defeated you. Earth is doomed.

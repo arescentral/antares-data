@@ -1,5 +1,5 @@
-type:        "solo"
-chapter:     18
+type:     "solo"
+chapter:  18
 title:
 	>	\i Chapter 15 
 	|	\iThe Left Hand
@@ -15,7 +15,7 @@ players:
 score:
 	*	"-Capture Thasero"
 	*	"_-Beta"
-song:        5004
+song:     5004
 initials:
 	*	base:     "loc/planet"
 		owner:    0
@@ -175,9 +175,10 @@ briefings:
 		content:
 			>	^Psal/carrier^A Salrilian carrier, which we believe to be the
 			>	Actualizer, is en route to the Thasero System. Dispatch it quickly.
-starmap:     {x: 150, y: 120}
-par_time:    "7m15s"
-par_kills:   56
-par_losses:  17
+starmap:  {x: 150, y: 120}
+par:
+	time:    "7m15s"
+	kills:   56
+	losses:  17
 no_ships:
 	>	The Prophets of Salril have delivered total defeat.

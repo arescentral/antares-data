@@ -1,5 +1,5 @@
-type:       "solo"
-chapter:    10
+type:     "solo"
+chapter:  10
 title:
 	>	\i Chapter 7 
 	|	\iOn the Rocks
@@ -14,7 +14,7 @@ score:
 	*	"-Collect 4"
 	*	"_-asteroid samples"
 	*	"2\\1\\0\\0\\f\\t\\Collected: \\/4"
-song:       5001
+song:     5001
 initials:
 	*	base:   "can/hvc"
 		owner:  1
@@ -171,9 +171,11 @@ briefings:
 		content:
 			>	If the asteroid has any significance to the Cantharans, you can expect
 			>	that the Order has already dispatched reinforcements. Be prepared.
-starmap:    {x: 401, y: 224}
-par_time:   "3m"
-par_kills:  2
+starmap:  {x: 401, y: 224}
+par:
+	time:    "3m"
+	kills:   2
+	losses:  0
 prologue:
 	>	#+Blog/starfield/b
 	|	\i PART 2 

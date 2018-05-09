@@ -1,5 +1,5 @@
-type:       "solo"
-chapter:    7
+type:     "solo"
+chapter:  7
 title:
 	>	\i Chapter 4 
 	|	\iShoplifter 1
@@ -17,7 +17,7 @@ score:
 	*	"_-Obiards"
 	*	"2\\0\\0\\0\\f\\t\\In transport: \\/5"
 	*	"2\\1\\0\\0\\f\\t\\Rescued: \\/11"
-song:       5003
+song:     5003
 initials:
 	*	base:   "obi/etc/liner"
 		owner:  0
@@ -242,8 +242,10 @@ briefings:
 		content:
 			>	For the mission to be considered successful, you must rescue at least
 			>	eleven of the fifteen total hostages. Good luck.
-starmap:    {x: 460, y: 259}
-par_time:   "12m"
-par_kills:  25
+starmap:  {x: 460, y: 259}
+par:
+	time:    "12m"
+	kills:   25
+	losses:  0
 no_ships:
 	>	You lost your ships without rescuing enough Obiards.

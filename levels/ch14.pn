@@ -1,5 +1,5 @@
-type:        "solo"
-chapter:     17
+type:     "solo"
+chapter:  17
 title:
 	>	\i Chapter 14 
 	|	\iCaptivating
@@ -17,7 +17,7 @@ score:
 	*	"_-Gamma"
 	*	"-Free Bazidanese"
 	*	"_-Ship"
-song:        5003
+song:     5003
 initials:
 	*	base:      "ish/hvc"
 		owner:     0
@@ -269,10 +269,11 @@ briefings:
 		content:
 			>	^Pish/hvc^You'll initially be using this heavy cruiser. You are welcome
 			>	to transfer control to any other ship you see fit.
-starmap:     {x: 222, y: 130}
-par_time:    "22m"
-par_kills:   95
-par_losses:  30
+starmap:  {x: 222, y: 130}
+par:
+	time:    "22m"
+	kills:   95
+	losses:  30
 prologue:
 	>	#+Blog/starfield/b
 	|	Before the Cantharan Crusades began, the Star League of Bazidan had

@@ -1,5 +1,5 @@
-type:       "solo"
-chapter:    4
+type:     "solo"
+chapter:  4
 title:
 	>	\i Chapter 2 
 	|	\iThe Stars Have Ears
@@ -15,7 +15,7 @@ score:
 	*	"-Destroy all 4"
 	*	"_-relay dishes."
 	*	"4\\0\\0\\4\\f\\t\\Remaining: \\/4"
-song:       5001
+song:     5001
 initials:
 	*	base:     "loc/relay"
 		owner:    1
@@ -205,9 +205,11 @@ briefings:
 			>	indicated that they would like to observe your progress first. They may
 			>	choose to join you during the mission. The Obish Escorts have Salrilian
 			>	stealth fields and Ishiman core pulse guns.
-starmap:    {x: 393, y: 282}
-par_time:   "2m"
-par_kills:  10
+starmap:  {x: 393, y: 282}
+par:
+	time:    "2m"
+	kills:   10
+	losses:  0
 no_ships:
 	>	Your ship was destroyed. We cannot supply you with vessels if you are
 	>	this poor a pilot.

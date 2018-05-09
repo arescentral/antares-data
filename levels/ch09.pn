@@ -1,5 +1,5 @@
-type:        "solo"
-chapter:     12
+type:     "solo"
+chapter:  12
 title:
 	>	\i Chapter 9 
 	|	\iHand Over Fist
@@ -15,7 +15,7 @@ players:
 score:
 	*	"-Capture Proteus"
 	*	"_-Gamma"
-song:        5003
+song:     5003
 initials:
 	*	base:     "loc/planet"
 		owner:    0
@@ -165,10 +165,11 @@ briefings:
 		content:
 			>	^Pcan/carrier^We expect the Cantharans to have a carrier in the area. Be
 			>	prepared.
-starmap:     {x: 368, y: 201}
-par_time:    "16m"
-par_kills:   14
-par_losses:  8
+starmap:  {x: 368, y: 201}
+par:
+	time:    "16m"
+	kills:   14
+	losses:  8
 no_ships:
 	>	You lost all of your ships, and the Proteus System is controlled by the
 	>	Cantharan Order. Without a foothold in the Cantharan Frontier there’s no

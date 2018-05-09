@@ -1,5 +1,5 @@
-type:        "solo"
-chapter:     19
+type:     "solo"
+chapter:  19
 title:
 	>	\i Chapter 16 
 	|	\iHornet's Nest
@@ -18,7 +18,7 @@ score:
 	*	"1\\3\\0\\0\\\\DESTROYED\\\\"
 	*	"1\\3\\0\\0\\\\Destroy all\\\\"
 	*	"1\\3\\0\\0\\\\hostile ships\\\\"
-song:        5000
+song:     5000
 initials:
 	*	base:     "aud/etc/device"
 		owner:    1
@@ -274,10 +274,11 @@ briefings:
 			>
 			>	When the UNS 0917996 has completed its analysis, we'll give you further
 			>	instructions.
-starmap:     {x: 104, y: 98}
-par_time:    "3m30s"
-par_kills:   42
-par_losses:  23
+starmap:  {x: 104, y: 98}
+par:
+	time:    "3m30s"
+	kills:   42
+	losses:  23
 prologue:
 	>	#+Blog/starfield/c
 	|	The Salrilians, seething from their defeat in the Thasero System, call
