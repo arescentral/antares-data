@@ -28,7 +28,8 @@ collide:
 			player:  0
 		*	type:         "sound"
 			reflexive:    true
-			id:           514
+			ids:
+				*	"sfx/energy"
 			priority:     3
 			persistence:  "5t"
 			volume:       255

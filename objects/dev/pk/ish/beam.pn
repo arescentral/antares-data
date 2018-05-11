@@ -11,7 +11,8 @@ create:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           500
+			ids:
+				*	"dev/pk/ish"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

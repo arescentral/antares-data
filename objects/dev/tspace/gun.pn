@@ -12,7 +12,8 @@ device:
 activate:
 	action:
 		*	type:         "sound"
-			id:           563
+			ids:
+				*	"dev/tspace"
 			priority:     3
 			persistence:  "0.5s"
 			volume:       255

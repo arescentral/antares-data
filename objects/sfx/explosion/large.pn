@@ -19,7 +19,8 @@ create:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           515
+			ids:
+				*	"sfx/explosion/large"
 			priority:     4
 			persistence:  "1s"
 			volume:       255

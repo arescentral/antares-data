@@ -12,7 +12,8 @@ activate:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           28853
+			ids:
+				*	"dev/magno"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

@@ -12,7 +12,8 @@ activate:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           546
+			ids:
+				*	"dev/magneto"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

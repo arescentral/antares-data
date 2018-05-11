@@ -34,7 +34,8 @@ collide:
 		*	type:         "sound"
 			if:
 				attributes:  {can_be_destination: true}
-			id:           514
+			ids:
+				*	"sfx/energy"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

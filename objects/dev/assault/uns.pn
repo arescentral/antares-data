@@ -11,7 +11,8 @@ activate:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           10312
+			ids:
+				*	"dev/assault/uns"
 			priority:     4
 			persistence:  "0.5s"
 			volume:       255

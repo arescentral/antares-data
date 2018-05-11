@@ -13,7 +13,8 @@ activate:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           520
+			ids:
+				*	"dev/bay"
 			priority:     2
 			persistence:  "10t"
 			volume:       255

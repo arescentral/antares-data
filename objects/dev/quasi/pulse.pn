@@ -24,7 +24,8 @@ collide:
 			velocity:  5.0
 		*	type:         "sound"
 			reflexive:    true
-			id:           542
+			ids:
+				*	"dev/quasi/collide"
 			priority:     1
 			persistence:  "10t"
 			volume:       255

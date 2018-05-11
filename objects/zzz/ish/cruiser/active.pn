@@ -13,7 +13,8 @@ destroy:
 			reflexive:        true
 			initial_subject:  0
 			initial_object:   0
-			id:               551
+			ids:
+				*	"dev/reactivator"
 			priority:         4
 			persistence:      "10t"
 			volume:           255

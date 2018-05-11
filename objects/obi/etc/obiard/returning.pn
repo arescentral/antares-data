@@ -32,7 +32,8 @@ arrive:
 		*	type:         "sound"
 			if:
 				tags:  {rendezvous: true}
-			id:           31989
+			ids:
+				*	"tpl/evat/board"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

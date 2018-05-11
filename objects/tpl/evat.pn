@@ -20,7 +20,8 @@ destroy:
 	release_energy:  true
 	action:
 		*	type:         "sound"
-			id:           12558
+			ids:
+				*	"tpl/evat/destroy"
 			priority:     3
 			persistence:  "20t"
 			volume:       255
@@ -47,7 +48,8 @@ arrive:
 				tags:   {station: true}
 				owner:  "different"
 			absolute:     true
-			id:           31989
+			ids:
+				*	"tpl/evat/board"
 			priority:     4
 			persistence:  "1s"
 			volume:       255

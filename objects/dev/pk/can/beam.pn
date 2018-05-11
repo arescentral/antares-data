@@ -8,7 +8,8 @@ create:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           504
+			ids:
+				*	"dev/pk/can"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

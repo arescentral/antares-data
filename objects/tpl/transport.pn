@@ -35,7 +35,8 @@ arrive:
 				tags:   {planet: true}
 				owner:  "different"
 			absolute:     true
-			id:           513
+			ids:
+				*	"tpl/transport/land"
 			priority:     5
 			persistence:  "20t"
 			volume:       255

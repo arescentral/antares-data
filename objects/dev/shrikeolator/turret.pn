@@ -17,7 +17,8 @@ activate:
 			relative_direction:  true
 		*	type:         "sound"
 			reflexive:    true
-			id:           544
+			ids:
+				*	"dev/kl"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

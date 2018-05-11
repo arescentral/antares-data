@@ -16,7 +16,8 @@ activate:
 			relative_direction:  true
 		*	type:         "sound"
 			reflexive:    true
-			id:           550
+			ids:
+				*	"dev/conc"
 			priority:     0
 			persistence:  "10t"
 			volume:       255

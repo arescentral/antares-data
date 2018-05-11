@@ -123,7 +123,8 @@ conditions:
 				base:             "ele/etc/liner"
 			*	type:         "sound"
 				reflexive:    true
-				id:           17406
+				ids:
+					*	"ish/etc/tug/attach"
 				priority:     4
 				persistence:  "0.5s"
 				volume:       255

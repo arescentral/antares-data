@@ -12,7 +12,8 @@ activate:
 		*	type:  "morph"
 			base:  "gro/ctf/cruiser/p1-active"
 		*	type:         "sound"
-			id:           551
+			ids:
+				*	"dev/reactivator"
 			priority:     5
 			persistence:  "10t"
 			volume:       255

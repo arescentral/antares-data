@@ -16,7 +16,8 @@ activate:
 			relative_direction:  true
 		*	type:         "sound"
 			reflexive:    true
-			id:           549
+			ids:
+				*	"zzz/dev/inert"
 			priority:     3
 			persistence:  "10t"
 			volume:       180

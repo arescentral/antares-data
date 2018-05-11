@@ -14,7 +14,8 @@ create:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           512
+			ids:
+				*	"dev/lepton"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

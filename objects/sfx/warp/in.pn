@@ -15,7 +15,8 @@ create:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           517
+			ids:
+				*	"sfx/warp/in"
 			priority:     3
 			persistence:  "20t"
 			volume:       255

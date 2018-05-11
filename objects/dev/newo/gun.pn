@@ -11,7 +11,8 @@ activate:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           539
+			ids:
+				*	"dev/newo"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

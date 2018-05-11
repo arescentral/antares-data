@@ -10,7 +10,8 @@ activate:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           538
+			ids:
+				*	"dev/inasa"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

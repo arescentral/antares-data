@@ -12,7 +12,8 @@ activate:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           558
+			ids:
+				*	"dev/cform"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

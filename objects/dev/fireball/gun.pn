@@ -17,7 +17,8 @@ activate:
 			relative_direction:  true
 		*	type:         "sound"
 			reflexive:    true
-			id:           565
+			ids:
+				*	"dev/fireball"
 			priority:     3
 			persistence:  "0.25s"
 			volume:       255

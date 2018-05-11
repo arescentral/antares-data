@@ -25,7 +25,8 @@ destroy:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           571
+			ids:
+				*	"sfx/pop"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

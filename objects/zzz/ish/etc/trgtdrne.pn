@@ -33,14 +33,16 @@ destroy:
 		*	type:         "sound"
 			reflexive:    true
 			absolute:     true
-			id:           551
+			ids:
+				*	"dev/reactivator"
 			priority:     4
 			persistence:  "10t"
 			volume:       255
 		*	type:         "sound"
 			reflexive:    true
 			delay:        "6s"
-			id:           525
+			ids:
+				*	"gui/klaxon"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

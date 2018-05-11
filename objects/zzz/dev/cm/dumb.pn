@@ -32,7 +32,8 @@ create:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           533
+			ids:
+				*	"dev/cm"
 			priority:     3
 			persistence:  "0.5s"
 			volume:       255

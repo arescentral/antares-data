@@ -14,7 +14,8 @@ create:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           536
+			ids:
+				*	"sfx/explosion/flak"
 			priority:     3
 			persistence:  "20t"
 			volume:       255

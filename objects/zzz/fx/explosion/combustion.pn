@@ -18,7 +18,8 @@ create:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           501
+			ids:
+				*	"sfx/explosion/small"
 			priority:     5
 			persistence:  "1s"
 			volume:       255

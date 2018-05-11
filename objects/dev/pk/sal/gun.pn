@@ -11,7 +11,8 @@ activate:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           28007
+			ids:
+				*	"dev/pk/sal"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

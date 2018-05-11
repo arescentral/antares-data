@@ -21,7 +21,8 @@ expire:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           501
+			ids:
+				*	"sfx/explosion/small"
 			priority:     5
 			persistence:  "1s"
 			volume:       255
@@ -64,7 +65,8 @@ arrive:
 			if:
 				tags:   {flak: true}
 				owner:  "different"
-			id:           570
+			ids:
+				*	"tpl/engineer/arrive"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

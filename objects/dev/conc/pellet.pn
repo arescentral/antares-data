@@ -8,7 +8,9 @@ collide:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           {begin: 552, end: 554}
+			ids:
+				*	"dev/conc/ricochet/1"
+				*	"dev/conc/ricochet/2"
 			priority:     3
 			persistence:  "0.25s"
 			volume:       255

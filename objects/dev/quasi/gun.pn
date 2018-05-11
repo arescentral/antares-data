@@ -12,7 +12,8 @@ activate:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           554
+			ids:
+				*	"dev/quasi/create"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

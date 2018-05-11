@@ -11,7 +11,8 @@ activate:
 	action:
 		*	type:         "sound"
 			reflexive:    true
-			id:           566
+			ids:
+				*	"dev/assault/gai"
 			priority:     3
 			persistence:  "20t"
 			volume:       255
