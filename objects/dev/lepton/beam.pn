@@ -12,10 +12,9 @@ expire:
 		age:  "29t"
 create:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/lepton"
+			sound:        "dev/lepton"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

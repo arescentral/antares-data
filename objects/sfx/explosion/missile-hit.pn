@@ -12,10 +12,9 @@ expire:
 	after:  {animation: true}
 create:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"sfx/explosion/energy"
+			sound:        "sfx/explosion/energy"
 			priority:     3
 			persistence:  "20t"
 			volume:       255

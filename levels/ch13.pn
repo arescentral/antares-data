@@ -121,10 +121,9 @@ conditions:
 				reflexive:        true
 				initial_subject:  0
 				base:             "ele/etc/liner"
-			*	type:         "sound"
+			*	type:         "play"
 				reflexive:    true
-				ids:
-					*	"ish/etc/tug/attach"
+				sound:        "ish/etc/tug/attach"
 				priority:     4
 				persistence:  "0.5s"
 				volume:       255

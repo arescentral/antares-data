@@ -10,10 +10,9 @@ device:
 	restock_cost:   30
 activate:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/chronon"
+			sound:        "dev/chronon"
 			priority:     101
 			persistence:  "10t"
 			volume:       255

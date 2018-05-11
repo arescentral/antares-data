@@ -9,10 +9,9 @@ expire:
 	after:
 		age:  "12s"
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"sfx/explosion/large"
+			sound:        "sfx/explosion/large"
 			priority:     4
 			persistence:  "20t"
 			volume:       255

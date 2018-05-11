@@ -26,10 +26,9 @@ collide:
 			which:   1
 			value:   1
 			player:  0
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"sfx/energy"
+			sound:        "sfx/energy"
 			priority:     3
 			persistence:  "5t"
 			volume:       255

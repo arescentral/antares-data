@@ -6,11 +6,11 @@ bolt:
 	color:  {r: 0, g: 0, b: 0, a: 0}
 collide:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/conc/ricochet/1"
-				*	"dev/conc/ricochet/2"
+			any:
+				*	sound:  "dev/conc/ricochet/1"
+				*	sound:  "dev/conc/ricochet/2"
 			priority:     3
 			persistence:  "0.25s"
 			volume:       255

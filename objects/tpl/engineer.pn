@@ -19,10 +19,9 @@ destroy:
 			relative_direction:  true
 expire:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"sfx/explosion/small"
+			sound:        "sfx/explosion/small"
 			priority:     5
 			persistence:  "1s"
 			volume:       255
@@ -60,13 +59,12 @@ arrive:
 				tags:   {flak: true}
 				owner:  "different"
 			value:      0.0
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
 			if:
 				tags:   {flak: true}
 				owner:  "different"
-			ids:
-				*	"tpl/engineer/arrive"
+			sound:        "tpl/engineer/arrive"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

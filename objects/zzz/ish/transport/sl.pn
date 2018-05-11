@@ -31,13 +31,12 @@ arrive:
 				attributes:  {is_destination: true}
 				owner:       "different"
 			speed:  32
-		*	type:         "sound"
+		*	type:         "play"
 			if:
 				attributes:  {is_destination: true}
 				owner:       "different"
 			absolute:     true
-			ids:
-				*	"tpl/transport/land"
+			sound:        "tpl/transport/land"
 			priority:     5
 			persistence:  "20t"
 			volume:       255

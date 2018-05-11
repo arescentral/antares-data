@@ -9,10 +9,9 @@ device:
 	inverse_speed:  0.066
 activate:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/laser/turret"
+			sound:        "dev/laser/turret"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

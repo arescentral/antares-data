@@ -10,10 +10,9 @@ device:
 	restock_cost:   12
 activate:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/cm"
+			sound:        "dev/cm"
 			priority:     3
 			persistence:  "0.25s"
 			volume:       255

@@ -14,10 +14,9 @@ animation:
 	first:      {begin: 0.0, end: 5.0}
 create:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/pp"
+			sound:        "dev/pp"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

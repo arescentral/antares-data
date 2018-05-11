@@ -24,10 +24,9 @@ destroy:
 		*	type:       "create"
 			reflexive:  true
 			base:       "sfx/explosion/small"
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"zrb/destroy"
+			sound:        "zrb/destroy"
 			priority:     3
 			persistence:  "10t"
 			volume:       255
@@ -39,10 +38,9 @@ collide:
 			if:
 				owner:  "different"
 			value:  {begin: 0.0, end: 60.0}
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"zrb/collide"
+			sound:        "zrb/collide"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

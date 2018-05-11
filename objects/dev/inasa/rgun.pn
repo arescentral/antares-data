@@ -8,10 +8,9 @@ device:
 	inverse_speed:  0.047
 activate:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/inasa"
+			sound:        "dev/inasa"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

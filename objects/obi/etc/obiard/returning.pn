@@ -29,11 +29,10 @@ collide:            {edge: true}
 arrive:
 	distance:  5000
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			if:
 				tags:  {rendezvous: true}
-			ids:
-				*	"tpl/evat/board"
+			sound:        "tpl/evat/board"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

@@ -19,9 +19,8 @@ icon:
 destroy:
 	release_energy:  true
 	action:
-		*	type:         "sound"
-			ids:
-				*	"tpl/evat/destroy"
+		*	type:         "play"
+			sound:        "tpl/evat/destroy"
 			priority:     3
 			persistence:  "20t"
 			volume:       255
@@ -43,13 +42,12 @@ arrive:
 				tags:   {station: true}
 				owner:  "different"
 			kind:  "expire"
-		*	type:         "sound"
+		*	type:         "play"
 			if:
 				tags:   {station: true}
 				owner:  "different"
 			absolute:     true
-			ids:
-				*	"tpl/evat/board"
+			sound:        "tpl/evat/board"
 			priority:     4
 			persistence:  "1s"
 			volume:       255

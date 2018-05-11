@@ -9,12 +9,11 @@ destroy:
 		*	type:       "heal"
 			reflexive:  true
 			value:      1000
-		*	type:             "sound"
+		*	type:             "play"
 			reflexive:        true
 			initial_subject:  0
 			initial_object:   0
-			ids:
-				*	"dev/reactivator"
+			sound:            "dev/reactivator"
 			priority:         4
 			persistence:      "10t"
 			volume:           255

@@ -9,10 +9,9 @@ expire:
 		age:  "25t"
 create:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/pk/ish"
+			sound:        "dev/pk/ish"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

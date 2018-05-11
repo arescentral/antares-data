@@ -18,10 +18,9 @@ expire:
 		age:  "5s7t"
 create:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/atomic"
+			sound:        "dev/atomic"
 			priority:     3
 			persistence:  "20t"
 			volume:       255

@@ -9,10 +9,9 @@ device:
 	restock_cost:  0
 activate:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"zzz/dev/retro"
+			sound:        "zzz/dev/retro"
 			priority:     3
 			persistence:  "14t"
 			volume:       255

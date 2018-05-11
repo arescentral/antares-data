@@ -14,10 +14,9 @@ activate:
 			base:                "dev/mine/pulse"
 			relative_velocity:   true
 			relative_direction:  true
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/mine"
+			sound:        "dev/mine"
 			priority:     3
 			persistence:  "5t"
 			volume:       255

@@ -15,10 +15,9 @@ activate:
 			base:                "dev/shrikeolator/pulse"
 			relative_velocity:   true
 			relative_direction:  true
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/kl"
+			sound:        "dev/kl"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

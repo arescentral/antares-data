@@ -11,10 +11,9 @@ device:
 	inverse_speed:  0.066
 activate:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/trazer"
+			sound:        "dev/trazer"
 			priority:     3
 			persistence:  "0.5s"
 			volume:       255

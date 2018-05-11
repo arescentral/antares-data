@@ -11,9 +11,8 @@ device:
 	inverse_speed:  0.047
 activate:
 	action:
-		*	type:         "sound"
-			ids:
-				*	"dev/tspace"
+		*	type:         "play"
+			sound:        "dev/tspace"
 			priority:     3
 			persistence:  "0.5s"
 			volume:       255

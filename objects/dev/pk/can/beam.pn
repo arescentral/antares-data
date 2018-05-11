@@ -6,10 +6,9 @@ bolt:
 	color:  {r: 255, g: 0, b: 0}
 create:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/pk/can"
+			sound:        "dev/pk/can"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

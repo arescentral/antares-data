@@ -16,10 +16,9 @@ expire:
 		age:  "2s40t"
 create:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/rplasma"
+			sound:        "dev/rplasma"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

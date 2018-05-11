@@ -31,11 +31,10 @@ collide:
 			if:
 				attributes:  {can_be_destination: true}
 			kind:  "expire"
-		*	type:         "sound"
+		*	type:         "play"
 			if:
 				attributes:  {can_be_destination: true}
-			ids:
-				*	"sfx/energy"
+			sound:        "sfx/energy"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

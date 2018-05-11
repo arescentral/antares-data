@@ -10,10 +10,9 @@ device:
 	restock_cost:   50
 activate:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/cluster"
+			sound:        "dev/cluster"
 			priority:     0
 			persistence:  "10t"
 			volume:       255

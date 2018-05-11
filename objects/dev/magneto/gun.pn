@@ -10,10 +10,9 @@ device:
 	restock_cost:   24
 activate:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/magneto"
+			sound:        "dev/magneto"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

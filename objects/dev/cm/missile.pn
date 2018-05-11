@@ -7,10 +7,9 @@ rotation:
 	frames:  {begin: 0, end: 24}
 create:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/cm"
+			sound:        "dev/cm"
 			priority:     3
 			persistence:  "0.5s"
 			volume:       255

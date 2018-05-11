@@ -13,10 +13,9 @@ expire:
 	after:  {animation: true}
 create:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"sfx/warp/in"
+			sound:        "sfx/warp/in"
 			priority:     3
 			persistence:  "20t"
 			volume:       255

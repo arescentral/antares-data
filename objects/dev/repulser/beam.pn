@@ -10,10 +10,9 @@ expire:
 		age:  "0.5s"
 create:
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/repulser"
+			sound:        "dev/repulser"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

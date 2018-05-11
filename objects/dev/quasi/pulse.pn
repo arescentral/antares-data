@@ -22,10 +22,9 @@ collide:
 			hue:       "aqua"
 			decay:     8
 			velocity:  5.0
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"dev/quasi/collide"
+			sound:        "dev/quasi/collide"
 			priority:     1
 			persistence:  "10t"
 			volume:       255

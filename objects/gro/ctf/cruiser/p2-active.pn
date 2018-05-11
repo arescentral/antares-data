@@ -23,10 +23,9 @@ shield_color:       {r: 255, g: 255, b: 255}
 destroy:
 	dont_die:  true
 	action:
-		*	type:         "sound"
+		*	type:         "play"
 			reflexive:    true
-			ids:
-				*	"sfx/pop"
+			sound:        "sfx/pop"
 			priority:     3
 			persistence:  "10t"
 			volume:       255

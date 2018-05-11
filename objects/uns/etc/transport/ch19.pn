@@ -14,12 +14,11 @@ arrive:
 			if:
 				tags:  {planet: true}
 			speed:  32
-		*	type:         "sound"
+		*	type:         "play"
 			if:
 				tags:  {planet: true}
 			absolute:     true
-			ids:
-				*	"tpl/transport/land"
+			sound:        "tpl/transport/land"
 			priority:     5
 			persistence:  "20t"
 			volume:       255
