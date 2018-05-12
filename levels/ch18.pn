@@ -254,7 +254,7 @@ briefings:
 			>	access to its considerable store of resources. To complete the mission,
 			>	build a transport and land it at the unoccupied base on Centauri Beta so
 			>	the humans can begin to shore up defenses there.
-starmap:  {x: 182, y: 62}
+starmap:  {left: 166, top: 50, right: 198, bottom: 74}
 par:
 	time:    "6m15s"
 	kills:   29

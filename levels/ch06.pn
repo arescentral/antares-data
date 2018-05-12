@@ -180,7 +180,7 @@ briefings:
 		title:   "Power Station G-3"
 		content:
 			>	^Ploc/power^The is the last of the three Gaitori power stations.
-starmap:  {x: 431, y: 237}
+starmap:  {left: 415, top: 225, right: 447, bottom: 249}
 par:
 	time:    "7m30s"
 	kills:   45

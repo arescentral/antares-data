@@ -111,7 +111,7 @@ briefings:
 			>	^Pgai/race^Welcome to your first combat mission, humans.
 			|	This system is under the control of the Gaitori, a race of ruthless
 			>	mercenaries and minions of our common enemy, the Cantharan Order.
-starmap:     {x: 200, y: 200}
+starmap:     {left: 184, top: 188, right: 216, bottom: 212}
 start_time:  "4m"
 description:
 	>	Basic head to head: capture the enemy planet. An asteroid belt, two

@@ -166,7 +166,7 @@ briefings:
 		content:
 			>	^Pcan/carrier^We expect the Cantharans to have a carrier in the area. Be
 			>	prepared.
-starmap:  {x: 368, y: 201}
+starmap:  {left: 352, top: 189, right: 384, bottom: 213}
 par:
 	time:    "16m"
 	kills:   14

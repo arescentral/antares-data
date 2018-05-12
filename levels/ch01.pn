@@ -153,7 +153,7 @@ briefings:
 		content:
 			>	^Pbrf/habitat^If any one of the transports reaches the Gaitori base, the
 			>	mission will be aborted. Good luck.
-starmap:  {x: 330, y: 287}
+starmap:  {left: 314, top: 275, right: 346, bottom: 299}
 par:
 	time:    "2m"
 	kills:   9

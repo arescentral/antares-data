@@ -174,7 +174,7 @@ briefings:
 		content:
 			>	If the asteroid has any significance to the Cantharans, you can expect
 			>	that the Order has already dispatched reinforcements. Be prepared.
-starmap:  {x: 401, y: 224}
+starmap:  {left: 385, top: 212, right: 417, bottom: 236}
 par:
 	time:    "3m"
 	kills:   2

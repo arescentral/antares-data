@@ -1018,7 +1018,7 @@ conditions:
 		subject:     0
 		object:      0
 		persistent:  true
-starmap:      {x: 330, y: 287}
+starmap:      {left: 314, top: 275, right: 346, bottom: 299}
 angle:        8
 is_training:  true
 no_ships:

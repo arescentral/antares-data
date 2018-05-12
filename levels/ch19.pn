@@ -231,7 +231,7 @@ briefings:
 			>	exotic weaponry, including a magnetic field that may be able to knock
 			>	out the electronic systems of nearby ships. Nonetheless, you must
 			>	destroy this ship to complete this mission.
-starmap:  {x: 241, y: 53}
+starmap:  {left: 225, top: 41, right: 257, bottom: 65}
 par:
 	time:    "13m"
 	kills:   50

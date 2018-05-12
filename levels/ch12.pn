@@ -286,7 +286,7 @@ briefings:
 			>	^Pcan/carrier^The Cantharan carrier the Song of Zom is already in the
 			>	Fansi system. Its missiles are very effective against the bunker
 			>	stations' defenses.
-starmap:  {x: 259, y: 158}
+starmap:  {left: 243, top: 146, right: 275, bottom: 170}
 par:
 	time:    "15m"
 	kills:   10

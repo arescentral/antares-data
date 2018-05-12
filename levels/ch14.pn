@@ -271,7 +271,7 @@ briefings:
 		content:
 			>	^Pish/hvc^You'll initially be using this heavy cruiser. You are welcome
 			>	to transfer control to any other ship you see fit.
-starmap:  {x: 222, y: 130}
+starmap:  {left: 206, top: 118, right: 238, bottom: 142}
 par:
 	time:    "22m"
 	kills:   95

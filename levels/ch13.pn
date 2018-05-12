@@ -219,7 +219,7 @@ briefings:
 			>	It's unusual to find Gaitori pirates this deep into Cantharan space, and
 			>	unlikely that they would be capable of disabling an Elejeetian liner--
 			>	prepare for the unexpected.
-starmap:  {x: 194, y: 145}
+starmap:  {left: 178, top: 133, right: 210, bottom: 157}
 par:
 	time:    "5m"
 	kills:   11

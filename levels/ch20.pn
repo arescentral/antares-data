@@ -264,7 +264,7 @@ briefings:
 			>	merely intended to draw the Cantharan fleet away from Sol and the
 			>	Cantharan gateship. They are depending on you to deliver them a
 			>	liberated Earth. You must not fail.
-starmap:  {x: 284, y: 43}
+starmap:  {left: 268, top: 31, right: 300, bottom: 55}
 par:
 	time:    "10m"
 	kills:   50

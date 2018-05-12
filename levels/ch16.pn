@@ -281,7 +281,7 @@ briefings:
 			>
 			>	When the UNS 0917996 has completed its analysis, we'll give you further
 			>	instructions.
-starmap:  {x: 104, y: 98}
+starmap:  {left: 88, top: 86, right: 120, bottom: 110}
 par:
 	time:    "3m30s"
 	kills:   42

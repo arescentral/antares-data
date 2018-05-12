@@ -649,7 +649,7 @@ conditions:
 		initially_disabled:  true
 		player:              0
 		screen:              "message"
-starmap:      {x: 330, y: 287}
+starmap:      {left: 314, top: 275, right: 346, bottom: 299}
 par:
 	time:    "2m"
 	kills:   9

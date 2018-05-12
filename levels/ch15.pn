@@ -176,7 +176,7 @@ briefings:
 		content:
 			>	^Psal/carrier^A Salrilian carrier, which we believe to be the
 			>	Actualizer, is en route to the Thasero System. Dispatch it quickly.
-starmap:  {x: 150, y: 120}
+starmap:  {left: 134, top: 108, right: 166, bottom: 132}
 par:
 	time:    "7m15s"
 	kills:   56

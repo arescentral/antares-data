@@ -120,7 +120,7 @@ briefings:
 			>	frequently found in mineral-rich asteroid belts. And make sure you or
 			>	your astrominers don't collide with one of the green unstable asteroids.
 			>	A collision with one of those giants is fatal.
-starmap:     {x: 286, y: 211}
+starmap:     {left: 270, top: 199, right: 302, bottom: 223}
 par:
 	time:    "4m30s"
 	kills:   6

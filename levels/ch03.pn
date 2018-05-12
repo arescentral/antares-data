@@ -154,7 +154,7 @@ briefings:
 			>	The Gaitori base can also construct gunships.
 			|	^Pgai/gunship^
 			|	Good luck.
-starmap:  {x: 354, y: 271}
+starmap:  {left: 338, top: 259, right: 370, bottom: 283}
 par:
 	time:    "3m"
 	kills:   16

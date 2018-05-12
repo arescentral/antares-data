@@ -145,7 +145,7 @@ briefings:
 		content:
 			>	^Pgai/hvd^There's a Gaitori heavy destroyer currently over Beta.
 			>	Compared to our cruisers, it is an extremely dangerous ship.
-starmap:  {x: 366, y: 250}
+starmap:  {left: 350, top: 238, right: 382, bottom: 262}
 par:
 	time:    "7m"
 	kills:   15

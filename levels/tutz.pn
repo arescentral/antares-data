@@ -612,4 +612,4 @@ briefings:
 		content:
 			>	^Pbrf/jump-gate^When you feel you've had enough practice, navigate to
 			>	the center of this jump gate to begin your first combat mission.
-starmap:  {x: 288, y: 302}
+starmap:  {left: 272, top: 290, right: 304, bottom: 314}

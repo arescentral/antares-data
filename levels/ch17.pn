@@ -177,7 +177,7 @@ briefings:
 			>	is occupied by Audemedon forces.^Paud/carrier^The Audemedon ships
 			>	greatly outmatch ours.
 			|	^Paud/cruiser^
-starmap:     {x: 156, y: 81}
+starmap:     {left: 140, top: 69, right: 172, bottom: 93}
 par:
 	time:    "16m"
 	kills:   45

@@ -247,7 +247,7 @@ briefings:
 		content:
 			>	For the mission to be considered successful, you must rescue at least
 			>	eleven of the fifteen total hostages. Good luck.
-starmap:  {x: 460, y: 259}
+starmap:  {left: 444, top: 247, right: 476, bottom: 271}
 par:
 	time:    "12m"
 	kills:   25
