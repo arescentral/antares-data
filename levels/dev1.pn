@@ -76,10 +76,4 @@ initials:
 		at:        {x: 0, y: 9000}
 		flagship:  true
 		target:    {initial: 2}
-briefings:
-	*	title:  "The Gaitori"
-		content:
-			>	^Pgai/race^Welcome to your first combat mission, humans.
-			|	This system is under the control of the Gaitori, a race of ruthless
-			>	mercenaries and minions of our common enemy, the Cantharan Order.
 starmap:  {left: 5, top: 46, right: 63, bottom: 65}

@@ -118,12 +118,6 @@ conditions:
 				text:
 					>	Player 1 Captured Lelande Alpha
 		player:   0
-briefings:
-	*	title:  "The Gaitori"
-		content:
-			>	^Pgai/race^Welcome to your first combat mission, humans.
-			|	This system is under the control of the Gaitori, a race of ruthless
-			>	mercenaries and minions of our common enemy, the Cantharan Order.
 starmap:     {left: 84, top: 88, right: 116, bottom: 112}
 start_time:  "4m"
 description:

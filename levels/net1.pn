@@ -105,12 +105,6 @@ conditions:
 				text:
 					>	Player 1 captured Palyos Beta.
 		player:   0
-briefings:
-	*	title:  "The Gaitori"
-		content:
-			>	^Pgai/race^Welcome to your first combat mission, humans.
-			|	This system is under the control of the Gaitori, a race of ruthless
-			>	mercenaries and minions of our common enemy, the Cantharan Order.
 starmap:     {left: 184, top: 188, right: 216, bottom: 212}
 start_time:  "4m"
 description:
