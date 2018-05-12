@@ -1,5 +1,5 @@
-type:         "solo"
-chapter:      3
+type:     "solo"
+chapter:  3
 title:
 	>	\i Tutorial Lesson 2
 	|	\iSection on Selection
@@ -20,7 +20,7 @@ status:
 		minuend:  5
 		counter:  {player: 0, which: 0}
 		suffix:   "/5"
-song:         "autoregret"
+song:     "autoregret"
 initials:
 	*	base:      "ish/cruiser"
 		owner:     0
@@ -862,9 +862,9 @@ conditions:
 		initially_disabled:  true
 		player:              0
 		value:               false
-starmap:      {left: 314, top: 275, right: 346, bottom: 299}
-angle:        8
-is_training:  true
+starmap:  {left: 314, top: 275, right: 346, bottom: 299}
+angle:    8
+skip:     "ch02"
 no_ships:
 	>	Somehow, you lost your ship during a training exercise. You are most
 	>	unpromising.

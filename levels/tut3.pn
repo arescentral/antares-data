@@ -1,5 +1,5 @@
-type:         "solo"
-chapter:      5
+type:     "solo"
+chapter:  5
 title:
 	>	\i Tutorial Lesson 3
 	|	\iThe Complete Idiot’s Guide to Commanding a Space Armada
@@ -20,7 +20,7 @@ status:
 		minuend:  5
 		counter:  {player: 0, which: 0}
 		suffix:   "/5"
-song:         "autoregret"
+song:     "autoregret"
 initials:
 	*	base:      "ish/cruiser"
 		owner:     0
@@ -1018,9 +1018,9 @@ conditions:
 		subject:     0
 		object:      0
 		persistent:  true
-starmap:      {left: 314, top: 275, right: 346, bottom: 299}
-angle:        8
-is_training:  true
+starmap:  {left: 314, top: 275, right: 346, bottom: 299}
+angle:    8
+skip:     "ch03"
 no_ships:
 	>	Somehow, you lost your ship during a training exercise. You are most
 	>	unpromising.
