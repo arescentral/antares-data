@@ -12,9 +12,10 @@ players:
 		race:           "can"
 		name:           "The Cantharan Order"
 		earning_power:  1.25
-score:
-	*	"-Capture Proteus"
-	*	"_-Gamma"
+status:
+	*	text:  "Capture Proteus"
+	*	text:       "Gamma"
+		underline:  true
 song:     "eyes-of-fire"
 initials:
 	*	base:     "loc/planet"

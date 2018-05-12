@@ -11,10 +11,14 @@ players:
 	*	type:  "cpu"
 		race:  "gai"
 		name:  "The Gaitori Union"
-score:
-	*	"-Destroy all 4"
-	*	"_-relay dishes."
-	*	"4\\0\\0\\4\\f\\t\\Remaining: \\/4"
+status:
+	*	text:  "Destroy all 4"
+	*	text:       "relay dishes."
+		underline:  true
+	*	prefix:   "Remaining: "
+		minuend:  4
+		counter:  {player: 0, which: 0}
+		suffix:   "/4"
 song:     "yesterday"
 initials:
 	*	base:     "loc/relay"

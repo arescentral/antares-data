@@ -11,11 +11,16 @@ players:
 	*	type:  "cpu"
 		race:  "can"
 		name:  "The Prophets of Salril"
-score:
-	*	"-Rescue 21"
-	*	"_-humans"
-	*	"2\\0\\0\\0\\f\\t\\On board: \\/5"
-	*	"2\\1\\0\\0\\f\\t\\Rescued: \\/21"
+status:
+	*	text:  "Rescue 21"
+	*	text:       "humans"
+		underline:  true
+	*	prefix:   "On board: "
+		counter:  {player: 0, which: 0}
+		suffix:   "/5"
+	*	prefix:   "Rescued: "
+		counter:  {player: 0, which: 1}
+		suffix:   "/21"
 song:     "getalong"
 initials:
 	*	base:   "uns/ares"

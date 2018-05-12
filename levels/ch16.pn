@@ -12,12 +12,19 @@ players:
 		race:           "aud"
 		name:           "The Audemedon Axis"
 		earning_power:  1.0
-score:
-	*	"1\\2\\0\\0\\Protect science\\Destroy jumpgate\\\\"
-	*	"1\\2\\0\\0\\vessel\\inhibitor\\\\"
-	*	"1\\3\\0\\0\\\\DESTROYED\\\\"
-	*	"1\\3\\0\\0\\\\Destroy all\\\\"
-	*	"1\\3\\0\\0\\\\hostile ships\\\\"
+status:
+	*	condition:  2
+		true:       "Destroy jumpgate"
+		false:      "Protect science"
+	*	condition:  2
+		true:       "inhibitor"
+		false:      "vessel"
+	*	condition:  3
+		true:       "DESTROYED"
+	*	condition:  3
+		true:       "Destroy all"
+	*	condition:  3
+		true:       "hostile ships"
 song:     "getalong"
 initials:
 	*	base:     "aud/etc/device"

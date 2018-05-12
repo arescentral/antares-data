@@ -12,9 +12,10 @@ players:
 		race:           "sal"
 		name:           "The Prophets of Salril"
 		earning_power:  2.0
-score:
-	*	"-Capture Thasero"
-	*	"_-Beta"
+status:
+	*	text:  "Capture Thasero"
+	*	text:       "Beta"
+		underline:  true
 song:     "technobee"
 initials:
 	*	base:     "loc/planet"

@@ -12,11 +12,13 @@ players:
 		race:           "can"
 		name:           "The Cantharan Order"
 		earning_power:  1.25
-score:
-	*	"-Capture Bokleo"
-	*	"_-Gamma"
-	*	"-Free Bazidanese"
-	*	"_-Ship"
+status:
+	*	text:  "Capture Bokleo"
+	*	text:       "Gamma"
+		underline:  true
+	*	text:  "Free Bazidanese"
+	*	text:       "Ship"
+		underline:  true
 song:     "eyes-of-fire"
 initials:
 	*	base:      "ish/hvc"

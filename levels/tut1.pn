@@ -12,10 +12,14 @@ players:
 		race:           "can"
 		name:           "The Cantharan Order"
 		earning_power:  1.0
-score:
-	*	"-Destroy all 5"
-	*	"_-transports."
-	*	"4\\0\\0\\5\\f\\t\\Remaining: \\/5"
+status:
+	*	text:  "Destroy all 5"
+	*	text:       "transports."
+		underline:  true
+	*	prefix:   "Remaining: "
+		minuend:  5
+		counter:  {player: 0, which: 0}
+		suffix:   "/5"
 song:         "autoregret"
 initials:
 	*	base:      "ish/cruiser"

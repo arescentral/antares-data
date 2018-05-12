@@ -12,9 +12,10 @@ players:
 		race:           "can"
 		name:           "The Cantharan Order"
 		earning_power:  1.0
-score:
-	*	"-Destroy hostile"
-	*	"_-gateship"
+status:
+	*	text:  "Destroy hostile"
+	*	text:       "gateship"
+		underline:  true
 song:     "technobee"
 initials:
 	*	base:      "ish/etc/hvc/mod"

@@ -12,13 +12,17 @@ players:
 		race:           "can"
 		name:           "The Cantharan Order"
 		earning_power:  3.0
-score:
-	*	"-Capture Fansi"
-	*	"_-Beta"
-	*	"-Ensure safety"
-	*	"_-of 5 cargo ships"
-	*	"-"
-	*	"2\\0\\0\\0\\f\\t\\Docked: \\/5"
+status:
+	*	text:  "Capture Fansi"
+	*	text:       "Beta"
+		underline:  true
+	*	text:  "Ensure safety"
+	*	text:       "of 5 cargo ships"
+		underline:  true
+	*	text:  ""
+	*	prefix:   "Docked: "
+		counter:  {player: 0, which: 0}
+		suffix:   "/5"
 song:     "yesterday"
 initials:
 	*	base:   "loc/shipyard"

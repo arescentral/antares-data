@@ -12,9 +12,10 @@ players:
 		race:           "gai"
 		name:           "The Gaitori Union"
 		earning_power:  1.5
-score:
-	*	"-Capture Aeneas"
-	*	"_-Beta"
+status:
+	*	text:  "Capture Aeneas"
+	*	text:       "Beta"
+		underline:  true
 song:     "technobee"
 initials:
 	*	base:      "ish/cruiser"

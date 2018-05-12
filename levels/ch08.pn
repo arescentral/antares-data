@@ -12,10 +12,13 @@ players:
 		race:           "can"
 		name:           "The Cantharan Order"
 		earning_power:  1.0
-score:
-	*	"-Collect 10"
-	*	"_-asteroid samples"
-	*	"2\\1\\0\\0\\f\\t\\Collected: \\/10"
+status:
+	*	text:  "Collect 10"
+	*	text:       "asteroid samples"
+		underline:  true
+	*	prefix:   "Collected: "
+		counter:  {player: 0, which: 1}
+		suffix:   "/10"
 song:        "targetron"
 initials:
 	*	base:      "ish/hvc"

@@ -12,9 +12,10 @@ players:
 		race:           "gai"
 		name:           "The Gaitori Union"
 		earning_power:  1.25
-score:
-	*	"-Capture Hades"
-	*	"_-Beta"
+status:
+	*	text:  "Capture Hades"
+	*	text:       "Beta"
+		underline:  true
 song:     "getalong"
 initials:
 	*	base:     "loc/power"

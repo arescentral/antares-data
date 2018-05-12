@@ -10,10 +10,13 @@ players:
 	*	type:  "cpu"
 		race:  "can"
 		name:  "The Cantharan Order"
-score:
-	*	"-Collect 4"
-	*	"_-asteroid samples"
-	*	"2\\1\\0\\0\\f\\t\\Collected: \\/4"
+status:
+	*	text:  "Collect 4"
+	*	text:       "asteroid samples"
+		underline:  true
+	*	prefix:   "Collected: "
+		counter:  {player: 0, which: 1}
+		suffix:   "/4"
 song:     "yesterday"
 initials:
 	*	base:   "can/hvc"

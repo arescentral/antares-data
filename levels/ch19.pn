@@ -12,11 +12,13 @@ players:
 		race:           "can"
 		name:           "The Cantharan Order"
 		earning_power:  1.0
-score:
-	*	"_-Capture Pictoris"
-	*	"Beta, 1 & 2"
-	*	"-Destroy hostile"
-	*	"_-gateship"
+status:
+	*	text:       "Capture Pictoris"
+		underline:  true
+	*	text:  "Beta, 1 & 2"
+	*	text:  "Destroy hostile"
+	*	text:       "gateship"
+		underline:  true
 song:     "eyes-of-fire"
 initials:
 	*	base:     "loc/planet"

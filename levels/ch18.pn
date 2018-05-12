@@ -12,9 +12,10 @@ players:
 		race:           "aud"
 		name:           "The Audemedon Axis"
 		earning_power:  1.0
-score:
-	*	"-Capture Proxima"
-	*	"_-Alpha & Beta"
+status:
+	*	text:  "Capture Proxima"
+	*	text:       "Alpha & Beta"
+		underline:  true
 song:     "targetron"
 initials:
 	*	base:     "loc/planet"

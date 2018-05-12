@@ -12,9 +12,10 @@ players:
 		race:           "gai"
 		name:           "The Gaitori Union"
 		earning_power:  0.848
-score:
-	*	"-Capture Demeter"
-	*	"_-Beta"
+status:
+	*	text:  "Capture Demeter"
+	*	text:       "Beta"
+		underline:  true
 song:     "targetron"
 initials:
 	*	base:     "loc/planet"

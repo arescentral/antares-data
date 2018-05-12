@@ -12,9 +12,10 @@ players:
 		race:           "aud"
 		name:           "The Audemedon Axis"
 		earning_power:  1.0
-score:
-	*	"-Capture Lalande"
-	*	"_-Beta"
+status:
+	*	text:  "Capture Lalande"
+	*	text:       "Beta"
+		underline:  true
 song:        "yesterday"
 initials:
 	*	base:  "ast/shoot/wide/up"

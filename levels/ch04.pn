@@ -12,11 +12,16 @@ players:
 		race:           "gai"
 		name:           "The Gaitori Union"
 		earning_power:  1.5
-score:
-	*	"-Rescue 11"
-	*	"_-Obiards"
-	*	"2\\0\\0\\0\\f\\t\\In transport: \\/5"
-	*	"2\\1\\0\\0\\f\\t\\Rescued: \\/11"
+status:
+	*	text:  "Rescue 11"
+	*	text:       "Obiards"
+		underline:  true
+	*	prefix:   "In transport: "
+		counter:  {player: 0, which: 0}
+		suffix:   "/5"
+	*	prefix:   "Rescued: "
+		counter:  {player: 0, which: 1}
+		suffix:   "/11"
 song:     "eyes-of-fire"
 initials:
 	*	base:   "obi/etc/liner"

@@ -11,9 +11,10 @@ players:
 		race:           "can"
 		name:           "The Cantharan Order"
 		earning_power:  0.008
-score:
-	*	"-Destroy all"
-	*	"_-hostile ships"
+status:
+	*	text:  "Destroy all"
+	*	text:       "hostile ships"
+		underline:  true
 song:     "technobee"
 initials:
 	*	base:      "ish/hvc"

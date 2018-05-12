@@ -12,11 +12,21 @@ players:
 		race:           "sal"
 		name:           "The Prophets of Salril"
 		earning_power:  1.0
-score:
-	*	"1\\0\\0\\0\\Retrieve escape\\Escort tractor"
-	*	"_1\\0\\0\\0\\pods\\tug"
-	*	"2\\1\\0\\0\\f\\t\\Rescued: \\/6"
-	*	"1\\1\\0\\0\\N\\Y\\Liner secure: \\"
+status:
+	*	condition:  0
+		true:       "Escort tractor"
+		false:      "Retrieve escape"
+	*	condition:  0
+		true:       "tug"
+		false:      "pods"
+		underline:  true
+	*	prefix:   "Rescued: "
+		counter:  {player: 0, which: 1}
+		suffix:   "/6"
+	*	prefix:     "Liner secure: "
+		condition:  1
+		true:       "Y"
+		false:      "N"
 song:     "targetron"
 initials:
 	*	base:    "ele/etc/liner/disabled"
