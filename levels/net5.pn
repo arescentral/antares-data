@@ -5,15 +5,15 @@ title:
 players:
 	*	type:           "human"
 		races:
+			*	"ish"
 			*	"can"
 			*	"gai"
-			*	"ish"
 		earning_power:  1.0
 	*	type:           "human"
 		races:
+			*	"ish"
 			*	"can"
 			*	"gai"
-			*	"ish"
 		earning_power:  1.0
 song:  "technobee"
 initials:
