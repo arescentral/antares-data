@@ -2,7 +2,6 @@ template:           "tpl/apulse"
 long_name:          "Energy"
 short_name:         "ENERGY"
 notes:              "Energy"
-attributes:         {appear_on_radar: true}
 health:             100
 mass:               0.0
 max_velocity:       2.0
@@ -15,6 +14,7 @@ animation:
 	direction:  "+"
 	speed:      0.156
 	first:      {begin: 0.0, end: 2.0}
+target:             {radar: true}
 expire:
 	after:
 		age:

@@ -2,7 +2,6 @@ template:           "tpl/hazard"
 long_name:          "Asteroid"
 short_name:         "ASTEROID"
 notes:              "Asteroid"
-attributes:         {is_destination: true}
 health:             10000
 mass:               10.0
 max_velocity:       0.5
@@ -15,6 +14,7 @@ animation:
 	speed:      0.117
 	first:      {begin: 0.0, end: 20.0}
 icon:               {size: 4}
+target:             {base: true}
 destroy:
 	action:
 		*	type:       "create"

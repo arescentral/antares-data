@@ -2,7 +2,6 @@ template:           "tpl/hazard"
 long_name:          "Escape Pod"
 short_name:         "ESCPEPOD"
 notes:              "Escape Pod"
-attributes:         {can_be_destination: true}
 tags:               {energizable: true}
 class:              801
 race:               "ele"
@@ -22,6 +21,7 @@ animation:
 icon:
 	shape:  "plus"
 	size:   3
+target:             {select: true}
 portrait:           "ele/etc/escape-pod"
 shield_color:       {r: 255, g: 255, b: 255}
 destroy:

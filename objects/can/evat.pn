@@ -1,7 +1,6 @@
 template:      "tpl/evat"
 short_name:    "EVATROOP"
 notes:         "EVA Trooper"
-attributes:    {static_destination: false}
 race:          "can"
 price:         600
 build_time:    "3s"
@@ -14,4 +13,5 @@ weapons:
 rotation:
 	sprite:  "can/evat"
 	frames:  {begin: 0, end: 24}
+target:        {lock: false}
 shield_color:  {r: 255, g: 255, b: 255}

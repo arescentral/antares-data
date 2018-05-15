@@ -2,7 +2,6 @@ template:    "tpl/animated"
 long_name:   "U.N.S. Ares"
 short_name:  "UNSARES"
 notes:       "Ares for Shoplifter 2"
-attributes:  {can_be_destination: true}
 tags:        {rendezvous: true, normal: null}
 health:      1000
 animation:
@@ -12,6 +11,7 @@ animation:
 icon:
 	shape:  "plus"
 	size:   7
+target:      {select: true}
 collide:     {damage: 1}
 ai:
 	escort:  {class: -256, power: -5.0, need: -5.0}

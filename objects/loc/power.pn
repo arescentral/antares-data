@@ -2,10 +2,10 @@ template:      "tpl/structure"
 long_name:     "Power Station"
 short_name:    "POWERSTN"
 notes:         "Power Station"
-attributes:    {is_destination: true}
 animation:
 	sprite:  "loc/power"
 icon:          {size: 6}
+target:        {base: true}
 portrait:      "loc/power"
 shield_color:  {r: 240, g: 0, b: 0}
 ai:

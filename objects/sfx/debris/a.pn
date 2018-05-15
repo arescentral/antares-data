@@ -2,7 +2,6 @@ template:           "tpl/hazard"
 long_name:          "Debris"
 short_name:         "DEBRIS"
 notes:              "Debris"
-attributes:         {appear_on_radar: false}
 health:             10
 mass:               0.5
 max_velocity:       4.0
@@ -14,6 +13,7 @@ animation:
 	direction:  "+"
 	speed:      0.39
 	first:      {begin: 0.0, end: 8.0}
+target:             {radar: false}
 expire:
 	after:
 		age:

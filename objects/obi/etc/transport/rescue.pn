@@ -1,6 +1,5 @@
 template:           "obi/transport"
 notes:              "Can Pick Up Guys"
-attributes:         {hide_effect: false}
 tags:               {rescue: true, planet: null}
 class:              881
 initial_velocity:   1.5
@@ -11,6 +10,7 @@ weapons:
 			*	{x: -5.0, y: 0.0}
 			*	{x: 0.0, y: 0.0}
 			*	{x: 5.0, y: 0.0}
+target:             {hide: false}
 expire:             {action: null}
 arrive:             {action: null}
 ai:

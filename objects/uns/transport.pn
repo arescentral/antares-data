@@ -1,9 +1,9 @@
 template:           "tpl/transport"
 notes:              "Transport"
-attributes:         {hide_effect: true}
 race:               "uns"
 warp_out_distance:  9734400
 rotation:
 	sprite:  "uns/transport"
 	frames:  {begin: 0, end: 24}
+target:             {hide: true}
 shield_color:       {r: 255, g: 255, b: 255}

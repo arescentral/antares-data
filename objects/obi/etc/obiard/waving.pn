@@ -2,7 +2,6 @@ template:           "tpl/hazard"
 long_name:          "Obiard"
 short_name:         "OBIARD"
 notes:              "Needs rescuing, waving"
-attributes:         {static_destination: true}
 tags:               {prisoner: true, normal-attacker: null}
 health:             1
 mass:               0.5
@@ -18,6 +17,7 @@ animation:
 	speed:      0.47
 icon:
 	shape:  "plus"
+target:             {lock: true}
 destroy:
 	action:
 		*	type:       "score"

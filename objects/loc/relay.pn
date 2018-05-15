@@ -2,10 +2,10 @@ template:      "tpl/structure"
 long_name:     "Sensor Relay Station"
 short_name:    "RLAYSTTN"
 notes:         "Sensor Relay Station"
-attributes:    {is_destination: true}
 animation:
 	sprite:  "loc/relay"
 icon:          {size: 6}
+target:        {base: true}
 shield_color:  {r: 240, g: 234, b: 195}
 destroy:
 	action:

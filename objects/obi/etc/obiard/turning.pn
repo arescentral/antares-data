@@ -2,7 +2,6 @@ template:           "tpl/oriented"
 long_name:          "Obiard"
 short_name:         "OBIARD"
 notes:              "Needs rescuing, turning"
-attributes:         {can_accept_destination: true, static_destination: true, appear_on_radar: true}
 tags:               {prisoner: true, normal-attacker: null}
 health:             1
 mass:               0.5
@@ -18,6 +17,7 @@ rotation:
 icon:
 	shape:  "plus"
 	size:   1
+target:             {radar: true, order: true, lock: true}
 destroy:
 	action:
 		*	type:       "score"

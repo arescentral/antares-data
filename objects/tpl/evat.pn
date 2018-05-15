@@ -1,7 +1,6 @@
 template:           "tpl/oriented"
 long_name:          "EVA Trooper"
 short_name:         "EVAT"
-attributes:         {can_accept_destination: true, static_destination: true, appear_on_radar: true}
 tags:               {boarder: true, normal-attacker: null}
 class:              10
 health:             10
@@ -16,6 +15,7 @@ rotation:           {scale: 0.5}
 icon:
 	shape:  "triangle"
 	size:   1
+target:             {radar: true, order: true, lock: true}
 destroy:
 	release_energy:  true
 	action:

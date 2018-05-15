@@ -2,7 +2,6 @@ template:           "tpl/utilship"
 long_name:          "Transport"
 short_name:         "TRANSPRT"
 notes:              "Transport"
-attributes:         {hide_effect: true}
 tags:               {planet: true, normal: null}
 class:              800
 race:               "obi"
@@ -24,6 +23,7 @@ rotation:
 	sprite:  "obi/transport"
 	frames:  {begin: 0, end: 24}
 icon:               {size: 5}
+target:             {hide: true}
 portrait:           "obi/transport"
 shield_color:       {r: 255, g: 255, b: 255}
 destroy:

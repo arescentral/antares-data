@@ -2,7 +2,6 @@ template:    "tpl/waypoint"
 long_name:   "Station"
 short_name:  "STATION"
 notes:       "Station"
-attributes:  {is_destination: true}
 tags:        {station: true, normal: null}
 health:      -1
 energy:      -1
@@ -12,6 +11,7 @@ animation:
 icon:
 	shape:  "square"
 	size:   7
+target:      {base: true}
 collide:     {damage: 1}
 ai:
 	escort:  {class: 10, need: 3.0}

@@ -1,7 +1,6 @@
 template:           "baz/bttlship"
 long_name:          "Battleship-Moored"
 notes:              "Battleship-Moored"
-attributes:         {can_be_destination: false, can_accept_destination: false}
 tags:               {energizable: null}
 build_time:         "0s"
 turn_rate:          0.0
@@ -11,6 +10,7 @@ initial_velocity:   0.0
 warp_speed:         0.0
 warp_out_distance:  9734400
 icon:               {size: 9}
+target:             {order: false, select: false}
 destroy:            {release_energy: false}
 collide:
 	as:  {subject: false, object: false}

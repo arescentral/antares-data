@@ -2,7 +2,6 @@ template:          "tpl/utilship"
 long_name:         "SL Transport"
 short_name:        "TRANSPRT"
 notes:             "SL Transport"
-attributes:        {hide_effect: true}
 class:             801
 race:              "ish"
 health:            250
@@ -17,6 +16,7 @@ rotation:
 	sprite:  "ish/transport"
 	frames:  {begin: 0, end: 24}
 icon:              {size: 5}
+target:            {hide: true}
 shield_color:      {r: 255, g: 255, b: 255}
 destroy:
 	action:

@@ -1,10 +1,10 @@
-template:    "tpl/structure"
-attributes:  {is_destination: true}
-tags:        {station: true, normal: null}
-health:      5000
-energy:      1000
-icon:        {size: 7}
-destroy:     {neutralize: true, action: null}
+template:  "tpl/structure"
+tags:      {station: true, normal: null}
+health:    5000
+energy:    1000
+icon:      {size: 7}
+target:    {base: true}
+destroy:   {neutralize: true, action: null}
 collide:
 	as:  {subject: false}
 ai:

@@ -2,7 +2,6 @@ template:           "tpl/apulse"
 long_name:          "Superlight Boosters"
 short_name:         "LGHTDRVE"
 notes:              "Superlight Boosters"
-attributes:         {can_be_destination: true}
 health:             100
 price:              1000
 mass:               0.0
@@ -16,6 +15,7 @@ animation:
 	direction:  "+"
 	speed:      0.156
 	first:      {begin: 0.0, end: 23.0}
+target:             {select: true}
 expire:
 	after:
 		age:

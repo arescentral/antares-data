@@ -2,7 +2,6 @@ template:           "tpl/animated"
 long_name:          "Target Drone Dead"
 short_name:         "TRGTDRNE"
 notes:              "Target Drone Dead"
-attributes:         {appear_on_radar: true}
 class:              123
 race:               "ish"
 health:             250
@@ -21,6 +20,7 @@ animation:
 icon:
 	shape:  "triangle"
 	size:   3
+target:             {radar: true}
 shield_color:       {r: 255, g: 255, b: 255}
 destroy:            {dont_die: true}
 ai:

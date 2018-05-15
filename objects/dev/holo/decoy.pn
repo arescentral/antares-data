@@ -2,7 +2,6 @@ template:           "tpl/oriented"
 long_name:          "Holographic Decoy"
 short_name:         "HOLODCOY"
 notes:              "Holographic Decoy"
-attributes:         {appear_on_radar: true}
 health:             1500
 energy:             1000
 build_time:         "5s"
@@ -19,6 +18,7 @@ rotation:
 icon:
 	shape:  "triangle"
 	size:   4
+target:             {radar: true}
 shield_color:       {r: 240, g: 240, b: 120}
 expire:
 	after:

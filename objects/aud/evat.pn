@@ -1,6 +1,5 @@
 template:      "tpl/evat"
 notes:         "Audemedon Extra-vehicular Assault Trooper"
-attributes:    {static_destination: false}
 race:          "aud"
 health:        100
 energy:        200
@@ -15,4 +14,5 @@ weapons:
 rotation:
 	sprite:  "aud/evat"
 	frames:  {begin: 0, end: 24}
+target:        {lock: false}
 shield_color:  {r: 120, g: 120, b: 240}

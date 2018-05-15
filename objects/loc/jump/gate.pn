@@ -2,11 +2,11 @@ template:      "tpl/waypoint"
 long_name:     "Jump Gate"
 short_name:    "JUMPGATE"
 notes:         "Jump Gate"
-attributes:    {is_destination: true}
 tags:          {jumpgate: true, normal: null}
 health:        1000
 animation:
 	sprite:  "sfx/invisible"
+target:        {base: true}
 shield_color:  {r: 240, g: 0, b: 0}
 destroy:
 	action:

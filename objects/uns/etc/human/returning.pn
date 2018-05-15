@@ -2,7 +2,6 @@ template:           "tpl/oriented"
 long_name:          "Human"
 short_name:         "HUMAN"
 notes:              "exiting to base"
-attributes:         {can_accept_destination: true, static_destination: true, appear_on_radar: true}
 health:             1
 mass:               0.5
 turn_rate:          2.0
@@ -20,6 +19,7 @@ rotation:
 icon:
 	shape:  "plus"
 	size:   2
+target:             {radar: true, order: true, lock: true}
 create:
 	action:
 		*	type:            "order"

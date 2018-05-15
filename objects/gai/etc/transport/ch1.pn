@@ -1,6 +1,6 @@
-template:    "gai/transport"
-attributes:  {hide_effect: true}
-class:       801
+template:  "gai/transport"
+class:     801
+target:    {hide: true}
 destroy:
 	action:
 		*	type:       "create"
@@ -11,7 +11,7 @@ destroy:
 			which:      0
 			value:      1
 			player:     0
-expire:      {action: null}
+expire:    {action: null}
 arrive:
 	action:
 		*	type:    "win"
@@ -19,4 +19,4 @@ arrive:
 			text:
 				>	You allowed the transports to dock at Charon station. You need to
 				>	destroy the transports more quickly.
-portrait:    null
+portrait:  null

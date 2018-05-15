@@ -1,13 +1,13 @@
 template:          "tpl/hazard"
 long_name:         "Asteroid"
 short_name:        "ASTEROID"
-attributes:        {hide_effect: true}
 tags:              {asteroid: true, normal: null}
 health:            10000
 mass:              10.0
 max_velocity:      3.0
 initial_velocity:  3.0
 icon:              {size: 4}
+target:            {hide: true}
 collide:           {damage: 10, edge: false}
 ai:
 	combat:

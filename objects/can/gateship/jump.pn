@@ -1,9 +1,9 @@
 template:    "can/gateship/base"
 notes:       "Going through Jump Gate"
-attributes:  {static_destination: true}
 health:      80000
 max_thrust:  0.0
 weapons:     {pulse: null, special: null}
+target:      {lock: true}
 destroy:     {action: null}
 collide:     {solid: false}
 ai:
