@@ -4,7 +4,6 @@ tags:              {disabled: true, reactivator: true, normal: null, normal-atta
 class:             203
 max_velocity:      0.0
 initial_velocity:  0.0
-weapons:           {pulse: null, beam: null}
 destroy:           {action: null}
 collide:
 	as:  {object: false}
@@ -13,3 +12,4 @@ ai:
 		engaged_if:  {reactivator: true}
 		evades:      false
 		evaded:      false
+weapons:           null

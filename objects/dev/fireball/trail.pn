@@ -10,9 +10,8 @@ animation:
 	frames:     {begin: 0.0, end: 4.004}
 	direction:  "+"
 	speed:      0.312
-icon:              null
 expire:
-	after:  {age: null, animation: true}
+	after:  {animation: true, age: null}
 collide:
 	damage:  50
 	action:
@@ -23,3 +22,4 @@ collide:
 		*	type:       "kill"
 			reflexive:  true
 			kind:       "expire"
+icon:              null

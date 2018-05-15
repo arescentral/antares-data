@@ -1,6 +1,7 @@
 long_name:          "Untitled"
 short_name:         "UNTITLED"
 notes:              "Untitled Object"
+attributes:         {can_be_destination: false, can_accept_destination: false, autotarget: false, is_destination: false, hide_effect: false, static_destination: false, appear_on_radar: false}
 tags:               {normal: true, normal-attacker: true}
 class:              -1
 health:             0

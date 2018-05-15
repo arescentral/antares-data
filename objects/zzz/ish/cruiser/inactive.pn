@@ -5,9 +5,9 @@ turn_rate:     0.0
 max_velocity:  0.0
 max_thrust:    0.0
 warp_speed:    0.0
-weapons:       {pulse: null, beam: null}
 destroy:       {action: null}
 collide:
 	as:  {subject: false, object: false}
 ai:
 	combat:  {hated: false, engages: false, engaged: false, evades: false, evaded: false}
+weapons:       null

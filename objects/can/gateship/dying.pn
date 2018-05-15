@@ -3,7 +3,6 @@ notes:       "Blowing up & Dying Left & Right"
 attributes:  {can_be_destination: false, can_accept_destination: false}
 health:      1
 max_thrust:  0.0
-weapons:     {pulse: null, beam: null, special: null}
 destroy:     {action: null}
 expire:
 	after:
@@ -67,3 +66,4 @@ ai:
 		evades:   false
 		evaded:   false
 		skill:    {num: 0, den: 0}
+weapons:     null

@@ -16,7 +16,6 @@ animation:
 	direction:  "+"
 	speed:      0.156
 	first:      {begin: 0.0, end: 23.0}
-icon:               null
 expire:
 	after:
 		age:
@@ -39,3 +38,4 @@ ai:
 		engages:  true
 		engaged:  true
 		skill:    {num: 3, den: 21}
+icon:               null

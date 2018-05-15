@@ -2,7 +2,6 @@ template:          "ish/cruiser"
 notes:             "Practice Active"
 class:             1803
 initial_velocity:  0.0
-portrait:          null
 destroy:
 	dont_die:  true
 	action:
@@ -24,3 +23,4 @@ destroy:
 			reflexive:  true
 			delay:      "6s"
 			base:       "zzz/ish/cruiser/active"
+portrait:          null

@@ -4,7 +4,6 @@ attributes:    {can_accept_destination: false}
 turn_rate:     0.0
 max_velocity:  0.5
 max_thrust:    0.0
-portrait:      null
 expire:        {action: null}
 collide:       {edge: false}
 ai:
@@ -15,6 +14,7 @@ ai:
 		skill:    {num: 0, den: 0}
 	target:
 		prefer:
-			base:   null
 			owner:  "any"
+			base:   null
 	build:  {needs_escort: false}
+portrait:      null
