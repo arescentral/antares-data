@@ -3,6 +3,7 @@ long_name:          "Escape Pod"
 short_name:         "ESCPEPOD"
 notes:              "Escape Pod"
 attributes:         {can_be_destination: true}
+tags:               {energizable: true}
 class:              801
 race:               "ele"
 health:             250

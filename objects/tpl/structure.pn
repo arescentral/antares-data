@@ -1,5 +1,6 @@
 template:    "tpl/waypoint"
 attributes:  {appear_on_radar: true}
+tags:        {energizable: true}
 health:      1000
 icon:
 	shape:  "square"

@@ -1,6 +1,7 @@
 template:      "zzz/ish/cruiser/active"
 long_name:     "Cruiser Dead"
 notes:         "Practice Inactive"
+tags:          {energizable: null}
 turn_rate:     0.0
 max_velocity:  0.0
 max_thrust:    0.0

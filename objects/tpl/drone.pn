@@ -2,6 +2,7 @@ template:           "tpl/animated"
 long_name:          "Drone"
 short_name:         "DRONE"
 attributes:         {can_be_destination: true, can_accept_destination: true, appear_on_radar: true}
+tags:               {energizable: true}
 health:             250
 energy:             600
 price:              600

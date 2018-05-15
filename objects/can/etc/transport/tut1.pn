@@ -1,5 +1,6 @@
 template:  "can/transport"
 notes:     "Special transport for newtorial 1; can't evade, be attacked, or collide"
+tags:      {energizable: null}
 class:     832
 expire:    {action: null}
 collide:

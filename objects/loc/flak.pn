@@ -3,7 +3,7 @@ long_name:          "Flak Drone"
 short_name:         "FLCKDRON"
 notes:              "Flak Drone"
 attributes:         {can_be_destination: true, appear_on_radar: true}
-tags:               {flak: true, normal: null}
+tags:               {flak: true, energizable: true, normal: null}
 class:              9999
 health:             15000
 energy:             1000

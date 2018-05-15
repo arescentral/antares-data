@@ -2,6 +2,7 @@ template:           "baz/bttlship"
 long_name:          "Battleship-Moored"
 notes:              "Battleship-Moored"
 attributes:         {can_be_destination: false, can_accept_destination: false}
+tags:               {energizable: null}
 build_time:         "0s"
 turn_rate:          0.0
 max_velocity:       0.0

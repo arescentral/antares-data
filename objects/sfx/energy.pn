@@ -25,15 +25,15 @@ collide:
 	action:
 		*	type:   "energize"
 			if:
-				attributes:  {can_be_destination: true}
+				tags:  {energizable: true}
 			value:  150
 		*	type:  "kill"
 			if:
-				attributes:  {can_be_destination: true}
+				tags:  {energizable: true}
 			kind:  "expire"
 		*	type:         "play"
 			if:
-				attributes:  {can_be_destination: true}
+				tags:  {energizable: true}
 			sound:        "sfx/energy"
 			priority:     3
 			persistence:  "10t"
