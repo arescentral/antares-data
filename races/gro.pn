@@ -7,4 +7,5 @@ apparent_color:  "gray"
 illegal_colors:  0
 advantage:       0.5
 ships:
-	cruiser:  "gro/cruiser"
+	cruiser:   "gro/cruiser"
+	schooner:  "gro/ctf/flag/p1"
