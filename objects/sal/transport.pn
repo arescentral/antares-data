@@ -1,8 +1,7 @@
-template:           "tpl/transport"
-notes:              "Transport"
-race:               "sal"
-energy:             800
-warp_out_distance:  9734400
+template:      "tpl/transport"
+notes:         "Transport"
+race:          "sal"
+energy:        800
 weapons:
 	special:
 		base:  "dev/stealth/item"
@@ -11,7 +10,7 @@ weapons:
 rotation:
 	sprite:  "sal/transport"
 	frames:  {begin: 0, end: 24}
-portrait:           "sal/transport"
-shield_color:       {r: 240, g: 240, b: 120}
+portrait:      "sal/transport"
+shield_color:  {r: 240, g: 240, b: 120}
 ai:
 	escort:  {power: 0.15}

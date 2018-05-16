@@ -1,23 +1,22 @@
-template:           "tpl/utilship"
-long_name:          "Cargo Ship"
-short_name:         "CARGO"
-notes:              "Cargo Ship"
-class:              811
-race:               "ish"
-health:             250
-energy:             1000
-price:              800
-build_time:         "11s"
-mass:               1.098
-max_velocity:       3.0
-max_thrust:         0.156
-warp_out_distance:  9734400
+template:      "tpl/utilship"
+long_name:     "Cargo Ship"
+short_name:    "CARGO"
+notes:         "Cargo Ship"
+class:         811
+race:          "ish"
+health:        250
+energy:        1000
+price:         800
+build_time:    "11s"
+mass:          1.098
+max_velocity:  3.0
+max_thrust:    0.156
 rotation:
 	sprite:  "ish/etc/cargo"
 	frames:  {begin: 0, end: 24}
-icon:               {size: 6}
-portrait:           "ish/etc/cargo"
-shield_color:       {r: 255, g: 255, b: 255}
+icon:          {size: 6}
+portrait:      "ish/etc/cargo"
+shield_color:  {r: 255, g: 255, b: 255}
 destroy:
 	action:
 		*	type:                "create"

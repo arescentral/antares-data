@@ -1,7 +1,6 @@
-template:           "tpl/engineer"
-notes:              "Engineer Pod"
-race:               "gai"
-warp_out_distance:  9734400
+template:      "tpl/engineer"
+notes:         "Engineer Pod"
+race:          "gai"
 weapons:
 	beam:
 		base:  "dev/repulser/turret"
@@ -10,5 +9,5 @@ weapons:
 rotation:
 	sprite:  "gai/engineer"
 	frames:  {begin: 0, end: 24}
-portrait:           "gai/engineer"
-shield_color:       {r: 240, g: 240, b: 120}
+portrait:      "gai/engineer"
+shield_color:  {r: 240, g: 240, b: 120}

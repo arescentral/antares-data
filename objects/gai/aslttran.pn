@@ -1,7 +1,6 @@
-template:           "tpl/aslttran"
-notes:              "Gaitori Assault Transport"
-race:               "gai"
-warp_out_distance:  216090000
+template:      "tpl/aslttran"
+notes:         "Gaitori Assault Transport"
+race:          "gai"
 weapons:
 	pulse:
 		base:  "dev/cm/five"
@@ -19,4 +18,4 @@ weapons:
 rotation:
 	sprite:  "gai/aslttran"
 	frames:  {begin: 0, end: 24}
-shield_color:       {r: 240, g: 240, b: 120}
+shield_color:  {r: 240, g: 240, b: 120}

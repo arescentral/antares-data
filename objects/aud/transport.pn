@@ -1,12 +1,11 @@
-template:           "tpl/transport"
-notes:              "Transport"
-race:               "aud"
-energy:             800
-warp_out_distance:  9734400
+template:      "tpl/transport"
+notes:         "Transport"
+race:          "aud"
+energy:        800
 rotation:
 	sprite:  "aud/transport"
 	frames:  {begin: 0, end: 24}
-target:             {hide: true}
-shield_color:       {r: 240, g: 240, b: 120}
+target:        {hide: true}
+shield_color:  {r: 240, g: 240, b: 120}
 ai:
 	escort:  {power: 0.2}

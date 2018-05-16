@@ -1,9 +1,8 @@
-template:           "tpl/transport"
-notes:              "Transport"
-race:               "uns"
-warp_out_distance:  9734400
+template:      "tpl/transport"
+notes:         "Transport"
+race:          "uns"
 rotation:
 	sprite:  "uns/transport"
 	frames:  {begin: 0, end: 24}
-target:             {hide: true}
-shield_color:       {r: 255, g: 255, b: 255}
+target:        {hide: true}
+shield_color:  {r: 255, g: 255, b: 255}

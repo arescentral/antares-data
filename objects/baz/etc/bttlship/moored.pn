@@ -8,7 +8,7 @@ max_velocity:       0.0
 max_thrust:         0.0
 initial_velocity:   0.0
 warp_speed:         0.0
-warp_out_distance:  9734400
+warp_out_distance:  0
 icon:               {size: 9}
 target:             {order: false, select: false}
 destroy:            {release_energy: false}

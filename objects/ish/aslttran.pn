@@ -1,7 +1,6 @@
-template:           "tpl/aslttran"
-notes:              "Assault Transport"
-race:               "ish"
-warp_out_distance:  9734400
+template:      "tpl/aslttran"
+notes:         "Assault Transport"
+race:          "ish"
 weapons:
 	pulse:
 		base:  "dev/cm/five"
@@ -19,8 +18,8 @@ weapons:
 rotation:
 	sprite:  "ish/aslttran"
 	frames:  {begin: 0, end: 24}
-portrait:           "ish/aslttran"
-shield_color:       {r: 240, g: 240, b: 120}
+portrait:      "ish/aslttran"
+shield_color:  {r: 240, g: 240, b: 120}
 destroy:
 	action:
 		*	type:   "fire"

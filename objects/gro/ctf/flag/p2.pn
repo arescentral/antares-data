@@ -1,23 +1,22 @@
-template:           "tpl/utilship"
-long_name:          "Player 2's Flag"
-short_name:         "FLAG P2"
-notes:              "Flag, for CTF, P2"
-class:              222
-race:               "gro"
-health:             100000
-energy:             1000
-price:              1000
-build_time:         "5s"
-mass:               1.0
-max_velocity:       3.0
-max_thrust:         0.06
-initial_velocity:   3.0
-warp_out_distance:  1324297
+template:          "tpl/utilship"
+long_name:         "Player 2's Flag"
+short_name:        "FLAG P2"
+notes:             "Flag, for CTF, P2"
+class:             222
+race:              "gro"
+health:            100000
+energy:            1000
+price:             1000
+build_time:        "5s"
+mass:              1.0
+max_velocity:      3.0
+max_thrust:        0.06
+initial_velocity:  3.0
 rotation:
 	sprite:  "gro/ctf/flag"
 	frames:  {begin: 0, end: 24}
-icon:               {size: 5}
-shield_color:       {r: 255, g: 255, b: 255}
+icon:              {size: 5}
+shield_color:      {r: 255, g: 255, b: 255}
 destroy:
 	release_energy:  false
 	action:
