@@ -1,10 +1,10 @@
-template:    "can/gateship/base"
-notes:       "Blowing up & Dying Left & Right"
-tags:        {energizable: null}
-health:      1
-max_thrust:  0.0
-target:      {order: false, select: false}
-destroy:     {action: null}
+template:      "can/gateship/base"
+notes:         "Blowing up & Dying Left & Right"
+tags:          {energizable: null}
+health:        1
+max_thrust:    0.0
+target:        {order: false, select: false}
+destroy:       {action: null}
 expire:
 	after:
 		age:  "12s"
@@ -67,4 +67,5 @@ ai:
 		evades:   false
 		evaded:   false
 		skill:    {num: 0, den: 0}
-weapons:     null
+shield_color:  null
+weapons:       null

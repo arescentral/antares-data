@@ -25,4 +25,5 @@ ai:
 	escort:  {power: 0.0, need: 0.0}
 	build:   {ratio: 0.0}
 portrait:           null
+shield_color:       null
 weapons:            null

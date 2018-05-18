@@ -1,10 +1,9 @@
-template:      "tpl/waypoint"
-long_name:     "Tractor Moor"
-short_name:    "MOOR 1 N"
-notes:         "Moor, for CTF, P1 Inactive"
-tags:          {disabled: true, reactivator: true, normal: null, normal-attacker: null}
-health:        1000
-shield_color:  {r: 240, g: 0, b: 0}
+template:    "tpl/waypoint"
+long_name:   "Tractor Moor"
+short_name:  "MOOR 1 N"
+notes:       "Moor, for CTF, P1 Inactive"
+tags:        {disabled: true, reactivator: true, normal: null, normal-attacker: null}
+health:      1000
 weapons:
 	special:
 		base:  "dev/reactivator/p2"
@@ -19,8 +18,8 @@ animation:
 icon:
 	shape:  "plus"
 	size:   3
-target:        {radar: true}
-destroy:       {dont_die: true}
+target:      {radar: true}
+destroy:     {dont_die: true}
 expire:
 	dont_die:  true
 	after:

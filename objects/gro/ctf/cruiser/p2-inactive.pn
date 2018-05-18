@@ -12,4 +12,5 @@ ai:
 		engaged_if:  {reactivator: true}
 		evades:      false
 		evaded:      false
+shield_color:      null
 weapons:           null

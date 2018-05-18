@@ -1,9 +1,8 @@
-template:      "tpl/scenery"
-long_name:     "Asteroid Shoot Up"
-short_name:    "ASTSHTUP"
-notes:         "Asteroid Shoot Up, Random Direction"
-health:        1000
-shield_color:  {r: 240, g: 0, b: 0}
+template:    "tpl/scenery"
+long_name:   "Asteroid Shoot Up"
+short_name:  "ASTSHTUP"
+notes:       "Asteroid Shoot Up, Random Direction"
+health:      1000
 activate:
 	period:
 		begin:  "4.25s"

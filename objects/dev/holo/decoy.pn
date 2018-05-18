@@ -3,7 +3,6 @@ long_name:          "Holographic Decoy"
 short_name:         "HOLODCOY"
 notes:              "Holographic Decoy"
 health:             1500
-shield_color:       {r: 240, g: 240, b: 120}
 energy:             1000
 build_time:         "5s"
 mass:               1.0

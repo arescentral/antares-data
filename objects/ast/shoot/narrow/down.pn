@@ -3,7 +3,6 @@ long_name:          "Ast Shoot Down"
 short_name:         "ASSHTDWN"
 notes:              "Ast Shoot Down"
 health:             1000
-shield_color:       {r: 240, g: 0, b: 0}
 initial_direction:  180
 activate:
 	period:

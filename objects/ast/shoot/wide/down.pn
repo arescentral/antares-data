@@ -3,7 +3,6 @@ long_name:          "AsteroidShootDown"
 short_name:         "ASTSHTDN"
 notes:              "Asteroid Shoot Down, Random Direction"
 health:             1000
-shield_color:       {r: 240, g: 0, b: 0}
 initial_direction:  180
 activate:
 	period:
