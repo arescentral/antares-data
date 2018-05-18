@@ -1,6 +1,8 @@
 template:      "tpl/carrier"
 notes:         "Carrier"
+portrait:      "ish/carrier"
 race:          "ish"
+shield_color:  {r: 255, g: 255, b: 255}
 weapons:
 	pulse:
 		base:  "dev/pp/twin"
@@ -17,5 +19,3 @@ weapons:
 rotation:
 	sprite:  "ish/carrier"
 	frames:  {begin: 0, end: 24}
-portrait:      "ish/carrier"
-shield_color:  {r: 255, g: 255, b: 255}

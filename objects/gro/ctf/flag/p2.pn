@@ -5,6 +5,7 @@ notes:             "Flag, for CTF, P2"
 class:             222
 race:              "gro"
 health:            100000
+shield_color:      {r: 255, g: 255, b: 255}
 energy:            1000
 price:             1000
 build_time:        "5s"
@@ -16,7 +17,6 @@ rotation:
 	sprite:  "gro/ctf/flag"
 	frames:  {begin: 0, end: 24}
 icon:              {size: 5}
-shield_color:      {r: 255, g: 255, b: 255}
 destroy:
 	release_energy:  false
 	action:

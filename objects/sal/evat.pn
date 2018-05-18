@@ -1,6 +1,7 @@
 template:      "tpl/evat"
 notes:         "Salrilian Extra-vehicular Assault Trooper"
 race:          "sal"
+shield_color:  {r: 255, g: 255, b: 255}
 price:         600
 build_time:    "3s"
 weapons:
@@ -13,4 +14,3 @@ rotation:
 	sprite:  "sal/evat"
 	frames:  {begin: 0, end: 24}
 target:        {lock: false}
-shield_color:  {r: 255, g: 255, b: 255}

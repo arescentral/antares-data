@@ -1,8 +1,8 @@
 template:      "tpl/transport"
 notes:         "Transport"
 race:          "uns"
+shield_color:  {r: 255, g: 255, b: 255}
 rotation:
 	sprite:  "uns/transport"
 	frames:  {begin: 0, end: 24}
 target:        {hide: true}
-shield_color:  {r: 255, g: 255, b: 255}

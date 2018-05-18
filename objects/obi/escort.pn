@@ -2,9 +2,11 @@ template:           "tpl/warship"
 long_name:          "Escort"
 short_name:         "ESCORT"
 notes:              "Escort"
+portrait:           "obi/escort"
 class:              400
 race:               "obi"
 health:             1500
+shield_color:       {r: 255, g: 255, b: 255}
 energy:             1500
 price:              1500
 build_time:         "10s"
@@ -32,8 +34,6 @@ rotation:
 	sprite:  "obi/escort"
 	frames:  {begin: 0, end: 24}
 icon:               {size: 4}
-portrait:           "obi/escort"
-shield_color:       {r: 255, g: 255, b: 255}
 destroy:
 	action:
 		*	type:                "create"

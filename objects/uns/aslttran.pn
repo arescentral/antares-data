@@ -1,6 +1,7 @@
 template:      "tpl/aslttran"
 notes:         "Human Assault Transport"
 race:          "uns"
+shield_color:  {r: 240, g: 240, b: 120}
 weapons:
 	pulse:
 		base:  "dev/cm/five"
@@ -18,7 +19,6 @@ weapons:
 rotation:
 	sprite:  "uns/aslttran"
 	frames:  {begin: 0, end: 24}
-shield_color:  {r: 240, g: 240, b: 120}
 destroy:
 	action:
 		*	type:   "fire"

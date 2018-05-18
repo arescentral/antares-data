@@ -2,9 +2,11 @@ template:          "tpl/utilship"
 long_name:         "Research Vessel"
 short_name:        "RESEARCH"
 notes:             "Research Vessel"
+portrait:          "ish/etc/research"
 class:             802
 race:              "ish"
 health:            1000
+shield_color:      {r: 255, g: 255, b: 255}
 energy:            1000
 price:             800
 build_time:        "11s"
@@ -18,8 +20,6 @@ rotation:
 	scale:   2.0
 	frames:  {begin: 0, end: 24}
 icon:              {size: 7}
-portrait:          "ish/etc/research"
-shield_color:      {r: 255, g: 255, b: 255}
 destroy:
 	action:
 		*	type:                "create"

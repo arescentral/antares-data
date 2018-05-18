@@ -1,6 +1,8 @@
 template:           "tpl/cruiser"
 notes:              "Cruiser"
+portrait:           "uns/cruiser"
 race:               "uns"
+shield_color:       {r: 255, g: 255, b: 255}
 max_thrust:         0.08
 warp_speed:         20.0
 warp_out_distance:  1122275
@@ -17,5 +19,3 @@ weapons:
 rotation:
 	sprite:  "uns/cruiser"
 	frames:  {begin: 0, end: 24}
-portrait:           "uns/cruiser"
-shield_color:       {r: 255, g: 255, b: 255}

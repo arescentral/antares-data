@@ -1,6 +1,8 @@
 template:      "tpl/hvd"
 notes:         "Heavy Destroyer"
+portrait:      "ish/hvd"
 race:          "ish"
+shield_color:  {r: 255, g: 255, b: 255}
 weapons:
 	pulse:
 		base:  "dev/fullerene/gun"
@@ -19,5 +21,3 @@ weapons:
 rotation:
 	sprite:  "ish/hvd"
 	frames:  {begin: 0, end: 24}
-portrait:      "ish/hvd"
-shield_color:  {r: 255, g: 255, b: 255}

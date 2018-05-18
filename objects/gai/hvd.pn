@@ -1,6 +1,8 @@
 template:      "tpl/hvd"
 notes:         "Gaitori Heavy Destroyer"
+portrait:      "gai/hvd"
 race:          "gai"
+shield_color:  {r: 255, g: 255, b: 255}
 weapons:
 	pulse:
 		base:  "dev/neutron/gun"
@@ -18,5 +20,3 @@ weapons:
 rotation:
 	sprite:  "gai/hvd"
 	frames:  {begin: 0, end: 24}
-portrait:      "gai/hvd"
-shield_color:  {r: 255, g: 255, b: 255}

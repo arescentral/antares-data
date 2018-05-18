@@ -2,9 +2,11 @@ template:          "tpl/utilship"
 long_name:         "Luxury Liner"
 short_name:        "LUXLINER"
 notes:             "Luxury Liner"
+portrait:          "ele/etc/liner"
 class:             803
 race:              "ele"
 health:            250
+shield_color:      {r: 255, g: 255, b: 255}
 energy:            1000
 price:             800
 build_time:        "11s"
@@ -17,8 +19,6 @@ rotation:
 	scale:   2.0
 	frames:  {begin: 0, end: 24}
 icon:              {size: 7}
-portrait:          "ele/etc/liner"
-shield_color:      {r: 255, g: 255, b: 255}
 destroy:
 	action:
 		*	type:       "create"

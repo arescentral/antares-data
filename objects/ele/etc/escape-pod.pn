@@ -3,9 +3,11 @@ long_name:          "Escape Pod"
 short_name:         "ESCPEPOD"
 notes:              "Escape Pod"
 tags:               {energizable: true}
+portrait:           "ele/etc/escape-pod"
 class:              801
 race:               "ele"
 health:             250
+shield_color:       {r: 255, g: 255, b: 255}
 energy:             1000
 price:              800
 build_time:         "11s"
@@ -22,8 +24,6 @@ icon:
 	shape:  "plus"
 	size:   3
 target:             {select: true}
-portrait:           "ele/etc/escape-pod"
-shield_color:       {r: 255, g: 255, b: 255}
 destroy:
 	release_energy:  true
 	action:

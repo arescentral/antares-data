@@ -1,6 +1,8 @@
 template:      "tpl/carrier"
 notes:         "Carrier"
+portrait:      "can/carrier"
 race:          "can"
+shield_color:  {r: 240, g: 240, b: 120}
 build_time:    "50s"
 weapons:
 	pulse:
@@ -18,5 +20,3 @@ weapons:
 rotation:
 	sprite:  "can/carrier"
 	frames:  {begin: 0, end: 24}
-portrait:      "can/carrier"
-shield_color:  {r: 240, g: 240, b: 120}

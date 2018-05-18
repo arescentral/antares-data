@@ -3,9 +3,11 @@ long_name:         "Transport"
 short_name:        "TRANSPRT"
 notes:             "Transport"
 tags:              {planet: true, normal: null}
+portrait:          "obi/transport"
 class:             800
 race:              "obi"
 health:            2000
+shield_color:      {r: 255, g: 255, b: 255}
 energy:            1000
 price:             800
 build_time:        "11s"
@@ -23,8 +25,6 @@ rotation:
 	frames:  {begin: 0, end: 24}
 icon:              {size: 5}
 target:            {hide: true}
-portrait:          "obi/transport"
-shield_color:      {r: 255, g: 255, b: 255}
 destroy:
 	action:
 		*	type:                "create"

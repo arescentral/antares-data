@@ -1,6 +1,8 @@
 template:      "tpl/fighter"
 notes:         "Fighter"
+portrait:      "ish/fighter"
 race:          "ish"
+shield_color:  {r: 255, g: 255, b: 255}
 weapons:
 	beam:
 		base:  "dev/pk/ish/gun"
@@ -10,5 +12,3 @@ weapons:
 rotation:
 	sprite:  "ish/fighter"
 	frames:  {begin: 0, end: 24}
-portrait:      "ish/fighter"
-shield_color:  {r: 255, g: 255, b: 255}

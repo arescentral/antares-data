@@ -2,9 +2,11 @@ template:           "tpl/capship"
 long_name:          "Battleship"
 short_name:         "BTTLSHIP"
 notes:              "Battleship"
+portrait:           "baz/bttlship"
 class:              550
 race:               "baz"
 health:             6500
+shield_color:       {r: 255, g: 255, b: 255}
 energy:             6500
 price:              6000
 build_time:         "50s"
@@ -25,8 +27,6 @@ weapons:
 rotation:
 	sprite:  "baz/bttlship"
 	frames:  {begin: 0, end: 36}
-portrait:           "baz/bttlship"
-shield_color:       {r: 255, g: 255, b: 255}
 destroy:
 	action:
 		*	type:                "create"

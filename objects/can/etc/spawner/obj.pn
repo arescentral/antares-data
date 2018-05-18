@@ -3,13 +3,13 @@ long_name:          "Enemy Shooter Obj"
 short_name:         "ENSHTOBJ"
 notes:              "Enemy Shooter Obj"
 health:             1000
+shield_color:       {r: 240, g: 0, b: 0}
 initial_direction:  {begin: 0, end: 360}
 weapons:
 	special:
 		base:  "can/etc/spawner/item"
 animation:
 	sprite:  "sfx/invisible"
-shield_color:       {r: 240, g: 0, b: 0}
 activate:
 	period:
 		begin:  "4.25s"

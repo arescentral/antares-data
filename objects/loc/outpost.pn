@@ -2,6 +2,7 @@ template:      "tpl/station"
 long_name:     "Outpost Station"
 short_name:    "OUTPOST"
 notes:         "Outpost"
+portrait:      "loc/outpost"
 occupy_count:  5
 weapons:
 	beam:
@@ -11,4 +12,3 @@ weapons:
 animation:
 	sprite:  "loc/outpost"
 	scale:   2.0
-portrait:      "loc/outpost"

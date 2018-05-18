@@ -1,7 +1,9 @@
 template:      "tpl/cruiser"
 notes:         "Cruiser"
+portrait:      "sal/cruiser"
 race:          "sal"
 health:        1500
+shield_color:  {r: 240, g: 240, b: 120}
 weapons:
 	pulse:
 		base:  "dev/anti1/gun"
@@ -19,5 +21,3 @@ weapons:
 rotation:
 	sprite:  "sal/cruiser"
 	frames:  {begin: 0, end: 24}
-portrait:      "sal/cruiser"
-shield_color:  {r: 240, g: 240, b: 120}

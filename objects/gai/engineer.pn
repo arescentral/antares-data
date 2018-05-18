@@ -1,6 +1,8 @@
 template:      "tpl/engineer"
 notes:         "Engineer Pod"
+portrait:      "gai/engineer"
 race:          "gai"
+shield_color:  {r: 240, g: 240, b: 120}
 weapons:
 	beam:
 		base:  "dev/repulser/turret"
@@ -9,5 +11,3 @@ weapons:
 rotation:
 	sprite:  "gai/engineer"
 	frames:  {begin: 0, end: 24}
-portrait:      "gai/engineer"
-shield_color:  {r: 240, g: 240, b: 120}

@@ -3,10 +3,10 @@ long_name:          "Enmy Object Shoot"
 short_name:         "ENOBJSHT"
 notes:              "Gaitori"
 health:             1000
+shield_color:       {r: 240, g: 0, b: 0}
 initial_direction:  {begin: 0, end: 360}
 weapons:
 	special:
 		base:  "gai/etc/spawner/item"
 animation:
 	sprite:  "sfx/invisible"
-shield_color:       {r: 240, g: 0, b: 0}

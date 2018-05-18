@@ -1,6 +1,8 @@
 template:      "tpl/defdrone"
 notes:         "Defense Drone"
+portrait:      "ish/defdrone"
 race:          "ish"
+shield_color:  {r: 255, g: 255, b: 255}
 weapons:
 	pulse:
 		base:  "dev/fusion/rgun"
@@ -13,5 +15,3 @@ weapons:
 rotation:
 	sprite:  "ish/defdrone"
 	frames:  {begin: 0, end: 24}
-portrait:      "ish/defdrone"
-shield_color:  {r: 255, g: 255, b: 255}

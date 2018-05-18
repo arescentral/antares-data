@@ -1,6 +1,8 @@
 template:           "tpl/gunship"
 notes:              "Gunship"
+portrait:           "uns/gunship"
 race:               "uns"
+shield_color:       {r: 255, g: 255, b: 255}
 max_velocity:       5.0
 max_thrust:         0.066
 warp_speed:         20.0
@@ -19,5 +21,3 @@ weapons:
 rotation:
 	sprite:  "uns/gunship"
 	frames:  {begin: 0, end: 24}
-portrait:           "uns/gunship"
-shield_color:       {r: 255, g: 255, b: 255}

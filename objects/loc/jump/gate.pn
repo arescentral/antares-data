@@ -4,10 +4,10 @@ short_name:    "JUMPGATE"
 notes:         "Jump Gate"
 tags:          {jumpgate: true, normal: null}
 health:        1000
+shield_color:  {r: 240, g: 0, b: 0}
 animation:
 	sprite:  "sfx/invisible"
 target:        {base: true}
-shield_color:  {r: 240, g: 0, b: 0}
 destroy:
 	action:
 		*	type:                "create"

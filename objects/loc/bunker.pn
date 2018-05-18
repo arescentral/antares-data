@@ -2,6 +2,7 @@ template:      "tpl/station"
 long_name:     "Bunker Station"
 short_name:    "STATION"
 notes:         "Bunker Station"
+portrait:      "loc/bunker"
 occupy_count:  5
 weapons:
 	pulse:
@@ -13,4 +14,3 @@ weapons:
 animation:
 	sprite:  "loc/bunker"
 	scale:   2.0
-portrait:      "loc/bunker"

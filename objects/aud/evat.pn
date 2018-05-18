@@ -2,6 +2,7 @@ template:      "tpl/evat"
 notes:         "Audemedon Extra-vehicular Assault Trooper"
 race:          "aud"
 health:        100
+shield_color:  {r: 120, g: 120, b: 240}
 energy:        200
 price:         600
 build_time:    "3s"
@@ -15,4 +16,3 @@ rotation:
 	sprite:  "aud/evat"
 	frames:  {begin: 0, end: 24}
 target:        {lock: false}
-shield_color:  {r: 120, g: 120, b: 240}

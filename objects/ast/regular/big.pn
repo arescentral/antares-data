@@ -1,5 +1,6 @@
 template:          "tpl/asteroid"
 notes:             "Asteroid, regular"
+portrait:          "ast/regular/big"
 initial_velocity:  {begin: 3.0, end: 4.0}
 animation:
 	sprite:     "ast/regular/big"
@@ -7,7 +8,6 @@ animation:
 	direction:  "?"
 	speed:      0.117
 	first:      {begin: 0.0, end: 19.0}
-portrait:          "ast/regular/big"
 destroy:
 	action:
 		*	type:                "create"

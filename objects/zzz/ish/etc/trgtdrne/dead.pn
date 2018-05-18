@@ -5,6 +5,7 @@ notes:              "Target Drone Dead"
 class:              123
 race:               "ish"
 health:             250
+shield_color:       {r: 255, g: 255, b: 255}
 energy:             600
 price:              600
 build_time:         "3s"
@@ -21,7 +22,6 @@ icon:
 	shape:  "triangle"
 	size:   3
 target:             {radar: true}
-shield_color:       {r: 255, g: 255, b: 255}
 destroy:            {dont_die: true}
 ai:
 	target:

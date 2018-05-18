@@ -1,6 +1,8 @@
 template:      "tpl/transport"
 notes:         "Transport"
+portrait:      "sal/transport"
 race:          "sal"
+shield_color:  {r: 240, g: 240, b: 120}
 energy:        800
 weapons:
 	special:
@@ -10,7 +12,5 @@ weapons:
 rotation:
 	sprite:  "sal/transport"
 	frames:  {begin: 0, end: 24}
-portrait:      "sal/transport"
-shield_color:  {r: 240, g: 240, b: 120}
 ai:
 	escort:  {power: 0.15}

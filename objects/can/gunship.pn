@@ -1,6 +1,8 @@
 template:      "tpl/gunship"
 notes:         "Gunship"
+portrait:      "can/gunship"
 race:          "can"
+shield_color:  {r: 240, g: 240, b: 120}
 weapons:
 	pulse:
 		base:  "dev/anti2/gun"
@@ -13,7 +15,5 @@ weapons:
 rotation:
 	sprite:  "can/gunship"
 	frames:  {begin: 0, end: 24}
-portrait:      "can/gunship"
-shield_color:  {r: 240, g: 240, b: 120}
 ai:
 	escort:  {power: 2.0}

@@ -1,7 +1,9 @@
 template:           "tpl/cruiser"
 notes:              "Cruiser"
+portrait:           "ele/cruiser"
 race:               "ele"
 health:             1500
+shield_color:       {r: 0, g: 120, b: 240}
 turn_rate:          2.5
 max_velocity:       7.5
 warp_speed:         50.0
@@ -19,5 +21,3 @@ weapons:
 rotation:
 	sprite:  "ele/cruiser"
 	frames:  {begin: 0, end: 24}
-portrait:           "ele/cruiser"
-shield_color:       {r: 0, g: 120, b: 240}

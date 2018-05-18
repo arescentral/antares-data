@@ -1,7 +1,9 @@
 template:           "tpl/gunship"
 notes:              "Gunship"
+portrait:           "aud/gunship"
 race:               "aud"
 health:             3700
+shield_color:       {r: 120, g: 120, b: 240}
 energy:             1000
 price:              1500
 mass:               1.4
@@ -24,8 +26,6 @@ weapons:
 rotation:
 	sprite:  "aud/gunship"
 	frames:  {begin: 0, end: 24}
-portrait:           "aud/gunship"
-shield_color:       {r: 120, g: 120, b: 240}
 destroy:
 	action:
 		*	type:                "create"

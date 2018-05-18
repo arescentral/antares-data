@@ -1,6 +1,7 @@
 template:      "tpl/hvd"
 notes:         "Salrilian Heavy Destroyer"
 race:          "sal"
+shield_color:  {r: 255, g: 255, b: 255}
 weapons:
 	pulse:
 		base:  "dev/chronon/gun"
@@ -19,4 +20,3 @@ weapons:
 rotation:
 	sprite:  "sal/hvd"
 	frames:  {begin: 0, end: 24}
-shield_color:  {r: 255, g: 255, b: 255}

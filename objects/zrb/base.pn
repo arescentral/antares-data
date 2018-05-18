@@ -4,6 +4,7 @@ short_name:        "ZRBILITE"
 notes:             "Zerbilite"
 class:             1
 health:            70
+shield_color:      {r: 240, g: 240, b: 120}
 mass:              0.098
 turn_rate:         0.0
 max_velocity:      6.0
@@ -18,7 +19,6 @@ animation:
 icon:
 	shape:  "triangle"
 	size:   2
-shield_color:      {r: 240, g: 240, b: 120}
 destroy:
 	action:
 		*	type:       "create"

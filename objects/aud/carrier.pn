@@ -1,8 +1,10 @@
 template:           "tpl/carrier"
 short_name:         "Carrier"
 notes:              "Carrier"
+portrait:           "aud/carrier"
 race:               "aud"
 health:             7500
+shield_color:       {r: 120, g: 120, b: 240}
 energy:             6500
 mass:               2.5
 max_velocity:       4.0
@@ -26,7 +28,5 @@ weapons:
 rotation:
 	sprite:  "aud/carrier"
 	frames:  {begin: 0, end: 24}
-portrait:           "aud/carrier"
-shield_color:       {r: 120, g: 120, b: 240}
 ai:
 	escort:  {power: 4.5}

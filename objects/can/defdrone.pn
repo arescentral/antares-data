@@ -1,6 +1,8 @@
 template:          "tpl/defdrone"
 notes:             "Defense Drone"
+portrait:          "can/defdrone"
 race:              "can"
+shield_color:      {r: 240, g: 240, b: 120}
 initial_velocity:  0.348
 weapons:
 	pulse:
@@ -14,8 +16,6 @@ weapons:
 rotation:
 	sprite:  "can/defdrone"
 	frames:  {begin: 0, end: 24}
-portrait:          "can/defdrone"
-shield_color:      {r: 240, g: 240, b: 120}
 ai:
 	target:
 		force:

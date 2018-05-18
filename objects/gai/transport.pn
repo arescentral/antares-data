@@ -1,11 +1,11 @@
 template:      "tpl/transport"
 notes:         "Transport"
+portrait:      "gai/transport"
 race:          "gai"
+shield_color:  {r: 240, g: 240, b: 120}
 energy:        800
 rotation:
 	sprite:  "gai/transport"
 	frames:  {begin: 0, end: 24}
-portrait:      "gai/transport"
-shield_color:  {r: 240, g: 240, b: 120}
 ai:
 	escort:  {power: 0.2}

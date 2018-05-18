@@ -1,6 +1,8 @@
 template:      "tpl/fighter"
 notes:         "Fighter"
+portrait:      "uns/fighter"
 race:          "uns"
+shield_color:  {r: 255, g: 255, b: 255}
 max_thrust:    0.04
 weapons:
 	beam:
@@ -11,5 +13,3 @@ weapons:
 rotation:
 	sprite:  "uns/fighter"
 	frames:  {begin: 0, end: 24}
-portrait:      "uns/fighter"
-shield_color:  {r: 255, g: 255, b: 255}

@@ -3,8 +3,10 @@ long_name:          "Flak Drone"
 short_name:         "FLCKDRON"
 notes:              "Flak Drone"
 tags:               {flak: true, energizable: true, normal: null}
+portrait:           "loc/flak"
 class:              9999
 health:             15000
+shield_color:       {r: 240, g: 240, b: 120}
 energy:             1000
 price:              1000
 mass:               1.0
@@ -30,8 +32,6 @@ icon:
 	shape:  "square"
 	size:   3
 target:             {radar: true, select: true}
-portrait:           "loc/flak"
-shield_color:       {r: 240, g: 240, b: 120}
 destroy:
 	action:
 		*	type:                "create"

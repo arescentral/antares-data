@@ -5,6 +5,7 @@ notes:             "SL Transport"
 class:             801
 race:              "ish"
 health:            250
+shield_color:      {r: 255, g: 255, b: 255}
 energy:            1000
 price:             800
 build_time:        "7.5s"
@@ -17,7 +18,6 @@ rotation:
 	frames:  {begin: 0, end: 24}
 icon:              {size: 5}
 target:            {hide: true}
-shield_color:      {r: 255, g: 255, b: 255}
 destroy:
 	action:
 		*	type:                "create"

@@ -4,6 +4,7 @@ short_name:    "MOOR 2 N"
 notes:         "Moor, for CTF, P2 Inactive"
 tags:          {disabled: true, reactivator: true, normal: null, normal-attacker: null}
 health:        1000
+shield_color:  {r: 240, g: 0, b: 0}
 weapons:
 	special:
 		base:  "dev/reactivator/p1"
@@ -19,7 +20,6 @@ icon:
 	shape:  "plus"
 	size:   5
 target:        {radar: true}
-shield_color:  {r: 240, g: 0, b: 0}
 destroy:       {dont_die: true}
 expire:
 	dont_die:  true

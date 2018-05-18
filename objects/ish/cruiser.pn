@@ -1,6 +1,8 @@
 template:      "tpl/cruiser"
 notes:         "Development Notes"
+portrait:      "ish/cruiser"
 race:          "ish"
+shield_color:  {r: 255, g: 255, b: 255}
 weapons:
 	pulse:
 		base:  "dev/fusion/gun"
@@ -14,5 +16,3 @@ weapons:
 rotation:
 	sprite:  "ish/cruiser"
 	frames:  {begin: 0, end: 24}
-portrait:      "ish/cruiser"
-shield_color:  {r: 255, g: 255, b: 255}

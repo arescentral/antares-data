@@ -2,9 +2,11 @@ template:           "tpl/capship"
 long_name:          "Battlecruiser"
 short_name:         "BTTLCRSR"
 notes:              "Battlecruiser"
+portrait:           "zzz/obi/bttlcrsr"
 class:              550
 race:               "obi"
 health:             6500
+shield_color:       {r: 255, g: 255, b: 255}
 energy:             6500
 price:              6000
 build_time:         "50s"
@@ -26,8 +28,6 @@ rotation:
 	sprite:  "obi/etc/liner"
 	frames:  {begin: 0, end: 24}
 icon:               {size: 7}
-portrait:           "zzz/obi/bttlcrsr"
-shield_color:       {r: 255, g: 255, b: 255}
 destroy:
 	action:
 		*	type:                "create"

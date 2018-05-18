@@ -2,9 +2,11 @@ template:      "tpl/utilship"
 long_name:     "Cargo Ship"
 short_name:    "CARGO"
 notes:         "Cargo Ship"
+portrait:      "ish/etc/cargo"
 class:         811
 race:          "ish"
 health:        250
+shield_color:  {r: 255, g: 255, b: 255}
 energy:        1000
 price:         800
 build_time:    "11s"
@@ -15,8 +17,6 @@ rotation:
 	sprite:  "ish/etc/cargo"
 	frames:  {begin: 0, end: 24}
 icon:          {size: 6}
-portrait:      "ish/etc/cargo"
-shield_color:  {r: 255, g: 255, b: 255}
 destroy:
 	action:
 		*	type:                "create"

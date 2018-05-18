@@ -1,6 +1,8 @@
 template:      "tpl/aslttran"
 notes:         "Audemedon Assault Transport"
+portrait:      "aud/aslttran"
 race:          "aud"
+shield_color:  {r: 120, g: 120, b: 240}
 weapons:
 	pulse:
 		base:  "dev/amissile/launcher"
@@ -18,5 +20,3 @@ weapons:
 rotation:
 	sprite:  "aud/aslttran"
 	frames:  {begin: 0, end: 24}
-portrait:      "aud/aslttran"
-shield_color:  {r: 120, g: 120, b: 240}

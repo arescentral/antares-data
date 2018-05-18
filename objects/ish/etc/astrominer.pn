@@ -3,9 +3,11 @@ long_name:          "Astrominer"
 short_name:         "ASTROMNR"
 notes:              "Astrominer"
 tags:               {miner: true, normal-attacker: null}
+portrait:           "ish/etc/astrominer"
 class:              301
 race:               "ish"
 health:             700
+shield_color:       {r: 255, g: 255, b: 255}
 energy:             2000
 price:              800
 build_time:         "6s"
@@ -26,8 +28,6 @@ rotation:
 	sprite:  "ish/etc/astrominer"
 	frames:  {begin: 0, end: 24}
 icon:               {size: 5}
-portrait:           "ish/etc/astrominer"
-shield_color:       {r: 255, g: 255, b: 255}
 destroy:
 	action:
 		*	type:                "create"

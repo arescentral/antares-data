@@ -1,6 +1,7 @@
 template:      "tpl/hvd"
 notes:         "Heavy Destroyer"
 race:          "can"
+shield_color:  {r: 240, g: 240, b: 120}
 weapons:
 	pulse:
 		base:  "dev/quasi/gun"
@@ -19,4 +20,3 @@ weapons:
 rotation:
 	sprite:  "can/hvd"
 	frames:  {begin: 0, end: 24}
-shield_color:  {r: 240, g: 240, b: 120}

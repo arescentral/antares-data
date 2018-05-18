@@ -1,7 +1,9 @@
 template:          "tpl/cruiser"
 notes:             "Cruiser"
+portrait:          "gai/cruiser"
 race:              "gai"
 health:            650
+shield_color:      {r: 240, g: 234, b: 195}
 price:             800
 mass:              0.9
 turn_rate:         1.5
@@ -16,5 +18,3 @@ weapons:
 rotation:
 	sprite:  "gai/cruiser"
 	frames:  {begin: 0, end: 24}
-portrait:          "gai/cruiser"
-shield_color:      {r: 240, g: 234, b: 195}

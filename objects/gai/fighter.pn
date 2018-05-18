@@ -1,7 +1,9 @@
 template:          "tpl/fighter"
 notes:             "Fighter"
+portrait:          "gai/fighter"
 race:              "gai"
 health:            50
+shield_color:      {r: 240, g: 234, b: 195}
 price:             500
 build_time:        "2.5s"
 mass:              0.5
@@ -16,8 +18,6 @@ weapons:
 rotation:
 	sprite:  "gai/fighter"
 	frames:  {begin: 0, end: 24}
-portrait:          "gai/fighter"
-shield_color:      {r: 240, g: 234, b: 195}
 ai:
 	target:
 		prefer:  {local: null}

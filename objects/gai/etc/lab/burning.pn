@@ -3,6 +3,7 @@ long_name:     "Lab"
 short_name:    "LAB"
 notes:         "Gaitori, Burning"
 health:        1000
+shield_color:  {r: 240, g: 0, b: 0}
 animation:
 	sprite:     "gai/etc/lab"
 	frames:     {begin: 1.0, end: 6.004}
@@ -13,7 +14,6 @@ icon:
 	shape:  "square"
 	size:   6
 target:        {base: true, radar: true}
-shield_color:  {r: 240, g: 0, b: 0}
 destroy:       {dont_die: true}
 ai:
 	escort:  {class: -256}

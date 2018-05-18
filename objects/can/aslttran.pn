@@ -1,6 +1,8 @@
 template:      "tpl/aslttran"
 notes:         "Assault Transport"
+portrait:      "can/aslttran"
 race:          "can"
+shield_color:  {r: 240, g: 240, b: 120}
 weapons:
 	pulse:
 		base:  "dev/cm/five"
@@ -18,8 +20,6 @@ weapons:
 rotation:
 	sprite:  "can/aslttran"
 	frames:  {begin: 0, end: 24}
-portrait:      "can/aslttran"
-shield_color:  {r: 240, g: 240, b: 120}
 destroy:
 	action:
 		*	type:   "fire"

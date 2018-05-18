@@ -1,6 +1,7 @@
 template:      "tpl/hvd"
 notes:         "Human Heavy Destroyer"
 race:          "uns"
+shield_color:  {r: 255, g: 255, b: 255}
 weapons:
 	pulse:
 		base:  "dev/photo/gun"
@@ -19,4 +20,3 @@ weapons:
 rotation:
 	sprite:  "uns/hvd"
 	frames:  {begin: 0, end: 24}
-shield_color:  {r: 255, g: 255, b: 255}

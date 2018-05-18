@@ -1,6 +1,8 @@
 template:           "tpl/hvc"
 notes:              "Heavy Cruiser"
+portrait:           "can/hvc"
 race:               "can"
+shield_color:       {r: 240, g: 240, b: 120}
 warp_out_distance:  9734400
 weapons:
 	pulse:
@@ -19,5 +21,3 @@ weapons:
 rotation:
 	sprite:  "can/hvc"
 	frames:  {begin: 0, end: 24}
-portrait:           "can/hvc"
-shield_color:       {r: 240, g: 240, b: 120}

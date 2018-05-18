@@ -5,6 +5,7 @@ notes:             "Kamikaze"
 class:             99
 race:              "gai"
 health:            50
+shield_color:      {r: 240, g: 0, b: 0}
 energy:            600
 price:             500
 build_time:        "2.5s"
@@ -19,7 +20,6 @@ rotation:
 icon:
 	shape:  "square"
 	size:   3
-shield_color:      {r: 240, g: 0, b: 0}
 destroy:
 	action:
 		*	type:                "create"

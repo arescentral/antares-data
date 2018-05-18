@@ -4,6 +4,7 @@ short_name:        "TRGTDRNE"
 notes:             "Target Drone"
 class:             123
 race:              "ish"
+shield_color:      {r: 255, g: 255, b: 255}
 initial_velocity:  0.5
 weapons:
 	beam:
@@ -20,7 +21,6 @@ animation:
 icon:
 	shape:  "triangle"
 	size:   3
-shield_color:      {r: 255, g: 255, b: 255}
 destroy:
 	dont_die:  true
 	action:

@@ -1,7 +1,9 @@
 template:           "tpl/carrier"
 notes:              "Carrier"
+portrait:           "sal/carrier"
 race:               "sal"
 health:             7500
+shield_color:       {r: 255, g: 255, b: 255}
 energy:             6500
 price:              6000
 build_time:         "50s"
@@ -26,7 +28,5 @@ weapons:
 rotation:
 	sprite:  "sal/carrier"
 	frames:  {begin: 0, end: 24}
-portrait:           "sal/carrier"
-shield_color:       {r: 255, g: 255, b: 255}
 ai:
 	escort:  {power: 4.5}
