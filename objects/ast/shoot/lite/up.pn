@@ -4,8 +4,6 @@ short_name:    "ASTSHOOT"
 notes:         "For Net Level 1 (Rock & Rock)"
 health:        1000
 shield_color:  {r: 240, g: 0, b: 0}
-animation:
-	sprite:  "sfx/invisible"
 activate:
 	period:
 		begin:  "4.25s"

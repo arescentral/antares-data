@@ -8,5 +8,3 @@ initial_direction:  {begin: 0, end: 360}
 weapons:
 	special:
 		base:  "gai/etc/spawner/item"
-animation:
-	sprite:  "sfx/invisible"

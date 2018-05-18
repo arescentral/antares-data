@@ -1,2 +1,6 @@
 template:  "tpl/any"
-rotation:  {layer: 2, scale: 1.0}
+rotation:
+	sprite:  "sfx/invisible"
+	layer:   2
+	scale:   1.0
+	frames:  0

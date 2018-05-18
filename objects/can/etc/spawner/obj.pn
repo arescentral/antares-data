@@ -8,8 +8,6 @@ initial_direction:  {begin: 0, end: 360}
 weapons:
 	special:
 		base:  "can/etc/spawner/item"
-animation:
-	sprite:  "sfx/invisible"
 activate:
 	period:
 		begin:  "4.25s"
