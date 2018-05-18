@@ -2,11 +2,11 @@ template:          "tpl/apulse"
 long_name:         "Atomic Pulse"
 short_name:        "ATOMPLSE"
 notes:             "Atomic Pulse"
-attributes:        {autotarget: true}
 health:            5
 mass:              4.0
 max_thrust:        0.098
 initial_velocity:  2.0
+autotarget:        true
 animation:
 	sprite:     "dev/atomic"
 	frames:     {begin: 0.0, end: 5.004}

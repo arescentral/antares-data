@@ -1,4 +1,4 @@
-template:    "tpl/device"
-attributes:  {autotarget: true}
+template:  "tpl/device"
 device:
-	usage:  {attacking: true}
+	usage:      {attacking: true}
+	direction:  "omni"

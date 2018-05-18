@@ -1,7 +1,6 @@
 long_name:          "Untitled"
 short_name:         "UNTITLED"
 notes:              "Untitled Object"
-attributes:         {autotarget: false}
 tags:               {normal: true, normal-attacker: true}
 class:              -1
 health:             0
@@ -15,6 +14,7 @@ max_velocity:       0.0
 max_thrust:         0.0
 initial_velocity:   0.0
 initial_direction:  0
+autotarget:         false
 warp_speed:         0.0
 warp_out_distance:  0
 target:             {base: false, hide: false, radar: false, order: false, select: false, lock: false}

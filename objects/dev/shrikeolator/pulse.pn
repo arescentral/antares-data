@@ -2,9 +2,9 @@ template:      "tpl/apulse"
 long_name:     "Temp Pulse"
 short_name:    "TEMPPLSE"
 notes:         "Temp Pulse"
-attributes:    {autotarget: true}
 max_velocity:  9.0
 max_thrust:    0.2
+autotarget:    true
 animation:
 	sprite:     "dev/magno"
 	frames:     {begin: 0.0, end: 5.004}

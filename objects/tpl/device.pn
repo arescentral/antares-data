@@ -1,6 +1,7 @@
 template:  "tpl/any"
 device:
 	usage:          {transportation: false, attacking: false, defense: false}
+	direction:      "fore"
 	energy_cost:    0
 	fire_time:      "0s"
 	ammo:           -1

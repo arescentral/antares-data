@@ -2,9 +2,9 @@ template:    "tpl/device"
 long_name:   "Enemy Object Wpn"
 short_name:  "ENOBJWPN"
 notes:       "Gaitor"
-attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true, defense: true}
+	direction:      "omni"
 	ammo:           10
 	inverse_speed:  0.137
 activate:

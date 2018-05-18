@@ -2,9 +2,9 @@ template:    "tpl/device"
 long_name:   "Launching Bay"
 short_name:  "LANCHBAY"
 notes:       "Launching Bay"
-attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true, defense: true}
+	direction:      "omni"
 	fire_time:      "3s20t"
 	ammo:           10
 	range:          100000

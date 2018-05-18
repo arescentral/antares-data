@@ -2,9 +2,9 @@ template:    "tpl/device"
 long_name:   "Enemy Shooter Wpn"
 short_name:  "ENSHTWPN"
 notes:       "Enemy Shooter Wpn"
-attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true, defense: true}
+	direction:      "omni"
 	ammo:           5
 	inverse_speed:  0.137
 activate:

@@ -2,9 +2,9 @@ template:    "tpl/device"
 long_name:   "Repulser"
 short_name:  "REPULSER"
 notes:       "Rupulser"
-attributes:  {autotarget: true}
 device:
 	usage:          {attacking: true, defense: true}
+	direction:      "omni"
 	energy_cost:    40
 	fire_time:      "25t"
 	range:          202500

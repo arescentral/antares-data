@@ -2,7 +2,7 @@ template:    "tpl/bolt"
 long_name:   "Laser"
 short_name:  "LASER"
 notes:       "Laser"
-attributes:  {autotarget: true}
+autotarget:  true
 bolt:
 	color:  {r: 127, g: 255, b: 127}
 expire:
