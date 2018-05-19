@@ -26,12 +26,14 @@ create:
 				*	>	Good work. You built a practice drone. Normally, you can give ships you
 					>	build commands, or assume control of them. Here, however, the drone will
 					>	simply return to the planet.
-		*	type:            "order"
-			initial_object:  5
-		*	type:            "land"
-			delay:           "2s"
-			initial_object:  5
-			speed:           128
+		*	type:  "order"
+			override:
+				object:  {initial: 5}
+		*	type:   "land"
+			delay:  "2s"
+			override:
+				object:  {initial: 5}
+			speed:  128
 		*	type:       "condition"
 			reflexive:  true
 			delay:      "40s"

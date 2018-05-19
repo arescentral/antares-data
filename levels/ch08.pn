@@ -73,10 +73,11 @@ conditions:
 	*	type:      "time"
 		op:        "ge"
 		action:
-			*	type:             "push"
-				reflexive:        true
-				initial_subject:  0
-				kind:             "stop"
+			*	type:       "push"
+				reflexive:  true
+				override:
+					subject:  {initial: 0}
+				kind:       "stop"
 		duration:  "-3m59.85s"
 	*	type:        "counter"
 		op:          "ge"

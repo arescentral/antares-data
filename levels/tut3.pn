@@ -108,9 +108,10 @@ conditions:
 	*	type:      "time"
 		op:        "ge"
 		action:
-			*	type:             "push"
-				initial_subject:  0
-				kind:             "stop"
+			*	type:  "push"
+				override:
+					subject:  {initial: 0}
+				kind:  "stop"
 			*	type:  "key"
 				disable:
 					*	"up"
@@ -150,11 +151,12 @@ conditions:
 						>
 						>	Select this planet as a Control Object now.
 						|	You can simply click on it with the mouse.
-			*	type:             "capture"
-				reflexive:        true
-				delay:            "2s40t"
-				initial_subject:  1
-				player:           0
+			*	type:       "capture"
+				reflexive:  true
+				delay:      "2s40t"
+				override:
+					subject:  {initial: 1}
+				player:     0
 		duration:  "0s"
 	*	type:     "message"
 		op:       "eq"
@@ -277,11 +279,12 @@ conditions:
 	*	type:    "message"
 		op:      "eq"
 		action:
-			*	type:             "pay"
-				initial_subject:  0
-				initial_object:   0
-				value:            -23437.5
-				player:           0
+			*	type:    "pay"
+				override:
+					subject:  {initial: 0}
+					object:   {initial: 0}
+				value:   -23437.5
+				player:  0
 			*	type:    "select"
 				screen:  "build"
 				line:    3
@@ -613,14 +616,16 @@ conditions:
 	*	type:    "message"
 		op:      "eq"
 		action:
-			*	type:             "capture"
-				reflexive:        true
-				initial_subject:  1
-				player:           1
-			*	type:             "zoom"
-				reflexive:        true
-				initial_subject:  1
-				value:            "1:16"
+			*	type:       "capture"
+				reflexive:  true
+				override:
+					subject:  {initial: 1}
+				player:     1
+			*	type:       "zoom"
+				reflexive:  true
+				override:
+					subject:  {initial: 1}
+				value:      "1:16"
 			*	type:    "pay"
 				value:   -12800.0
 				player:  1

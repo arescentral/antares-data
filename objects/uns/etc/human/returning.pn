@@ -22,9 +22,10 @@ icon:
 target:             {radar: true, order: true, lock: true}
 create:
 	action:
-		*	type:            "order"
-			delay:           "0.05s"
-			initial_object:  0
+		*	type:   "order"
+			delay:  "0.05s"
+			override:
+				object:  {initial: 0}
 collide:            {edge: true}
 arrive:
 	distance:  5000

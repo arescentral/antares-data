@@ -29,11 +29,12 @@ destroy:
 			priority:     3
 			persistence:  "10t"
 			volume:       255
-		*	type:            "move"
-			reflexive:       true
-			initial_object:  3
-			origin:          "object"
-			distance:        600
+		*	type:       "move"
+			reflexive:  true
+			override:
+				object:  {initial: 3}
+			origin:     "object"
+			distance:   600
 		*	type:       "heal"
 			reflexive:  true
 			value:      1000

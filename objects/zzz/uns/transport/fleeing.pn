@@ -9,11 +9,12 @@ rotation:
 	frames:  {begin: 0, end: 24}
 destroy:
 	action:
-		*	type:             "create"
-			reflexive:        true
-			initial_subject:  0
-			initial_object:   0
-			base:             "sfx/explosion/large"
+		*	type:       "create"
+			reflexive:  true
+			override:
+				subject:  {initial: 0}
+				object:   {initial: 0}
+			base:       "sfx/explosion/large"
 		*	type:       "win"
 			reflexive:  true
 			player:     1

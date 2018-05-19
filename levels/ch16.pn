@@ -188,13 +188,15 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				disable:    0
-			*	type:             "order"
-				delay:            "20s"
-				initial_subject:  3
-				initial_object:   0
-			*	type:             "order"
-				initial_subject:  4
-				initial_object:   0
+			*	type:   "order"
+				delay:  "20s"
+				override:
+					subject:  {initial: 3}
+					object:   {initial: 0}
+			*	type:  "order"
+				override:
+					subject:  {initial: 4}
+					object:   {initial: 0}
 		duration:  "40s"
 	*	type:     "destroyed"
 		op:       "eq"

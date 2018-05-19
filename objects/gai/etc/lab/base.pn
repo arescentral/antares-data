@@ -18,10 +18,11 @@ destroy:
 			base:       "obi/etc/obiard/turning"
 			count:      5
 			distance:   16
-		*	type:             "fire"
-			reflexive:        true
-			initial_subject:  7
-			which:            "special"
+		*	type:       "fire"
+			reflexive:  true
+			override:
+				subject:  {initial: 7}
+			which:      "special"
 		*	type:       "morph"
 			reflexive:  true
 			base:       "gai/etc/lab/burning"

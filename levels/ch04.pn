@@ -103,11 +103,12 @@ conditions:
 	*	type:     "counter"
 		op:       "eq"
 		action:
-			*	type:             "morph"
-				reflexive:        true
-				initial_subject:  1
-				base:             "obi/transport"
-				keep_ammo:        true
+			*	type:       "morph"
+				reflexive:  true
+				override:
+					subject:  {initial: 1}
+				base:       "obi/transport"
+				keep_ammo:  true
 		player:   0
 		counter:  0
 		value:    5
@@ -138,15 +139,17 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     0
-			*	type:             "fire"
-				reflexive:        true
-				initial_subject:  6
-				which:            "special"
-			*	type:             "morph"
-				reflexive:        true
-				initial_subject:  1
-				base:             "obi/etc/transport/rescue"
-				keep_ammo:        true
+			*	type:       "fire"
+				reflexive:  true
+				override:
+					subject:  {initial: 6}
+				which:      "special"
+			*	type:       "morph"
+				reflexive:  true
+				override:
+					subject:  {initial: 1}
+				base:       "obi/etc/transport/rescue"
+				keep_ammo:  true
 		initially_disabled:  true
 		player:              0
 		counter:             0

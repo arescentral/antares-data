@@ -85,10 +85,11 @@ conditions:
 					*	"mouse"
 			*	type:   "zoom"
 				value:  "1:1"
-			*	type:             "push"
-				reflexive:        true
-				initial_subject:  0
-				kind:             "stop"
+			*	type:       "push"
+				reflexive:  true
+				override:
+					subject:  {initial: 0}
+				kind:       "stop"
 			*	type:  "message"
 				id:    5700
 				pages:
@@ -213,9 +214,10 @@ conditions:
 	*	type:    "message"
 		op:      "eq"
 		action:
-			*	type:             "order"
-				initial_subject:  5
-				initial_object:   0
+			*	type:  "order"
+				override:
+					subject:  {initial: 5}
+					object:   {initial: 0}
 			*	type:    "condition"
 				enable:  7
 			*	type:   "zoom"
@@ -228,9 +230,10 @@ conditions:
 		subject:             0
 		object:              5
 		action:
-			*	type:             "order"
-				initial_subject:  5
-				initial_object:   4
+			*	type:  "order"
+				override:
+					subject:  {initial: 5}
+					object:   {initial: 4}
 			*	type:    "condition"
 				delay:   "2s"
 				enable:  8
@@ -241,9 +244,10 @@ conditions:
 		subject:             4
 		object:              5
 		action:
-			*	type:             "order"
-				initial_subject:  5
-				initial_object:   0
+			*	type:  "order"
+				override:
+					subject:  {initial: 5}
+					object:   {initial: 0}
 			*	type:    "condition"
 				delay:   "2s"
 				enable:  7
@@ -252,10 +256,11 @@ conditions:
 	*	type:    "message"
 		op:      "eq"
 		action:
-			*	type:             "kill"
-				reflexive:        true
-				initial_subject:  5
-				kind:             "none"
+			*	type:       "kill"
+				reflexive:  true
+				override:
+					subject:  {initial: 5}
+				kind:       "none"
 			*	type:    "condition"
 				enable:  10
 		player:  0
@@ -322,10 +327,11 @@ conditions:
 	*	type:    "message"
 		op:      "eq"
 		action:
-			*	type:             "heal"
-				reflexive:        true
-				initial_subject:  2
-				value:            -249
+			*	type:       "heal"
+				reflexive:  true
+				override:
+					subject:  {initial: 2}
+				value:      -249
 		player:  0
 		id:      5715
 		page:    3
@@ -542,21 +548,25 @@ conditions:
 		action:
 			*	type:   "reveal"
 				which:  {begin: 7, end: 9}
-			*	type:             "cloak"
-				reflexive:        true
-				initial_subject:  8
-			*	type:             "cap-speed"
-				reflexive:        true
-				initial_subject:  8
-				value:            0.0
-			*	type:             "cap-speed"
-				reflexive:        true
-				initial_subject:  7
-				value:            0.0
-			*	type:             "capture"
-				reflexive:        true
-				initial_subject:  4
-				player:           0
+			*	type:       "cloak"
+				reflexive:  true
+				override:
+					subject:  {initial: 8}
+			*	type:       "cap-speed"
+				reflexive:  true
+				override:
+					subject:  {initial: 8}
+				value:      0.0
+			*	type:       "cap-speed"
+				reflexive:  true
+				override:
+					subject:  {initial: 7}
+				value:      0.0
+			*	type:       "capture"
+				reflexive:  true
+				override:
+					subject:  {initial: 4}
+				player:     0
 			*	type:    "condition"
 				enable:  20
 		player:  0

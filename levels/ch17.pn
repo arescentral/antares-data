@@ -102,18 +102,21 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				which:      {begin: 5, end: 12}
-			*	type:             "capture"
-				reflexive:        true
-				initial_subject:  2
-				player:           0
-			*	type:             "capture"
-				reflexive:        true
-				initial_subject:  3
-				player:           1
-			*	type:             "pay"
-				initial_subject:  3
-				value:            10000.0
-				player:           1
+			*	type:       "capture"
+				reflexive:  true
+				override:
+					subject:  {initial: 2}
+				player:     0
+			*	type:       "capture"
+				reflexive:  true
+				override:
+					subject:  {initial: 3}
+				player:     1
+			*	type:    "pay"
+				override:
+					subject:  {initial: 3}
+				value:   10000.0
+				player:  1
 		duration:  "-1s"
 	*	type:     "owner"
 		op:       "eq"

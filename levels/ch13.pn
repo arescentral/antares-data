@@ -127,10 +127,11 @@ conditions:
 		subject:  0
 		object:   10
 		action:
-			*	type:             "morph"
-				reflexive:        true
-				initial_subject:  0
-				base:             "ele/etc/liner"
+			*	type:       "morph"
+				reflexive:  true
+				override:
+					subject:  {initial: 0}
+				base:       "ele/etc/liner"
 			*	type:         "play"
 				reflexive:    true
 				sound:        "ish/etc/tug/attach"
@@ -140,9 +141,10 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     2
-			*	type:             "order"
-				initial_subject:  0
-				initial_object:   10
+			*	type:  "order"
+				override:
+					subject:  {initial: 0}
+					object:   {initial: 10}
 			*	type:       "message"
 				reflexive:  true
 				id:         5401
@@ -151,24 +153,27 @@ conditions:
 						|	SOURCE: RICS 105508 Tractor Tug
 						|	We've locked on to the Elejeetian liner and are now towing it to the
 						>	jump gate. \i<EOT>\i 
-			*	type:             "order"
-				initial_subject:  10
-				initial_object:   7
+			*	type:  "order"
+				override:
+					subject:  {initial: 10}
+					object:   {initial: 7}
 		value:    50000
 	*	type:                "distance"
 		op:                  "lt"
 		subject:             10
 		object:              7
 		action:
-			*	type:             "order"
-				initial_subject:  0
-				initial_object:   7
-			*	type:             "land"
-				reflexive:        true
-				delay:            "1s"
-				initial_subject:  0
-				initial_object:   7
-				speed:            128
+			*	type:  "order"
+				override:
+					subject:  {initial: 0}
+					object:   {initial: 7}
+			*	type:       "land"
+				reflexive:  true
+				delay:      "1s"
+				override:
+					subject:  {initial: 0}
+					object:   {initial: 7}
+				speed:      128
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "10t"
