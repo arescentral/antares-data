@@ -233,8 +233,8 @@ conditions:
 				enable:     4
 		initial:  0
 		value:    true
-	*	type:                "ships"
-		op:                  "eq"
+	*	type:      "ships"
+		op:        "eq"
 		action:
 			*	type:       "win"
 				reflexive:  true
@@ -243,9 +243,9 @@ conditions:
 				text:
 					>	You decimated the Audemedon fleet and destroyed the jumpstream
 					>	inhibitor.
-		initially_disabled:  true
-		player:              1
-		value:               0
+		disabled:  true
+		player:    1
+		value:     0
 briefings:
 	*	title:  "Ser System"
 		content:

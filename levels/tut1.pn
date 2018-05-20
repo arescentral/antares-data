@@ -135,8 +135,8 @@ conditions:
 		player:  0
 		id:      5701
 		page:    3
-	*	type:                "computer"
-		op:                  "eq"
+	*	type:      "computer"
+		op:        "eq"
 		action:
 			*	type:  "message"
 				id:    5750
@@ -158,9 +158,9 @@ conditions:
 					*	"mouse"
 			*	type:    "condition"
 				enable:  22
-		initially_disabled:  true
-		player:              0
-		screen:              "main"
+		disabled:  true
+		player:    0
+		screen:    "main"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -177,8 +177,8 @@ conditions:
 		player:  0
 		id:      5704
 		page:    6
-	*	type:                "zoom"
-		op:                  "eq"
+	*	type:      "zoom"
+		op:        "eq"
 		action:
 			*	type:  "message"
 				id:    5711
@@ -208,9 +208,9 @@ conditions:
 						>	\i_#SC-_\i key several times.
 						>
 						>	This mode always shows all the objects in a scenario.
-		initially_disabled:  true
-		player:              0
-		value:               "2:1"
+		disabled:  true
+		player:    0
+		value:     "2:1"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -225,10 +225,10 @@ conditions:
 		player:  0
 		id:      5711
 		page:    2
-	*	type:                "distance"
-		op:                  "lt"
-		subject:             0
-		object:              5
+	*	type:      "distance"
+		op:        "lt"
+		subject:   0
+		object:    5
 		action:
 			*	type:  "order"
 				override:
@@ -237,12 +237,12 @@ conditions:
 			*	type:    "condition"
 				delay:   "2s"
 				enable:  8
-		initially_disabled:  true
-		value:               50000
-	*	type:                "distance"
-		op:                  "lt"
-		subject:             4
-		object:              5
+		disabled:  true
+		value:     50000
+	*	type:      "distance"
+		op:        "lt"
+		subject:   4
+		object:    5
 		action:
 			*	type:  "order"
 				override:
@@ -251,8 +251,8 @@ conditions:
 			*	type:    "condition"
 				delay:   "2s"
 				enable:  7
-		initially_disabled:  true
-		value:               50000
+		disabled:  true
+		value:     50000
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -266,8 +266,8 @@ conditions:
 		player:  0
 		id:      5711
 		page:    4
-	*	type:                "zoom"
-		op:                  "eq"
+	*	type:      "zoom"
+		op:        "eq"
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -306,9 +306,9 @@ conditions:
 						>	The zoom modes, from smallest to largest, are: \f0cZoom to All\r,
 						>	\f0cZoom to Closest\r, \f0cZoom to Hostile\r, \f0c1:16\r, \f0c1:4\r,
 						>	\f0c1:2\r, \f0c1:1\r, and \f0c2:1\r.
-		initially_disabled:  true
-		player:              0
-		value:               "all"
+		disabled:  true
+		player:    0
+		value:     "all"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -349,8 +349,8 @@ conditions:
 		player:  0
 		id:      5715
 		page:    6
-	*	type:                "zoom"
-		op:                  "eq"
+	*	type:      "zoom"
+		op:        "eq"
 		action:
 			*	type:  "message"
 				id:    5721
@@ -497,9 +497,9 @@ conditions:
 						>	Use the radar to find the cloaked ship.
 						>
 						>	Good luck!
-		initially_disabled:  true
-		player:              0
-		value:               "1:1"
+		disabled:  true
+		player:    0
+		value:     "1:1"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -572,16 +572,16 @@ conditions:
 		player:  0
 		id:      5721
 		page:    17
-	*	type:                "destroyed"
-		op:                  "eq"
+	*	type:      "destroyed"
+		op:        "eq"
 		action:
 			*	type:    "condition"
 				enable:  21
-		initially_disabled:  true
-		initial:             7
-		value:               true
-	*	type:                "destroyed"
-		op:                  "eq"
+		disabled:  true
+		initial:   7
+		value:     true
+	*	type:      "destroyed"
+		op:        "eq"
 		action:
 			*	type:       "win"
 				reflexive:  true
@@ -589,11 +589,11 @@ conditions:
 				next:       "ch01"
 				text:
 					>	Good work. You completed the first tutorial.
-		initially_disabled:  true
-		initial:             8
-		value:               true
-	*	type:                "computer"
-		op:                  "eq"
+		disabled:  true
+		initial:   8
+		value:     true
+	*	type:      "computer"
+		op:        "eq"
 		action:
 			*	type:  "message"
 				id:    5751
@@ -603,12 +603,12 @@ conditions:
 						>
 			*	type:    "condition"
 				enable:  23
-		initially_disabled:  true
-		player:              0
-		screen:              "main"
-		line:                3
-	*	type:                "computer"
-		op:                  "eq"
+		disabled:  true
+		player:    0
+		screen:    "main"
+		line:      3
+	*	type:      "computer"
+		op:        "eq"
 		action:
 			*	type:  "message"
 				id:    5704
@@ -656,9 +656,9 @@ conditions:
 						>
 						>	Notice that as you change zoom levels, the current mode is displayed at
 						>	the top of the screen.
-		initially_disabled:  true
-		player:              0
-		screen:              "message"
+		disabled:  true
+		player:    0
+		screen:    "message"
 starmap:  {left: 314, top: 275, right: 346, bottom: 299}
 par:
 	time:    "2m"

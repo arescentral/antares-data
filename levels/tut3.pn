@@ -167,9 +167,9 @@ conditions:
 		player:   0
 		id:       5900
 		page:     2
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             1
+	*	type:      "subject"
+		op:        "eq"
+		subject:   1
 		action:
 			*	type:  "message"
 				id:    5905
@@ -194,9 +194,9 @@ conditions:
 					*	>	#L322##62,338#Now use the computer control keys or the
 						|	mouse to execute the <Build> item and get
 						|	to the Build Menu.
-		initially_disabled:  true
-		player:              0
-		value:               "control"
+		disabled:  true
+		player:    0
+		value:     "control"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -205,8 +205,8 @@ conditions:
 		player:  0
 		id:      5905
 		page:    3
-	*	type:                "computer"
-		op:                  "eq"
+	*	type:      "computer"
+		op:        "eq"
 		action:
 			*	type:  "message"
 				id:    5910
@@ -264,9 +264,9 @@ conditions:
 						|	#ACT.
 						>
 						>	Go ahead and build a Cruiser.
-		initially_disabled:  true
-		player:              0
-		screen:              "build"
+		disabled:  true
+		player:    0
+		screen:    "build"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -311,8 +311,8 @@ conditions:
 		player:  0
 		id:      5910
 		page:    10
-	*	type:                "building"
-		op:                  "eq"
+	*	type:      "building"
+		op:        "eq"
 		action:
 			*	type:  "message"
 				id:    5925
@@ -326,11 +326,11 @@ conditions:
 			*	type:  "key"
 				disable:
 					*	"comp_build"
-		initially_disabled:  true
-		player:              0
-		value:               true
-	*	type:                "counter"
-		op:                  "ge"
+		disabled:  true
+		player:    0
+		value:     true
+	*	type:      "counter"
+		op:        "ge"
 		action:
 			*	type:  "message"
 				id:    5930
@@ -343,13 +343,13 @@ conditions:
 						|	#SFD.
 			*	type:    "condition"
 				enable:  11
-		initially_disabled:  true
-		player:              0
-		counter:             0
-		value:               1
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             5
+		disabled:  true
+		player:    0
+		counter:   0
+		value:     1
+	*	type:      "subject"
+		op:        "eq"
+		subject:   5
 		action:
 			*	type:  "message"
 				id:    5935
@@ -377,9 +377,9 @@ conditions:
 						|	and hold down the Target Key, #DST,
 						|	and press the Select Friend Key,
 						|	#SFD.
-		initially_disabled:  true
-		player:              0
-		value:               "control"
+		disabled:  true
+		player:    0
+		value:     "control"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -469,9 +469,9 @@ conditions:
 		player:  0
 		id:      5945
 		page:    3
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             2
+	*	type:      "subject"
+		op:        "eq"
+		subject:   2
 		action:
 			*	type:  "message"
 				id:    5950
@@ -489,12 +489,12 @@ conditions:
 				value:  "1:2"
 			*	type:    "condition"
 				enable:  18
-		initially_disabled:  true
-		player:              0
-		value:               "control"
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             1
+		disabled:  true
+		player:    0
+		value:     "control"
+	*	type:      "subject"
+		op:        "eq"
+		subject:   1
 		action:
 			*	type:  "message"
 				id:    5955
@@ -522,13 +522,13 @@ conditions:
 			*	type:  "key"
 				enable:
 					*	"order"
-		initially_disabled:  true
-		player:              0
-		value:               "target"
-	*	type:                "distance"
-		op:                  "lt"
-		subject:             1
-		object:              2
+		disabled:  true
+		player:    0
+		value:     "target"
+	*	type:      "distance"
+		op:        "lt"
+		subject:   1
+		object:    2
 		action:
 			*	type:  "message"
 				id:    5960
@@ -549,11 +549,11 @@ conditions:
 						|	click on it.
 			*	type:    "condition"
 				enable:  20
-		initially_disabled:  true
-		value:               50000
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             6
+		disabled:  true
+		value:     50000
+	*	type:      "subject"
+		op:        "eq"
+		subject:   6
 		action:
 			*	type:  "message"
 				id:    5965
@@ -571,13 +571,13 @@ conditions:
 						|	now.
 			*	type:    "condition"
 				enable:  21
-		initially_disabled:  true
-		player:              0
-		value:               "control"
-	*	type:                "ordered"
-		op:                  "eq"
-		subject:             6
-		object:              1
+		disabled:  true
+		player:    0
+		value:     "control"
+	*	type:      "ordered"
+		op:        "eq"
+		subject:   6
+		object:    1
 		action:
 			*	type:  "message"
 				id:    5970
@@ -610,9 +610,9 @@ conditions:
 						>
 						>	The transport will go to your target,
 						|	the planet, and land on it.
-		initially_disabled:  true
-		player:              0
-		value:               true
+		disabled:  true
+		player:    0
+		value:     true
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -636,9 +636,9 @@ conditions:
 		player:  0
 		id:      5970
 		page:    3
-	*	type:                "owner"
-		op:                  "eq"
-		subject:             1
+	*	type:      "owner"
+		op:        "eq"
+		subject:   1
 		action:
 			*	type:   "message"
 				delay:  "4s40t"
@@ -657,8 +657,8 @@ conditions:
 						>	Select it.
 			*	type:   "reveal"
 				which:  4
-		initially_disabled:  true
-		player:              0
+		disabled:  true
+		player:    0
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -667,9 +667,9 @@ conditions:
 		player:  0
 		id:      5975
 		page:    2
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             6
+	*	type:      "subject"
+		op:        "eq"
+		subject:   6
 		action:
 			*	type:  "message"
 				id:    5980
@@ -679,12 +679,12 @@ conditions:
 						>	Now target this transport.
 			*	type:    "condition"
 				enable:  26
-		initially_disabled:  true
-		player:              0
-		value:               "control"
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             4
+		disabled:  true
+		player:    0
+		value:     "control"
+	*	type:      "subject"
+		op:        "eq"
+		subject:   4
 		action:
 			*	type:  "message"
 				id:    5985
@@ -694,13 +694,13 @@ conditions:
 						>	Press the Order to Go key, #ORD.
 			*	type:    "condition"
 				enable:  27
-		initially_disabled:  true
-		player:              0
-		value:               "target"
-	*	type:                "ordered"
-		op:                  "eq"
-		subject:             6
-		object:              4
+		disabled:  true
+		player:    0
+		value:     "target"
+	*	type:      "ordered"
+		op:        "eq"
+		subject:   6
+		object:    4
 		action:
 			*	type:  "message"
 				id:    5990
@@ -715,13 +715,13 @@ conditions:
 						|	to it.
 			*	type:    "condition"
 				enable:  28
-		initially_disabled:  true
-		player:              0
-		value:               true
-	*	type:                "ordered"
-		op:                  "eq"
-		subject:             5
-		object:              4
+		disabled:  true
+		player:    0
+		value:     true
+	*	type:      "ordered"
+		op:        "eq"
+		subject:   5
+		object:    4
 		action:
 			*	type:  "message"
 				id:    5995
@@ -731,13 +731,13 @@ conditions:
 						>	Select it and press #ORD.
 			*	type:    "condition"
 				enable:  29
-		initially_disabled:  true
-		player:              0
-		value:               true
-	*	type:                "ordered"
-		op:                  "eq"
-		subject:             2
-		object:              4
+		disabled:  true
+		player:    0
+		value:     true
+	*	type:      "ordered"
+		op:        "eq"
+		subject:   2
+		object:    4
 		action:
 			*	type:  "message"
 				id:    7000
@@ -756,9 +756,9 @@ conditions:
 						>	hitting any other keys).
 						>
 						>	Try it now (we’ve turned off mouse selection for the moment).
-		initially_disabled:  true
-		player:              0
-		value:               true
+		disabled:  true
+		player:    0
+		value:     true
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -772,9 +772,9 @@ conditions:
 		player:  0
 		id:      7000
 		page:    2
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             0
+	*	type:      "subject"
+		op:        "eq"
+		subject:   0
 		action:
 			*	type:  "message"
 				id:    7005
@@ -793,33 +793,33 @@ conditions:
 					*	"mouse"
 			*	type:   "zoom"
 				value:  "all"
-		initially_disabled:  true
-		player:              0
-		value:               "target"
-	*	type:                "ordered"
-		op:                  "eq"
-		subject:             2
-		object:              0
+		disabled:  true
+		player:    0
+		value:     "target"
+	*	type:      "ordered"
+		op:        "eq"
+		subject:   2
+		object:    0
 		action:
 			*	type:    "condition"
 				enable:  33
-		initially_disabled:  true
-		player:              0
-		value:               true
-	*	type:                "ordered"
-		op:                  "eq"
-		subject:             5
-		object:              0
+		disabled:  true
+		player:    0
+		value:     true
+	*	type:      "ordered"
+		op:        "eq"
+		subject:   5
+		object:    0
 		action:
 			*	type:    "condition"
 				enable:  34
-		initially_disabled:  true
-		player:              0
-		value:               true
-	*	type:                "ordered"
-		op:                  "eq"
-		subject:             6
-		object:              0
+		disabled:  true
+		player:    0
+		value:     true
+	*	type:      "ordered"
+		op:        "eq"
+		subject:   6
+		object:    0
 		action:
 			*	type:  "message"
 				id:    7010
@@ -846,9 +846,9 @@ conditions:
 			*	type:    "select"
 				screen:  "main"
 				line:    4
-		initially_disabled:  true
-		player:              0
-		value:               true
+		disabled:  true
+		player:    0
+		value:     true
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -860,8 +860,8 @@ conditions:
 		player:  0
 		id:      7010
 		page:    3
-	*	type:                "computer"
-		op:                  "eq"
+	*	type:      "computer"
+		op:        "eq"
 		action:
 			*	type:  "message"
 				id:    7015
@@ -879,9 +879,9 @@ conditions:
 						|	Cruiser.
 						>
 						>	First select it.
-		initially_disabled:  true
-		player:              0
-		screen:              "special"
+		disabled:  true
+		player:    0
+		screen:    "special"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -890,9 +890,9 @@ conditions:
 		player:  0
 		id:      7015
 		page:    2
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             2
+	*	type:      "subject"
+		op:        "eq"
+		subject:   2
 		action:
 			*	type:  "message"
 				id:    7020
@@ -913,12 +913,12 @@ conditions:
 				line:    1
 			*	type:    "condition"
 				enable:  39
-		initially_disabled:  true
-		player:              0
-		value:               "control"
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             2
+		disabled:  true
+		player:    0
+		value:     "control"
+	*	type:      "subject"
+		op:        "eq"
+		subject:   2
 		action:
 			*	type:  "message"
 				id:    7025
@@ -957,9 +957,9 @@ conditions:
 						>
 						>	Of course, you could personally shoot them all, but it would be much
 						>	faster if you brought along some help...
-		initially_disabled:  true
-		player:              0
-		value:               "player"
+		disabled:  true
+		player:    0
+		value:     "player"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -1008,17 +1008,17 @@ conditions:
 		player:  0
 		id:      7025
 		page:    5
-	*	type:                "ships"
-		op:                  "eq"
+	*	type:      "ships"
+		op:        "eq"
 		action:
 			*	type:    "win"
 				player:  0
 				next:    "ch03"
 				text:
 					>	Good work. You completed the third tutorial.
-		initially_disabled:  true
-		player:              1
-		value:               0
+		disabled:  true
+		player:    1
+		value:     0
 	*	type:        "false"
 		subject:     0
 		object:      0

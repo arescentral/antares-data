@@ -111,9 +111,9 @@ conditions:
 				enable:     1
 		initial:  7
 		value:    true
-	*	type:                "owner"
-		op:                  "eq"
-		subject:             3
+	*	type:      "owner"
+		op:        "eq"
+		subject:   3
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -121,11 +121,11 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     4
-		initially_disabled:  true
-		player:              0
-	*	type:                "owner"
-		op:                  "eq"
-		subject:             4
+		disabled:  true
+		player:    0
+	*	type:      "owner"
+		op:        "eq"
+		subject:   4
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -133,11 +133,11 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     5
-		initially_disabled:  true
-		player:              0
-	*	type:                "owner"
-		op:                  "eq"
-		subject:             5
+		disabled:  true
+		player:    0
+	*	type:      "owner"
+		op:        "eq"
+		subject:   5
 		action:
 			*	type:       "win"
 				reflexive:  true
@@ -146,11 +146,11 @@ conditions:
 				text:
 					>	You succeeded in capturing the Beta Pictoris System, and you forced the
 					>	enemy Gate Ship to withdraw.
-		initially_disabled:  true
-		player:              0
-	*	type:                "owner"
-		op:                  "eq"
-		subject:             3
+		disabled:  true
+		player:    0
+	*	type:      "owner"
+		op:        "eq"
+		subject:   3
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -158,11 +158,11 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     1
-		initially_disabled:  true
-		player:              1
-	*	type:                "owner"
-		op:                  "eq"
-		subject:             4
+		disabled:  true
+		player:    1
+	*	type:      "owner"
+		op:        "eq"
+		subject:   4
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -170,8 +170,8 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     1
-		initially_disabled:  true
-		player:              1
+		disabled:  true
+		player:    1
 	*	type:     "owner"
 		op:       "eq"
 		subject:  0

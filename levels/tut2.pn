@@ -124,9 +124,9 @@ conditions:
 		player:  0
 		id:      5800
 		page:    3
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             1
+	*	type:      "subject"
+		op:        "eq"
+		subject:   1
 		action:
 			*	type:  "message"
 				id:    5803
@@ -163,9 +163,9 @@ conditions:
 						|	mouse.
 						>
 						>	Try clicking on this planet.
-		initially_disabled:  true
-		player:              0
-		value:               "control"
+		disabled:  true
+		player:    0
+		value:     "control"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -174,9 +174,9 @@ conditions:
 		player:  0
 		id:      5803
 		page:    8
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             6
+	*	type:      "subject"
+		op:        "eq"
+		subject:   6
 		action:
 			*	type:  "message"
 				id:    5811
@@ -195,9 +195,9 @@ conditions:
 						|	or four times.
 			*	type:   "reveal"
 				which:  {begin: 2, end: 6}
-		initially_disabled:  true
-		player:              0
-		value:               "control"
+		disabled:  true
+		player:    0
+		value:     "control"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -212,9 +212,9 @@ conditions:
 		player:  0
 		id:      5811
 		page:    2
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             5
+	*	type:      "subject"
+		op:        "eq"
+		subject:   5
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -235,9 +235,9 @@ conditions:
 						>
 						>	Aim yourself at this ship, then press the
 						|	Select Friend key, #SFD.
-		initially_disabled:  true
-		player:              0
-		value:               "control"
+		disabled:  true
+		player:    0
+		value:     "control"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -281,9 +281,9 @@ conditions:
 		player:  0
 		id:      5813
 		page:    2
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             1
+	*	type:      "subject"
+		op:        "eq"
+		subject:   1
 		action:
 			*	type:  "message"
 				id:    5815
@@ -297,9 +297,9 @@ conditions:
 						>
 						>	Notice how each time you hit the key, the next farthest ship is
 						>	selected.
-		initially_disabled:  true
-		player:              0
-		value:               "control"
+		disabled:  true
+		player:    0
+		value:     "control"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -333,9 +333,9 @@ conditions:
 		player:  0
 		id:      5815
 		page:    2
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             5
+	*	type:      "subject"
+		op:        "eq"
+		subject:   5
 		action:
 			*	type:  "message"
 				id:    5817
@@ -350,9 +350,9 @@ conditions:
 						>
 						>	Repeatedly hit the Select Friend key,
 						|	#SFD, to select the gunship.
-		initially_disabled:  true
-		player:              0
-		value:               "control"
+		disabled:  true
+		player:    0
+		value:     "control"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -384,9 +384,9 @@ conditions:
 		player:  0
 		id:      5817
 		page:    2
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             2
+	*	type:      "subject"
+		op:        "eq"
+		subject:   2
 		action:
 			*	type:  "message"
 				id:    5819
@@ -412,9 +412,9 @@ conditions:
 						>	Try to select the transport by turning toward it (remember, it’s at
 						>	about one o’clock) and repeatedly hitting the Select Friend key,
 						>	\i_#SFD_\i.
-		initially_disabled:  true
-		player:              0
-		value:               "control"
+		disabled:  true
+		player:    0
+		value:     "control"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -453,9 +453,9 @@ conditions:
 		player:  0
 		id:      5819
 		page:    4
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             5
+	*	type:      "subject"
+		op:        "eq"
+		subject:   5
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -468,9 +468,9 @@ conditions:
 						>
 						>	Select the planet now by pointing your ship at it and pressing the
 						>	\i_#SBS_\i key.
-		initially_disabled:  true
-		player:              0
-		value:               "control"
+		disabled:  true
+		player:    0
+		value:     "control"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -480,9 +480,9 @@ conditions:
 		player:  0
 		id:      5823
 		page:    2
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             6
+	*	type:      "subject"
+		op:        "eq"
+		subject:   6
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -499,9 +499,9 @@ conditions:
 						>
 						>	Use the mouse to click on this ship while
 						|	holding down the #DST key.
-		initially_disabled:  true
-		player:              0
-		value:               "control"
+		disabled:  true
+		player:    0
+		value:     "control"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -525,9 +525,9 @@ conditions:
 		player:  0
 		id:      5825
 		page:    2
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             1
+	*	type:      "subject"
+		op:        "eq"
+		subject:   1
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -556,9 +556,9 @@ conditions:
 						>
 						>	Try clicking on this planet while
 						|	holding down the #DST key.
-		initially_disabled:  true
-		player:              0
-		value:               "target"
+		disabled:  true
+		player:    0
+		value:     "target"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -567,9 +567,9 @@ conditions:
 		player:  0
 		id:      5827
 		page:    4
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             6
+	*	type:      "subject"
+		op:        "eq"
+		subject:   6
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -582,9 +582,9 @@ conditions:
 					*	>	#O7#Try targeting this Cantharan Transport by
 						|	clicking on it while holding down the
 						|	#DST key.
-		initially_disabled:  true
-		player:              0
-		value:               "target"
+		disabled:  true
+		player:    0
+		value:     "target"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -596,10 +596,10 @@ conditions:
 		player:  0
 		id:      5831
 		page:    2
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             7
-		object:              1
+	*	type:      "subject"
+		op:        "eq"
+		subject:   7
+		object:    1
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -623,9 +623,9 @@ conditions:
 						>	Select this ship as a target, so it
 						|	is labeled in blue and appears on the
 						|	target screen.
-		initially_disabled:  true
-		player:              0
-		value:               "target"
+		disabled:  true
+		player:    0
+		value:     "target"
 	*	type:        "message"
 		op:          "eq"
 		action:
@@ -646,9 +646,9 @@ conditions:
 		player:      0
 		id:          5833
 		page:        2
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             1
+	*	type:      "subject"
+		op:        "eq"
+		subject:   1
 		action:
 			*	type:  "message"
 				id:    5835
@@ -660,9 +660,9 @@ conditions:
 						|	down the #DST key.
 						>
 						>	Face this planet and try it.
-		initially_disabled:  true
-		player:              0
-		value:               "target"
+		disabled:  true
+		player:    0
+		value:     "target"
 	*	type:        "message"
 		op:          "eq"
 		action:
@@ -672,9 +672,9 @@ conditions:
 		player:      0
 		id:          5835
 		page:        1
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             6
+	*	type:      "subject"
+		op:        "eq"
+		subject:   6
 		action:
 			*	type:  "message"
 				id:    5836
@@ -686,9 +686,9 @@ conditions:
 						|	Objects, so there’s no need to hold down
 						|	the Target key to select them with the
 						|	keyboard.
-		initially_disabled:  true
-		player:              0
-		value:               "target"
+		disabled:  true
+		player:    0
+		value:     "target"
 	*	type:        "message"
 		op:          "eq"
 		action:
@@ -698,9 +698,9 @@ conditions:
 		player:      0
 		id:          5836
 		page:        1
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             7
+	*	type:      "subject"
+		op:        "eq"
+		subject:   7
 		action:
 			*	type:  "message"
 				id:    5837
@@ -726,9 +726,9 @@ conditions:
 						>	First target this ship. You can use the
 						|	mouse (#DST + click) or
 						|	keyboard (#DST + #SFD).
-		initially_disabled:  true
-		player:              0
-		value:               "target"
+		disabled:  true
+		player:    0
+		value:     "target"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -741,9 +741,9 @@ conditions:
 		player:  0
 		id:      5837
 		page:    3
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             1
+	*	type:      "subject"
+		op:        "eq"
+		subject:   1
 		action:
 			*	type:  "message"
 				id:    5840
@@ -752,9 +752,9 @@ conditions:
 						>	press and release the Warp key, \i_#WRP_\i.
 						>
 						>	Try it now.
-		initially_disabled:  true
-		player:              0
-		value:               "target"
+		disabled:  true
+		player:    0
+		value:     "target"
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -763,8 +763,8 @@ conditions:
 		player:  0
 		id:      5840
 		page:    1
-	*	type:                "autopilot"
-		op:                  "eq"
+	*	type:      "autopilot"
+		op:        "eq"
 		action:
 			*	type:  "message"
 				id:    5841
@@ -805,13 +805,13 @@ conditions:
 					object:   {initial: 5}
 			*	type:    "condition"
 				enable:  34
-		initially_disabled:  true
-		player:              0
-		value:               true
-	*	type:                "distance"
-		op:                  "lt"
-		subject:             1
-		object:              5
+		disabled:  true
+		player:    0
+		value:     true
+	*	type:      "distance"
+		op:        "lt"
+		subject:   1
+		object:    5
 		action:
 			*	type:  "message"
 				id:    5842
@@ -846,12 +846,12 @@ conditions:
 				enable:  36
 			*	type:    "condition"
 				enable:  35
-		initially_disabled:  true
-		value:               50000
-	*	type:                "distance"
-		op:                  "lt"
-		subject:             "player"
-		object:              6
+		disabled:  true
+		value:     50000
+	*	type:      "distance"
+		op:        "lt"
+		subject:   "player"
+		object:    6
 		action:
 			*	type:    "win"
 				override:
@@ -861,10 +861,10 @@ conditions:
 				next:    "ch02"
 				text:
 					>	Good work. You completed the second tutorial.
-		initially_disabled:  true
-		value:               50000
-	*	type:                "autopilot"
-		op:                  "eq"
+		disabled:  true
+		value:     50000
+	*	type:      "autopilot"
+		op:        "eq"
 		action:
 			*	type:  "key"
 				disable:
@@ -884,9 +884,9 @@ conditions:
 						>
 						>	Target the planet with the mouse or keyboard, then turn on the autopilot
 						>	(hold down \i_#DST_\i then press \i_#WRP_\i).
-		initially_disabled:  true
-		player:              0
-		value:               false
+		disabled:  true
+		player:    0
+		value:     false
 starmap:  {left: 314, top: 275, right: 346, bottom: 299}
 angle:    8
 skip:     "ch02"

@@ -158,10 +158,10 @@ conditions:
 					subject:  {initial: 10}
 					object:   {initial: 7}
 		value:    50000
-	*	type:                "distance"
-		op:                  "lt"
-		subject:             10
-		object:              7
+	*	type:      "distance"
+		op:        "lt"
+		subject:   10
+		object:    7
 		action:
 			*	type:  "order"
 				override:
@@ -178,8 +178,8 @@ conditions:
 				reflexive:  true
 				delay:      "10t"
 				which:      19
-		initially_disabled:  true
-		value:               50000
+		disabled:  true
+		value:     50000
 briefings:
 	*	title:  "EACSR Banadee"
 		content:

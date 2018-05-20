@@ -113,9 +113,9 @@ conditions:
 				enable:  7
 		persistent:  true
 		value:       50000
-	*	type:                "counter"
-		op:                  "ge"
-		subject:             1
+	*	type:      "counter"
+		op:        "ge"
+		subject:   1
 		action:
 			*	type:                "create"
 				reflexive:           true
@@ -136,10 +136,10 @@ conditions:
 					subject:  {initial: 1}
 				base:       "ish/etc/hvd/rescue"
 				keep_ammo:  true
-		initially_disabled:  true
-		player:              0
-		counter:             0
-		value:               1
+		disabled:  true
+		player:    0
+		counter:   0
+		value:     1
 	*	type:        "distance"
 		op:          "ge"
 		subject:     1

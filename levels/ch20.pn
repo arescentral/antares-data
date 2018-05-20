@@ -189,8 +189,8 @@ conditions:
 						>	Cantharan-constructed jumpgate, and we were unable to pursue. Looks like
 						>	they’re headed your way. \i<EOT>\i 
 		value:    0.5
-	*	type:                "ships"
-		op:                  "eq"
+	*	type:      "ships"
+		op:        "eq"
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -206,9 +206,9 @@ conditions:
 				reflexive:  true
 				delay:      "6s"
 				which:      {begin: 12, end: 33}
-		initially_disabled:  true
-		player:              1
-		value:               0
+		disabled:  true
+		player:    1
+		value:     0
 	*	type:     "owner"
 		op:       "eq"
 		subject:  1

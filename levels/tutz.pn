@@ -201,9 +201,9 @@ conditions:
 				reflexive:  true
 				enable:     12
 		value:    50000
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             3
+	*	type:      "subject"
+		op:        "eq"
+		subject:   3
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -221,12 +221,12 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     4
-		initially_disabled:  true
-		player:              0
-		value:               "control"
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             3
+		disabled:  true
+		player:    0
+		value:     "control"
+	*	type:      "subject"
+		op:        "eq"
+		subject:   3
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -244,12 +244,12 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     5
-		initially_disabled:  true
-		player:              0
-		value:               "control"
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             1
+		disabled:  true
+		player:    0
+		value:     "control"
+	*	type:      "subject"
+		op:        "eq"
+		subject:   1
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -259,12 +259,12 @@ conditions:
 						>	under your indirect control--and the buoy as the TARGET object--the
 						>	object to which you're ordering the drone to go. Press the Order to Go
 						>	Key, \i_#ORD_\i to send the drone to the buoy.
-		initially_disabled:  true
-		player:              0
-		value:               "target"
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             2
+		disabled:  true
+		player:    0
+		value:     "target"
+	*	type:      "subject"
+		op:        "eq"
+		subject:   2
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -274,13 +274,13 @@ conditions:
 						>	under your indirect control--and the buoy as the TARGET object--the
 						>	object to which you're ordering the drone to go. Press the Order to Go
 						>	Key, \i_#ORD_\i to send the drone to the buoy.
-		initially_disabled:  true
-		player:              0
-		value:               "target"
-	*	type:                "distance"
-		op:                  "lt"
-		subject:             3
-		object:              1
+		disabled:  true
+		player:    0
+		value:     "target"
+	*	type:      "distance"
+		op:        "lt"
+		subject:   3
+		object:    1
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -289,12 +289,12 @@ conditions:
 					*	>	Good job. The drone successfully reached the buoy. You can send your
 						>	ships almost anywhere--to planets, to other ships, or even to your own
 						>	ship.
-		initially_disabled:  true
-		value:               50000
-	*	type:                "distance"
-		op:                  "lt"
-		subject:             3
-		object:              2
+		disabled:  true
+		value:     50000
+	*	type:      "distance"
+		op:        "lt"
+		subject:   3
+		object:    2
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -303,11 +303,11 @@ conditions:
 					*	>	Good job. The drone successfully reached the buoy. You can send your
 						>	ships almost anywhere--to planets, to other ships, or even to your own
 						>	ship.
-		initially_disabled:  true
-		value:               50000
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             1
+		disabled:  true
+		value:     50000
+	*	type:      "subject"
+		op:        "eq"
+		subject:   1
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -320,12 +320,12 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     10
-		initially_disabled:  true
-		player:              0
-		value:               "target"
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             2
+		disabled:  true
+		player:    0
+		value:     "target"
+	*	type:      "subject"
+		op:        "eq"
+		subject:   2
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -338,12 +338,12 @@ conditions:
 						>	select the practice drone as the CONTROL object by using the mouse to
 						>	click on it, or by pointing your ship at it and pressing the \i_#SFO_\i
 						>	key.
-		initially_disabled:  true
-		player:              0
-		value:               "target"
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             3
+		disabled:  true
+		player:    0
+		value:     "target"
+	*	type:      "subject"
+		op:        "eq"
+		subject:   3
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -353,13 +353,13 @@ conditions:
 						>	under your indirect control--and the buoy as the TARGET object--the
 						>	object to which you're ordering the drone to go. Press the Order to Go
 						>	Key, \i_#ORD_\i to send the drone to the buoy.
-		initially_disabled:  true
-		player:              0
-		value:               "control"
-	*	type:                "distance"
-		op:                  "lt"
-		subject:             3
-		object:              1
+		disabled:  true
+		player:    0
+		value:     "control"
+	*	type:      "distance"
+		op:        "lt"
+		subject:   3
+		object:    1
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -373,12 +373,12 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     7
-		initially_disabled:  true
-		value:               50000
-	*	type:                "distance"
-		op:                  "lt"
-		subject:             3
-		object:              2
+		disabled:  true
+		value:     50000
+	*	type:      "distance"
+		op:        "lt"
+		subject:   3
+		object:    2
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -392,8 +392,8 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				disable:    11
-		initially_disabled:  true
-		value:               50000
+		disabled:  true
+		value:     50000
 	*	type:     "distance"
 		op:       "lt"
 		subject:  "player"
@@ -420,9 +420,9 @@ conditions:
 				reflexive:  true
 				enable:     14
 		value:    50000
-	*	type:                "subject"
-		op:                  "eq"
-		subject:             5
+	*	type:      "subject"
+		op:        "eq"
+		subject:   5
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -434,9 +434,9 @@ conditions:
 						>	to build, at this moon, your only choice is to build a practice drone.
 						>	From the build menu press the Computer Accept Key \i_#ACT_\i to build a
 						>	drone.
-		initially_disabled:  true
-		player:              0
-		value:               "control"
+		disabled:  true
+		player:    0
+		value:     "control"
 	*	type:     "distance"
 		op:       "lt"
 		subject:  "player"
