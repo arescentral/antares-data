@@ -1019,10 +1019,6 @@ conditions:
 		disabled:  true
 		player:    1
 		value:     0
-	*	type:        "false"
-		subject:     0
-		object:      0
-		persistent:  true
 starmap:  {left: 314, top: 275, right: 346, bottom: 299}
 angle:    8
 skip:     "ch03"
