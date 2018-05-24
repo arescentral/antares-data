@@ -15,14 +15,12 @@
 	hue:      "salmon"
 	style:    "large"
 *	type:    "text"
-	id:      2
 	bounds:  {left: 160, top: 150, right: 480, bottom: 250}
 	text:
 		>	Start the chapter over, or quit to the main menu?
 	hue:     "orange"
 	style:   "large"
 *	type:    "rect"
-	id:      3
 	bounds:  {left: 140, top: 150, right: 500, bottom: 290}
 	hue:     "orange"
 	style:   "large"

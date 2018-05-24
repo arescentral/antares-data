@@ -55,30 +55,24 @@
 	style:   "large"
 
 *	type:     "picture"
-	id:       8
 	bounds:   {left: 2, top: 0, right: 102, bottom: 481}
 	picture:  "gui/tablet/left"
 *	type:     "picture"
-	id:       9
 	bounds:   {left: 35, top: 0, right: 615, bottom: 100}
 	picture:  "gui/tablet/top"
 *	type:     "picture"
-	id:       10
 	bounds:   {left: 607, top: 0, right: 707, bottom: 480}
 	picture:  "gui/tablet/right"
 *	type:     "picture"
-	id:       11
 	bounds:   {left: 35, top: 456, right: 615, bottom: 556}
 	picture:  "gui/tablet/bottom"
 
 *	type:    "rect"
-	id:      12
 	bounds:  {left: 53, top: 92, right: 588, bottom: 293}
 	label:   "Sound Options"
 	hue:     "pale purple"
 	style:   "large"
 *	type:    "rect"
-	id:      13
 	bounds:  {left: 73, top: 235, right: 567, bottom: 276}
 	label:   "Volume"
 	hue:     "pale purple"

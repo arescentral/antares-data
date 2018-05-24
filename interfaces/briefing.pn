@@ -24,24 +24,19 @@
 	style:    "large"
 
 *	type:     "picture"
-	id:       3
 	bounds:   {left: 2, top: 0, right: 102, bottom: 481}
 	picture:  "gui/tablet/left"
 *	type:     "picture"
-	id:       4
 	bounds:   {left: 35, top: 0, right: 615, bottom: 100}
 	picture:  "gui/tablet/top"
 *	type:     "picture"
-	id:       5
 	bounds:   {left: 607, top: 0, right: 707, bottom: 480}
 	picture:  "gui/tablet/right"
 *	type:     "picture"
-	id:       6
 	bounds:   {left: 35, top: 456, right: 615, bottom: 556}
 	picture:  "gui/tablet/bottom"
 
 *	type:    "rect"
-	id:      7
 	bounds:  {left: 54, top: 58, right: 587, bottom: 419}
 	label:   "Mission Analysis"
 	hue:     "tan"

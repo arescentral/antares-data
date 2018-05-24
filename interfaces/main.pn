@@ -56,18 +56,14 @@
 	style:    "large"
 
 *	type:     "picture"
-	id:       7
 	bounds:   {left: 0, top: 245, right: 178, bottom: 471}
 	picture:  "gui/main/left"
 *	type:     "picture"
-	id:       8
 	bounds:   {left: 0, top: 0, right: 640, bottom: 245}
 	picture:  "gui/main/top"
 *	type:     "picture"
-	id:       9
 	bounds:   {left: 460, top: 245, right: 640, bottom: 471}
 	picture:  "gui/main/right"
 *	type:     "picture"
-	id:       10
 	bounds:   {left: 0, top: 456, right: 640, bottom: 480}
 	picture:  "gui/main/bottom"

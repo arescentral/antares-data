@@ -32,30 +32,24 @@
 	style:    "large"
 
 *	type:    "rect"
-	id:      4
 	bounds:  {left: 70, top: 129, right: 570, bottom: 269}
 	hue:     "aqua"
 	style:   "small"
 
 *	type:     "picture"
-	id:       5
 	bounds:   {left: 2, top: 0, right: 102, bottom: 481}
 	picture:  "gui/tablet/left"
 *	type:     "picture"
-	id:       6
 	bounds:   {left: 35, top: 0, right: 615, bottom: 100}
 	picture:  "gui/tablet/top"
 *	type:     "picture"
-	id:       7
 	bounds:   {left: 607, top: 0, right: 707, bottom: 480}
 	picture:  "gui/tablet/right"
 *	type:     "picture"
-	id:       8
 	bounds:   {left: 35, top: 456, right: 615, bottom: 556}
 	picture:  "gui/tablet/bottom"
 
 *	type:    "rect"
-	id:      9
 	bounds:  {left: 54, top: 105, right: 587, bottom: 346}
 	label:   "Select Level"
 	hue:     "aqua"
