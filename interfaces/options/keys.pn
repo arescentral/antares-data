@@ -141,7 +141,7 @@
 					hue:     "aqua"
 					style:   "small"
 				*	type:    "button"
-					id:      24
+					id:      25
 					bounds:  {left: 339, top: 275, right: 560, bottom: 285}
 					label:   "Computer Cancel\/Back Up"
 					hue:     "aqua"
