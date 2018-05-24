@@ -1,4 +1,5 @@
 *	type:     "button"
+	id:       0
 	bounds:   {left: 180, top: 210, right: 460, bottom: 220}
 	label:    "Start Chapter Over"
 	key:      "RTRN"
@@ -6,6 +7,7 @@
 	hue:      "gold"
 	style:    "large"
 *	type:     "button"
+	id:       1
 	bounds:   {left: 181, top: 250, right: 461, bottom: 260}
 	label:    "Quit to Main Menu"
 	key:      "Q"
@@ -13,12 +15,14 @@
 	hue:      "salmon"
 	style:    "large"
 *	type:    "text"
+	id:      2
 	bounds:  {left: 160, top: 150, right: 480, bottom: 250}
 	text:
 		>	Start the chapter over, or quit to the main menu?
 	hue:     "orange"
 	style:   "large"
 *	type:    "rect"
+	id:      3
 	bounds:  {left: 140, top: 150, right: 500, bottom: 290}
 	hue:     "orange"
 	style:   "large"

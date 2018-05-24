@@ -1,4 +1,5 @@
 *	type:     "button"
+	id:       0
 	bounds:   {left: 180, top: 230, right: 460, bottom: 240}
 	label:    "Start Tutorial Over"
 	key:      "RTRN"
@@ -6,6 +7,7 @@
 	hue:      "gold"
 	style:    "large"
 *	type:     "button"
+	id:       1
 	bounds:   {left: 180, top: 310, right: 460, bottom: 320}
 	label:    "Quit to Main Menu"
 	key:      "Q"
@@ -13,6 +15,7 @@
 	hue:      "salmon"
 	style:    "large"
 *	type:    "text"
+	id:      2
 	bounds:  {left: 160, top: 150, right: 480, bottom: 250}
 	text:
 		>	Resume the tutorial, start the tutorial over, skip the tutorial, or quit
@@ -20,10 +23,12 @@
 	hue:     "indigo"
 	style:   "large"
 *	type:    "rect"
+	id:      3
 	bounds:  {left: 140, top: 150, right: 500, bottom: 330}
 	hue:     "pale purple"
 	style:   "large"
 *	type:     "button"
+	id:       4
 	bounds:   {left: 180, top: 190, right: 460, bottom: 200}
 	label:    "Resume Tutorial"
 	key:      "ESC"
@@ -31,6 +36,7 @@
 	hue:      "pale green"
 	style:    "large"
 *	type:     "button"
+	id:       5
 	bounds:   {left: 180, top: 270, right: 460, bottom: 280}
 	label:    "Skip Tutorial"
 	key:      "S"
