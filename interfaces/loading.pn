@@ -1,5 +1,6 @@
-*	type:    "rect"
-	bounds:  {left: 226, top: 227, right: 430, bottom: 244}
-	label:   "Loading…"
-	hue:     "pale green"
-	style:   "large"
+items:
+	*	type:    "rect"
+		bounds:  {left: 226, top: 227, right: 430, bottom: 244}
+		label:   "Loading…"
+		hue:     "pale green"
+		style:   "large"

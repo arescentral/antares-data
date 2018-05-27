@@ -1,69 +1,70 @@
-*	type:     "button"
-	id:       0
-	bounds:   {left: 207, top: 258, right: 427, bottom: 268}
-	label:    "Start New Game"
-	key:      "S"
-	gamepad:  "A"
-	hue:      "gold"
-	style:    "large"
-*	type:     "button"
-	id:       1
-	bounds:   {left: 207, top: 284, right: 427, bottom: 294}
-	label:    "Start Network Game"
-	key:      "N"
-	gamepad:  "B"
-	hue:      "green"
-	style:    "large"
-*	type:     "button"
-	id:       2
-	bounds:   {left: 207, top: 373, right: 427, bottom: 383}
-	label:    "Options"
-	key:      "O"
-	gamepad:  "LEFT"
-	hue:      "pale green"
-	style:    "large"
-*	type:     "button"
-	id:       3
-	bounds:   {left: 207, top: 433, right: 427, bottom: 443}
-	label:    "Quit"
-	key:      "Q"
-	gamepad:  "BACK"
-	hue:      "salmon"
-	style:    "large"
-*	type:     "button"
-	id:       4
-	bounds:   {left: 207, top: 399, right: 427, bottom: 409}
-	label:    "About Ares"
-	key:      "A"
-	gamepad:  "RGHT"
-	hue:      "tan"
-	style:    "large"
-*	type:     "button"
-	id:       5
-	bounds:   {left: 207, top: 336, right: 427, bottom: 346}
-	label:    "Demo"
-	key:      "D"
-	gamepad:  "Y"
-	hue:      "tan"
-	style:    "large"
-*	type:     "button"
-	id:       6
-	bounds:   {left: 207, top: 310, right: 427, bottom: 320}
-	label:    "Replay Intro"
-	key:      "R"
-	gamepad:  "X"
-	hue:      "gray"
-	style:    "large"
+items:
+	*	type:     "button"
+		id:       0
+		bounds:   {left: 207, top: 258, right: 427, bottom: 268}
+		label:    "Start New Game"
+		key:      "S"
+		gamepad:  "A"
+		hue:      "gold"
+		style:    "large"
+	*	type:     "button"
+		id:       1
+		bounds:   {left: 207, top: 284, right: 427, bottom: 294}
+		label:    "Start Network Game"
+		key:      "N"
+		gamepad:  "B"
+		hue:      "green"
+		style:    "large"
+	*	type:     "button"
+		id:       2
+		bounds:   {left: 207, top: 373, right: 427, bottom: 383}
+		label:    "Options"
+		key:      "O"
+		gamepad:  "LEFT"
+		hue:      "pale green"
+		style:    "large"
+	*	type:     "button"
+		id:       3
+		bounds:   {left: 207, top: 433, right: 427, bottom: 443}
+		label:    "Quit"
+		key:      "Q"
+		gamepad:  "BACK"
+		hue:      "salmon"
+		style:    "large"
+	*	type:     "button"
+		id:       4
+		bounds:   {left: 207, top: 399, right: 427, bottom: 409}
+		label:    "About Ares"
+		key:      "A"
+		gamepad:  "RGHT"
+		hue:      "tan"
+		style:    "large"
+	*	type:     "button"
+		id:       5
+		bounds:   {left: 207, top: 336, right: 427, bottom: 346}
+		label:    "Demo"
+		key:      "D"
+		gamepad:  "Y"
+		hue:      "tan"
+		style:    "large"
+	*	type:     "button"
+		id:       6
+		bounds:   {left: 207, top: 310, right: 427, bottom: 320}
+		label:    "Replay Intro"
+		key:      "R"
+		gamepad:  "X"
+		hue:      "gray"
+		style:    "large"
 
-*	type:     "picture"
-	bounds:   {left: 0, top: 245, right: 178, bottom: 471}
-	picture:  "gui/main/left"
-*	type:     "picture"
-	bounds:   {left: 0, top: 0, right: 640, bottom: 245}
-	picture:  "gui/main/top"
-*	type:     "picture"
-	bounds:   {left: 460, top: 245, right: 640, bottom: 471}
-	picture:  "gui/main/right"
-*	type:     "picture"
-	bounds:   {left: 0, top: 456, right: 640, bottom: 480}
-	picture:  "gui/main/bottom"
+	*	type:     "picture"
+		bounds:   {left: 0, top: 245, right: 178, bottom: 471}
+		picture:  "gui/main/left"
+	*	type:     "picture"
+		bounds:   {left: 0, top: 0, right: 640, bottom: 245}
+		picture:  "gui/main/top"
+	*	type:     "picture"
+		bounds:   {left: 460, top: 245, right: 640, bottom: 471}
+		picture:  "gui/main/right"
+	*	type:     "picture"
+		bounds:   {left: 0, top: 456, right: 640, bottom: 480}
+		picture:  "gui/main/bottom"
