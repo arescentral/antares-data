@@ -1,3 +1,4 @@
+fullscreen:  true
 items:
 	*	type:    "checkbox"
 		id:      0

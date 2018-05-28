@@ -1,3 +1,4 @@
+fullscreen:  false
 items:
 	*	type:     "button"
 		id:       0

@@ -1,3 +1,4 @@
+fullscreen:  true
 items:
 	*	type:    "rect"
 		bounds:  {left: 226, top: 227, right: 430, bottom: 244}
