@@ -9,6 +9,7 @@ items:
 		hue:      "tan"
 		style:    "large"
 	*	type:    "rect"
+		id:      1
 		bounds:  {left: 20, top: 10, right: 460, bottom: 450}
 		hue:     "tan"
 		style:   "large"

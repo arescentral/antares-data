@@ -324,6 +324,7 @@ items:
 			>	selected. <ESC>, <RETURN>, and <CAPS LOCK> are pre-assigned and cannot
 			>	be used.
 	*	type:    "text"
+		id:      10
 		bounds:  {left: 46, top: 313, right: 594, bottom: 339}
 		hue:     "orange"
 		style:   "small"

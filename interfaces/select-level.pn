@@ -34,6 +34,7 @@ items:
 		style:    "large"
 
 	*	type:    "rect"
+		id:      4
 		bounds:  {left: 70, top: 129, right: 570, bottom: 269}
 		hue:     "aqua"
 		style:   "small"

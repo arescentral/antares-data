@@ -39,6 +39,7 @@ items:
 		picture:  "gui/tablet/bottom"
 
 	*	type:    "rect"
+		id:      7
 		bounds:  {left: 54, top: 58, right: 587, bottom: 419}
 		label:   "Mission Analysis"
 		hue:     "tan"

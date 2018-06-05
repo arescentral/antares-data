@@ -75,6 +75,7 @@ items:
 		hue:     "pale purple"
 		style:   "large"
 	*	type:    "rect"
+		id:      13
 		bounds:  {left: 73, top: 235, right: 567, bottom: 276}
 		label:   "Volume"
 		hue:     "pale purple"

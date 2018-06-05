@@ -1,6 +1,7 @@
 fullscreen:  true
 items:
 	*	type:    "rect"
+		id:      0
 		bounds:  {left: 226, top: 227, right: 430, bottom: 244}
 		label:   "Loading…"
 		hue:     "pale green"
