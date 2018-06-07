@@ -20,6 +20,7 @@ items:
 		style:   "small"
 
 	*	type:    "tab-box"
+		id:      8
 		bounds:  {left: 56, top: 62, right: 584, bottom: 296}
 		hue:     "aqua"
 		style:   "large"
