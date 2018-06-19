@@ -89,7 +89,8 @@ conditions:
 				reflexive:  true
 				override:
 					subject:  {initial: 0}
-				kind:       "stop"
+				kind:       "set"
+				value:      0.0
 			*	type:  "message"
 				id:    5700
 				pages:

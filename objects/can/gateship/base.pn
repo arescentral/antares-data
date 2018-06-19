@@ -36,7 +36,8 @@ destroy:
 			reflexive:  true
 		*	type:       "push"
 			reflexive:  true
-			kind:       "stop"
+			kind:       "set"
+			value:      0.0
 		*	type:       "create"
 			reflexive:  true
 			base:       "sfx/jump/large"

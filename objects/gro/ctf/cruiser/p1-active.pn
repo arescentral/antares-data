@@ -40,7 +40,8 @@ destroy:
 			value:      1000
 		*	type:       "push"
 			reflexive:  true
-			kind:       "stop"
+			kind:       "set"
+			value:      0.0
 		*	type:       "morph"
 			reflexive:  true
 			base:       "gro/ctf/cruiser/p1-inactive"

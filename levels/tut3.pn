@@ -108,10 +108,11 @@ conditions:
 	*	type:      "time"
 		op:        "ge"
 		action:
-			*	type:  "push"
+			*	type:   "push"
 				override:
 					subject:  {initial: 0}
-				kind:  "stop"
+				kind:   "set"
+				value:  0.0
 			*	type:  "key"
 				disable:
 					*	"up"

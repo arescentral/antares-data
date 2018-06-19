@@ -77,7 +77,8 @@ conditions:
 				reflexive:  true
 				override:
 					subject:  {initial: 0}
-				kind:       "stop"
+				kind:       "set"
+				value:      0.0
 		duration:  "-3m59.85s"
 	*	type:        "counter"
 		op:          "ge"

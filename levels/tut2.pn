@@ -87,12 +87,14 @@ conditions:
 				reflexive:  true
 				override:
 					subject:  {initial: 0}
-				kind:       "stop"
+				kind:       "set"
+				value:      0.0
 			*	type:       "push"
 				reflexive:  true
 				override:
 					subject:  {initial: 1}
-				kind:       "stop"
+				kind:       "set"
+				value:      0.0
 			*	type:  "key"
 				disable:
 					*	"up"
@@ -875,7 +877,8 @@ conditions:
 				reflexive:  true
 				override:
 					subject:  {initial: 0}
-				kind:       "stop"
+				kind:       "set"
+				value:      0.0
 			*	type:  "message"
 				id:    5843
 				pages:

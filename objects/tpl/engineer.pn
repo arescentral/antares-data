@@ -52,7 +52,8 @@ arrive:
 			if:
 				tags:   {flak: true}
 				owner:  "different"
-			kind:       "stop"
+			kind:       "set"
+			value:      0.0
 		*	type:       "cap-speed"
 			reflexive:  true
 			if:

@@ -22,4 +22,5 @@ activate:
 		*	type:       "push"
 			reflexive:  true
 			delay:      "7t"
-			kind:       "stop"
+			kind:       "set"
+			value:      0.0
