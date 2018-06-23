@@ -15,8 +15,10 @@ activate:
 			count:              {begin: 1, end: 3}
 			relative_velocity:  true
 			distance:           256
+			within:             "square"
 		*	type:       "create"
 			reflexive:  true
 			base:       "gai/fighter"
 			count:      {begin: 1, end: 5}
 			distance:   256
+			within:     "square"

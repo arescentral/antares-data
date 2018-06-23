@@ -55,6 +55,7 @@ collide:
 			base:       "zrb/spawn"
 			count:      {begin: -1, end: 3}
 			distance:   2
+			within:     "square"
 arrive:            {distance: 0}
 ai:
 	target:

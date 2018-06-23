@@ -14,13 +14,16 @@ activate:
 			base:       "can/cruiser"
 			count:      {begin: 0, end: 2}
 			distance:   256
+			within:     "square"
 		*	type:       "create"
 			reflexive:  true
 			base:       "can/fighter"
 			count:      {begin: 0, end: 2}
 			distance:   256
+			within:     "square"
 		*	type:       "create"
 			reflexive:  true
 			base:       "can/schooner"
 			count:      {begin: 0, end: 2}
 			distance:   256
+			within:     "square"

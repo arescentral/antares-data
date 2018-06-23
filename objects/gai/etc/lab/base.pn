@@ -18,6 +18,7 @@ destroy:
 			base:       "obi/etc/obiard/turning"
 			count:      5
 			distance:   16
+			within:     "square"
 		*	type:       "fire"
 			reflexive:  true
 			override:

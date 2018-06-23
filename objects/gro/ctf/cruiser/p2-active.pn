@@ -35,6 +35,7 @@ destroy:
 				object:  {initial: 2}
 			origin:     "object"
 			distance:   600
+			within:     "square"
 		*	type:       "heal"
 			reflexive:  true
 			value:      1000

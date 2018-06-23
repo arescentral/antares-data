@@ -35,6 +35,7 @@ activate:
 			count:              {begin: 0, end: 3}
 			relative_velocity:  true
 			distance:           128
+			within:             "square"
 		*	type:               "create"
 			reflexive:          true
 			delay:              "20t"
@@ -42,6 +43,7 @@ activate:
 			count:              {begin: 0, end: 2}
 			relative_velocity:  true
 			distance:           128
+			within:             "square"
 		*	type:               "create"
 			reflexive:          true
 			delay:              "20t"
@@ -49,6 +51,7 @@ activate:
 			count:              {begin: 0, end: 4}
 			relative_velocity:  true
 			distance:           128
+			within:             "square"
 		*	type:               "create"
 			reflexive:          true
 			delay:              "20t"
@@ -56,6 +59,7 @@ activate:
 			count:              {begin: 0, end: 4}
 			relative_velocity:  true
 			distance:           128
+			within:             "square"
 		*	type:       "reveal"
 			reflexive:  true
 			which:      {begin: 4, end: 12}

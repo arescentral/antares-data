@@ -48,6 +48,7 @@ activate:
 			base:       "sfx/sparkle"
 			count:      {begin: 1, end: 3}
 			distance:   16
+			within:     "square"
 ai:
 	combat:
 		hated:    true

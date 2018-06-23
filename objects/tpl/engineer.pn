@@ -31,12 +31,14 @@ expire:
 			count:               {begin: 1, end: 3}
 			relative_direction:  true
 			distance:            32
+			within:              "square"
 		*	type:                "create"
 			reflexive:           true
 			base:                "sfx/debris/b"
 			count:               {begin: 1, end: 3}
 			relative_direction:  true
 			distance:            32
+			within:              "square"
 		*	type:                "create"
 			reflexive:           true
 			base:                "sfx/explosion/energy"

@@ -35,3 +35,4 @@ create:
 			relative_velocity:   true
 			relative_direction:  true
 			distance:            2
+			within:              "square"

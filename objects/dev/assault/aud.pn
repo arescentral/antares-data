@@ -20,4 +20,5 @@ activate:
 			base:       "aud/evat"
 			count:      10
 			distance:   4
+			within:     "square"
 			inherit:    true

@@ -15,9 +15,11 @@ activate:
 			relative_velocity:   true
 			relative_direction:  true
 			distance:            4096
+			within:              "square"
 		*	type:                "create"
 			reflexive:           true
 			base:                "ast/nasty"
 			count:               {begin: -4, end: 1}
 			relative_direction:  true
 			distance:            4096
+			within:              "square"

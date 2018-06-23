@@ -16,3 +16,4 @@ activate:
 			relative_velocity:   true
 			relative_direction:  true
 			distance:            1024
+			within:              "square"

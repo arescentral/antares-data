@@ -18,6 +18,7 @@ destroy:
 			base:       "uns/etc/human/turning"
 			count:      10
 			distance:   16
+			within:     "square"
 		*	type:       "morph"
 			reflexive:  true
 			base:       "sal/etc/lab/burning"

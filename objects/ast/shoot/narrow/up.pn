@@ -15,6 +15,7 @@ activate:
 			relative_velocity:   true
 			relative_direction:  true
 			distance:            1024
+			within:              "square"
 		*	type:                "create"
 			reflexive:           true
 			base:                "ast/nasty"
@@ -22,3 +23,4 @@ activate:
 			relative_velocity:   true
 			relative_direction:  true
 			distance:            1024
+			within:              "square"
