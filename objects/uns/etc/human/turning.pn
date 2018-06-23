@@ -19,11 +19,12 @@ icon:
 target:             {radar: true, order: true, lock: true}
 destroy:
 	action:
-		*	type:       "score"
-			reflexive:  true
-			which:      2
-			value:      1
-			player:     0
+		*	type:              "score"
+			reflexive:         true
+			check_conditions:  true
+			which:             2
+			value:             1
+			player:            0
 create:
 	action:
 		*	type:       "capture"
@@ -33,12 +34,13 @@ collide:
 	as:    {subject: true, object: true}
 	edge:  true
 	action:
-		*	type:    "score"
+		*	type:              "score"
 			if:
 				tags:  {rescue: true}
-			which:   0
-			value:   1
-			player:  0
+			check_conditions:  true
+			which:             0
+			value:             1
+			player:            0
 		*	type:  "kill"
 			if:
 				tags:  {rescue: true}

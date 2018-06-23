@@ -145,9 +145,10 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     {begin: 15, end: 18}
-			*	type:       "message"
-				reflexive:  true
-				id:         5500
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5500
 				pages:
 					*	>	At these two buoys, you can practice commanding a ship by sending it to
 						>	a destination. First, select the practice drone as the CONTROL object by
@@ -180,9 +181,10 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     {begin: 15, end: 18}
-			*	type:       "message"
-				reflexive:  true
-				id:         5500
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5500
 				pages:
 					*	>	At these two buoys, you can practice commanding a ship by sending it to
 						>	a destination. First, select the practice drone as the CONTROL object by
@@ -205,9 +207,10 @@ conditions:
 		op:        "eq"
 		subject:   3
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5501
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5501
 				pages:
 					*	>	Now select "Command Buoy A" as the TARGET object. This is where you will
 						>	tell the drone to go. While holding down the Target Key \i_#DST_\i
@@ -228,9 +231,10 @@ conditions:
 		op:        "eq"
 		subject:   3
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5502
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5502
 				pages:
 					*	>	Now select "Command Buoy B" as the TARGET object. This is where you will
 						>	tell the drone to go. While holding down the \i_#DST_\i key, either
@@ -251,9 +255,10 @@ conditions:
 		op:        "eq"
 		subject:   1
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5503
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5503
 				pages:
 					*	>	You have now selected the drone as the CONTROL object--the ship which is
 						>	under your indirect control--and the buoy as the TARGET object--the
@@ -266,9 +271,10 @@ conditions:
 		op:        "eq"
 		subject:   2
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5503
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5503
 				pages:
 					*	>	You have now selected the drone as the CONTROL object--the ship which is
 						>	under your indirect control--and the buoy as the TARGET object--the
@@ -282,9 +288,10 @@ conditions:
 		subject:   3
 		object:    1
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5504
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5504
 				pages:
 					*	>	Good job. The drone successfully reached the buoy. You can send your
 						>	ships almost anywhere--to planets, to other ships, or even to your own
@@ -296,9 +303,10 @@ conditions:
 		subject:   3
 		object:    2
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5504
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5504
 				pages:
 					*	>	Good job. The drone successfully reached the buoy. You can send your
 						>	ships almost anywhere--to planets, to other ships, or even to your own
@@ -309,9 +317,10 @@ conditions:
 		op:        "eq"
 		subject:   1
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5505
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5505
 				pages:
 					*	>	You've already got the right buoy selected as the TARGET object, so now
 						>	select the practice drone as the CONTROL object by using the mouse to
@@ -330,9 +339,10 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     10
-			*	type:       "message"
-				reflexive:  true
-				id:         5505
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5505
 				pages:
 					*	>	You've already got the right buoy selected as the TARGET object, so now
 						>	select the practice drone as the CONTROL object by using the mouse to
@@ -345,9 +355,10 @@ conditions:
 		op:        "eq"
 		subject:   3
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5503
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5503
 				pages:
 					*	>	You have now selected the drone as the CONTROL object--the ship which is
 						>	under your indirect control--and the buoy as the TARGET object--the
@@ -408,9 +419,10 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     {begin: 15, end: 18}
-			*	type:       "message"
-				reflexive:  true
-				id:         5506
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5506
 				pages:
 					*	>	At this moon, you can practice building ships. Before you can build at a
 						>	base that you own, it first must be selected. Select the moon by
@@ -424,9 +436,10 @@ conditions:
 		op:        "eq"
 		subject:   5
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5507
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5507
 				pages:
 					*	>	Use the computer control keys (\i_#PRV_\i and \i_#NXT_\i to select,
 						>	\i_#ACT_\i to accept and \i_#CNC_\i to back up) to navigate to the
@@ -457,9 +470,10 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     {begin: 16, end: 18}
-			*	type:       "message"
-				reflexive:  true
-				id:         5509
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5509
 				pages:
 					*	>	The practice drones here are programmed to simulate combat with enemy
 						>	ships. "Killing" a drone will temporarily deactivate it. Likewise, if
@@ -491,9 +505,10 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     17
-			*	type:       "message"
-				reflexive:  true
-				id:         5510
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5510
 				pages:
 					*	>	When you've gotten some experience selecting objects, the ships at this
 						>	buoy are at your disposal. For practice, select one of them, then try
@@ -520,9 +535,10 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     15
-			*	type:       "message"
-				reflexive:  true
-				id:         5511
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5511
 				pages:
 					*	>	Welcome to Omisha Station, where you can practice some of the basic
 						>	skills you'll need on your mission. Before you go anywhere, you should

@@ -64,8 +64,9 @@ conditions:
 	*	type:      "time"
 		op:        "ge"
 		action:
-			*	type:  "message"
-				id:    5800
+			*	type:              "message"
+				check_conditions:  true
+				id:                5800
 				pages:
 					*	>	Welcome to Lesson 2.
 						>
@@ -130,8 +131,9 @@ conditions:
 		op:        "eq"
 		subject:   1
 		action:
-			*	type:  "message"
-				id:    5803
+			*	type:              "message"
+				check_conditions:  true
+				id:                5803
 				pages:
 					*	>	#O1#Good. This ship has been selected as the
 						|	Control Object.
@@ -180,8 +182,9 @@ conditions:
 		op:        "eq"
 		subject:   6
 		action:
-			*	type:  "message"
-				id:    5811
+			*	type:              "message"
+				check_conditions:  true
+				id:                5811
 				pages:
 					*	>	Sometimes, several ships are crowded together. How can you select the
 						>	ship you want when there are other ships covering it?
@@ -218,9 +221,10 @@ conditions:
 		op:        "eq"
 		subject:   5
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5813
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5813
 				pages:
 					*	>	Very good.
 						>
@@ -287,8 +291,9 @@ conditions:
 		op:        "eq"
 		subject:   1
 		action:
-			*	type:  "message"
-				id:    5815
+			*	type:              "message"
+				check_conditions:  true
+				id:                5815
 				pages:
 					*	>	Good.
 						>
@@ -339,8 +344,9 @@ conditions:
 		op:        "eq"
 		subject:   5
 		action:
-			*	type:  "message"
-				id:    5817
+			*	type:              "message"
+				check_conditions:  true
+				id:                5817
 				pages:
 					*	>	Good. Let’s try it again, but this time we’ll move the ships far away.
 						|	\i_[more]_\i_
@@ -390,8 +396,9 @@ conditions:
 		op:        "eq"
 		subject:   2
 		action:
-			*	type:  "message"
-				id:    5819
+			*	type:              "message"
+				check_conditions:  true
+				id:                5819
 				pages:
 					*	>	Very good. Now, one last time.
 						>
@@ -459,9 +466,10 @@ conditions:
 		op:        "eq"
 		subject:   5
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5823
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5823
 				pages:
 					*	>	Great! Now you know how to select ships even when you can’t see them.
 						|	\i_[more]_\i_
@@ -486,9 +494,10 @@ conditions:
 		op:        "eq"
 		subject:   6
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5825
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5825
 				pages:
 					*	>	Good.
 						>
@@ -531,9 +540,10 @@ conditions:
 		op:        "eq"
 		subject:   1
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5827
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5827
 				pages:
 					*	>	#O1#Good. This ship has been selected as the
 						|	Target Object.
@@ -573,9 +583,10 @@ conditions:
 		op:        "eq"
 		subject:   6
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5831
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5831
 				pages:
 					*	>	Good.
 						>
@@ -603,9 +614,10 @@ conditions:
 		subject:   7
 		object:    1
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5833
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5833
 				pages:
 					*	>	Perfect.
 						>
@@ -652,8 +664,9 @@ conditions:
 		op:        "eq"
 		subject:   1
 		action:
-			*	type:  "message"
-				id:    5835
+			*	type:              "message"
+				check_conditions:  true
+				id:                5835
 				pages:
 					*	>	#O6#Good.
 						>
@@ -678,8 +691,9 @@ conditions:
 		op:        "eq"
 		subject:   6
 		action:
-			*	type:  "message"
-				id:    5836
+			*	type:              "message"
+				check_conditions:  true
+				id:                5836
 				pages:
 					*	>	#O7#OK, now try this Cantharan Transport, using
 						|	the Select Foe key, #SFO.
@@ -704,8 +718,9 @@ conditions:
 		op:        "eq"
 		subject:   7
 		action:
-			*	type:  "message"
-				id:    5837
+			*	type:              "message"
+				check_conditions:  true
+				id:                5837
 				pages:
 					*	>	Excellent.
 						>
@@ -747,8 +762,9 @@ conditions:
 		op:        "eq"
 		subject:   1
 		action:
-			*	type:  "message"
-				id:    5840
+			*	type:              "message"
+				check_conditions:  true
+				id:                5840
 				pages:
 					*	>	To activate the autopilot, hold down the Target key, \i_#DST_\i as you
 						>	press and release the Warp key, \i_#WRP_\i.
@@ -768,8 +784,9 @@ conditions:
 	*	type:      "autopilot"
 		op:        "eq"
 		action:
-			*	type:  "message"
-				id:    5841
+			*	type:              "message"
+				check_conditions:  true
+				id:                5841
 				pages:
 					*	>	Now watch what happens when your target decides to go somewhere.
 			*	type:       "zoom"
@@ -815,8 +832,9 @@ conditions:
 		subject:   1
 		object:    5
 		action:
-			*	type:  "message"
-				id:    5842
+			*	type:              "message"
+				check_conditions:  true
+				id:                5842
 				pages:
 					*	>	You’ll continue to follow this ship -- or any other target you care to
 						>	select -- until you press one of your movement keys. Accelerating or
@@ -879,8 +897,9 @@ conditions:
 					subject:  {initial: 0}
 				kind:       "set"
 				value:      0.0
-			*	type:  "message"
-				id:    5843
+			*	type:              "message"
+				check_conditions:  true
+				id:                5843
 				pages:
 					*	>	To complete this lesson, you must get to the planet. We’ve turned off
 						>	your thrust key, so you’ll have to use the autopilot to get there.

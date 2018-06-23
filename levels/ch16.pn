@@ -157,9 +157,10 @@ conditions:
 	*	type:      "time"
 		op:        "ge"
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5240
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5240
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
 						|	SOURCE: Science Vessel ISN 0917996
@@ -171,9 +172,10 @@ conditions:
 	*	type:      "time"
 		op:        "ge"
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5241
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5241
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
 						|	SOURCE: Science Vessel UNS 0917996
@@ -210,10 +212,11 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				disable:    2
-			*	type:       "message"
-				reflexive:  true
-				delay:      "6s"
-				id:         5243
+			*	type:              "message"
+				reflexive:         true
+				delay:             "6s"
+				check_conditions:  true
+				id:                5243
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
 						|	SOURCE: Human/Ishiman Coord. Control

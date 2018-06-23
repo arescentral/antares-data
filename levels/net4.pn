@@ -29,11 +29,12 @@ conditions:
 	*	type:     "destroyed"
 		op:       "eq"
 		action:
-			*	type:       "score"
-				reflexive:  true
-				which:      0
-				value:      1
-				player:     0
+			*	type:              "score"
+				reflexive:         true
+				check_conditions:  true
+				which:             0
+				value:             1
+				player:            0
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "6s"
@@ -45,11 +46,12 @@ conditions:
 	*	type:     "destroyed"
 		op:       "eq"
 		action:
-			*	type:       "score"
-				reflexive:  true
-				which:      0
-				value:      1
-				player:     1
+			*	type:              "score"
+				reflexive:         true
+				check_conditions:  true
+				which:             0
+				value:             1
+				player:            1
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "6s"

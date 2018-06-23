@@ -18,10 +18,11 @@ icon:
 target:            {lock: true}
 create:
 	action:
-		*	type:       "message"
-			reflexive:  true
-			delay:      "6s"
-			id:         5508
+		*	type:              "message"
+			reflexive:         true
+			delay:             "6s"
+			check_conditions:  true
+			id:                5508
 			pages:
 				*	>	Good work. You built a practice drone. Normally, you can give ships you
 					>	build commands, or assume control of them. Here, however, the drone will

@@ -91,8 +91,9 @@ conditions:
 					subject:  {initial: 0}
 				kind:       "set"
 				value:      0.0
-			*	type:  "message"
-				id:    5700
+			*	type:              "message"
+				check_conditions:  true
+				id:                5700
 				pages:
 					*	>	#L322##72,363#Welcome to lesson 1.
 						>
@@ -109,8 +110,9 @@ conditions:
 	*	type:    "computer"
 		op:      "eq"
 		action:
-			*	type:  "message"
-				id:    5701
+			*	type:              "message"
+				check_conditions:  true
+				id:                5701
 				pages:
 					*	>	#L322##116,337#Good.
 						>
@@ -139,8 +141,9 @@ conditions:
 	*	type:      "computer"
 		op:        "eq"
 		action:
-			*	type:  "message"
-				id:    5750
+			*	type:              "message"
+				check_conditions:  true
+				id:                5750
 				pages:
 					*	>	#L322##72,363#Good. You can also use the #PRV
 						|	and #NXT keys to select commands
@@ -181,8 +184,9 @@ conditions:
 	*	type:      "zoom"
 		op:        "eq"
 		action:
-			*	type:  "message"
-				id:    5711
+			*	type:              "message"
+				check_conditions:  true
+				id:                5711
 				pages:
 					*	>	Very good.
 						>
@@ -270,9 +274,10 @@ conditions:
 	*	type:      "zoom"
 		op:        "eq"
 		action:
-			*	type:       "message"
-				reflexive:  true
-				id:         5715
+			*	type:              "message"
+				reflexive:         true
+				check_conditions:  true
+				id:                5715
 				pages:
 					*	>	As you saw with the transport, when the display is on a very small scale
 						>	(anything below \f0c1:4\r), symbols are used to represent the objects in
@@ -353,8 +358,9 @@ conditions:
 	*	type:      "zoom"
 		op:        "eq"
 		action:
-			*	type:  "message"
-				id:    5721
+			*	type:              "message"
+				check_conditions:  true
+				id:                5721
 				pages:
 					*	>	Now let’s get to the control of your ship.
 						|	\i_[more]_\i_
@@ -596,8 +602,9 @@ conditions:
 	*	type:      "computer"
 		op:        "eq"
 		action:
-			*	type:  "message"
-				id:    5751
+			*	type:              "message"
+				check_conditions:  true
+				id:                5751
 				pages:
 					*	>	#L322##72,363#Now press the Computer Accept key,
 						|	#ACT, to go to the Message Menu.
@@ -611,8 +618,9 @@ conditions:
 	*	type:      "computer"
 		op:        "eq"
 		action:
-			*	type:  "message"
-				id:    5704
+			*	type:              "message"
+				check_conditions:  true
+				id:                5704
 				pages:
 					*	>	#L322##116,340#Good.
 						|	Now execute the Next Page/Clear command

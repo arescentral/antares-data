@@ -130,8 +130,9 @@ conditions:
 			*	type:    "pay"
 				value:   2500.0
 				player:  0
-			*	type:  "message"
-				id:    5900
+			*	type:              "message"
+				check_conditions:  true
+				id:                5900
 				pages:
 					*	>	Welcome to Lesson 3.
 						>
@@ -172,8 +173,9 @@ conditions:
 		op:        "eq"
 		subject:   1
 		action:
-			*	type:  "message"
-				id:    5905
+			*	type:              "message"
+				check_conditions:  true
+				id:                5905
 				pages:
 					*	>	To build at a particular base, it must be selected first.
 						>
@@ -209,8 +211,9 @@ conditions:
 	*	type:      "computer"
 		op:        "eq"
 		action:
-			*	type:  "message"
-				id:    5910
+			*	type:              "message"
+				check_conditions:  true
+				id:                5910
 				pages:
 					*	>	#L322##62,338#The Build Menu is a list of ships you can
 						|	build at the most recently selected base.
@@ -315,8 +318,9 @@ conditions:
 	*	type:      "building"
 		op:        "eq"
 		action:
-			*	type:  "message"
-				id:    5925
+			*	type:              "message"
+				check_conditions:  true
+				id:                5925
 				pages:
 					*	>	#R9##617,22#This is the Build Progress Indicator.
 						>
@@ -333,8 +337,9 @@ conditions:
 	*	type:      "counter"
 		op:        "ge"
 		action:
-			*	type:  "message"
-				id:    5930
+			*	type:              "message"
+				check_conditions:  true
+				id:                5930
 				pages:
 					*	>	#O5#Good -- the ship was built.
 						>
@@ -352,8 +357,9 @@ conditions:
 		op:        "eq"
 		subject:   5
 		action:
-			*	type:  "message"
-				id:    5935
+			*	type:              "message"
+				check_conditions:  true
+				id:                5935
 				pages:
 					*	>	#L181##112,235#All ships have targets. This newly built
 						|	ship’s target is indicated here, in the
@@ -395,8 +401,9 @@ conditions:
 		op:       "eq"
 		subject:  2
 		action:
-			*	type:  "message"
-				id:    5940
+			*	type:              "message"
+				check_conditions:  true
+				id:                5940
 				pages:
 					*	>	#L322##87,352#OK, now build another Cruiser (double click
 						|	on the Cruiser item or press the Computer
@@ -425,8 +432,9 @@ conditions:
 	*	type:     "counter"
 		op:       "eq"
 		action:
-			*	type:  "message"
-				id:    5945
+			*	type:              "message"
+				check_conditions:  true
+				id:                5945
 				pages:
 					*	>	There it goes!
 						|	\i_[more]_\i_
@@ -474,8 +482,9 @@ conditions:
 		op:        "eq"
 		subject:   2
 		action:
-			*	type:  "message"
-				id:    5950
+			*	type:              "message"
+				check_conditions:  true
+				id:                5950
 				pages:
 					*	>	#O1#Now target this planet.
 						>
@@ -497,8 +506,9 @@ conditions:
 		op:        "eq"
 		subject:   1
 		action:
-			*	type:  "message"
-				id:    5955
+			*	type:              "message"
+				check_conditions:  true
+				id:                5955
 				pages:
 					*	>	#L181##112,235#OK, we’re about to give an order.
 						>
@@ -531,8 +541,9 @@ conditions:
 		subject:   1
 		object:    2
 		action:
-			*	type:  "message"
-				id:    5960
+			*	type:              "message"
+				check_conditions:  true
+				id:                5960
 				pages:
 					*	>	#O6#Good.
 						>
@@ -556,8 +567,9 @@ conditions:
 		op:        "eq"
 		subject:   6
 		action:
-			*	type:  "message"
-				id:    5965
+			*	type:              "message"
+				check_conditions:  true
+				id:                5965
 				pages:
 					*	>	#O1#We want to have the Cruiser target the
 						|	planet.
@@ -580,8 +592,9 @@ conditions:
 		subject:   6
 		object:    1
 		action:
-			*	type:  "message"
-				id:    5970
+			*	type:              "message"
+				check_conditions:  true
+				id:                5970
 				pages:
 					*	>	Good.
 						>
@@ -639,9 +652,10 @@ conditions:
 		op:        "eq"
 		subject:   1
 		action:
-			*	type:   "message"
-				delay:  "4s40t"
-				id:     5975
+			*	type:              "message"
+				delay:             "4s40t"
+				check_conditions:  true
+				id:                5975
 				pages:
 					*	>	Very good. You recaptured the planet. Transports must have a planet
 						>	targeted in order to capture it. Being near the planet isn’t enough.
@@ -670,8 +684,9 @@ conditions:
 		op:        "eq"
 		subject:   6
 		action:
-			*	type:  "message"
-				id:    5980
+			*	type:              "message"
+				check_conditions:  true
+				id:                5980
 				pages:
 					*	>	#O4#Good.
 						>
@@ -685,8 +700,9 @@ conditions:
 		op:        "eq"
 		subject:   4
 		action:
-			*	type:  "message"
-				id:    5985
+			*	type:              "message"
+				check_conditions:  true
+				id:                5985
 				pages:
 					*	>	#O6#Now send this ship to the Transport.
 						>
@@ -701,8 +717,9 @@ conditions:
 		subject:   6
 		object:    4
 		action:
-			*	type:  "message"
-				id:    5990
+			*	type:              "message"
+				check_conditions:  true
+				id:                5990
 				pages:
 					*	>	#O5#Good.
 						>
@@ -720,8 +737,9 @@ conditions:
 		subject:   5
 		object:    4
 		action:
-			*	type:  "message"
-				id:    5995
+			*	type:              "message"
+				check_conditions:  true
+				id:                5995
 				pages:
 					*	>	#O2#Now, one more time for this Heavy Cruiser.
 						>
@@ -734,8 +752,9 @@ conditions:
 		subject:   2
 		object:    4
 		action:
-			*	type:  "message"
-				id:    7000
+			*	type:              "message"
+				check_conditions:  true
+				id:                7000
 				pages:
 					*	>	Great. Now the transport has three friendly escorts.
 						>
@@ -769,8 +788,9 @@ conditions:
 		op:        "eq"
 		subject:   0
 		action:
-			*	type:  "message"
-				id:    7005
+			*	type:              "message"
+				check_conditions:  true
+				id:                7005
 				pages:
 					*	>	Now order the two standard Cruisers and the Heavy Cruiser to follow
 						>	you. 
@@ -810,8 +830,9 @@ conditions:
 		subject:   6
 		object:    0
 		action:
-			*	type:  "message"
-				id:    7010
+			*	type:              "message"
+				check_conditions:  true
+				id:                7010
 				pages:
 					*	>	Perfect.
 						>
@@ -850,8 +871,9 @@ conditions:
 	*	type:      "computer"
 		op:        "eq"
 		action:
-			*	type:  "message"
-				id:    7015
+			*	type:              "message"
+				check_conditions:  true
+				id:                7015
 				pages:
 					*	>	#L322##116,337#Transfer Control is the most useful--
 						|	and powerful-- command.
@@ -881,8 +903,9 @@ conditions:
 		op:        "eq"
 		subject:   2
 		action:
-			*	type:  "message"
-				id:    7020
+			*	type:              "message"
+				check_conditions:  true
+				id:                7020
 				pages:
 					*	>	#L322##116,337#The Heavy Cruiser is your Current
 						|	Control Object.
@@ -907,8 +930,9 @@ conditions:
 		op:        "eq"
 		subject:   2
 		action:
-			*	type:  "message"
-				id:    7025
+			*	type:              "message"
+				check_conditions:  true
+				id:                7025
 				pages:
 					*	>	#O2#Good.
 						>
