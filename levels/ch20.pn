@@ -178,10 +178,8 @@ conditions:
 		op:       "le"
 		subject:  2
 		action:
-			*	type:              "message"
-				reflexive:         true
-				check_conditions:  true
-				id:                5170
+			*	type:       "message"
+				reflexive:  true
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
 						|	SOURCE: UNS Musgrave
@@ -193,11 +191,9 @@ conditions:
 	*	type:      "ships"
 		op:        "eq"
 		action:
-			*	type:              "message"
-				reflexive:         true
-				delay:             "6s"
-				check_conditions:  true
-				id:                5171
+			*	type:       "message"
+				reflexive:  true
+				delay:      "6s"
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i NO KEY - NW2 BROAD BEAM
 						|	SOURCE: UNS Musgrave

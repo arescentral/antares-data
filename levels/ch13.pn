@@ -105,11 +105,9 @@ conditions:
 				reflexive:  true
 				delay:      "1.5s"
 				which:      [10]
-			*	type:              "message"
-				reflexive:         true
-				delay:             "0.5s"
-				check_conditions:  true
-				id:                5400
+			*	type:       "message"
+				reflexive:  true
+				delay:      "0.5s"
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
 						|	SOURCE: RICS 105508 Tractor Tug
@@ -146,10 +144,8 @@ conditions:
 				override:
 					subject:  {initial: 0}
 					object:   {initial: 10}
-			*	type:              "message"
-				reflexive:         true
-				check_conditions:  true
-				id:                5401
+			*	type:       "message"
+				reflexive:  true
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
 						|	SOURCE: RICS 105508 Tractor Tug

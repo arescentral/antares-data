@@ -70,9 +70,7 @@ conditions:
 	*	type:      "time"
 		op:        "ge"
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                4220
+			*	type:  "message"
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
 						|	SOURCE: RICS 681121 Astrominer
@@ -83,10 +81,8 @@ conditions:
 	*	type:     "counter"
 		op:       "eq"
 		action:
-			*	type:              "message"
-				delay:             "2s"
-				check_conditions:  true
-				id:                4221
+			*	type:   "message"
+				delay:  "2s"
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
 						|	SOURCE: Human/Ishiman Coord. Control
