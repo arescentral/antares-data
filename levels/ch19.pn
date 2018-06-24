@@ -108,7 +108,7 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     1
+				enable:     [1]
 		initial:  7
 		value:    true
 	*	type:      "owner"
@@ -117,10 +117,10 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     2
+				enable:     [2]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     4
+				enable:     [4]
 		disabled:  true
 		player:    0
 	*	type:      "owner"
@@ -129,10 +129,10 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     3
+				enable:     [3]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     5
+				enable:     [5]
 		disabled:  true
 		player:    0
 	*	type:      "owner"
@@ -154,10 +154,10 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				disable:    {begin: 2, end: 4}
+				disable:    [2, 3]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     1
+				enable:     [1]
 		disabled:  true
 		player:    1
 	*	type:      "owner"
@@ -166,10 +166,10 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				disable:    {begin: 2, end: 4}
+				disable:    [2, 3]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     1
+				enable:     [1]
 		disabled:  true
 		player:    1
 	*	type:     "owner"

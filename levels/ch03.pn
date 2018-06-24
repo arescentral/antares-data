@@ -95,7 +95,7 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "6s40t"
-				which:      4
+				which:      [4]
 		duration:  "1m"
 briefings:
 	*	title:  "Demeter"

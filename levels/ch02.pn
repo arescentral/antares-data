@@ -137,10 +137,10 @@ conditions:
 		action:
 			*	type:       "reveal"
 				reflexive:  true
-				which:      12
+				which:      [12]
 			*	type:       "reveal"
 				reflexive:  true
-				which:      13
+				which:      [13]
 			*	type:              "message"
 				reflexive:         true
 				delay:             "2s"

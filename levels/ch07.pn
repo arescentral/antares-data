@@ -94,7 +94,7 @@ conditions:
 						>	system: a Cantharan gunship and two schooner escorts. Prevent them from
 						>	interfering with your retrieval of the asteroid samples. \i<EOT>\i 
 			*	type:   "reveal"
-				which:  {begin: 7, end: 10}
+				which:  [7, 8, 9]
 		player:   0
 		counter:  1
 		value:    1

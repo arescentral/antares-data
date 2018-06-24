@@ -134,7 +134,7 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     2
+				enable:     [2]
 			*	type:    "capture"
 				player:  0
 		player:   0
@@ -145,7 +145,7 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     1
+				enable:     [1]
 			*	type:    "capture"
 				player:  1
 		player:   1
@@ -154,13 +154,13 @@ conditions:
 		action:
 			*	type:       "reveal"
 				reflexive:  true
-				which:      15
+				which:      [15]
 			*	type:       "reveal"
 				reflexive:  true
-				which:      16
+				which:      [16]
 			*	type:       "reveal"
 				reflexive:  true
-				which:      17
+				which:      [17]
 		duration:  "2m"
 	*	type:        "owner"
 		op:          "eq"

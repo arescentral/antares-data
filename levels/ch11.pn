@@ -110,7 +110,7 @@ conditions:
 		object:      0
 		action:
 			*	type:    "condition"
-				enable:  7
+				enable:  [7]
 		persistent:  true
 		value:       50000
 	*	type:      "counter"
@@ -130,7 +130,7 @@ conditions:
 				player:            0
 			*	type:       "condition"
 				reflexive:  true
-				enable:     0
+				enable:     [0]
 			*	type:       "morph"
 				reflexive:  true
 				override:
@@ -148,10 +148,10 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				disable:    2
+				disable:    [2]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    7
+				disable:    [7]
 		persistent:  true
 		value:       50000
 	*	type:     "counter"
@@ -194,7 +194,7 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     2
+				enable:     [2]
 		value:    5.0
 briefings:
 	*	title:  "Heshac System"

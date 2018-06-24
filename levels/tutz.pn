@@ -138,13 +138,13 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     13
+				enable:     [13]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    14
+				disable:    [14]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     {begin: 15, end: 18}
+				enable:     [15, 16, 17]
 			*	type:              "message"
 				reflexive:         true
 				check_conditions:  true
@@ -156,16 +156,16 @@ conditions:
 						>	pressing the \i #SFD \i key.
 			*	type:       "condition"
 				reflexive:  true
-				disable:    0
+				disable:    [0]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    1
+				disable:    [1]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     11
+				enable:     [11]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     12
+				enable:     [12]
 		value:    50000
 	*	type:     "distance"
 		op:       "lt"
@@ -174,13 +174,13 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     13
+				enable:     [13]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    14
+				disable:    [14]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     {begin: 15, end: 18}
+				enable:     [15, 16, 17]
 			*	type:              "message"
 				reflexive:         true
 				check_conditions:  true
@@ -192,16 +192,16 @@ conditions:
 						>	pressing the \i #SFD \i key.
 			*	type:       "condition"
 				reflexive:  true
-				disable:    0
+				disable:    [0]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    1
+				disable:    [1]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     11
+				enable:     [11]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     12
+				enable:     [12]
 		value:    50000
 	*	type:      "subject"
 		op:        "eq"
@@ -220,10 +220,10 @@ conditions:
 						>	to scale the display to see it.
 			*	type:       "condition"
 				reflexive:  true
-				disable:    8
+				disable:    [8]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     4
+				enable:     [4]
 		disabled:  true
 		player:    0
 		value:     "control"
@@ -244,10 +244,10 @@ conditions:
 						>	have to scale the display to see it.
 			*	type:       "condition"
 				reflexive:  true
-				disable:    9
+				disable:    [9]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     5
+				enable:     [5]
 		disabled:  true
 		player:    0
 		value:     "control"
@@ -328,7 +328,7 @@ conditions:
 						>	key.
 			*	type:       "condition"
 				reflexive:  true
-				enable:     10
+				enable:     [10]
 		disabled:  true
 		player:    0
 		value:     "target"
@@ -338,7 +338,7 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     10
+				enable:     [10]
 			*	type:              "message"
 				reflexive:         true
 				check_conditions:  true
@@ -374,16 +374,16 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     3
+				enable:     [3]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     9
+				enable:     [9]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    12
+				disable:    [12]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     7
+				enable:     [7]
 		disabled:  true
 		value:     50000
 	*	type:      "distance"
@@ -393,16 +393,16 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     2
+				enable:     [2]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     8
+				enable:     [8]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     6
+				enable:     [6]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    11
+				disable:    [11]
 		disabled:  true
 		value:     50000
 	*	type:     "distance"
@@ -412,13 +412,13 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     {begin: 0, end: 2}
+				enable:     [0, 1]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    {begin: 2, end: 13}
+				disable:    [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     {begin: 15, end: 18}
+				enable:     [15, 16, 17]
 			*	type:              "message"
 				reflexive:         true
 				check_conditions:  true
@@ -430,7 +430,7 @@ conditions:
 						>	pressing the Select Friendly Base Key, \i_#SBS_\i.
 			*	type:       "condition"
 				reflexive:  true
-				enable:     14
+				enable:     [14]
 		value:    50000
 	*	type:      "subject"
 		op:        "eq"
@@ -457,19 +457,19 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     {begin: 0, end: 2}
+				enable:     [0, 1]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    {begin: 2, end: 13}
+				disable:    [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     13
+				enable:     [13]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    14
+				disable:    [14]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     {begin: 16, end: 18}
+				enable:     [16, 17]
 			*	type:              "message"
 				reflexive:         true
 				check_conditions:  true
@@ -489,22 +489,22 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     {begin: 0, end: 2}
+				enable:     [0, 1]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    {begin: 2, end: 13}
+				disable:    [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     13
+				enable:     [13]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    14
+				disable:    [14]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     15
+				enable:     [15]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     17
+				enable:     [17]
 			*	type:              "message"
 				reflexive:         true
 				check_conditions:  true
@@ -522,19 +522,19 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     {begin: 0, end: 2}
+				enable:     [0, 1]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    {begin: 2, end: 13}
+				disable:    [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     13
+				enable:     [13]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    14
+				disable:    [14]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     15
+				enable:     [15]
 			*	type:              "message"
 				reflexive:         true
 				check_conditions:  true
@@ -580,7 +580,7 @@ conditions:
 		action:
 			*	type:       "reveal"
 				reflexive:  true
-				which:      22
+				which:      [22]
 			*	type:       "win"
 				reflexive:  true
 				delay:      "1s"

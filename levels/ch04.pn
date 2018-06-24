@@ -119,7 +119,7 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     2
+				enable:     [2]
 		persistent:  true
 		value:       50000
 	*	type:      "counter"
@@ -139,7 +139,7 @@ conditions:
 				player:            0
 			*	type:       "condition"
 				reflexive:  true
-				enable:     0
+				enable:     [0]
 			*	type:       "fire"
 				reflexive:  true
 				override:
@@ -162,7 +162,7 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				disable:    2
+				disable:    [2]
 		persistent:  true
 		value:       50000
 	*	type:     "counter"

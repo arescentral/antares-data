@@ -148,10 +148,10 @@ conditions:
 					>	the Audemedon construction.
 			*	type:       "condition"
 				reflexive:  true
-				disable:    1
+				disable:    [1]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    2
+				disable:    [2]
 		initial:  1
 		value:    true
 	*	type:      "time"
@@ -189,7 +189,7 @@ conditions:
 						>	escort. \i<EOT>\i 
 			*	type:       "condition"
 				reflexive:  true
-				disable:    0
+				disable:    [0]
 			*	type:   "order"
 				delay:  "20s"
 				override:
@@ -205,13 +205,13 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				disable:    0
+				disable:    [0]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    1
+				disable:    [1]
 			*	type:       "condition"
 				reflexive:  true
-				disable:    2
+				disable:    [2]
 			*	type:              "message"
 				reflexive:         true
 				delay:             "6s"
@@ -225,15 +225,15 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "6s"
-				which:      {begin: 20, end: 25}
+				which:      [20, 21, 22, 23, 24]
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "6s"
-				which:      {begin: 14, end: 20}
+				which:      [14, 15, 16, 17, 18, 19]
 			*	type:       "condition"
 				reflexive:  true
 				delay:      "6s"
-				enable:     4
+				enable:     [4]
 		initial:  0
 		value:    true
 	*	type:      "ships"

@@ -123,7 +123,7 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     2
+				enable:     [2]
 		player:  0
 		id:      5800
 		page:    3
@@ -174,7 +174,7 @@ conditions:
 		op:      "eq"
 		action:
 			*	type:    "condition"
-				enable:  4
+				enable:  [4]
 		player:  0
 		id:      5803
 		page:    8
@@ -199,7 +199,7 @@ conditions:
 						|	three other ships. You’ll have to click three
 						|	or four times.
 			*	type:   "reveal"
-				which:  {begin: 2, end: 6}
+				which:  [2, 3, 4, 5]
 		disabled:  true
 		player:    0
 		value:     "control"
@@ -207,13 +207,13 @@ conditions:
 		op:      "eq"
 		action:
 			*	type:   "reveal"
-				which:  {begin: 2, end: 6}
+				which:  [2, 3, 4, 5]
 			*	type:       "zoom"
 				reflexive:  true
 				value:      "all"
 			*	type:       "condition"
 				reflexive:  true
-				enable:     6
+				enable:     [6]
 		player:  0
 		id:      5811
 		page:    2
@@ -270,7 +270,7 @@ conditions:
 			*	type:    "condition"
 				override:
 					subject:  {initial: 5}
-				enable:  8
+				enable:  [8]
 			*	type:       "zoom"
 				reflexive:  true
 				value:      "1:2"
@@ -311,7 +311,7 @@ conditions:
 		op:      "eq"
 		action:
 			*	type:   "reveal"
-				which:  {begin: 2, end: 6}
+				which:  [2, 3, 4, 5]
 			*	type:       "move"
 				reflexive:  true
 				override:
@@ -333,7 +333,7 @@ conditions:
 					subject:  {initial: 5}
 				to:         {x: 60, y: -800}
 			*	type:    "condition"
-				enable:  10
+				enable:  [10]
 			*	type:       "zoom"
 				reflexive:  true
 				value:      "1:4"
@@ -365,7 +365,7 @@ conditions:
 		op:      "eq"
 		action:
 			*	type:    "condition"
-				enable:  12
+				enable:  [12]
 			*	type:       "move"
 				reflexive:  true
 				override:
@@ -458,7 +458,7 @@ conditions:
 				value:      "1:1"
 			*	type:       "condition"
 				reflexive:  true
-				enable:     15
+				enable:     [15]
 		player:  0
 		id:      5819
 		page:    4
@@ -486,7 +486,7 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     17
+				enable:     [17]
 		player:  0
 		id:      5823
 		page:    2
@@ -518,7 +518,7 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     19
+				enable:     [19]
 			*	type:       "key"
 				reflexive:  true
 				disable:
@@ -575,7 +575,7 @@ conditions:
 		op:      "eq"
 		action:
 			*	type:    "condition"
-				enable:  21
+				enable:  [21]
 		player:  0
 		id:      5827
 		page:    4
@@ -603,9 +603,9 @@ conditions:
 		action:
 			*	type:       "reveal"
 				reflexive:  true
-				which:      7
+				which:      [7]
 			*	type:    "condition"
-				enable:  23
+				enable:  [23]
 		player:  0
 		id:      5831
 		page:    2
@@ -645,7 +645,7 @@ conditions:
 		action:
 			*	type:       "condition"
 				reflexive:  true
-				enable:     25
+				enable:     [25]
 			*	type:       "key"
 				reflexive:  true
 				disable:
@@ -682,7 +682,7 @@ conditions:
 		op:          "eq"
 		action:
 			*	type:    "condition"
-				enable:  27
+				enable:  [27]
 		persistent:  true
 		player:      0
 		id:          5835
@@ -709,7 +709,7 @@ conditions:
 		op:          "eq"
 		action:
 			*	type:    "condition"
-				enable:  29
+				enable:  [29]
 		persistent:  true
 		player:      0
 		id:          5836
@@ -754,7 +754,7 @@ conditions:
 					*	"warp"
 					*	"mouse"
 			*	type:    "condition"
-				enable:  31
+				enable:  [31]
 		player:  0
 		id:      5837
 		page:    3
@@ -777,7 +777,7 @@ conditions:
 		op:      "eq"
 		action:
 			*	type:    "condition"
-				enable:  33
+				enable:  [33]
 		player:  0
 		id:      5840
 		page:    1
@@ -796,7 +796,7 @@ conditions:
 					object:   {initial: 5}
 				value:      "object"
 			*	type:    "condition"
-				enable:  34
+				enable:  [34]
 			*	type:  "key"
 				disable:
 					*	"up"
@@ -823,7 +823,7 @@ conditions:
 					subject:  {initial: 1}
 					object:   {initial: 5}
 			*	type:    "condition"
-				enable:  34
+				enable:  [34]
 		disabled:  true
 		player:    0
 		value:     true
@@ -863,9 +863,9 @@ conditions:
 			*	type:    "condition"
 				override:
 					subject:  {initial: 0}
-				enable:  36
+				enable:  [36]
 			*	type:    "condition"
-				enable:  35
+				enable:  [35]
 		disabled:  true
 		value:     50000
 	*	type:      "distance"

@@ -138,30 +138,30 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "20s"
-				which:      3
+				which:      [3]
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "20s"
-				which:      5
+				which:      [5]
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "20s"
-				which:      6
+				which:      [6]
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "20s"
-				which:      7
+				which:      [7]
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "20s"
-				which:      8
+				which:      [8]
 		duration:  "5m"
 	*	type:     "counter"
 		op:       "eq"
 		action:
 			*	type:       "reveal"
 				reflexive:  true
-				which:      1
+				which:      [1]
 			*	type:              "message"
 				reflexive:         true
 				check_conditions:  true

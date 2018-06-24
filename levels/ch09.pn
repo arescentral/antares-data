@@ -86,7 +86,7 @@ conditions:
 						>	are armed with guided missiles, defensive cluster cell generators, and
 						>	are extremely well armored. \i<EOT>\i 
 			*	type:   "reveal"
-				which:  1
+				which:  [1]
 		duration:  "20s"
 	*	type:        "owner"
 		op:          "eq"

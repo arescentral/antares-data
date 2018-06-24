@@ -165,7 +165,7 @@ conditions:
 		subject:  1
 		action:
 			*	type:    "condition"
-				enable:  2
+				enable:  [2]
 		player:   0
 		id:       5900
 		page:     2
@@ -204,7 +204,7 @@ conditions:
 		op:      "eq"
 		action:
 			*	type:    "condition"
-				enable:  4
+				enable:  [4]
 		player:  0
 		id:      5905
 		page:    3
@@ -311,7 +311,7 @@ conditions:
 				enable:
 					*	"comp_build"
 			*	type:    "condition"
-				enable:  {begin: 9, end: 11}
+				enable:  [9, 10]
 		player:  0
 		id:      5910
 		page:    10
@@ -348,7 +348,7 @@ conditions:
 						|	at it and pressing the Select Friend key,
 						|	#SFD.
 			*	type:    "condition"
-				enable:  11
+				enable:  [11]
 		disabled:  true
 		player:    0
 		counter:   0
@@ -393,7 +393,7 @@ conditions:
 			*	type:   "zoom"
 				value:  "all"
 			*	type:    "condition"
-				enable:  13
+				enable:  [13]
 		player:  0
 		id:      5935
 		page:    3
@@ -417,7 +417,7 @@ conditions:
 				screen:  "build"
 				line:    3
 			*	type:    "condition"
-				enable:  14
+				enable:  [14]
 			*	type:  "key"
 				disable:
 					*	"select_friend"
@@ -468,7 +468,7 @@ conditions:
 		op:      "eq"
 		action:
 			*	type:    "condition"
-				enable:  17
+				enable:  [17]
 			*	type:  "key"
 				enable:
 					*	"select_friend"
@@ -498,7 +498,7 @@ conditions:
 			*	type:   "zoom"
 				value:  "1:2"
 			*	type:    "condition"
-				enable:  18
+				enable:  [18]
 		disabled:  true
 		player:    0
 		value:     "control"
@@ -529,7 +529,7 @@ conditions:
 			*	type:   "zoom"
 				value:  "all"
 			*	type:    "condition"
-				enable:  19
+				enable:  [19]
 			*	type:  "key"
 				enable:
 					*	"order"
@@ -560,7 +560,7 @@ conditions:
 					*	>	#O6#First, select this cruiser. You can just
 						|	click on it.
 			*	type:    "condition"
-				enable:  20
+				enable:  [20]
 		disabled:  true
 		value:     50000
 	*	type:      "subject"
@@ -583,7 +583,7 @@ conditions:
 						>	Press the Order To Go key, #ORD,
 						|	now.
 			*	type:    "condition"
-				enable:  21
+				enable:  [21]
 		disabled:  true
 		player:    0
 		value:     "control"
@@ -642,9 +642,9 @@ conditions:
 				value:   -12800.0
 				player:  1
 			*	type:   "reveal"
-				which:  3
+				which:  [3]
 			*	type:    "condition"
-				enable:  23
+				enable:  [23]
 		player:  0
 		id:      5970
 		page:    3
@@ -669,14 +669,14 @@ conditions:
 						>
 						>	Select it.
 			*	type:   "reveal"
-				which:  4
+				which:  [4]
 		disabled:  true
 		player:    0
 	*	type:    "message"
 		op:      "eq"
 		action:
 			*	type:    "condition"
-				enable:  25
+				enable:  [25]
 		player:  0
 		id:      5975
 		page:    2
@@ -692,7 +692,7 @@ conditions:
 						>
 						>	Now target this transport.
 			*	type:    "condition"
-				enable:  26
+				enable:  [26]
 		disabled:  true
 		player:    0
 		value:     "control"
@@ -708,7 +708,7 @@ conditions:
 						>
 						>	Press the Order to Go key, #ORD.
 			*	type:    "condition"
-				enable:  27
+				enable:  [27]
 		disabled:  true
 		player:    0
 		value:     "target"
@@ -730,7 +730,7 @@ conditions:
 						|	reselect the target to send multiple ships
 						|	to it.
 			*	type:    "condition"
-				enable:  28
+				enable:  [28]
 		disabled:  true
 	*	type:      "target"
 		op:        "eq"
@@ -745,7 +745,7 @@ conditions:
 						>
 						>	Select it and press #ORD.
 			*	type:    "condition"
-				enable:  29
+				enable:  [29]
 		disabled:  true
 	*	type:      "target"
 		op:        "eq"
@@ -780,7 +780,7 @@ conditions:
 			*	type:   "zoom"
 				value:  "1:1"
 			*	type:    "condition"
-				enable:  31
+				enable:  [31]
 		player:  0
 		id:      7000
 		page:    2
@@ -800,7 +800,7 @@ conditions:
 						>
 						>	We’ll continue when all three ships have you as their target.
 			*	type:    "condition"
-				enable:  32
+				enable:  [32]
 			*	type:  "key"
 				enable:
 					*	"mouse"
@@ -815,7 +815,7 @@ conditions:
 		object:    0
 		action:
 			*	type:    "condition"
-				enable:  33
+				enable:  [33]
 		disabled:  true
 	*	type:      "target"
 		op:        "eq"
@@ -823,7 +823,7 @@ conditions:
 		object:    0
 		action:
 			*	type:    "condition"
-				enable:  34
+				enable:  [34]
 		disabled:  true
 	*	type:      "target"
 		op:        "eq"
@@ -861,7 +861,7 @@ conditions:
 		op:      "eq"
 		action:
 			*	type:    "condition"
-				enable:  36
+				enable:  [36]
 			*	type:    "select"
 				screen:  "main"
 				line:    2
@@ -895,7 +895,7 @@ conditions:
 		op:      "eq"
 		action:
 			*	type:    "condition"
-				enable:  38
+				enable:  [38]
 		player:  0
 		id:      7015
 		page:    2
@@ -922,7 +922,7 @@ conditions:
 				screen:  "special"
 				line:    1
 			*	type:    "condition"
-				enable:  39
+				enable:  [39]
 		disabled:  true
 		player:    0
 		value:     "control"
@@ -983,10 +983,10 @@ conditions:
 		op:      "eq"
 		action:
 			*	type:   "reveal"
-				which:  {begin: 7, end: 17}
+				which:  [7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 			*	type:    "condition"
 				delay:   "6s"
-				enable:  42
+				enable:  [42]
 			*	type:  "key"
 				enable:
 					*	"up"

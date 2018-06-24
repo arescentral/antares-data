@@ -38,7 +38,7 @@ create:
 		*	type:       "condition"
 			reflexive:  true
 			delay:      "40s"
-			enable:     13
+			enable:     [13]
 ai:
 	target:
 		prefer:  {local: true}

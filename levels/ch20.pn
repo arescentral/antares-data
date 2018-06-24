@@ -207,7 +207,7 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "6s"
-				which:      {begin: 12, end: 33}
+				which:      [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
 		disabled:  true
 		player:    1
 		value:     0

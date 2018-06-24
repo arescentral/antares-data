@@ -134,7 +134,7 @@ conditions:
 		op:      "eq"
 		action:
 			*	type:    "condition"
-				enable:  3
+				enable:  [3]
 		player:  0
 		id:      5701
 		page:    3
@@ -161,7 +161,7 @@ conditions:
 					*	"comp_build"
 					*	"mouse"
 			*	type:    "condition"
-				enable:  22
+				enable:  [22]
 		disabled:  true
 		player:    0
 		screen:    "main"
@@ -171,7 +171,7 @@ conditions:
 			*	type:   "zoom"
 				value:  "1:4"
 			*	type:    "condition"
-				enable:  5
+				enable:  [5]
 			*	type:  "key"
 				enable:
 					*	"zoom_in"
@@ -224,7 +224,7 @@ conditions:
 					subject:  {initial: 5}
 					object:   {initial: 0}
 			*	type:    "condition"
-				enable:  7
+				enable:  [7]
 			*	type:   "zoom"
 				value:  "foe"
 		player:  0
@@ -241,7 +241,7 @@ conditions:
 					object:   {initial: 4}
 			*	type:    "condition"
 				delay:   "2s"
-				enable:  8
+				enable:  [8]
 		disabled:  true
 		value:     50000
 	*	type:      "distance"
@@ -255,7 +255,7 @@ conditions:
 					object:   {initial: 0}
 			*	type:    "condition"
 				delay:   "2s"
-				enable:  7
+				enable:  [7]
 		disabled:  true
 		value:     50000
 	*	type:    "message"
@@ -267,7 +267,7 @@ conditions:
 					subject:  {initial: 5}
 				kind:       "none"
 			*	type:    "condition"
-				enable:  10
+				enable:  [10]
 		player:  0
 		id:      5711
 		page:    4
@@ -345,7 +345,7 @@ conditions:
 		op:      "eq"
 		action:
 			*	type:    "condition"
-				enable:  14
+				enable:  [14]
 			*	type:  "key"
 				enable:
 					*	"zoom_in"
@@ -554,7 +554,7 @@ conditions:
 		op:      "eq"
 		action:
 			*	type:   "reveal"
-				which:  {begin: 7, end: 9}
+				which:  [7, 8]
 			*	type:       "cloak"
 				reflexive:  true
 				override:
@@ -575,7 +575,7 @@ conditions:
 					subject:  {initial: 4}
 				player:     0
 			*	type:    "condition"
-				enable:  20
+				enable:  [20]
 		player:  0
 		id:      5721
 		page:    17
@@ -583,7 +583,7 @@ conditions:
 		op:        "eq"
 		action:
 			*	type:    "condition"
-				enable:  21
+				enable:  [21]
 		disabled:  true
 		initial:   7
 		value:     true
@@ -610,7 +610,7 @@ conditions:
 						|	#ACT, to go to the Message Menu.
 						>
 			*	type:    "condition"
-				enable:  23
+				enable:  [23]
 		disabled:  true
 		player:    0
 		screen:    "main"

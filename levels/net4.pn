@@ -38,9 +38,9 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "6s"
-				which:      0
+				which:      [0]
 			*	type:    "condition"
-				enable:  0
+				enable:  [0]
 		initial:  0
 		value:    true
 	*	type:     "destroyed"
@@ -55,10 +55,10 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "6s"
-				which:      1
+				which:      [1]
 			*	type:       "condition"
 				reflexive:  true
-				enable:     1
+				enable:     [1]
 		initial:  1
 		value:    true
 	*	type:     "counter"
