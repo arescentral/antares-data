@@ -970,7 +970,7 @@ conditions:
 						>	faster if you brought along some help...
 		disabled:  true
 		player:    0
-		value:     "player"
+		value:     "flagship"
 	*	type:    "message"
 		op:      "eq"
 		action:
