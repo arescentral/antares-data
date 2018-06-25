@@ -18,9 +18,8 @@ create:
 	action:
 		*	type:       "flash"
 			reflexive:  true
-			hue:        "yellow"
-			length:     128
-			shade:      15
+			color:      {r: 240, g: 240, b: 0, a: 127}
+			duration:   "0.05s"
 activate:
 	period:
 		begin:  "4t"
@@ -28,6 +27,5 @@ activate:
 	action:
 		*	type:       "flash"
 			reflexive:  true
-			hue:        "yellow"
-			length:     128
-			shade:      15
+			color:      {r: 240, g: 240, b: 0, a: 127}
+			duration:   "0.05s"
