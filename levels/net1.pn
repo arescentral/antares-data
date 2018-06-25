@@ -83,7 +83,7 @@ conditions:
 		action:
 			*	type:       "reveal"
 				reflexive:  true
-				which:      [6, 7]
+				initial:    [6, 7]
 		duration:  "-1s"
 	*	type:     "owner"
 		op:       "eq"

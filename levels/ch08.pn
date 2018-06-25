@@ -58,17 +58,17 @@ conditions:
 		action:
 			*	type:       "reveal"
 				reflexive:  true
-				which:      [1, 2, 3]
+				initial:    [1, 2, 3]
 			*	type:       "reveal"
 				reflexive:  true
-				which:      [4, 5, 6]
+				initial:    [4, 5, 6]
 		duration:  "-2s"
 	*	type:      "time"
 		op:        "ge"
 		action:
 			*	type:       "reveal"
 				reflexive:  true
-				which:      [7]
+				initial:    [7]
 		duration:  "11s40t"
 	*	type:      "time"
 		op:        "ge"

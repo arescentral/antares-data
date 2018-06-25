@@ -198,16 +198,16 @@ conditions:
 						>	Try to select this transport, hidden under
 						|	three other ships. You’ll have to click three
 						|	or four times.
-			*	type:   "reveal"
-				which:  [2, 3, 4, 5]
+			*	type:     "reveal"
+				initial:  [2, 3, 4, 5]
 		disabled:  true
 		player:    0
 		value:     "control"
 	*	type:    "message"
 		op:      "eq"
 		action:
-			*	type:   "reveal"
-				which:  [2, 3, 4, 5]
+			*	type:     "reveal"
+				initial:  [2, 3, 4, 5]
 			*	type:       "zoom"
 				reflexive:  true
 				value:      "all"
@@ -310,8 +310,8 @@ conditions:
 	*	type:    "message"
 		op:      "eq"
 		action:
-			*	type:   "reveal"
-				which:  [2, 3, 4, 5]
+			*	type:     "reveal"
+				initial:  [2, 3, 4, 5]
 			*	type:       "move"
 				reflexive:  true
 				override:
@@ -603,7 +603,7 @@ conditions:
 		action:
 			*	type:       "reveal"
 				reflexive:  true
-				which:      [7]
+				initial:    [7]
 			*	type:    "condition"
 				enable:  [23]
 		player:  0

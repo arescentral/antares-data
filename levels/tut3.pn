@@ -641,8 +641,8 @@ conditions:
 			*	type:    "pay"
 				value:   -12800.0
 				player:  1
-			*	type:   "reveal"
-				which:  [3]
+			*	type:     "reveal"
+				initial:  [3]
 			*	type:    "condition"
 				enable:  [23]
 		player:  0
@@ -668,8 +668,8 @@ conditions:
 					*	>	#O6#Let’s start with this cruiser.
 						>
 						>	Select it.
-			*	type:   "reveal"
-				which:  [4]
+			*	type:     "reveal"
+				initial:  [4]
 		disabled:  true
 		player:    0
 	*	type:    "message"
@@ -982,8 +982,8 @@ conditions:
 	*	type:    "message"
 		op:      "eq"
 		action:
-			*	type:   "reveal"
-				which:  [7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+			*	type:     "reveal"
+				initial:  [7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 			*	type:    "condition"
 				delay:   "6s"
 				enable:  [42]

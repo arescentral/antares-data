@@ -96,7 +96,7 @@ conditions:
 		action:
 			*	type:       "reveal"
 				reflexive:  true
-				which:      [9, 10]
+				initial:    [9, 10]
 		duration:  "-1s"
 	*	type:     "owner"
 		op:       "eq"

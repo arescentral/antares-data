@@ -154,13 +154,13 @@ conditions:
 		action:
 			*	type:       "reveal"
 				reflexive:  true
-				which:      [15]
+				initial:    [15]
 			*	type:       "reveal"
 				reflexive:  true
-				which:      [16]
+				initial:    [16]
 			*	type:       "reveal"
 				reflexive:  true
-				which:      [17]
+				initial:    [17]
 		duration:  "2m"
 	*	type:        "owner"
 		op:          "eq"

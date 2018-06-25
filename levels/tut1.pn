@@ -553,8 +553,8 @@ conditions:
 	*	type:    "message"
 		op:      "eq"
 		action:
-			*	type:   "reveal"
-				which:  [7, 8]
+			*	type:     "reveal"
+				initial:  [7, 8]
 			*	type:       "cloak"
 				reflexive:  true
 				override:

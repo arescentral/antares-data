@@ -38,7 +38,7 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "6s"
-				which:      [0]
+				initial:    [0]
 			*	type:    "condition"
 				enable:  [0]
 		initial:  0
@@ -55,7 +55,7 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "6s"
-				which:      [1]
+				initial:    [1]
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [1]

@@ -96,7 +96,7 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "3s"
-				which:      [7, 8, 9]
+				initial:    [7, 8, 9]
 		value:    50000
 	*	type:     "owner"
 		op:       "eq"

@@ -104,7 +104,7 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "1.5s"
-				which:      [10]
+				initial:    [10]
 			*	type:       "message"
 				reflexive:  true
 				delay:      "0.5s"
@@ -117,7 +117,7 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "15s"
-				which:      [16, 17, 18]
+				initial:    [16, 17, 18]
 		player:   0
 		counter:  1
 		value:    6
@@ -175,7 +175,7 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "10t"
-				which:      [19]
+				initial:    [19]
 		disabled:  true
 		value:     50000
 briefings:

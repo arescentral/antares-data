@@ -191,7 +191,7 @@ conditions:
 		action:
 			*	type:       "reveal"
 				reflexive:  true
-				which:      [31, 32, 33, 34]
+				initial:    [31, 32, 33, 34]
 		duration:  "7m49.45s"
 	*	type:     "owner"
 		op:       "eq"
