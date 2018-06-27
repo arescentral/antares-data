@@ -99,14 +99,14 @@ briefings:
 			>	We need to determine how prolific the bio-mechanical Boodan Virus has
 			>	been. Therefore, we're dropping you in the Palyos Belt so you can
 			>	collect some samples from the asteroids there.
-	*	object:  0
-		title:   "Heavy Cruiser"
+	*	initial:  0
+		title:    "Heavy Cruiser"
 		content:
 			>	^Pish/hvc^You'll be using this heavy cruiser. Several small Cantharan
 			>	ships are in the area; they may be investigating the asteroids as well,
 			>	or they may simply try to prevent us from doing so.
-	*	object:  4
-		title:   "Astrominer"
+	*	initial:  4
+		title:    "Astrominer"
 		content:
 			>	^Pish/etc/astrominer^Since we'll need at least ten samples, you'll have
 			>	three astrominers at your command for this mission. While we'd prefer it

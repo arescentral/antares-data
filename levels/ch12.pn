@@ -200,8 +200,8 @@ briefings:
 			>
 			>	The Cantharans intend to capture the Fansi System. Your objective is to
 			>	beat them to it.
-	*	object:  0
-		title:   "Orbital Shipyard"
+	*	initial:  0
+		title:    "Orbital Shipyard"
 		content:
 			>	^Pbrf/shipyard^Part of the Fansi System's value is its orbital shipyard.
 			>	The Gaitori Isolationists haven't had the resources to make use of it,
@@ -209,8 +209,8 @@ briefings:
 			>	constructed Obish destroyer, built during Obain's brief occupation of
 			>	the system near the end of the war. We will be completing the
 			>	destroyer's construction for this mission.
-	*	object:  11
-		title:   "Cargo Ship"
+	*	initial:  11
+		title:    "Cargo Ship"
 		content:
 			>	^Pish/etc/cargo^To complete the construction of the Obish destroyer
 			>	during the mission, five cargo ships will be exiting through a jump gate
@@ -218,15 +218,15 @@ briefings:
 			>	for us to complete the destroyer. We'll alert you when the cargo ships
 			>	are due to drop in-system, but it'll be up to you to make sure their
 			>	path is clear.
-	*	object:  13
-		title:   "Flak Drone"
+	*	initial:  13
+		title:    "Flak Drone"
 		content:
 			>	^Ploc/flak^Send engineering pods to this flak drone to reconfigure it to
 			>	fire on enemy vessels. The Gaitori Isolationists currently have it set
 			>	to fire on all ships. Make sure you have control of it before the cargo
 			>	ships arrive.
-	*	object:  11
-		title:   "Bunker Station 1"
+	*	initial:  11
+		title:    "Bunker Station 1"
 		content:
 			>	^Ploc/bunker^This is one of two bunker stations in the Fansi system,
 			>	both of which are occupied by Gaitori Isolationists. The bunker stations
@@ -235,19 +235,19 @@ briefings:
 			>
 			>	Use assault transports to gain control of the bunker stations--occupying
 			>	the stations will generate resources for you during the mission.
-	*	object:  4
-		title:   "Bunker Station 2"
+	*	initial:  4
+		title:    "Bunker Station 2"
 		content:
 			>	^Ploc/bunker^This is the other bunker station. If the Cantharans gain
 			>	control of both the stations, they will most likely overwhelm you.
-	*	object:  9
-		title:   "Fansi Alpha"
+	*	initial:  9
+		title:    "Fansi Alpha"
 		content:
 			>	We've set up a base of operations here on Fansi Alpha, where you'll be
 			>	able to produce a variety of ships. As usual, allowing the enemy to land
 			>	a transport here will force us to abort the mission.
-	*	object:  9
-		title:   "Engineer Pod"
+	*	initial:  9
+		title:    "Engineer Pod"
 		content:
 			>	In addition to fighters, cruisers, gunships, and transports, the base on
 			>	Fansi can produce two special-purpose ships.
@@ -255,8 +255,8 @@ briefings:
 			>	drones. Make sure you commandeer the flak drone that lies between Bunker
 			>	Station 1 and the orbital shipyard, to ensure the safe passage of the
 			>	freighters.
-	*	object:  9
-		title:   "Assault Transport"
+	*	initial:  9
+		title:    "Assault Transport"
 		content:
 			>	^Pish/aslttran^Assault Transports are the only ships designed to gain
 			>	control of bunker stations. Our assault transports carry twelve
@@ -264,8 +264,8 @@ briefings:
 			>	at once, and the assault transport will automatically dispatch them when
 			>	it arrives at a hostile barrack station. At least five troopers must
 			>	enter the station to control it.
-	*	object:  10
-		title:   "Fansi Beta"
+	*	initial:  10
+		title:    "Fansi Beta"
 		content:
 			>	The Cantharan base on Fansi Beta is your ultimate goal. Land a standard
 			>	transport here to complete the mission. The Cantharans have ship
@@ -273,13 +273,13 @@ briefings:
 			|	^Pcan/aslttran^In addition to fighters, cruisers, transports, and
 			>	gunships, the Cantharans have assault transports of their own. Destroy
 			>	them, and the EVA Troopers they release.
-	*	object:  10
-		title:   "Engineer Pod"
+	*	initial:  10
+		title:    "Engineer Pod"
 		content:
 			>	^Pcan/engineer^Cantharan engineering pods, like our own, are equipped
 			>	with defensive repulser beam cannons.
-	*	object:  12
-		title:   "Carrier"
+	*	initial:  12
+		title:    "Carrier"
 		content:
 			>	^Pcan/carrier^The Cantharan carrier the Song of Zom is already in the
 			>	Fansi system. Its missiles are very effective against the bunker

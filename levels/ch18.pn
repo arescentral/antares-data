@@ -212,44 +212,44 @@ briefings:
 			>	Alpha, where a surface battle has broken out. One of your objectives
 			>	here will be to deliver reinforcements to the colonists fighting on the
 			>	surface.
-	*	object:  2
-		title:   "Gunship"
+	*	initial:  2
+		title:    "Gunship"
 		content:
 			>	^Puns/gunship^You will begin this mission in a human gunship. It
 			>	represents a considerable improvement over their cruisers. Its magneto
 			>	pulse gun fires much more quickly, and it is equipped with an
 			>	auto-targetting laser turret.
-	*	object:  8
-		title:   "Transport"
+	*	initial:  8
+		title:    "Transport"
 		content:
 			>	In spite of the immediate need for reinforcements on Alpha, your
 			>	absolute first priority is to destroy this Audemedon transport, en route
 			>	to Proxima Centauri Beta. Should it achieve landfall, you will quickly
 			>	be overwhelmed by Audemedon ships.
-	*	object:  24
-		title:   "Carrier"
+	*	initial:  24
+		title:    "Carrier"
 		content:
 			>	^Puns/carrier^We have rendezvoused with the human fleet which was
 			>	dispatched to Lelande in hopes of preventing its invasion. The UNS
 			>	Wounded Knee and the UNS Canada, colony ships the humans have converted
 			>	to carriers, and two additional gunships are at your
 			>	command.^Puns/fighter^
-	*	object:  3
-		title:   "Transport"
+	*	initial:  3
+		title:    "Transport"
 		content:
 			>	The fleet is escorting the five transports carrying the colonists from
 			>	Lelande. The colonists will serve as reinforcements to the humans
 			>	fighting on Centauri Alpha. To ensure victory in the surface battle, at
 			>	least two of these transports must land safely on Alpha.
-	*	object:  9
-		title:   "Carrier"
+	*	initial:  9
+		title:    "Carrier"
 		content:
 			>	Also, two human carriers are fighting a losing battle over Proxima
 			>	Centauri Alpha. The UNS Luna and the UNS France are seriously outmatched
 			>	by Audemedon and Cantharan forces. If possible, try to prevent their
 			>	destruction.
-	*	object:  1
-		title:   "Proxima Beta"
+	*	initial:  1
+		title:    "Proxima Beta"
 		content:
 			>	Once you have gained control of Centauri Alpha, you will have instant
 			>	access to its considerable store of resources. To complete the mission,

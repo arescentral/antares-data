@@ -207,36 +207,36 @@ briefings:
 		content:
 			>	Your mission in the Heshac System is to destroy the simlabs and to
 			>	rescue as many humans as possible.
-	*	object:  1
-		title:   "Heavy Destroyer"
+	*	initial:  1
+		title:    "Heavy Destroyer"
 		content:
 			>	^Pish/hvd^For this mission you’ll be using a single destroyer. It’s a
 			>	powerful vessel, armed with a fullerene pulse gun, twin lepton beam
 			>	cannons, and one hundred and fifty concussion missiles. You'll also have
 			>	two fighters for escort.
-	*	object:  0
-		title:   "UNS Ares"
+	*	initial:  0
+		title:    "UNS Ares"
 		content:
 			>	^Pbrf/uns-ares^You’ll actually be making use of the UNS Ares in the
 			>	Heshac system, as it is the ship best equipped for holding humans. For
 			>	obvious reasons, the UNS Ares will not be engaging any enemy ships, or
 			>	approaching the Salrilian installations.
-	*	object:  2
-		title:   "Lab"
+	*	initial:  2
+		title:    "Lab"
 		content:
 			>	At each simlab, fire at the installation until you rip open its walls.
 			>	Take care, because once the simlab is open, the humans will escape, and
 			>	your weapons will not be keyed to the humans’ life signs so the humans
 			>	will be vulnerable to your weapons fire.
-	*	object:  1
-		title:   "Heavy Destroyer"
+	*	initial:  1
+		title:    "Heavy Destroyer"
 		content:
 			>	Your destroyer has been specially modified to allow the humans to enter
 			>	from the outside. However, you’ll only be able to hold five of them at a
 			>	time. When you have as many humans aboard as possible, return them to
 			>	the UNS Ares.
-	*	object:  12
-		title:   "Cruiser"
+	*	initial:  12
+		title:    "Cruiser"
 		content:
 			>	^Psal/fighter^There are an assortment of Salrilian and Cantharan ships
 			>	guarding the simlabs. The Salrilian warships are nimble and powerful.

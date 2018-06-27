@@ -113,50 +113,50 @@ briefings:
 			>	^Pcan/race^The Cantharan Order controls the Proteus System. In your
 			>	first major offensive move against the Order, you will seize their base
 			>	on Proteus Gamma.
-	*	object:  0
-		title:   "Proteus Alpha"
+	*	initial:  0
+		title:    "Proteus Alpha"
 		content:
 			>	Our base Proteus Alpha will be at your disposal. It's well equipped and
 			>	capable of producing a variety of ships.
 			>
 			>	You must defend this planet from Cantharan occupation. If you allow the
 			>	Cantharans to land a transport here, the mission will be aborted.
-	*	object:  0
-		title:   "Proteus Alpha"
+	*	initial:  0
+		title:    "Proteus Alpha"
 		content:
 			>	^Pish/fighter^The base on Alpha can produce fighters and
 			>	cruisers.^Pish/cruiser^
-	*	object:  0
-		title:   "Proteus Alpha"
+	*	initial:  0
+		title:    "Proteus Alpha"
 		content:
 			>	^Pish/gunship^This base can also produce defense drones, gunships and
 			>	transports. The heavily armored gunships are slow, and they rely
 			>	entirely on energy weapons .^Pish/defdrone^
-	*	object:  4
-		title:   "Philemon Beta"
+	*	initial:  4
+		title:    "Philemon Beta"
 		content:
 			>	There's an unoccupied installation on Proteus Beta capable of
 			>	constructing fighters. Controlling Beta is not a mission requirement,
 			>	but you may want to take advantage of its resources--or prevent the
 			>	Cantharans from doing so.
-	*	object:  5
-		title:   "Proteus Gamma"
+	*	initial:  5
+		title:    "Proteus Gamma"
 		content:
 			>	This is the location of the Cantharan base. It has facilities equal to
 			>	our base on Alpha.
-	*	object:  5
-		title:   "Proteus Gamma"
+	*	initial:  5
+		title:    "Proteus Gamma"
 		content:
 			>	^Pcan/fighter^Their base can also produce fighters and
 			>	cruisers.^Pcan/cruiser^
-	*	object:  5
-		title:   "Proteus Gamma"
+	*	initial:  5
+		title:    "Proteus Gamma"
 		content:
 			>	^Pcan/gunship^Cantharan gunships have antimatter pulse guns which are
 			>	extremely powerful at close range.^Pcan/defdrone^Their defense drones
 			>	are best destroyed with large squadrons of ships.
-	*	object:  5
-		title:   "Proteus Gamma"
+	*	initial:  5
+		title:    "Proteus Gamma"
 		content:
 			>	^Pcan/transport^Destroy any transports you encounter. They will probably
 			>	make an attempt to occupy Proteus Beta. If you lose Alpha, the mission

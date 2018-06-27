@@ -152,51 +152,51 @@ conditions:
 		initial:  17
 		value:    true
 briefings:
-	*	object:  15
-		title:   "Myrmidon"
+	*	initial:  15
+		title:    "Myrmidon"
 		content:
 			>	The Gaitori in this system have deployed a series of long-range scanner
 			>	relay dishes, designed to gather information on our ship movements.
 			>
 			>	You are to put an end to this intrusion by destroying all four relay
 			>	stations.
-	*	object:  1
-		title:   "Cruiser"
+	*	initial:  1
+		title:    "Cruiser"
 		content:
 			>	^Pish/hvc^You'll be dropped in here. Your only ship for this mission is
 			>	this heavy cruiser. It's speedier than the standard cruiser, and has an
 			>	improved rapid-fire fusion pulse gun. Save your guided missiles for
 			>	difficult targets. If you lose the cruiser, the mission will be aborted.
-	*	object:  0
-		title:   "Relay Dish 1"
+	*	initial:  0
+		title:    "Relay Dish 1"
 		content:
 			>	^Pbrf/relay^This the the first of the four Relay Stations you should
 			>	destroy. The stations are unarmed, and are only protected by deflector
 			>	shields.
-	*	object:  2
-		title:   "Cruiser"
+	*	initial:  2
+		title:    "Cruiser"
 		content:
 			>	^Pgai/cruiser^There are Gaitori cruisers stationed at each dish. Their
 			>	cruisers are slow, but are armed with rapid-fire concussive pellet
 			>	guns. 
-	*	object:  16
-		title:   "Relay Dish 2"
+	*	initial:  16
+		title:    "Relay Dish 2"
 		content:
 			>	This is dish is your second target.
-	*	object:  17
-		title:   "Relay Dish 3"
+	*	initial:  17
+		title:    "Relay Dish 3"
 		content:
 			>	The third dish is your next target.
 			|	^Pgai/gunship^This dish is being guarded by a gunship. Gaitori gunships
 			>	are not heavily armored, but they have converted atomic pulse mining
 			>	guns, which fire powerful long-range homing pulses.
-	*	object:  18
-		title:   "Relay Dish 4"
+	*	initial:  18
+		title:    "Relay Dish 4"
 		content:
 			>	This is the last Relay Station you should destroy. With a gunship and
 			>	two cruisers nearby, it's the most heavily guarded.
-	*	object:  14
-		title:   "Myrmidon Station"
+	*	initial:  14
+		title:    "Myrmidon Station"
 		content:
 			>	^Pbrf/habitat^The Gaitori habitat station in the Myrmidon System is
 			>	heavily armed. We recommend that you keep a safe distance from this

@@ -233,8 +233,8 @@ briefings:
 			>	The Elejeetian Minister of Technology was most grateful for your
 			>	services, and supplied us with some modifications to our standard heavy
 			>	cruiser.
-	*	object:  0
-		title:   "Modified Cruiser"
+	*	initial:  0
+		title:    "Modified Cruiser"
 		content:
 			>	The heavy cruiser is now armed with an Onas pulse gun, an energy weapon
 			>	with very little drain. The cruiser has also been made faster and more
@@ -247,8 +247,8 @@ briefings:
 			>	with one of these unstable asteroids would annihilate your heavy
 			>	cruiser, but your task is to alter the course of the asteroids so that
 			>	they collide with the gateship.
-	*	object:  2
-		title:   "Gate Ship"
+	*	initial:  2
+		title:    "Gate Ship"
 		content:
 			>	We doubt that the gateship is capable of forming another jumpgate in its
 			>	damaged state. Some of its weapons may also be inoperable. We estimate,

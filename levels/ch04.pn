@@ -203,14 +203,14 @@ briefings:
 			>	that one of the Obiards being held is Ambassador Thrntz, a key
 			>	negotiator in the Obain/Gaitor Nonaggression Pact. His safe return would
 			>	win you considerable favor with the Obiards.
-	*	object:  5
-		title:   "Heavy Cruiser"
+	*	initial:  5
+		title:    "Heavy Cruiser"
 		content:
 			>	You will be conducting this mission from a heavy cruiser. There is
 			>	little margin for error in this enterprise; conservation of your heavy
 			>	cruiser’s resources will be vital for success.
-	*	object:  1
-		title:   "Transport"
+	*	initial:  1
+		title:    "Transport"
 		content:
 			>	To pick up the prisoners, you'll be escorting this sublight Obish
 			>	transport. It is armed with minimal defensive lasers capable of breaking
@@ -221,15 +221,15 @@ briefings:
 			>	targeting systems will not be keyed to their suits. Be careful not to
 			>	catch them in crossfire. They will also be disoriented, so give them
 			>	plenty of time to enter the transport.
-	*	object:  3
-		title:   "Cell 1"
+	*	initial:  3
+		title:    "Cell 1"
 		content:
 			>	There are three deep space cells, each holding five Obiards. Command the
 			>	transport to each cell in turn, then allow it to break open the cell and
 			>	pick up the prisoners. The cells will be guarded, and your transport
 			>	will need protection.
-	*	object:  0
-		title:   "Passenger Liner"
+	*	initial:  0
+		title:    "Passenger Liner"
 		content:
 			>	The transport can carry all five Obiards contained in a deep space cell.
 			>	When the transport has picked up the prisoners at a cell, command it to
@@ -242,8 +242,8 @@ briefings:
 			>	should monitor the transport's position closely, as enemy cruisers could
 			>	appear and quickly overtake the transport at any time. Don’t stray too
 			>	far from the transport’s side.
-	*	object:  6
-		title:   "Escort"
+	*	initial:  6
+		title:    "Escort"
 		content:
 			>	An Obish cruiser will escort the transport. It is under the command of
 			>	the Obiards, so it will not be available for you to control.

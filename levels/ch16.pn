@@ -254,16 +254,16 @@ briefings:
 			>	^Pbrf/aud-device^Long range scans have picked up this massive object. It
 			>	appears to be an Audemedon construction. We believe it may be causing
 			>	the local jump stream difficulties.
-	*	object:  1
-		title:   "Research Vessel"
+	*	initial:  1
+		title:    "Research Vessel"
 		content:
 			>	^Pish/etc/research^You are to escort the UNS 0917996, a science vessel.
 			>	From a safe distance, it will be able to determine the function of the
 			>	massive Audemedon construction. If there are Audemedon ships in the Ser
 			>	system, make sure they don't prevent the UNS 0917996 from completing its
 			>	analysis.
-	*	object:  2
-		title:   "Cruiser"
+	*	initial:  2
+		title:    "Cruiser"
 		content:
 			>	^Pele/cruiser^Thanks in part to the Elejeetian Minister Jommo, the
 			>	Elejeetian government is loaning us one of their cruisers, which you
@@ -271,8 +271,8 @@ briefings:
 			>	size: its main weapon, the Onas pulse gun, has a range comparable to our
 			>	standard concussive missiles, and its Neewo beam cannon can temporarily
 			>	disable a target's control systems.
-	*	object:  3
-		title:   "Heavy Destroyer"
+	*	initial:  3
+		title:    "Heavy Destroyer"
 		content:
 			>	^Pish/hvd^We'll also be assigning two destroyers to help you escort the
 			>	UNS 0917996 science vessel. These destroyers will be under the command

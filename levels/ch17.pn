@@ -145,36 +145,36 @@ briefings:
 			>	a widely dispersed asteroid field, the humans hoped to escape the
 			>	Cantharans' notice. Unfortunately, the colonists here have been
 			>	overwhelmed by Audemedons.
-	*	object:  5
-		title:   "Heavy Destroyer"
+	*	initial:  5
+		title:    "Heavy Destroyer"
 		content:
 			>	You will have the services of the base on Alpha, and you will be manning
 			>	this heavy destroyer.^Pish/hvd^
 			|	The base is capable of building even carriers.
-	*	object:  6
-		title:   "Cruiser"
+	*	initial:  6
+		title:    "Cruiser"
 		content:
 			>	^Pele/cruiser^The Elejeetians have graciously donated three more of
 			>	their cruisers to your cause. These cruisers are at your
 			>	disposal.^Puns/cruiser^The humans have, against our wishes, also
 			>	volunteered two cruisers. Unfortunately, these cruisers are woefully
 			>	underpowered and will be of little use to you.
-	*	object:  4
-		title:   "Bunker Station"
+	*	initial:  4
+		title:    "Bunker Station"
 		content:
 			>	^Ploc/bunker^Although not necessary to complete the mission, the
 			>	stations in this system can generate resources for your ship building.
 			>	The bunker station in the center generates as many resources as a
 			>	planet.
-	*	object:  12
-		title:   "Outpost 1"
+	*	initial:  12
+		title:    "Outpost 1"
 		content:
 			>	There are two outposts in the Lelande System. Each generates half as
 			>	many resources as a planet. An outpost is captured in the same manner as
 			>	a bunker station: at least five EVATs from an assault transport must
 			>	enter the station.^Ploc/outpost^
-	*	object:  3
-		title:   "Lalande Beta"
+	*	initial:  3
+		title:    "Lalande Beta"
 		content:
 			>	Your goal in this mission is to recapture the base on Lelande Beta. It
 			>	is occupied by Audemedon forces.^Paud/carrier^The Audemedon ships

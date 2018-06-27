@@ -558,8 +558,8 @@ conditions:
 					>	Player leaves practice mission.
 		value:    100000
 briefings:
-	*	object:  0
-		title:   "Omisha Station"
+	*	initial:  0
+		title:    "Omisha Station"
 		content:
 			>	Your first mission is to acquaint yourself with the basic control of our
 			>	ships. At Omisha station we have a set of buoys and practice drones
@@ -567,32 +567,32 @@ briefings:
 			>
 			>	Position your ship over a buoy to receive instructions on the exercise
 			>	it offers.
-	*	object:  1
-		title:   "Command Buoy A"
+	*	initial:  1
+		title:    "Command Buoy A"
 		content:
 			>	^Pzzz/brf/trgtdrne^These two buoys offer a command exercise. A drone is
 			>	stationed here, and you may practice sending it from one buoy to
 			>	another.
-	*	object:  5
-		title:   "Build Moon"
+	*	initial:  5
+		title:    "Build Moon"
 		content:
 			>	At this small moon you can practice building ships. Unlike real ships,
 			>	the drones you build here will not be available for you to command.
-	*	object:  6
-		title:   "Combat Buoy A"
+	*	initial:  6
+		title:    "Combat Buoy A"
 		content:
 			>	^Pzzz/brf/prctdrne^These three buoys have a series of practice drones,
 			>	programmed to simulate combat. Don't worry about losing your ship
 			>	here--the damage isn't real. When your shields appear depleted, you will
 			>	simply lose power for a moment, and then be fully recharged.
-	*	object:  15
-		title:   "Extra Ships"
+	*	initial:  15
+		title:    "Extra Ships"
 		content:
 			>	^Pzzz/brf/trgtdrne^At this buoy are two "extra" ships. When you feel
 			>	comfortable selecting and controlling other ships, try experimenting
 			>	with these two cruisers.
-	*	object:  18
-		title:   "Omisha Jump Gate"
+	*	initial:  18
+		title:    "Omisha Jump Gate"
 		content:
 			>	^Pbrf/jump-gate^When you feel you've had enough practice, navigate to
 			>	the center of this jump gate to begin your first combat mission.

@@ -191,8 +191,8 @@ briefings:
 			>	the system destroyed their own jumpgate to avoid detection and the fate
 			>	that befell Earth, but the Cantharan Order has found them and has a
 			>	foothold in the system.
-	*	object:  7
-		title:   "Gate Ship"
+	*	initial:  7
+		title:    "Gate Ship"
 		content:
 			>	In their zeal to eliminate the remaining human threat, however, the
 			>	Cantharans have made what could be a critical mistake: they've brought
@@ -200,30 +200,30 @@ briefings:
 			>	Its destruction would be the single greatest blow to their military
 			>	force we could deliver, possibly immobilizing their entire armada, and
 			>	ensuring victory for you.
-	*	object:  0
-		title:   "Pictoris Alpha"
+	*	initial:  0
+		title:    "Pictoris Alpha"
 		content:
 			>	The human colony is here on Alpha. Their military base can produce
 			>	fighters, cruisers, gunships, and transports. Loss of this base will
 			>	force the us to abort the mission.^Puns/gunship^
-	*	object:  1
-		title:   "Pictoris Alpha 1"
+	*	initial:  1
+		title:    "Pictoris Alpha 1"
 		content:
 			>	^Puns/fighter^Alpha One is Pictoris Alpha’s moon, and there’s a small
 			>	base here capable of producing fighters and cruisers.^Puns/cruiser^
-	*	object:  2
-		title:   "Power Station BP1"
+	*	initial:  2
+		title:    "Power Station BP1"
 		content:
 			>	^Ploc/power^The humans also have a power station, BP-1, which will
 			>	generate resources for you. Protect this station. If the Cantharans
 			>	destroy this power station, you won’t be able to build as many ships.
-	*	object:  5
-		title:   "Pictoris Beta"
+	*	initial:  5
+		title:    "Pictoris Beta"
 		content:
 			>	The Cantharans have established themselves on Pictoris Beta and its two
 			>	moons. To complete this mission, you must occupy all three bases.
-	*	object:  7
-		title:   "Gate Ship"
+	*	initial:  7
+		title:    "Gate Ship"
 		content:
 			>	The Cantharan gateship, the Hair-mouth of Doz, will be an extremely
 			>	difficult target to destroy. Because of its incredible power capacity,

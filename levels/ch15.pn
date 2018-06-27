@@ -127,44 +127,44 @@ briefings:
 			>	The Salrilians orchestrated the attack on the Elejeetian liner Banadee
 			>	from here, the Thasero System--and it is here that you will make your
 			>	willingness to fight clear to the Salrilians.
-	*	object:  0
-		title:   "Thasero Alpha"
+	*	initial:  0
+		title:    "Thasero Alpha"
 		content:
 			>	^Pish/aslttran^From our base on Thasero Alpha you can make all the ships
 			>	you'll require for this mission: fighters, cruisers, gunships,
 			>	transports, and assault transports.
-	*	object:  3
-		title:   "Heavy Destroyer"
+	*	initial:  3
+		title:    "Heavy Destroyer"
 		content:
 			>	^Pish/hvd^You'll start in this destroyer. It's the only one we'll be
 			>	able to commit to this mission.
-	*	object:  5
-		title:   "Carrier"
+	*	initial:  5
+		title:    "Carrier"
 		content:
 			>	^Pish/carrier^We expect stiff resistance, so we've brought the carrier
 			>	ISN 0910969 in system. 
-	*	object:  6
-		title:   "Battleship"
+	*	initial:  6
+		title:    "Battleship"
 		content:
 			>	^Pbaz/bttlship^Thanks to your efforts in the Bokleo system, the
 			>	Bazidanese have loaned us a battleship, the First Life. Its homing
 			>	pulses are fairly powerful.
-	*	object:  2
-		title:   "Thasero Station"
+	*	initial:  2
+		title:    "Thasero Station"
 		content:
 			>	^Pbrf/thasero^Thasero Station is your first objective. The sooner you
 			>	knock out its shielding, the fewer resources the Salrilians will have to
 			>	spend on ship building. Use an assault transport to gain control of the
 			>	station--you'll be able to build more ships.
-	*	object:  1
-		title:   "Thasero Beta"
+	*	initial:  1
+		title:    "Thasero Beta"
 		content:
 			>	The base on Thasero Beta is your final goal. Land a transport here to
 			>	complete the mission.
 			|	^Psal/fighter^The Salrilian fighters are difficult to see by design.
 			|	^Psal/cruiser^Their cruisers have stealth fields.
-	*	object:  1
-		title:   "Thasero Beta"
+	*	initial:  1
+		title:    "Thasero Beta"
 		content:
 			>	^Psal/gunship^Salrilian gunships also have stealth fields. They are fast
 			>	and well armed.

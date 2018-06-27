@@ -120,29 +120,29 @@ conditions:
 		counter:     1
 		value:       7
 briefings:
-	*	object:  2
-		title:   "Asteroid IR7-7e"
+	*	initial:  2
+		title:    "Asteroid IR7-7e"
 		content:
 			>	The miners in this system alerted us when they detected a Cantharan ship
 			>	pursuing a rogue asteroid.
 			|	^Pbrf/asteroid^Our preliminary analysis suggests that the asteroid has
 			>	been artificially manufactured.
-	*	object:  2
-		title:   "Asteroid IR7-7e"
+	*	initial:  2
+		title:    "Asteroid IR7-7e"
 		content:
 			>	^Pbrf/los-ran^Its trajectory indicates that it originated in the Los Ran
 			>	system, and we believe it may be a remnant of the ancient Boodan War of
 			>	Cantharis. 
-	*	object:  2
-		title:   "Asteroid IR7-7e"
+	*	initial:  2
+		title:    "Asteroid IR7-7e"
 		content:
 			>	The Cantharans' interest in this asteroid is alarmingly peculiar. We
 			>	intend to destroy it, but we'd like to collect some samples to determine
 			>	its purpose.
 			|	^Past/regular/big^You must break the asteroid into pieces small enough
 			>	to be collected. We require a minimum of four samples of its debris.
-	*	object:  1
-		title:   "Astrominer"
+	*	initial:  1
+		title:    "Astrominer"
 		content:
 			>	^Pish/etc/astrominer^The astrominer has been ordered to follow you.
 			>	Guide it to the asteroid and the astrominer will attempt to break it
@@ -150,21 +150,21 @@ briefings:
 			>	fire. Protect it from attack: it is not a military vessel.
 			|	The astrominer is equipped with two short-range non-concussive solitoid
 			>	cannons, which will gradually weaken the asteroid's structure.
-	*	object:  5
-		title:   "Philemon Beta"
+	*	initial:  5
+		title:    "Philemon Beta"
 		content:
 			>	^Pish/hvc^A single heavy cruiser should be a sufficient escort for the
 			>	astrominer. If the cruiser is destroyed, you may attempt to complete the
 			>	mission without it, but the astrominer is almost incapable of defending
 			>	itself.
-	*	object:  6
-		title:   "Schooner"
+	*	initial:  6
+		title:    "Schooner"
 		content:
 			>	^Pcan/schooner^This Cantharan schooner has pursued the artificial
 			>	asteroid to the Philemon System. The schooner is extremely agile, but is
 			>	minimally armed.
-	*	object:  0
-		title:   "Heavy Cruiser"
+	*	initial:  0
+		title:    "Heavy Cruiser"
 		content:
 			>	^Pcan/hvc^A heavy cruiser has also been detected near the asteroid. It
 			>	will probably attempt to intercept you.

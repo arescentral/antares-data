@@ -135,14 +135,14 @@ briefings:
 			>	Hades System's power stations. Your mission is to occupy their base,
 			>	destroying as many Gaitori power stations as possible, and saving as
 			>	many of the Obish stations as you can.
-	*	object:  12
-		title:   "Hades Alpha"
+	*	initial:  12
+		title:    "Hades Alpha"
 		content:
 			>	The Obish base, currently occupied by our forces, is on Alpha. It can
 			>	produce fighters, cruisers, transports, and engineering pods -- the
 			>	Hades system is littered with flak drones.
-	*	object:  2
-		title:   "Power Station O-1"
+	*	initial:  2
+		title:    "Power Station O-1"
 		content:
 			>	^Ploc/power^This is the first of the three Obish power stations. Each
 			>	station is guarded by a flak drone.
@@ -150,34 +150,34 @@ briefings:
 			>	Note that the power stations produce tremendous resources -- keeping the
 			>	power stations from being destroyed will allow you to produce more
 			>	ships.
-	*	object:  0
-		title:   "Power Station O-2"
+	*	initial:  0
+		title:    "Power Station O-2"
 		content:
 			>	^Ploc/power^This is the second of the three Obish power stations.
-	*	object:  1
-		title:   "Power Station O-3"
+	*	initial:  1
+		title:    "Power Station O-3"
 		content:
 			>	^Ploc/power^The is the last of the three Obish power stations.
-	*	object:  13
-		title:   "Hades Beta"
+	*	initial:  13
+		title:    "Hades Beta"
 		content:
 			>	The Gaitori base is on Hades Beta. They can produce fighters, cruisers,
 			>	transports, engineering pods, as well as gunships. Land a transport here
 			>	to complete the mission.
-	*	object:  5
-		title:   "Power Station G-1"
+	*	initial:  5
+		title:    "Power Station G-1"
 		content:
 			>	^Ploc/power^This is the first of the three Gaitori controlled power
 			>	stations. Although you can complete the mission objectives without
 			>	destroying the Gaitori stations, keep in mind that the more stations
 			>	they have intact, the more ships they can manufacture.
-	*	object:  3
-		title:   "Power Station G-2"
+	*	initial:  3
+		title:    "Power Station G-2"
 		content:
 			>	^Ploc/power^This is the second of the three Gaitori power stations. Each
 			>	of the stations is guarded by a flak drone.
-	*	object:  4
-		title:   "Power Station G-3"
+	*	initial:  4
+		title:    "Power Station G-3"
 		content:
 			>	^Ploc/power^The is the last of the three Gaitori power stations.
 starmap:  {left: 415, top: 225, right: 447, bottom: 249}

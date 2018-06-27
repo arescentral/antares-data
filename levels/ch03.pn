@@ -106,14 +106,14 @@ briefings:
 			>	disarray by seizing one of their planet-based outposts threatening our
 			>	space. This is an opportunity for you to demonstrate the ability to
 			>	coordinate a space-to-surface assault.
-	*	object:  1
-		title:   "Cruiser"
+	*	initial:  1
+		title:    "Cruiser"
 		content:
 			>	^Pish/cruiser^You'll initially be using this standard cruiser. By
 			>	utilizing our base on Alpha, you'll be able to manufacture as many of
 			>	these cruisers as you can afford.
-	*	object:  0
-		title:   "Demeter Alpha"
+	*	initial:  0
+		title:    "Demeter Alpha"
 		content:
 			>	You must protect our base on Demeter Alpha from enemy transports. If a
 			>	Gaitori transport lands on Alpha, the mission will be aborted.
@@ -122,8 +122,8 @@ briefings:
 			>	cruisers. 
 			|	^Pish/fighter^Fighters are fast, but can only travel at sublight speeds.
 			>	Their only weapons are photokinetic beam cannons.
-	*	object:  0
-		title:   "Demeter Alpha"
+	*	initial:  0
+		title:    "Demeter Alpha"
 		content:
 			>	^Pish/transport^The transport is the only ship capable of
 			>	space-to-surface assault. They are limited to sublight travel and are
@@ -131,20 +131,20 @@ briefings:
 			>
 			>	For this mission you'll need to give a transport orders to go to Demeter
 			>	Beta. It will attempt to land once it arrives.
-	*	object:  5
-		title:   "Demeter Beta"
+	*	initial:  5
+		title:    "Demeter Beta"
 		content:
 			>	This planet is your objective. Land a transport here to complete the
 			>	mission.
 			>
 			>	The base here can produce four types of ships.
-	*	object:  5
-		title:   "Demeter Beta"
+	*	initial:  5
+		title:    "Demeter Beta"
 		content:
 			>	^Pgai/fighter^Gaitori fighters are slow, and poorly armored.
 			|	^Pgai/cruiser^You've already encountered several of their cruisers.
-	*	object:  5
-		title:   "Demeter Beta"
+	*	initial:  5
+		title:    "Demeter Beta"
 		content:
 			>	^Pgai/transport^Destroy any of their transports you find making its way
 			>	towards our base on Alpha. If our base is lost, the mission will be

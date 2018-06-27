@@ -145,18 +145,18 @@ briefings:
 			>	^Pcan/race^Our mission here is simple: destroy Mek Het, the Som of Tay
 			>	Ros. He is one of Cantharis's most influential advocates for expansion,
 			>	and one of their best military minds.
-	*	object:  17
-		title:   "The Constant Voice of Doz"
+	*	initial:  17
+		title:    "The Constant Voice of Doz"
 		content:
 			>	^Pcan/carrier^The Som is on the Carrier the Constant Voice of Zom.
 			>	Destroy this carrier and its escorts.
-	*	object:  16
-		title:   "The Open Eye of Zom"
+	*	initial:  16
+		title:    "The Open Eye of Zom"
 		content:
 			>	^Pcan/carrier^The Open Eye of Zom is also in the Sprist system, and has
 			>	its own host of escorts.
-	*	object:  6
-		title:   "ISN 2020187"
+	*	initial:  6
+		title:    "ISN 2020187"
 		content:
 			>	^Pish/carrier^We've brought in a carrier of our own, the ISN 2020187. It
 			>	should be able to successfully engage the Constant Voice. However, if
