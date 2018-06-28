@@ -138,6 +138,7 @@ conditions:
 			*	type:    "capture"
 				player:  0
 		player:   0
+		initial:  6
 	*	type:     "owner"
 		op:       "eq"
 		subject:  6
@@ -149,6 +150,7 @@ conditions:
 			*	type:    "capture"
 				player:  1
 		player:   1
+		initial:  6
 	*	type:      "time"
 		op:        "ge"
 		action:
@@ -173,6 +175,7 @@ conditions:
 					>	You captured the Cantharan base on Bokleo Gamma.
 		persistent:  true
 		player:      0
+		initial:     8
 	*	type:        "owner"
 		op:          "eq"
 		subject:     9
@@ -184,6 +187,7 @@ conditions:
 					>	controlled by them.
 		persistent:  true
 		player:      1
+		initial:     9
 briefings:
 	*	title:  "Bokleo Alpha"
 		content:

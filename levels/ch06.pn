@@ -114,6 +114,7 @@ conditions:
 				text:
 					>	A Gaitori transport landed on Hades Alpha.
 		player:   1
+		initial:  12
 	*	type:     "owner"
 		op:       "eq"
 		subject:  13
@@ -124,6 +125,7 @@ conditions:
 				text:
 					>	You captured the Gaitori base on Hades Beta.
 		player:   0
+		initial:  13
 briefings:
 	*	title:  "Hades System"
 		content:

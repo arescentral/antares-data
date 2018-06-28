@@ -122,6 +122,8 @@ conditions:
 				enable:     [2]
 		persistent:  true
 		value:       50000
+		from:        1
+		to:          0
 	*	type:      "counter"
 		op:        "ge"
 		subject:   1
@@ -165,6 +167,8 @@ conditions:
 				disable:    [2]
 		persistent:  true
 		value:       50000
+		from:        1
+		to:          0
 	*	type:     "counter"
 		op:       "eq"
 		action:

@@ -126,6 +126,7 @@ conditions:
 				text:
 					>	Player 1 captured the center base.
 		player:   0
+		initial:  8
 	*	type:     "owner"
 		op:       "eq"
 		subject:  8
@@ -136,6 +137,7 @@ conditions:
 				text:
 					>	Player 2 captured the center base.
 		player:   1
+		initial:  8
 description:
 	>	Capture the center base first. It's surrounded by flak drones and
 	>	outposts. Engineering pods can only be built at peripheral outposts.

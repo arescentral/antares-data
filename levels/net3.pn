@@ -101,6 +101,8 @@ conditions:
 				text:
 					>	Player 2 captured the flagpod!
 		value:    50000
+		from:     4
+		to:       1
 	*	type:     "distance"
 		op:       "lt"
 		subject:  5
@@ -112,6 +114,8 @@ conditions:
 				text:
 					>	Player 1 captured the flagpod!
 		value:    50000
+		from:     5
+		to:       0
 description:
 	>	Capture opponent's flag by flying over it & ordering it back to your
 	>	planet. Ships transported to opponent's "jail" moor instead of dying.

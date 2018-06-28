@@ -203,6 +203,7 @@ conditions:
 				text:
 					>	You captured Proxima Centauri Beta.
 		player:   0
+		initial:  1
 briefings:
 	*	title:  "Proxima Centauri System"
 		content:

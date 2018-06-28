@@ -188,6 +188,7 @@ conditions:
 						>	Cantharan-constructed jumpgate, and we were unable to pursue. Looks like
 						>	they’re headed your way. \i<EOT>\i 
 		value:    0.5
+		initial:  2
 	*	type:      "ships"
 		op:        "eq"
 		action:
@@ -217,6 +218,7 @@ conditions:
 				text:
 					>	Earth is free! The Cantharans have been defeated!
 		player:   0
+		initial:  1
 briefings:
 	*	title:  "Sol"
 		content:

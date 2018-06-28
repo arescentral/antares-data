@@ -123,6 +123,7 @@ conditions:
 				enable:     [4]
 		disabled:  true
 		player:    0
+		initial:   3
 	*	type:      "owner"
 		op:        "eq"
 		subject:   4
@@ -135,6 +136,7 @@ conditions:
 				enable:     [5]
 		disabled:  true
 		player:    0
+		initial:   4
 	*	type:      "owner"
 		op:        "eq"
 		subject:   5
@@ -148,6 +150,7 @@ conditions:
 					>	enemy Gate Ship to withdraw.
 		disabled:  true
 		player:    0
+		initial:   5
 	*	type:      "owner"
 		op:        "eq"
 		subject:   3
@@ -160,6 +163,7 @@ conditions:
 				enable:     [1]
 		disabled:  true
 		player:    1
+		initial:   3
 	*	type:      "owner"
 		op:        "eq"
 		subject:   4
@@ -172,6 +176,7 @@ conditions:
 				enable:     [1]
 		disabled:  true
 		player:    1
+		initial:   4
 	*	type:     "owner"
 		op:       "eq"
 		subject:  0
@@ -183,6 +188,7 @@ conditions:
 					>	You allowed the Cantharans to capture the human base on Beta Pictoris
 					>	Alpha.
 		player:   1
+		initial:  0
 briefings:
 	*	title:  "Beta Pictoris"
 		content:

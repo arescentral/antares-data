@@ -170,6 +170,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   1
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -203,6 +204,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   6
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -244,6 +246,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   5
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -307,6 +310,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   1
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -361,6 +365,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   5
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -424,6 +429,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   2
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -481,6 +487,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   5
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -513,6 +520,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   6
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -571,6 +579,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "target"
+		initial:   1
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -598,6 +607,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "target"
+		initial:   6
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -640,6 +650,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "target"
+		initial:   7
 	*	type:        "message"
 		op:          "eq"
 		action:
@@ -678,6 +689,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "target"
+		initial:   1
 	*	type:        "message"
 		op:          "eq"
 		action:
@@ -705,6 +717,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "target"
+		initial:   6
 	*	type:        "message"
 		op:          "eq"
 		action:
@@ -746,6 +759,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "target"
+		initial:   7
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -773,6 +787,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "target"
+		initial:   1
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -868,6 +883,8 @@ conditions:
 				enable:  [35]
 		disabled:  true
 		value:     50000
+		from:      1
+		to:        5
 	*	type:      "distance"
 		op:        "lt"
 		subject:   "player"
@@ -883,6 +900,8 @@ conditions:
 					>	Good work. You completed the second tutorial.
 		disabled:  true
 		value:     50000
+		from:      "player"
+		to:        6
 	*	type:      "autopilot"
 		op:        "eq"
 		action:

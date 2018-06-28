@@ -108,6 +108,7 @@ conditions:
 				text:
 					>	Player 2 captured Lelande Beta.
 		player:   1
+		initial:  2
 	*	type:     "owner"
 		op:       "eq"
 		subject:  3
@@ -118,6 +119,7 @@ conditions:
 				text:
 					>	Player 1 Captured Lelande Alpha
 		player:   0
+		initial:  3
 starmap:     {left: 84, top: 88, right: 116, bottom: 112}
 start_time:  "4m"
 description:

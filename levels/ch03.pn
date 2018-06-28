@@ -68,6 +68,7 @@ conditions:
 					>	The Gaitori have taken our base on Demeter Alpha. The system is now
 					>	controlled by them.
 		player:   1
+		initial:  0
 	*	type:     "owner"
 		op:       "eq"
 		subject:  5
@@ -78,6 +79,7 @@ conditions:
 				text:
 					>	You took the Gaitori base on Demeter Beta. The mission was a success.
 		player:   0
+		initial:  5
 	*	type:      "time"
 		op:        "ge"
 		action:

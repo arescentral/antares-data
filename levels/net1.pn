@@ -95,6 +95,7 @@ conditions:
 				text:
 					>	Player 2 captured Palyos Alpha.
 		player:   1
+		initial:  2
 	*	type:     "owner"
 		op:       "eq"
 		subject:  3
@@ -105,6 +106,7 @@ conditions:
 				text:
 					>	Player 1 captured Palyos Beta.
 		player:   0
+		initial:  3
 starmap:     {left: 184, top: 188, right: 216, bottom: 212}
 start_time:  "4m"
 description:

@@ -127,6 +127,7 @@ conditions:
 				text:
 					>	Out base on Lelande Alpha was captured.
 		player:   1
+		initial:  2
 	*	type:     "owner"
 		op:       "eq"
 		subject:  3
@@ -138,6 +139,7 @@ conditions:
 				text:
 					>	You captured the base on Lelande Beta, and it is again in human hands.
 		player:   0
+		initial:  3
 briefings:
 	*	title:  "Lalande"
 		content:

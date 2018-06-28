@@ -179,6 +179,7 @@ conditions:
 				text:
 					>	The Cantharan Order landed a transport on our base on Fansi Alpha.
 		player:   1
+		initial:  9
 	*	type:     "owner"
 		op:       "eq"
 		subject:  10
@@ -189,6 +190,7 @@ conditions:
 				text:
 					>	You captured the Cantharan base on Fansi Beta.
 		player:   0
+		initial:  10
 briefings:
 	*	title:  "Fansi"
 		content:

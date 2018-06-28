@@ -113,6 +113,8 @@ conditions:
 				enable:  [7]
 		persistent:  true
 		value:       50000
+		from:        1
+		to:          0
 	*	type:      "counter"
 		op:        "ge"
 		subject:   1
@@ -154,6 +156,8 @@ conditions:
 				disable:    [7]
 		persistent:  true
 		value:       50000
+		from:        1
+		to:          0
 	*	type:     "counter"
 		op:       "eq"
 		action:
@@ -196,6 +200,7 @@ conditions:
 				reflexive:  true
 				enable:     [2]
 		value:    5.0
+		initial:  1
 briefings:
 	*	title:  "Heshac System"
 		content:

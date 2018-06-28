@@ -76,6 +76,7 @@ conditions:
 				text:
 					>	Our base on Aeneas Alpha was captured by the Gaitori.
 		player:   1
+		initial:  1
 	*	type:     "owner"
 		op:       "eq"
 		subject:  8
@@ -86,6 +87,7 @@ conditions:
 				text:
 					>	You captured Aeneas Beta.
 		player:   0
+		initial:  8
 briefings:
 	*	title:  "Aeneas System"
 		content:

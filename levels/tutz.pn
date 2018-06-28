@@ -165,6 +165,8 @@ conditions:
 				reflexive:  true
 				enable:     [12]
 		value:    50000
+		from:     "player"
+		to:       1
 	*	type:     "distance"
 		op:       "lt"
 		subject:  "player"
@@ -199,6 +201,8 @@ conditions:
 				reflexive:  true
 				enable:     [12]
 		value:    50000
+		from:     "player"
+		to:       2
 	*	type:      "subject"
 		op:        "eq"
 		subject:   3
@@ -221,6 +225,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   3
 	*	type:      "subject"
 		op:        "eq"
 		subject:   3
@@ -243,6 +248,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   3
 	*	type:      "subject"
 		op:        "eq"
 		subject:   1
@@ -257,6 +263,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "target"
+		initial:   1
 	*	type:      "subject"
 		op:        "eq"
 		subject:   2
@@ -271,6 +278,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "target"
+		initial:   2
 	*	type:      "distance"
 		op:        "lt"
 		subject:   3
@@ -284,6 +292,8 @@ conditions:
 						>	ship.
 		disabled:  true
 		value:     50000
+		from:      3
+		to:        1
 	*	type:      "distance"
 		op:        "lt"
 		subject:   3
@@ -297,6 +307,8 @@ conditions:
 						>	ship.
 		disabled:  true
 		value:     50000
+		from:      3
+		to:        2
 	*	type:      "subject"
 		op:        "eq"
 		subject:   1
@@ -314,6 +326,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "target"
+		initial:   1
 	*	type:      "subject"
 		op:        "eq"
 		subject:   2
@@ -331,6 +344,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "target"
+		initial:   2
 	*	type:      "subject"
 		op:        "eq"
 		subject:   3
@@ -345,6 +359,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   3
 	*	type:      "distance"
 		op:        "lt"
 		subject:   3
@@ -364,6 +379,8 @@ conditions:
 				enable:     [7]
 		disabled:  true
 		value:     50000
+		from:      3
+		to:        1
 	*	type:      "distance"
 		op:        "lt"
 		subject:   3
@@ -383,6 +400,8 @@ conditions:
 				disable:    [11]
 		disabled:  true
 		value:     50000
+		from:      3
+		to:        2
 	*	type:     "distance"
 		op:       "lt"
 		subject:  "player"
@@ -408,6 +427,8 @@ conditions:
 				reflexive:  true
 				enable:     [14]
 		value:    50000
+		from:     "player"
+		to:       5
 	*	type:      "subject"
 		op:        "eq"
 		subject:   5
@@ -424,6 +445,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   5
 	*	type:     "distance"
 		op:       "lt"
 		subject:  "player"
@@ -454,6 +476,8 @@ conditions:
 						>	The nearby buoys farther out from Omisha Station have more drones
 						>	stationed at them.
 		value:    50000
+		from:     "player"
+		to:       6
 	*	type:     "distance"
 		op:       "lt"
 		subject:  "player"
@@ -485,6 +509,8 @@ conditions:
 						>	transferring control from the \i_Special Orders_\i menu or selecting a
 						>	target object and sending the ship there.
 		value:    50000
+		from:     "player"
+		to:       15
 	*	type:     "distance"
 		op:       "lt"
 		subject:  "player"
@@ -541,6 +567,8 @@ conditions:
 						>
 						>	Clear this message by selecting \i_Next Page/Clear_\i.
 		value:    50000
+		from:     "player"
+		to:       0
 	*	type:     "distance"
 		op:       "lt"
 		subject:  "player"
@@ -557,6 +585,8 @@ conditions:
 				text:
 					>	Player leaves practice mission.
 		value:    100000
+		from:     "player"
+		to:       18
 briefings:
 	*	initial:  0
 		title:    "Omisha Station"

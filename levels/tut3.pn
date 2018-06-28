@@ -200,6 +200,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   1
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -387,6 +388,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   5
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -429,6 +431,7 @@ conditions:
 					*	"comp_build"
 		player:   0
 		value:    "target"
+		initial:  2
 	*	type:     "counter"
 		op:       "eq"
 		action:
@@ -502,6 +505,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   2
 	*	type:      "subject"
 		op:        "eq"
 		subject:   1
@@ -536,6 +540,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "target"
+		initial:   1
 	*	type:      "distance"
 		op:        "lt"
 		subject:   1
@@ -563,6 +568,8 @@ conditions:
 				enable:  [20]
 		disabled:  true
 		value:     50000
+		from:      1
+		to:        2
 	*	type:      "subject"
 		op:        "eq"
 		subject:   6
@@ -587,6 +594,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   6
 	*	type:      "target"
 		op:        "eq"
 		subject:   6
@@ -625,6 +633,8 @@ conditions:
 						>	The transport will go to your target,
 						|	the planet, and land on it.
 		disabled:  true
+		initial:   6
+		target:    1
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -672,6 +682,7 @@ conditions:
 				initial:  [4]
 		disabled:  true
 		player:    0
+		initial:   1
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -696,6 +707,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   6
 	*	type:      "subject"
 		op:        "eq"
 		subject:   4
@@ -712,6 +724,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "target"
+		initial:   4
 	*	type:      "target"
 		op:        "eq"
 		subject:   6
@@ -732,6 +745,8 @@ conditions:
 			*	type:    "condition"
 				enable:  [28]
 		disabled:  true
+		initial:   6
+		target:    4
 	*	type:      "target"
 		op:        "eq"
 		subject:   5
@@ -747,6 +762,8 @@ conditions:
 			*	type:    "condition"
 				enable:  [29]
 		disabled:  true
+		initial:   5
+		target:    4
 	*	type:      "target"
 		op:        "eq"
 		subject:   2
@@ -771,6 +788,8 @@ conditions:
 						>
 						>	Try it now (we’ve turned off mouse selection for the moment).
 		disabled:  true
+		initial:   2
+		target:    4
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -809,6 +828,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "target"
+		initial:   0
 	*	type:      "target"
 		op:        "eq"
 		subject:   2
@@ -817,6 +837,8 @@ conditions:
 			*	type:    "condition"
 				enable:  [33]
 		disabled:  true
+		initial:   2
+		target:    0
 	*	type:      "target"
 		op:        "eq"
 		subject:   5
@@ -825,6 +847,8 @@ conditions:
 			*	type:    "condition"
 				enable:  [34]
 		disabled:  true
+		initial:   5
+		target:    0
 	*	type:      "target"
 		op:        "eq"
 		subject:   6
@@ -857,6 +881,8 @@ conditions:
 				screen:  "main"
 				line:    4
 		disabled:  true
+		initial:   6
+		target:    0
 	*	type:    "message"
 		op:      "eq"
 		action:
@@ -926,6 +952,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "control"
+		initial:   2
 	*	type:      "subject"
 		op:        "eq"
 		subject:   2
@@ -971,6 +998,7 @@ conditions:
 		disabled:  true
 		player:    0
 		value:     "flagship"
+		initial:   2
 	*	type:    "message"
 		op:      "eq"
 		action:
