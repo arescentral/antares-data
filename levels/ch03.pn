@@ -58,8 +58,11 @@ initials:
 			*	"gunship"
 			*	"transport"
 conditions:
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   1
+			initial:  0
 		subject:  0
 		action:
 			*	type:    "win"
@@ -67,10 +70,11 @@ conditions:
 				text:
 					>	The Gaitori have taken our base on Demeter Alpha. The system is now
 					>	controlled by them.
-		player:   1
-		initial:  0
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   0
+			initial:  5
 		subject:  5
 		action:
 			*	type:    "win"
@@ -78,10 +82,10 @@ conditions:
 				next:    "ch04"
 				text:
 					>	You took the Gaitori base on Demeter Beta. The mission was a success.
-		player:   0
-		initial:  5
-	*	type:      "time"
-		op:        "ge"
+	*	when:
+			type:      "time"
+			op:        "ge"
+			duration:  "1m"
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -96,7 +100,6 @@ conditions:
 				reflexive:  true
 				delay:      "6s40t"
 				initial:    [4]
-		duration:  "1m"
 briefings:
 	*	title:  "Demeter"
 		content:

@@ -67,18 +67,22 @@ initials:
 			*	"transport"
 			*	"engineer"
 conditions:
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   1
+			initial:  1
 		subject:  1
 		action:
 			*	type:    "win"
 				player:  1
 				text:
 					>	Our base on Aeneas Alpha was captured by the Gaitori.
-		player:   1
-		initial:  1
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   0
+			initial:  8
 		subject:  8
 		action:
 			*	type:    "win"
@@ -86,8 +90,6 @@ conditions:
 				next:    "ch06"
 				text:
 					>	You captured Aeneas Beta.
-		player:   0
-		initial:  8
 briefings:
 	*	title:  "Aeneas System"
 		content:

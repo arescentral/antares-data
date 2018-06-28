@@ -92,8 +92,12 @@ initials:
 		at:      {x: 5217, y: -34782}
 		target:  {initial: 3, lock: true}
 conditions:
-	*	type:     "counter"
-		op:       "eq"
+	*	when:
+			type:     "counter"
+			op:       "eq"
+			player:   0
+			counter:  0
+			value:    5
 		action:
 			*	type:       "morph"
 				reflexive:  true
@@ -101,22 +105,25 @@ conditions:
 					subject:  {initial: 1}
 				base:       "ish/hvd"
 				keep_ammo:  true
-		player:   0
-		counter:  0
-		value:    5
-	*	type:        "distance"
-		op:          "lt"
+	*	persistent:  true
+		when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   1
+			to:     0
 		subject:     1
 		object:      0
 		action:
 			*	type:    "condition"
 				enable:  [7]
-		persistent:  true
-		value:       50000
-		from:        1
-		to:          0
-	*	type:      "counter"
-		op:        "ge"
+	*	disabled:  true
+		when:
+			type:     "counter"
+			op:       "ge"
+			player:   0
+			counter:  0
+			value:    1
 		subject:   1
 		action:
 			*	type:                "create"
@@ -139,12 +146,13 @@ conditions:
 					subject:  {initial: 1}
 				base:       "ish/etc/hvd/rescue"
 				keep_ammo:  true
-		disabled:  true
-		player:    0
-		counter:   0
-		value:     1
-	*	type:        "distance"
-		op:          "ge"
+	*	persistent:  true
+		when:
+			type:   "distance"
+			op:     "ge"
+			value:  50000
+			from:   1
+			to:     0
 		subject:     1
 		object:      0
 		action:
@@ -154,12 +162,12 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				disable:    [7]
-		persistent:  true
-		value:       50000
-		from:        1
-		to:          0
-	*	type:     "counter"
-		op:       "eq"
+	*	when:
+			type:     "counter"
+			op:       "eq"
+			player:   0
+			counter:  1
+			value:    21
 		action:
 			*	type:       "win"
 				reflexive:  true
@@ -167,11 +175,12 @@ conditions:
 				next:       "ch12"
 				text:
 					>	You rescued more than two thirds of the human captives.
-		player:   0
-		counter:  1
-		value:    21
-	*	type:     "counter"
-		op:       "eq"
+	*	when:
+			type:     "counter"
+			op:       "eq"
+			player:   0
+			counter:  2
+			value:    10
 		action:
 			*	type:       "win"
 				reflexive:  true
@@ -179,28 +188,27 @@ conditions:
 				text:
 					>	You allowed too many of the human captives to die for this mission to be
 					>	considered a success.
-		player:   0
-		counter:  2
-		value:    10
-	*	type:     "destroyed"
-		op:       "eq"
+	*	when:
+			type:     "destroyed"
+			op:       "eq"
+			initial:  1
+			value:    true
 		action:
 			*	type:       "win"
 				reflexive:  true
 				player:     1
 				text:
 					>	Without your modified destroyer, you can’t rescue the humans.
-		initial:  1
-		value:    true
-	*	type:     "speed"
-		op:       "lt"
+	*	when:
+			type:     "speed"
+			op:       "lt"
+			value:    5.0
+			initial:  1
 		subject:  1
 		action:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [2]
-		value:    5.0
-		initial:  1
 briefings:
 	*	title:  "Heshac System"
 		content:

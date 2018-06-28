@@ -116,8 +116,11 @@ initials:
 		build:
 			*	"engineer"
 conditions:
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   0
+			initial:  8
 		subject:  8
 		action:
 			*	type:       "win"
@@ -125,10 +128,11 @@ conditions:
 				player:     0
 				text:
 					>	Player 1 captured the center base.
-		player:   0
-		initial:  8
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   1
+			initial:  8
 		subject:  8
 		action:
 			*	type:       "win"
@@ -136,8 +140,6 @@ conditions:
 				player:     1
 				text:
 					>	Player 2 captured the center base.
-		player:   1
-		initial:  8
 description:
 	>	Capture the center base first. It's surrounded by flak drones and
 	>	outposts. Engineering pods can only be built at peripheral outposts.

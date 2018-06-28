@@ -58,8 +58,10 @@ initials:
 		hide:    true
 		target:  {initial: 8, lock: true}
 conditions:
-	*	type:      "time"
-		op:        "ge"
+	*	when:
+			type:      "time"
+			op:        "ge"
+			duration:  "0s"
 		action:
 			*	type:  "key"
 				disable:
@@ -106,9 +108,11 @@ conditions:
 						>
 						>	Use the mouse to double click the <Message>
 						|	item now.
-		duration:  "0s"
-	*	type:    "computer"
-		op:      "eq"
+	*	when:
+			type:    "computer"
+			op:      "eq"
+			player:  0
+			screen:  "message"
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -128,18 +132,21 @@ conditions:
 						|	#CNC key.
 						>
 						>	Try backing up to the main menu now.
-		player:  0
-		screen:  "message"
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5701
+			page:    3
 		action:
 			*	type:    "condition"
 				enable:  [3]
-		player:  0
-		id:      5701
-		page:    3
-	*	type:      "computer"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:    "computer"
+			op:      "eq"
+			player:  0
+			screen:  "main"
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -162,11 +169,12 @@ conditions:
 					*	"mouse"
 			*	type:    "condition"
 				enable:  [22]
-		disabled:  true
-		player:    0
-		screen:    "main"
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5704
+			page:    6
 		action:
 			*	type:   "zoom"
 				value:  "1:4"
@@ -178,11 +186,12 @@ conditions:
 					*	"zoom_out"
 					*	"comp_message"
 					*	"comp_build"
-		player:  0
-		id:      5704
-		page:    6
-	*	type:      "zoom"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:    "zoom"
+			op:      "eq"
+			player:  0
+			value:   "2:1"
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -213,11 +222,12 @@ conditions:
 						>	\i_#SC-_\i key several times.
 						>
 						>	This mode always shows all the objects in a scenario.
-		disabled:  true
-		player:    0
-		value:     "2:1"
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5711
+			page:    2
 		action:
 			*	type:  "order"
 				override:
@@ -227,11 +237,13 @@ conditions:
 				enable:  [7]
 			*	type:   "zoom"
 				value:  "foe"
-		player:  0
-		id:      5711
-		page:    2
-	*	type:      "distance"
-		op:        "lt"
+	*	disabled:  true
+		when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   0
+			to:     5
 		subject:   0
 		object:    5
 		action:
@@ -242,12 +254,13 @@ conditions:
 			*	type:    "condition"
 				delay:   "2s"
 				enable:  [8]
-		disabled:  true
-		value:     50000
-		from:      0
-		to:        5
-	*	type:      "distance"
-		op:        "lt"
+	*	disabled:  true
+		when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   4
+			to:     5
 		subject:   4
 		object:    5
 		action:
@@ -258,12 +271,12 @@ conditions:
 			*	type:    "condition"
 				delay:   "2s"
 				enable:  [7]
-		disabled:  true
-		value:     50000
-		from:      4
-		to:        5
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5711
+			page:    4
 		action:
 			*	type:       "kill"
 				reflexive:  true
@@ -272,11 +285,12 @@ conditions:
 				kind:       "none"
 			*	type:    "condition"
 				enable:  [10]
-		player:  0
-		id:      5711
-		page:    4
-	*	type:      "zoom"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:    "zoom"
+			op:      "eq"
+			player:  0
+			value:   "all"
 		action:
 			*	type:              "message"
 				reflexive:         true
@@ -316,11 +330,12 @@ conditions:
 						>	The zoom modes, from smallest to largest, are: \f0cZoom to All\r,
 						>	\f0cZoom to Closest\r, \f0cZoom to Hostile\r, \f0c1:16\r, \f0c1:4\r,
 						>	\f0c1:2\r, \f0c1:1\r, and \f0c2:1\r.
-		disabled:  true
-		player:    0
-		value:     "all"
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5715
+			page:    1
 		action:
 			*	type:  "key"
 				disable:
@@ -331,22 +346,24 @@ conditions:
 					*	"mouse"
 			*	type:   "zoom"
 				value:  "all"
-		player:  0
-		id:      5715
-		page:    1
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5715
+			page:    3
 		action:
 			*	type:       "heal"
 				reflexive:  true
 				override:
 					subject:  {initial: 2}
 				value:      -249
-		player:  0
-		id:      5715
-		page:    3
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5715
+			page:    6
 		action:
 			*	type:    "condition"
 				enable:  [14]
@@ -356,11 +373,12 @@ conditions:
 					*	"zoom_out"
 					*	"comp_message"
 					*	"comp_build"
-		player:  0
-		id:      5715
-		page:    6
-	*	type:      "zoom"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:    "zoom"
+			op:      "eq"
+			player:  0
+			value:   "1:1"
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -508,21 +526,23 @@ conditions:
 						>	Use the radar to find the cloaked ship.
 						>
 						>	Good luck!
-		disabled:  true
-		player:    0
-		value:     "1:1"
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5721
+			page:    2
 		action:
 			*	type:  "key"
 				enable:
 					*	"left"
 					*	"right"
-		player:  0
-		id:      5721
-		page:    2
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5721
+			page:    4
 		action:
 			*	type:  "key"
 				enable:
@@ -531,19 +551,21 @@ conditions:
 					*	"warp"
 			*	type:   "zoom"
 				value:  "1:1"
-		player:  0
-		id:      5721
-		page:    4
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5721
+			page:    3
 		action:
 			*	type:   "zoom"
 				value:  "1:16"
-		player:  0
-		id:      5721
-		page:    3
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5721
+			page:    11
 		action:
 			*	type:       "key"
 				reflexive:  true
@@ -551,11 +573,12 @@ conditions:
 					*	"fire_1"
 					*	"fire_2"
 					*	"fire_s"
-		player:  0
-		id:      5721
-		page:    11
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5721
+			page:    17
 		action:
 			*	type:     "reveal"
 				initial:  [7, 8]
@@ -580,19 +603,21 @@ conditions:
 				player:     0
 			*	type:    "condition"
 				enable:  [20]
-		player:  0
-		id:      5721
-		page:    17
-	*	type:      "destroyed"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "destroyed"
+			op:       "eq"
+			initial:  7
+			value:    true
 		action:
 			*	type:    "condition"
 				enable:  [21]
-		disabled:  true
-		initial:   7
-		value:     true
-	*	type:      "destroyed"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "destroyed"
+			op:       "eq"
+			initial:  8
+			value:    true
 		action:
 			*	type:       "win"
 				reflexive:  true
@@ -600,11 +625,13 @@ conditions:
 				next:       "ch01"
 				text:
 					>	Good work. You completed the first tutorial.
-		disabled:  true
-		initial:   8
-		value:     true
-	*	type:      "computer"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:    "computer"
+			op:      "eq"
+			player:  0
+			screen:  "main"
+			line:    3
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -615,12 +642,12 @@ conditions:
 						>
 			*	type:    "condition"
 				enable:  [23]
-		disabled:  true
-		player:    0
-		screen:    "main"
-		line:      3
-	*	type:      "computer"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:    "computer"
+			op:      "eq"
+			player:  0
+			screen:  "message"
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -669,9 +696,6 @@ conditions:
 						>
 						>	Notice that as you change zoom levels, the current mode is displayed at
 						>	the top of the screen.
-		disabled:  true
-		player:    0
-		screen:    "message"
 starmap:  {left: 314, top: 275, right: 346, bottom: 299}
 par:
 	time:    "2m"

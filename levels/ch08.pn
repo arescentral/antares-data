@@ -53,8 +53,10 @@ initials:
 		at:     {x: 32768, y: 0}
 		hide:   true
 conditions:
-	*	type:      "time"
-		op:        "ge"
+	*	when:
+			type:      "time"
+			op:        "ge"
+			duration:  "-2s"
 		action:
 			*	type:       "reveal"
 				reflexive:  true
@@ -62,16 +64,18 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [4, 5, 6]
-		duration:  "-2s"
-	*	type:      "time"
-		op:        "ge"
+	*	when:
+			type:      "time"
+			op:        "ge"
+			duration:  "11s40t"
 		action:
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [7]
-		duration:  "11s40t"
-	*	type:      "time"
-		op:        "ge"
+	*	when:
+			type:      "time"
+			op:        "ge"
+			duration:  "-3m59.85s"
 		action:
 			*	type:       "push"
 				reflexive:  true
@@ -79,9 +83,13 @@ conditions:
 					subject:  {initial: 0}
 				kind:       "set"
 				value:      0.0
-		duration:  "-3m59.85s"
-	*	type:        "counter"
-		op:          "ge"
+	*	persistent:  true
+		when:
+			type:     "counter"
+			op:       "ge"
+			player:   0
+			counter:  1
+			value:    10
 		action:
 			*	type:    "win"
 				player:  0
@@ -89,10 +97,6 @@ conditions:
 				text:
 					>	Mission completed. You collected enough asteroid samples for a thorough
 					>	analysis.
-		persistent:  true
-		player:      0
-		counter:     1
-		value:       10
 briefings:
 	*	title:  "Palyos Belt"
 		content:

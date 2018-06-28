@@ -78,15 +78,19 @@ initials:
 		flagship:  true
 		target:    {initial: 3}
 conditions:
-	*	type:      "time"
-		op:        "ge"
+	*	when:
+			type:      "time"
+			op:        "ge"
+			duration:  "-1s"
 		action:
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [6, 7]
-		duration:  "-1s"
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   1
+			initial:  2
 		subject:  2
 		action:
 			*	type:       "win"
@@ -94,10 +98,11 @@ conditions:
 				player:     1
 				text:
 					>	Player 2 captured Palyos Alpha.
-		player:   1
-		initial:  2
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   0
+			initial:  3
 		subject:  3
 		action:
 			*	type:       "win"
@@ -105,8 +110,6 @@ conditions:
 				player:     0
 				text:
 					>	Player 1 captured Palyos Beta.
-		player:   0
-		initial:  3
 starmap:     {left: 184, top: 188, right: 216, bottom: 212}
 start_time:  "4m"
 description:

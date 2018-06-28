@@ -103,16 +103,21 @@ initials:
 		at:      {x: 1913, y: 7391}
 		target:  {initial: 0}
 conditions:
-	*	type:     "destroyed"
-		op:       "eq"
+	*	when:
+			type:     "destroyed"
+			op:       "eq"
+			initial:  7
+			value:    true
 		action:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [1]
-		initial:  7
-		value:    true
-	*	type:      "owner"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "owner"
+			op:       "eq"
+			player:   0
+			initial:  3
 		subject:   3
 		action:
 			*	type:       "condition"
@@ -121,11 +126,12 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [4]
-		disabled:  true
-		player:    0
-		initial:   3
-	*	type:      "owner"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "owner"
+			op:       "eq"
+			player:   0
+			initial:  4
 		subject:   4
 		action:
 			*	type:       "condition"
@@ -134,11 +140,12 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [5]
-		disabled:  true
-		player:    0
-		initial:   4
-	*	type:      "owner"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "owner"
+			op:       "eq"
+			player:   0
+			initial:  5
 		subject:   5
 		action:
 			*	type:       "win"
@@ -148,11 +155,12 @@ conditions:
 				text:
 					>	You succeeded in capturing the Beta Pictoris System, and you forced the
 					>	enemy Gate Ship to withdraw.
-		disabled:  true
-		player:    0
-		initial:   5
-	*	type:      "owner"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "owner"
+			op:       "eq"
+			player:   1
+			initial:  3
 		subject:   3
 		action:
 			*	type:       "condition"
@@ -161,11 +169,12 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [1]
-		disabled:  true
-		player:    1
-		initial:   3
-	*	type:      "owner"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "owner"
+			op:       "eq"
+			player:   1
+			initial:  4
 		subject:   4
 		action:
 			*	type:       "condition"
@@ -174,11 +183,11 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [1]
-		disabled:  true
-		player:    1
-		initial:   4
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   1
+			initial:  0
 		subject:  0
 		action:
 			*	type:       "win"
@@ -187,8 +196,6 @@ conditions:
 				text:
 					>	You allowed the Cantharans to capture the human base on Beta Pictoris
 					>	Alpha.
-		player:   1
-		initial:  0
 briefings:
 	*	title:  "Beta Pictoris"
 		content:

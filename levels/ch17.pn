@@ -96,8 +96,10 @@ initials:
 			name:  "Outpost 2"
 		earning:  0.5
 conditions:
-	*	type:      "time"
-		op:        "ge"
+	*	when:
+			type:      "time"
+			op:        "ge"
+			duration:  "-1s"
 		action:
 			*	type:       "reveal"
 				reflexive:  true
@@ -117,19 +119,22 @@ conditions:
 					subject:  {initial: 3}
 				value:   10000.0
 				player:  1
-		duration:  "-1s"
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   1
+			initial:  2
 		subject:  2
 		action:
 			*	type:    "win"
 				player:  1
 				text:
 					>	Out base on Lelande Alpha was captured.
-		player:   1
-		initial:  2
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   0
+			initial:  3
 		subject:  3
 		action:
 			*	type:       "win"
@@ -138,8 +143,6 @@ conditions:
 				next:       "ch18"
 				text:
 					>	You captured the base on Lelande Beta, and it is again in human hands.
-		player:   0
-		initial:  3
 briefings:
 	*	title:  "Lalande"
 		content:

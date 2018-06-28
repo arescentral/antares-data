@@ -99,18 +99,23 @@ initials:
 		at:      {x: 696, y: -55999}
 		target:  {initial: 5, lock: true}
 conditions:
-	*	type:     "counter"
-		op:       "eq"
+	*	when:
+			type:     "counter"
+			op:       "eq"
+			player:   0
+			counter:  0
+			value:    2
 		action:
 			*	type:  "order"
 				override:
 					subject:  {initial: 17}
 					object:   {initial: 6}
-		player:   0
-		counter:  0
-		value:    2
-	*	type:     "counter"
-		op:       "eq"
+	*	when:
+			type:     "counter"
+			op:       "eq"
+			player:   0
+			counter:  0
+			value:    5
 		action:
 			*	type:    "win"
 				player:  0
@@ -118,9 +123,6 @@ conditions:
 				text:
 					>	You destroyed all five Gaitori transports, preventing any reinforcements
 					>	from reaching the Gaitori base.
-		player:   0
-		counter:  0
-		value:    5
 briefings:
 	*	title:  "Charon System"
 		content:

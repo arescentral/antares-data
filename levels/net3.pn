@@ -90,8 +90,12 @@ initials:
 		at:      {x: -783, y: -5999}
 		target:  {initial: 1}
 conditions:
-	*	type:     "distance"
-		op:       "lt"
+	*	when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   4
+			to:     1
 		subject:  4
 		object:   1
 		action:
@@ -100,11 +104,12 @@ conditions:
 				player:     1
 				text:
 					>	Player 2 captured the flagpod!
-		value:    50000
-		from:     4
-		to:       1
-	*	type:     "distance"
-		op:       "lt"
+	*	when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   5
+			to:     0
 		subject:  5
 		object:   0
 		action:
@@ -113,9 +118,6 @@ conditions:
 				player:     0
 				text:
 					>	Player 1 captured the flagpod!
-		value:    50000
-		from:     5
-		to:       0
 description:
 	>	Capture opponent's flag by flying over it & ordering it back to your
 	>	planet. Ships transported to opponent's "jail" moor instead of dying.

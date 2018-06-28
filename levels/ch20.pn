@@ -174,8 +174,11 @@ initials:
 		hide:    true
 		target:  {initial: 14, lock: true}
 conditions:
-	*	type:     "health"
-		op:       "le"
+	*	when:
+			type:     "health"
+			op:       "le"
+			value:    0.5
+			initial:  2
 		subject:  2
 		action:
 			*	type:       "message"
@@ -187,10 +190,12 @@ conditions:
 						>	Upsilon Andromeda have withdrawn. About four escaped through a
 						>	Cantharan-constructed jumpgate, and we were unable to pursue. Looks like
 						>	they’re headed your way. \i<EOT>\i 
-		value:    0.5
-		initial:  2
-	*	type:      "ships"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:    "ships"
+			op:      "eq"
+			player:  1
+			value:   0
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -205,11 +210,11 @@ conditions:
 				reflexive:  true
 				delay:      "6s"
 				initial:    [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
-		disabled:  true
-		player:    1
-		value:     0
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   0
+			initial:  1
 		subject:  1
 		action:
 			*	type:       "win"
@@ -217,8 +222,6 @@ conditions:
 				player:     0
 				text:
 					>	Earth is free! The Cantharans have been defeated!
-		player:   0
-		initial:  1
 briefings:
 	*	title:  "Sol"
 		content:

@@ -120,8 +120,10 @@ initials:
 		at:      {x: 18086, y: 2434}
 		target:  {initial: 4, lock: true}
 conditions:
-	*	type:      "time"
-		op:        "ge"
+	*	when:
+			type:      "time"
+			op:        "ge"
+			duration:  "5m"
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -153,9 +155,12 @@ conditions:
 				reflexive:  true
 				delay:      "20s"
 				initial:    [8]
-		duration:  "5m"
-	*	type:     "counter"
-		op:       "eq"
+	*	when:
+			type:     "counter"
+			op:       "eq"
+			player:   0
+			counter:  0
+			value:    5
 		action:
 			*	type:       "reveal"
 				reflexive:  true
@@ -167,21 +172,22 @@ conditions:
 						|	SOURCE: Human/Ishiman Coord. Control
 						|	Construction on the Obish destroyer has been completed. The destroyer is
 						>	available for your use at the Fansi Orbital Shipyard.\i<EOT>\i 
-		player:   0
-		counter:  0
-		value:    5
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   1
+			initial:  9
 		subject:  9
 		action:
 			*	type:    "win"
 				player:  1
 				text:
 					>	The Cantharan Order landed a transport on our base on Fansi Alpha.
-		player:   1
-		initial:  9
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   0
+			initial:  10
 		subject:  10
 		action:
 			*	type:    "win"
@@ -189,8 +195,6 @@ conditions:
 				next:    "ch13"
 				text:
 					>	You captured the Cantharan base on Fansi Beta.
-		player:   0
-		initial:  10
 briefings:
 	*	title:  "Fansi"
 		content:

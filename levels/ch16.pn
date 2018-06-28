@@ -137,8 +137,11 @@ initials:
 		hide:    true
 		target:  {initial: 21}
 conditions:
-	*	type:     "destroyed"
-		op:       "eq"
+	*	when:
+			type:     "destroyed"
+			op:       "eq"
+			initial:  1
+			value:    true
 		action:
 			*	type:       "win"
 				reflexive:  true
@@ -152,10 +155,10 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				disable:    [2]
-		initial:  1
-		value:    true
-	*	type:      "time"
-		op:        "ge"
+	*	when:
+			type:      "time"
+			op:        "ge"
+			duration:  "1s"
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -166,9 +169,10 @@ conditions:
 						>	massive object. There are also five smaller ships on an intercept
 						>	course. We remind you that the success of this mission depends on the
 						>	safety of this ship.\i<EOT>\i 
-		duration:  "1s"
-	*	type:      "time"
-		op:        "ge"
+	*	when:
+			type:      "time"
+			op:        "ge"
+			duration:  "40s"
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -195,9 +199,11 @@ conditions:
 				override:
 					subject:  {initial: 4}
 					object:   {initial: 0}
-		duration:  "40s"
-	*	type:     "destroyed"
-		op:       "eq"
+	*	when:
+			type:     "destroyed"
+			op:       "eq"
+			initial:  0
+			value:    true
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -228,10 +234,12 @@ conditions:
 				reflexive:  true
 				delay:      "6s"
 				enable:     [4]
-		initial:  0
-		value:    true
-	*	type:      "ships"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:    "ships"
+			op:      "eq"
+			player:  1
+			value:   0
 		action:
 			*	type:       "win"
 				reflexive:  true
@@ -240,9 +248,6 @@ conditions:
 				text:
 					>	You decimated the Audemedon fleet and destroyed the jumpstream
 					>	inhibitor.
-		disabled:  true
-		player:    1
-		value:     0
 briefings:
 	*	title:  "Ser System"
 		content:

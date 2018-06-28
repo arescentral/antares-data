@@ -172,8 +172,12 @@ initials:
 		hide:    true
 		target:  {initial: 1, lock: true}
 conditions:
-	*	type:     "counter"
-		op:       "eq"
+	*	when:
+			type:     "counter"
+			op:       "eq"
+			player:   0
+			counter:  0
+			value:    2
 		action:
 			*	type:       "capture"
 				reflexive:  true
@@ -183,18 +187,19 @@ conditions:
 			*	type:    "pay"
 				value:   10000.0
 				player:  0
-		player:   0
-		counter:  0
-		value:    2
-	*	type:      "time"
-		op:        "ge"
+	*	when:
+			type:      "time"
+			op:        "ge"
+			duration:  "7m49.45s"
 		action:
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [31, 32, 33, 34]
-		duration:  "7m49.45s"
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   0
+			initial:  1
 		subject:  1
 		action:
 			*	type:    "win"
@@ -202,8 +207,6 @@ conditions:
 				next:    "ch19"
 				text:
 					>	You captured Proxima Centauri Beta.
-		player:   0
-		initial:  1
 briefings:
 	*	title:  "Proxima Centauri System"
 		content:

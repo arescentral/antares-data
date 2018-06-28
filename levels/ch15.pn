@@ -79,8 +79,12 @@ initials:
 		at:     {x: -9565, y: -8000}
 		hide:   true
 conditions:
-	*	type:     "distance"
-		op:       "lt"
+	*	when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   2
+			to:     3
 		subject:  2
 		object:   3
 		action:
@@ -97,21 +101,22 @@ conditions:
 				reflexive:  true
 				delay:      "3s"
 				initial:    [7, 8, 9]
-		value:    50000
-		from:     2
-		to:       3
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   1
+			initial:  0
 		subject:  0
 		action:
 			*	type:    "win"
 				player:  1
 				text:
 					>	The Salrilians captured our base on Alpha.
-		player:   1
-		initial:  0
-	*	type:     "owner"
-		op:       "eq"
+	*	when:
+			type:     "owner"
+			op:       "eq"
+			player:   0
+			initial:  1
 		subject:  1
 		action:
 			*	type:    "win"
@@ -119,8 +124,6 @@ conditions:
 				next:    "ch16"
 				text:
 					>	You captured the Salrilian base on Beta.
-		player:   0
-		initial:  1
 briefings:
 	*	title:  "Thasero Station"
 		content:

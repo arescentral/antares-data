@@ -61,8 +61,10 @@ initials:
 		hide:    true
 		target:  {initial: 7, lock: true}
 conditions:
-	*	type:      "time"
-		op:        "ge"
+	*	when:
+			type:      "time"
+			op:        "ge"
+			duration:  "0s"
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -117,18 +119,23 @@ conditions:
 					*	"send_message"
 			*	type:   "zoom"
 				value:  "1:2"
-		duration:  "0s"
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5800
+			page:    3
 		action:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [2]
-		player:  0
-		id:      5800
-		page:    3
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "control"
+			initial:  1
 		subject:   1
 		action:
 			*	type:              "message"
@@ -167,20 +174,22 @@ conditions:
 						|	mouse.
 						>
 						>	Try clicking on this planet.
-		disabled:  true
-		player:    0
-		value:     "control"
-		initial:   1
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5803
+			page:    8
 		action:
 			*	type:    "condition"
 				enable:  [4]
-		player:  0
-		id:      5803
-		page:    8
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "control"
+			initial:  6
 		subject:   6
 		action:
 			*	type:              "message"
@@ -201,12 +210,12 @@ conditions:
 						|	or four times.
 			*	type:     "reveal"
 				initial:  [2, 3, 4, 5]
-		disabled:  true
-		player:    0
-		value:     "control"
-		initial:   6
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5811
+			page:    2
 		action:
 			*	type:     "reveal"
 				initial:  [2, 3, 4, 5]
@@ -216,11 +225,13 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [6]
-		player:  0
-		id:      5811
-		page:    2
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "control"
+			initial:  5
 		subject:   5
 		action:
 			*	type:              "message"
@@ -243,12 +254,12 @@ conditions:
 						>
 						>	Aim yourself at this ship, then press the
 						|	Select Friend key, #SFD.
-		disabled:  true
-		player:    0
-		value:     "control"
-		initial:   5
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5813
+			page:    2
 		action:
 			*	type:       "kill"
 				reflexive:  true
@@ -287,11 +298,13 @@ conditions:
 				reflexive:  true
 				disable:
 					*	"mouse"
-		player:  0
-		id:      5813
-		page:    2
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "control"
+			initial:  1
 		subject:   1
 		action:
 			*	type:              "message"
@@ -307,12 +320,12 @@ conditions:
 						>
 						>	Notice how each time you hit the key, the next farthest ship is
 						>	selected.
-		disabled:  true
-		player:    0
-		value:     "control"
-		initial:   1
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5815
+			page:    2
 		action:
 			*	type:     "reveal"
 				initial:  [2, 3, 4, 5]
@@ -341,11 +354,13 @@ conditions:
 			*	type:       "zoom"
 				reflexive:  true
 				value:      "1:4"
-		player:  0
-		id:      5815
-		page:    2
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "control"
+			initial:  5
 		subject:   5
 		action:
 			*	type:              "message"
@@ -362,12 +377,12 @@ conditions:
 						>
 						>	Repeatedly hit the Select Friend key,
 						|	#SFD, to select the gunship.
-		disabled:  true
-		player:    0
-		value:     "control"
-		initial:   5
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5817
+			page:    2
 		action:
 			*	type:    "condition"
 				enable:  [12]
@@ -394,11 +409,13 @@ conditions:
 			*	type:       "zoom"
 				reflexive:  true
 				value:      "all"
-		player:  0
-		id:      5817
-		page:    2
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "control"
+			initial:  2
 		subject:   2
 		action:
 			*	type:              "message"
@@ -426,12 +443,12 @@ conditions:
 						>	Try to select the transport by turning toward it (remember, it’s at
 						>	about one o’clock) and repeatedly hitting the Select Friend key,
 						>	\i_#SFD_\i.
-		disabled:  true
-		player:    0
-		value:     "control"
-		initial:   2
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5819
+			page:    2
 		action:
 			*	type:       "move"
 				reflexive:  true
@@ -453,11 +470,12 @@ conditions:
 				override:
 					subject:  {initial: 5}
 				to:         {x: 500, y: -6300}
-		player:  0
-		id:      5819
-		page:    2
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5819
+			page:    4
 		action:
 			*	type:       "zoom"
 				reflexive:  true
@@ -465,11 +483,13 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [15]
-		player:  0
-		id:      5819
-		page:    4
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "control"
+			initial:  5
 		subject:   5
 		action:
 			*	type:              "message"
@@ -484,21 +504,23 @@ conditions:
 						>
 						>	Select the planet now by pointing your ship at it and pressing the
 						>	\i_#SBS_\i key.
-		disabled:  true
-		player:    0
-		value:     "control"
-		initial:   5
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5823
+			page:    2
 		action:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [17]
-		player:  0
-		id:      5823
-		page:    2
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "control"
+			initial:  6
 		subject:   6
 		action:
 			*	type:              "message"
@@ -517,12 +539,12 @@ conditions:
 						>
 						>	Use the mouse to click on this ship while
 						|	holding down the #DST key.
-		disabled:  true
-		player:    0
-		value:     "control"
-		initial:   6
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5825
+			page:    2
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -541,11 +563,13 @@ conditions:
 			*	type:       "zoom"
 				reflexive:  true
 				value:      "1:2"
-		player:  0
-		id:      5825
-		page:    2
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "target"
+			initial:  1
 		subject:   1
 		action:
 			*	type:              "message"
@@ -576,20 +600,22 @@ conditions:
 						>
 						>	Try clicking on this planet while
 						|	holding down the #DST key.
-		disabled:  true
-		player:    0
-		value:     "target"
-		initial:   1
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5827
+			page:    4
 		action:
 			*	type:    "condition"
 				enable:  [21]
-		player:  0
-		id:      5827
-		page:    4
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "target"
+			initial:  6
 		subject:   6
 		action:
 			*	type:              "message"
@@ -604,23 +630,25 @@ conditions:
 					*	>	#O7#Try targeting this Cantharan Transport by
 						|	clicking on it while holding down the
 						|	#DST key.
-		disabled:  true
-		player:    0
-		value:     "target"
-		initial:   6
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5831
+			page:    2
 		action:
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [7]
 			*	type:    "condition"
 				enable:  [23]
-		player:  0
-		id:      5831
-		page:    2
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "target"
+			initial:  7
 		subject:   7
 		object:    1
 		action:
@@ -647,12 +675,13 @@ conditions:
 						>	Select this ship as a target, so it
 						|	is labeled in blue and appears on the
 						|	target screen.
-		disabled:  true
-		player:    0
-		value:     "target"
-		initial:   7
-	*	type:        "message"
-		op:          "eq"
+	*	persistent:  true
+		when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5833
+			page:    2
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -667,12 +696,13 @@ conditions:
 					*	"select_friend"
 					*	"select_foe"
 					*	"select_base"
-		persistent:  true
-		player:      0
-		id:          5833
-		page:        2
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "target"
+			initial:  1
 		subject:   1
 		action:
 			*	type:              "message"
@@ -686,21 +716,23 @@ conditions:
 						|	down the #DST key.
 						>
 						>	Face this planet and try it.
-		disabled:  true
-		player:    0
-		value:     "target"
-		initial:   1
-	*	type:        "message"
-		op:          "eq"
+	*	persistent:  true
+		when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5835
+			page:    1
 		action:
 			*	type:    "condition"
 				enable:  [27]
-		persistent:  true
-		player:      0
-		id:          5835
-		page:        1
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "target"
+			initial:  6
 		subject:   6
 		action:
 			*	type:              "message"
@@ -714,21 +746,23 @@ conditions:
 						|	Objects, so there’s no need to hold down
 						|	the Target key to select them with the
 						|	keyboard.
-		disabled:  true
-		player:    0
-		value:     "target"
-		initial:   6
-	*	type:        "message"
-		op:          "eq"
+	*	persistent:  true
+		when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5836
+			page:    1
 		action:
 			*	type:    "condition"
 				enable:  [29]
-		persistent:  true
-		player:      0
-		id:          5836
-		page:        1
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "target"
+			initial:  7
 		subject:   7
 		action:
 			*	type:              "message"
@@ -756,12 +790,12 @@ conditions:
 						>	First target this ship. You can use the
 						|	mouse (#DST + click) or
 						|	keyboard (#DST + #SFD).
-		disabled:  true
-		player:    0
-		value:     "target"
-		initial:   7
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5837
+			page:    3
 		action:
 			*	type:  "key"
 				enable:
@@ -769,11 +803,13 @@ conditions:
 					*	"mouse"
 			*	type:    "condition"
 				enable:  [31]
-		player:  0
-		id:      5837
-		page:    3
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "target"
+			initial:  1
 		subject:   1
 		action:
 			*	type:              "message"
@@ -784,20 +820,21 @@ conditions:
 						>	press and release the Warp key, \i_#WRP_\i.
 						>
 						>	Try it now.
-		disabled:  true
-		player:    0
-		value:     "target"
-		initial:   1
-	*	type:    "message"
-		op:      "eq"
+	*	when:
+			type:    "message"
+			op:      "eq"
+			player:  0
+			id:      5840
+			page:    1
 		action:
 			*	type:    "condition"
 				enable:  [33]
-		player:  0
-		id:      5840
-		page:    1
-	*	type:      "autopilot"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:    "autopilot"
+			op:      "eq"
+			player:  0
+			value:   true
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -839,11 +876,13 @@ conditions:
 					object:   {initial: 5}
 			*	type:    "condition"
 				enable:  [34]
-		disabled:  true
-		player:    0
-		value:     true
-	*	type:      "distance"
-		op:        "lt"
+	*	disabled:  true
+		when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   1
+			to:     5
 		subject:   1
 		object:    5
 		action:
@@ -881,12 +920,13 @@ conditions:
 				enable:  [36]
 			*	type:    "condition"
 				enable:  [35]
-		disabled:  true
-		value:     50000
-		from:      1
-		to:        5
-	*	type:      "distance"
-		op:        "lt"
+	*	disabled:  true
+		when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   "player"
+			to:     6
 		subject:   "player"
 		object:    6
 		action:
@@ -898,12 +938,12 @@ conditions:
 				next:    "ch02"
 				text:
 					>	Good work. You completed the second tutorial.
-		disabled:  true
-		value:     50000
-		from:      "player"
-		to:        6
-	*	type:      "autopilot"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:    "autopilot"
+			op:      "eq"
+			player:  0
+			value:   false
 		action:
 			*	type:  "key"
 				disable:
@@ -925,9 +965,6 @@ conditions:
 						>
 						>	Target the planet with the mouse or keyboard, then turn on the autopilot
 						>	(hold down \i_#DST_\i then press \i_#WRP_\i).
-		disabled:  true
-		player:    0
-		value:     false
 starmap:  {left: 314, top: 275, right: 346, bottom: 299}
 angle:    8
 skip:     "ch02"

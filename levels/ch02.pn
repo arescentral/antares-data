@@ -111,29 +111,34 @@ initials:
 			name:  "Relay Dish 4"
 		earning:  1.0
 conditions:
-	*	type:        "counter"
-		op:          "eq"
+	*	persistent:  true
+		when:
+			type:     "counter"
+			op:       "eq"
+			player:   0
+			counter:  0
+			value:    4
 		action:
 			*	type:    "win"
 				player:  0
 				next:    "tut3"
 				text:
 					>	Mission completed. You destroyed all four of the sensor relay dishes.
-		persistent:  true
-		player:      0
-		counter:     0
-		value:       4
-	*	type:     "destroyed"
-		op:       "eq"
+	*	when:
+			type:     "destroyed"
+			op:       "eq"
+			initial:  1
+			value:    true
 		action:
 			*	type:    "win"
 				player:  1
 				text:
 					>	You lost your heavy cruiser, failing to destroy all four relay dishes.
-		initial:  1
-		value:    true
-	*	type:     "destroyed"
-		op:       "eq"
+	*	when:
+			type:     "destroyed"
+			op:       "eq"
+			initial:  17
+			value:    true
 		action:
 			*	type:       "reveal"
 				reflexive:  true
@@ -149,8 +154,6 @@ conditions:
 						|	SOURCE: OMV Treejumper, Escort 3856
 						|	Humans: your bravery has impressed us. We are honored to offer our
 						>	assistance in the destruction of the relay dishes. Stand by. \i<EOT>\i 
-		initial:  17
-		value:    true
 briefings:
 	*	initial:  15
 		title:    "Myrmidon"

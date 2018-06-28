@@ -131,8 +131,12 @@ initials:
 		at:     {x: -17401, y: 16716}
 		hide:   true
 conditions:
-	*	type:     "distance"
-		op:       "lt"
+	*	when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   "player"
+			to:     1
 		subject:  "player"
 		object:   1
 		action:
@@ -164,11 +168,12 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [12]
-		value:    50000
-		from:     "player"
-		to:       1
-	*	type:     "distance"
-		op:       "lt"
+	*	when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   "player"
+			to:     2
 		subject:  "player"
 		object:   2
 		action:
@@ -200,11 +205,13 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [12]
-		value:    50000
-		from:     "player"
-		to:       2
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "control"
+			initial:  3
 		subject:   3
 		action:
 			*	type:       "message"
@@ -222,12 +229,13 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [4]
-		disabled:  true
-		player:    0
-		value:     "control"
-		initial:   3
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "control"
+			initial:  3
 		subject:   3
 		action:
 			*	type:       "message"
@@ -245,12 +253,13 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [5]
-		disabled:  true
-		player:    0
-		value:     "control"
-		initial:   3
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "target"
+			initial:  1
 		subject:   1
 		action:
 			*	type:       "message"
@@ -260,12 +269,13 @@ conditions:
 						>	under your indirect control--and the buoy as the TARGET object--the
 						>	object to which you're ordering the drone to go. Press the Order to Go
 						>	Key, \i_#ORD_\i to send the drone to the buoy.
-		disabled:  true
-		player:    0
-		value:     "target"
-		initial:   1
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "target"
+			initial:  2
 		subject:   2
 		action:
 			*	type:       "message"
@@ -275,12 +285,13 @@ conditions:
 						>	under your indirect control--and the buoy as the TARGET object--the
 						>	object to which you're ordering the drone to go. Press the Order to Go
 						>	Key, \i_#ORD_\i to send the drone to the buoy.
-		disabled:  true
-		player:    0
-		value:     "target"
-		initial:   2
-	*	type:      "distance"
-		op:        "lt"
+	*	disabled:  true
+		when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   3
+			to:     1
 		subject:   3
 		object:    1
 		action:
@@ -290,12 +301,13 @@ conditions:
 					*	>	Good job. The drone successfully reached the buoy. You can send your
 						>	ships almost anywhere--to planets, to other ships, or even to your own
 						>	ship.
-		disabled:  true
-		value:     50000
-		from:      3
-		to:        1
-	*	type:      "distance"
-		op:        "lt"
+	*	disabled:  true
+		when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   3
+			to:     2
 		subject:   3
 		object:    2
 		action:
@@ -305,12 +317,13 @@ conditions:
 					*	>	Good job. The drone successfully reached the buoy. You can send your
 						>	ships almost anywhere--to planets, to other ships, or even to your own
 						>	ship.
-		disabled:  true
-		value:     50000
-		from:      3
-		to:        2
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "target"
+			initial:  1
 		subject:   1
 		action:
 			*	type:       "message"
@@ -323,12 +336,13 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [10]
-		disabled:  true
-		player:    0
-		value:     "target"
-		initial:   1
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "target"
+			initial:  2
 		subject:   2
 		action:
 			*	type:       "condition"
@@ -341,12 +355,13 @@ conditions:
 						>	select the practice drone as the CONTROL object by using the mouse to
 						>	click on it, or by pointing your ship at it and pressing the \i_#SFO_\i
 						>	key.
-		disabled:  true
-		player:    0
-		value:     "target"
-		initial:   2
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "control"
+			initial:  3
 		subject:   3
 		action:
 			*	type:       "message"
@@ -356,12 +371,13 @@ conditions:
 						>	under your indirect control--and the buoy as the TARGET object--the
 						>	object to which you're ordering the drone to go. Press the Order to Go
 						>	Key, \i_#ORD_\i to send the drone to the buoy.
-		disabled:  true
-		player:    0
-		value:     "control"
-		initial:   3
-	*	type:      "distance"
-		op:        "lt"
+	*	disabled:  true
+		when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   3
+			to:     1
 		subject:   3
 		object:    1
 		action:
@@ -377,12 +393,13 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [7]
-		disabled:  true
-		value:     50000
-		from:      3
-		to:        1
-	*	type:      "distance"
-		op:        "lt"
+	*	disabled:  true
+		when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   3
+			to:     2
 		subject:   3
 		object:    2
 		action:
@@ -398,12 +415,12 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				disable:    [11]
-		disabled:  true
-		value:     50000
-		from:      3
-		to:        2
-	*	type:     "distance"
-		op:       "lt"
+	*	when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   "player"
+			to:     5
 		subject:  "player"
 		object:   5
 		action:
@@ -426,11 +443,13 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [14]
-		value:    50000
-		from:     "player"
-		to:       5
-	*	type:      "subject"
-		op:        "eq"
+	*	disabled:  true
+		when:
+			type:     "subject"
+			op:       "eq"
+			player:   0
+			value:    "control"
+			initial:  5
 		subject:   5
 		action:
 			*	type:       "message"
@@ -442,12 +461,12 @@ conditions:
 						>	to build, at this moon, your only choice is to build a practice drone.
 						>	From the build menu press the Computer Accept Key \i_#ACT_\i to build a
 						>	drone.
-		disabled:  true
-		player:    0
-		value:     "control"
-		initial:   5
-	*	type:     "distance"
-		op:       "lt"
+	*	when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   "player"
+			to:     6
 		subject:  "player"
 		object:   6
 		action:
@@ -475,11 +494,12 @@ conditions:
 						>
 						>	The nearby buoys farther out from Omisha Station have more drones
 						>	stationed at them.
-		value:    50000
-		from:     "player"
-		to:       6
-	*	type:     "distance"
-		op:       "lt"
+	*	when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   "player"
+			to:     15
 		subject:  "player"
 		object:   15
 		action:
@@ -508,11 +528,12 @@ conditions:
 						>	buoy are at your disposal. For practice, select one of them, then try
 						>	transferring control from the \i_Special Orders_\i menu or selecting a
 						>	target object and sending the ship there.
-		value:    50000
-		from:     "player"
-		to:       15
-	*	type:     "distance"
-		op:       "lt"
+	*	when:
+			type:   "distance"
+			op:     "lt"
+			value:  50000
+			from:   "player"
+			to:     0
 		subject:  "player"
 		object:   0
 		action:
@@ -566,11 +587,12 @@ conditions:
 						>	first combat mission.
 						>
 						>	Clear this message by selecting \i_Next Page/Clear_\i.
-		value:    50000
-		from:     "player"
-		to:       0
-	*	type:     "distance"
-		op:       "lt"
+	*	when:
+			type:   "distance"
+			op:     "lt"
+			value:  100000
+			from:   "player"
+			to:     18
 		subject:  "player"
 		object:   18
 		action:
@@ -584,9 +606,6 @@ conditions:
 				next:       "ch01"
 				text:
 					>	Player leaves practice mission.
-		value:    100000
-		from:     "player"
-		to:       18
 briefings:
 	*	initial:  0
 		title:    "Omisha Station"

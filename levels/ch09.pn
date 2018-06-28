@@ -69,8 +69,10 @@ initials:
 		override:
 			name:  "Proteus"
 conditions:
-	*	type:      "time"
-		op:        "ge"
+	*	when:
+			type:      "time"
+			op:        "ge"
+			duration:  "20s"
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -85,20 +87,24 @@ conditions:
 						>	are extremely well armored. \i<EOT>\i 
 			*	type:     "reveal"
 				initial:  [1]
-		duration:  "20s"
-	*	type:        "owner"
-		op:          "eq"
+	*	persistent:  true
+		when:
+			type:     "owner"
+			op:       "eq"
+			player:   1
+			initial:  0
 		subject:     0
 		action:
 			*	type:    "win"
 				player:  1
 				text:
 					>	The Order captured our base on Proteus Alpha.
-		persistent:  true
-		player:      1
-		initial:     0
-	*	type:        "owner"
-		op:          "eq"
+	*	persistent:  true
+		when:
+			type:     "owner"
+			op:       "eq"
+			player:   0
+			initial:  5
 		subject:     5
 		action:
 			*	type:    "win"
@@ -106,9 +112,6 @@ conditions:
 				next:    "ch10"
 				text:
 					>	You captured the Cantharan base on Proteus Gamma.
-		persistent:  true
-		player:      0
-		initial:     5
 briefings:
 	*	title:  "Proteus"
 		content:
