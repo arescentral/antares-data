@@ -83,10 +83,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   2
-			to:     3
-		subject:  2
-		object:   3
+			from:   {initial: 2}
+			to:     {initial: 3}
+		subject:  {initial: 2}
+		object:   {initial: 3}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -105,8 +105,8 @@ conditions:
 			type:     "owner"
 			op:       "eq"
 			player:   1
-			initial:  0
-		subject:  0
+			initial:  {initial: 0}
+		subject:  {initial: 0}
 		action:
 			*	type:    "win"
 				player:  1
@@ -116,8 +116,8 @@ conditions:
 			type:     "owner"
 			op:       "eq"
 			player:   0
-			initial:  1
-		subject:  1
+			initial:  {initial: 1}
+		subject:  {initial: 1}
 		action:
 			*	type:    "win"
 				player:  0

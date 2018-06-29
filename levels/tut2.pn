@@ -133,10 +133,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 1}
 			player:   0
 			value:    "control"
-			initial:  1
-		subject:   1
+		subject:   {initial: 1}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -187,10 +187,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 6}
 			player:   0
 			value:    "control"
-			initial:  6
-		subject:   6
+		subject:   {initial: 6}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -229,10 +229,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 5}
 			player:   0
 			value:    "control"
-			initial:  5
-		subject:   5
+		subject:   {initial: 5}
 		action:
 			*	type:              "message"
 				reflexive:         true
@@ -302,10 +302,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 1}
 			player:   0
 			value:    "control"
-			initial:  1
-		subject:   1
+		subject:   {initial: 1}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -358,10 +358,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 5}
 			player:   0
 			value:    "control"
-			initial:  5
-		subject:   5
+		subject:   {initial: 5}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -413,10 +413,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 2}
 			player:   0
 			value:    "control"
-			initial:  2
-		subject:   2
+		subject:   {initial: 2}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -487,10 +487,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 5}
 			player:   0
 			value:    "control"
-			initial:  5
-		subject:   5
+		subject:   {initial: 5}
 		action:
 			*	type:              "message"
 				reflexive:         true
@@ -518,10 +518,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 6}
 			player:   0
 			value:    "control"
-			initial:  6
-		subject:   6
+		subject:   {initial: 6}
 		action:
 			*	type:              "message"
 				reflexive:         true
@@ -567,10 +567,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 1}
 			player:   0
 			value:    "target"
-			initial:  1
-		subject:   1
+		subject:   {initial: 1}
 		action:
 			*	type:              "message"
 				reflexive:         true
@@ -613,10 +613,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 6}
 			player:   0
 			value:    "target"
-			initial:  6
-		subject:   6
+		subject:   {initial: 6}
 		action:
 			*	type:              "message"
 				reflexive:         true
@@ -646,11 +646,11 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 7}
 			player:   0
 			value:    "target"
-			initial:  7
-		subject:   7
-		object:    1
+		subject:   {initial: 7}
+		object:    {initial: 1}
 		action:
 			*	type:              "message"
 				reflexive:         true
@@ -700,10 +700,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 1}
 			player:   0
 			value:    "target"
-			initial:  1
-		subject:   1
+		subject:   {initial: 1}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -730,10 +730,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 6}
 			player:   0
 			value:    "target"
-			initial:  6
-		subject:   6
+		subject:   {initial: 6}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -760,10 +760,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 7}
 			player:   0
 			value:    "target"
-			initial:  7
-		subject:   7
+		subject:   {initial: 7}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -807,10 +807,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 1}
 			player:   0
 			value:    "target"
-			initial:  1
-		subject:   1
+		subject:   {initial: 1}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -881,10 +881,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   1
-			to:     5
-		subject:   1
-		object:    5
+			from:   {initial: 1}
+			to:     {initial: 5}
+		subject:   {initial: 1}
+		object:    {initial: 5}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -925,10 +925,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   "player"
-			to:     6
-		subject:   "player"
-		object:    6
+			from:   {flagship: 0}
+			to:     {initial: 6}
+		subject:   {flagship: 0}
+		object:    {initial: 6}
 		action:
 			*	type:    "win"
 				override:

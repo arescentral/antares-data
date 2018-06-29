@@ -118,10 +118,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   1
-			to:     0
-		subject:     1
-		object:      0
+			from:   {initial: 1}
+			to:     {initial: 0}
+		subject:     {initial: 1}
+		object:      {initial: 0}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -133,7 +133,7 @@ conditions:
 			player:   0
 			counter:  0
 			value:    1
-		subject:   1
+		subject:   {initial: 1}
 		action:
 			*	type:                "create"
 				reflexive:           true
@@ -165,10 +165,10 @@ conditions:
 			type:   "distance"
 			op:     "ge"
 			value:  50000
-			from:   1
-			to:     0
-		subject:     1
-		object:      0
+			from:   {initial: 1}
+			to:     {initial: 0}
+		subject:     {initial: 1}
+		object:      {initial: 0}
 		action:
 			*	type:       "condition"
 				reflexive:  true

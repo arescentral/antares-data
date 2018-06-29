@@ -126,10 +126,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   0
-			to:     10
-		subject:  0
-		object:   10
+			from:   {initial: 0}
+			to:     {initial: 10}
+		subject:  {initial: 0}
+		object:   {initial: 10}
 		action:
 			*	type:       "morph"
 				reflexive:  true
@@ -165,10 +165,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   10
-			to:     7
-		subject:   10
-		object:    7
+			from:   {initial: 10}
+			to:     {initial: 7}
+		subject:   {initial: 10}
+		object:    {initial: 7}
 		action:
 			*	type:  "order"
 				override:

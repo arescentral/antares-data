@@ -120,8 +120,8 @@ conditions:
 			type:     "owner"
 			op:       "eq"
 			player:   0
-			initial:  8
-		subject:  8
+			initial:  {initial: 8}
+		subject:  {initial: 8}
 		action:
 			*	type:       "win"
 				reflexive:  true
@@ -132,8 +132,8 @@ conditions:
 			type:     "owner"
 			op:       "eq"
 			player:   1
-			initial:  8
-		subject:  8
+			initial:  {initial: 8}
+		subject:  {initial: 8}
 		action:
 			*	type:       "win"
 				reflexive:  true

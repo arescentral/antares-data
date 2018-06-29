@@ -106,7 +106,7 @@ conditions:
 	*	when:
 			type:     "destroyed"
 			op:       "eq"
-			initial:  7
+			initial:  {initial: 7}
 			value:    true
 		action:
 			*	type:       "condition"
@@ -117,8 +117,8 @@ conditions:
 			type:     "owner"
 			op:       "eq"
 			player:   0
-			initial:  3
-		subject:   3
+			initial:  {initial: 3}
+		subject:   {initial: 3}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -131,8 +131,8 @@ conditions:
 			type:     "owner"
 			op:       "eq"
 			player:   0
-			initial:  4
-		subject:   4
+			initial:  {initial: 4}
+		subject:   {initial: 4}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -145,8 +145,8 @@ conditions:
 			type:     "owner"
 			op:       "eq"
 			player:   0
-			initial:  5
-		subject:   5
+			initial:  {initial: 5}
+		subject:   {initial: 5}
 		action:
 			*	type:       "win"
 				reflexive:  true
@@ -160,8 +160,8 @@ conditions:
 			type:     "owner"
 			op:       "eq"
 			player:   1
-			initial:  3
-		subject:   3
+			initial:  {initial: 3}
+		subject:   {initial: 3}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -174,8 +174,8 @@ conditions:
 			type:     "owner"
 			op:       "eq"
 			player:   1
-			initial:  4
-		subject:   4
+			initial:  {initial: 4}
+		subject:   {initial: 4}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -187,8 +187,8 @@ conditions:
 			type:     "owner"
 			op:       "eq"
 			player:   1
-			initial:  0
-		subject:  0
+			initial:  {initial: 0}
+		subject:  {initial: 0}
 		action:
 			*	type:       "win"
 				reflexive:  true

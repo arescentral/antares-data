@@ -127,7 +127,7 @@ conditions:
 	*	when:
 			type:     "destroyed"
 			op:       "eq"
-			initial:  1
+			initial:  {initial: 1}
 			value:    true
 		action:
 			*	type:    "win"
@@ -137,7 +137,7 @@ conditions:
 	*	when:
 			type:     "destroyed"
 			op:       "eq"
-			initial:  17
+			initial:  {initial: 17}
 			value:    true
 		action:
 			*	type:       "reveal"

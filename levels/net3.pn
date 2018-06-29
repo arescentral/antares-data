@@ -94,10 +94,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   4
-			to:     1
-		subject:  4
-		object:   1
+			from:   {initial: 4}
+			to:     {initial: 1}
+		subject:  {initial: 4}
+		object:   {initial: 1}
 		action:
 			*	type:       "win"
 				reflexive:  true
@@ -108,10 +108,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   5
-			to:     0
-		subject:  5
-		object:   0
+			from:   {initial: 5}
+			to:     {initial: 0}
+		subject:  {initial: 5}
+		object:   {initial: 0}
 		action:
 			*	type:       "win"
 				reflexive:  true

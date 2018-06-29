@@ -135,10 +135,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   "player"
-			to:     1
-		subject:  "player"
-		object:   1
+			from:   {flagship: 0}
+			to:     {initial: 1}
+		subject:  {flagship: 0}
+		object:   {initial: 1}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -172,10 +172,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   "player"
-			to:     2
-		subject:  "player"
-		object:   2
+			from:   {flagship: 0}
+			to:     {initial: 2}
+		subject:  {flagship: 0}
+		object:   {initial: 2}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -209,10 +209,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 3}
 			player:   0
 			value:    "control"
-			initial:  3
-		subject:   3
+		subject:   {initial: 3}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -233,10 +233,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 3}
 			player:   0
 			value:    "control"
-			initial:  3
-		subject:   3
+		subject:   {initial: 3}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -257,10 +257,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 1}
 			player:   0
 			value:    "target"
-			initial:  1
-		subject:   1
+		subject:   {initial: 1}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -273,10 +273,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 2}
 			player:   0
 			value:    "target"
-			initial:  2
-		subject:   2
+		subject:   {initial: 2}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -290,10 +290,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   3
-			to:     1
-		subject:   3
-		object:    1
+			from:   {initial: 3}
+			to:     {initial: 1}
+		subject:   {initial: 3}
+		object:    {initial: 1}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -306,10 +306,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   3
-			to:     2
-		subject:   3
-		object:    2
+			from:   {initial: 3}
+			to:     {initial: 2}
+		subject:   {initial: 3}
+		object:    {initial: 2}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -321,10 +321,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 1}
 			player:   0
 			value:    "target"
-			initial:  1
-		subject:   1
+		subject:   {initial: 1}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -340,10 +340,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 2}
 			player:   0
 			value:    "target"
-			initial:  2
-		subject:   2
+		subject:   {initial: 2}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -359,10 +359,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 3}
 			player:   0
 			value:    "control"
-			initial:  3
-		subject:   3
+		subject:   {initial: 3}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -376,10 +376,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   3
-			to:     1
-		subject:   3
-		object:    1
+			from:   {initial: 3}
+			to:     {initial: 1}
+		subject:   {initial: 3}
+		object:    {initial: 1}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -398,10 +398,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   3
-			to:     2
-		subject:   3
-		object:    2
+			from:   {initial: 3}
+			to:     {initial: 2}
+		subject:   {initial: 3}
+		object:    {initial: 2}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -419,10 +419,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   "player"
-			to:     5
-		subject:  "player"
-		object:   5
+			from:   {flagship: 0}
+			to:     {initial: 5}
+		subject:  {flagship: 0}
+		object:   {initial: 5}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -447,10 +447,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 5}
 			player:   0
 			value:    "control"
-			initial:  5
-		subject:   5
+		subject:   {initial: 5}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -465,10 +465,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   "player"
-			to:     6
-		subject:  "player"
-		object:   6
+			from:   {flagship: 0}
+			to:     {initial: 6}
+		subject:  {flagship: 0}
+		object:   {initial: 6}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -498,10 +498,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   "player"
-			to:     15
-		subject:  "player"
-		object:   15
+			from:   {flagship: 0}
+			to:     {initial: 15}
+		subject:  {flagship: 0}
+		object:   {initial: 15}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -532,10 +532,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   "player"
-			to:     0
-		subject:  "player"
-		object:   0
+			from:   {flagship: 0}
+			to:     {initial: 0}
+		subject:  {flagship: 0}
+		object:   {initial: 0}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -591,10 +591,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  100000
-			from:   "player"
-			to:     18
-		subject:  "player"
-		object:   18
+			from:   {flagship: 0}
+			to:     {initial: 18}
+		subject:  {flagship: 0}
+		object:   {initial: 18}
 		action:
 			*	type:       "reveal"
 				reflexive:  true

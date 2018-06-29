@@ -242,10 +242,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   0
-			to:     5
-		subject:   0
-		object:    5
+			from:   {initial: 0}
+			to:     {initial: 5}
+		subject:   {initial: 0}
+		object:    {initial: 5}
 		action:
 			*	type:  "order"
 				override:
@@ -259,10 +259,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   4
-			to:     5
-		subject:   4
-		object:    5
+			from:   {initial: 4}
+			to:     {initial: 5}
+		subject:   {initial: 4}
+		object:    {initial: 5}
 		action:
 			*	type:  "order"
 				override:
@@ -607,7 +607,7 @@ conditions:
 		when:
 			type:     "destroyed"
 			op:       "eq"
-			initial:  7
+			initial:  {initial: 7}
 			value:    true
 		action:
 			*	type:    "condition"
@@ -616,7 +616,7 @@ conditions:
 		when:
 			type:     "destroyed"
 			op:       "eq"
-			initial:  8
+			initial:  {initial: 8}
 			value:    true
 		action:
 			*	type:       "win"

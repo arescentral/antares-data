@@ -176,8 +176,8 @@ conditions:
 			type:     "owner"
 			op:       "eq"
 			player:   1
-			initial:  9
-		subject:  9
+			initial:  {initial: 9}
+		subject:  {initial: 9}
 		action:
 			*	type:    "win"
 				player:  1
@@ -187,8 +187,8 @@ conditions:
 			type:     "owner"
 			op:       "eq"
 			player:   0
-			initial:  10
-		subject:  10
+			initial:  {initial: 10}
+		subject:  {initial: 10}
 		action:
 			*	type:    "win"
 				player:  0

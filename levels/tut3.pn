@@ -167,7 +167,7 @@ conditions:
 			player:  0
 			id:      5900
 			page:    2
-		subject:  1
+		subject:  {initial: 1}
 		action:
 			*	type:    "condition"
 				enable:  [2]
@@ -175,10 +175,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 1}
 			player:   0
 			value:    "control"
-			initial:  1
-		subject:   1
+		subject:   {initial: 1}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -369,10 +369,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 5}
 			player:   0
 			value:    "control"
-			initial:  5
-		subject:   5
+		subject:   {initial: 5}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -415,10 +415,10 @@ conditions:
 	*	when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 2}
 			player:   0
 			value:    "target"
-			initial:  2
-		subject:  2
+		subject:  {initial: 2}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -502,10 +502,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 2}
 			player:   0
 			value:    "control"
-			initial:  2
-		subject:   2
+		subject:   {initial: 2}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -528,10 +528,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 1}
 			player:   0
 			value:    "target"
-			initial:  1
-		subject:   1
+		subject:   {initial: 1}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -565,10 +565,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   1
-			to:     2
-		subject:   1
-		object:    2
+			from:   {initial: 1}
+			to:     {initial: 2}
+		subject:   {initial: 1}
+		object:    {initial: 2}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -594,10 +594,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 6}
 			player:   0
 			value:    "control"
-			initial:  6
-		subject:   6
+		subject:   {initial: 6}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -620,10 +620,10 @@ conditions:
 		when:
 			type:     "target"
 			op:       "eq"
-			initial:  6
-			target:   1
-		subject:   6
-		object:    1
+			initial:  {initial: 6}
+			target:   {initial: 1}
+		subject:   {initial: 6}
+		object:    {initial: 1}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -686,8 +686,8 @@ conditions:
 			type:     "owner"
 			op:       "eq"
 			player:   0
-			initial:  1
-		subject:   1
+			initial:  {initial: 1}
+		subject:   {initial: 1}
 		action:
 			*	type:              "message"
 				delay:             "4s40t"
@@ -720,10 +720,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 6}
 			player:   0
 			value:    "control"
-			initial:  6
-		subject:   6
+		subject:   {initial: 6}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -738,10 +738,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 4}
 			player:   0
 			value:    "target"
-			initial:  4
-		subject:   4
+		subject:   {initial: 4}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -756,10 +756,10 @@ conditions:
 		when:
 			type:     "target"
 			op:       "eq"
-			initial:  6
-			target:   4
-		subject:   6
-		object:    4
+			initial:  {initial: 6}
+			target:   {initial: 4}
+		subject:   {initial: 6}
+		object:    {initial: 4}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -779,10 +779,10 @@ conditions:
 		when:
 			type:     "target"
 			op:       "eq"
-			initial:  5
-			target:   4
-		subject:   5
-		object:    4
+			initial:  {initial: 5}
+			target:   {initial: 4}
+		subject:   {initial: 5}
+		object:    {initial: 4}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -797,10 +797,10 @@ conditions:
 		when:
 			type:     "target"
 			op:       "eq"
-			initial:  2
-			target:   4
-		subject:   2
-		object:    4
+			initial:  {initial: 2}
+			target:   {initial: 4}
+		subject:   {initial: 2}
+		object:    {initial: 4}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -838,10 +838,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 0}
 			player:   0
 			value:    "target"
-			initial:  0
-		subject:   0
+		subject:   {initial: 0}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -865,10 +865,10 @@ conditions:
 		when:
 			type:     "target"
 			op:       "eq"
-			initial:  2
-			target:   0
-		subject:   2
-		object:    0
+			initial:  {initial: 2}
+			target:   {initial: 0}
+		subject:   {initial: 2}
+		object:    {initial: 0}
 		action:
 			*	type:    "condition"
 				enable:  [33]
@@ -876,10 +876,10 @@ conditions:
 		when:
 			type:     "target"
 			op:       "eq"
-			initial:  5
-			target:   0
-		subject:   5
-		object:    0
+			initial:  {initial: 5}
+			target:   {initial: 0}
+		subject:   {initial: 5}
+		object:    {initial: 0}
 		action:
 			*	type:    "condition"
 				enable:  [34]
@@ -887,10 +887,10 @@ conditions:
 		when:
 			type:     "target"
 			op:       "eq"
-			initial:  6
-			target:   0
-		subject:   6
-		object:    0
+			initial:  {initial: 6}
+			target:   {initial: 0}
+		subject:   {initial: 6}
+		object:    {initial: 0}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -967,10 +967,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 2}
 			player:   0
 			value:    "control"
-			initial:  2
-		subject:   2
+		subject:   {initial: 2}
 		action:
 			*	type:              "message"
 				check_conditions:  true
@@ -996,10 +996,10 @@ conditions:
 		when:
 			type:     "subject"
 			op:       "eq"
+			initial:  {initial: 2}
 			player:   0
 			value:    "flagship"
-			initial:  2
-		subject:   2
+		subject:   {initial: 2}
 		action:
 			*	type:              "message"
 				check_conditions:  true

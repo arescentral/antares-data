@@ -140,7 +140,7 @@ conditions:
 	*	when:
 			type:     "destroyed"
 			op:       "eq"
-			initial:  1
+			initial:  {initial: 1}
 			value:    true
 		action:
 			*	type:       "win"
@@ -202,7 +202,7 @@ conditions:
 	*	when:
 			type:     "destroyed"
 			op:       "eq"
-			initial:  0
+			initial:  {initial: 0}
 			value:    true
 		action:
 			*	type:       "condition"

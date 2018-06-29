@@ -122,9 +122,9 @@ conditions:
 	*	when:
 			type:     "destroyed"
 			op:       "eq"
-			initial:  6
+			initial:  {initial: 6}
 			value:    true
-		subject:  0
+		subject:  {initial: 0}
 		action:
 			*	type:    "win"
 				player:  1
@@ -133,7 +133,7 @@ conditions:
 	*	when:
 			type:     "destroyed"
 			op:       "eq"
-			initial:  17
+			initial:  {initial: 17}
 			value:    true
 		action:
 			*	type:    "win"

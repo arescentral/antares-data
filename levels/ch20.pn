@@ -178,8 +178,8 @@ conditions:
 			type:     "health"
 			op:       "le"
 			value:    0.5
-			initial:  2
-		subject:  2
+			initial:  {initial: 2}
+		subject:  {initial: 2}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -214,8 +214,8 @@ conditions:
 			type:     "owner"
 			op:       "eq"
 			player:   0
-			initial:  1
-		subject:  1
+			initial:  {initial: 1}
+		subject:  {initial: 1}
 		action:
 			*	type:       "win"
 				reflexive:  true

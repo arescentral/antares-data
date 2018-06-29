@@ -110,10 +110,10 @@ conditions:
 			type:   "distance"
 			op:     "lt"
 			value:  50000
-			from:   1
-			to:     0
-		subject:     1
-		object:      0
+			from:   {initial: 1}
+			to:     {initial: 0}
+		subject:     {initial: 1}
+		object:      {initial: 0}
 		action:
 			*	type:    "condition"
 				enable:  [7]
@@ -124,7 +124,7 @@ conditions:
 			player:   0
 			counter:  0
 			value:    1
-		subject:   1
+		subject:   {initial: 1}
 		action:
 			*	type:                "create"
 				reflexive:           true
@@ -151,10 +151,10 @@ conditions:
 			type:   "distance"
 			op:     "ge"
 			value:  50000
-			from:   1
-			to:     0
-		subject:     1
-		object:      0
+			from:   {initial: 1}
+			to:     {initial: 0}
+		subject:     {initial: 1}
+		object:      {initial: 0}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -191,7 +191,7 @@ conditions:
 	*	when:
 			type:     "destroyed"
 			op:       "eq"
-			initial:  1
+			initial:  {initial: 1}
 			value:    true
 		action:
 			*	type:       "win"
@@ -203,8 +203,8 @@ conditions:
 			type:     "speed"
 			op:       "lt"
 			value:    5.0
-			initial:  1
-		subject:  1
+			initial:  {initial: 1}
+		subject:  {initial: 1}
 		action:
 			*	type:       "condition"
 				reflexive:  true
