@@ -207,11 +207,10 @@ conditions:
 				enable:     [12]
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 3}
-			player:   0
-			value:    "control"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 3}
+			b:     {control: 0}
 		subject:   {initial: 3}
 		action:
 			*	type:       "message"
@@ -231,11 +230,10 @@ conditions:
 				enable:     [4]
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 3}
-			player:   0
-			value:    "control"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 3}
+			b:     {control: 0}
 		subject:   {initial: 3}
 		action:
 			*	type:       "message"
@@ -255,11 +253,10 @@ conditions:
 				enable:     [5]
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 1}
-			player:   0
-			value:    "target"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 1}
+			b:     {target: 0}
 		subject:   {initial: 1}
 		action:
 			*	type:       "message"
@@ -271,11 +268,10 @@ conditions:
 						>	Key, \i_#ORD_\i to send the drone to the buoy.
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 2}
-			player:   0
-			value:    "target"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 2}
+			b:     {target: 0}
 		subject:   {initial: 2}
 		action:
 			*	type:       "message"
@@ -319,11 +315,10 @@ conditions:
 						>	ship.
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 1}
-			player:   0
-			value:    "target"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 1}
+			b:     {target: 0}
 		subject:   {initial: 1}
 		action:
 			*	type:       "message"
@@ -338,11 +333,10 @@ conditions:
 				enable:     [10]
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 2}
-			player:   0
-			value:    "target"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 2}
+			b:     {target: 0}
 		subject:   {initial: 2}
 		action:
 			*	type:       "condition"
@@ -357,11 +351,10 @@ conditions:
 						>	key.
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 3}
-			player:   0
-			value:    "control"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 3}
+			b:     {control: 0}
 		subject:   {initial: 3}
 		action:
 			*	type:       "message"
@@ -445,11 +438,10 @@ conditions:
 				enable:     [14]
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 5}
-			player:   0
-			value:    "control"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 5}
+			b:     {control: 0}
 		subject:   {initial: 5}
 		action:
 			*	type:       "message"

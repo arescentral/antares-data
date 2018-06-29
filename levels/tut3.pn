@@ -173,11 +173,10 @@ conditions:
 				enable:  [2]
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 1}
-			player:   0
-			value:    "control"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 1}
+			b:     {control: 0}
 		subject:   {initial: 1}
 		action:
 			*	type:              "message"
@@ -367,11 +366,10 @@ conditions:
 				enable:  [11]
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 5}
-			player:   0
-			value:    "control"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 5}
+			b:     {control: 0}
 		subject:   {initial: 5}
 		action:
 			*	type:              "message"
@@ -413,11 +411,10 @@ conditions:
 			*	type:    "condition"
 				enable:  [13]
 	*	when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 2}
-			player:   0
-			value:    "target"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 2}
+			b:     {target: 0}
 		subject:  {initial: 2}
 		action:
 			*	type:              "message"
@@ -500,11 +497,10 @@ conditions:
 					*	"mouse"
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 2}
-			player:   0
-			value:    "control"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 2}
+			b:     {control: 0}
 		subject:   {initial: 2}
 		action:
 			*	type:              "message"
@@ -526,11 +522,10 @@ conditions:
 				enable:  [18]
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 1}
-			player:   0
-			value:    "target"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 1}
+			b:     {target: 0}
 		subject:   {initial: 1}
 		action:
 			*	type:              "message"
@@ -592,11 +587,10 @@ conditions:
 				enable:  [20]
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 6}
-			player:   0
-			value:    "control"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 6}
+			b:     {control: 0}
 		subject:   {initial: 6}
 		action:
 			*	type:              "message"
@@ -718,11 +712,10 @@ conditions:
 				enable:  [25]
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 6}
-			player:   0
-			value:    "control"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 6}
+			b:     {control: 0}
 		subject:   {initial: 6}
 		action:
 			*	type:              "message"
@@ -736,11 +729,10 @@ conditions:
 				enable:  [26]
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 4}
-			player:   0
-			value:    "target"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 4}
+			b:     {target: 0}
 		subject:   {initial: 4}
 		action:
 			*	type:              "message"
@@ -836,11 +828,10 @@ conditions:
 				enable:  [31]
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 0}
-			player:   0
-			value:    "target"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 0}
+			b:     {target: 0}
 		subject:   {initial: 0}
 		action:
 			*	type:              "message"
@@ -965,11 +956,10 @@ conditions:
 				enable:  [38]
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 2}
-			player:   0
-			value:    "control"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 2}
+			b:     {control: 0}
 		subject:   {initial: 2}
 		action:
 			*	type:              "message"
@@ -994,11 +984,10 @@ conditions:
 				enable:  [39]
 	*	disabled:  true
 		when:
-			type:     "subject"
-			op:       "eq"
-			initial:  {initial: 2}
-			player:   0
-			value:    "flagship"
+			type:  "object"
+			op:    "eq"
+			a:     {initial: 2}
+			b:     {flagship: 0}
 		subject:   {initial: 2}
 		action:
 			*	type:              "message"
