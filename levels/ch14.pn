@@ -129,10 +129,10 @@ conditions:
 				reflexive:  true
 				base:       "baz/bttlship"
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   0
-			initial:  {initial: 6}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 6}
+			player:  0
 		subject:  {initial: 6}
 		object:   {initial: 7}
 		action:
@@ -142,10 +142,10 @@ conditions:
 			*	type:    "capture"
 				player:  0
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   1
-			initial:  {initial: 6}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 6}
+			player:  1
 		subject:  {initial: 6}
 		object:   {initial: 7}
 		action:
@@ -170,10 +170,10 @@ conditions:
 				initial:    [17]
 	*	persistent:  true
 		when:
-			type:     "owner"
-			op:       "eq"
-			player:   0
-			initial:  {initial: 8}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 8}
+			player:  0
 		subject:     {initial: 8}
 		action:
 			*	type:    "win"
@@ -183,10 +183,10 @@ conditions:
 					>	You captured the Cantharan base on Bokleo Gamma.
 	*	persistent:  true
 		when:
-			type:     "owner"
-			op:       "eq"
-			player:   1
-			initial:  {initial: 9}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 9}
+			player:  1
 		subject:     {initial: 9}
 		action:
 			*	type:    "win"

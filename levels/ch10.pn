@@ -120,10 +120,10 @@ initials:
 		target:  {initial: 16, lock: true}
 conditions:
 	*	when:
-			type:     "destroyed"
-			op:       "eq"
-			initial:  {initial: 6}
-			value:    true
+			type:   "destroyed"
+			op:     "eq"
+			what:   {initial: 6}
+			value:  true
 		subject:  {initial: 0}
 		action:
 			*	type:    "win"
@@ -131,10 +131,10 @@ conditions:
 				text:
 					>	Our carrier ISN 2020187 was destroyed in the battle.
 	*	when:
-			type:     "destroyed"
-			op:       "eq"
-			initial:  {initial: 17}
-			value:    true
+			type:   "destroyed"
+			op:     "eq"
+			what:   {initial: 17}
+			value:  true
 		action:
 			*	type:    "win"
 				player:  0

@@ -89,10 +89,10 @@ conditions:
 				initial:  [1]
 	*	persistent:  true
 		when:
-			type:     "owner"
-			op:       "eq"
-			player:   1
-			initial:  {initial: 0}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 0}
+			player:  1
 		subject:     {initial: 0}
 		action:
 			*	type:    "win"
@@ -101,10 +101,10 @@ conditions:
 					>	The Order captured our base on Proteus Alpha.
 	*	persistent:  true
 		when:
-			type:     "owner"
-			op:       "eq"
-			player:   0
-			initial:  {initial: 5}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 5}
+			player:  0
 		subject:     {initial: 5}
 		action:
 			*	type:    "win"

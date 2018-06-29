@@ -102,10 +102,10 @@ conditions:
 				delay:      "3s"
 				initial:    [7, 8, 9]
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   1
-			initial:  {initial: 0}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 0}
+			player:  1
 		subject:  {initial: 0}
 		action:
 			*	type:    "win"
@@ -113,10 +113,10 @@ conditions:
 				text:
 					>	The Salrilians captured our base on Alpha.
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   0
-			initial:  {initial: 1}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 1}
+			player:  0
 		subject:  {initial: 1}
 		action:
 			*	type:    "win"

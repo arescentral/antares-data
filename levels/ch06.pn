@@ -106,10 +106,10 @@ initials:
 		at:     {x: -86, y: -9130}
 conditions:
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   1
-			initial:  {initial: 12}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 12}
+			player:  1
 		subject:  {initial: 12}
 		action:
 			*	type:    "win"
@@ -117,10 +117,10 @@ conditions:
 				text:
 					>	A Gaitori transport landed on Hades Alpha.
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   0
-			initial:  {initial: 13}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 13}
+			player:  0
 		subject:  {initial: 13}
 		action:
 			*	type:    "win"

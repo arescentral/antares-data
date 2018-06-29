@@ -104,20 +104,20 @@ initials:
 		target:  {initial: 0}
 conditions:
 	*	when:
-			type:     "destroyed"
-			op:       "eq"
-			initial:  {initial: 7}
-			value:    true
+			type:   "destroyed"
+			op:     "eq"
+			what:   {initial: 7}
+			value:  true
 		action:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [1]
 	*	disabled:  true
 		when:
-			type:     "owner"
-			op:       "eq"
-			player:   0
-			initial:  {initial: 3}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 3}
+			player:  0
 		subject:   {initial: 3}
 		action:
 			*	type:       "condition"
@@ -128,10 +128,10 @@ conditions:
 				enable:     [4]
 	*	disabled:  true
 		when:
-			type:     "owner"
-			op:       "eq"
-			player:   0
-			initial:  {initial: 4}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 4}
+			player:  0
 		subject:   {initial: 4}
 		action:
 			*	type:       "condition"
@@ -142,10 +142,10 @@ conditions:
 				enable:     [5]
 	*	disabled:  true
 		when:
-			type:     "owner"
-			op:       "eq"
-			player:   0
-			initial:  {initial: 5}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 5}
+			player:  0
 		subject:   {initial: 5}
 		action:
 			*	type:       "win"
@@ -157,10 +157,10 @@ conditions:
 					>	enemy Gate Ship to withdraw.
 	*	disabled:  true
 		when:
-			type:     "owner"
-			op:       "eq"
-			player:   1
-			initial:  {initial: 3}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 3}
+			player:  1
 		subject:   {initial: 3}
 		action:
 			*	type:       "condition"
@@ -171,10 +171,10 @@ conditions:
 				enable:     [1]
 	*	disabled:  true
 		when:
-			type:     "owner"
-			op:       "eq"
-			player:   1
-			initial:  {initial: 4}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 4}
+			player:  1
 		subject:   {initial: 4}
 		action:
 			*	type:       "condition"
@@ -184,10 +184,10 @@ conditions:
 				reflexive:  true
 				enable:     [1]
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   1
-			initial:  {initial: 0}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 0}
+			player:  1
 		subject:  {initial: 0}
 		action:
 			*	type:       "win"

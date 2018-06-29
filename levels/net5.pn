@@ -117,10 +117,10 @@ initials:
 			*	"engineer"
 conditions:
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   0
-			initial:  {initial: 8}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 8}
+			player:  0
 		subject:  {initial: 8}
 		action:
 			*	type:       "win"
@@ -129,10 +129,10 @@ conditions:
 				text:
 					>	Player 1 captured the center base.
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   1
-			initial:  {initial: 8}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 8}
+			player:  1
 		subject:  {initial: 8}
 		action:
 			*	type:       "win"

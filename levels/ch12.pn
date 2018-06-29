@@ -173,10 +173,10 @@ conditions:
 						|	Construction on the Obish destroyer has been completed. The destroyer is
 						>	available for your use at the Fansi Orbital Shipyard.\i<EOT>\i 
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   1
-			initial:  {initial: 9}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 9}
+			player:  1
 		subject:  {initial: 9}
 		action:
 			*	type:    "win"
@@ -184,10 +184,10 @@ conditions:
 				text:
 					>	The Cantharan Order landed a transport on our base on Fansi Alpha.
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   0
-			initial:  {initial: 10}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 10}
+			player:  0
 		subject:  {initial: 10}
 		action:
 			*	type:    "win"

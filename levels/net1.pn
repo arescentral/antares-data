@@ -87,10 +87,10 @@ conditions:
 				reflexive:  true
 				initial:    [6, 7]
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   1
-			initial:  {initial: 2}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 2}
+			player:  1
 		subject:  {initial: 2}
 		action:
 			*	type:       "win"
@@ -99,10 +99,10 @@ conditions:
 				text:
 					>	Player 2 captured Palyos Alpha.
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   0
-			initial:  {initial: 3}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 3}
+			player:  0
 		subject:  {initial: 3}
 		action:
 			*	type:       "win"

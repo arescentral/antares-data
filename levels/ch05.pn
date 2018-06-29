@@ -68,10 +68,10 @@ initials:
 			*	"engineer"
 conditions:
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   1
-			initial:  {initial: 1}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 1}
+			player:  1
 		subject:  {initial: 1}
 		action:
 			*	type:    "win"
@@ -79,10 +79,10 @@ conditions:
 				text:
 					>	Our base on Aeneas Alpha was captured by the Gaitori.
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   0
-			initial:  {initial: 8}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 8}
+			player:  0
 		subject:  {initial: 8}
 		action:
 			*	type:    "win"

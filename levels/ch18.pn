@@ -196,10 +196,10 @@ conditions:
 				reflexive:  true
 				initial:    [31, 32, 33, 34]
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   0
-			initial:  {initial: 1}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 1}
+			player:  0
 		subject:  {initial: 1}
 		action:
 			*	type:    "win"

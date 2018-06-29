@@ -175,10 +175,10 @@ initials:
 		target:  {initial: 14, lock: true}
 conditions:
 	*	when:
-			type:     "health"
-			op:       "le"
-			value:    0.5
-			initial:  {initial: 2}
+			type:   "health"
+			op:     "le"
+			value:  0.5
+			what:   {initial: 2}
 		subject:  {initial: 2}
 		action:
 			*	type:       "message"
@@ -211,10 +211,10 @@ conditions:
 				delay:      "6s"
 				initial:    [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   0
-			initial:  {initial: 1}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 1}
+			player:  0
 		subject:  {initial: 1}
 		action:
 			*	type:       "win"

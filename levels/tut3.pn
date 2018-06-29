@@ -612,10 +612,10 @@ conditions:
 				enable:  [21]
 	*	disabled:  true
 		when:
-			type:     "target"
-			op:       "eq"
-			initial:  {initial: 6}
-			target:   {initial: 1}
+			type:    "target"
+			op:      "eq"
+			what:    {initial: 6}
+			target:  {initial: 1}
 		subject:   {initial: 6}
 		object:    {initial: 1}
 		action:
@@ -677,10 +677,10 @@ conditions:
 				enable:  [23]
 	*	disabled:  true
 		when:
-			type:     "owner"
-			op:       "eq"
-			player:   0
-			initial:  {initial: 1}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 1}
+			player:  0
 		subject:   {initial: 1}
 		action:
 			*	type:              "message"
@@ -746,10 +746,10 @@ conditions:
 				enable:  [27]
 	*	disabled:  true
 		when:
-			type:     "target"
-			op:       "eq"
-			initial:  {initial: 6}
-			target:   {initial: 4}
+			type:    "target"
+			op:      "eq"
+			what:    {initial: 6}
+			target:  {initial: 4}
 		subject:   {initial: 6}
 		object:    {initial: 4}
 		action:
@@ -769,10 +769,10 @@ conditions:
 				enable:  [28]
 	*	disabled:  true
 		when:
-			type:     "target"
-			op:       "eq"
-			initial:  {initial: 5}
-			target:   {initial: 4}
+			type:    "target"
+			op:      "eq"
+			what:    {initial: 5}
+			target:  {initial: 4}
 		subject:   {initial: 5}
 		object:    {initial: 4}
 		action:
@@ -787,10 +787,10 @@ conditions:
 				enable:  [29]
 	*	disabled:  true
 		when:
-			type:     "target"
-			op:       "eq"
-			initial:  {initial: 2}
-			target:   {initial: 4}
+			type:    "target"
+			op:      "eq"
+			what:    {initial: 2}
+			target:  {initial: 4}
 		subject:   {initial: 2}
 		object:    {initial: 4}
 		action:
@@ -854,10 +854,10 @@ conditions:
 				value:  "all"
 	*	disabled:  true
 		when:
-			type:     "target"
-			op:       "eq"
-			initial:  {initial: 2}
-			target:   {initial: 0}
+			type:    "target"
+			op:      "eq"
+			what:    {initial: 2}
+			target:  {initial: 0}
 		subject:   {initial: 2}
 		object:    {initial: 0}
 		action:
@@ -865,10 +865,10 @@ conditions:
 				enable:  [33]
 	*	disabled:  true
 		when:
-			type:     "target"
-			op:       "eq"
-			initial:  {initial: 5}
-			target:   {initial: 0}
+			type:    "target"
+			op:      "eq"
+			what:    {initial: 5}
+			target:  {initial: 0}
 		subject:   {initial: 5}
 		object:    {initial: 0}
 		action:
@@ -876,10 +876,10 @@ conditions:
 				enable:  [34]
 	*	disabled:  true
 		when:
-			type:     "target"
-			op:       "eq"
-			initial:  {initial: 6}
-			target:   {initial: 0}
+			type:    "target"
+			op:      "eq"
+			what:    {initial: 6}
+			target:  {initial: 0}
 		subject:   {initial: 6}
 		object:    {initial: 0}
 		action:

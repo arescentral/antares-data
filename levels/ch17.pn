@@ -120,10 +120,10 @@ conditions:
 				value:   10000.0
 				player:  1
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   1
-			initial:  {initial: 2}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 2}
+			player:  1
 		subject:  {initial: 2}
 		action:
 			*	type:    "win"
@@ -131,10 +131,10 @@ conditions:
 				text:
 					>	Out base on Lelande Alpha was captured.
 	*	when:
-			type:     "owner"
-			op:       "eq"
-			player:   0
-			initial:  {initial: 3}
+			type:    "owner"
+			op:      "eq"
+			what:    {initial: 3}
+			player:  0
 		subject:  {initial: 3}
 		action:
 			*	type:       "win"
