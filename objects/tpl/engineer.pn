@@ -71,12 +71,13 @@ arrive:
 			priority:     3
 			persistence:  "10t"
 			volume:       255
-		*	type:   "kill"
+		*	type:      "delay"
+			duration:  "2s40t"
+		*	type:  "kill"
 			if:
 				tags:   {flak: true}
 				owner:  "different"
-			delay:  "2s40t"
-			kind:   "expire"
+			kind:  "expire"
 		*	type:  "capture"
 			if:
 				tags:   {flak: true}
