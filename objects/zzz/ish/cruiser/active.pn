@@ -20,8 +20,9 @@ destroy:
 		*	type:       "morph"
 			reflexive:  true
 			base:       "zzz/ish/cruiser/inactive"
+		*	type:      "delay"
+			duration:  "6s"
 		*	type:       "morph"
 			reflexive:  true
-			delay:      "6s"
 			base:       "zzz/ish/cruiser/active"
 portrait:          null

@@ -853,8 +853,9 @@ conditions:
 					*	"zoom_shortcut"
 					*	"send_message"
 					*	"mouse"
-			*	type:   "order"
-				delay:  "2s"
+			*	type:      "delay"
+				duration:  "2s"
+			*	type:  "order"
 				override:
 					subject:  {initial: 1}
 					object:   {initial: 5}

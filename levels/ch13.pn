@@ -105,22 +105,25 @@ conditions:
 			counter:  1
 			value:    6
 		action:
+			*	type:      "delay"
+				duration:  "1.5s"
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      "1.5s"
 				initial:    [10]
+			*	type:      "delay"
+				duration:  "0.5s"
 			*	type:       "message"
 				reflexive:  true
-				delay:      "0.5s"
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
 						|	SOURCE: RICS 105508 Tractor Tug
 						|	We've entered the Secorem System and are now en route to the Elejeetian
 						>	liner. We've been informed that several Salrilian ships are jumping into
 						>	this system. We require escort. \i<EOT>\i 
+			*	type:      "delay"
+				duration:  "15s"
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      "15s"
 				initial:    [16, 17, 18]
 	*	when:
 			type:   "distance"
@@ -174,16 +177,18 @@ conditions:
 				override:
 					subject:  {initial: 0}
 					object:   {initial: 7}
+			*	type:      "delay"
+				duration:  "1s"
 			*	type:       "land"
 				reflexive:  true
-				delay:      "1s"
 				override:
 					subject:  {initial: 0}
 					object:   {initial: 7}
 				speed:      128
+			*	type:      "delay"
+				duration:  "10t"
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      "10t"
 				initial:    [19]
 briefings:
 	*	title:  "EACSR Banadee"

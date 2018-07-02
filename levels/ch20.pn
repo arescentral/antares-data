@@ -197,18 +197,20 @@ conditions:
 			player:  1
 			value:   0
 		action:
+			*	type:      "delay"
+				duration:  "6s"
 			*	type:       "message"
 				reflexive:  true
-				delay:      "6s"
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i NO KEY - NW2 BROAD BEAM
 						|	SOURCE: UNS Musgrave
 						|	Unbelievable. We’re about to come into Sol through thanks to the Ishiman
 						>	gateship, and I can’t believe our sensors! We’re not picking up any
 						>	hostile ships. You did it! \i<EOT>\i 
+			*	type:      "delay"
+				duration:  "6s"
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      "6s"
 				initial:    [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
 	*	when:
 			type:    "owner"

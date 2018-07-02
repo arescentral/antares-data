@@ -251,8 +251,9 @@ conditions:
 				override:
 					subject:  {initial: 5}
 					object:   {initial: 4}
+			*	type:      "delay"
+				duration:  "2s"
 			*	type:    "condition"
-				delay:   "2s"
 				enable:  [8]
 	*	disabled:  true
 		when:
@@ -268,8 +269,9 @@ conditions:
 				override:
 					subject:  {initial: 5}
 					object:   {initial: 0}
+			*	type:      "delay"
+				duration:  "2s"
 			*	type:    "condition"
-				delay:   "2s"
 				enable:  [7]
 	*	when:
 			type:    "message"

@@ -57,19 +57,22 @@ activate:
 		*	type:       "spin"
 			reflexive:  true
 			value:      {begin: -1.0, end: 0.0}
+		*	type:      "delay"
+			duration:  "20t"
 		*	type:       "push"
 			reflexive:  true
-			delay:      "20t"
 			kind:       "boost"
 			value:      0.5
+		*	type:      "delay"
+			duration:  "4.5s"
 		*	type:       "morph"
 			reflexive:  true
-			delay:      "4.5s"
 			base:       "obi/etc/obiard/waving"
 			keep_ammo:  true
+		*	type:      "delay"
+			duration:  "4.5s"
 		*	type:       "morph"
 			reflexive:  true
-			delay:      "4.5s"
 			base:       "obi/etc/obiard/turning"
 			keep_ammo:  true
 ai:

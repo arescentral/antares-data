@@ -86,8 +86,9 @@ conditions:
 			counter:  1
 			value:    1
 		action:
-			*	type:   "message"
-				delay:  "2s"
+			*	type:      "delay"
+				duration:  "2s"
+			*	type:  "message"
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
 						|	SOURCE: Human/Ishiman Coord. Control

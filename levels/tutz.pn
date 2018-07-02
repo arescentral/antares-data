@@ -591,9 +591,10 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [22]
+			*	type:      "delay"
+				duration:  "1s"
 			*	type:       "win"
 				reflexive:  true
-				delay:      "1s"
 				player:     0
 				next:       "ch01"
 				text:

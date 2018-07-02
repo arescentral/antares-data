@@ -135,25 +135,30 @@ conditions:
 						>	important that you maintain control of the station and its flak drone.
 						>	The first freighter will arrive in two minutes, and the others will
 						>	follow with a minute between each of them.\i<EOT>\i 
+			*	type:      "delay"
+				duration:  "20s"
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      "20s"
 				initial:    [3]
+			*	type:      "delay"
+				duration:  "20s"
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      "20s"
 				initial:    [5]
+			*	type:      "delay"
+				duration:  "20s"
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      "20s"
 				initial:    [6]
+			*	type:      "delay"
+				duration:  "20s"
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      "20s"
 				initial:    [7]
+			*	type:      "delay"
+				duration:  "20s"
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      "20s"
 				initial:    [8]
 	*	when:
 			type:     "counter"

@@ -19,8 +19,9 @@ activate:
 			reflexive:  true
 			kind:       "cruise"
 			value:      -15.0
+		*	type:      "delay"
+			duration:  "7t"
 		*	type:       "push"
 			reflexive:  true
-			delay:      "7t"
 			kind:       "set"
 			value:      0.0

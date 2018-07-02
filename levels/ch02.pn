@@ -146,9 +146,10 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [13]
+			*	type:      "delay"
+				duration:  "2s"
 			*	type:       "message"
 				reflexive:  true
-				delay:      "2s"
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
 						|	SOURCE: OMV Treejumper, Escort 3856

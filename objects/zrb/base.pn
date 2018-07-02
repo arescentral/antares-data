@@ -49,9 +49,10 @@ collide:
 			value:
 				begin:  "3s"
 				end:    "6s"
+		*	type:      "delay"
+			duration:  "2s"
 		*	type:       "create"
 			reflexive:  true
-			delay:      "2s"
 			base:       "zrb/spawn"
 			count:      {begin: -1, end: 3}
 			distance:   2

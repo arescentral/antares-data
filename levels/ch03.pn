@@ -96,9 +96,10 @@ conditions:
 						>	readiness for our offensive. A Gaitori carrier has just been detected in
 						>	the Elysium/Demeter jumpstream. We believe it's the GCS Caretaker.
 						>	Destroy the carrier if possible.\i<EOT>\i 
+			*	type:      "delay"
+				duration:  "6s40t"
 			*	type:       "reveal"
 				reflexive:  true
-				delay:      "6s40t"
 				initial:    [4]
 briefings:
 	*	title:  "Demeter"

@@ -50,9 +50,10 @@ destroy:
 		*	type:       "heal"
 			reflexive:  true
 			value:      80000
+		*	type:      "delay"
+			duration:  "1s"
 		*	type:       "message"
 			reflexive:  true
-			delay:      "1s"
 			id:         5520
 			pages:
 				*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM

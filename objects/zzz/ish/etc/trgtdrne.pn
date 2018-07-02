@@ -37,16 +37,18 @@ destroy:
 			priority:     4
 			persistence:  "10t"
 			volume:       255
+		*	type:      "delay"
+			duration:  "6s"
 		*	type:         "play"
 			reflexive:    true
-			delay:        "6s"
 			sound:        "gui/klaxon"
 			priority:     3
 			persistence:  "10t"
 			volume:       255
+		*	type:      "delay"
+			duration:  "1s"
 		*	type:       "morph"
 			reflexive:  true
-			delay:      "1s"
 			base:       "zzz/ish/etc/trgtdrne"
 ai:
 	target:

@@ -34,8 +34,9 @@ arrive:
 			if:
 				tags:  {jumpgate: true}
 			base:  "sfx/jump/small"
+		*	type:      "delay"
+			duration:  "2s"
 		*	type:   "land"
 			if:
 				tags:  {jumpgate: true}
-			delay:  "2s"
 			speed:  80

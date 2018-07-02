@@ -18,9 +18,10 @@ icon:
 target:            {lock: true}
 create:
 	action:
+		*	type:      "delay"
+			duration:  "6s"
 		*	type:       "message"
 			reflexive:  true
-			delay:      "6s"
 			id:         5508
 			pages:
 				*	>	Good work. You built a practice drone. Normally, you can give ships you
@@ -29,14 +30,16 @@ create:
 		*	type:  "order"
 			override:
 				object:  {initial: 5}
+		*	type:      "delay"
+			duration:  "2s"
 		*	type:   "land"
-			delay:  "2s"
 			override:
 				object:  {initial: 5}
 			speed:  128
+		*	type:      "delay"
+			duration:  "40s"
 		*	type:       "condition"
 			reflexive:  true
-			delay:      "40s"
 			enable:     [13]
 		*	type:  "check"
 ai:
