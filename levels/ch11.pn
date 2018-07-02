@@ -131,12 +131,11 @@ conditions:
 				base:                "uns/etc/human/returning"
 				relative_velocity:   true
 				relative_direction:  true
-			*	type:              "score"
-				reflexive:         true
-				check_conditions:  true
-				which:             0
-				value:             -1
-				player:            0
+			*	type:       "score"
+				reflexive:  true
+				which:      0
+				value:      -1
+				player:     0
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [0]
@@ -146,6 +145,7 @@ conditions:
 					subject:  {initial: 1}
 				base:       "ish/etc/hvd/rescue"
 				keep_ammo:  true
+			*	type:  "check"
 	*	persistent:  true
 		when:
 			type:   "distance"

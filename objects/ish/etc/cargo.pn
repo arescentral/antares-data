@@ -31,17 +31,17 @@ create:
 arrive:
 	distance:  20000
 	action:
-		*	type:              "score"
+		*	type:    "score"
 			if:
 				tags:  {rendezvous: true}
-			check_conditions:  true
-			which:             0
-			value:             1
-			player:            0
+			which:   0
+			value:   1
+			player:  0
 		*	type:  "kill"
 			if:
 				tags:  {rendezvous: true}
 			kind:  "expire"
+		*	type:  "check"
 ai:
 	combat:  {engages: false, evaded: false}
 	target:

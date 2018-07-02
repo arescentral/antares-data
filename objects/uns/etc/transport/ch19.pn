@@ -3,12 +3,12 @@ notes:     "Transport -- special, for chapter 19"
 class:     1801
 expire:
 	action:
-		*	type:              "score"
-			reflexive:         true
-			check_conditions:  true
-			which:             0
-			value:             1
-			player:            0
+		*	type:       "score"
+			reflexive:  true
+			which:      0
+			value:      1
+			player:     0
+		*	type:  "check"
 arrive:
 	action:
 		*	type:   "land"

@@ -66,9 +66,8 @@ conditions:
 			op:        "ge"
 			duration:  "0s"
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5800
+			*	type:  "message"
+				id:    5800
 				pages:
 					*	>	Welcome to Lesson 2.
 						>
@@ -119,6 +118,7 @@ conditions:
 					*	"send_message"
 			*	type:   "zoom"
 				value:  "1:2"
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -137,9 +137,8 @@ conditions:
 			b:     {control: 0}
 		subject:   {initial: 1}
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5803
+			*	type:  "message"
+				id:    5803
 				pages:
 					*	>	#O1#Good. This ship has been selected as the
 						|	Control Object.
@@ -173,6 +172,7 @@ conditions:
 						|	mouse.
 						>
 						>	Try clicking on this planet.
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -190,9 +190,8 @@ conditions:
 			b:     {control: 0}
 		subject:   {initial: 6}
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5811
+			*	type:  "message"
+				id:    5811
 				pages:
 					*	>	Sometimes, several ships are crowded together. How can you select the
 						>	ship you want when there are other ships covering it?
@@ -208,6 +207,7 @@ conditions:
 						|	or four times.
 			*	type:     "reveal"
 				initial:  [2, 3, 4, 5]
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -231,10 +231,9 @@ conditions:
 			b:     {control: 0}
 		subject:   {initial: 5}
 		action:
-			*	type:              "message"
-				reflexive:         true
-				check_conditions:  true
-				id:                5813
+			*	type:       "message"
+				reflexive:  true
+				id:         5813
 				pages:
 					*	>	Very good.
 						>
@@ -251,6 +250,7 @@ conditions:
 						>
 						>	Aim yourself at this ship, then press the
 						|	Select Friend key, #SFD.
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -303,9 +303,8 @@ conditions:
 			b:     {control: 0}
 		subject:   {initial: 1}
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5815
+			*	type:  "message"
+				id:    5815
 				pages:
 					*	>	Good.
 						>
@@ -316,6 +315,7 @@ conditions:
 						>
 						>	Notice how each time you hit the key, the next farthest ship is
 						>	selected.
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -358,9 +358,8 @@ conditions:
 			b:     {control: 0}
 		subject:   {initial: 5}
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5817
+			*	type:  "message"
+				id:    5817
 				pages:
 					*	>	Good. Let’s try it again, but this time we’ll move the ships far away.
 						|	\i_[more]_\i_
@@ -372,6 +371,7 @@ conditions:
 						>
 						>	Repeatedly hit the Select Friend key,
 						|	#SFD, to select the gunship.
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -412,9 +412,8 @@ conditions:
 			b:     {control: 0}
 		subject:   {initial: 2}
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5819
+			*	type:  "message"
+				id:    5819
 				pages:
 					*	>	Very good. Now, one last time.
 						>
@@ -437,6 +436,7 @@ conditions:
 						>	Try to select the transport by turning toward it (remember, it’s at
 						>	about one o’clock) and repeatedly hitting the Select Friend key,
 						>	\i_#SFD_\i.
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -485,10 +485,9 @@ conditions:
 			b:     {control: 0}
 		subject:   {initial: 5}
 		action:
-			*	type:              "message"
-				reflexive:         true
-				check_conditions:  true
-				id:                5823
+			*	type:       "message"
+				reflexive:  true
+				id:         5823
 				pages:
 					*	>	Great! Now you know how to select ships even when you can’t see them.
 						|	\i_[more]_\i_
@@ -497,6 +496,7 @@ conditions:
 						>
 						>	Select the planet now by pointing your ship at it and pressing the
 						>	\i_#SBS_\i key.
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -515,10 +515,9 @@ conditions:
 			b:     {control: 0}
 		subject:   {initial: 6}
 		action:
-			*	type:              "message"
-				reflexive:         true
-				check_conditions:  true
-				id:                5825
+			*	type:       "message"
+				reflexive:  true
+				id:         5825
 				pages:
 					*	>	Good.
 						>
@@ -531,6 +530,7 @@ conditions:
 						>
 						>	Use the mouse to click on this ship while
 						|	holding down the #DST key.
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -563,10 +563,9 @@ conditions:
 			b:     {target: 0}
 		subject:   {initial: 1}
 		action:
-			*	type:              "message"
-				reflexive:         true
-				check_conditions:  true
-				id:                5827
+			*	type:       "message"
+				reflexive:  true
+				id:         5827
 				pages:
 					*	>	#O1#Good. This ship has been selected as the
 						|	Target Object.
@@ -591,6 +590,7 @@ conditions:
 						>
 						>	Try clicking on this planet while
 						|	holding down the #DST key.
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -608,10 +608,9 @@ conditions:
 			b:     {target: 0}
 		subject:   {initial: 6}
 		action:
-			*	type:              "message"
-				reflexive:         true
-				check_conditions:  true
-				id:                5831
+			*	type:       "message"
+				reflexive:  true
+				id:         5831
 				pages:
 					*	>	Good.
 						>
@@ -620,6 +619,7 @@ conditions:
 					*	>	#O7#Try targeting this Cantharan Transport by
 						|	clicking on it while holding down the
 						|	#DST key.
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -641,10 +641,9 @@ conditions:
 		subject:   {initial: 7}
 		object:    {initial: 1}
 		action:
-			*	type:              "message"
-				reflexive:         true
-				check_conditions:  true
-				id:                5833
+			*	type:       "message"
+				reflexive:  true
+				id:         5833
 				pages:
 					*	>	Perfect.
 						>
@@ -664,6 +663,7 @@ conditions:
 						>	Select this ship as a target, so it
 						|	is labeled in blue and appears on the
 						|	target screen.
+			*	type:  "check"
 	*	persistent:  true
 		when:
 			type:    "message"
@@ -693,9 +693,8 @@ conditions:
 			b:     {target: 0}
 		subject:   {initial: 1}
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5835
+			*	type:  "message"
+				id:    5835
 				pages:
 					*	>	#O6#Good.
 						>
@@ -704,6 +703,7 @@ conditions:
 						|	down the #DST key.
 						>
 						>	Face this planet and try it.
+			*	type:  "check"
 	*	persistent:  true
 		when:
 			type:    "message"
@@ -722,9 +722,8 @@ conditions:
 			b:     {target: 0}
 		subject:   {initial: 6}
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5836
+			*	type:  "message"
+				id:    5836
 				pages:
 					*	>	#O7#OK, now try this Cantharan Transport, using
 						|	the Select Foe key, #SFO.
@@ -733,6 +732,7 @@ conditions:
 						|	Objects, so there’s no need to hold down
 						|	the Target key to select them with the
 						|	keyboard.
+			*	type:  "check"
 	*	persistent:  true
 		when:
 			type:    "message"
@@ -751,9 +751,8 @@ conditions:
 			b:     {target: 0}
 		subject:   {initial: 7}
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5837
+			*	type:  "message"
+				id:    5837
 				pages:
 					*	>	Excellent.
 						>
@@ -776,6 +775,7 @@ conditions:
 						>	First target this ship. You can use the
 						|	mouse (#DST + click) or
 						|	keyboard (#DST + #SFD).
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -797,14 +797,14 @@ conditions:
 			b:     {target: 0}
 		subject:   {initial: 1}
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5840
+			*	type:  "message"
+				id:    5840
 				pages:
 					*	>	To activate the autopilot, hold down the Target key, \i_#DST_\i as you
 						>	press and release the Warp key, \i_#WRP_\i.
 						>
 						>	Try it now.
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -821,9 +821,8 @@ conditions:
 			player:  0
 			value:   true
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5841
+			*	type:  "message"
+				id:    5841
 				pages:
 					*	>	Now watch what happens when your target decides to go somewhere.
 			*	type:       "zoom"
@@ -861,6 +860,7 @@ conditions:
 					object:   {initial: 5}
 			*	type:    "condition"
 				enable:  [34]
+			*	type:  "check"
 	*	disabled:  true
 		when:
 			type:   "distance"
@@ -871,9 +871,8 @@ conditions:
 		subject:   {initial: 1}
 		object:    {initial: 5}
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5842
+			*	type:  "message"
+				id:    5842
 				pages:
 					*	>	You’ll continue to follow this ship -- or any other target you care to
 						>	select -- until you press one of your movement keys. Accelerating or
@@ -905,6 +904,7 @@ conditions:
 				enable:  [36]
 			*	type:    "condition"
 				enable:  [35]
+			*	type:  "check"
 	*	disabled:  true
 		when:
 			type:   "distance"
@@ -941,15 +941,15 @@ conditions:
 					subject:  {initial: 0}
 				kind:       "set"
 				value:      0.0
-			*	type:              "message"
-				check_conditions:  true
-				id:                5843
+			*	type:  "message"
+				id:    5843
 				pages:
 					*	>	To complete this lesson, you must get to the planet. We’ve turned off
 						>	your thrust key, so you’ll have to use the autopilot to get there.
 						>
 						>	Target the planet with the mouse or keyboard, then turn on the autopilot
 						>	(hold down \i_#DST_\i then press \i_#WRP_\i).
+			*	type:  "check"
 starmap:  {left: 314, top: 275, right: 346, bottom: 299}
 angle:    8
 skip:     "ch02"

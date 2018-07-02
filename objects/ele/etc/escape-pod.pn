@@ -37,11 +37,10 @@ destroy:
 				>	One of the escape pods was destroyed.
 collide:
 	action:
-		*	type:              "score"
-			check_conditions:  true
-			which:             1
-			value:             1
-			player:            0
+		*	type:    "score"
+			which:   1
+			value:   1
+			player:  0
 		*	type:         "play"
 			reflexive:    true
 			sound:        "sfx/energy"
@@ -51,6 +50,7 @@ collide:
 		*	type:       "kill"
 			reflexive:  true
 			kind:       "none"
+		*	type:  "check"
 ai:
 	escort:  {class: 9, need: 2.0}
 	build:   {ratio: 0.7}

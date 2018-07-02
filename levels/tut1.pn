@@ -93,9 +93,8 @@ conditions:
 					subject:  {initial: 0}
 				kind:       "set"
 				value:      0.0
-			*	type:              "message"
-				check_conditions:  true
-				id:                5700
+			*	type:  "message"
+				id:    5700
 				pages:
 					*	>	#L322##72,363#Welcome to lesson 1.
 						>
@@ -108,15 +107,15 @@ conditions:
 						>
 						>	Use the mouse to double click the <Message>
 						|	item now.
+			*	type:  "check"
 	*	when:
 			type:    "computer"
 			op:      "eq"
 			player:  0
 			screen:  "message"
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5701
+			*	type:  "message"
+				id:    5701
 				pages:
 					*	>	#L322##116,337#Good.
 						>
@@ -132,6 +131,7 @@ conditions:
 						|	#CNC key.
 						>
 						>	Try backing up to the main menu now.
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -148,9 +148,8 @@ conditions:
 			player:  0
 			screen:  "main"
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5750
+			*	type:  "message"
+				id:    5750
 				pages:
 					*	>	#L322##72,363#Good. You can also use the #PRV
 						|	and #NXT keys to select commands
@@ -169,6 +168,7 @@ conditions:
 					*	"mouse"
 			*	type:    "condition"
 				enable:  [22]
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -193,9 +193,8 @@ conditions:
 			player:  0
 			value:   "2:1"
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5711
+			*	type:  "message"
+				id:    5711
 				pages:
 					*	>	Very good.
 						>
@@ -222,6 +221,7 @@ conditions:
 						>	\i_#SC-_\i key several times.
 						>
 						>	This mode always shows all the objects in a scenario.
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -292,10 +292,9 @@ conditions:
 			player:  0
 			value:   "all"
 		action:
-			*	type:              "message"
-				reflexive:         true
-				check_conditions:  true
-				id:                5715
+			*	type:       "message"
+				reflexive:  true
+				id:         5715
 				pages:
 					*	>	As you saw with the transport, when the display is on a very small scale
 						>	(anything below \f0c1:4\r), symbols are used to represent the objects in
@@ -330,6 +329,7 @@ conditions:
 						>	The zoom modes, from smallest to largest, are: \f0cZoom to All\r,
 						>	\f0cZoom to Closest\r, \f0cZoom to Hostile\r, \f0c1:16\r, \f0c1:4\r,
 						>	\f0c1:2\r, \f0c1:1\r, and \f0c2:1\r.
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -380,9 +380,8 @@ conditions:
 			player:  0
 			value:   "1:1"
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5721
+			*	type:  "message"
+				id:    5721
 				pages:
 					*	>	Now let’s get to the control of your ship.
 						|	\i_[more]_\i_
@@ -526,6 +525,7 @@ conditions:
 						>	Use the radar to find the cloaked ship.
 						>
 						>	Good luck!
+			*	type:  "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -633,15 +633,15 @@ conditions:
 			screen:  "main"
 			line:    3
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5751
+			*	type:  "message"
+				id:    5751
 				pages:
 					*	>	#L322##72,363#Now press the Computer Accept key,
 						|	#ACT, to go to the Message Menu.
 						>
 			*	type:    "condition"
 				enable:  [23]
+			*	type:  "check"
 	*	disabled:  true
 		when:
 			type:    "computer"
@@ -649,9 +649,8 @@ conditions:
 			player:  0
 			screen:  "message"
 		action:
-			*	type:              "message"
-				check_conditions:  true
-				id:                5704
+			*	type:  "message"
+				id:    5704
 				pages:
 					*	>	#L322##116,340#Good.
 						|	Now execute the Next Page/Clear command
@@ -696,6 +695,7 @@ conditions:
 						>
 						>	Notice that as you change zoom levels, the current mode is displayed at
 						>	the top of the screen.
+			*	type:  "check"
 starmap:  {left: 314, top: 275, right: 346, bottom: 299}
 par:
 	time:    "2m"

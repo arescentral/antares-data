@@ -32,30 +32,29 @@ conditions:
 			what:   {initial: 0}
 			value:  true
 		action:
-			*	type:              "score"
-				reflexive:         true
-				check_conditions:  true
-				which:             0
-				value:             1
-				player:            0
+			*	type:       "score"
+				reflexive:  true
+				which:      0
+				value:      1
+				player:     0
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "6s"
 				initial:    [0]
 			*	type:    "condition"
 				enable:  [0]
+			*	type:  "check"
 	*	when:
 			type:   "destroyed"
 			op:     "eq"
 			what:   {initial: 1}
 			value:  true
 		action:
-			*	type:              "score"
-				reflexive:         true
-				check_conditions:  true
-				which:             0
-				value:             1
-				player:            1
+			*	type:       "score"
+				reflexive:  true
+				which:      0
+				value:      1
+				player:     1
 			*	type:       "reveal"
 				reflexive:  true
 				delay:      "6s"
@@ -63,6 +62,7 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [1]
+			*	type:  "check"
 	*	when:
 			type:     "counter"
 			op:       "ge"
