@@ -6,7 +6,7 @@ shield_color:       {r: 255, g: 255, b: 255}
 max_velocity:       5.0
 max_thrust:         0.066
 warp_speed:         20.0
-warp_out_distance:  1167412
+warp_out_distance:  1080.4686
 weapons:
 	pulse:
 		base:  "dev/magneto/rgun"

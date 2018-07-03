@@ -11,7 +11,7 @@ max_velocity:       4.0
 max_thrust:         0.02
 initial_velocity:   4.0
 warp_speed:         50.0
-warp_out_distance:  53002380
+warp_out_distance:  7280.2734
 weapons:
 	pulse:
 		base:  "dev/amissile/launcher"

@@ -14,7 +14,7 @@ mass:               2.5
 max_velocity:       4.0
 max_thrust:         0.02
 initial_velocity:   4.0
-warp_out_distance:  21709776
+warp_out_distance:  4659.3751
 weapons:
 	pulse:
 		base:  "dev/rplasma/gun"

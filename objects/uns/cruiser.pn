@@ -5,7 +5,7 @@ race:               "uns"
 shield_color:       {r: 255, g: 255, b: 255}
 max_thrust:         0.08
 warp_speed:         20.0
-warp_out_distance:  1122275
+warp_out_distance:  1059.375
 weapons:
 	pulse:
 		base:  "dev/magneto/gun"

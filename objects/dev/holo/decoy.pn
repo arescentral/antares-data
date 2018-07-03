@@ -11,7 +11,7 @@ max_thrust:         0.156
 initial_velocity:   5.0
 initial_direction:  {begin: 0, end: 360}
 warp_speed:         50.0
-warp_out_distance:  32972718
+warp_out_distance:  5742.1876
 rotation:
 	sprite:  "aud/cruiser"
 	frames:  {begin: 0, end: 24}

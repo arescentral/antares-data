@@ -4,5 +4,5 @@ short_name:         "DESTROYR"
 notes:              "Can Rescue"
 tags:               {rescue: true, normal: null}
 class:              451
-warp_out_distance:  13505625
+warp_out_distance:  3675.0
 portrait:           null

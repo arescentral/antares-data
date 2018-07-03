@@ -3,7 +3,7 @@ notes:              "Heavy Destroyer"
 race:               "aud"
 shield_color:       {r: 120, g: 120, b: 240}
 warp_speed:         50.0
-warp_out_distance:  43838884
+warp_out_distance:  6621.0939
 weapons:
 	pulse:
 		base:  "dev/cform/gun"

@@ -3,7 +3,7 @@ notes:              "Heavy Cruiser"
 portrait:           "can/hvc"
 race:               "can"
 shield_color:       {r: 240, g: 240, b: 120}
-warp_out_distance:  9734400
+warp_out_distance:  3120.0
 weapons:
 	pulse:
 		base:  "dev/anti1/rgun"

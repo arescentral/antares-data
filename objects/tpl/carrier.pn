@@ -3,7 +3,7 @@ long_name:          "Carrier"
 short_name:         "CARRIER"
 class:              500
 build_time:         "30s"
-warp_out_distance:  22503164
+warp_out_distance:  4743.75
 destroy:
 	action:
 		*	type:                "create"

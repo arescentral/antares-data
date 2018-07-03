@@ -12,7 +12,7 @@ max_velocity:       5.0
 max_thrust:         0.098
 initial_velocity:   5.0
 warp_speed:         50.0
-warp_out_distance:  40977500
+warp_out_distance:  6401.3671
 weapons:
 	pulse:
 		base:  "dev/inasa/rgun"

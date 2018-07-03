@@ -14,7 +14,7 @@ max_velocity:       6.0
 max_thrust:         0.08
 initial_velocity:   0.0
 initial_direction:  0
-warp_out_distance:  9734400
+warp_out_distance:  3120.0
 weapons:
 	pulse:
 		base:  "dev/pp/twin"

@@ -11,7 +11,7 @@ max_velocity:       4.5
 max_thrust:         0.08
 initial_velocity:   1.5
 warp_speed:         40.0
-warp_out_distance:  22503164
+warp_out_distance:  4743.75
 icon:               {size: 6}
 destroy:
 	action:

@@ -6,7 +6,7 @@ race:               "uns"
 shield_color:       {r: 255, g: 255, b: 255}
 build_time:         "50s"
 warp_speed:         20.0
-warp_out_distance:  1406447
+warp_out_distance:  1185.9374
 weapons:
 	pulse:
 		base:  "dev/fullerene/gun"

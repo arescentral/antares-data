@@ -15,7 +15,7 @@ max_velocity:       6.5
 max_thrust:         0.156
 initial_velocity:   6.5
 warp_speed:         40.0
-warp_out_distance:  9734400
+warp_out_distance:  3120.0
 weapons:
 	pulse:
 		base:  "dev/pp2/gun"
