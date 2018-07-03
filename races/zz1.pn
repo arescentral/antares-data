@@ -1,8 +1,7 @@
-singular:        "Unused Race 1"
-plural:          "Plural"
-military:        "Military"
-homeworld:       "Homeworld"
-numeric:         1200
-apparent_color:  "gray"
-illegal_colors:  65536
-advantage:       1.0
+singular:   "Unused Race 1"
+plural:     "Plural"
+military:   "Military"
+homeworld:  "Homeworld"
+numeric:    1200
+hue:        "gray"
+advantage:  1.0

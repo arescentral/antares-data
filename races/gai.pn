@@ -1,11 +1,10 @@
-singular:        "Gaitori"
-plural:          "Gaitori"
-military:        "Gaitori Union"
-homeworld:       "Gaitor"
-numeric:         300
-apparent_color:  "gray"
-illegal_colors:  0
-advantage:       1.0
+singular:   "Gaitori"
+plural:     "Gaitori"
+military:   "Gaitori Union"
+homeworld:  "Gaitor"
+numeric:    300
+hue:        "gray"
+advantage:  1.0
 ships:
 	evat:       "gai/evat"
 	fighter:    "gai/fighter"

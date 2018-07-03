@@ -1,11 +1,10 @@
-singular:        "Obish"
-plural:          "Obiards"
-military:        "Free Worlds of Obain"
-homeworld:       "Obain"
-numeric:         400
-apparent_color:  "sky blue"
-illegal_colors:  0
-advantage:       1.75
+singular:   "Obish"
+plural:     "Obiards"
+military:   "Free Worlds of Obain"
+homeworld:  "Obain"
+numeric:    400
+hue:        "sky blue"
+advantage:  1.75
 ships:
 	escort:     "obi/escort"
 	transport:  "obi/transport"

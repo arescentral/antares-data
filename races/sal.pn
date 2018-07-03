@@ -1,11 +1,10 @@
-singular:        "Salrilian"
-plural:          "Salrilians"
-military:        "Prophets of Salril"
-homeworld:       "Salril"
-numeric:         600
-apparent_color:  "gray"
-illegal_colors:  0
-advantage:       2.5
+singular:   "Salrilian"
+plural:     "Salrilians"
+military:   "Prophets of Salril"
+homeworld:  "Salril"
+numeric:    600
+hue:        "gray"
+advantage:  2.5
 ships:
 	evat:       "sal/evat"
 	fighter:    "sal/fighter"

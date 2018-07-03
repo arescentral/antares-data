@@ -1,11 +1,10 @@
-singular:        "Ishiman"
-plural:          "Ishimans"
-military:        "Ishiman Protectorate"
-homeworld:       "Ishima"
-numeric:         100
-apparent_color:  "aqua"
-illegal_colors:  0
-advantage:       2.15
+singular:   "Ishiman"
+plural:     "Ishimans"
+military:   "Ishiman Protectorate"
+homeworld:  "Ishima"
+numeric:    100
+hue:        "aqua"
+advantage:  2.15
 ships:
 	evat:       "ish/evat"
 	fighter:    "ish/fighter"

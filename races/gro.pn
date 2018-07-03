@@ -1,11 +1,10 @@
-singular:        "Grolk"
-plural:          "Grolk"
-military:        "Grolk"
-homeworld:       "Space Force of Grolk"
-numeric:         1100
-apparent_color:  "gray"
-illegal_colors:  0
-advantage:       0.5
+singular:   "Grolk"
+plural:     "Grolk"
+military:   "Grolk"
+homeworld:  "Space Force of Grolk"
+numeric:    1100
+hue:        "gray"
+advantage:  0.5
 ships:
 	cruiser:   "gro/cruiser"
 	schooner:  "gro/ctf/flag/p1"
