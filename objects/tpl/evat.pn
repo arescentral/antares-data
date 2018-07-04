@@ -35,7 +35,7 @@ collide:
 	solid:  true
 	edge:   true
 arrive:
-	distance:  5000
+	distance:  70.714
 	action:
 		*	type:  "kill"
 			if:

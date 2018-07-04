@@ -27,7 +27,7 @@ collide:
 	damage:  0
 	solid:   false
 	edge:    false
-arrive:             {distance: 50000}
+arrive:             {distance: 223.608}
 ai:
 	combat:
 		hated:    false

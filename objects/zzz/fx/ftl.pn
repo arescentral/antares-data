@@ -23,7 +23,7 @@ expire:
 			end:    "10s10t"
 collide:            {damage: 0}
 arrive:
-	distance:  5000
+	distance:  70.714
 	action:
 		*	type:   "equip"
 			if:

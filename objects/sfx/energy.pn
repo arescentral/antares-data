@@ -38,7 +38,7 @@ collide:
 			priority:     3
 			persistence:  "10t"
 			volume:       255
-arrive:             {distance: 18}
+arrive:             {distance: 4.3}
 ai:
 	combat:
 		engages:  true

@@ -47,7 +47,7 @@ expire:
 			reflexive:  true
 			kind:       "expire"
 arrive:
-	distance:  5000
+	distance:  70.714
 	action:
 		*	type:       "push"
 			reflexive:  true

@@ -17,7 +17,7 @@ destroy:
 			reflexive:  true
 			base:       "sfx/explosion/large"
 arrive:
-	distance:  320000
+	distance:  565.686
 	action:
 		*	type:   "fire"
 			if:

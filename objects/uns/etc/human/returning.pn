@@ -29,7 +29,7 @@ create:
 				object:  {initial: 0}
 collide:            {edge: true}
 arrive:
-	distance:  5000
+	distance:  70.714
 	action:
 		*	type:         "play"
 			if:
