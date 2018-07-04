@@ -128,7 +128,7 @@ conditions:
 	*	when:
 			type:   "distance"
 			op:     "lt"
-			value:  50000
+			value:  223.608
 			from:   {initial: 0}
 			to:     {initial: 10}
 		subject:  {initial: 0}
@@ -167,7 +167,7 @@ conditions:
 		when:
 			type:   "distance"
 			op:     "lt"
-			value:  50000
+			value:  223.608
 			from:   {initial: 10}
 			to:     {initial: 7}
 		subject:   {initial: 10}

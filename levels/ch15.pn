@@ -82,7 +82,7 @@ conditions:
 	*	when:
 			type:   "distance"
 			op:     "lt"
-			value:  50000
+			value:  223.608
 			from:   {initial: 2}
 			to:     {initial: 3}
 		subject:  {initial: 2}

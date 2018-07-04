@@ -241,7 +241,7 @@ conditions:
 		when:
 			type:   "distance"
 			op:     "lt"
-			value:  50000
+			value:  223.608
 			from:   {initial: 0}
 			to:     {initial: 5}
 		subject:   {initial: 0}
@@ -259,7 +259,7 @@ conditions:
 		when:
 			type:   "distance"
 			op:     "lt"
-			value:  50000
+			value:  223.608
 			from:   {initial: 4}
 			to:     {initial: 5}
 		subject:   {initial: 4}

@@ -134,7 +134,7 @@ conditions:
 	*	when:
 			type:   "distance"
 			op:     "lt"
-			value:  50000
+			value:  223.608
 			from:   {flagship: 0}
 			to:     {initial: 1}
 		subject:  {flagship: 0}
@@ -171,7 +171,7 @@ conditions:
 	*	when:
 			type:   "distance"
 			op:     "lt"
-			value:  50000
+			value:  223.608
 			from:   {flagship: 0}
 			to:     {initial: 2}
 		subject:  {flagship: 0}
@@ -285,7 +285,7 @@ conditions:
 		when:
 			type:   "distance"
 			op:     "lt"
-			value:  50000
+			value:  223.608
 			from:   {initial: 3}
 			to:     {initial: 1}
 		subject:   {initial: 3}
@@ -301,7 +301,7 @@ conditions:
 		when:
 			type:   "distance"
 			op:     "lt"
-			value:  50000
+			value:  223.608
 			from:   {initial: 3}
 			to:     {initial: 2}
 		subject:   {initial: 3}
@@ -368,7 +368,7 @@ conditions:
 		when:
 			type:   "distance"
 			op:     "lt"
-			value:  50000
+			value:  223.608
 			from:   {initial: 3}
 			to:     {initial: 1}
 		subject:   {initial: 3}
@@ -390,7 +390,7 @@ conditions:
 		when:
 			type:   "distance"
 			op:     "lt"
-			value:  50000
+			value:  223.608
 			from:   {initial: 3}
 			to:     {initial: 2}
 		subject:   {initial: 3}
@@ -411,7 +411,7 @@ conditions:
 	*	when:
 			type:   "distance"
 			op:     "lt"
-			value:  50000
+			value:  223.608
 			from:   {flagship: 0}
 			to:     {initial: 5}
 		subject:  {flagship: 0}
@@ -456,7 +456,7 @@ conditions:
 	*	when:
 			type:   "distance"
 			op:     "lt"
-			value:  50000
+			value:  223.608
 			from:   {flagship: 0}
 			to:     {initial: 6}
 		subject:  {flagship: 0}
@@ -489,7 +489,7 @@ conditions:
 	*	when:
 			type:   "distance"
 			op:     "lt"
-			value:  50000
+			value:  223.608
 			from:   {flagship: 0}
 			to:     {initial: 15}
 		subject:  {flagship: 0}
@@ -523,7 +523,7 @@ conditions:
 	*	when:
 			type:   "distance"
 			op:     "lt"
-			value:  50000
+			value:  223.608
 			from:   {flagship: 0}
 			to:     {initial: 0}
 		subject:  {flagship: 0}
@@ -582,7 +582,7 @@ conditions:
 	*	when:
 			type:   "distance"
 			op:     "lt"
-			value:  100000
+			value:  316.229
 			from:   {flagship: 0}
 			to:     {initial: 18}
 		subject:  {flagship: 0}
