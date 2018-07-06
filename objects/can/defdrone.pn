@@ -1,9 +1,8 @@
-template:          "tpl/defdrone"
-notes:             "Defense Drone"
-portrait:          "can/defdrone"
-race:              "can"
-shield_color:      {r: 240, g: 240, b: 120}
-initial_velocity:  0.348
+template:      "tpl/defdrone"
+notes:         "Defense Drone"
+portrait:      "can/defdrone"
+race:          "can"
+shield_color:  {r: 240, g: 240, b: 120}
 weapons:
 	pulse:
 		base:  "dev/anti1/gun"

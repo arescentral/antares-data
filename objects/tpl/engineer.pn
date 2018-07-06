@@ -1,16 +1,15 @@
-template:          "tpl/utilship"
-long_name:         "Engineer Pod"
-short_name:        "ENGINEER"
-tags:              {engineer: true, normal: null}
-class:             850
-health:            800
-energy:            200
-price:             800
-build_time:        "11s"
-mass:              1.098
-max_velocity:      3.0
-max_thrust:        0.156
-initial_velocity:  3.0
+template:      "tpl/utilship"
+long_name:     "Engineer Pod"
+short_name:    "ENGINEER"
+tags:          {engineer: true, normal: null}
+class:         850
+health:        800
+energy:        200
+price:         800
+build_time:    "11s"
+mass:          1.098
+max_velocity:  3.0
+max_thrust:    0.156
 destroy:
 	action:
 		*	type:                "create"

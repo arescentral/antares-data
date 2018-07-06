@@ -1,12 +1,13 @@
-template:      "ish/hvc"
-long_name:     "Modified Cruiser"
-short_name:    "MODCRSR"
-notes:         "Modified Cruiser"
-class:         260
-max_velocity:  10.0
+template:          "ish/hvc"
+long_name:         "Modified Cruiser"
+short_name:        "MODCRSR"
+notes:             "Modified Cruiser"
+class:             260
+max_velocity:      10.0
+initial_velocity:  5.0
 weapons:
 	pulse:
 		base:  "dev/onas/gun"
 	beam:
 		base:  "dev/pk/sal/gun"
-portrait:      null
+portrait:          null

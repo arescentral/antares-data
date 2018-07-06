@@ -1,8 +1,9 @@
-template:      "tpl/bolt"
-long_name:     "LR PK Beam"
-short_name:    "LRPKMEAM"
-notes:         "LR PK Beam"
-max_velocity:  25.0
+template:          "tpl/bolt"
+long_name:         "LR PK Beam"
+short_name:        "LRPKMEAM"
+notes:             "LR PK Beam"
+max_velocity:      25.0
+initial_velocity:  15.0
 bolt:
 	color:  {r: 255, g: 127, b: 0}
 expire:

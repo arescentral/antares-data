@@ -3,7 +3,6 @@ long_name:          "Photoreactor Puls"
 short_name:         "PHTOPULS"
 notes:              "Photoreactor Pulse"
 max_velocity:       15.0
-initial_velocity:   15.0
 initial_direction:  {begin: -2, end: 2}
 animation:
 	sprite:     "dev/photo"

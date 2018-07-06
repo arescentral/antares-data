@@ -1,15 +1,14 @@
-template:          "tpl/ship"
-health:            5000
-energy:            5000
-price:             4500
-build_time:        "1m40s"
-mass:              2.0
-turn_rate:         1.0
-max_velocity:      3.0
-max_thrust:        0.008
-initial_velocity:  3.0
-warp_speed:        40.0
-rotation:          {scale: 2.0}
+template:      "tpl/ship"
+health:        5000
+energy:        5000
+price:         4500
+build_time:    "1m40s"
+mass:          2.0
+turn_rate:     1.0
+max_velocity:  3.0
+max_thrust:    0.008
+warp_speed:    40.0
+rotation:      {scale: 2.0}
 icon:
 	shape:  "diamond"
 	size:   8

@@ -1,14 +1,13 @@
-template:          "tpl/fighter"
-notes:             "Fighter"
-portrait:          "gai/fighter"
-race:              "gai"
-health:            50
-shield_color:      {r: 240, g: 234, b: 195}
-price:             500
-build_time:        "2.5s"
-mass:              0.5
-max_velocity:      5.0
-initial_velocity:  5.0
+template:      "tpl/fighter"
+notes:         "Fighter"
+portrait:      "gai/fighter"
+race:          "gai"
+health:        50
+shield_color:  {r: 240, g: 234, b: 195}
+price:         500
+build_time:    "2.5s"
+mass:          0.5
+max_velocity:  5.0
 weapons:
 	beam:
 		base:  "dev/kl/gun"

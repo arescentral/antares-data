@@ -3,7 +3,6 @@ long_name:          "Protopulse 2"
 short_name:         "PRTOPLS2"
 notes:              "Protopulse 2"
 max_velocity:       13.0
-initial_velocity:   13.0
 initial_direction:  {begin: -2, end: 2}
 animation:
 	sprite:     "dev/pp"

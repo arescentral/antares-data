@@ -1,9 +1,10 @@
-template:      "tpl/effect"
-long_name:     "Large Explosion"
-short_name:    "EXPLSN"
-notes:         "Large Explosion"
-health:        1000
-max_velocity:  20.0
+template:          "tpl/effect"
+long_name:         "Large Explosion"
+short_name:        "EXPLSN"
+notes:             "Large Explosion"
+health:            1000
+max_velocity:      20.0
+initial_velocity:  0.0
 animation:
 	sprite:     "sfx/explosion/energy"
 	scale:      2.0
@@ -33,4 +34,4 @@ create:
 			base:                "sfx/crew"
 			count:               {begin: 1, end: 3}
 			relative_direction:  true
-collide:       {damage: 100}
+collide:           {damage: 100}

@@ -3,7 +3,6 @@ long_name:          "Magneto Pulse"
 short_name:         "MGNOPULS"
 notes:              "Magneto Pulse"
 max_velocity:       10.0
-initial_velocity:   10.0
 initial_direction:  {begin: -2, end: 2}
 animation:
 	sprite:     "dev/magneto"

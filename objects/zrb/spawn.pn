@@ -1,15 +1,14 @@
-template:          "tpl/drone"
-long_name:         "Zerbilite Spawn"
-short_name:        "ZERBLITE"
-notes:             "Zerbilite Spawn"
-class:             100
-health:            70
-shield_color:      {r: 240, g: 240, b: 120}
-mass:              0.098
-turn_rate:         0.0
-max_velocity:      6.0
-max_thrust:        0.098
-initial_velocity:  6.0
+template:      "tpl/drone"
+long_name:     "Zerbilite Spawn"
+short_name:    "ZERBLITE"
+notes:         "Zerbilite Spawn"
+class:         100
+health:        70
+shield_color:  {r: 240, g: 240, b: 120}
+mass:          0.098
+turn_rate:     0.0
+max_velocity:  6.0
+max_thrust:    0.098
 animation:
 	sprite:     "zrb/base"
 	scale:      0.5
@@ -45,7 +44,7 @@ collide:
 			priority:     3
 			persistence:  "10t"
 			volume:       255
-arrive:            {distance: 0}
+arrive:        {distance: 0}
 ai:
 	target:
 		prefer:  {local: true}

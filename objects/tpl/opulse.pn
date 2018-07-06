@@ -1,9 +1,8 @@
-template:          "tpl/oriented"
-health:            1000
-mass:              0.5
-max_velocity:      7.0
-initial_velocity:  7.0
-rotation:          {layer: 3}
+template:      "tpl/oriented"
+health:        1000
+mass:          0.5
+max_velocity:  7.0
+rotation:      {layer: 3}
 icon:
 	shape:  "square"
 	size:   1

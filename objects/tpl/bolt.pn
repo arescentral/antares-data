@@ -1,7 +1,6 @@
-template:          "tpl/any"
-health:            1000
-max_velocity:      15.0
-initial_velocity:  15.0
+template:      "tpl/any"
+health:        1000
+max_velocity:  15.0
 bolt:
 	color:  {r: -1, g: -1, b: -1}
 expire:

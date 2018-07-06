@@ -1,25 +1,24 @@
-template:          "tpl/utilship"
-long_name:         "Research Vessel"
-short_name:        "RESEARCH"
-notes:             "Research Vessel"
-portrait:          "ish/etc/research"
-class:             802
-race:              "ish"
-health:            1000
-shield_color:      {r: 255, g: 255, b: 255}
-energy:            1000
-price:             800
-build_time:        "11s"
-mass:              1.098
-turn_rate:         0.5
-max_velocity:      3.0
-max_thrust:        0.156
-initial_velocity:  3.0
+template:      "tpl/utilship"
+long_name:     "Research Vessel"
+short_name:    "RESEARCH"
+notes:         "Research Vessel"
+portrait:      "ish/etc/research"
+class:         802
+race:          "ish"
+health:        1000
+shield_color:  {r: 255, g: 255, b: 255}
+energy:        1000
+price:         800
+build_time:    "11s"
+mass:          1.098
+turn_rate:     0.5
+max_velocity:  3.0
+max_thrust:    0.156
 rotation:
 	sprite:  "ish/etc/research"
 	scale:   2.0
 	frames:  {begin: 0, end: 24}
-icon:              {size: 7}
+icon:          {size: 7}
 destroy:
 	action:
 		*	type:                "create"

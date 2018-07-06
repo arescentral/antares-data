@@ -3,7 +3,6 @@ long_name:          "Protopulse"
 short_name:         "PROPULS"
 notes:              "Protopulse"
 max_velocity:       13.0
-initial_velocity:   13.0
 initial_direction:  {begin: -15, end: 15}
 autotarget:         true
 animation:

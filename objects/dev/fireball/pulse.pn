@@ -1,10 +1,9 @@
-template:          "tpl/apulse"
-long_name:         "Fireball"
-short_name:        "FIREBALL"
-notes:             "Fireball"
-mass:              0.098
-max_velocity:      12.0
-initial_velocity:  12.0
+template:      "tpl/apulse"
+long_name:     "Fireball"
+short_name:    "FIREBALL"
+notes:         "Fireball"
+mass:          0.098
+max_velocity:  12.0
 animation:
 	sprite:  "dev/fireball"
 expire:

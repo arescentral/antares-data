@@ -1,17 +1,16 @@
-template:          "tpl/warship"
-long_name:         "Defense Drone"
-short_name:        "DEFDRONE"
-class:             600
-health:            1500
-energy:            1000
-price:             1000
-build_time:        "5s"
-mass:              1.0
-turn_rate:         5.0
-max_velocity:      0.348
-max_thrust:        0.047
-initial_velocity:  0.098
-icon:              {size: 3}
+template:      "tpl/warship"
+long_name:     "Defense Drone"
+short_name:    "DEFDRONE"
+class:         600
+health:        1500
+energy:        1000
+price:         1000
+build_time:    "5s"
+mass:          1.0
+turn_rate:     5.0
+max_velocity:  0.348
+max_thrust:    0.047
+icon:          {size: 3}
 destroy:
 	action:
 		*	type:                "create"

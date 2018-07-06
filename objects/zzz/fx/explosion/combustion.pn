@@ -1,9 +1,10 @@
-template:      "tpl/effect"
-long_name:     "Combustion Explosion"
-short_name:    "EXPLSN"
-notes:         "Combustion Explosion"
-health:        1000
-max_velocity:  20.0
+template:          "tpl/effect"
+long_name:         "Combustion Explosion"
+short_name:        "EXPLSN"
+notes:             "Combustion Explosion"
+health:            1000
+max_velocity:      20.0
+initial_velocity:  0.0
 animation:
 	sprite:     "sfx/explosion/energy"
 	frames:     {begin: 0.0, end: 17.004}
@@ -36,4 +37,4 @@ create:
 			relative_direction:  true
 			distance:            32
 			within:              "square"
-collide:       {damage: 100}
+collide:           {damage: 100}

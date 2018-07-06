@@ -13,7 +13,6 @@ build_time:         "50s"
 mass:               2.5
 max_velocity:       4.0
 max_thrust:         0.02
-initial_velocity:   4.0
 warp_out_distance:  3120.0
 weapons:
 	pulse:

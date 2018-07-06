@@ -1,8 +1,9 @@
-template:      "tpl/defdrone"
-notes:         "Defense Drone"
-portrait:      "ish/defdrone"
-race:          "ish"
-shield_color:  {r: 255, g: 255, b: 255}
+template:          "tpl/defdrone"
+notes:             "Defense Drone"
+portrait:          "ish/defdrone"
+race:              "ish"
+shield_color:      {r: 255, g: 255, b: 255}
+initial_velocity:  0.098
 weapons:
 	pulse:
 		base:  "dev/fusion/rgun"

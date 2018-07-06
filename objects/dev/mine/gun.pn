@@ -1,8 +1,7 @@
-template:          "tpl/gun"
-long_name:         "Lightwave Cannon"
-short_name:        "L PULSE"
-notes:             "Lightwave Cannon"
-initial_velocity:  9.0
+template:    "tpl/gun"
+long_name:   "Lightwave Cannon"
+short_name:  "L PULSE"
+notes:       "Lightwave Cannon"
 device:
 	fire_time:      "8t"
 	range:          32400

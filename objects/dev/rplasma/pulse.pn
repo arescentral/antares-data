@@ -1,16 +1,17 @@
-template:      "tpl/apulse"
-long_name:     "R-Plasma"
-short_name:    "RPLASMA"
-notes:         "R-Plasma"
-max_velocity:  9.0
-max_thrust:    0.2
+template:          "tpl/apulse"
+long_name:         "R-Plasma"
+short_name:        "RPLASMA"
+notes:             "R-Plasma"
+max_velocity:      9.0
+max_thrust:        0.2
+initial_velocity:  7.0
 animation:
 	sprite:     "dev/rplasma"
 	frames:     {begin: 0.0, end: 8.004}
 	direction:  "+"
 	speed:      0.133
 	first:      {begin: 0.0, end: 8.0}
-target:        {radar: true}
+target:            {radar: true}
 expire:
 	after:
 		age:  "2s40t"

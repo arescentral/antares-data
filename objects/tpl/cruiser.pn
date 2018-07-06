@@ -9,7 +9,6 @@ build_time:         "5s"
 mass:               1.0
 max_velocity:       5.0
 max_thrust:         0.156
-initial_velocity:   5.0
 warp_speed:         40.0
 warp_out_distance:  3120.0
 icon:               {size: 4}

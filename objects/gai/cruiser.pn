@@ -1,14 +1,13 @@
-template:          "tpl/cruiser"
-notes:             "Cruiser"
-portrait:          "gai/cruiser"
-race:              "gai"
-health:            650
-shield_color:      {r: 240, g: 234, b: 195}
-price:             800
-mass:              0.9
-turn_rate:         1.5
-max_velocity:      3.5
-initial_velocity:  3.5
+template:      "tpl/cruiser"
+notes:         "Cruiser"
+portrait:      "gai/cruiser"
+race:          "gai"
+health:        650
+shield_color:  {r: 240, g: 234, b: 195}
+price:         800
+mass:          0.9
+turn_rate:     1.5
+max_velocity:  3.5
 weapons:
 	beam:
 		base:  "dev/conc/gun"

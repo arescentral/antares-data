@@ -1,8 +1,9 @@
-template:      "tpl/bolt"
-long_name:     "PK Beam"
-short_name:    "PK BEAM"
-notes:         "PK Beam"
-max_velocity:  10.0
+template:          "tpl/bolt"
+long_name:         "PK Beam"
+short_name:        "PK BEAM"
+notes:             "PK Beam"
+max_velocity:      10.0
+initial_velocity:  15.0
 bolt:
 	color:  {r: 0, g: 255, b: 0}
 create:

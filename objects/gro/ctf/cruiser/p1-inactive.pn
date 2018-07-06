@@ -1,10 +1,9 @@
-template:          "gro/ctf/cruiser/p1-active"
-notes:             "Cruiser, for CTF, Player 1, Inactive"
-tags:              {disabled: true, reactivator: true, normal: null, normal-attacker: null, energizable: null}
-class:             203
-max_velocity:      0.0
-initial_velocity:  0.0
-destroy:           {action: null}
+template:      "gro/ctf/cruiser/p1-active"
+notes:         "Cruiser, for CTF, Player 1, Inactive"
+tags:          {disabled: true, reactivator: true, normal: null, normal-attacker: null, energizable: null}
+class:         203
+max_velocity:  0.0
+destroy:       {action: null}
 collide:
 	as:  {object: false}
 ai:
@@ -12,5 +11,5 @@ ai:
 		engaged_if:  {reactivator: true}
 		evades:      false
 		evaded:      false
-shield_color:      null
-weapons:           null
+shield_color:  null
+weapons:       null

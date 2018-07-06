@@ -1,16 +1,15 @@
-template:          "tpl/gunship"
-notes:             "Gunship"
-portrait:          "gai/gunship"
-race:              "gai"
-health:            650
-shield_color:      {r: 240, g: 234, b: 195}
-energy:            1000
-price:             1500
-mass:              1.4
-turn_rate:         1.5
-max_velocity:      5.0
-max_thrust:        0.098
-initial_velocity:  5.0
+template:      "tpl/gunship"
+notes:         "Gunship"
+portrait:      "gai/gunship"
+race:          "gai"
+health:        650
+shield_color:  {r: 240, g: 234, b: 195}
+energy:        1000
+price:         1500
+mass:          1.4
+turn_rate:     1.5
+max_velocity:  5.0
+max_thrust:    0.098
 weapons:
 	pulse:
 		base:  "dev/atomic/turret"

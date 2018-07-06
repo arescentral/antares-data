@@ -1,9 +1,10 @@
-template:      "tpl/effect"
-long_name:     "Small Destruction Explosion"
-short_name:    "EXPLSN"
-notes:         "Small Destruction Explosion"
-health:        1000
-max_velocity:  20.0
+template:          "tpl/effect"
+long_name:         "Small Destruction Explosion"
+short_name:        "EXPLSN"
+notes:             "Small Destruction Explosion"
+health:            1000
+max_velocity:      20.0
+initial_velocity:  0.0
 animation:
 	sprite:     "sfx/explosion/energy"
 	scale:      0.5
@@ -23,4 +24,4 @@ create:
 			priority:     3
 			persistence:  "20t"
 			volume:       255
-collide:       {damage: 100}
+collide:           {damage: 100}

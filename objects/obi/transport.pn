@@ -1,20 +1,19 @@
-template:          "tpl/utilship"
-long_name:         "Transport"
-short_name:        "TRANSPRT"
-notes:             "Transport"
-tags:              {planet: true, normal: null}
-portrait:          "obi/transport"
-class:             800
-race:              "obi"
-health:            2000
-shield_color:      {r: 255, g: 255, b: 255}
-energy:            1000
-price:             800
-build_time:        "11s"
-mass:              1.098
-max_velocity:      3.0
-max_thrust:        0.156
-initial_velocity:  3.0
+template:      "tpl/utilship"
+long_name:     "Transport"
+short_name:    "TRANSPRT"
+notes:         "Transport"
+tags:          {planet: true, normal: null}
+portrait:      "obi/transport"
+class:         800
+race:          "obi"
+health:        2000
+shield_color:  {r: 255, g: 255, b: 255}
+energy:        1000
+price:         800
+build_time:    "11s"
+mass:          1.098
+max_velocity:  3.0
+max_thrust:    0.156
 weapons:
 	beam:
 		base:  "dev/repulser/turret"
@@ -23,8 +22,8 @@ weapons:
 rotation:
 	sprite:  "obi/transport"
 	frames:  {begin: 0, end: 24}
-icon:              {size: 5}
-target:            {hide: true}
+icon:          {size: 5}
+target:        {hide: true}
 destroy:
 	action:
 		*	type:                "create"

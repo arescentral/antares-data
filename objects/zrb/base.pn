@@ -1,15 +1,14 @@
-template:          "tpl/drone"
-long_name:         "Zerbilite"
-short_name:        "ZRBILITE"
-notes:             "Zerbilite"
-class:             1
-health:            70
-shield_color:      {r: 240, g: 240, b: 120}
-mass:              0.098
-turn_rate:         0.0
-max_velocity:      6.0
-max_thrust:        0.098
-initial_velocity:  6.0
+template:      "tpl/drone"
+long_name:     "Zerbilite"
+short_name:    "ZRBILITE"
+notes:         "Zerbilite"
+class:         1
+health:        70
+shield_color:  {r: 240, g: 240, b: 120}
+mass:          0.098
+turn_rate:     0.0
+max_velocity:  6.0
+max_thrust:    0.098
 animation:
 	sprite:     "zrb/base"
 	frames:     {begin: 0.0, end: 4.004}
@@ -57,7 +56,7 @@ collide:
 			count:      {begin: -1, end: 3}
 			distance:   2
 			within:     "square"
-arrive:            {distance: 0}
+arrive:        {distance: 0}
 ai:
 	target:
 		prefer:  {local: true}

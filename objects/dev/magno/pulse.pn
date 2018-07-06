@@ -1,17 +1,18 @@
-template:      "tpl/apulse"
-long_name:     "Magno Pulse"
-short_name:    "MGNOPULS"
-notes:         "Magno Pulse"
-max_velocity:  9.0
-max_thrust:    0.2
-autotarget:    true
+template:          "tpl/apulse"
+long_name:         "Magno Pulse"
+short_name:        "MGNOPULS"
+notes:             "Magno Pulse"
+max_velocity:      9.0
+max_thrust:        0.2
+initial_velocity:  7.0
+autotarget:        true
 animation:
 	sprite:     "dev/magno"
 	frames:     {begin: 0.0, end: 5.004}
 	direction:  "+"
 	speed:      0.133
 	first:      {begin: 0.0, end: 5.0}
-target:        {radar: true}
+target:            {radar: true}
 destroy:
 	action:
 		*	type:                "create"

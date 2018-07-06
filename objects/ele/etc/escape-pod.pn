@@ -13,7 +13,6 @@ price:              800
 build_time:         "11s"
 mass:               0.098
 max_velocity:       1.5
-initial_velocity:   1.5
 initial_direction:  {begin: 0, end: 360}
 animation:
 	sprite:     "ele/etc/escape-pod"

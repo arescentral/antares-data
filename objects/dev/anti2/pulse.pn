@@ -1,9 +1,8 @@
-template:          "tpl/apulse"
-long_name:         "Antimatter Pulse Type II"
-short_name:        "APULSE 2"
-notes:             "Antimatter Pulse Type II"
-max_velocity:      3.0
-initial_velocity:  3.0
+template:      "tpl/apulse"
+long_name:     "Antimatter Pulse Type II"
+short_name:    "APULSE 2"
+notes:         "Antimatter Pulse Type II"
+max_velocity:  3.0
 animation:
 	sprite:     "dev/anti"
 	scale:      2.0
