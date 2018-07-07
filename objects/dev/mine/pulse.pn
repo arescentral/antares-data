@@ -4,7 +4,7 @@ short_name:         "L PULSE"
 notes:              "Lightwave Pulse"
 mass:               0.02
 max_velocity:       13.0
-max_thrust:         0.098
+thrust:             0.098
 initial_velocity:   9.0
 initial_direction:  {begin: -3, end: 3}
 animation:

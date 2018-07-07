@@ -8,7 +8,7 @@ shield_color:  {r: 240, g: 240, b: 120}
 mass:          0.098
 turn_rate:     0.0
 max_velocity:  6.0
-max_thrust:    0.098
+thrust:        0.098
 animation:
 	sprite:     "zrb/base"
 	scale:      0.5

@@ -3,7 +3,7 @@ long_name:         "Lepton Beam"
 short_name:        "L BEAM"
 notes:             "Lepton Beam"
 max_velocity:      20.0
-max_thrust:        0.65
+thrust:            0.65
 initial_velocity:  5.0
 bolt:
 	color:  {r: 255, g: 255, b: 127}

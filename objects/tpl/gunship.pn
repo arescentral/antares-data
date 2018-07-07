@@ -9,7 +9,7 @@ build_time:         "10s"
 mass:               1.2
 turn_rate:          1.2
 max_velocity:       4.0
-max_thrust:         0.04
+thrust:             0.04
 warp_speed:         40.0
 warp_out_distance:  3120.0
 icon:               {size: 5}

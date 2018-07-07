@@ -6,7 +6,7 @@ health:             1
 mass:               0.5
 turn_rate:          2.0
 max_velocity:       3.0
-max_thrust:         0.02
+thrust:             0.02
 initial_velocity:   {begin: 0.5, end: 2.0}
 initial_direction:  {begin: 0, end: 360}
 weapons:

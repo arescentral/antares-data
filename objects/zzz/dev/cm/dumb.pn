@@ -5,7 +5,7 @@ notes:             "Can't target or turn?"
 health:            25
 turn_rate:         0.008
 max_velocity:      9.0
-max_thrust:        0.2
+thrust:            0.2
 initial_velocity:  0.5
 rotation:
 	sprite:  "dev/cm"

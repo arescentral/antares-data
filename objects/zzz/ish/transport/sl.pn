@@ -11,7 +11,7 @@ price:         800
 build_time:    "7.5s"
 mass:          1.2
 max_velocity:  3.0
-max_thrust:    0.156
+thrust:        0.156
 rotation:
 	sprite:  "ish/transport"
 	frames:  {begin: 0, end: 24}

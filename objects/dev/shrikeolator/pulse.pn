@@ -3,7 +3,7 @@ long_name:         "Temp Pulse"
 short_name:        "TEMPPLSE"
 notes:             "Temp Pulse"
 max_velocity:      9.0
-max_thrust:        0.2
+thrust:            0.2
 initial_velocity:  7.0
 autotarget:        true
 animation:

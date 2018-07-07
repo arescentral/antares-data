@@ -3,7 +3,7 @@ long_name:          "Inasa Pulse"
 short_name:         "INASPULS"
 notes:              "Inasa Pulse"
 max_velocity:       20.0
-max_thrust:         1.0
+thrust:             1.0
 initial_velocity:   4.0
 initial_direction:  {begin: -2, end: 2}
 animation:

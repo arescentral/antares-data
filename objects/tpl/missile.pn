@@ -2,7 +2,7 @@ template:          "tpl/opulse"
 health:            25
 turn_rate:         1.0
 max_velocity:      9.0
-max_thrust:        0.2
+thrust:            0.2
 initial_velocity:  0.5
 target:            {radar: true}
 destroy:

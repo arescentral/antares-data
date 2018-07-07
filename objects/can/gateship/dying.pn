@@ -2,7 +2,7 @@ template:      "can/gateship/base"
 notes:         "Blowing up & Dying Left & Right"
 tags:          {energizable: null}
 health:        1
-max_thrust:    0.0
+thrust:        0.0
 target:        {order: false, select: false}
 destroy:       {action: null}
 expire:

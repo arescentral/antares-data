@@ -9,7 +9,7 @@ build_time:         "16s40t"
 mass:               1.0
 turn_rate:          3.0
 max_velocity:       7.0
-max_thrust:         0.297
+thrust:             0.297
 initial_velocity:   5.0
 warp_speed:         40.0
 warp_out_distance:  3120.0

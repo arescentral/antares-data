@@ -11,7 +11,7 @@ price:         1000
 build_time:    "5s"
 mass:          1.0
 max_velocity:  3.0
-max_thrust:    0.06
+thrust:        0.06
 rotation:
 	sprite:  "gro/ctf/flag"
 	frames:  {begin: 0, end: 24}

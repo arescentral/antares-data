@@ -11,7 +11,7 @@ occupy_count:       0
 mass:               0.0
 turn_rate:          0.0
 max_velocity:       0.0
-max_thrust:         0.0
+thrust:             0.0
 initial_direction:  0
 autotarget:         false
 warp_speed:         0.0

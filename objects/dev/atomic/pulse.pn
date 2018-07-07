@@ -4,7 +4,7 @@ short_name:        "ATOMPLSE"
 notes:             "Atomic Pulse"
 health:            5
 mass:              4.0
-max_thrust:        0.098
+thrust:            0.098
 initial_velocity:  2.0
 autotarget:        true
 animation:

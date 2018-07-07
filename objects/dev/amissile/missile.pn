@@ -4,7 +4,7 @@ short_name:    "MISSILE"
 notes:         "Missile"
 health:        1000
 max_velocity:  15.0
-max_thrust:    0.348
+thrust:        0.348
 weapons:
 	beam:
 		base:  "dev/newo/gun"

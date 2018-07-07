@@ -1,10 +1,10 @@
-template:    "can/gateship/base"
-notes:       "Going through Jump Gate"
-health:      80000
-max_thrust:  0.0
-weapons:     {pulse: null, special: null}
-target:      {lock: true}
-destroy:     {action: null}
-collide:     {solid: false}
+template:  "can/gateship/base"
+notes:     "Going through Jump Gate"
+health:    80000
+thrust:    0.0
+weapons:   {pulse: null, special: null}
+target:    {lock: true}
+destroy:   {action: null}
+collide:   {solid: false}
 ai:
 	combat:  {hated: false, engages: false, engaged: false, evades: false, evaded: false}

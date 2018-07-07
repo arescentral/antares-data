@@ -6,7 +6,7 @@ build_time:    "1m40s"
 mass:          2.0
 turn_rate:     1.0
 max_velocity:  3.0
-max_thrust:    0.008
+thrust:        0.008
 warp_speed:    40.0
 rotation:      {scale: 2.0}
 icon:

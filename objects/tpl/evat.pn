@@ -8,7 +8,7 @@ energy:             50
 mass:               0.008
 turn_rate:          6.0
 max_velocity:       0.5
-max_thrust:         0.02
+thrust:             0.02
 initial_direction:  {begin: 0, end: 360}
 rotation:           {scale: 0.5}
 icon:

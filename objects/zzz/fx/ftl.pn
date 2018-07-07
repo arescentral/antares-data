@@ -6,7 +6,7 @@ health:             100
 price:              1000
 mass:               0.0
 max_velocity:       6.0
-max_thrust:         2.0
+thrust:             2.0
 initial_velocity:   {begin: 6.0, end: 12.0}
 initial_direction:  {begin: 0, end: 360}
 animation:

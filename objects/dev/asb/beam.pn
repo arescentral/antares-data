@@ -3,7 +3,7 @@ long_name:         "ASB Beam"
 short_name:        "ASB BEAM"
 notes:             "ASB Beam"
 max_velocity:      20.0
-max_thrust:        0.45
+thrust:            0.45
 initial_velocity:  2.0
 bolt:
 	color:  {r: 0, g: 127, b: 255}

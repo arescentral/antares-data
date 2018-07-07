@@ -14,7 +14,7 @@ build_time:         "6s"
 mass:               1.2
 turn_rate:          0.797
 max_velocity:       4.0
-max_thrust:         0.15
+thrust:             0.15
 warp_speed:         40.0
 warp_out_distance:  3120.0
 weapons:

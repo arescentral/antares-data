@@ -5,7 +5,7 @@ tags:               {energizable: null}
 build_time:         "0s"
 turn_rate:          0.0
 max_velocity:       0.0
-max_thrust:         0.0
+thrust:             0.0
 warp_speed:         0.0
 warp_out_distance:  0
 icon:               {size: 9}

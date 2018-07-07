@@ -9,7 +9,7 @@ build_time:         "3s"
 mass:               0.797
 turn_rate:          2.0
 max_velocity:       3.0
-max_thrust:         0.297
+thrust:             0.297
 initial_direction:  {begin: 0, end: 360}
 target:             {radar: true, order: true, select: true}
 destroy:            {release_energy: true}

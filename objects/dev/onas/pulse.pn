@@ -3,7 +3,7 @@ long_name:          "Onas Pulse"
 short_name:         "ONASPULS"
 notes:              "Onas Pulse"
 max_velocity:       20.0
-max_thrust:         1.0
+thrust:             1.0
 initial_velocity:   0.5
 initial_direction:  {begin: -2, end: 2}
 animation:

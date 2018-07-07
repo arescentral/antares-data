@@ -12,7 +12,7 @@ price:             2200
 mass:              1.2
 turn_rate:         0.4
 max_velocity:      2.0
-max_thrust:        0.18
+thrust:            0.18
 initial_velocity:  0.5
 rotation:
 	sprite:  "ish/etc/astrominer"

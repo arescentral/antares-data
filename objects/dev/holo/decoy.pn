@@ -7,7 +7,7 @@ energy:             1000
 build_time:         "5s"
 mass:               1.0
 max_velocity:       7.5
-max_thrust:         0.156
+thrust:             0.156
 initial_velocity:   5.0
 initial_direction:  {begin: 0, end: 360}
 warp_speed:         50.0

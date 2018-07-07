@@ -9,7 +9,7 @@ energy:             600
 price:              600
 build_time:         "3s"
 mass:               0.797
-max_thrust:         0.25
+thrust:             0.25
 initial_direction:  {begin: 0, end: 360}
 animation:
 	sprite:     "ish/etc/trgtdrne"

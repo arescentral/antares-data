@@ -8,7 +8,7 @@ price:              6500
 build_time:         "32.5s"
 mass:               1.45
 max_velocity:       4.5
-max_thrust:         0.08
+thrust:             0.08
 initial_velocity:   1.5
 warp_speed:         40.0
 warp_out_distance:  4743.75

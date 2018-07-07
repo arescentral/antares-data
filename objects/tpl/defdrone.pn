@@ -9,7 +9,7 @@ build_time:    "5s"
 mass:          1.0
 turn_rate:     5.0
 max_velocity:  0.348
-max_thrust:    0.047
+thrust:        0.047
 icon:          {size: 3}
 destroy:
 	action:

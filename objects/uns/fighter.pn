@@ -3,7 +3,7 @@ notes:         "Fighter"
 portrait:      "uns/fighter"
 race:          "uns"
 shield_color:  {r: 255, g: 255, b: 255}
-max_thrust:    0.04
+thrust:        0.04
 weapons:
 	beam:
 		base:  "dev/laser/gun"

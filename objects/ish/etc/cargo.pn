@@ -12,7 +12,7 @@ price:             800
 build_time:        "11s"
 mass:              1.098
 max_velocity:      3.0
-max_thrust:        0.156
+thrust:            0.156
 initial_velocity:  0.0
 rotation:
 	sprite:  "ish/etc/cargo"

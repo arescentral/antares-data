@@ -8,7 +8,7 @@ shield_color:       {r: 120, g: 120, b: 240}
 energy:             6500
 mass:               2.5
 max_velocity:       4.0
-max_thrust:         0.02
+thrust:             0.02
 warp_speed:         50.0
 warp_out_distance:  7280.2734
 weapons:
