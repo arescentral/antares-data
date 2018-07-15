@@ -8,7 +8,7 @@ animation:
 icon:          {size: 6}
 target:        {base: true}
 destroy:
-	dont_die:  true
+	die:  false
 	action:
 		*	type:       "create"
 			reflexive:  true

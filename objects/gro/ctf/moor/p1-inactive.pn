@@ -19,9 +19,9 @@ icon:
 	shape:  "plus"
 	size:   3
 target:      {radar: true}
-destroy:     {dont_die: true}
+destroy:     {die: false}
 expire:
-	dont_die:  true
+	die:  false
 	after:
 		age:  "30s"
 	action:

@@ -13,7 +13,7 @@ icon:
 	shape:  "square"
 	size:   6
 target:      {base: true, radar: true}
-destroy:     {dont_die: true}
+destroy:     {die: false}
 ai:
 	escort:  {class: -256}
 	build:   {legacy_non_builder: true}

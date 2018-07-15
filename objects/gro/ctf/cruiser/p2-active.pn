@@ -21,7 +21,7 @@ rotation:
 	sprite:  "gro/ctf/cruiser"
 	frames:  {begin: 0, end: 24}
 destroy:
-	dont_die:  true
+	die:  false
 	action:
 		*	type:         "play"
 			reflexive:    true

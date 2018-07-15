@@ -13,7 +13,7 @@ icon:
 	shape:  "plus"
 	size:   3
 destroy:
-	dont_die:  true
+	die:  false
 	action:
 		*	type:       "heal"
 			reflexive:  true

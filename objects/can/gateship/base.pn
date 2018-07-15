@@ -30,7 +30,7 @@ rotation:
 	frames:  {begin: 0, end: 24}
 icon:               {size: 10}
 destroy:
-	dont_die:  true
+	die:  false
 	action:
 		*	type:       "order"
 			reflexive:  true

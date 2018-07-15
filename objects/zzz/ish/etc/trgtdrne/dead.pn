@@ -21,7 +21,7 @@ icon:
 	shape:  "triangle"
 	size:   3
 target:             {radar: true}
-destroy:            {dont_die: true}
+destroy:            {die: false}
 ai:
 	target:
 		prefer:  {local: true}
