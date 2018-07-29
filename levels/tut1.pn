@@ -699,11 +699,11 @@ conditions:
 						>	the top of the screen.
 			*	type:  "check"
 starmap:  {left: 314, top: 275, right: 346, bottom: 299}
+angle:    8
 par:
 	time:    "2m"
 	kills:   9
 	losses:  0
-angle:    8
 skip:     "ch01"
 prologue:
 	>	#+Blog/starfield/a

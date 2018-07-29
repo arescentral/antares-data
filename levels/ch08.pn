@@ -127,11 +127,11 @@ briefings:
 			>	your astrominers don't collide with one of the green unstable asteroids.
 			>	A collision with one of those giants is fatal.
 starmap:     {left: 270, top: 199, right: 302, bottom: 223}
+start_time:  "4m"
 par:
 	time:    "4m30s"
 	kills:   6
 	losses:  1
-start_time:  "4m"
 no_ships:
 	>	You lost all of your ships. Without more data, we cannot determine the
 	>	level of threat presented by the Boodan Mechanism.
