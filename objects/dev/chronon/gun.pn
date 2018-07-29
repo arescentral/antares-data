@@ -13,7 +13,7 @@ activate:
 		*	type:         "play"
 			reflexive:    true
 			sound:        "dev/chronon"
-			priority:     101
+			priority:     5
 			persistence:  "10t"
 			volume:       255
 		*	type:                "create"
