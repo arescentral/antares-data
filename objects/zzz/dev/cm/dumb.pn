@@ -37,7 +37,7 @@ create:
 			persistence:  "0.5s"
 			volume:       255
 collide:
-	as:      {object: true}
+	as:      {direct: true}
 	damage:  200
 	edge:    true
 	action:

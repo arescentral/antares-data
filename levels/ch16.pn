@@ -195,11 +195,11 @@ conditions:
 			*	type:  "order"
 				override:
 					subject:  {initial: 3}
-					object:   {initial: 0}
+					direct:   {initial: 0}
 			*	type:  "order"
 				override:
 					subject:  {initial: 4}
-					object:   {initial: 0}
+					direct:   {initial: 0}
 	*	when:
 			type:   "destroyed"
 			op:     "eq"

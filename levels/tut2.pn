@@ -639,7 +639,7 @@ conditions:
 			a:     {initial: 7}
 			b:     {target: 0}
 		subject:   {initial: 7}
-		object:    {initial: 1}
+		direct:    {initial: 1}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -829,7 +829,7 @@ conditions:
 				reflexive:  true
 				override:
 					subject:  {initial: 1}
-					object:   {initial: 5}
+					direct:   {initial: 5}
 				value:      "object"
 			*	type:    "condition"
 				enable:  [34]
@@ -858,7 +858,7 @@ conditions:
 			*	type:  "order"
 				override:
 					subject:  {initial: 1}
-					object:   {initial: 5}
+					direct:   {initial: 5}
 			*	type:    "condition"
 				enable:  [34]
 			*	type:  "check"
@@ -870,7 +870,7 @@ conditions:
 			from:   {initial: 1}
 			to:     {initial: 5}
 		subject:   {initial: 1}
-		object:    {initial: 5}
+		direct:    {initial: 5}
 		action:
 			*	type:  "message"
 				id:    5842
@@ -914,12 +914,12 @@ conditions:
 			from:   {flagship: 0}
 			to:     {initial: 6}
 		subject:   {flagship: 0}
-		object:    {initial: 6}
+		direct:    {initial: 6}
 		action:
 			*	type:    "win"
 				override:
 					subject:  {initial: 0}
-					object:   {initial: 0}
+					direct:   {initial: 0}
 				player:  0
 				next:    "ch02"
 				text:

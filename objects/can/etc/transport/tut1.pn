@@ -4,7 +4,7 @@ tags:          {energizable: null}
 class:         832
 expire:        {action: null}
 collide:
-	as:     {subject: false, object: false}
+	as:     {subject: false, direct: false}
 	solid:  false
 arrive:        {action: null}
 ai:

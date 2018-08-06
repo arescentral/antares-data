@@ -23,7 +23,7 @@ expire:
 			reflexive:  true
 			enable:     [1]
 collide:
-	as:  {subject: false, object: false}
+	as:  {subject: false, direct: false}
 activate:
 	period:
 		begin:  "16t"

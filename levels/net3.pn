@@ -97,7 +97,7 @@ conditions:
 			from:   {initial: 4}
 			to:     {initial: 1}
 		subject:  {initial: 4}
-		object:   {initial: 1}
+		direct:   {initial: 1}
 		action:
 			*	type:       "win"
 				reflexive:  true
@@ -111,7 +111,7 @@ conditions:
 			from:   {initial: 5}
 			to:     {initial: 0}
 		subject:  {initial: 5}
-		object:   {initial: 0}
+		direct:   {initial: 0}
 		action:
 			*	type:       "win"
 				reflexive:  true

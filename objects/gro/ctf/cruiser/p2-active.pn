@@ -32,8 +32,8 @@ destroy:
 		*	type:       "move"
 			reflexive:  true
 			override:
-				object:  {initial: 2}
-			origin:     "object"
+				direct:  {initial: 2}
+			origin:     "direct"
 			distance:   600
 			within:     "square"
 		*	type:       "heal"

@@ -22,7 +22,7 @@ expire:
 	die:    true
 	after:  {animation: false}
 collide:
-	as:      {subject: false, object: false}
+	as:      {subject: false, direct: false}
 	damage:  0
 	solid:   false
 	edge:    false

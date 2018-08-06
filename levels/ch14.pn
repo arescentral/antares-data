@@ -123,7 +123,7 @@ conditions:
 			counter:  0
 			value:    3
 		subject:  {initial: 1}
-		object:   {initial: 1}
+		direct:   {initial: 1}
 		action:
 			*	type:       "morph"
 				reflexive:  true
@@ -134,7 +134,7 @@ conditions:
 			what:    {initial: 6}
 			player:  0
 		subject:  {initial: 6}
-		object:   {initial: 7}
+		direct:   {initial: 7}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -147,7 +147,7 @@ conditions:
 			what:    {initial: 6}
 			player:  1
 		subject:  {initial: 6}
-		object:   {initial: 7}
+		direct:   {initial: 7}
 		action:
 			*	type:       "condition"
 				reflexive:  true

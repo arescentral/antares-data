@@ -14,7 +14,7 @@ initial_direction:  {begin: 0, end: 360}
 target:             {radar: true, order: true, select: true}
 destroy:            {release_energy: true}
 collide:
-	as:     {subject: true, object: true}
+	as:     {subject: true, direct: true}
 	solid:  true
 	edge:   true
 ai:

@@ -109,7 +109,7 @@ conditions:
 			*	type:  "order"
 				override:
 					subject:  {initial: 17}
-					object:   {initial: 6}
+					direct:   {initial: 6}
 	*	when:
 			type:     "counter"
 			op:       "eq"

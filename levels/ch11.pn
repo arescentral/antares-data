@@ -113,7 +113,7 @@ conditions:
 			from:   {initial: 1}
 			to:     {initial: 0}
 		subject:     {initial: 1}
-		object:      {initial: 0}
+		direct:      {initial: 0}
 		action:
 			*	type:    "condition"
 				enable:  [7]
@@ -154,7 +154,7 @@ conditions:
 			from:   {initial: 1}
 			to:     {initial: 0}
 		subject:     {initial: 1}
-		object:      {initial: 0}
+		direct:      {initial: 0}
 		action:
 			*	type:       "condition"
 				reflexive:  true

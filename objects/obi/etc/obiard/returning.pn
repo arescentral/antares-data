@@ -26,7 +26,7 @@ create:
 			duration:  "0.05s"
 		*	type:  "order"
 			override:
-				object:  {initial: 0}
+				direct:  {initial: 0}
 collide:            {edge: true}
 arrive:
 	distance:  70.714

@@ -18,7 +18,7 @@ expire:
 	after:
 		age:  "2s40t"
 collide:
-	as:      {object: true}
+	as:      {direct: true}
 	damage:  200
 	edge:    true
 	action:

@@ -4,7 +4,7 @@ icon:
 	size:   1
 target:    {radar: true}
 collide:
-	as:     {subject: true, object: true}
+	as:     {subject: true, direct: true}
 	solid:  true
 	edge:   true
 ai:

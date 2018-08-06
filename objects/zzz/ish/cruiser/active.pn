@@ -12,7 +12,7 @@ destroy:
 			reflexive:    true
 			override:
 				subject:  {initial: 0}
-				object:   {initial: 0}
+				direct:   {initial: 0}
 			sound:        "dev/reactivator"
 			priority:     4
 			persistence:  "10t"

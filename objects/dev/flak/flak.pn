@@ -19,7 +19,7 @@ expire:
 			begin:  "10t"
 			end:    "20t"
 collide:
-	as:      {object: true}
+	as:      {direct: true}
 	damage:  50
 	action:
 		*	type:                "create"

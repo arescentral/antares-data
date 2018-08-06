@@ -39,7 +39,7 @@ destroy:
 			base:                "sfx/explosion/large"
 			relative_direction:  true
 collide:
-	as:    {subject: true, object: true}
+	as:    {subject: true, direct: true}
 	edge:  true
 ai:
 	combat:

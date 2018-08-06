@@ -86,7 +86,7 @@ conditions:
 			from:   {initial: 2}
 			to:     {initial: 3}
 		subject:  {initial: 2}
-		object:   {initial: 3}
+		direct:   {initial: 3}
 		action:
 			*	type:      "delay"
 				duration:  "2s"

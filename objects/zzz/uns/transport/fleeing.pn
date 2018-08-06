@@ -13,7 +13,7 @@ destroy:
 			reflexive:  true
 			override:
 				subject:  {initial: 0}
-				object:   {initial: 0}
+				direct:   {initial: 0}
 			base:       "sfx/explosion/large"
 		*	type:       "win"
 			reflexive:  true

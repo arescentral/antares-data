@@ -232,7 +232,7 @@ conditions:
 			*	type:  "order"
 				override:
 					subject:  {initial: 5}
-					object:   {initial: 0}
+					direct:   {initial: 0}
 			*	type:    "condition"
 				enable:  [7]
 			*	type:   "zoom"
@@ -245,12 +245,12 @@ conditions:
 			from:   {initial: 0}
 			to:     {initial: 5}
 		subject:   {initial: 0}
-		object:    {initial: 5}
+		direct:    {initial: 5}
 		action:
 			*	type:  "order"
 				override:
 					subject:  {initial: 5}
-					object:   {initial: 4}
+					direct:   {initial: 4}
 			*	type:      "delay"
 				duration:  "2s"
 			*	type:    "condition"
@@ -263,12 +263,12 @@ conditions:
 			from:   {initial: 4}
 			to:     {initial: 5}
 		subject:   {initial: 4}
-		object:    {initial: 5}
+		direct:    {initial: 5}
 		action:
 			*	type:  "order"
 				override:
 					subject:  {initial: 5}
-					object:   {initial: 0}
+					direct:   {initial: 0}
 			*	type:      "delay"
 				duration:  "2s"
 			*	type:    "condition"

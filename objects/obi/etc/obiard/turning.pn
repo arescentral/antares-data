@@ -32,7 +32,7 @@ create:
 			reflexive:  true
 			player:     -1
 collide:
-	as:    {subject: true, object: true}
+	as:    {subject: true, direct: true}
 	edge:  true
 	action:
 		*	type:    "score"

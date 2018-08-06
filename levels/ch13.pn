@@ -132,7 +132,7 @@ conditions:
 			from:   {initial: 0}
 			to:     {initial: 10}
 		subject:  {initial: 0}
-		object:   {initial: 10}
+		direct:   {initial: 10}
 		action:
 			*	type:       "morph"
 				reflexive:  true
@@ -151,7 +151,7 @@ conditions:
 			*	type:  "order"
 				override:
 					subject:  {initial: 0}
-					object:   {initial: 10}
+					direct:   {initial: 10}
 			*	type:       "message"
 				reflexive:  true
 				pages:
@@ -162,7 +162,7 @@ conditions:
 			*	type:  "order"
 				override:
 					subject:  {initial: 10}
-					object:   {initial: 7}
+					direct:   {initial: 7}
 	*	disabled:  true
 		when:
 			type:   "distance"
@@ -171,19 +171,19 @@ conditions:
 			from:   {initial: 10}
 			to:     {initial: 7}
 		subject:   {initial: 10}
-		object:    {initial: 7}
+		direct:    {initial: 7}
 		action:
 			*	type:  "order"
 				override:
 					subject:  {initial: 0}
-					object:   {initial: 7}
+					direct:   {initial: 7}
 			*	type:      "delay"
 				duration:  "1s"
 			*	type:       "land"
 				reflexive:  true
 				override:
 					subject:  {initial: 0}
-					object:   {initial: 7}
+					direct:   {initial: 7}
 				speed:      128
 			*	type:      "delay"
 				duration:  "10t"

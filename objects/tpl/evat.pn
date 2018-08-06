@@ -30,7 +30,7 @@ expire:
 	after:
 		age:  "1m6s40t"
 collide:
-	as:     {subject: true, object: true}
+	as:     {subject: true, direct: true}
 	solid:  true
 	edge:   true
 arrive:

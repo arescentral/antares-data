@@ -297,7 +297,7 @@ conditions:
 			*	type:    "pay"
 				override:
 					subject:  {initial: 0}
-					object:   {initial: 0}
+					direct:   {initial: 0}
 				value:   -23437.5
 				player:  0
 			*	type:    "select"
@@ -564,7 +564,7 @@ conditions:
 			from:   {initial: 1}
 			to:     {initial: 2}
 		subject:   {initial: 1}
-		object:    {initial: 2}
+		direct:    {initial: 2}
 		action:
 			*	type:  "message"
 				id:    5960
@@ -618,7 +618,7 @@ conditions:
 			what:    {initial: 6}
 			target:  {initial: 1}
 		subject:   {initial: 6}
-		object:    {initial: 1}
+		direct:    {initial: 1}
 		action:
 			*	type:  "message"
 				id:    5970
@@ -753,7 +753,7 @@ conditions:
 			what:    {initial: 6}
 			target:  {initial: 4}
 		subject:   {initial: 6}
-		object:    {initial: 4}
+		direct:    {initial: 4}
 		action:
 			*	type:  "message"
 				id:    5990
@@ -776,7 +776,7 @@ conditions:
 			what:    {initial: 5}
 			target:  {initial: 4}
 		subject:   {initial: 5}
-		object:    {initial: 4}
+		direct:    {initial: 4}
 		action:
 			*	type:  "message"
 				id:    5995
@@ -794,7 +794,7 @@ conditions:
 			what:    {initial: 2}
 			target:  {initial: 4}
 		subject:   {initial: 2}
-		object:    {initial: 4}
+		direct:    {initial: 4}
 		action:
 			*	type:  "message"
 				id:    7000
@@ -861,7 +861,7 @@ conditions:
 			what:    {initial: 2}
 			target:  {initial: 0}
 		subject:   {initial: 2}
-		object:    {initial: 0}
+		direct:    {initial: 0}
 		action:
 			*	type:    "condition"
 				enable:  [33]
@@ -872,7 +872,7 @@ conditions:
 			what:    {initial: 5}
 			target:  {initial: 0}
 		subject:   {initial: 5}
-		object:    {initial: 0}
+		direct:    {initial: 0}
 		action:
 			*	type:    "condition"
 				enable:  [34]
@@ -883,7 +883,7 @@ conditions:
 			what:    {initial: 6}
 			target:  {initial: 0}
 		subject:   {initial: 6}
-		object:    {initial: 0}
+		direct:    {initial: 0}
 		action:
 			*	type:  "message"
 				id:    7010

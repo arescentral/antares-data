@@ -29,12 +29,12 @@ create:
 					>	simply return to the planet.
 		*	type:  "order"
 			override:
-				object:  {initial: 5}
+				direct:  {initial: 5}
 		*	type:      "delay"
 			duration:  "2s"
 		*	type:   "land"
 			override:
-				object:  {initial: 5}
+				direct:  {initial: 5}
 			speed:  128
 		*	type:      "delay"
 			duration:  "40s"

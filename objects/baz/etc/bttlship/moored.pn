@@ -12,7 +12,7 @@ icon:               {size: 9}
 target:             {order: false, select: false}
 destroy:            {release_energy: false}
 collide:
-	as:  {subject: false, object: false}
+	as:  {subject: false, direct: false}
 ai:
 	combat:
 		hated:    false

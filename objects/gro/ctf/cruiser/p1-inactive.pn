@@ -5,7 +5,7 @@ class:         203
 max_velocity:  0.0
 destroy:       {action: null}
 collide:
-	as:  {object: false}
+	as:  {direct: false}
 ai:
 	combat:
 		engaged_if:  {reactivator: true}
