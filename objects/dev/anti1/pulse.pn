@@ -22,7 +22,9 @@ collide:
 			reflexive:  true
 			if:
 				owner:  "different"
-			value:      {begin: -30.0, end: 30.0}
+			duration:
+				begin:  "-1.5s"
+				end:    "1.5s"
 		*	type:       "thrust"
 			reflexive:  true
 			if:

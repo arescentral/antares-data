@@ -34,10 +34,12 @@ collide:
 	damage:  20
 	edge:    false
 	action:
-		*	type:   "disable"
+		*	type:  "disable"
 			if:
 				owner:  "different"
-			value:  {begin: 0.0, end: 60.0}
+			duration:
+				begin:  "0s"
+				end:    "3s"
 		*	type:         "play"
 			reflexive:    true
 			sound:        "zrb/collide"

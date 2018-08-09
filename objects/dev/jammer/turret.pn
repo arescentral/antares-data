@@ -10,5 +10,5 @@ device:
 	restock_cost:   24
 activate:
 	action:
-		*	type:   "disable"
-			value:  40.0
+		*	type:      "disable"
+			duration:  "2s"

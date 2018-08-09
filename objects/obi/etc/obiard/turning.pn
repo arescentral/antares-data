@@ -53,7 +53,9 @@ activate:
 	action:
 		*	type:       "disable"
 			reflexive:  true
-			value:      {begin: -30.0, end: 30.0}
+			duration:
+				begin:  "-1.5s"
+				end:    "1.5s"
 		*	type:       "spin"
 			reflexive:  true
 			value:      {begin: -1.0, end: 0.0}

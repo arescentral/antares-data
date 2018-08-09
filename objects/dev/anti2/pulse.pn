@@ -38,8 +38,10 @@ collide:
 		*	type:   "push"
 			kind:   "collide"
 			value:  24.0
-		*	type:   "disable"
-			value:  {begin: -2.0, end: 2.0}
+		*	type:  "disable"
+			duration:
+				begin:  "-0.1s"
+				end:    "0.1s"
 		*	type:       "kill"
 			reflexive:  true
 			kind:       "expire"
