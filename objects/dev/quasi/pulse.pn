@@ -19,8 +19,8 @@ collide:
 		*	type:      "spark"
 			count:     20
 			hue:       "aqua"
-			decay:     8
 			velocity:  5.0
+			age:       "2s8t"
 		*	type:         "play"
 			reflexive:    true
 			sound:        "dev/quasi/collide"

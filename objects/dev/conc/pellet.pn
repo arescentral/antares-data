@@ -18,8 +18,8 @@ collide:
 			reflexive:  true
 			count:      2
 			hue:        "yellow"
-			decay:      20
 			velocity:   3.0
+			age:        "0.85s"
 		*	type:       "kill"
 			reflexive:  true
 			kind:       "none"

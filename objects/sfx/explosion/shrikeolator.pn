@@ -23,6 +23,6 @@ create:
 			reflexive:  true
 			count:      10
 			hue:        "orange"
-			decay:      20
 			velocity:   2.0
+			age:        "0.85s"
 collide:     {damage: 100}
