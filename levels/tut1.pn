@@ -69,9 +69,9 @@ conditions:
 					*	"down"
 					*	"left"
 					*	"right"
-					*	"fire_1"
-					*	"fire_2"
-					*	"fire_s"
+					*	"pulse"
+					*	"beam"
+					*	"special"
 					*	"warp"
 					*	"select_friend"
 					*	"select_foe"
@@ -572,9 +572,9 @@ conditions:
 			*	type:       "key"
 				reflexive:  true
 				enable:
-					*	"fire_1"
-					*	"fire_2"
-					*	"fire_s"
+					*	"pulse"
+					*	"beam"
+					*	"special"
 	*	when:
 			type:    "message"
 			op:      "eq"
