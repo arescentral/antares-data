@@ -258,26 +258,22 @@ conditions:
 			id:      5813
 			page:    2
 		action:
-			*	type:       "kill"
+			*	type:       "remove"
 				reflexive:  true
 				override:
 					subject:  {initial: 2}
-				kind:       "none"
-			*	type:       "kill"
+			*	type:       "remove"
 				reflexive:  true
 				override:
 					subject:  {initial: 3}
-				kind:       "none"
-			*	type:       "kill"
+			*	type:       "remove"
 				reflexive:  true
 				override:
 					subject:  {initial: 4}
-				kind:       "none"
-			*	type:       "kill"
+			*	type:       "remove"
 				reflexive:  true
 				override:
 					subject:  {initial: 5}
-				kind:       "none"
 			*	type:    "condition"
 				override:
 					subject:  {initial: 5}

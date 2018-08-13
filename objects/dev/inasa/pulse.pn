@@ -22,6 +22,5 @@ collide:
 			reflexive:           true
 			base:                "sfx/explosion/missile-hit"
 			relative_direction:  true
-		*	type:       "kill"
+		*	type:       "remove"
 			reflexive:  true
-			kind:       "expire"

@@ -15,9 +15,8 @@ collide:
 			reflexive:           true
 			base:                "sfx/explosion/energy"
 			relative_direction:  true
-		*	type:       "kill"
+		*	type:       "remove"
 			reflexive:  true
-			kind:       "expire"
 activate:
 	period:  "1t"
 	action:

@@ -32,6 +32,5 @@ collide:
 			base:                "sfx/explosion/quasi"
 			relative_velocity:   true
 			relative_direction:  true
-		*	type:       "kill"
+		*	type:       "remove"
 			reflexive:  true
-			kind:       "expire"

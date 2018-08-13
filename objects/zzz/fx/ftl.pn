@@ -30,9 +30,8 @@ arrive:
 				attributes:  {can_be_destination: true}
 			which:  "special"
 			base:   "dev/anti2/gun"
-		*	type:       "kill"
+		*	type:       "remove"
 			reflexive:  true
-			kind:       "expire"
 ai:
 	combat:
 		engages:  true

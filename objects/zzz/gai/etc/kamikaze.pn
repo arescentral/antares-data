@@ -32,16 +32,17 @@ destroy:
 			reflexive:           true
 			base:                "sfx/explosion/gas"
 			relative_direction:  true
-		*	type:       "kill"
+		*	type:       "remove"
 			reflexive:  true
-			kind:       "expire"
 arrive:
 	action:
-		*	type:  "kill"
+		*	type:  "group"
 			if:
 				attributes:  {can_be_engaged: true}
 				owner:       "different"
-			kind:  "destroy"
+			of:
+				*	type:       "destroy"
+					reflexive:  true
 ai:
 	combat:  {engages: false, evades: false}
 	escort:  {class: 1, power: 0.5}

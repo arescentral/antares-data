@@ -44,10 +44,12 @@ arrive:
 			which:   1
 			value:   1
 			player:  0
-		*	type:  "kill"
+		*	type:  "group"
 			if:
 				tags:  {rendezvous: true}
-			kind:  "expire"
+			of:
+				*	type:       "remove"
+					reflexive:  true
 		*	type:  "check"
 ai:
 	combat:

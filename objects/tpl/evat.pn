@@ -36,11 +36,13 @@ collide:
 arrive:
 	distance:  70.714
 	action:
-		*	type:  "kill"
+		*	type:  "group"
 			if:
 				tags:   {station: true}
 				owner:  "different"
-			kind:  "expire"
+			of:
+				*	type:       "remove"
+					reflexive:  true
 		*	type:         "play"
 			if:
 				tags:   {station: true}

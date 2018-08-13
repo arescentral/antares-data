@@ -27,9 +27,8 @@ collide:
 	damage:  40000
 	edge:    false
 	action:
-		*	type:       "kill"
+		*	type:       "destroy"
 			reflexive:  true
-			kind:       "destroy"
 ai:
 	combat:  {hated: true, evaded: true}
 	escort:  {need: 1.0}

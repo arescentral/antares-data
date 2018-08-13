@@ -19,9 +19,8 @@ destroy:
 			reflexive:           true
 			base:                "sfx/explosion/energy"
 			relative_direction:  true
-		*	type:       "kill"
+		*	type:       "remove"
 			reflexive:  true
-			kind:       "expire"
 expire:
 	after:
 		age:  "2s40t"
@@ -32,9 +31,8 @@ collide:
 			reflexive:           true
 			base:                "sfx/explosion/gas"
 			relative_direction:  true
-		*	type:       "kill"
+		*	type:       "remove"
 			reflexive:  true
-			kind:       "expire"
 ai:
 	combat:
 		hated:    true

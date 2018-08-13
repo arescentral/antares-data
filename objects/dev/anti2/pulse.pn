@@ -42,6 +42,5 @@ collide:
 			duration:
 				begin:  "-0.1s"
 				end:    "0.1s"
-		*	type:       "kill"
+		*	type:       "remove"
 			reflexive:  true
-			kind:       "expire"

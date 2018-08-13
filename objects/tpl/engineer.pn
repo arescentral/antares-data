@@ -42,9 +42,8 @@ expire:
 			reflexive:           true
 			base:                "sfx/explosion/energy"
 			relative_direction:  true
-		*	type:       "kill"
+		*	type:       "remove"
 			reflexive:  true
-			kind:       "expire"
 arrive:
 	distance:  70.714
 	action:
@@ -72,11 +71,13 @@ arrive:
 			volume:       255
 		*	type:      "delay"
 			duration:  "2s40t"
-		*	type:  "kill"
+		*	type:  "group"
 			if:
 				tags:   {flak: true}
 				owner:  "different"
-			kind:  "expire"
+			of:
+				*	type:       "remove"
+					reflexive:  true
 		*	type:  "capture"
 			if:
 				tags:   {flak: true}

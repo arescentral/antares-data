@@ -20,6 +20,5 @@ collide:
 			hue:        "yellow"
 			velocity:   3.0
 			age:        "0.85s"
-		*	type:       "kill"
+		*	type:       "remove"
 			reflexive:  true
-			kind:       "none"

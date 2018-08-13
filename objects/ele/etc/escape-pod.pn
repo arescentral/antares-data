@@ -46,9 +46,8 @@ collide:
 			priority:     3
 			persistence:  "5t"
 			volume:       255
-		*	type:       "kill"
+		*	type:       "remove"
 			reflexive:  true
-			kind:       "none"
 		*	type:  "check"
 ai:
 	escort:  {class: 9, need: 2.0}

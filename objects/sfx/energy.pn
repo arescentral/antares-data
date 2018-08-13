@@ -27,10 +27,12 @@ collide:
 			if:
 				tags:  {energizable: true}
 			value:  150
-		*	type:  "kill"
+		*	type:  "group"
 			if:
 				tags:  {energizable: true}
-			kind:  "expire"
+			of:
+				*	type:       "remove"
+					reflexive:  true
 		*	type:         "play"
 			if:
 				tags:  {energizable: true}
