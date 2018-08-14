@@ -23,23 +23,19 @@ expire:
 collide:
 	damage:  0
 	action:
-		*	type:   "energize"
-			if:
-				tags:  {energizable: true}
-			value:  150
 		*	type:  "group"
 			if:
 				tags:  {energizable: true}
 			of:
+				*	type:   "energize"
+					value:  150
 				*	type:       "remove"
 					reflexive:  true
-		*	type:         "play"
-			if:
-				tags:  {energizable: true}
-			sound:        "sfx/energy"
-			priority:     3
-			persistence:  "10t"
-			volume:       255
+				*	type:         "play"
+					sound:        "sfx/energy"
+					priority:     3
+					persistence:  "10t"
+					volume:       255
 arrive:             {distance: 4.3}
 ai:
 	combat:

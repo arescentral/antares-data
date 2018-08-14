@@ -43,20 +43,14 @@ arrive:
 			of:
 				*	type:       "remove"
 					reflexive:  true
-		*	type:         "play"
-			if:
-				tags:   {station: true}
-				owner:  "different"
-			absolute:     true
-			sound:        "tpl/evat/board"
-			priority:     4
-			persistence:  "1s"
-			volume:       255
-		*	type:   "occupy"
-			if:
-				tags:   {station: true}
-				owner:  "different"
-			value:  1
+				*	type:         "play"
+					absolute:     true
+					sound:        "tpl/evat/board"
+					priority:     4
+					persistence:  "1s"
+					volume:       255
+				*	type:   "occupy"
+					value:  1
 ai:
 	combat:
 		hated:       true

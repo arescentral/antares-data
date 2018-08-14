@@ -35,16 +35,14 @@ collide:
 	as:    {subject: true, direct: true}
 	edge:  true
 	action:
-		*	type:    "score"
-			if:
-				tags:  {rescue: true}
-			which:   0
-			value:   1
-			player:  0
 		*	type:  "group"
 			if:
 				tags:  {rescue: true}
 			of:
+				*	type:    "score"
+					which:   0
+					value:   1
+					player:  0
 				*	type:       "remove"
 					reflexive:  true
 		*	type:  "check"

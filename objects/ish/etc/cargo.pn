@@ -32,16 +32,14 @@ create:
 arrive:
 	distance:  141.423
 	action:
-		*	type:    "score"
-			if:
-				tags:  {rendezvous: true}
-			which:   0
-			value:   1
-			player:  0
 		*	type:  "group"
 			if:
 				tags:  {rendezvous: true}
 			of:
+				*	type:    "score"
+					which:   0
+					value:   1
+					player:  0
 				*	type:       "remove"
 					reflexive:  true
 		*	type:  "check"

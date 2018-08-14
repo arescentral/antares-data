@@ -11,15 +11,15 @@ expire:
 		*	type:  "check"
 arrive:
 	action:
-		*	type:   "land"
+		*	type:  "group"
 			if:
 				tags:  {planet: true}
-			speed:  32
-		*	type:         "play"
-			if:
-				tags:  {planet: true}
-			absolute:     true
-			sound:        "tpl/transport/land"
-			priority:     5
-			persistence:  "20t"
-			volume:       255
+			of:
+				*	type:   "land"
+					speed:  32
+				*	type:         "play"
+					absolute:     true
+					sound:        "tpl/transport/land"
+					priority:     5
+					persistence:  "20t"
+					volume:       255

@@ -583,15 +583,15 @@ conditions:
 		action:
 			*	type:     "reveal"
 				initial:  [7, 8]
-			*	type:       "cloak"
-				reflexive:  true
+			*	type:  "group"
 				override:
 					subject:  {initial: 8}
-			*	type:       "cap-speed"
-				reflexive:  true
-				override:
-					subject:  {initial: 8}
-				value:      0.0
+				of:
+					*	type:       "cloak"
+						reflexive:  true
+					*	type:       "cap-speed"
+						reflexive:  true
+						value:      0.0
 			*	type:       "cap-speed"
 				reflexive:  true
 				override:

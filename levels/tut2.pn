@@ -270,14 +270,14 @@ conditions:
 				reflexive:  true
 				override:
 					subject:  {initial: 4}
-			*	type:       "remove"
-				reflexive:  true
+			*	type:  "group"
 				override:
 					subject:  {initial: 5}
-			*	type:    "condition"
-				override:
-					subject:  {initial: 5}
-				enable:  [8]
+				of:
+					*	type:       "remove"
+						reflexive:  true
+					*	type:    "condition"
+						enable:  [8]
 			*	type:       "zoom"
 				reflexive:  true
 				value:      "1:2"
@@ -878,27 +878,27 @@ conditions:
 						>	Try turning off the autopilot now, by pressing one of your rotation keys
 						>	(\i_#TCC_\i, \i_#TNC_\i), or your acceleration or deceleration
 						>	(\i_#ACC_\i, \i_#DEC_\i)keys.
-			*	type:  "key"
+			*	type:  "group"
 				override:
 					subject:  {initial: 0}
-				enable:
-					*	"up"
-					*	"down"
-					*	"left"
-					*	"right"
-					*	"warp"
-					*	"select_friend"
-					*	"select_foe"
-					*	"select_base"
-					*	"target"
-					*	"zoom_in"
-					*	"zoom_out"
-					*	"zoom_shortcut"
-					*	"mouse"
-			*	type:    "condition"
-				override:
-					subject:  {initial: 0}
-				enable:  [36]
+				of:
+					*	type:  "key"
+						enable:
+							*	"up"
+							*	"down"
+							*	"left"
+							*	"right"
+							*	"warp"
+							*	"select_friend"
+							*	"select_foe"
+							*	"select_base"
+							*	"target"
+							*	"zoom_in"
+							*	"zoom_out"
+							*	"zoom_shortcut"
+							*	"mouse"
+					*	type:    "condition"
+						enable:  [36]
 			*	type:    "condition"
 				enable:  [35]
 			*	type:  "check"

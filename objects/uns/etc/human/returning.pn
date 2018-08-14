@@ -31,23 +31,19 @@ collide:            {edge: true}
 arrive:
 	distance:  70.714
 	action:
-		*	type:         "play"
-			if:
-				tags:  {rendezvous: true}
-			sound:        "tpl/evat/board"
-			priority:     3
-			persistence:  "10t"
-			volume:       255
-		*	type:    "score"
-			if:
-				tags:  {rendezvous: true}
-			which:   1
-			value:   1
-			player:  0
 		*	type:  "group"
 			if:
 				tags:  {rendezvous: true}
 			of:
+				*	type:         "play"
+					sound:        "tpl/evat/board"
+					priority:     3
+					persistence:  "10t"
+					volume:       255
+				*	type:    "score"
+					which:   1
+					value:   1
+					player:  0
 				*	type:       "remove"
 					reflexive:  true
 		*	type:  "check"

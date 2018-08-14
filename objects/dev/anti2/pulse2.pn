@@ -11,24 +11,22 @@ animation:
 	first:      {begin: 0.0, end: 4.0}
 collide:
 	action:
-		*	type:       "disable"
-			reflexive:  true
+		*	type:  "group"
 			if:
 				owner:  "different"
-			duration:
-				begin:  "-1.5s"
-				end:    "1.5s"
-		*	type:       "thrust"
-			reflexive:  true
-			if:
-				owner:  "different"
-			relative:   true
-			value:      0.047
-		*	type:       "spin"
-			reflexive:  true
-			if:
-				owner:  "different"
-			value:      {begin: -2.0, end: 2.0}
+			of:
+				*	type:       "disable"
+					reflexive:  true
+					duration:
+						begin:  "-1.5s"
+						end:    "1.5s"
+				*	type:       "thrust"
+					reflexive:  true
+					relative:   true
+					value:      0.047
+				*	type:       "spin"
+					reflexive:  true
+					value:      {begin: -2.0, end: 2.0}
 		*	type:                "create"
 			reflexive:           true
 			base:                "sfx/explosion/missile-hit"

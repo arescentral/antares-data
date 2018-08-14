@@ -109,16 +109,16 @@ conditions:
 				override:
 					subject:  {initial: 2}
 				player:     0
-			*	type:       "capture"
-				reflexive:  true
+			*	type:  "group"
 				override:
 					subject:  {initial: 3}
-				player:     1
-			*	type:    "pay"
-				override:
-					subject:  {initial: 3}
-				value:   10000.0
-				player:  1
+				of:
+					*	type:       "capture"
+						reflexive:  true
+						player:     1
+					*	type:    "pay"
+						value:   10000.0
+						player:  1
 	*	when:
 			type:    "owner"
 			op:      "eq"

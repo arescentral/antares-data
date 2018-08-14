@@ -659,16 +659,16 @@ conditions:
 			id:      5970
 			page:    3
 		action:
-			*	type:       "capture"
-				reflexive:  true
+			*	type:  "group"
 				override:
 					subject:  {initial: 1}
-				player:     1
-			*	type:       "zoom"
-				reflexive:  true
-				override:
-					subject:  {initial: 1}
-				value:      "1:16"
+				of:
+					*	type:       "capture"
+						reflexive:  true
+						player:     1
+					*	type:       "zoom"
+						reflexive:  true
+						value:      "1:16"
 			*	type:    "pay"
 				value:   -12800.0
 				player:  1
