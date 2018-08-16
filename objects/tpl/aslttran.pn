@@ -18,11 +18,12 @@ destroy:
 arrive:
 	distance:  565.686
 	action:
-		*	type:   "fire"
+		*	type:       "fire"
+			reflexive:  true
 			if:
 				tags:   {station: true}
 				owner:  "different"
-			which:  "special"
+			which:      "special"
 ai:
 	target:
 		prefer:

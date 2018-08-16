@@ -32,10 +32,11 @@ create:
 				direct:  {initial: 5}
 		*	type:      "delay"
 			duration:  "2s"
-		*	type:   "land"
+		*	type:       "land"
+			reflexive:  true
 			override:
 				direct:  {initial: 5}
-			speed:  128
+			speed:      128
 		*	type:      "delay"
 			duration:  "40s"
 		*	type:       "condition"

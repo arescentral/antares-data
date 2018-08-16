@@ -43,8 +43,9 @@ arrive:
 				tags:   {planet: true}
 				owner:  "different"
 			of:
-				*	type:   "land"
-					speed:  32
+				*	type:       "land"
+					reflexive:  true
+					speed:      32
 				*	type:         "play"
 					absolute:     true
 					sound:        "tpl/transport/land"

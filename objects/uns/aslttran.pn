@@ -21,11 +21,12 @@ rotation:
 	frames:  {begin: 0, end: 24}
 destroy:
 	action:
-		*	type:   "fire"
+		*	type:       "fire"
+			reflexive:  true
 			if:
 				tags:   {station: true}
 				owner:  "different"
-			which:  "special"
+			which:      "special"
 		*	type:       "create"
 			reflexive:  true
 			base:       "sfx/explosion/large"

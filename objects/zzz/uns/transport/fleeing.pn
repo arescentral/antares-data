@@ -30,13 +30,15 @@ expire:
 		*	type:  "check"
 arrive:
 	action:
-		*	type:  "create"
+		*	type:       "create"
+			reflexive:  true
 			if:
 				tags:  {jumpgate: true}
-			base:  "sfx/jump/small"
+			base:       "sfx/jump/small"
 		*	type:      "delay"
 			duration:  "2s"
-		*	type:   "land"
+		*	type:       "land"
+			reflexive:  true
 			if:
 				tags:  {jumpgate: true}
-			speed:  80
+			speed:      80
