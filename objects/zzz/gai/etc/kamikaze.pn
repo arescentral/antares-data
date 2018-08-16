@@ -36,13 +36,11 @@ destroy:
 			reflexive:  true
 arrive:
 	action:
-		*	type:  "group"
+		*	type:       "destroy"
+			reflexive:  true
 			if:
 				attributes:  {can_be_engaged: true}
 				owner:       "different"
-			of:
-				*	type:       "destroy"
-					reflexive:  true
 ai:
 	combat:  {engages: false, evades: false}
 	escort:  {class: 1, power: 0.5}
