@@ -27,7 +27,7 @@ create:
 				*	>	Good work. You built a practice drone. Normally, you can give ships you
 					>	build commands, or assume control of them. Here, however, the drone will
 					>	simply return to the planet.
-		*	type:  "order"
+		*	type:  "target"
 			override:
 				direct:  {initial: 5}
 		*	type:      "delay"

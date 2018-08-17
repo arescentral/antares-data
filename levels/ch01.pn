@@ -106,7 +106,7 @@ conditions:
 			counter:  0
 			value:    2
 		action:
-			*	type:  "order"
+			*	type:  "target"
 				override:
 					subject:  {initial: 17}
 					direct:   {initial: 6}

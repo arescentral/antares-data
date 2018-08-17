@@ -148,7 +148,7 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [2]
-			*	type:  "order"
+			*	type:  "target"
 				override:
 					subject:  {initial: 0}
 					direct:   {initial: 10}
@@ -159,7 +159,7 @@ conditions:
 						|	SOURCE: RICS 105508 Tractor Tug
 						|	We've locked on to the Elejeetian liner and are now towing it to the
 						>	jump gate. \i<EOT>\i 
-			*	type:  "order"
+			*	type:  "target"
 				override:
 					subject:  {initial: 10}
 					direct:   {initial: 7}
@@ -173,7 +173,7 @@ conditions:
 		subject:   {initial: 10}
 		direct:    {initial: 7}
 		action:
-			*	type:  "order"
+			*	type:  "target"
 				override:
 					subject:  {initial: 0}
 					direct:   {initial: 7}

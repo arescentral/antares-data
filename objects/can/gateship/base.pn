@@ -32,7 +32,7 @@ icon:               {size: 10}
 destroy:
 	die:  false
 	action:
-		*	type:       "order"
+		*	type:       "target"
 			reflexive:  true
 		*	type:       "push"
 			reflexive:  true

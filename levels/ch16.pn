@@ -192,11 +192,11 @@ conditions:
 				disable:    [0]
 			*	type:      "delay"
 				duration:  "20s"
-			*	type:  "order"
+			*	type:  "target"
 				override:
 					subject:  {initial: 3}
 					direct:   {initial: 0}
-			*	type:  "order"
+			*	type:  "target"
 				override:
 					subject:  {initial: 4}
 					direct:   {initial: 0}

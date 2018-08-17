@@ -24,7 +24,7 @@ create:
 	action:
 		*	type:      "delay"
 			duration:  "0.05s"
-		*	type:  "order"
+		*	type:  "target"
 			override:
 				direct:  {initial: 0}
 collide:            {edge: true}

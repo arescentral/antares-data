@@ -851,7 +851,7 @@ conditions:
 					*	"mouse"
 			*	type:      "delay"
 				duration:  "2s"
-			*	type:  "order"
+			*	type:  "target"
 				override:
 					subject:  {initial: 1}
 					direct:   {initial: 5}

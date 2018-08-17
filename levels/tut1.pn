@@ -229,7 +229,7 @@ conditions:
 			id:      5711
 			page:    2
 		action:
-			*	type:  "order"
+			*	type:  "target"
 				override:
 					subject:  {initial: 5}
 					direct:   {initial: 0}
@@ -247,7 +247,7 @@ conditions:
 		subject:   {initial: 0}
 		direct:    {initial: 5}
 		action:
-			*	type:  "order"
+			*	type:  "target"
 				override:
 					subject:  {initial: 5}
 					direct:   {initial: 4}
@@ -265,7 +265,7 @@ conditions:
 		subject:   {initial: 4}
 		direct:    {initial: 5}
 		action:
-			*	type:  "order"
+			*	type:  "target"
 				override:
 					subject:  {initial: 5}
 					direct:   {initial: 0}
