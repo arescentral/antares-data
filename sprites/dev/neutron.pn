@@ -1,10 +1,7 @@
-rows:    2
-cols:    3
-center:  {x: 7, y: 7}
 frames:
-	*	{left: -7, top: -7, right: 9, bottom: 7}
-	*	{left: -7, top: -7, right: 9, bottom: 7}
-	*	{left: -7, top: -7, right: 9, bottom: 7}
-	*	{left: -7, top: -7, right: 9, bottom: 7}
-	*	{left: -7, top: -7, right: 9, bottom: 7}
-	*	{left: -7, top: -7, right: 9, bottom: 7}
+	*	{left: 0, top: 0, right: 16, bottom: 14, cx: 7, cy: 7}
+	*	{left: 16, top: 0, right: 32, bottom: 14, cx: 23, cy: 7}
+	*	{left: 32, top: 0, right: 48, bottom: 14, cx: 39, cy: 7}
+	*	{left: 0, top: 14, right: 16, bottom: 28, cx: 7, cy: 21}
+	*	{left: 16, top: 14, right: 32, bottom: 28, cx: 23, cy: 21}
+	*	{left: 32, top: 14, right: 48, bottom: 28, cx: 39, cy: 21}

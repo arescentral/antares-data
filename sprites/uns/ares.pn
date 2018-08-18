@@ -1,3 +1,2 @@
-center:  {x: 54, y: 37}
 frames:
-	*	{left: -54, top: -37, right: 50, bottom: 36}
+	*	{left: 0, top: 0, right: 104, bottom: 73, cx: 54, cy: 37}

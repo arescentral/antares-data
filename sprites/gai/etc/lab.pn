@@ -1,10 +1,8 @@
-cols:    7
-center:  {x: 26, y: 53}
 frames:
-	*	{left: -18, top: -20, right: 22, bottom: 22}
-	*	{left: -19, top: -38, right: 21, bottom: 22}
-	*	{left: -23, top: -40, right: 21, bottom: 22}
-	*	{left: -26, top: -48, right: 22, bottom: 22}
-	*	{left: -20, top: -53, right: 24, bottom: 22}
-	*	{left: -21, top: -44, right: 19, bottom: 22}
-	*	{left: -20, top: -43, right: 24, bottom: 22}
+	*	{left: 8, top: 33, right: 48, bottom: 75, cx: 26, cy: 53}
+	*	{left: 57, top: 15, right: 97, bottom: 75, cx: 76, cy: 53}
+	*	{left: 103, top: 13, right: 147, bottom: 75, cx: 126, cy: 53}
+	*	{left: 150, top: 5, right: 198, bottom: 75, cx: 176, cy: 53}
+	*	{left: 206, top: 0, right: 250, bottom: 75, cx: 226, cy: 53}
+	*	{left: 255, top: 9, right: 295, bottom: 75, cx: 276, cy: 53}
+	*	{left: 306, top: 10, right: 350, bottom: 75, cx: 326, cy: 53}

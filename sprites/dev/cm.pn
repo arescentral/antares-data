@@ -1,28 +1,25 @@
-rows:    4
-cols:    6
-center:  {x: 7, y: 6}
 frames:
-	*	{left: -2, top: -5, right: 6, bottom: 8}
-	*	{left: -3, top: -5, right: 5, bottom: 8}
-	*	{left: -5, top: -5, right: 7, bottom: 7}
-	*	{left: -6, top: -4, right: 6, bottom: 6}
-	*	{left: -7, top: -3, right: 9, bottom: 5}
-	*	{left: -7, top: -2, right: 9, bottom: 4}
-	*	{left: -7, top: -1, right: 9, bottom: 3}
-	*	{left: -7, top: -2, right: 9, bottom: 3}
-	*	{left: -6, top: -3, right: 10, bottom: 4}
-	*	{left: -5, top: -4, right: 7, bottom: 6}
-	*	{left: -4, top: -5, right: 4, bottom: 7}
-	*	{left: -3, top: -6, right: 5, bottom: 8}
-	*	{left: -2, top: -6, right: 6, bottom: 8}
-	*	{left: -3, top: -6, right: 5, bottom: 8}
-	*	{left: -4, top: -5, right: 4, bottom: 7}
-	*	{left: -5, top: -4, right: 7, bottom: 6}
-	*	{left: -7, top: -3, right: 9, bottom: 4}
-	*	{left: -7, top: -2, right: 9, bottom: 3}
-	*	{left: -7, top: -1, right: 9, bottom: 3}
-	*	{left: -7, top: -2, right: 9, bottom: 4}
-	*	{left: -6, top: -3, right: 10, bottom: 5}
-	*	{left: -5, top: -4, right: 7, bottom: 6}
-	*	{left: -4, top: -5, right: 8, bottom: 7}
-	*	{left: -2, top: -5, right: 6, bottom: 8}
+	*	{left: 5, top: 1, right: 13, bottom: 14, cx: 7, cy: 6}
+	*	{left: 21, top: 1, right: 29, bottom: 14, cx: 24, cy: 6}
+	*	{left: 36, top: 1, right: 48, bottom: 13, cx: 41, cy: 6}
+	*	{left: 52, top: 2, right: 64, bottom: 12, cx: 58, cy: 6}
+	*	{left: 68, top: 3, right: 84, bottom: 11, cx: 75, cy: 6}
+	*	{left: 85, top: 4, right: 101, bottom: 10, cx: 92, cy: 6}
+	*	{left: 0, top: 19, right: 16, bottom: 23, cx: 7, cy: 20}
+	*	{left: 17, top: 18, right: 33, bottom: 23, cx: 24, cy: 20}
+	*	{left: 35, top: 17, right: 51, bottom: 24, cx: 41, cy: 20}
+	*	{left: 53, top: 16, right: 65, bottom: 26, cx: 58, cy: 20}
+	*	{left: 71, top: 15, right: 79, bottom: 27, cx: 75, cy: 20}
+	*	{left: 89, top: 14, right: 97, bottom: 28, cx: 92, cy: 20}
+	*	{left: 5, top: 28, right: 13, bottom: 42, cx: 7, cy: 34}
+	*	{left: 21, top: 28, right: 29, bottom: 42, cx: 24, cy: 34}
+	*	{left: 37, top: 29, right: 45, bottom: 41, cx: 41, cy: 34}
+	*	{left: 53, top: 30, right: 65, bottom: 40, cx: 58, cy: 34}
+	*	{left: 68, top: 31, right: 84, bottom: 38, cx: 75, cy: 34}
+	*	{left: 85, top: 32, right: 101, bottom: 37, cx: 92, cy: 34}
+	*	{left: 0, top: 47, right: 16, bottom: 51, cx: 7, cy: 48}
+	*	{left: 17, top: 46, right: 33, bottom: 52, cx: 24, cy: 48}
+	*	{left: 35, top: 45, right: 51, bottom: 53, cx: 41, cy: 48}
+	*	{left: 53, top: 44, right: 65, bottom: 54, cx: 58, cy: 48}
+	*	{left: 71, top: 43, right: 83, bottom: 55, cx: 75, cy: 48}
+	*	{left: 90, top: 43, right: 98, bottom: 56, cx: 92, cy: 48}

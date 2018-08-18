@@ -1,13 +1,10 @@
-rows:    3
-cols:    3
-center:  {x: 9, y: 9}
 frames:
-	*	{left: -8, top: -6, right: 12, bottom: 10}
-	*	{left: -6, top: -8, right: 10, bottom: 8}
-	*	{left: -9, top: -8, right: 7, bottom: 9}
-	*	{left: -8, top: -5, right: 12, bottom: 10}
-	*	{left: -8, top: -8, right: 12, bottom: 7}
-	*	{left: -9, top: -8, right: 7, bottom: 8}
-	*	{left: -6, top: -7, right: 10, bottom: 10}
-	*	{left: -6, top: -9, right: 10, bottom: 8}
-	*	{left: -9, top: -7, right: 7, bottom: 8}
+	*	{left: 1, top: 3, right: 21, bottom: 19, cx: 9, cy: 9}
+	*	{left: 24, top: 1, right: 40, bottom: 17, cx: 30, cy: 9}
+	*	{left: 42, top: 1, right: 58, bottom: 18, cx: 51, cy: 9}
+	*	{left: 1, top: 23, right: 21, bottom: 38, cx: 9, cy: 28}
+	*	{left: 22, top: 20, right: 42, bottom: 35, cx: 30, cy: 28}
+	*	{left: 42, top: 20, right: 58, bottom: 36, cx: 51, cy: 28}
+	*	{left: 3, top: 40, right: 19, bottom: 57, cx: 9, cy: 47}
+	*	{left: 24, top: 38, right: 40, bottom: 55, cx: 30, cy: 47}
+	*	{left: 42, top: 40, right: 58, bottom: 55, cx: 51, cy: 47}

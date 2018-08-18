@@ -1,6 +1,4 @@
-cols:    3
-center:  {x: 12, y: 11}
 frames:
-	*	{left: -10, top: -11, right: 14, bottom: 10}
-	*	{left: -10, top: -10, right: 10, bottom: 9}
-	*	{left: -12, top: -11, right: 12, bottom: 12}
+	*	{left: 2, top: 0, right: 26, bottom: 21, cx: 12, cy: 11}
+	*	{left: 28, top: 1, right: 48, bottom: 20, cx: 38, cy: 11}
+	*	{left: 52, top: 0, right: 76, bottom: 23, cx: 64, cy: 11}

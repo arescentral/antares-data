@@ -1,8 +1,6 @@
-cols:    5
-center:  {x: 7, y: 5}
 frames:
-	*	{left: -3, top: -4, right: 5, bottom: 4}
-	*	{left: -4, top: -4, right: 8, bottom: 4}
-	*	{left: -5, top: -5, right: 7, bottom: 4}
-	*	{left: -4, top: -5, right: 8, bottom: 4}
-	*	{left: -7, top: -5, right: 5, bottom: 3}
+	*	{left: 4, top: 1, right: 12, bottom: 9, cx: 7, cy: 5}
+	*	{left: 18, top: 1, right: 30, bottom: 9, cx: 22, cy: 5}
+	*	{left: 32, top: 0, right: 44, bottom: 9, cx: 37, cy: 5}
+	*	{left: 48, top: 0, right: 60, bottom: 9, cx: 52, cy: 5}
+	*	{left: 60, top: 0, right: 72, bottom: 8, cx: 67, cy: 5}
