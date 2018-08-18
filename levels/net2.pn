@@ -5,8 +5,8 @@ title:
 players:
 	*	type:           "human"
 		races:
-			*	"uns"
 			*	"ish"
+			*	"uns"
 			*	"can"
 			*	"gai"
 			*	"sal"
@@ -14,8 +14,8 @@ players:
 		earning_power:  1.0
 	*	type:           "human"
 		races:
-			*	"uns"
 			*	"ish"
+			*	"uns"
 			*	"can"
 			*	"gai"
 			*	"sal"
