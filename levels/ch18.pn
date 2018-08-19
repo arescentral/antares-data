@@ -173,10 +173,9 @@ initials:
 		target:  {initial: 1, lock: true}
 conditions:
 	*	when:
-			type:     "counter"
+			type:     "score"
 			op:       "eq"
-			player:   0
-			counter:  0
+			counter:  {player: 0, which: 0}
 			value:    2
 		action:
 			*	type:       "capture"

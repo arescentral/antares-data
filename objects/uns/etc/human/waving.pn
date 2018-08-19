@@ -22,9 +22,8 @@ destroy:
 	action:
 		*	type:       "score"
 			reflexive:  true
-			which:      2
+			counter:    {player: 0, which: 2}
 			value:      1
-			player:     0
 		*	type:  "check"
 collide:
 	solid:  false
@@ -33,10 +32,9 @@ collide:
 			if:
 				tags:  {rescue: true}
 			of:
-				*	type:    "score"
-					which:   0
-					value:   1
-					player:  0
+				*	type:     "score"
+					counter:  {player: 0, which: 0}
+					value:    1
 				*	type:       "remove"
 					reflexive:  true
 		*	type:  "check"

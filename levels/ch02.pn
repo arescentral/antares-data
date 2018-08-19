@@ -113,10 +113,9 @@ initials:
 conditions:
 	*	persistent:  true
 		when:
-			type:     "counter"
+			type:     "score"
 			op:       "eq"
-			player:   0
-			counter:  0
+			counter:  {player: 0, which: 0}
 			value:    4
 		action:
 			*	type:    "win"

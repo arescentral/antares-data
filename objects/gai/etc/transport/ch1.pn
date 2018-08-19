@@ -8,9 +8,8 @@ destroy:
 			base:       "sfx/explosion/large"
 		*	type:       "score"
 			reflexive:  true
-			which:      0
+			counter:    {player: 0, which: 0}
 			value:      1
-			player:     0
 		*	type:  "check"
 expire:    {action: null}
 arrive:

@@ -101,10 +101,9 @@ initials:
 		target:  {initial: 9, lock: true}
 conditions:
 	*	when:
-			type:     "counter"
+			type:     "score"
 			op:       "eq"
-			player:   0
-			counter:  0
+			counter:  {player: 0, which: 0}
 			value:    5
 		action:
 			*	type:       "morph"
@@ -128,10 +127,9 @@ conditions:
 				enable:     [2]
 	*	disabled:  true
 		when:
-			type:     "counter"
+			type:     "score"
 			op:       "ge"
-			player:   0
-			counter:  0
+			counter:  {player: 0, which: 0}
 			value:    1
 		subject:   {initial: 1}
 		action:
@@ -142,9 +140,8 @@ conditions:
 				relative_direction:  true
 			*	type:       "score"
 				reflexive:  true
-				which:      0
+				counter:    {player: 0, which: 0}
 				value:      -1
-				player:     0
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [0]
@@ -174,10 +171,9 @@ conditions:
 				reflexive:  true
 				disable:    [2]
 	*	when:
-			type:     "counter"
+			type:     "score"
 			op:       "eq"
-			player:   0
-			counter:  1
+			counter:  {player: 0, which: 1}
 			value:    11
 		action:
 			*	type:       "win"
@@ -188,10 +184,9 @@ conditions:
 					>	You rescued more than two thirds of the Obish hostages. Ambassador
 					>	Thrntz extends his gratitude.
 	*	when:
-			type:     "counter"
+			type:     "score"
 			op:       "eq"
-			player:   0
-			counter:  2
+			counter:  {player: 0, which: 2}
 			value:    5
 		action:
 			*	type:       "win"

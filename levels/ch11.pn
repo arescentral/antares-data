@@ -93,10 +93,9 @@ initials:
 		target:  {initial: 3, lock: true}
 conditions:
 	*	when:
-			type:     "counter"
+			type:     "score"
 			op:       "eq"
-			player:   0
-			counter:  0
+			counter:  {player: 0, which: 0}
 			value:    5
 		action:
 			*	type:       "morph"
@@ -119,10 +118,9 @@ conditions:
 				enable:  [7]
 	*	disabled:  true
 		when:
-			type:     "counter"
+			type:     "score"
 			op:       "ge"
-			player:   0
-			counter:  0
+			counter:  {player: 0, which: 0}
 			value:    1
 		subject:   {initial: 1}
 		action:
@@ -133,9 +131,8 @@ conditions:
 				relative_direction:  true
 			*	type:       "score"
 				reflexive:  true
-				which:      0
+				counter:    {player: 0, which: 0}
 				value:      -1
-				player:     0
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [0]
@@ -163,10 +160,9 @@ conditions:
 				reflexive:  true
 				disable:    [7]
 	*	when:
-			type:     "counter"
+			type:     "score"
 			op:       "eq"
-			player:   0
-			counter:  1
+			counter:  {player: 0, which: 1}
 			value:    21
 		action:
 			*	type:       "win"
@@ -176,10 +172,9 @@ conditions:
 				text:
 					>	You rescued more than two thirds of the human captives.
 	*	when:
-			type:     "counter"
+			type:     "score"
 			op:       "eq"
-			player:   0
-			counter:  2
+			counter:  {player: 0, which: 2}
 			value:    10
 		action:
 			*	type:       "win"

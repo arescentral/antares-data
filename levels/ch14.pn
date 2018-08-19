@@ -117,10 +117,9 @@ initials:
 		target:  {initial: 16, lock: true}
 conditions:
 	*	when:
-			type:     "counter"
+			type:     "score"
 			op:       "eq"
-			player:   0
-			counter:  0
+			counter:  {player: 0, which: 0}
 			value:    3
 		subject:  {initial: 1}
 		direct:   {initial: 1}

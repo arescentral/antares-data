@@ -347,10 +347,9 @@ conditions:
 			*	type:  "check"
 	*	disabled:  true
 		when:
-			type:     "counter"
+			type:     "score"
 			op:       "ge"
-			player:   0
-			counter:  0
+			counter:  {player: 0, which: 0}
 			value:    1
 		action:
 			*	type:  "message"
@@ -445,10 +444,9 @@ conditions:
 					*	"comp_build"
 			*	type:  "check"
 	*	when:
-			type:     "counter"
+			type:     "score"
 			op:       "eq"
-			player:   0
-			counter:  0
+			counter:  {player: 0, which: 0}
 			value:    2
 		action:
 			*	type:  "message"

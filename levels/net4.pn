@@ -34,9 +34,8 @@ conditions:
 		action:
 			*	type:       "score"
 				reflexive:  true
-				which:      0
+				counter:    {player: 0, which: 0}
 				value:      1
-				player:     0
 			*	type:      "delay"
 				duration:  "6s"
 			*	type:       "reveal"
@@ -53,9 +52,8 @@ conditions:
 		action:
 			*	type:       "score"
 				reflexive:  true
-				which:      0
+				counter:    {player: 1, which: 0}
 				value:      1
-				player:     1
 			*	type:      "delay"
 				duration:  "6s"
 			*	type:       "reveal"
@@ -66,10 +64,9 @@ conditions:
 				enable:     [1]
 			*	type:  "check"
 	*	when:
-			type:     "counter"
+			type:     "score"
 			op:       "ge"
-			player:   0
-			counter:  0
+			counter:  {player: 0, which: 0}
 			value:    3
 		action:
 			*	type:       "win"
@@ -79,10 +76,9 @@ conditions:
 					>	Player 2 wins!
 	*	persistent:  true
 		when:
-			type:     "counter"
+			type:     "score"
 			op:       "ge"
-			player:   1
-			counter:  0
+			counter:  {player: 1, which: 0}
 			value:    3
 		action:
 			*	type:       "win"

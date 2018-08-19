@@ -100,10 +100,9 @@ initials:
 		target:  {initial: 5, lock: true}
 conditions:
 	*	when:
-			type:     "counter"
+			type:     "score"
 			op:       "eq"
-			player:   0
-			counter:  0
+			counter:  {player: 0, which: 0}
 			value:    2
 		action:
 			*	type:  "target"
@@ -111,10 +110,9 @@ conditions:
 					subject:  {initial: 17}
 					direct:   {initial: 6}
 	*	when:
-			type:     "counter"
+			type:     "score"
 			op:       "eq"
-			player:   0
-			counter:  0
+			counter:  {player: 0, which: 0}
 			value:    5
 		action:
 			*	type:    "win"

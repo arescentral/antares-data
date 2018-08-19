@@ -99,10 +99,9 @@ initials:
 		at:     {x: 2173, y: 6260}
 conditions:
 	*	when:
-			type:     "counter"
+			type:     "score"
 			op:       "eq"
-			player:   0
-			counter:  1
+			counter:  {player: 0, which: 1}
 			value:    6
 		action:
 			*	type:      "delay"

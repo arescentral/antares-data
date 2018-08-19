@@ -22,10 +22,9 @@ destroy:
 collide:
 	solid:  false
 	action:
-		*	type:    "score"
-			which:   1
-			value:   1
-			player:  0
+		*	type:     "score"
+			counter:  {player: 0, which: 1}
+			value:    1
 		*	type:         "play"
 			reflexive:    true
 			sound:        "sfx/energy"

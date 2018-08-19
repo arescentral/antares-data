@@ -85,10 +85,9 @@ conditions:
 				value:      0.0
 	*	persistent:  true
 		when:
-			type:     "counter"
+			type:     "score"
 			op:       "ge"
-			player:   0
-			counter:  1
+			counter:  {player: 0, which: 1}
 			value:    10
 		action:
 			*	type:    "win"

@@ -161,10 +161,9 @@ conditions:
 				reflexive:  true
 				initial:    [8]
 	*	when:
-			type:     "counter"
+			type:     "score"
 			op:       "eq"
-			player:   0
-			counter:  0
+			counter:  {player: 0, which: 0}
 			value:    5
 		action:
 			*	type:       "reveal"
