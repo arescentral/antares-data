@@ -131,7 +131,7 @@ conditions:
 				enable:     [2]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {control: 0}
@@ -184,7 +184,7 @@ conditions:
 				enable:  [4]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 6}
 			b:     {control: 0}
@@ -225,7 +225,7 @@ conditions:
 				enable:     [6]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 5}
 			b:     {control: 0}
@@ -293,7 +293,7 @@ conditions:
 					*	"mouse"
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {control: 0}
@@ -348,7 +348,7 @@ conditions:
 				value:      "1:4"
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 5}
 			b:     {control: 0}
@@ -402,7 +402,7 @@ conditions:
 				value:      "all"
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 2}
 			b:     {control: 0}
@@ -475,7 +475,7 @@ conditions:
 				enable:     [15]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 5}
 			b:     {control: 0}
@@ -505,7 +505,7 @@ conditions:
 				enable:     [17]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 6}
 			b:     {control: 0}
@@ -553,7 +553,7 @@ conditions:
 				value:      "1:2"
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {target: 0}
@@ -598,7 +598,7 @@ conditions:
 				enable:  [21]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 6}
 			b:     {target: 0}
@@ -630,7 +630,7 @@ conditions:
 				enable:  [23]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 7}
 			b:     {target: 0}
@@ -683,7 +683,7 @@ conditions:
 					*	"select_base"
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {target: 0}
@@ -712,7 +712,7 @@ conditions:
 				enable:  [27]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 6}
 			b:     {target: 0}
@@ -741,7 +741,7 @@ conditions:
 				enable:  [29]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 7}
 			b:     {target: 0}
@@ -787,7 +787,7 @@ conditions:
 				enable:  [31]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {target: 0}

@@ -207,7 +207,7 @@ conditions:
 				enable:     [12]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 3}
 			b:     {control: 0}
@@ -230,7 +230,7 @@ conditions:
 				enable:     [4]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 3}
 			b:     {control: 0}
@@ -253,7 +253,7 @@ conditions:
 				enable:     [5]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {target: 0}
@@ -268,7 +268,7 @@ conditions:
 						>	Key, \i_#ORD_\i to send the drone to the buoy.
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 2}
 			b:     {target: 0}
@@ -315,7 +315,7 @@ conditions:
 						>	ship.
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {target: 0}
@@ -333,7 +333,7 @@ conditions:
 				enable:     [10]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 2}
 			b:     {target: 0}
@@ -351,7 +351,7 @@ conditions:
 						>	key.
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 3}
 			b:     {control: 0}
@@ -438,7 +438,7 @@ conditions:
 				enable:     [14]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 5}
 			b:     {control: 0}

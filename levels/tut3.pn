@@ -174,7 +174,7 @@ conditions:
 				enable:  [2]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {control: 0}
@@ -366,7 +366,7 @@ conditions:
 			*	type:  "check"
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 5}
 			b:     {control: 0}
@@ -411,7 +411,7 @@ conditions:
 			*	type:    "condition"
 				enable:  [13]
 	*	when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 2}
 			b:     {target: 0}
@@ -496,7 +496,7 @@ conditions:
 					*	"mouse"
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 2}
 			b:     {control: 0}
@@ -521,7 +521,7 @@ conditions:
 			*	type:  "check"
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {target: 0}
@@ -586,7 +586,7 @@ conditions:
 			*	type:  "check"
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 6}
 			b:     {control: 0}
@@ -712,7 +712,7 @@ conditions:
 				enable:  [25]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 6}
 			b:     {control: 0}
@@ -729,7 +729,7 @@ conditions:
 			*	type:  "check"
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 4}
 			b:     {target: 0}
@@ -828,7 +828,7 @@ conditions:
 				enable:  [31]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 0}
 			b:     {target: 0}
@@ -956,7 +956,7 @@ conditions:
 				enable:  [38]
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 2}
 			b:     {control: 0}
@@ -984,7 +984,7 @@ conditions:
 			*	type:  "check"
 	*	disabled:  true
 		when:
-			type:  "object"
+			type:  "identity"
 			op:    "eq"
 			a:     {initial: 2}
 			b:     {flagship: 0}
