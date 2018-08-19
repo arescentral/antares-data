@@ -138,10 +138,10 @@ initials:
 		target:  {initial: 21}
 conditions:
 	*	when:
-			type:   "destroyed"
-			op:     "eq"
-			what:   {initial: 1}
-			value:  true
+			type:    "destroyed"
+			op:      "eq"
+			object:  {initial: 1}
+			value:   true
 		action:
 			*	type:       "win"
 				reflexive:  true
@@ -201,10 +201,10 @@ conditions:
 					subject:  {initial: 4}
 					direct:   {initial: 0}
 	*	when:
-			type:   "destroyed"
-			op:     "eq"
-			what:   {initial: 0}
-			value:  true
+			type:    "destroyed"
+			op:      "eq"
+			object:  {initial: 0}
+			value:   true
 		action:
 			*	type:       "condition"
 				reflexive:  true

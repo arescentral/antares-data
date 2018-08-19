@@ -613,7 +613,7 @@ conditions:
 		when:
 			type:    "target"
 			op:      "eq"
-			what:    {initial: 6}
+			object:  {initial: 6}
 			target:  {initial: 1}
 		subject:   {initial: 6}
 		direct:    {initial: 1}
@@ -678,7 +678,7 @@ conditions:
 		when:
 			type:    "owner"
 			op:      "eq"
-			what:    {initial: 1}
+			object:  {initial: 1}
 			player:  0
 		subject:   {initial: 1}
 		action:
@@ -748,7 +748,7 @@ conditions:
 		when:
 			type:    "target"
 			op:      "eq"
-			what:    {initial: 6}
+			object:  {initial: 6}
 			target:  {initial: 4}
 		subject:   {initial: 6}
 		direct:    {initial: 4}
@@ -771,7 +771,7 @@ conditions:
 		when:
 			type:    "target"
 			op:      "eq"
-			what:    {initial: 5}
+			object:  {initial: 5}
 			target:  {initial: 4}
 		subject:   {initial: 5}
 		direct:    {initial: 4}
@@ -789,7 +789,7 @@ conditions:
 		when:
 			type:    "target"
 			op:      "eq"
-			what:    {initial: 2}
+			object:  {initial: 2}
 			target:  {initial: 4}
 		subject:   {initial: 2}
 		direct:    {initial: 4}
@@ -856,7 +856,7 @@ conditions:
 		when:
 			type:    "target"
 			op:      "eq"
-			what:    {initial: 2}
+			object:  {initial: 2}
 			target:  {initial: 0}
 		subject:   {initial: 2}
 		direct:    {initial: 0}
@@ -867,7 +867,7 @@ conditions:
 		when:
 			type:    "target"
 			op:      "eq"
-			what:    {initial: 5}
+			object:  {initial: 5}
 			target:  {initial: 0}
 		subject:   {initial: 5}
 		direct:    {initial: 0}
@@ -878,7 +878,7 @@ conditions:
 		when:
 			type:    "target"
 			op:      "eq"
-			what:    {initial: 6}
+			object:  {initial: 6}
 			target:  {initial: 0}
 		subject:   {initial: 6}
 		direct:    {initial: 0}

@@ -130,7 +130,7 @@ conditions:
 	*	when:
 			type:    "owner"
 			op:      "eq"
-			what:    {initial: 6}
+			object:  {initial: 6}
 			player:  0
 		subject:  {initial: 6}
 		direct:   {initial: 7}
@@ -143,7 +143,7 @@ conditions:
 	*	when:
 			type:    "owner"
 			op:      "eq"
-			what:    {initial: 6}
+			object:  {initial: 6}
 			player:  1
 		subject:  {initial: 6}
 		direct:   {initial: 7}
@@ -171,7 +171,7 @@ conditions:
 		when:
 			type:    "owner"
 			op:      "eq"
-			what:    {initial: 8}
+			object:  {initial: 8}
 			player:  0
 		subject:     {initial: 8}
 		action:
@@ -184,7 +184,7 @@ conditions:
 		when:
 			type:    "owner"
 			op:      "eq"
-			what:    {initial: 9}
+			object:  {initial: 9}
 			player:  1
 		subject:     {initial: 9}
 		action:

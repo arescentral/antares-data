@@ -27,10 +27,10 @@ initials:
 		at:    {x: 700, y: 0}
 conditions:
 	*	when:
-			type:   "destroyed"
-			op:     "eq"
-			what:   {initial: 0}
-			value:  true
+			type:    "destroyed"
+			op:      "eq"
+			object:  {initial: 0}
+			value:   true
 		action:
 			*	type:       "score"
 				reflexive:  true
@@ -45,10 +45,10 @@ conditions:
 				enable:  [0]
 			*	type:  "check"
 	*	when:
-			type:   "destroyed"
-			op:     "eq"
-			what:   {initial: 1}
-			value:  true
+			type:    "destroyed"
+			op:      "eq"
+			object:  {initial: 1}
+			value:   true
 		action:
 			*	type:       "score"
 				reflexive:  true

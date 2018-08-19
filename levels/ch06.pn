@@ -108,7 +108,7 @@ conditions:
 	*	when:
 			type:    "owner"
 			op:      "eq"
-			what:    {initial: 12}
+			object:  {initial: 12}
 			player:  1
 		subject:  {initial: 12}
 		action:
@@ -119,7 +119,7 @@ conditions:
 	*	when:
 			type:    "owner"
 			op:      "eq"
-			what:    {initial: 13}
+			object:  {initial: 13}
 			player:  0
 		subject:  {initial: 13}
 		action:

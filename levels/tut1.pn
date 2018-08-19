@@ -606,19 +606,19 @@ conditions:
 				enable:  [20]
 	*	disabled:  true
 		when:
-			type:   "destroyed"
-			op:     "eq"
-			what:   {initial: 7}
-			value:  true
+			type:    "destroyed"
+			op:      "eq"
+			object:  {initial: 7}
+			value:   true
 		action:
 			*	type:    "condition"
 				enable:  [21]
 	*	disabled:  true
 		when:
-			type:   "destroyed"
-			op:     "eq"
-			what:   {initial: 8}
-			value:  true
+			type:    "destroyed"
+			op:      "eq"
+			object:  {initial: 8}
+			value:   true
 		action:
 			*	type:       "win"
 				reflexive:  true

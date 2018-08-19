@@ -184,10 +184,10 @@ conditions:
 					>	You allowed too many of the human captives to die for this mission to be
 					>	considered a success.
 	*	when:
-			type:   "destroyed"
-			op:     "eq"
-			what:   {initial: 1}
-			value:  true
+			type:    "destroyed"
+			op:      "eq"
+			object:  {initial: 1}
+			value:   true
 		action:
 			*	type:       "win"
 				reflexive:  true
@@ -195,10 +195,10 @@ conditions:
 				text:
 					>	Without your modified destroyer, you can’t rescue the humans.
 	*	when:
-			type:   "speed"
-			op:     "lt"
-			what:   {initial: 1}
-			value:  5.0
+			type:    "speed"
+			op:      "lt"
+			object:  {initial: 1}
+			value:   5.0
 		subject:  {initial: 1}
 		action:
 			*	type:       "condition"

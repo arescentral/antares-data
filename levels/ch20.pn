@@ -175,10 +175,10 @@ initials:
 		target:  {initial: 14, lock: true}
 conditions:
 	*	when:
-			type:   "health"
-			op:     "le"
-			value:  0.5
-			what:   {initial: 2}
+			type:    "health"
+			op:      "le"
+			value:   0.5
+			object:  {initial: 2}
 		subject:  {initial: 2}
 		action:
 			*	type:       "message"
@@ -215,7 +215,7 @@ conditions:
 	*	when:
 			type:    "owner"
 			op:      "eq"
-			what:    {initial: 1}
+			object:  {initial: 1}
 			player:  0
 		subject:  {initial: 1}
 		action:

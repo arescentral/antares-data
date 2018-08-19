@@ -104,10 +104,10 @@ initials:
 		target:  {initial: 0}
 conditions:
 	*	when:
-			type:   "destroyed"
-			op:     "eq"
-			what:   {initial: 7}
-			value:  true
+			type:    "destroyed"
+			op:      "eq"
+			object:  {initial: 7}
+			value:   true
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -116,7 +116,7 @@ conditions:
 		when:
 			type:    "owner"
 			op:      "eq"
-			what:    {initial: 3}
+			object:  {initial: 3}
 			player:  0
 		subject:   {initial: 3}
 		action:
@@ -130,7 +130,7 @@ conditions:
 		when:
 			type:    "owner"
 			op:      "eq"
-			what:    {initial: 4}
+			object:  {initial: 4}
 			player:  0
 		subject:   {initial: 4}
 		action:
@@ -144,7 +144,7 @@ conditions:
 		when:
 			type:    "owner"
 			op:      "eq"
-			what:    {initial: 5}
+			object:  {initial: 5}
 			player:  0
 		subject:   {initial: 5}
 		action:
@@ -159,7 +159,7 @@ conditions:
 		when:
 			type:    "owner"
 			op:      "eq"
-			what:    {initial: 3}
+			object:  {initial: 3}
 			player:  1
 		subject:   {initial: 3}
 		action:
@@ -173,7 +173,7 @@ conditions:
 		when:
 			type:    "owner"
 			op:      "eq"
-			what:    {initial: 4}
+			object:  {initial: 4}
 			player:  1
 		subject:   {initial: 4}
 		action:
@@ -186,7 +186,7 @@ conditions:
 	*	when:
 			type:    "owner"
 			op:      "eq"
-			what:    {initial: 0}
+			object:  {initial: 0}
 			player:  1
 		subject:  {initial: 0}
 		action:

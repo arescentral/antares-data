@@ -124,20 +124,20 @@ conditions:
 				text:
 					>	Mission completed. You destroyed all four of the sensor relay dishes.
 	*	when:
-			type:   "destroyed"
-			op:     "eq"
-			what:   {initial: 1}
-			value:  true
+			type:    "destroyed"
+			op:      "eq"
+			object:  {initial: 1}
+			value:   true
 		action:
 			*	type:    "win"
 				player:  1
 				text:
 					>	You lost your heavy cruiser, failing to destroy all four relay dishes.
 	*	when:
-			type:   "destroyed"
-			op:     "eq"
-			what:   {initial: 17}
-			value:  true
+			type:    "destroyed"
+			op:      "eq"
+			object:  {initial: 17}
+			value:   true
 		action:
 			*	type:       "reveal"
 				reflexive:  true
