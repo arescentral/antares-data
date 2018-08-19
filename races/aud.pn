@@ -5,12 +5,3 @@ homeworld:  "Axis"
 numeric:    700
 hue:        "orange"
 advantage:  2.75
-ships:
-	evat:       "aud/evat"
-	fighter:    "aud/fighter"
-	cruiser:    "aud/cruiser"
-	gunship:    "aud/gunship"
-	hvd:        "aud/hvd"
-	carrier:    "aud/carrier"
-	transport:  "aud/transport"
-	aslttran:   "aud/aslttran"

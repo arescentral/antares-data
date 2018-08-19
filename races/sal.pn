@@ -5,12 +5,3 @@ homeworld:  "Salril"
 numeric:    600
 hue:        "gray"
 advantage:  2.5
-ships:
-	evat:       "sal/evat"
-	fighter:    "sal/fighter"
-	cruiser:    "sal/cruiser"
-	gunship:    "sal/gunship"
-	hvd:        "sal/hvd"
-	carrier:    "sal/carrier"
-	transport:  "sal/transport"
-	aslttran:   "sal/aslttran"

@@ -5,11 +5,3 @@ homeworld:  "Earth"
 numeric:    900
 hue:        "gray"
 advantage:  1.4
-ships:
-	fighter:    "uns/fighter"
-	cruiser:    "uns/cruiser"
-	gunship:    "uns/gunship"
-	hvd:        "uns/hvd"
-	carrier:    "uns/carrier"
-	transport:  "uns/transport"
-	aslttran:   "uns/aslttran"

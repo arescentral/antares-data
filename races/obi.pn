@@ -5,6 +5,3 @@ homeworld:  "Obain"
 numeric:    400
 hue:        "sky blue"
 advantage:  1.75
-ships:
-	escort:     "obi/escort"
-	transport:  "obi/transport"

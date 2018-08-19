@@ -5,5 +5,3 @@ homeworld:  "Elejee"
 numeric:    800
 hue:        "gold"
 advantage:  3.0
-ships:
-	cruiser:  "ele/cruiser"
