@@ -8,8 +8,10 @@ collide:
 	as:  {direct: false}
 ai:
 	combat:
-		engaged_if:  {reactivator: true}
-		evades:      false
-		evaded:      false
+		engaged:
+			if:
+				tags:  {reactivator: true}
+		evades:  false
+		evaded:  false
 shield_color:  null
 weapons:       null

@@ -43,8 +43,9 @@ collide:
 	edge:  true
 ai:
 	combat:
-		engages:     true
-		engages_if:  {normal: true}
-		evaded:      true
-		skill:       {num: 3, den: 21}
+		engages:
+			if:
+				tags:  {normal: true}
+		evaded:  true
+		skill:   {num: 3, den: 21}
 	escort:  {class: 9, power: 1.5}

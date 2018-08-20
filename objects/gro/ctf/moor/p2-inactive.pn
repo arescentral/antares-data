@@ -35,6 +35,7 @@ collide:
 	as:  {subject: true}
 ai:
 	combat:
-		engages:     true
-		engages_if:  {disabled: true}
+		engages:
+			if:
+				tags:  {disabled: true}
 	escort:  {class: -256}

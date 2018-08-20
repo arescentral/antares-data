@@ -10,7 +10,8 @@ target:        {hide: true}
 collide:       {damage: 10, edge: false}
 ai:
 	combat:
-		hated:       true
-		engaged:     true
-		engaged_if:  {miner: true}
+		hated:  true
+		engaged:
+			if:
+				tags:  {miner: true}
 	escort:  {need: 1.0}

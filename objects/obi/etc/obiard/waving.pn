@@ -40,6 +40,7 @@ collide:
 		*	type:  "check"
 ai:
 	combat:
-		engages:     true
-		engages_if:  {rescue: true}
-		skill:       {num: 3, den: 21}
+		engages:
+			if:
+				tags:  {rescue: true}
+		skill:  {num: 3, den: 21}

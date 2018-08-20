@@ -53,13 +53,14 @@ arrive:
 					value:  1
 ai:
 	combat:
-		hated:       true
-		engages:     true
-		engages_if:  {station: true}
-		engaged:     true
-		evades:      true
-		evaded:      true
-		skill:       {num: 3, den: 21}
+		hated:    true
+		engages:
+			if:
+				tags:  {station: true}
+		engaged:  true
+		evades:   true
+		evaded:   true
+		skill:    {num: 3, den: 21}
 	target:
 		prefer:
 			local:  true
