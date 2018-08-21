@@ -77,12 +77,10 @@ conditions:
 			op:        "ge"
 			duration:  "-3m59.85s"
 		action:
-			*	type:       "push"
+			*	type:       "stop"
 				reflexive:  true
 				override:
 					subject:  {initial: 0}
-				kind:       "set"
-				value:      0.0
 	*	persistent:  true
 		when:
 			type:     "score"

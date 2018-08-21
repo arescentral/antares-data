@@ -87,12 +87,10 @@ conditions:
 					*	"mouse"
 			*	type:   "zoom"
 				value:  "1:1"
-			*	type:       "push"
+			*	type:       "stop"
 				reflexive:  true
 				override:
 					subject:  {initial: 0}
-				kind:       "set"
-				value:      0.0
 			*	type:  "message"
 				id:    5700
 				pages:

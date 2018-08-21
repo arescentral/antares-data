@@ -39,10 +39,8 @@ destroy:
 		*	type:       "heal"
 			reflexive:  true
 			value:      1000
-		*	type:       "push"
+		*	type:       "stop"
 			reflexive:  true
-			kind:       "set"
-			value:      0.0
 		*	type:       "morph"
 			reflexive:  true
 			base:       "gro/ctf/cruiser/p2-inactive"

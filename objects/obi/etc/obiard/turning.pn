@@ -59,9 +59,9 @@ activate:
 			value:      {begin: -1.0, end: 0.0}
 		*	type:      "delay"
 			duration:  "20t"
-		*	type:       "push"
+		*	type:       "speed"
 			reflexive:  true
-			kind:       "boost"
+			relative:   true
 			value:      0.5
 		*	type:      "delay"
 			duration:  "4.5s"

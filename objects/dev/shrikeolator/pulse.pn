@@ -32,7 +32,6 @@ collide:
 			reflexive:  true
 			base:       "sfx/explosion/shrikeolator"
 		*	type:   "push"
-			kind:   "set"
 			value:  20.0
 		*	type:       "remove"
 			reflexive:  true

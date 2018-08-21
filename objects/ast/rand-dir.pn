@@ -24,9 +24,9 @@ destroy:
 			relative_direction:  true
 create:
 	action:
-		*	type:       "push"
+		*	type:       "speed"
 			reflexive:  true
-			kind:       "boost"
+			relative:   true
 			value:      0.0
 		*	type:                "create"
 			reflexive:           true

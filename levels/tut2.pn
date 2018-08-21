@@ -85,18 +85,14 @@ conditions:
 						|	the ship.
 						>
 						>	Use the mouse to click on this ship.
-			*	type:       "push"
+			*	type:       "stop"
 				reflexive:  true
 				override:
 					subject:  {initial: 0}
-				kind:       "set"
-				value:      0.0
-			*	type:       "push"
+			*	type:       "stop"
 				reflexive:  true
 				override:
 					subject:  {initial: 1}
-				kind:       "set"
-				value:      0.0
 			*	type:  "key"
 				disable:
 					*	"up"
@@ -932,12 +928,10 @@ conditions:
 					*	"up"
 					*	"down"
 					*	"send_message"
-			*	type:       "push"
+			*	type:       "stop"
 				reflexive:  true
 				override:
 					subject:  {initial: 0}
-				kind:       "set"
-				value:      0.0
 			*	type:  "message"
 				id:    5843
 				pages:

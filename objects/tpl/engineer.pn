@@ -52,10 +52,8 @@ arrive:
 				tags:   {flak: true}
 				owner:  "different"
 			of:
-				*	type:       "push"
+				*	type:       "stop"
 					reflexive:  true
-					kind:       "set"
-					value:      0.0
 				*	type:       "cap-speed"
 					reflexive:  true
 					value:      0.0

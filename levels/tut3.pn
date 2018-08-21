@@ -110,11 +110,9 @@ conditions:
 			op:        "ge"
 			duration:  "0s"
 		action:
-			*	type:   "push"
+			*	type:  "stop"
 				override:
 					subject:  {initial: 0}
-				kind:   "set"
-				value:  0.0
 			*	type:  "key"
 				disable:
 					*	"up"

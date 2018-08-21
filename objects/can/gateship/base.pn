@@ -34,10 +34,8 @@ destroy:
 	action:
 		*	type:       "target"
 			reflexive:  true
-		*	type:       "push"
+		*	type:       "stop"
 			reflexive:  true
-			kind:       "set"
-			value:      0.0
 		*	type:       "create"
 			reflexive:  true
 			base:       "sfx/jump/large"

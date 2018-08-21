@@ -19,9 +19,8 @@ expire:
 collide:
 	damage:  50
 	action:
-		*	type:   "push"
-			kind:   "decelerate"
-			value:  0.047
+		*	type:   "slow"
+			value:  0.953
 		*	type:                "create"
 			reflexive:           true
 			base:                "sfx/explosion/missile-hit"
