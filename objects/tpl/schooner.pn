@@ -1,7 +1,7 @@
 template:           "tpl/warship"
 long_name:          "Schooner"
 short_name:         "SCHOONER"
-class:              221
+class:              "schooner"
 health:             750
 energy:             1000
 price:              1000

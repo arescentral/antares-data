@@ -2,7 +2,7 @@ template:          "tpl/drone"
 long_name:         "Target Drone"
 short_name:        "TRGTDRNE"
 notes:             "Target Drone"
-class:             123
+class:             "123"
 race:              "ish"
 shield_color:      {r: 255, g: 255, b: 255}
 initial_velocity:  0.5

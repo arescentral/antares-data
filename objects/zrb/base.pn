@@ -2,7 +2,7 @@ template:      "tpl/drone"
 long_name:     "Zerbilite"
 short_name:    "ZRBILITE"
 notes:         "Zerbilite"
-class:         1
+class:         "1"
 health:        70
 shield_color:  {r: 240, g: 240, b: 120}
 mass:          0.098

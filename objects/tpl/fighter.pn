@@ -1,7 +1,7 @@
 template:      "tpl/warship"
 long_name:     "Fighter"
 short_name:    "FIGHTER"
-class:         100
+class:         "fighter"
 health:        100
 energy:        600
 price:         600

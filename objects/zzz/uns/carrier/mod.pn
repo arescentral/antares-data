@@ -1,7 +1,7 @@
 template:           "tpl/carrier"
 short_name:         "Carrier"
 notes:              "Modified"
-class:              501
+class:              "501"
 race:               "uns"
 shield_color:       {r: 255, g: 255, b: 255}
 build_time:         "50s"

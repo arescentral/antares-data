@@ -3,7 +3,7 @@ long_name:         "Cargo Ship"
 short_name:        "CARGO"
 notes:             "Cargo Ship"
 portrait:          "ish/etc/cargo"
-class:             811
+class:             "811"
 race:              "ish"
 health:            250
 shield_color:      {r: 255, g: 255, b: 255}

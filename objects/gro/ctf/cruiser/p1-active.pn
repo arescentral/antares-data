@@ -1,6 +1,6 @@
 template:           "tpl/cruiser"
 notes:              "Cruiser, Grolk for CTF, P1"
-class:              201
+class:              "201"
 race:               "gro"
 shield_color:       {r: 255, g: 255, b: 255}
 thrust:             0.027

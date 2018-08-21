@@ -2,7 +2,7 @@ template:           "tpl/animated"
 long_name:          "Target Drone Dead"
 short_name:         "TRGTDRNE"
 notes:              "Target Drone Dead"
-class:              123
+class:              "123"
 race:               "ish"
 health:             250
 energy:             600

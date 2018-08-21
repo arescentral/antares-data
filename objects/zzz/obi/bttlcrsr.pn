@@ -3,7 +3,7 @@ long_name:          "Battlecruiser"
 short_name:         "BTTLCRSR"
 notes:              "Battlecruiser"
 portrait:           "zzz/obi/bttlcrsr"
-class:              550
+class:              "550"
 race:               "obi"
 health:             6500
 shield_color:       {r: 255, g: 255, b: 255}

@@ -2,7 +2,7 @@ template:      "tpl/utilship"
 long_name:     "Engineer Pod"
 short_name:    "ENGINEER"
 tags:          {engineer: true, normal: null}
-class:         850
+class:         "engineer"
 health:        800
 energy:        200
 price:         800

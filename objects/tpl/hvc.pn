@@ -1,7 +1,7 @@
 template:           "tpl/warship"
 long_name:          "Heavy Cruiser"
 short_name:         "HVCRUISR"
-class:              250
+class:              "hvc"
 health:             1000
 energy:             1000
 price:              1500

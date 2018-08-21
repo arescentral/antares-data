@@ -2,7 +2,7 @@ template:      "tpl/drone"
 long_name:     "Zerbilite Spawn"
 short_name:    "ZERBLITE"
 notes:         "Zerbilite Spawn"
-class:         100
+class:         "fighter"
 health:        70
 shield_color:  {r: 240, g: 240, b: 120}
 mass:          0.098

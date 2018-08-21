@@ -2,7 +2,7 @@ template:      "tpl/utilship"
 long_name:     "SL Transport"
 short_name:    "TRANSPRT"
 notes:         "SL Transport"
-class:         801
+class:         "801"
 race:          "ish"
 health:        250
 shield_color:  {r: 255, g: 255, b: 255}

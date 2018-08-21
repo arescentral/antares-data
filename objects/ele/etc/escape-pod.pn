@@ -4,7 +4,7 @@ short_name:         "ESCPEPOD"
 notes:              "Escape Pod"
 tags:               {energizable: true}
 portrait:           "ele/etc/escape-pod"
-class:              801
+class:              "801"
 race:               "ele"
 health:             250
 shield_color:       {r: 255, g: 255, b: 255}

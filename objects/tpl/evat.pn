@@ -2,7 +2,7 @@ template:           "tpl/oriented"
 long_name:          "EVA Trooper"
 short_name:         "EVAT"
 tags:               {boarder: true, normal-attacker: null}
-class:              10
+class:              "evat"
 health:             10
 energy:             50
 mass:               0.008

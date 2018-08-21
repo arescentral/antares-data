@@ -3,7 +3,7 @@ long_name:         "Tractor Tug"
 short_name:        "TUG"
 notes:             "Tractor Tug"
 portrait:          "ish/etc/tug"
-class:             301
+class:             "301"
 race:              "ish"
 health:            700
 shield_color:      {r: 255, g: 255, b: 255}

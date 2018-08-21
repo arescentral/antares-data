@@ -1,6 +1,6 @@
 template:          "ish/cruiser"
 notes:             "Practice Active"
-class:             1803
+class:             "1803"
 initial_velocity:  0.0
 destroy:
 	die:  false

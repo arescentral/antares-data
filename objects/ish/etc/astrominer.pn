@@ -4,7 +4,7 @@ short_name:         "ASTROMNR"
 notes:              "Astrominer"
 tags:               {miner: true, normal-attacker: null}
 portrait:           "ish/etc/astrominer"
-class:              301
+class:              "301"
 race:               "ish"
 health:             700
 shield_color:       {r: 255, g: 255, b: 255}

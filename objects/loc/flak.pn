@@ -4,7 +4,7 @@ short_name:         "FLCKDRON"
 notes:              "Flak Drone"
 tags:               {flak: true, energizable: true, normal: null}
 portrait:           "loc/flak"
-class:              9999
+class:              "9999"
 health:             15000
 shield_color:       {r: 240, g: 240, b: 120}
 energy:             1000

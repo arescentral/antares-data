@@ -4,7 +4,7 @@ short_name:    "TRANSPRT"
 notes:         "Transport"
 tags:          {planet: true, normal: null}
 portrait:      "obi/transport"
-class:         800
+class:         "transport"
 race:          "obi"
 health:        2000
 shield_color:  {r: 255, g: 255, b: 255}

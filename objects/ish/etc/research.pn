@@ -3,7 +3,7 @@ long_name:     "Research Vessel"
 short_name:    "RESEARCH"
 notes:         "Research Vessel"
 portrait:      "ish/etc/research"
-class:         802
+class:         "802"
 race:          "ish"
 health:        1000
 shield_color:  {r: 255, g: 255, b: 255}

@@ -1,6 +1,6 @@
 template:  "uns/transport"
 notes:     "Transport -- special, for chapter 19"
-class:     1801
+class:     "1801"
 expire:
 	action:
 		*	type:       "score"

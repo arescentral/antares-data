@@ -3,7 +3,7 @@ long_name:          "Battleship"
 short_name:         "BTTLSHIP"
 notes:              "Battleship"
 portrait:           "baz/bttlship"
-class:              550
+class:              "550"
 race:               "baz"
 health:             6500
 shield_color:       {r: 255, g: 255, b: 255}

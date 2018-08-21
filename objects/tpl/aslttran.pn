@@ -1,7 +1,7 @@
 template:      "tpl/utilship"
 long_name:     "Assault Transport"
 short_name:    "ASLTTRAN"
-class:         860
+class:         "aslttran"
 health:        1200
 energy:        800
 price:         2000

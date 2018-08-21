@@ -3,7 +3,7 @@ long_name:          "Escort"
 short_name:         "ESCORT"
 notes:              "Escort"
 portrait:           "obi/escort"
-class:              400
+class:              "escort"
 race:               "obi"
 health:             1500
 shield_color:       {r: 255, g: 255, b: 255}

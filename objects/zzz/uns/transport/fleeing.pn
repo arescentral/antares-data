@@ -1,7 +1,7 @@
 template:      "tpl/transport"
 short_name:    "TRNSPORT"
 notes:         "Fleeing to Jump Gate"
-class:         1801
+class:         "1801"
 race:          "uns"
 shield_color:  {r: 255, g: 255, b: 255}
 rotation:

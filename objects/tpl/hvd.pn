@@ -1,7 +1,7 @@
 template:           "tpl/warship"
 long_name:          "Heavy Destroyer"
 short_name:         "HVDSTRYR"
-class:              450
+class:              "hvd"
 health:             2000
 energy:             2000
 price:              6500

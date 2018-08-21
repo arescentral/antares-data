@@ -2,7 +2,7 @@ template:      "tpl/utilship"
 long_name:     "Player 1's Flag"
 short_name:    "FLAG P1"
 notes:         "Flag, for CTF, P1"
-class:         221
+class:         "schooner"
 race:          "gro"
 health:        100000
 shield_color:  {r: 255, g: 255, b: 255}

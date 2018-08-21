@@ -2,7 +2,7 @@ template:          "ish/hvc"
 long_name:         "Modified Cruiser"
 short_name:        "MODCRSR"
 notes:             "Modified Cruiser"
-class:             260
+class:             "260"
 max_velocity:      10.0
 initial_velocity:  5.0
 weapons:

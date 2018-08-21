@@ -3,7 +3,7 @@ long_name:         "Luxury Liner"
 short_name:        "LUXLINER"
 notes:             "Luxury Liner"
 portrait:          "ele/etc/liner"
-class:             803
+class:             "803"
 race:              "ele"
 health:            250
 shield_color:      {r: 255, g: 255, b: 255}

@@ -1,7 +1,7 @@
 template:      "tpl/warship"
 long_name:     "Defense Drone"
 short_name:    "DEFDRONE"
-class:         600
+class:         "defdrone"
 health:        1500
 energy:        1000
 price:         1000

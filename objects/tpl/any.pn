@@ -2,7 +2,6 @@ long_name:          "Untitled"
 short_name:         "UNTITLED"
 notes:              "Untitled Object"
 tags:               {normal: true, normal-attacker: true}
-class:              -1
 health:             0
 energy:             0
 price:              0

@@ -2,7 +2,7 @@ template:          "tpl/ship"
 long_name:         "Kamikaze"
 short_name:        "KAMIKAZI"
 notes:             "Kamikaze"
-class:             99
+class:             "99"
 race:              "gai"
 health:            50
 shield_color:      {r: 240, g: 0, b: 0}

@@ -1,7 +1,7 @@
 template:      "tpl/utilship"
 long_name:     "Transport"
 short_name:    "TRANSPRT"
-class:         800
+class:         "transport"
 health:        250
 energy:        1000
 price:         800

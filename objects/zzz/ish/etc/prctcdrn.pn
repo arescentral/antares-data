@@ -2,7 +2,7 @@ template:          "tpl/drone"
 long_name:         "Practice Drone"
 short_name:        "PRCTCDRN"
 notes:             "Practice Drone"
-class:             1802
+class:             "1802"
 race:              "ish"
 shield_color:      {r: 255, g: 255, b: 255}
 initial_velocity:  0.5

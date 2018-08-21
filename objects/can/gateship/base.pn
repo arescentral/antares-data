@@ -2,7 +2,7 @@ template:           "tpl/capship"
 long_name:          "Gate Ship"
 short_name:         "GATESHIP"
 notes:              "Instead of dying, opens up jump gate & escapes (health 40000)"
-class:              550
+class:              "550"
 race:               "can"
 health:             40000
 shield_color:       {r: 255, g: 255, b: 255}

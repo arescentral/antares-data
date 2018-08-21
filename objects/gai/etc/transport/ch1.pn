@@ -1,5 +1,5 @@
 template:  "gai/transport"
-class:     801
+class:     "801"
 target:    {hide: true}
 destroy:
 	action:

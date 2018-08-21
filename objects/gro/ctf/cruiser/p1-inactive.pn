@@ -1,7 +1,7 @@
 template:      "gro/ctf/cruiser/p1-active"
 notes:         "Cruiser, for CTF, Player 1, Inactive"
 tags:          {disabled: true, reactivator: true, normal: null, normal-attacker: null, energizable: null}
-class:         203
+class:         "203"
 max_velocity:  0.0
 destroy:       {action: null}
 collide:
