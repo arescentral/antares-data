@@ -32,9 +32,8 @@ collide:
 			reflexive:           true
 			base:                "sfx/explosion/large-hit"
 			relative_direction:  true
-		*	type:   "push"
-			kind:   "collide"
-			value:  24.0
+		*	type:  "push"
+			kind:  "collide"
 		*	type:  "disable"
 			duration:
 				begin:  "-0.1s"
