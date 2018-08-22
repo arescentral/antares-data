@@ -1,11 +1,9 @@
-title:           "Ares"
-format:          20
-download_url:    "http://www.arescentral.com"
-author:          "Bigger Planet"
-author_url:      "http://www.biggerplanet.com"
-version:         "1.1.1"
-starmap:         "starmap"
-splash:          "splash"
+title:         "Ares"
+format:        20
+download_url:  "http://www.arescentral.com"
+author:        "Bigger Planet"
+author_url:    "http://www.biggerplanet.com"
+version:       "1.1.1"
 intro:
 	>	#+Blog/starfield/a
 	|	One hundred and fifty years ago, you left our planet.
@@ -171,7 +169,3 @@ about:
 	|	\i 
 	|	   Based on the original game 'Ares,' by Nathan Lamont.  Antares is not
 	|	      affiliated with or endorsed by Nathan Lamont or Bigger Planet.
-warp_in_flare:   "sfx/warp/in"
-warp_out_flare:  "sfx/warp/out"
-player_body:     "sfx/crew"
-energy_blob:     "sfx/energy"
