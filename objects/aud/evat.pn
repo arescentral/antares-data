@@ -4,7 +4,7 @@ race:          "aud"
 health:        100
 shield_color:  {r: 120, g: 120, b: 240}
 energy:        200
-price:         600
+price:         3.0
 build_time:    "3s"
 weapons:
 	beam:

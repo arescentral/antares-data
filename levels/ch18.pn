@@ -184,7 +184,7 @@ conditions:
 					subject:  {initial: 0}
 				player:     0
 			*	type:    "pay"
-				value:   10000.0
+				value:   50.0
 				player:  0
 	*	when:
 			type:      "time"

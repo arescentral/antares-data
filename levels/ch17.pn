@@ -117,7 +117,7 @@ conditions:
 						reflexive:  true
 						player:     1
 					*	type:    "pay"
-						value:   10000.0
+						value:   50.0
 						player:  1
 	*	when:
 			type:    "owner"

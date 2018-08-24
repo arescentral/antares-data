@@ -4,7 +4,7 @@ short_name:    "DEFDRONE"
 class:         "defdrone"
 health:        1500
 energy:        1000
-price:         1000
+price:         5.0
 build_time:    "5s"
 mass:          1.0
 turn_rate:     5.0

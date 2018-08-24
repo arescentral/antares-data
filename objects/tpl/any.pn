@@ -4,7 +4,7 @@ notes:              "Untitled Object"
 tags:               {normal: true, normal-attacker: true}
 health:             0
 energy:             0
-price:              0
+price:              0.0
 build_time:         "0s"
 occupy_count:       0
 mass:               0.0

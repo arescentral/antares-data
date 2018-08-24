@@ -8,7 +8,7 @@ race:              "ish"
 health:            250
 shield_color:      {r: 255, g: 255, b: 255}
 energy:            1000
-price:             800
+price:             4.0
 build_time:        "11s"
 mass:              1.098
 max_velocity:      3.0

@@ -3,7 +3,7 @@ long_name:          "Superlight Boosters"
 short_name:         "LGHTDRVE"
 notes:              "Superlight Boosters"
 health:             100
-price:              1000
+price:              5.0
 mass:               0.0
 max_velocity:       6.0
 thrust:             2.0

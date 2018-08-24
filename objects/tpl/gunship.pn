@@ -4,7 +4,7 @@ short_name:         "GUNSHIP"
 class:              "gunship"
 health:             3000
 energy:             2000
-price:              2200
+price:              11.0
 build_time:         "10s"
 mass:               1.2
 turn_rate:          1.2

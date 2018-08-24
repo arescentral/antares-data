@@ -8,7 +8,7 @@ race:               "can"
 health:             15000
 shield_color:       {r: 240, g: 240, b: 120}
 energy:             1000
-price:              1000
+price:              5.0
 mass:               1.0
 turn_rate:          5.0
 initial_direction:  {begin: 0, end: 360}

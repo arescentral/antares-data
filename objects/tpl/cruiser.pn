@@ -4,7 +4,7 @@ short_name:         "CRUISER"
 class:              "cruiser"
 health:             1000
 energy:             1000
-price:              1000
+price:              5.0
 build_time:         "5s"
 mass:               1.0
 max_velocity:       5.0

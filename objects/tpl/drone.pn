@@ -4,7 +4,7 @@ short_name:         "DRONE"
 tags:               {energizable: true}
 health:             250
 energy:             600
-price:              600
+price:              3.0
 build_time:         "3s"
 mass:               0.797
 turn_rate:          2.0

@@ -1,7 +1,7 @@
 template:      "tpl/ship"
 health:        5000
 energy:        5000
-price:         4500
+price:         22.5
 build_time:    "1m40s"
 mass:          2.0
 turn_rate:     1.0

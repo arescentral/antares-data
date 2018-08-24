@@ -7,7 +7,7 @@ race:          "gro"
 health:        100000
 shield_color:  {r: 255, g: 255, b: 255}
 energy:        1000
-price:         1000
+price:         5.0
 build_time:    "5s"
 mass:          1.0
 max_velocity:  3.0

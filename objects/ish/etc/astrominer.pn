@@ -9,7 +9,7 @@ race:               "ish"
 health:             700
 shield_color:       {r: 255, g: 255, b: 255}
 energy:             2000
-price:              800
+price:              4.0
 build_time:         "6s"
 mass:               1.2
 turn_rate:          0.797

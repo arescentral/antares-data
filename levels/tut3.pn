@@ -128,7 +128,7 @@ conditions:
 			*	type:   "zoom"
 				value:  "1:2"
 			*	type:    "pay"
-				value:   2500.0
+				value:   12.5
 				player:  0
 			*	type:  "message"
 				id:    5900
@@ -283,7 +283,7 @@ conditions:
 			page:    5
 		action:
 			*	type:    "pay"
-				value:   23437.5
+				value:   117.1875
 				player:  0
 	*	when:
 			type:    "message"
@@ -296,7 +296,7 @@ conditions:
 				override:
 					subject:  {initial: 0}
 					direct:   {initial: 0}
-				value:   -23437.5
+				value:   -117.1875
 				player:  0
 			*	type:    "select"
 				screen:  "build"
@@ -666,7 +666,7 @@ conditions:
 						reflexive:  true
 						value:      "1:16"
 			*	type:    "pay"
-				value:   -12800.0
+				value:   -64.0
 				player:  1
 			*	type:     "reveal"
 				initial:  [3]

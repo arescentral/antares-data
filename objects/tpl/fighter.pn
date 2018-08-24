@@ -4,7 +4,7 @@ short_name:    "FIGHTER"
 class:         "fighter"
 health:        100
 energy:        600
-price:         600
+price:         3.0
 build_time:    "3s"
 mass:          0.797
 turn_rate:     3.0

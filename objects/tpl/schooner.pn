@@ -4,7 +4,7 @@ short_name:         "SCHOONER"
 class:              "schooner"
 health:             750
 energy:             1000
-price:              1000
+price:              5.0
 build_time:         "16s40t"
 mass:               1.0
 turn_rate:          3.0
