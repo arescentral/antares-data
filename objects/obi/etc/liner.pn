@@ -1,4 +1,4 @@
-template:    "tpl/animated"
+template:    "tpl/waypoint"
 long_name:   "Passenger Liner"
 short_name:  "LINER"
 notes:       "Receives Hostages"
@@ -6,12 +6,12 @@ tags:        {rendezvous: true, normal: null}
 health:      1000
 animation:
 	sprite:  "obi/etc/liner"
+	layer:   2
 	scale:   2.0
 	frames:  {begin: 0.0, end: 15.004}
 icon:
 	shape:  "plus"
 	size:   7
-target:      {select: true}
 collide:     {damage: 1}
 ai:
 	escort:  {class: -256, power: -5.0, need: -5.0}

@@ -1,4 +1,4 @@
-template:    "tpl/animated"
+template:    "tpl/waypoint"
 long_name:   "U.N.S. Ares"
 short_name:  "UNSARES"
 notes:       "Ares for Shoplifter 2"
@@ -6,12 +6,12 @@ tags:        {rendezvous: true, normal: null}
 health:      1000
 animation:
 	sprite:  "uns/ares"
+	layer:   2
 	scale:   2.0
 	frames:  {begin: 0.0, end: 15.004}
 icon:
 	shape:  "plus"
 	size:   7
-target:      {select: true}
 collide:     {damage: 1}
 ai:
 	escort:  {class: -256, power: -5.0, need: -5.0}
