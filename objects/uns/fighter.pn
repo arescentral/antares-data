@@ -2,7 +2,7 @@ template:      "tpl/fighter"
 notes:         "Fighter"
 portrait:      "uns/fighter"
 race:          "uns"
-shield_color:  {r: 255, g: 255, b: 255}
+shield_color:  "white"
 thrust:        0.04
 weapons:
 	beam:

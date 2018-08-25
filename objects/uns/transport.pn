@@ -1,7 +1,7 @@
 template:      "tpl/transport"
 notes:         "Transport"
 race:          "uns"
-shield_color:  {r: 255, g: 255, b: 255}
+shield_color:  "white"
 rotation:
 	sprite:  "uns/transport"
 	frames:  {begin: 0, end: 24}

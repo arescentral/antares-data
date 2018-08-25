@@ -3,7 +3,7 @@ long_name:          "Light Cruiser"
 short_name:         "LGHTCRSR"
 notes:              "Light Cruiser, Grolk"
 race:               "gro"
-shield_color:       {r: 255, g: 255, b: 255}
+shield_color:       "white"
 thrust:             0.027
 warp_speed:         0.0
 warp_out_distance:  0

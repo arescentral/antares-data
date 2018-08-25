@@ -4,7 +4,7 @@ short_name:  "TRZRBEAM"
 notes:       "Trazer Beam"
 ray:
 	to:        "coord"
-	hue:       "pale purple"
+	hue:       "pale-purple"
 	accuracy:  50
 	range:     300
 expire:

@@ -6,7 +6,7 @@ portrait:           "obi/escort"
 class:              "escort"
 race:               "obi"
 health:             1500
-shield_color:       {r: 255, g: 255, b: 255}
+shield_color:       "white"
 energy:             1500
 price:              7.5
 build_time:         "10s"

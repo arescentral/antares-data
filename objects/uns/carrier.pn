@@ -2,7 +2,7 @@ template:           "tpl/carrier"
 notes:              "Carrier"
 portrait:           "uns/carrier"
 race:               "uns"
-shield_color:       {r: 255, g: 255, b: 255}
+shield_color:       "white"
 build_time:         "50s"
 warp_speed:         20.0
 warp_out_distance:  1185.9374

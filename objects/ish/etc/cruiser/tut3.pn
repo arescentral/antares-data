@@ -2,7 +2,7 @@ template:      "tpl/cruiser"
 notes:         "Cruiser -- for newtorial 3; adopts init ob # of score 0"
 class:         "267"
 race:          "ish"
-shield_color:  {r: 255, g: 255, b: 255}
+shield_color:  "white"
 build_time:    "15s"
 weapons:
 	pulse:

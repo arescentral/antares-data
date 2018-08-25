@@ -5,7 +5,7 @@ notes:              "Instead of dying, opens up jump gate & escapes (health 4000
 class:              "550"
 race:               "can"
 health:             40000
-shield_color:       {r: 255, g: 255, b: 255}
+shield_color:       "white"
 build_time:         "50s"
 warp_speed:         20.0
 warp_out_distance:  1185.9374

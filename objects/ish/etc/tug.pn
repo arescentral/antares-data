@@ -6,7 +6,7 @@ portrait:          "ish/etc/tug"
 class:             "301"
 race:              "ish"
 health:            700
-shield_color:      {r: 255, g: 255, b: 255}
+shield_color:      "white"
 energy:            2000
 price:             11.0
 mass:              1.2

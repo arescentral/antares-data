@@ -6,7 +6,7 @@ portrait:           "zzz/obi/bttlcrsr"
 class:              "550"
 race:               "obi"
 health:             6500
-shield_color:       {r: 255, g: 255, b: 255}
+shield_color:       "white"
 energy:             6500
 price:              30.0
 build_time:         "50s"

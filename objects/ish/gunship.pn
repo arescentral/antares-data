@@ -2,7 +2,7 @@ template:      "tpl/gunship"
 notes:         "Gunship"
 portrait:      "ish/gunship"
 race:          "ish"
-shield_color:  {r: 255, g: 255, b: 255}
+shield_color:  "white"
 weapons:
 	pulse:
 		base:  "dev/lepton/gun"

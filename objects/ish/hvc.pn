@@ -2,7 +2,7 @@ template:      "tpl/hvc"
 notes:         "Heavy Cruiser"
 portrait:      "ish/hvc"
 race:          "ish"
-shield_color:  {r: 255, g: 255, b: 255}
+shield_color:  "white"
 weapons:
 	pulse:
 		base:  "dev/fusion/rgun"

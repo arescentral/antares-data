@@ -1,7 +1,7 @@
 template:      "tpl/evat"
 notes:         "Gaitori Extra-vehicular Assault Trooper"
 race:          "gai"
-shield_color:  {r: 255, g: 255, b: 255}
+shield_color:  "white"
 price:         3.0
 build_time:    "3s"
 weapons:

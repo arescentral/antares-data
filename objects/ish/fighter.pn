@@ -2,7 +2,7 @@ template:      "tpl/fighter"
 notes:         "Fighter"
 portrait:      "ish/fighter"
 race:          "ish"
-shield_color:  {r: 255, g: 255, b: 255}
+shield_color:  "white"
 weapons:
 	beam:
 		base:  "dev/pk/ish/gun"

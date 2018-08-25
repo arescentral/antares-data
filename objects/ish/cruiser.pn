@@ -2,7 +2,7 @@ template:      "tpl/cruiser"
 notes:         "Development Notes"
 portrait:      "ish/cruiser"
 race:          "ish"
-shield_color:  {r: 255, g: 255, b: 255}
+shield_color:  "white"
 weapons:
 	pulse:
 		base:  "dev/fusion/gun"

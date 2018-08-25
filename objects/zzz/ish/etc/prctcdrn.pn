@@ -4,7 +4,7 @@ short_name:        "PRCTCDRN"
 notes:             "Practice Drone"
 class:             "1802"
 race:              "ish"
-shield_color:      {r: 255, g: 255, b: 255}
+shield_color:      "white"
 initial_velocity:  0.5
 animation:
 	sprite:     "ish/etc/trgtdrne"
