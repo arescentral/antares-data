@@ -3,7 +3,7 @@ notes:         "Fighter"
 portrait:      "aud/fighter"
 race:          "aud"
 health:        600
-shield_color:  {r: 120, g: 120, b: 240}
+shield_color:  {indigo: 240}
 weapons:
 	beam:
 		base:  "dev/asb/gun"

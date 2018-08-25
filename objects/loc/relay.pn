@@ -2,7 +2,7 @@ template:      "tpl/structure"
 long_name:     "Sensor Relay Station"
 short_name:    "RLAYSTTN"
 notes:         "Sensor Relay Station"
-shield_color:  {r: 240, g: 234, b: 195}
+shield_color:  {tan: 240}
 animation:
 	sprite:  "loc/relay"
 icon:          {size: 6}

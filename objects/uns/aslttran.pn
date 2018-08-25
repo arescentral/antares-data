@@ -1,7 +1,7 @@
 template:      "tpl/aslttran"
 notes:         "Human Assault Transport"
 race:          "uns"
-shield_color:  {r: 240, g: 240, b: 120}
+shield_color:  {gold: 240}
 weapons:
 	pulse:
 		base:  "dev/cm/five"

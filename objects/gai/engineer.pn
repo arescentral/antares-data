@@ -2,7 +2,7 @@ template:      "tpl/engineer"
 notes:         "Engineer Pod"
 portrait:      "gai/engineer"
 race:          "gai"
-shield_color:  {r: 240, g: 240, b: 120}
+shield_color:  {gold: 240}
 weapons:
 	beam:
 		base:  "dev/repulser/turret"

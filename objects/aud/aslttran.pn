@@ -2,7 +2,7 @@ template:      "tpl/aslttran"
 notes:         "Audemedon Assault Transport"
 portrait:      "aud/aslttran"
 race:          "aud"
-shield_color:  {r: 120, g: 120, b: 240}
+shield_color:  {indigo: 240}
 weapons:
 	pulse:
 		base:  "dev/amissile/launcher"

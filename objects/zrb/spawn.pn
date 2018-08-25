@@ -4,7 +4,7 @@ short_name:    "ZERBLITE"
 notes:         "Zerbilite Spawn"
 class:         "fighter"
 health:        70
-shield_color:  {r: 240, g: 240, b: 120}
+shield_color:  {gold: 240}
 mass:          0.098
 turn_rate:     0.0
 max_velocity:  6.0

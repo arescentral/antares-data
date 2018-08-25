@@ -6,7 +6,7 @@ tags:               {flak: true, energizable: true, normal: null}
 portrait:           "loc/flak"
 class:              "9999"
 health:             15000
-shield_color:       {r: 240, g: 240, b: 120}
+shield_color:       {gold: 240}
 energy:             1000
 price:              5.0
 mass:               1.0

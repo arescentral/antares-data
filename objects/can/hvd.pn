@@ -1,7 +1,7 @@
 template:      "tpl/hvd"
 notes:         "Heavy Destroyer"
 race:          "can"
-shield_color:  {r: 240, g: 240, b: 120}
+shield_color:  {gold: 240}
 weapons:
 	pulse:
 		base:  "dev/quasi/gun"

@@ -2,7 +2,7 @@ template:      "tpl/transport"
 notes:         "Transport"
 portrait:      "can/transport"
 race:          "can"
-shield_color:  {r: 240, g: 240, b: 120}
+shield_color:  {gold: 240}
 energy:        800
 rotation:
 	sprite:  "can/transport"

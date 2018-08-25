@@ -3,7 +3,7 @@ long_name:     "Massive Device"
 short_name:    "MASSDVCE"
 notes:         "Massive Device"
 health:        15000
-shield_color:  {r: 120, g: 120, b: 240}
+shield_color:  {indigo: 240}
 animation:
 	sprite:  "aud/etc/device"
 	scale:   2.0

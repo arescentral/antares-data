@@ -3,7 +3,7 @@ notes:              "Cruiser"
 portrait:           "aud/cruiser"
 race:               "aud"
 health:             1500
-shield_color:       {r: 120, g: 120, b: 240}
+shield_color:       {indigo: 240}
 turn_rate:          2.5
 max_velocity:       7.5
 initial_velocity:   5.0

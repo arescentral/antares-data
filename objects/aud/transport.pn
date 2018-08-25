@@ -1,7 +1,7 @@
 template:      "tpl/transport"
 notes:         "Transport"
 race:          "aud"
-shield_color:  {r: 240, g: 240, b: 120}
+shield_color:  {gold: 240}
 energy:        800
 rotation:
 	sprite:  "aud/transport"

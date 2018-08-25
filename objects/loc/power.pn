@@ -3,7 +3,7 @@ long_name:     "Power Station"
 short_name:    "POWERSTN"
 notes:         "Power Station"
 portrait:      "loc/power"
-shield_color:  {r: 240, g: 0, b: 0}
+shield_color:  {red: 240}
 animation:
 	sprite:  "loc/power"
 icon:          {size: 6}

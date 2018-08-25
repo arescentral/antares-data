@@ -1,7 +1,7 @@
 template:      "tpl/carrier"
 notes:         "Carrier"
 race:          "gai"
-shield_color:  {r: 240, g: 240, b: 120}
+shield_color:  {gold: 240}
 build_time:    "50s"
 weapons:
 	pulse:

@@ -3,7 +3,7 @@ notes:              "Gunship"
 portrait:           "aud/gunship"
 race:               "aud"
 health:             3700
-shield_color:       {r: 120, g: 120, b: 240}
+shield_color:       {indigo: 240}
 energy:             1000
 price:              7.5
 mass:               1.4

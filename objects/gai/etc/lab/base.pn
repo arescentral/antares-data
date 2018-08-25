@@ -2,7 +2,7 @@ template:      "tpl/structure"
 long_name:     "Lab"
 short_name:    "LAB"
 notes:         "Gaitori, Fresh (Not Burning)"
-shield_color:  {r: 240, g: 0, b: 0}
+shield_color:  {red: 240}
 animation:
 	sprite:  "gai/etc/lab"
 icon:          {size: 6}

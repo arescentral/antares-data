@@ -3,7 +3,7 @@ notes:              "Cruiser"
 portrait:           "ele/cruiser"
 race:               "ele"
 health:             1500
-shield_color:       {r: 0, g: 120, b: 240}
+shield_color:       {sky-blue: 240}
 turn_rate:          2.5
 max_velocity:       7.5
 initial_velocity:   5.0

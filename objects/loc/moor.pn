@@ -3,7 +3,7 @@ long_name:     "Tractor Moor"
 short_name:    "MOOR"
 notes:         "Tractor Moor"
 portrait:      "loc/moor"
-shield_color:  {r: 240, g: 0, b: 0}
+shield_color:  {red: 240}
 animation:
 	sprite:     "loc/moor"
 	frames:     {begin: 0.0, end: 11.004}

@@ -3,7 +3,7 @@ notes:         "Gunship"
 portrait:      "gai/gunship"
 race:          "gai"
 health:        650
-shield_color:  {r: 240, g: 234, b: 195}
+shield_color:  {tan: 240}
 energy:        1000
 price:         7.5
 mass:          1.4
