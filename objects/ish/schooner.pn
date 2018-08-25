@@ -2,7 +2,6 @@ template:      "tpl/schooner"
 notes:         "Schooner"
 race:          "ish"
 shield_color:  "white"
-build_time:    "5s"
 weapons:
 	beam:
 		base:  "dev/pk/ish/gun"

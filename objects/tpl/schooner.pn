@@ -5,7 +5,7 @@ class:              "schooner"
 health:             750
 energy:             1000
 price:              5.0
-build_time:         "16s40t"
+build_time:         "5s"
 mass:               1.0
 turn_rate:          3.0
 max_velocity:       7.0

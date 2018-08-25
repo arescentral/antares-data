@@ -3,7 +3,6 @@ notes:         "Schooner"
 portrait:      "can/schooner"
 race:          "can"
 shield_color:  "white"
-build_time:    "5s"
 weapons:
 	beam:
 		base:  "dev/pk/can/gun"
