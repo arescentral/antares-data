@@ -6,7 +6,7 @@ items:
 		label:    "Begin"
 		key:      "RTRN"
 		gamepad:  "A"
-		hue:      "pale green"
+		hue:      "pale-green"
 		style:    "large"
 	*	type:     "button"
 		id:       1

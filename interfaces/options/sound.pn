@@ -17,20 +17,20 @@ items:
 		bounds:   {left: 397, top: 111, right: 557, bottom: 121}
 		label:    "Volume Up"
 		gamepad:  "UP"
-		hue:      "pale purple"
+		hue:      "pale-purple"
 		style:    "large"
 	*	type:     "button"
 		id:       3
 		bounds:   {left: 397, top: 176, right: 557, bottom: 186}
 		label:    "Volume Down"
 		gamepad:  "DOWN"
-		hue:      "pale purple"
+		hue:      "pale-purple"
 		style:    "large"
 	*	type:    "checkbox"
 		id:      4
 		bounds:  {left: 100, top: 176, right: 300, bottom: 186}
 		label:   "Speak Network Messages"
-		hue:     "sky blue"
+		hue:     "sky-blue"
 		style:   "large"
 	*	type:     "button"
 		id:       5
@@ -46,7 +46,7 @@ items:
 		label:    "Done"
 		key:      "RTRN"
 		gamepad:  "A"
-		hue:      "pale green"
+		hue:      "pale-green"
 		style:    "large"
 	*	type:    "button"
 		id:      7
@@ -72,11 +72,11 @@ items:
 	*	type:    "rect"
 		bounds:  {left: 53, top: 92, right: 588, bottom: 293}
 		label:   "Sound Options"
-		hue:     "pale purple"
+		hue:     "pale-purple"
 		style:   "large"
 	*	type:    "rect"
 		id:      13
 		bounds:  {left: 73, top: 235, right: 567, bottom: 276}
 		label:   "Volume"
-		hue:     "pale purple"
+		hue:     "pale-purple"
 		style:   "small"

@@ -33,5 +33,5 @@ items:
 		label:    "Resume"
 		key:      "ESC"
 		gamepad:  "A"
-		hue:      "pale green"
+		hue:      "pale-green"
 		style:    "large"
