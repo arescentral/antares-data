@@ -3,11 +3,11 @@ long_name:   "Rap F Pulse React"
 short_name:  "RF PULSE"
 notes:       "Rap F Pulse React"
 device:
-	fire_time:      "13t"
-	ammo:           150
-	range:          78400
-	inverse_speed:  0.14
-	restock_cost:   12
+	fire_time:     "13t"
+	ammo:          150
+	range:         78400
+	speed:         7.1
+	restock_cost:  12
 activate:
 	action:
 		*	type:                "create"

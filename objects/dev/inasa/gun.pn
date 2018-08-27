@@ -3,9 +3,9 @@ long_name:   "Inasa Pulse Gun"
 short_name:  "INSAPLSE"
 notes:       "Inasa Pulse Gun"
 device:
-	fire_time:      "23t"
-	range:          810000
-	inverse_speed:  0.047
+	fire_time:  "23t"
+	range:      810000
+	speed:      21.0
 activate:
 	action:
 		*	type:         "play"

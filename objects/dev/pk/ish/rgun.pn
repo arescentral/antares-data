@@ -3,10 +3,10 @@ long_name:   "Rapid P-K Cannon"
 short_name:  "PKBEAM 2"
 notes:       "Rapid P-K Cannon"
 device:
-	energy_cost:    5
-	fire_time:      "7t"
-	range:          50625
-	inverse_speed:  0.066
+	energy_cost:  5
+	fire_time:    "7t"
+	range:        50625
+	speed:        15.0
 activate:
 	action:
 		*	type:                "create"

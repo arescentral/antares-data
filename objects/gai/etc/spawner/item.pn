@@ -3,10 +3,10 @@ long_name:   "Enemy Object Wpn"
 short_name:  "ENOBJWPN"
 notes:       "Gaitor"
 device:
-	usage:          {attacking: true, defense: true}
-	direction:      "omni"
-	ammo:           10
-	inverse_speed:  0.137
+	usage:      {attacking: true, defense: true}
+	direction:  "omni"
+	ammo:       10
+	speed:      7.3
 activate:
 	action:
 		*	type:               "create"

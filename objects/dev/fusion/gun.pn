@@ -3,11 +3,11 @@ long_name:   "F Pulse Reactor"
 short_name:  "F PULSE"
 notes:       "F Pulse Reactor"
 device:
-	fire_time:      "35t"
-	ammo:           50
-	range:          78400
-	inverse_speed:  8388607.996
-	restock_cost:   24
+	fire_time:     "35t"
+	ammo:          50
+	range:         78400
+	speed:         1.192092896e-07
+	restock_cost:  24
 activate:
 	action:
 		*	type:                "create"

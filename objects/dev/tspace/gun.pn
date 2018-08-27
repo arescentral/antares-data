@@ -3,12 +3,12 @@ long_name:   "T-Space Bolt Rod"
 short_name:  "TRNSBOLT"
 notes:       "Trans-Spacial Bolt Firing Rod"
 device:
-	usage:          {attacking: true, defense: true}
-	direction:      "omni"
-	energy_cost:    50
-	fire_time:      "1s"
-	range:          810000
-	inverse_speed:  0.047
+	usage:        {attacking: true, defense: true}
+	direction:    "omni"
+	energy_cost:  50
+	fire_time:    "1s"
+	range:        810000
+	speed:        21.0
 activate:
 	action:
 		*	type:         "play"

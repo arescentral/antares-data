@@ -3,11 +3,11 @@ long_name:   "Twin Pulse Cannon"
 short_name:  "TWNPPULS"
 notes:       "Twin Pulse Cannon"
 device:
-	fire_time:      "25t"
-	ammo:           110
-	range:          270400
-	inverse_speed:  8388607.996
-	restock_cost:   36
+	fire_time:     "25t"
+	ammo:          110
+	range:         270400
+	speed:         1.192092896e-07
+	restock_cost:  36
 activate:
 	action:
 		*	type:                "create"

@@ -3,11 +3,11 @@ long_name:   "Rap A Pulse React"
 short_name:  "RPAPULSE"
 notes:       "Rap A Pulse React"
 device:
-	fire_time:      "16t"
-	ammo:           150
-	range:          78400
-	inverse_speed:  8388607.996
-	restock_cost:   24
+	fire_time:     "16t"
+	ammo:          150
+	range:         78400
+	speed:         1.192092896e-07
+	restock_cost:  24
 activate:
 	action:
 		*	type:                "create"

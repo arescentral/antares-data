@@ -3,11 +3,11 @@ long_name:   "C Missiles(5)"
 short_name:  "CMISSILE"
 notes:       "C Missiles(5)"
 device:
-	fire_time:      "2s"
-	ammo:           5
-	range:          2073600
-	inverse_speed:  0.11
-	restock_cost:   64
+	fire_time:     "2s"
+	ammo:          5
+	range:         2073600
+	speed:         9.0
+	restock_cost:  64
 activate:
 	action:
 		*	type:                "create"

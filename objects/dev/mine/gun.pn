@@ -3,9 +3,9 @@ long_name:   "Lightwave Cannon"
 short_name:  "L PULSE"
 notes:       "Lightwave Cannon"
 device:
-	fire_time:      "8t"
-	range:          32400
-	inverse_speed:  0.11
+	fire_time:  "8t"
+	range:      32400
+	speed:      9.0
 activate:
 	action:
 		*	type:                "create"

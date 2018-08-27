@@ -3,10 +3,10 @@ long_name:   "Hand PK Beam"
 short_name:  "HANDBEAM"
 notes:       "Hand PK Beam"
 device:
-	energy_cost:    10
-	fire_time:      "20t"
-	range:          22500
-	inverse_speed:  0.098
+	energy_cost:  10
+	fire_time:    "20t"
+	range:        22500
+	speed:        10.2
 activate:
 	action:
 		*	type:                "create"

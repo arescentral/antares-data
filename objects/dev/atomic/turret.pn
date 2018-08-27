@@ -3,11 +3,11 @@ long_name:   "Atomic Pulse Gun"
 short_name:  "ATOMPLSE"
 notes:       "Atomic Pulse Gun"
 device:
-	fire_time:      "4s"
-	ammo:           100
-	range:          4618201
-	inverse_speed:  0.14
-	restock_cost:   80
+	fire_time:     "4s"
+	ammo:          100
+	range:         4618201
+	speed:         7.1
+	restock_cost:  80
 activate:
 	action:
 		*	type:                "create"

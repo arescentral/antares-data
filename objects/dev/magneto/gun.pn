@@ -3,11 +3,11 @@ long_name:   "Magneto Pulse Gun"
 short_name:  "MGNTOPLS"
 notes:       "Magneto Pulse Gun"
 device:
-	fire_time:      "0.3s"
-	ammo:           200
-	range:          90000
-	inverse_speed:  0.098
-	restock_cost:   24
+	fire_time:     "0.3s"
+	ammo:          200
+	range:         90000
+	speed:         10.2
+	restock_cost:  24
 activate:
 	action:
 		*	type:         "play"

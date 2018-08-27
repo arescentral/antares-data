@@ -3,9 +3,9 @@ long_name:   "Flak Artillery"
 short_name:  "FLAKART"
 notes:       "Flak Artillery"
 device:
-	fire_time:      "0.25s"
-	range:          810000
-	inverse_speed:  0.066
+	fire_time:  "0.25s"
+	range:      810000
+	speed:      15.0
 activate:
 	action:
 		*	type:                "create"

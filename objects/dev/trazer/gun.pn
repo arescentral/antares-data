@@ -3,12 +3,12 @@ long_name:   "Trazer Cannon"
 short_name:  "TRAZER"
 notes:       "Trazer Cannon"
 device:
-	usage:          {attacking: true, defense: true}
-	direction:      "omni"
-	energy_cost:    50
-	fire_time:      "0.5s"
-	range:          50625
-	inverse_speed:  0.066
+	usage:        {attacking: true, defense: true}
+	direction:    "omni"
+	energy_cost:  50
+	fire_time:    "0.5s"
+	range:        50625
+	speed:        15.0
 activate:
 	action:
 		*	type:         "play"

@@ -3,10 +3,10 @@ long_name:   "Assault Team"
 short_name:  "ASLTTEAM"
 notes:       "Salrilian Assault Team"
 device:
-	fire_time:      "4s"
-	ammo:           2
-	range:          2073600
-	inverse_speed:  0.11
+	fire_time:  "4s"
+	ammo:       2
+	range:      2073600
+	speed:      9.0
 activate:
 	action:
 		*	type:         "play"

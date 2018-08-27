@@ -3,11 +3,11 @@ long_name:   "R-Plasma Launcher"
 short_name:  "RPLASMA"
 notes:       "R-Plasma Launcher"
 device:
-	fire_time:      "26t"
-	ammo:           150
-	range:          2073600
-	inverse_speed:  0.11
-	restock_cost:   18
+	fire_time:     "26t"
+	ammo:          150
+	range:         2073600
+	speed:         9.0
+	restock_cost:  18
 activate:
 	action:
 		*	type:                "create"

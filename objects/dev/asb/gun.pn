@@ -3,10 +3,10 @@ long_name:   "ASB Beam Cannon"
 short_name:  "ASB BEAM"
 notes:       "ASB Beam Cannon"
 device:
-	energy_cost:    10
-	fire_time:      "20t"
-	range:          360000
-	inverse_speed:  0.047
+	energy_cost:  10
+	fire_time:    "20t"
+	range:        360000
+	speed:        21.0
 activate:
 	action:
 		*	type:         "play"

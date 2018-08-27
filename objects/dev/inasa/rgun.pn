@@ -3,9 +3,9 @@ long_name:   "Rapid Inasa Pulse"
 short_name:  "RAPDINSA"
 notes:       "Rapid Inasa Pulse Gun"
 device:
-	fire_time:      "13t"
-	range:          810000
-	inverse_speed:  0.047
+	fire_time:  "13t"
+	range:      810000
+	speed:      21.0
 activate:
 	action:
 		*	type:         "play"

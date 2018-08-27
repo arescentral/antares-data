@@ -3,10 +3,10 @@ long_name:   "Laser Turret"
 short_name:  "LSRTURRT"
 notes:       "Laser Turret"
 device:
-	energy_cost:    10
-	fire_time:      "10t"
-	range:          202500
-	inverse_speed:  0.066
+	energy_cost:  10
+	fire_time:    "10t"
+	range:        202500
+	speed:        15.0
 activate:
 	action:
 		*	type:         "play"

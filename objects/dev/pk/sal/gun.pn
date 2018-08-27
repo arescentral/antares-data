@@ -3,10 +3,10 @@ long_name:   "LRPK Beam Cannon"
 short_name:  "LRPKBEAM"
 notes:       "LRPK Beam Cannon"
 device:
-	energy_cost:    10
-	fire_time:      "16t"
-	range:          1562500
-	inverse_speed:  0.04
+	energy_cost:  10
+	fire_time:    "16t"
+	range:        1562500
+	speed:        25.0
 activate:
 	action:
 		*	type:         "play"

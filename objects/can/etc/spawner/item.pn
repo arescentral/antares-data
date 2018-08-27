@@ -3,10 +3,10 @@ long_name:   "Enemy Shooter Wpn"
 short_name:  "ENSHTWPN"
 notes:       "Enemy Shooter Wpn"
 device:
-	usage:          {attacking: true, defense: true}
-	direction:      "omni"
-	ammo:           5
-	inverse_speed:  0.137
+	usage:      {attacking: true, defense: true}
+	direction:  "omni"
+	ammo:       5
+	speed:      7.3
 activate:
 	action:
 		*	type:       "create"

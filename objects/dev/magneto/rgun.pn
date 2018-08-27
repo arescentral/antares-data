@@ -3,11 +3,11 @@ long_name:   "Rapid Magneto"
 short_name:  "MGNTOPLS"
 notes:       "Rapid Magneto"
 device:
-	fire_time:      "0.1s"
-	ammo:           500
-	range:          90000
-	inverse_speed:  0.098
-	restock_cost:   30
+	fire_time:     "0.1s"
+	ammo:          500
+	range:         90000
+	speed:         10.2
+	restock_cost:  30
 activate:
 	action:
 		*	type:         "play"

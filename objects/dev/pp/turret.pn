@@ -3,10 +3,10 @@ long_name:   "ProtoPulse Cannon"
 short_name:  "PULSCANN"
 notes:       "ProtoPulse Cannon"
 device:
-	fire_time:      "25t"
-	ammo:           100
-	range:          270400
-	inverse_speed:  0.066
+	fire_time:  "25t"
+	ammo:       100
+	range:      270400
+	speed:      15.0
 activate:
 	action:
 		*	type:                "create"

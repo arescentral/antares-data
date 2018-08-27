@@ -3,11 +3,11 @@ long_name:   "Phtorctr Pls Cann"
 short_name:  "PHTOPULS"
 notes:       "Photoreactor Pulse Cannon"
 device:
-	fire_time:      "10t"
-	ammo:           150
-	range:          810000
-	inverse_speed:  0.066
-	restock_cost:   30
+	fire_time:     "10t"
+	ammo:          150
+	range:         810000
+	speed:         15.0
+	restock_cost:  30
 activate:
 	action:
 		*	type:         "play"

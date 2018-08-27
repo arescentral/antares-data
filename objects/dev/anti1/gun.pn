@@ -3,11 +3,11 @@ long_name:   "Antimatter Pulse Reactor"
 short_name:  "APULSE 1"
 notes:       "Antimatter Pulse Reactor"
 device:
-	fire_time:      "1s"
-	ammo:           50
-	range:          78400
-	inverse_speed:  0.14
-	restock_cost:   24
+	fire_time:     "1s"
+	ammo:          50
+	range:         78400
+	speed:         7.1
+	restock_cost:  24
 activate:
 	action:
 		*	type:                "create"

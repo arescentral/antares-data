@@ -3,12 +3,12 @@ long_name:   "Repulser"
 short_name:  "REPULSER"
 notes:       "Rupulser"
 device:
-	usage:          {attacking: true, defense: true}
-	direction:      "omni"
-	energy_cost:    40
-	fire_time:      "25t"
-	range:          202500
-	inverse_speed:  0.066
+	usage:        {attacking: true, defense: true}
+	direction:    "omni"
+	energy_cost:  40
+	fire_time:    "25t"
+	range:        202500
+	speed:        15.0
 activate:
 	action:
 		*	type:                "create"

@@ -3,11 +3,11 @@ long_name:   "Plasma Ball"
 short_name:  "PLASMA"
 notes:       "Plasma Ball, Fireball"
 device:
-	fire_time:      "25t"
-	ammo:           50
-	range:          291600
-	inverse_speed:  0.082
-	restock_cost:   3
+	fire_time:     "25t"
+	ammo:          50
+	range:         291600
+	speed:         12.0
+	restock_cost:  3
 activate:
 	action:
 		*	type:                "create"

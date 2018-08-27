@@ -3,12 +3,12 @@ long_name:   "Launching Bay"
 short_name:  "LAUNCHBY"
 notes:       "Launching Bay"
 device:
-	usage:          {attacking: true, defense: true}
-	direction:      "omni"
-	fire_time:      "3s20t"
-	ammo:           10
-	range:          100000
-	inverse_speed:  0.137
+	usage:      {attacking: true, defense: true}
+	direction:  "omni"
+	fire_time:  "3s20t"
+	ammo:       10
+	range:      100000
+	speed:      7.3
 activate:
 	action:
 		*	type:         "play"

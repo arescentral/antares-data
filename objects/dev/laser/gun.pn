@@ -3,10 +3,10 @@ long_name:   "Laser Cannon"
 short_name:  "LASER"
 notes:       "Laser Cannon"
 device:
-	energy_cost:    10
-	fire_time:      "20t"
-	range:          50625
-	inverse_speed:  0.066
+	energy_cost:  10
+	fire_time:    "20t"
+	range:        50625
+	speed:        15.0
 activate:
 	action:
 		*	type:                "create"
