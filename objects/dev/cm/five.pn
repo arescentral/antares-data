@@ -5,7 +5,7 @@ notes:       "C Missiles(5)"
 device:
 	fire_time:     "2s"
 	ammo:          5
-	range:         2073600
+	range:         1440.0
 	speed:         9.0
 	restock_cost:  64
 activate:

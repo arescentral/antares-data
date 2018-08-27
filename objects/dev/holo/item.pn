@@ -5,7 +5,7 @@ notes:       "Holo Generator"
 device:
 	usage:      {defense: true}
 	fire_time:  "2s"
-	range:      810000
+	range:      900.0
 	speed:      21.0
 activate:
 	action:

@@ -5,7 +5,7 @@ notes:       "Rap F Pulse React"
 device:
 	fire_time:     "13t"
 	ammo:          150
-	range:         78400
+	range:         280.0
 	speed:         7.1
 	restock_cost:  12
 activate:

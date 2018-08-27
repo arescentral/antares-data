@@ -7,7 +7,7 @@ device:
 	direction:    "omni"
 	energy_cost:  40
 	fire_time:    "25t"
-	range:        202500
+	range:        450.0
 	speed:        15.0
 activate:
 	action:

@@ -5,7 +5,7 @@ notes:       "Antimatter Pulse Reactor Type II"
 device:
 	fire_time:     "50t"
 	ammo:          50
-	range:         90000
+	range:         300.0
 	speed:         6.1
 	restock_cost:  24
 activate:

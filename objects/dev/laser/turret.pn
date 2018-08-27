@@ -5,7 +5,7 @@ notes:       "Laser Turret"
 device:
 	energy_cost:  10
 	fire_time:    "10t"
-	range:        202500
+	range:        450.0
 	speed:        15.0
 activate:
 	action:

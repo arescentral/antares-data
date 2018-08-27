@@ -5,7 +5,7 @@ notes:       "Protopulse 2 Gun"
 device:
 	fire_time:     "0.25s"
 	ammo:          250
-	range:         270400
+	range:         520.0
 	speed:         13.5
 	restock_cost:  12
 activate:

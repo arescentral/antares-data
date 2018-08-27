@@ -4,7 +4,7 @@ short_name:  "RCTVTR"
 notes:       "Reactivator, for CTF, P2"
 device:
 	fire_time:     "1s10t"
-	range:         2073600
+	range:         1440.0
 	speed:         9.0
 	restock_cost:  0
 activate:

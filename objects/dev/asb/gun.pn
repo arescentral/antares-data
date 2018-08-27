@@ -5,7 +5,7 @@ notes:       "ASB Beam Cannon"
 device:
 	energy_cost:  10
 	fire_time:    "20t"
-	range:        360000
+	range:        600.0
 	speed:        21.0
 activate:
 	action:

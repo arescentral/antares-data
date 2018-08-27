@@ -7,7 +7,7 @@ device:
 	direction:  "omni"
 	fire_time:  "1s40t"
 	ammo:       10
-	range:      100000
+	range:      316.229
 	speed:      7.3
 activate:
 	action:

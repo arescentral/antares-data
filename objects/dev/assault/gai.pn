@@ -5,7 +5,7 @@ notes:       "Gaitori Assault Team"
 device:
 	fire_time:  "4s"
 	ammo:       2
-	range:      2073600
+	range:      1440.0
 	speed:      9.0
 activate:
 	action:

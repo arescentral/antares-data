@@ -5,7 +5,7 @@ notes:       "Hand PK Beam"
 device:
 	energy_cost:  10
 	fire_time:    "20t"
-	range:        22500
+	range:        150.0
 	speed:        10.2
 activate:
 	action:

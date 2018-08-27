@@ -4,7 +4,7 @@ short_name:  "Z BEAM"
 notes:       "Z Beam Cannon"
 device:
 	fire_time:  "17t"
-	range:      270400
+	range:      520.0
 	speed:      13.5
 activate:
 	action:

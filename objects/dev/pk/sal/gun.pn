@@ -5,7 +5,7 @@ notes:       "LRPK Beam Cannon"
 device:
 	energy_cost:  10
 	fire_time:    "16t"
-	range:        1562500
+	range:        1250.0
 	speed:        25.0
 activate:
 	action:

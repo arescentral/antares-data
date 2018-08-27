@@ -5,7 +5,7 @@ notes:       "Magno Launcher"
 device:
 	fire_time:     "2s5t"
 	ammo:          150
-	range:         2073600
+	range:         1440.0
 	speed:         9.0
 	restock_cost:  30
 activate:

@@ -5,7 +5,7 @@ notes:       "ProtoPulse Cannon"
 device:
 	fire_time:  "25t"
 	ammo:       100
-	range:      270400
+	range:      520.0
 	speed:      15.0
 activate:
 	action:

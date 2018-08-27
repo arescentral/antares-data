@@ -5,7 +5,7 @@ notes:       "Atomic Pulse Gun"
 device:
 	fire_time:     "4s"
 	ammo:          100
-	range:         4618201
+	range:         2149.0
 	speed:         7.1
 	restock_cost:  80
 activate:

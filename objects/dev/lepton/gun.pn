@@ -5,7 +5,7 @@ notes:       "Lepton Beam Cannon"
 device:
 	energy_cost:  10
 	fire_time:    "8t"
-	range:        160000
+	range:        400.0
 	speed:        21.0
 activate:
 	action:

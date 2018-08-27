@@ -5,7 +5,7 @@ notes:       "C Missile Launch"
 device:
 	fire_time:     "1s10t"
 	ammo:          150
-	range:         2073600
+	range:         1440.0
 	speed:         9.0
 	restock_cost:  64
 activate:

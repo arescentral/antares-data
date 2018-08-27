@@ -5,7 +5,7 @@ notes:       "Plasma Ball, Fireball"
 device:
 	fire_time:     "25t"
 	ammo:          50
-	range:         291600
+	range:         540.0
 	speed:         12.0
 	restock_cost:  3
 activate:

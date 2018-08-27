@@ -4,7 +4,7 @@ short_name:  "L PULSE"
 notes:       "Lightwave Cannon"
 device:
 	fire_time:  "8t"
-	range:      32400
+	range:      180.0
 	speed:      9.0
 activate:
 	action:

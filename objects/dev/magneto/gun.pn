@@ -5,7 +5,7 @@ notes:       "Magneto Pulse Gun"
 device:
 	fire_time:     "0.3s"
 	ammo:          200
-	range:         90000
+	range:         300.0
 	speed:         10.2
 	restock_cost:  24
 activate:

@@ -5,7 +5,7 @@ notes:       "Laser Cannon"
 device:
 	energy_cost:  10
 	fire_time:    "20t"
-	range:        50625
+	range:        225.0
 	speed:        15.0
 activate:
 	action:
