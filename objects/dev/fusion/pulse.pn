@@ -1,4 +1,4 @@
-template:    "tpl/opulse"
+template:    "tpl/rotpulse"
 long_name:   "Fusion Pulse"
 short_name:  "FPULSE 1"
 notes:       "Fusion Pulse"

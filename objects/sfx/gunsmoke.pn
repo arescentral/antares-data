@@ -1,4 +1,4 @@
-template:    "tpl/oriented"
+template:    "tpl/rotation"
 long_name:   "Gunsmoke"
 short_name:  "GUNSMOKE"
 notes:       "Gunsmoke"

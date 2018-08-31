@@ -1,4 +1,4 @@
-template:      "tpl/apulse"
+template:      "tpl/anipulse"
 long_name:     "Fireball"
 short_name:    "FIREBALL"
 notes:         "Fireball"

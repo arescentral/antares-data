@@ -1,4 +1,4 @@
-template:           "tpl/apulse"
+template:           "tpl/anipulse"
 long_name:          "Photoreactor Puls"
 short_name:         "PHTOPULS"
 notes:              "Photoreactor Pulse"

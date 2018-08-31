@@ -1,4 +1,4 @@
-template:           "tpl/apulse"
+template:           "tpl/anipulse"
 long_name:          "Energy"
 short_name:         "ENERGY"
 notes:              "Energy"

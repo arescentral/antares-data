@@ -1,4 +1,4 @@
-template:           "tpl/apulse"
+template:           "tpl/anipulse"
 long_name:          "Inasa Pulse"
 short_name:         "INASPULS"
 notes:              "Inasa Pulse"

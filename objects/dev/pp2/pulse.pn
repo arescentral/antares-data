@@ -1,4 +1,4 @@
-template:           "tpl/apulse"
+template:           "tpl/anipulse"
 long_name:          "Protopulse 2"
 short_name:         "PRTOPLS2"
 notes:              "Protopulse 2"

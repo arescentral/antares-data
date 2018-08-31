@@ -1,4 +1,4 @@
-template:           "tpl/apulse"
+template:           "tpl/anipulse"
 long_name:          "Charged Form"
 short_name:         "CHRGFORM"
 notes:              "Charged Form"

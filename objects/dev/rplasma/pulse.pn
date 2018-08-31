@@ -1,4 +1,4 @@
-template:          "tpl/apulse"
+template:          "tpl/anipulse"
 long_name:         "R-Plasma"
 short_name:        "RPLASMA"
 notes:             "R-Plasma"

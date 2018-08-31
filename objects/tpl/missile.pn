@@ -1,4 +1,4 @@
-template:          "tpl/opulse"
+template:          "tpl/rotpulse"
 health:            25
 turn_rate:         1.0
 max_velocity:      9.0

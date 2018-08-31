@@ -1,4 +1,4 @@
-template:          "tpl/apulse"
+template:          "tpl/anipulse"
 long_name:         "Temp Pulse"
 short_name:        "TEMPPLSE"
 notes:             "Temp Pulse"

@@ -1,4 +1,4 @@
-template:           "tpl/apulse"
+template:           "tpl/anipulse"
 long_name:          "Lightwave Pulse"
 short_name:         "L PULSE"
 notes:              "Lightwave Pulse"

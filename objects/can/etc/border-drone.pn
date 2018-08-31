@@ -1,4 +1,4 @@
-template:           "tpl/oriented"
+template:           "tpl/rotation"
 long_name:          "Border Drone"
 short_name:         "BRDRDRNE"
 notes:              "Border Drone"

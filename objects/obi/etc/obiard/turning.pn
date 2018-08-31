@@ -1,4 +1,4 @@
-template:           "tpl/oriented"
+template:           "tpl/rotation"
 long_name:          "Obiard"
 short_name:         "OBIARD"
 notes:              "Needs rescuing, turning"

@@ -1,4 +1,4 @@
-template:  "tpl/animated"
+template:  "tpl/animation"
 icon:
 	shape:  "square"
 	size:   1

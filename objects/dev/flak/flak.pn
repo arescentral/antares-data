@@ -1,4 +1,4 @@
-template:           "tpl/apulse"
+template:           "tpl/anipulse"
 long_name:          "Flak"
 short_name:         "FLAK"
 notes:              "Flak"

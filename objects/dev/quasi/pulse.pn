@@ -1,4 +1,4 @@
-template:           "tpl/apulse"
+template:           "tpl/anipulse"
 long_name:          "Quasimatter Pulse"
 short_name:         "QSIPULSE"
 notes:              "Quasimatter Pulse"

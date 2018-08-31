@@ -1,4 +1,4 @@
-template:           "tpl/oriented"
+template:           "tpl/rotation"
 long_name:          "Human"
 short_name:         "HUMAN"
 notes:              "exiting to base"

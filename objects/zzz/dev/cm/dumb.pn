@@ -1,4 +1,4 @@
-template:          "tpl/opulse"
+template:          "tpl/rotpulse"
 long_name:         "C Missile"
 short_name:        "CMISSILE"
 notes:             "Can't target or turn?"

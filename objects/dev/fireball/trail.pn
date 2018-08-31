@@ -1,4 +1,4 @@
-template:      "tpl/apulse"
+template:      "tpl/anipulse"
 long_name:     "Fireball Trail"
 short_name:    "FIRETRL"
 notes:         "Fireball Trail"

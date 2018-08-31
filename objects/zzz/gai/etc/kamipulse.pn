@@ -1,4 +1,4 @@
-template:           "tpl/apulse"
+template:           "tpl/anipulse"
 long_name:          "Clustercell 2"
 short_name:         "CLSTR2"
 notes:              "Clustercell 2"

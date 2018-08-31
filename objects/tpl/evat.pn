@@ -1,4 +1,4 @@
-template:           "tpl/oriented"
+template:           "tpl/rotation"
 long_name:          "EVA Trooper"
 short_name:         "EVAT"
 tags:               {boarder: true, normal-attacker: null}

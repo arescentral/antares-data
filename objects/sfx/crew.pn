@@ -1,4 +1,4 @@
-template:           "tpl/oriented"
+template:           "tpl/rotation"
 long_name:          "Castaway Crew Member"
 short_name:         "CREW"
 notes:              "Castaway Crew Member"

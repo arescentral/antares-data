@@ -1,4 +1,4 @@
-template:    "tpl/apulse"
+template:    "tpl/anipulse"
 long_name:   "Antimatter Pulse"
 short_name:  "A PULSE"
 notes:       "Antimatter Pulse"

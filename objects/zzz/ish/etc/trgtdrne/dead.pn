@@ -1,4 +1,4 @@
-template:           "tpl/animated"
+template:           "tpl/animation"
 long_name:          "Target Drone Dead"
 short_name:         "TRGTDRNE"
 notes:              "Target Drone Dead"

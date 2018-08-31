@@ -1,4 +1,4 @@
-template:           "tpl/oriented"
+template:           "tpl/rotation"
 long_name:          "Holographic Decoy"
 short_name:         "HOLODCOY"
 notes:              "Holographic Decoy"

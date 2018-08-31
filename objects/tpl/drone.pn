@@ -1,4 +1,4 @@
-template:           "tpl/animated"
+template:           "tpl/animation"
 long_name:          "Drone"
 short_name:         "DRONE"
 tags:               {energizable: true}
