@@ -11,12 +11,12 @@ device:
 	speed:      7.3
 activate:
 	action:
-		*	type:         "play"
-			reflexive:    true
-			sound:        "dev/bay"
-			priority:     2
-			persistence:  "10t"
-			volume:       255
+		*	type:                "play"
+			reflexive:           true
+			sound:               "dev/bay"
+			priority:            2
+			persistence:         "10t"
+			volume:              255
 		*	type:                "create"
 			reflexive:           true
 			base:                "ish/fighter"

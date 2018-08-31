@@ -7,16 +7,16 @@ expire:
 			reflexive:  true
 			counter:    {player: 0, which: 0}
 			value:      1
-		*	type:  "check"
+		*	type:       "check"
 arrive:
 	action:
 		*	type:  "group"
 			if:
 				tags:  {planet: true}
 			of:
-				*	type:       "land"
-					reflexive:  true
-					speed:      32
+				*	type:         "land"
+					reflexive:    true
+					speed:        32
 				*	type:         "play"
 					absolute:     true
 					sound:        "tpl/transport/land"

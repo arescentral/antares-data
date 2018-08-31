@@ -1,10 +1,10 @@
-template:      "can/gateship/base"
-notes:         "Blowing up & Dying Left & Right"
-tags:          {energizable: null}
-health:        1
-thrust:        0.0
-target:        {order: false, select: false}
-destroy:       {action: null}
+template:  "can/gateship/base"
+notes:     "Blowing up & Dying Left & Right"
+tags:      {energizable: null}
+health:    1
+thrust:    0.0
+target:    {order: false, select: false}
+destroy:   {action: null}
 expire:
 	after:
 		age:  "12s"
@@ -15,13 +15,13 @@ expire:
 			priority:     4
 			persistence:  "20t"
 			volume:       255
-		*	type:       "create"
-			reflexive:  true
-			base:       "sfx/explosion/supernova"
-			count:      11
-		*	type:       "condition"
-			reflexive:  true
-			enable:     [1]
+		*	type:         "create"
+			reflexive:    true
+			base:         "sfx/explosion/supernova"
+			count:        11
+		*	type:         "condition"
+			reflexive:    true
+			enable:       [1]
 collide:
 	as:  {subject: false, direct: false}
 activate:
@@ -36,8 +36,8 @@ activate:
 			relative_velocity:  true
 			distance:           128
 			within:             "square"
-		*	type:      "delay"
-			duration:  "20t"
+		*	type:               "delay"
+			duration:           "20t"
 		*	type:               "create"
 			reflexive:          true
 			base:               "sfx/explosion/giant"
@@ -45,8 +45,8 @@ activate:
 			relative_velocity:  true
 			distance:           128
 			within:             "square"
-		*	type:      "delay"
-			duration:  "20t"
+		*	type:               "delay"
+			duration:           "20t"
 		*	type:               "create"
 			reflexive:          true
 			base:               "sfx/explosion/large-hit"
@@ -54,8 +54,8 @@ activate:
 			relative_velocity:  true
 			distance:           128
 			within:             "square"
-		*	type:      "delay"
-			duration:  "20t"
+		*	type:               "delay"
+			duration:           "20t"
 		*	type:               "create"
 			reflexive:          true
 			base:               "sfx/explosion/energy"
@@ -63,9 +63,9 @@ activate:
 			relative_velocity:  true
 			distance:           128
 			within:             "square"
-		*	type:       "reveal"
-			reflexive:  true
-			initial:    [4, 5, 6, 7, 8, 9, 10, 11]
+		*	type:               "reveal"
+			reflexive:          true
+			initial:            [4, 5, 6, 7, 8, 9, 10, 11]
 ai:
 	combat:
 		hated:    false

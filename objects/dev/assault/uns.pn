@@ -9,12 +9,12 @@ device:
 	speed:      9.0
 activate:
 	action:
-		*	type:         "play"
-			reflexive:    true
-			sound:        "dev/assault/uns"
-			priority:     4
-			persistence:  "0.5s"
-			volume:       255
+		*	type:                "play"
+			reflexive:           true
+			sound:               "dev/assault/uns"
+			priority:            4
+			persistence:         "0.5s"
+			volume:              255
 		*	type:                "create"
 			reflexive:           true
 			base:                "ish/evat"

@@ -12,15 +12,15 @@ animation:
 	direction:  "+"
 	speed:      0.133
 	first:      {begin: 0.0, end: 5.0}
-target:            {radar: true}
+target:  {radar: true}
 destroy:
 	action:
 		*	type:                "create"
 			reflexive:           true
 			base:                "sfx/explosion/energy"
 			relative_direction:  true
-		*	type:       "remove"
-			reflexive:  true
+		*	type:                "remove"
+			reflexive:           true
 expire:
 	after:
 		age:  "2s40t"
@@ -31,8 +31,8 @@ collide:
 			reflexive:           true
 			base:                "sfx/explosion/gas"
 			relative_direction:  true
-		*	type:       "remove"
-			reflexive:  true
+		*	type:                "remove"
+			reflexive:           true
 ai:
 	combat:
 		hated:    true

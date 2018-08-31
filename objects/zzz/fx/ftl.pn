@@ -15,21 +15,21 @@ animation:
 	direction:  "+"
 	speed:      0.156
 	first:      {begin: 0.0, end: 23.0}
-target:             {select: true}
+target:  {select: true}
 expire:
 	after:
 		age:
 			begin:  "9s"
 			end:    "10s10t"
-collide:            {damage: 0}
+collide:  {damage: 0}
 arrive:
 	distance:  70.714
 	action:
-		*	type:   "equip"
+		*	type:  "equip"
 			if:
 				attributes:  {can_be_destination: true}
-			which:  "special"
-			base:   "dev/anti2/gun"
+			which:      "special"
+			base:       "dev/anti2/gun"
 		*	type:       "remove"
 			reflexive:  true
 ai:
@@ -37,4 +37,4 @@ ai:
 		engages:  true
 		engaged:  true
 		skill:    {num: 3, den: 21}
-icon:               null
+icon:  null

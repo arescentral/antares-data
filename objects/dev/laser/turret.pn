@@ -9,12 +9,12 @@ device:
 	speed:        15.0
 activate:
 	action:
-		*	type:         "play"
-			reflexive:    true
-			sound:        "dev/laser/turret"
-			priority:     3
-			persistence:  "10t"
-			volume:       255
+		*	type:                "play"
+			reflexive:           true
+			sound:               "dev/laser/turret"
+			priority:            3
+			persistence:         "10t"
+			volume:              255
 		*	type:                "create"
 			reflexive:           true
 			base:                "dev/laser/turret-bolt"

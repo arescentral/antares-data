@@ -13,14 +13,14 @@ players:
 		name:           "The Gaitori Union"
 		earning_power:  0.848
 status:
-	*	text:  "Capture Demeter"
+	*	text:       "Capture Demeter"
 	*	text:       "Beta"
 		underline:  true
-song:     "targetron"
+song:  "targetron"
 initials:
-	*	base:     "loc/planet"
-		owner:    0
-		at:       {x: 260, y: 4695}
+	*	base:   "loc/planet"
+		owner:  0
+		at:     {x: 260, y: 4695}
 		override:
 			name:    "Demeter Alpha"
 			sprite:  "loc/planets/saturny"
@@ -33,21 +33,21 @@ initials:
 		owner:     0
 		at:        {x: 782, y: 4782}
 		flagship:  true
-	*	base:  "loc/sun"
-		at:    {x: -3478, y: 86}
+	*	base:      "loc/sun"
+		at:        {x: -3478, y: 86}
 		override:
 			name:  "Demeter"
 	*	base:      "gai/cruiser"
 		owner:     1
 		at:        {x: -1251, y: -8336}
 		flagship:  true
-	*	base:   "gai/carrier"
-		owner:  1
-		at:     {x: 260, y: -8695}
-		hide:   true
-	*	base:     "loc/planet"
-		owner:    1
-		at:       {x: -347, y: -7477}
+	*	base:      "gai/carrier"
+		owner:     1
+		at:        {x: 260, y: -8695}
+		hide:      true
+	*	base:      "loc/planet"
+		owner:     1
+		at:        {x: -347, y: -7477}
 		override:
 			name:    "Demeter Beta"
 			sprite:  "loc/planets/yellow-cookie"
@@ -96,8 +96,8 @@ conditions:
 						>	readiness for our offensive. A Gaitori carrier has just been detected in
 						>	the Elysium/Demeter jumpstream. We believe it's the GCS Caretaker.
 						>	Destroy the carrier if possible.\i<EOT>\i 
-			*	type:      "delay"
-				duration:  "6s40t"
+			*	type:       "delay"
+				duration:   "6s40t"
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [4]

@@ -4,7 +4,7 @@ health:    1000
 icon:
 	shape:  "square"
 	size:   0
-target:    {radar: true}
+target:  {radar: true}
 destroy:
 	action:
 		*	type:                "create"

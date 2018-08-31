@@ -20,8 +20,8 @@ animation:
 icon:
 	shape:  "triangle"
 	size:   3
-target:             {radar: true}
-destroy:            {die: false}
+target:   {radar: true}
+destroy:  {die: false}
 ai:
 	target:
 		prefer:  {local: true}

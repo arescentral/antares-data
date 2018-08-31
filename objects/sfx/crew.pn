@@ -25,8 +25,8 @@ expire:
 			reflexive:           true
 			base:                "sfx/explosion/missile-hit"
 			relative_direction:  true
-		*	type:       "remove"
-			reflexive:  true
-collide:            {damage: 1, edge: true}
+		*	type:                "remove"
+			reflexive:           true
+collide:  {damage: 1, edge: true}
 ai:
 	escort:  {class: -256}

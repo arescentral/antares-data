@@ -23,7 +23,7 @@ arrive:
 			if:
 				tags:   {station: true}
 				owner:  "different"
-			which:      "special"
+			which:  "special"
 ai:
 	target:
 		prefer:

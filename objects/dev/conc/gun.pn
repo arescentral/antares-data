@@ -14,12 +14,12 @@ activate:
 			base:                "dev/conc/pellet"
 			relative_velocity:   true
 			relative_direction:  true
-		*	type:         "play"
-			reflexive:    true
-			sound:        "dev/conc"
-			priority:     0
-			persistence:  "10t"
-			volume:       255
+		*	type:                "play"
+			reflexive:           true
+			sound:               "dev/conc"
+			priority:            0
+			persistence:         "10t"
+			volume:              255
 		*	type:                "create"
 			reflexive:           true
 			base:                "sfx/gunsmoke"

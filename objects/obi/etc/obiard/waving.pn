@@ -17,14 +17,14 @@ animation:
 	speed:      0.47
 icon:
 	shape:  "plus"
-target:             {lock: true}
+target:  {lock: true}
 destroy:
 	action:
 		*	type:       "score"
 			reflexive:  true
 			counter:    {player: 0, which: 2}
 			value:      1
-		*	type:  "check"
+		*	type:       "check"
 collide:
 	solid:  false
 	action:
@@ -32,9 +32,9 @@ collide:
 			if:
 				tags:  {rescue: true}
 			of:
-				*	type:     "score"
-					counter:  {player: 0, which: 0}
-					value:    1
+				*	type:       "score"
+					counter:    {player: 0, which: 0}
+					value:      1
 				*	type:       "remove"
 					reflexive:  true
 		*	type:  "check"

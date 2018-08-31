@@ -14,4 +14,4 @@ weapons:
 rotation:
 	sprite:  "can/evat"
 	frames:  {begin: 0, end: 24}
-target:        {lock: false}
+target:  {lock: false}

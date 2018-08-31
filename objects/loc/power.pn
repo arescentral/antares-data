@@ -6,7 +6,7 @@ portrait:      "loc/power"
 shield_color:  {red: 240}
 animation:
 	sprite:  "loc/power"
-icon:          {size: 6}
-target:        {base: true}
+icon:    {size: 6}
+target:  {base: true}
 ai:
 	build:  {legacy_non_builder: true}

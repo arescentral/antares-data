@@ -19,15 +19,15 @@ rotation:
 icon:
 	shape:  "plus"
 	size:   1
-target:             {radar: true, order: true, lock: true}
+target:  {radar: true, order: true, lock: true}
 create:
 	action:
 		*	type:      "delay"
 			duration:  "0.05s"
-		*	type:  "target"
+		*	type:      "target"
 			override:
 				direct:  {initial: 0}
-collide:            {edge: true}
+collide:  {edge: true}
 arrive:
 	distance:  70.714
 	action:
@@ -40,11 +40,11 @@ arrive:
 					priority:     3
 					persistence:  "10t"
 					volume:       255
-				*	type:     "score"
-					counter:  {player: 0, which: 1}
-					value:    1
-				*	type:       "remove"
-					reflexive:  true
+				*	type:         "score"
+					counter:      {player: 0, which: 1}
+					value:        1
+				*	type:         "remove"
+					reflexive:    true
 		*	type:  "check"
 ai:
 	combat:

@@ -8,14 +8,14 @@ players:
 		race:           "ish"
 		name:           "The Human/Ishiman Cooperative"
 		earning_power:  0.5
-	*	type:  "cpu"
-		race:  "ish"
-		name:  "The Human/Ishiman Cooperative"
-song:     "yesterday"
+	*	type:           "cpu"
+		race:           "ish"
+		name:           "The Human/Ishiman Cooperative"
+song:  "yesterday"
 initials:
-	*	base:     "loc/planet"
-		owner:    0
-		at:       {x: 0, y: -85}
+	*	base:   "loc/planet"
+		owner:  0
+		at:     {x: 0, y: -85}
 		override:
 			name:  "Omisha Station"
 		earning:  1.0
@@ -32,36 +32,36 @@ initials:
 		override:
 			name:    "Command Buoy B"
 			sprite:  "zzz/loc/buoy"
-		earning:  1.0
-	*	base:    "zzz/ish/etc/trgtdrne"
-		owner:   0
-		at:      {x: 0, y: -4869}
-		target:  {initial: 1}
+		earning:   1.0
+	*	base:      "zzz/ish/etc/trgtdrne"
+		owner:     0
+		at:        {x: 0, y: -4869}
+		target:    {initial: 1}
 	*	base:      "zzz/ish/cruiser/active"
 		owner:     0
 		at:        {x: 87, y: 109}
 		flagship:  true
 		target:    {initial: 0}
-	*	base:     "loc/moon"
-		owner:    0
-		at:       {x: -9739, y: -86}
+	*	base:      "loc/moon"
+		owner:     0
+		at:        {x: -9739, y: -86}
 		override:
 			name:    "Build Moon"
 			sprite:  "loc/planets/bruised"
 		earning:  1.0
 		build:
 			*	"zzz/ish/etc/prctcdrn"
-	*	base:     "loc/moon"
-		owner:    1
-		at:       {x: 7478, y: 0}
+	*	base:   "loc/moon"
+		owner:  1
+		at:     {x: 7478, y: 0}
 		override:
 			name:    "Combat Buoy A"
 			sprite:  "zzz/loc/buoy"
 		earning:  1.0
-	*	base:    "zzz/ish/etc/trgtdrne"
-		owner:   1
-		at:      {x: 7826, y: -2260}
-		target:  {initial: 6, lock: true}
+	*	base:     "zzz/ish/etc/trgtdrne"
+		owner:    1
+		at:       {x: 7826, y: -2260}
+		target:   {initial: 6, lock: true}
 	*	base:     "loc/moon"
 		owner:    1
 		at:       {x: 13391, y: 173}
@@ -69,14 +69,14 @@ initials:
 			name:    "Combat Buoy B"
 			sprite:  "zzz/loc/buoy"
 		earning:  1.0
-	*	base:    "zzz/ish/etc/trgtdrne"
-		owner:   1
-		at:      {x: 13739, y: 2956}
-		target:  {initial: 8, lock: true}
-	*	base:    "zzz/ish/etc/trgtdrne"
-		owner:   1
-		at:      {x: 13217, y: -1739}
-		target:  {initial: 8, lock: true}
+	*	base:     "zzz/ish/etc/trgtdrne"
+		owner:    1
+		at:       {x: 13739, y: 2956}
+		target:   {initial: 8, lock: true}
+	*	base:     "zzz/ish/etc/trgtdrne"
+		owner:    1
+		at:       {x: 13217, y: -1739}
+		target:   {initial: 8, lock: true}
 	*	base:     "loc/moon"
 		owner:    1
 		at:       {x: 19130, y: 173}
@@ -84,18 +84,18 @@ initials:
 			name:    "Combat Buoy C"
 			sprite:  "zzz/loc/buoy"
 		earning:  1.0
-	*	base:    "zzz/ish/etc/trgtdrne"
-		owner:   1
-		at:      {x: 18782, y: -1043}
-		target:  {initial: 11, lock: true}
-	*	base:    "zzz/ish/etc/trgtdrne"
-		owner:   1
-		at:      {x: 18608, y: 1565}
-		target:  {initial: 11}
-	*	base:    "zzz/ish/etc/trgtdrne"
-		owner:   1
-		at:      {x: 18782, y: 173}
-		target:  {initial: 11, lock: true}
+	*	base:     "zzz/ish/etc/trgtdrne"
+		owner:    1
+		at:       {x: 18782, y: -1043}
+		target:   {initial: 11, lock: true}
+	*	base:     "zzz/ish/etc/trgtdrne"
+		owner:    1
+		at:       {x: 18608, y: 1565}
+		target:   {initial: 11}
+	*	base:     "zzz/ish/etc/trgtdrne"
+		owner:    1
+		at:       {x: 18782, y: 173}
+		target:   {initial: 11, lock: true}
 	*	base:     "loc/moon"
 		owner:    0
 		at:       {x: 0, y: 9391}
@@ -103,33 +103,33 @@ initials:
 			name:    "Extra Ships"
 			sprite:  "zzz/loc/buoy"
 		earning:  1.0
-	*	base:    "zzz/ish/cruiser/active"
-		owner:   0
-		at:      {x: 1739, y: 10086}
-		target:  {initial: 15}
-	*	base:    "zzz/ish/cruiser/active"
-		owner:   0
-		at:      {x: -2608, y: 10086}
-		target:  {initial: 15}
+	*	base:     "zzz/ish/cruiser/active"
+		owner:    0
+		at:       {x: 1739, y: 10086}
+		target:   {initial: 15}
+	*	base:     "zzz/ish/cruiser/active"
+		owner:    0
+		at:       {x: -2608, y: 10086}
+		target:   {initial: 15}
 	*	base:     "loc/jump/gate"
 		owner:    0
 		at:       {x: -17391, y: 16695}
 		override:
 			name:  "Omisha Jump Gate"
 		earning:  1.0
-	*	base:   "loc/jump/node"
-		owner:  0
-		at:     {x: -16956, y: 16521}
-	*	base:   "loc/jump/node"
-		owner:  0
-		at:     {x: -17358, y: 17119}
-	*	base:   "loc/jump/node"
-		owner:  0
-		at:     {x: -17836, y: 16532}
-	*	base:   "sfx/jump/small"
-		owner:  0
-		at:     {x: -17401, y: 16716}
-		hide:   true
+	*	base:     "loc/jump/node"
+		owner:    0
+		at:       {x: -16956, y: 16521}
+	*	base:     "loc/jump/node"
+		owner:    0
+		at:       {x: -17358, y: 17119}
+	*	base:     "loc/jump/node"
+		owner:    0
+		at:       {x: -17836, y: 16532}
+	*	base:     "sfx/jump/small"
+		owner:    0
+		at:       {x: -17401, y: 16716}
+		hide:     true
 conditions:
 	*	when:
 			type:   "distance"
@@ -211,7 +211,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 3}
 			b:     {control: 0}
-		subject:   {initial: 3}
+		subject:  {initial: 3}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -234,7 +234,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 3}
 			b:     {control: 0}
-		subject:   {initial: 3}
+		subject:  {initial: 3}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -257,7 +257,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {target: 0}
-		subject:   {initial: 1}
+		subject:  {initial: 1}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -272,7 +272,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 2}
 			b:     {target: 0}
-		subject:   {initial: 2}
+		subject:  {initial: 2}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -288,8 +288,8 @@ conditions:
 			value:  223.608
 			from:   {initial: 3}
 			to:     {initial: 1}
-		subject:   {initial: 3}
-		direct:    {initial: 1}
+		subject:  {initial: 3}
+		direct:   {initial: 1}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -304,8 +304,8 @@ conditions:
 			value:  223.608
 			from:   {initial: 3}
 			to:     {initial: 2}
-		subject:   {initial: 3}
-		direct:    {initial: 2}
+		subject:  {initial: 3}
+		direct:   {initial: 2}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -319,7 +319,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {target: 0}
-		subject:   {initial: 1}
+		subject:  {initial: 1}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -337,7 +337,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 2}
 			b:     {target: 0}
-		subject:   {initial: 2}
+		subject:  {initial: 2}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -355,7 +355,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 3}
 			b:     {control: 0}
-		subject:   {initial: 3}
+		subject:  {initial: 3}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -371,8 +371,8 @@ conditions:
 			value:  223.608
 			from:   {initial: 3}
 			to:     {initial: 1}
-		subject:   {initial: 3}
-		direct:    {initial: 1}
+		subject:  {initial: 3}
+		direct:   {initial: 1}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -393,8 +393,8 @@ conditions:
 			value:  223.608
 			from:   {initial: 3}
 			to:     {initial: 2}
-		subject:   {initial: 3}
-		direct:    {initial: 2}
+		subject:  {initial: 3}
+		direct:   {initial: 2}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -442,7 +442,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 5}
 			b:     {control: 0}
-		subject:   {initial: 5}
+		subject:  {initial: 5}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -591,8 +591,8 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [22]
-			*	type:      "delay"
-				duration:  "1s"
+			*	type:       "delay"
+				duration:   "1s"
 			*	type:       "win"
 				reflexive:  true
 				player:     0

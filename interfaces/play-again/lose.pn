@@ -16,8 +16,8 @@ items:
 		gamepad:  "Y"
 		hue:      "salmon"
 		style:    "large"
-	*	type:    "text"
-		bounds:  {left: 160, top: 150, right: 480, bottom: 250}
+	*	type:     "text"
+		bounds:   {left: 160, top: 150, right: 480, bottom: 250}
 		text:
 			>	Start the chapter over, or quit to the main menu?
 		hue:     "orange"

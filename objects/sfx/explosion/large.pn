@@ -18,12 +18,12 @@ expire:
 	after:  {animation: true}
 create:
 	action:
-		*	type:         "play"
-			reflexive:    true
-			sound:        "sfx/explosion/large"
-			priority:     4
-			persistence:  "1s"
-			volume:       255
+		*	type:                "play"
+			reflexive:           true
+			sound:               "sfx/explosion/large"
+			priority:            4
+			persistence:         "1s"
+			volume:              255
 		*	type:                "create"
 			reflexive:           true
 			base:                "sfx/debris/a"
@@ -34,4 +34,4 @@ create:
 			base:                "sfx/crew"
 			count:               {begin: 1, end: 3}
 			relative_direction:  true
-collide:           {damage: 100}
+collide:  {damage: 100}

@@ -6,6 +6,6 @@ health:      -1
 energy:      -1
 animation:
 	sprite:  "loc/planets/marslike"
-icon:        {size: 6}
-target:      {radar: false}
-collide:     {damage: 1}
+icon:     {size: 6}
+target:   {radar: false}
+collide:  {damage: 1}

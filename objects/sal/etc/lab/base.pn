@@ -5,8 +5,8 @@ notes:         "Fresh"
 shield_color:  {red: 240}
 animation:
 	sprite:  "sal/etc/lab"
-icon:          {size: 6}
-target:        {base: true}
+icon:    {size: 6}
+target:  {base: true}
 destroy:
 	die:  false
 	action:

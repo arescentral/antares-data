@@ -14,7 +14,7 @@ animation:
 	direction:  "+"
 	speed:      0.156
 	first:      {begin: 0.0, end: 2.0}
-target:             {radar: true}
+target:  {radar: true}
 expire:
 	after:
 		age:
@@ -27,16 +27,16 @@ collide:
 			if:
 				tags:  {energizable: true}
 			of:
-				*	type:   "energize"
-					value:  150
-				*	type:       "remove"
-					reflexive:  true
+				*	type:         "energize"
+					value:        150
+				*	type:         "remove"
+					reflexive:    true
 				*	type:         "play"
 					sound:        "sfx/energy"
 					priority:     3
 					persistence:  "10t"
 					volume:       255
-arrive:             {distance: 4.3}
+arrive:  {distance: 4.3}
 ai:
 	combat:
 		engages:  true

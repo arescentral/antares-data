@@ -32,8 +32,8 @@ destroy:
 			reflexive:           true
 			base:                "sfx/explosion/gas"
 			relative_direction:  true
-		*	type:       "remove"
-			reflexive:  true
+		*	type:                "remove"
+			reflexive:           true
 arrive:
 	action:
 		*	type:       "destroy"

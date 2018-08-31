@@ -9,12 +9,12 @@ device:
 	restock_cost:  0
 activate:
 	action:
-		*	type:  "morph"
-			base:  "gro/ctf/cruiser/p1-active"
+		*	type:         "morph"
+			base:         "gro/ctf/cruiser/p1-active"
 		*	type:         "play"
 			sound:        "dev/reactivator"
 			priority:     5
 			persistence:  "10t"
 			volume:       255
-		*	type:       "hold"
-			reflexive:  true
+		*	type:         "hold"
+			reflexive:    true

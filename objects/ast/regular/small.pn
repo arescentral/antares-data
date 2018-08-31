@@ -22,17 +22,17 @@ collide:
 	solid:  false
 	edge:   false
 	action:
-		*	type:     "score"
-			counter:  {player: 0, which: 1}
-			value:    1
+		*	type:         "score"
+			counter:      {player: 0, which: 1}
+			value:        1
 		*	type:         "play"
 			reflexive:    true
 			sound:        "sfx/energy"
 			priority:     3
 			persistence:  "5t"
 			volume:       255
-		*	type:       "remove"
-			reflexive:  true
-		*	type:  "check"
+		*	type:         "remove"
+			reflexive:    true
+		*	type:         "check"
 ai:
 	combat:  {engaged: true}

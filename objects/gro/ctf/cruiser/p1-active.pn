@@ -29,8 +29,8 @@ destroy:
 			priority:     3
 			persistence:  "10t"
 			volume:       255
-		*	type:       "move"
-			reflexive:  true
+		*	type:         "move"
+			reflexive:    true
 			override:
 				direct:  {initial: 3}
 			origin:     "direct"

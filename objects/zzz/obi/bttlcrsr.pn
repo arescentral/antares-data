@@ -26,7 +26,7 @@ weapons:
 rotation:
 	sprite:  "obi/etc/liner"
 	frames:  {begin: 0, end: 24}
-icon:               {size: 7}
+icon:  {size: 7}
 destroy:
 	action:
 		*	type:                "create"

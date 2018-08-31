@@ -13,14 +13,14 @@ players:
 		name:           "The Cantharan Order"
 		earning_power:  1.25
 status:
-	*	text:  "Capture Proteus"
+	*	text:       "Capture Proteus"
 	*	text:       "Gamma"
 		underline:  true
-song:     "eyes-of-fire"
+song:  "eyes-of-fire"
 initials:
-	*	base:     "loc/planet"
-		owner:    0
-		at:       {x: 12043, y: 38956}
+	*	base:   "loc/planet"
+		owner:  0
+		at:     {x: 12043, y: 38956}
 		override:
 			name:    "Proteus Alpha"
 			sprite:  "loc/planets/jungle"
@@ -31,10 +31,10 @@ initials:
 			*	"gunship"
 			*	"transport"
 			*	"defdrone"
-	*	base:   "can/carrier"
-		owner:  1
-		at:     {x: -33825, y: -32695}
-		hide:   true
+	*	base:      "can/carrier"
+		owner:     1
+		at:        {x: -33825, y: -32695}
+		hide:      true
 	*	base:      "ish/cruiser"
 		owner:     0
 		at:        {x: 13586, y: 39456}
@@ -43,17 +43,17 @@ initials:
 		owner:     1
 		at:        {x: 6260, y: -7478}
 		flagship:  true
-	*	base:     "loc/planet"
-		at:       {x: -7999, y: 13652}
+	*	base:      "loc/planet"
+		at:        {x: -7999, y: 13652}
 		override:
 			name:    "Proteus Beta"
 			sprite:  "loc/planets/yellow"
 		earning:  1.0
 		build:
 			*	"fighter"
-	*	base:     "loc/planet"
-		owner:    1
-		at:       {x: 7304, y: -7565}
+	*	base:   "loc/planet"
+		owner:  1
+		at:     {x: 7304, y: -7565}
 		override:
 			name:    "Proteus Gamma"
 			sprite:  "loc/planets/graysplotch"
@@ -93,7 +93,7 @@ conditions:
 			op:      "eq"
 			object:  {initial: 0}
 			player:  1
-		subject:     {initial: 0}
+		subject:  {initial: 0}
 		action:
 			*	type:    "win"
 				player:  1
@@ -105,7 +105,7 @@ conditions:
 			op:      "eq"
 			object:  {initial: 5}
 			player:  0
-		subject:     {initial: 5}
+		subject:  {initial: 5}
 		action:
 			*	type:    "win"
 				player:  0

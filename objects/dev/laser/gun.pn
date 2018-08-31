@@ -14,9 +14,9 @@ activate:
 			base:                "dev/laser/gun-bolt"
 			relative_velocity:   true
 			relative_direction:  true
-		*	type:         "play"
-			reflexive:    true
-			sound:        "dev/laser/gun"
-			priority:     3
-			persistence:  "10t"
-			volume:       255
+		*	type:                "play"
+			reflexive:           true
+			sound:               "dev/laser/gun"
+			priority:            3
+			persistence:         "10t"
+			volume:              255

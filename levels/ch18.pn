@@ -13,13 +13,13 @@ players:
 		name:           "The Audemedon Axis"
 		earning_power:  1.0
 status:
-	*	text:  "Capture Proxima"
+	*	text:       "Capture Proxima"
 	*	text:       "Alpha & Beta"
 		underline:  true
-song:     "targetron"
+song:  "targetron"
 initials:
-	*	base:     "loc/planet"
-		at:       {x: 1390, y: -2696}
+	*	base:  "loc/planet"
+		at:    {x: 1390, y: -2696}
 		override:
 			name:  "Proxima Alpha"
 		earning:  1.0
@@ -28,8 +28,8 @@ initials:
 			*	"cruiser"
 			*	"gunship"
 			*	"transport"
-	*	base:     "loc/planet"
-		at:       {x: -9044, y: -17130}
+	*	base:  "loc/planet"
+		at:    {x: -9044, y: -17130}
 		override:
 			name:    "Proxima Beta"
 			sprite:  "loc/planets/fall"
@@ -43,134 +43,134 @@ initials:
 		owner:     0
 		at:        {x: -2434, y: 3218}
 		flagship:  true
-	*	base:    "uns/etc/transport/ch19"
-		owner:   0
-		at:      {x: -1392, y: 3305}
-		target:  {initial: 0, lock: true}
-	*	base:    "uns/etc/transport/ch19"
-		owner:   0
-		at:      {x: -2086, y: 4348}
-		target:  {initial: 0, lock: true}
-	*	base:    "uns/etc/transport/ch19"
-		owner:   0
-		at:      {x: -2792, y: 5228}
-		target:  {initial: 0, lock: true}
-	*	base:    "uns/etc/transport/ch19"
-		owner:   0
-		at:      {x: -3737, y: 6184}
-		target:  {initial: 0, lock: true}
-	*	base:    "uns/etc/transport/ch19"
-		owner:   0
-		at:      {x: -4868, y: 7543}
-		target:  {initial: 0, lock: true}
-	*	base:    "aud/transport"
-		owner:   1
-		at:      {x: -3391, y: -9043}
-		target:  {initial: 1, lock: true}
-	*	base:    "uns/carrier"
-		owner:   0
-		at:      {x: 1826, y: -1652}
-		target:  {initial: 0}
-	*	base:    "uns/carrier"
-		owner:   0
-		at:      {x: 1478, y: -3391}
-		target:  {initial: 0}
-	*	base:   "can/carrier"
-		owner:  1
-		at:     {x: 869, y: -2260}
-	*	base:   "can/carrier"
-		owner:  1
-		at:     {x: 1913, y: -2173}
-	*	base:    "can/gunship"
-		owner:   1
-		at:      {x: 1044, y: -1304}
-		target:  {initial: 8}
-	*	base:    "can/cruiser"
-		owner:   1
-		at:      {x: 0, y: 0}
-		target:  {initial: 12, lock: true}
-	*	base:    "uns/cruiser"
-		owner:   0
-		at:      {x: 1652, y: -2695}
-		target:  {initial: 10}
-	*	base:    "uns/cruiser"
-		owner:   0
-		at:      {x: 782, y: -2695}
-		target:  {initial: 11}
-	*	base:   "aud/gunship"
-		owner:  1
-		at:     {x: 1217, y: -1739}
-	*	base:   "aud/gunship"
-		owner:  1
-		at:     {x: 1043, y: -1913}
-	*	base:    "uns/fighter"
-		owner:   0
-		at:      {x: -2782, y: 3739}
-		target:  {initial: 2}
-	*	base:    "uns/fighter"
-		owner:   0
-		at:      {x: -3218, y: 4086}
-		target:  {initial: 19}
-	*	base:    "uns/fighter"
-		owner:   0
-		at:      {x: -3217, y: 4565}
-		target:  {initial: 20}
-	*	base:    "uns/fighter"
-		owner:   0
-		at:      {x: -2739, y: 4391}
-		target:  {initial: 21}
-	*	base:    "uns/fighter"
-		owner:   0
-		at:      {x: -2478, y: 4173}
-		target:  {initial: 22}
-	*	base:    "uns/fighter"
-		owner:   0
-		at:      {x: -2347, y: 3913}
-		target:  {initial: 23}
-	*	base:    "aud/cruiser"
-		owner:   1
-		at:      {x: 2521, y: -3478}
-		target:  {initial: 8, lock: true}
-	*	base:    "aud/cruiser"
-		owner:   1
-		at:      {x: -2869, y: -7826}
-		target:  {initial: 8, lock: true}
-	*	base:    "uns/carrier"
-		owner:   0
-		at:      {x: -2086, y: 5913}
-		target:  {initial: 5}
-	*	base:    "uns/carrier"
-		owner:   0
-		at:      {x: -3739, y: 5478}
-		target:  {initial: 5}
-	*	base:    "uns/gunship"
-		owner:   0
-		at:      {x: -2260, y: 6695}
-		target:  {initial: 27}
-	*	base:    "uns/gunship"
-		owner:   0
-		at:      {x: -4434, y: 5652}
-		target:  {initial: 28}
-	*	base:    "aud/carrier"
-		owner:   1
-		at:      {x: -28869, y: -34782}
-		hide:    true
-		target:  {initial: 0, lock: true}
-	*	base:    "aud/carrier"
-		owner:   1
-		at:      {x: -26086, y: -34086}
-		hide:    true
-		target:  {initial: 0, lock: true}
-	*	base:    "aud/carrier"
-		owner:   1
-		at:      {x: -28173, y: -31304}
-		hide:    true
-		target:  {initial: 1, lock: true}
-	*	base:    "aud/carrier"
-		owner:   1
-		at:      {x: 0, y: 0}
-		hide:    true
-		target:  {initial: 1, lock: true}
+	*	base:      "uns/etc/transport/ch19"
+		owner:     0
+		at:        {x: -1392, y: 3305}
+		target:    {initial: 0, lock: true}
+	*	base:      "uns/etc/transport/ch19"
+		owner:     0
+		at:        {x: -2086, y: 4348}
+		target:    {initial: 0, lock: true}
+	*	base:      "uns/etc/transport/ch19"
+		owner:     0
+		at:        {x: -2792, y: 5228}
+		target:    {initial: 0, lock: true}
+	*	base:      "uns/etc/transport/ch19"
+		owner:     0
+		at:        {x: -3737, y: 6184}
+		target:    {initial: 0, lock: true}
+	*	base:      "uns/etc/transport/ch19"
+		owner:     0
+		at:        {x: -4868, y: 7543}
+		target:    {initial: 0, lock: true}
+	*	base:      "aud/transport"
+		owner:     1
+		at:        {x: -3391, y: -9043}
+		target:    {initial: 1, lock: true}
+	*	base:      "uns/carrier"
+		owner:     0
+		at:        {x: 1826, y: -1652}
+		target:    {initial: 0}
+	*	base:      "uns/carrier"
+		owner:     0
+		at:        {x: 1478, y: -3391}
+		target:    {initial: 0}
+	*	base:      "can/carrier"
+		owner:     1
+		at:        {x: 869, y: -2260}
+	*	base:      "can/carrier"
+		owner:     1
+		at:        {x: 1913, y: -2173}
+	*	base:      "can/gunship"
+		owner:     1
+		at:        {x: 1044, y: -1304}
+		target:    {initial: 8}
+	*	base:      "can/cruiser"
+		owner:     1
+		at:        {x: 0, y: 0}
+		target:    {initial: 12, lock: true}
+	*	base:      "uns/cruiser"
+		owner:     0
+		at:        {x: 1652, y: -2695}
+		target:    {initial: 10}
+	*	base:      "uns/cruiser"
+		owner:     0
+		at:        {x: 782, y: -2695}
+		target:    {initial: 11}
+	*	base:      "aud/gunship"
+		owner:     1
+		at:        {x: 1217, y: -1739}
+	*	base:      "aud/gunship"
+		owner:     1
+		at:        {x: 1043, y: -1913}
+	*	base:      "uns/fighter"
+		owner:     0
+		at:        {x: -2782, y: 3739}
+		target:    {initial: 2}
+	*	base:      "uns/fighter"
+		owner:     0
+		at:        {x: -3218, y: 4086}
+		target:    {initial: 19}
+	*	base:      "uns/fighter"
+		owner:     0
+		at:        {x: -3217, y: 4565}
+		target:    {initial: 20}
+	*	base:      "uns/fighter"
+		owner:     0
+		at:        {x: -2739, y: 4391}
+		target:    {initial: 21}
+	*	base:      "uns/fighter"
+		owner:     0
+		at:        {x: -2478, y: 4173}
+		target:    {initial: 22}
+	*	base:      "uns/fighter"
+		owner:     0
+		at:        {x: -2347, y: 3913}
+		target:    {initial: 23}
+	*	base:      "aud/cruiser"
+		owner:     1
+		at:        {x: 2521, y: -3478}
+		target:    {initial: 8, lock: true}
+	*	base:      "aud/cruiser"
+		owner:     1
+		at:        {x: -2869, y: -7826}
+		target:    {initial: 8, lock: true}
+	*	base:      "uns/carrier"
+		owner:     0
+		at:        {x: -2086, y: 5913}
+		target:    {initial: 5}
+	*	base:      "uns/carrier"
+		owner:     0
+		at:        {x: -3739, y: 5478}
+		target:    {initial: 5}
+	*	base:      "uns/gunship"
+		owner:     0
+		at:        {x: -2260, y: 6695}
+		target:    {initial: 27}
+	*	base:      "uns/gunship"
+		owner:     0
+		at:        {x: -4434, y: 5652}
+		target:    {initial: 28}
+	*	base:      "aud/carrier"
+		owner:     1
+		at:        {x: -28869, y: -34782}
+		hide:      true
+		target:    {initial: 0, lock: true}
+	*	base:      "aud/carrier"
+		owner:     1
+		at:        {x: -26086, y: -34086}
+		hide:      true
+		target:    {initial: 0, lock: true}
+	*	base:      "aud/carrier"
+		owner:     1
+		at:        {x: -28173, y: -31304}
+		hide:      true
+		target:    {initial: 1, lock: true}
+	*	base:      "aud/carrier"
+		owner:     1
+		at:        {x: 0, y: 0}
+		hide:      true
+		target:    {initial: 1, lock: true}
 conditions:
 	*	when:
 			type:     "score"
@@ -182,7 +182,7 @@ conditions:
 				reflexive:  true
 				override:
 					subject:  {initial: 0}
-				player:     0
+				player:  0
 			*	type:    "pay"
 				value:   50.0
 				player:  0

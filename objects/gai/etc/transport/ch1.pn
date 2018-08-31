@@ -10,8 +10,8 @@ destroy:
 			reflexive:  true
 			counter:    {player: 0, which: 0}
 			value:      1
-		*	type:  "check"
-expire:    {action: null}
+		*	type:       "check"
+expire:  {action: null}
 arrive:
 	action:
 		*	type:    "win"

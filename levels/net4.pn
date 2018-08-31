@@ -19,12 +19,12 @@ initials:
 		owner:     1
 		at:        {x: 2955, y: 87}
 		flagship:  true
-	*	base:  "loc/flak"
-		at:    {x: 0, y: -700}
-	*	base:  "loc/flak"
-		at:    {x: -700, y: 0}
-	*	base:  "loc/flak"
-		at:    {x: 700, y: 0}
+	*	base:      "loc/flak"
+		at:        {x: 0, y: -700}
+	*	base:      "loc/flak"
+		at:        {x: -700, y: 0}
+	*	base:      "loc/flak"
+		at:        {x: 700, y: 0}
 conditions:
 	*	when:
 			type:    "destroyed"
@@ -36,14 +36,14 @@ conditions:
 				reflexive:  true
 				counter:    {player: 0, which: 0}
 				value:      1
-			*	type:      "delay"
-				duration:  "6s"
+			*	type:       "delay"
+				duration:   "6s"
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [0]
-			*	type:    "condition"
-				enable:  [0]
-			*	type:  "check"
+			*	type:       "condition"
+				enable:     [0]
+			*	type:       "check"
 	*	when:
 			type:    "destroyed"
 			op:      "eq"
@@ -54,15 +54,15 @@ conditions:
 				reflexive:  true
 				counter:    {player: 1, which: 0}
 				value:      1
-			*	type:      "delay"
-				duration:  "6s"
+			*	type:       "delay"
+				duration:   "6s"
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [1]
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [1]
-			*	type:  "check"
+			*	type:       "check"
 	*	when:
 			type:     "score"
 			op:       "ge"

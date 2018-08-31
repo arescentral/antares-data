@@ -12,15 +12,15 @@ animation:
 icon:
 	shape:  "square"
 	size:   2
-target:      {radar: true}
+target:  {radar: true}
 destroy:
 	action:
 		*	type:                "create"
 			reflexive:           true
 			base:                "sfx/explosion/large"
 			relative_direction:  true
-		*	type:       "score"
-			reflexive:  true
-			counter:    {player: 0, which: 0}
-			value:      1
-		*	type:  "check"
+		*	type:                "score"
+			reflexive:           true
+			counter:             {player: 0, which: 0}
+			value:               1
+		*	type:                "check"

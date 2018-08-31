@@ -13,7 +13,7 @@ animation:
 	direction:  "+"
 	speed:      0.117
 	first:      {begin: 0.0, end: 20.0}
-icon:               {size: 3}
+icon:  {size: 3}
 destroy:
 	action:
 		*	type:                "create"
@@ -22,9 +22,9 @@ destroy:
 			count:               {begin: 2, end: 4}
 			relative_velocity:   true
 			relative_direction:  true
-		*	type:       "create"
-			reflexive:  true
-			base:       "sfx/explosion/small"
-collide:            {edge: false}
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/small"
+collide:  {edge: false}
 ai:
 	combat:  {hated: true, engaged: true}

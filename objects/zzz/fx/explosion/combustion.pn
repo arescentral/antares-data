@@ -17,12 +17,12 @@ expire:
 	after:  {animation: true}
 create:
 	action:
-		*	type:         "play"
-			reflexive:    true
-			sound:        "sfx/explosion/small"
-			priority:     5
-			persistence:  "1s"
-			volume:       255
+		*	type:                "play"
+			reflexive:           true
+			sound:               "sfx/explosion/small"
+			priority:            5
+			persistence:         "1s"
+			volume:              255
 		*	type:                "create"
 			reflexive:           true
 			base:                "sfx/debris/a"
@@ -37,4 +37,4 @@ create:
 			relative_direction:  true
 			distance:            32
 			within:              "square"
-collide:           {damage: 100}
+collide:  {damage: 100}

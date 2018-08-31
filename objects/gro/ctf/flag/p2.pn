@@ -15,7 +15,7 @@ thrust:        0.06
 rotation:
 	sprite:  "gro/ctf/flag"
 	frames:  {begin: 0, end: 24}
-icon:          {size: 5}
+icon:  {size: 5}
 destroy:
 	release_energy:  false
 	action:

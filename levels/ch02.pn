@@ -8,93 +8,93 @@ players:
 		race:           "ish"
 		name:           "The Human/Ishiman Cooperative"
 		earning_power:  0.004
-	*	type:  "cpu"
-		race:  "gai"
-		name:  "The Gaitori Union"
+	*	type:           "cpu"
+		race:           "gai"
+		name:           "The Gaitori Union"
 status:
-	*	text:  "Destroy all 4"
+	*	text:       "Destroy all 4"
 	*	text:       "relay dishes."
 		underline:  true
-	*	prefix:   "Remaining: "
-		minuend:  4
-		counter:  {player: 0, which: 0}
-		suffix:   "/4"
-song:     "yesterday"
+	*	prefix:     "Remaining: "
+		minuend:    4
+		counter:    {player: 0, which: 0}
+		suffix:     "/4"
+song:  "yesterday"
 initials:
-	*	base:     "loc/relay"
-		owner:    1
-		at:       {x: 7043, y: 4521}
+	*	base:   "loc/relay"
+		owner:  1
+		at:     {x: 7043, y: 4521}
 		override:
 			name:  "Relay Dish 1"
-		earning:  1.0
+		earning:   1.0
 	*	base:      "ish/hvc"
 		owner:     0
 		at:        {x: 7652, y: 8695}
 		flagship:  true
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: 6434, y: 4695}
-		target:  {initial: 0, lock: true}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: 2608, y: 2086}
-		target:  {initial: 16, lock: true}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: 3739, y: 2434}
-		target:  {initial: 16, lock: true}
-	*	base:    "gai/gunship"
-		owner:   1
-		at:      {x: -347, y: -1913}
-		target:  {initial: 17, lock: true}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: -1130, y: -2347}
-		target:  {initial: 17, lock: true}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: -347, y: -2782}
-		target:  {initial: 17, lock: true}
-	*	base:    "gai/gunship"
-		owner:   1
-		at:      {x: -1043, y: -5043}
-		target:  {initial: 18, lock: true}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: -2695, y: -4173}
-		target:  {initial: 18, lock: true}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: -1826, y: -4434}
-		target:  {initial: 18, lock: true}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: -1913, y: -4956}
-		target:  {initial: 18, lock: true}
-	*	base:    "obi/escort"
-		owner:   0
-		at:      {x: -8695, y: 6782}
-		hide:    true
-		target:  {initial: 1}
-	*	base:    "obi/escort"
-		owner:   0
-		at:      {x: -6695, y: 8347}
-		hide:    true
-		target:  {initial: 1}
-	*	base:     "loc/bunker"
-		owner:    1
-		at:       {x: -1652, y: -4173}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: 6434, y: 4695}
+		target:    {initial: 0, lock: true}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: 2608, y: 2086}
+		target:    {initial: 16, lock: true}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: 3739, y: 2434}
+		target:    {initial: 16, lock: true}
+	*	base:      "gai/gunship"
+		owner:     1
+		at:        {x: -347, y: -1913}
+		target:    {initial: 17, lock: true}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: -1130, y: -2347}
+		target:    {initial: 17, lock: true}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: -347, y: -2782}
+		target:    {initial: 17, lock: true}
+	*	base:      "gai/gunship"
+		owner:     1
+		at:        {x: -1043, y: -5043}
+		target:    {initial: 18, lock: true}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: -2695, y: -4173}
+		target:    {initial: 18, lock: true}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: -1826, y: -4434}
+		target:    {initial: 18, lock: true}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: -1913, y: -4956}
+		target:    {initial: 18, lock: true}
+	*	base:      "obi/escort"
+		owner:     0
+		at:        {x: -8695, y: 6782}
+		hide:      true
+		target:    {initial: 1}
+	*	base:      "obi/escort"
+		owner:     0
+		at:        {x: -6695, y: 8347}
+		hide:      true
+		target:    {initial: 1}
+	*	base:      "loc/bunker"
+		owner:     1
+		at:        {x: -1652, y: -4173}
 		override:
 			name:    "Myrmidon Station"
 			sprite:  "loc/habitat"
 		earning:  1.0
-	*	base:  "loc/sun"
-		at:    {x: 0, y: 0}
+	*	base:     "loc/sun"
+		at:       {x: 0, y: 0}
 		override:
 			name:  "Myrmidon"
-	*	base:     "loc/relay"
-		owner:    1
-		at:       {x: 3217, y: 2000}
+	*	base:   "loc/relay"
+		owner:  1
+		at:     {x: 3217, y: 2000}
 		override:
 			name:  "Relay Dish 2"
 		earning:  1.0
@@ -145,8 +145,8 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [13]
-			*	type:      "delay"
-				duration:  "2s"
+			*	type:       "delay"
+				duration:   "2s"
 			*	type:       "message"
 				reflexive:  true
 				pages:

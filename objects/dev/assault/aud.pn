@@ -15,10 +15,10 @@ activate:
 			priority:     3
 			persistence:  "76h27m31.2s"
 			volume:       255
-		*	type:       "create"
-			reflexive:  true
-			base:       "aud/evat"
-			count:      10
-			distance:   4
-			within:     "square"
-			inherit:    true
+		*	type:         "create"
+			reflexive:    true
+			base:         "aud/evat"
+			count:        10
+			distance:     4
+			within:       "square"
+			inherit:      true

@@ -5,18 +5,18 @@ notes:         "Sensor Relay Station"
 shield_color:  {tan: 240}
 animation:
 	sprite:  "loc/relay"
-icon:          {size: 6}
-target:        {base: true}
+icon:    {size: 6}
+target:  {base: true}
 destroy:
 	action:
 		*	type:                "create"
 			reflexive:           true
 			base:                "sfx/explosion/large"
 			relative_direction:  true
-		*	type:       "score"
-			reflexive:  true
-			counter:    {player: 0, which: 0}
-			value:      1
-		*	type:  "check"
+		*	type:                "score"
+			reflexive:           true
+			counter:             {player: 0, which: 0}
+			value:               1
+		*	type:                "check"
 ai:
 	build:  {legacy_non_builder: true}

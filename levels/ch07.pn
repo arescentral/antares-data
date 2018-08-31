@@ -11,24 +11,24 @@ players:
 		race:  "can"
 		name:  "The Cantharan Order"
 status:
-	*	text:  "Collect 4"
+	*	text:       "Collect 4"
 	*	text:       "asteroid samples"
 		underline:  true
-	*	prefix:   "Collected: "
-		counter:  {player: 0, which: 1}
-		suffix:   "/4"
-song:     "yesterday"
+	*	prefix:     "Collected: "
+		counter:    {player: 0, which: 1}
+		suffix:     "/4"
+song:  "yesterday"
 initials:
-	*	base:   "can/hvc"
-		owner:  1
-		at:     {x: -22129, y: -17913}
+	*	base:    "can/hvc"
+		owner:   1
+		at:      {x: -22129, y: -17913}
 	*	base:    "ish/etc/astrominer"
 		owner:   0
 		at:      {x: -2696, y: 4347}
 		target:  {initial: 5}
-	*	base:     "ast/otr/big"
-		owner:    1
-		at:       {x: -8000, y: -8800}
+	*	base:    "ast/otr/big"
+		owner:   1
+		at:      {x: -8000, y: -8800}
 		override:
 			name:  "Asteroid IR7-7e"
 		earning:  1.0
@@ -39,33 +39,33 @@ initials:
 			name:    "Philemon Beta"
 			sprite:  "loc/planets/marslike"
 		earning:  1.0
-	*	base:  "loc/sun"
-		at:    {x: 200, y: -200}
+	*	base:     "loc/sun"
+		at:       {x: 200, y: -200}
 		override:
 			name:  "Philemon"
 	*	base:      "ish/hvc"
 		owner:     0
 		at:        {x: -3678, y: 3497}
 		flagship:  true
-	*	base:    "can/schooner"
-		owner:   1
-		at:      {x: -6978, y: -8804}
-		target:  {initial: 2, lock: true}
-	*	base:    "can/gunship"
-		owner:   1
-		at:      {x: -11760, y: -17673}
-		hide:    true
-		target:  {initial: 1, lock: true}
-	*	base:    "can/schooner"
-		owner:   1
-		at:      {x: -10543, y: -17325}
-		hide:    true
-		target:  {initial: 7, lock: true}
-	*	base:    "can/schooner"
-		owner:   1
-		at:      {x: -11673, y: -16021}
-		hide:    true
-		target:  {initial: 7, lock: true}
+	*	base:      "can/schooner"
+		owner:     1
+		at:        {x: -6978, y: -8804}
+		target:    {initial: 2, lock: true}
+	*	base:      "can/gunship"
+		owner:     1
+		at:        {x: -11760, y: -17673}
+		hide:      true
+		target:    {initial: 1, lock: true}
+	*	base:      "can/schooner"
+		owner:     1
+		at:        {x: -10543, y: -17325}
+		hide:      true
+		target:    {initial: 7, lock: true}
+	*	base:      "can/schooner"
+		owner:     1
+		at:        {x: -11673, y: -16021}
+		hide:      true
+		target:    {initial: 7, lock: true}
 conditions:
 	*	when:
 			type:      "time"
@@ -87,7 +87,7 @@ conditions:
 		action:
 			*	type:      "delay"
 				duration:  "2s"
-			*	type:  "message"
+			*	type:      "message"
 				pages:
 					*	>	\i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
 						|	SOURCE: Human/Ishiman Coord. Control

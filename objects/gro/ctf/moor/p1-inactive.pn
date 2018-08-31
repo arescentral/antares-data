@@ -1,13 +1,13 @@
-template:      "gro/ctf/moor/p1-active"
-short_name:    "MOOR 1 N"
-notes:         "Moor, for CTF, P1 Inactive"
-tags:          {disabled: true, reactivator: true, normal: null, normal-attacker: null, energizable: null}
+template:    "gro/ctf/moor/p1-active"
+short_name:  "MOOR 1 N"
+notes:       "Moor, for CTF, P1 Inactive"
+tags:        {disabled: true, reactivator: true, normal: null, normal-attacker: null, energizable: null}
 weapons:
 	special:
 		base:  "dev/reactivator/p2"
 		positions:
 			*	{x: 0.0, y: 0.0}
-destroy:       {action: null}
+destroy:  {action: null}
 expire:
 	die:  false
 	after:
@@ -23,7 +23,7 @@ collide:
 	as:  {direct: false}
 ai:
 	combat:
-		hated:    false
+		hated:  false
 		engages:
 			if:
 				tags:  {disabled: true}

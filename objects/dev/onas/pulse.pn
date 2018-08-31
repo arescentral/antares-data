@@ -18,7 +18,7 @@ expire:
 collide:
 	damage:  200
 	action:
-		*	type:  "push"
+		*	type:       "push"
 		*	type:       "create"
 			reflexive:  true
 			base:       "sfx/explosion/gas"

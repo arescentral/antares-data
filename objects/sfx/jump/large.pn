@@ -19,4 +19,4 @@ create:
 			priority:     4
 			persistence:  "20t"
 			volume:       255
-collide:     {damage: 1}
+collide:  {damage: 1}

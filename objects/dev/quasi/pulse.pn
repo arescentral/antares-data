@@ -16,21 +16,21 @@ expire:
 collide:
 	damage:  200
 	action:
-		*	type:      "spark"
-			count:     20
-			hue:       "aqua"
-			velocity:  5.0
-			age:       "2s8t"
-		*	type:         "play"
-			reflexive:    true
-			sound:        "dev/quasi/collide"
-			priority:     1
-			persistence:  "10t"
-			volume:       255
+		*	type:                "spark"
+			count:               20
+			hue:                 "aqua"
+			velocity:            5.0
+			age:                 "2s8t"
+		*	type:                "play"
+			reflexive:           true
+			sound:               "dev/quasi/collide"
+			priority:            1
+			persistence:         "10t"
+			volume:              255
 		*	type:                "create"
 			reflexive:           true
 			base:                "sfx/explosion/quasi"
 			relative_velocity:   true
 			relative_direction:  true
-		*	type:       "remove"
-			reflexive:  true
+		*	type:                "remove"
+			reflexive:           true

@@ -1,11 +1,11 @@
-template:          "ele/etc/liner"
-notes:             "Liner Disabled"
-turn_rate:         0.0
-max_velocity:      0.5
-thrust:            0.0
-target:            {order: false}
-expire:            {action: null}
-collide:           {edge: false}
+template:      "ele/etc/liner"
+notes:         "Liner Disabled"
+turn_rate:     0.0
+max_velocity:  0.5
+thrust:        0.0
+target:        {order: false}
+expire:        {action: null}
+collide:       {edge: false}
 ai:
 	combat:
 		hated:    false

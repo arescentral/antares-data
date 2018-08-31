@@ -13,14 +13,14 @@ players:
 		name:           "The Prophets of Salril"
 		earning_power:  2.0
 status:
-	*	text:  "Capture Thasero"
+	*	text:       "Capture Thasero"
 	*	text:       "Beta"
 		underline:  true
-song:     "technobee"
+song:  "technobee"
 initials:
-	*	base:     "loc/planet"
-		owner:    0
-		at:       {x: 0, y: 6000}
+	*	base:   "loc/planet"
+		owner:  0
+		at:     {x: 0, y: 6000}
 		override:
 			name:    "Thasero Alpha"
 			sprite:  "loc/planets/moldymud"
@@ -31,9 +31,9 @@ initials:
 			*	"gunship"
 			*	"transport"
 			*	"aslttran"
-	*	base:     "loc/planet"
-		owner:    1
-		at:       {x: 0, y: -7478}
+	*	base:   "loc/planet"
+		owner:  1
+		at:     {x: 0, y: -7478}
 		override:
 			name:    "Thasero Beta"
 			sprite:  "loc/planets/calmpurple"
@@ -44,40 +44,40 @@ initials:
 			*	"gunship"
 			*	"transport"
 			*	"aslttran"
-	*	base:     "loc/bunker"
-		owner:    1
-		at:       {x: 0, y: 0}
+	*	base:   "loc/bunker"
+		owner:  1
+		at:     {x: 0, y: 0}
 		override:
 			name:    "Thasero Station"
 			sprite:  "sal/etc/battlestation"
-		earning:  1.0
+		earning:   1.0
 	*	base:      "ish/hvd"
 		owner:     0
 		at:        {x: 869, y: 6521}
 		flagship:  true
-	*	base:   "sal/gunship"
-		owner:  1
-		at:     {x: 956, y: -7130}
-	*	base:    "ish/carrier"
-		owner:   0
-		at:      {x: -782, y: 6521}
-		target:  {initial: 0}
-	*	base:    "baz/bttlship"
-		owner:   0
-		at:      {x: 86, y: 7478}
-		target:  {initial: 0}
-	*	base:   "sal/carrier"
-		owner:  1
-		at:     {x: -9565, y: -9565}
-		hide:   true
-	*	base:   "sal/carrier"
-		owner:  1
-		at:     {x: -8695, y: -9130}
-		hide:   true
-	*	base:   "aud/carrier"
-		owner:  1
-		at:     {x: -9565, y: -8000}
-		hide:   true
+	*	base:      "sal/gunship"
+		owner:     1
+		at:        {x: 956, y: -7130}
+	*	base:      "ish/carrier"
+		owner:     0
+		at:        {x: -782, y: 6521}
+		target:    {initial: 0}
+	*	base:      "baz/bttlship"
+		owner:     0
+		at:        {x: 86, y: 7478}
+		target:    {initial: 0}
+	*	base:      "sal/carrier"
+		owner:     1
+		at:        {x: -9565, y: -9565}
+		hide:      true
+	*	base:      "sal/carrier"
+		owner:     1
+		at:        {x: -8695, y: -9130}
+		hide:      true
+	*	base:      "aud/carrier"
+		owner:     1
+		at:        {x: -9565, y: -8000}
+		hide:      true
 conditions:
 	*	when:
 			type:   "distance"
@@ -88,8 +88,8 @@ conditions:
 		subject:  {initial: 2}
 		direct:   {initial: 3}
 		action:
-			*	type:      "delay"
-				duration:  "2s"
+			*	type:       "delay"
+				duration:   "2s"
 			*	type:       "message"
 				reflexive:  true
 				pages:
@@ -98,8 +98,8 @@ conditions:
 						|	\i WARNING \i Three large signals have been detected in the Thasero/Ser
 						>	jumpstream. One of the objects appears to be the Salrilian carrier
 						>	Horrible Flies. The other objects are unidentified. \i<EOT>\i 
-			*	type:      "delay"
-				duration:  "3s"
+			*	type:       "delay"
+				duration:   "3s"
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [7, 8, 9]

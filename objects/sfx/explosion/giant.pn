@@ -15,23 +15,23 @@ expire:
 	after:  {animation: true}
 create:
 	action:
-		*	type:         "play"
-			reflexive:    true
-			sound:        "sfx/explosion/large"
-			priority:     4
-			persistence:  "20t"
-			volume:       255
+		*	type:                "play"
+			reflexive:           true
+			sound:               "sfx/explosion/large"
+			priority:            4
+			persistence:         "20t"
+			volume:              255
 		*	type:                "create"
 			reflexive:           true
 			base:                "sfx/debris/a"
 			count:               {begin: 8, end: 16}
 			relative_direction:  true
-		*	type:       "create"
-			reflexive:  true
-			base:       "sfx/debris/b"
-			count:      {begin: 8, end: 16}
-		*	type:               "create"
-			reflexive:          true
-			base:               "sfx/debris/c"
-			count:              {begin: 8, end: 16}
-			relative_velocity:  true
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/debris/b"
+			count:               {begin: 8, end: 16}
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/debris/c"
+			count:               {begin: 8, end: 16}
+			relative_velocity:   true

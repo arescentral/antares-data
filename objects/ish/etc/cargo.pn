@@ -17,7 +17,7 @@ initial_velocity:  0.0
 rotation:
 	sprite:  "ish/etc/cargo"
 	frames:  {begin: 0, end: 24}
-icon:              {size: 6}
+icon:  {size: 6}
 destroy:
 	action:
 		*	type:                "create"
@@ -36,9 +36,9 @@ arrive:
 			if:
 				tags:  {rendezvous: true}
 			of:
-				*	type:     "score"
-					counter:  {player: 0, which: 0}
-					value:    1
+				*	type:       "score"
+					counter:    {player: 0, which: 0}
+					value:      1
 				*	type:       "remove"
 					reflexive:  true
 		*	type:  "check"

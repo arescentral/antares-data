@@ -15,9 +15,9 @@ activate:
 			base:                "dev/fireball/pulse"
 			relative_velocity:   true
 			relative_direction:  true
-		*	type:         "play"
-			reflexive:    true
-			sound:        "dev/fireball"
-			priority:     3
-			persistence:  "0.25s"
-			volume:       255
+		*	type:                "play"
+			reflexive:           true
+			sound:               "dev/fireball"
+			priority:            3
+			persistence:         "0.25s"
+			volume:              255

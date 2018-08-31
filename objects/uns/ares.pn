@@ -12,6 +12,6 @@ animation:
 icon:
 	shape:  "plus"
 	size:   7
-collide:     {damage: 1}
+collide:  {damage: 1}
 ai:
 	escort:  {class: -256, power: -5.0, need: -5.0}

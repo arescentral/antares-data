@@ -21,9 +21,9 @@ icon:
 	size:   1
 destroy:
 	action:
-		*	type:       "create"
-			reflexive:  true
-			base:       "sfx/explosion/small"
+		*	type:         "create"
+			reflexive:    true
+			base:         "sfx/explosion/small"
 		*	type:         "play"
 			reflexive:    true
 			sound:        "zrb/destroy"
@@ -46,7 +46,7 @@ collide:
 			priority:     3
 			persistence:  "10t"
 			volume:       255
-arrive:        {distance: 0}
+arrive:  {distance: 0}
 ai:
 	target:
 		prefer:  {local: true}

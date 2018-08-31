@@ -27,7 +27,7 @@ weapons:
 rotation:
 	sprite:  "uns/etc/bttlship"
 	frames:  {begin: 0, end: 24}
-icon:               {size: 9}
+icon:  {size: 9}
 destroy:
 	action:
 		*	type:                "create"

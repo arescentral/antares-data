@@ -1,5 +1,5 @@
-type:        "solo"
-chapter:     20
+type:     "solo"
+chapter:  20
 title:
 	>	\i Chapter 17 
 	|	\i...And It Feels So Good
@@ -13,17 +13,17 @@ players:
 		name:           "The Audemedon Axis"
 		earning_power:  1.0
 status:
-	*	text:  "Capture Lalande"
+	*	text:       "Capture Lalande"
 	*	text:       "Beta"
 		underline:  true
-song:        "yesterday"
+song:  "yesterday"
 initials:
 	*	base:  "ast/shoot/wide/up"
 		at:    {x: 0, y: 32767}
 	*	base:  "ast/shoot/wide/down"
 		at:    {x: 0, y: -32767}
-	*	base:     "loc/planet"
-		at:       {x: 28260, y: 27129}
+	*	base:  "loc/planet"
+		at:    {x: 28260, y: 27129}
 		override:
 			name:    "Lalande Alpha"
 			sprite:  "loc/planets/splatterpaint-pink"
@@ -35,8 +35,8 @@ initials:
 			*	"carrier"
 			*	"hvd"
 			*	"transport"
-	*	base:     "loc/planet"
-		at:       {x: -28260, y: -27129}
+	*	base:  "loc/planet"
+		at:    {x: -28260, y: -27129}
 		override:
 			name:    "Lalande Beta"
 			sprite:  "loc/planets/marshmellow"
@@ -48,45 +48,45 @@ initials:
 			*	"carrier"
 			*	"hvd"
 			*	"transport"
-	*	base:     "loc/bunker"
-		at:       {x: 0, y: 0}
+	*	base:  "loc/bunker"
+		at:    {x: 0, y: 0}
 		override:
 			name:  "Bunker Station"
-		earning:  1.0
+		earning:   1.0
 	*	base:      "ish/hvd"
 		owner:     0
 		at:        {x: 28520, y: 28522}
 		hide:      true
 		flagship:  true
-	*	base:   "ele/cruiser"
-		owner:  0
-		at:     {x: 28957, y: 27652}
-		hide:   true
-	*	base:   "ele/cruiser"
-		owner:  0
-		at:     {x: 28167, y: 27126}
-		hide:   true
-	*	base:   "ele/cruiser"
-		owner:  0
-		at:     {x: 28866, y: 26603}
-		hide:   true
-	*	base:    "uns/cruiser"
-		owner:   0
-		at:      {x: 29474, y: 27559}
-		hide:    true
-		target:  {initial: 2}
-	*	base:    "uns/cruiser"
-		owner:   0
-		at:      {x: 29213, y: 26343}
-		hide:    true
-		target:  {initial: 2}
+	*	base:      "ele/cruiser"
+		owner:     0
+		at:        {x: 28957, y: 27652}
+		hide:      true
+	*	base:      "ele/cruiser"
+		owner:     0
+		at:        {x: 28167, y: 27126}
+		hide:      true
+	*	base:      "ele/cruiser"
+		owner:     0
+		at:        {x: 28866, y: 26603}
+		hide:      true
+	*	base:      "uns/cruiser"
+		owner:     0
+		at:        {x: 29474, y: 27559}
+		hide:      true
+		target:    {initial: 2}
+	*	base:      "uns/cruiser"
+		owner:     0
+		at:        {x: 29213, y: 26343}
+		hide:      true
+		target:    {initial: 2}
 	*	base:      "aud/carrier"
 		owner:     1
 		at:        {x: -29218, y: -25044}
 		hide:      true
 		flagship:  true
-	*	base:     "loc/outpost"
-		at:       {x: 9391, y: -9043}
+	*	base:      "loc/outpost"
+		at:        {x: 9391, y: -9043}
 		override:
 			name:  "Outpost 1"
 		earning:  0.5
@@ -108,17 +108,17 @@ conditions:
 				reflexive:  true
 				override:
 					subject:  {initial: 2}
-				player:     0
-			*	type:  "group"
+				player:  0
+			*	type:    "group"
 				override:
 					subject:  {initial: 3}
 				of:
 					*	type:       "capture"
 						reflexive:  true
 						player:     1
-					*	type:    "pay"
-						value:   50.0
-						player:  1
+					*	type:       "pay"
+						value:      50.0
+						player:     1
 	*	when:
 			type:    "owner"
 			op:      "eq"

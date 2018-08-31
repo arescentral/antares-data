@@ -22,7 +22,7 @@ animation:
 icon:
 	shape:  "plus"
 	size:   3
-target:             {select: true}
+target:  {select: true}
 destroy:
 	release_energy:  true
 	action:
@@ -36,18 +36,18 @@ destroy:
 				>	One of the escape pods was destroyed.
 collide:
 	action:
-		*	type:     "score"
-			counter:  {player: 0, which: 1}
-			value:    1
+		*	type:         "score"
+			counter:      {player: 0, which: 1}
+			value:        1
 		*	type:         "play"
 			reflexive:    true
 			sound:        "sfx/energy"
 			priority:     3
 			persistence:  "5t"
 			volume:       255
-		*	type:       "remove"
-			reflexive:  true
-		*	type:  "check"
+		*	type:         "remove"
+			reflexive:    true
+		*	type:         "check"
 ai:
 	escort:  {class: 9, need: 2.0}
 	build:   {ratio: 0.7}

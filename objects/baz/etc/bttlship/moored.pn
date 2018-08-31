@@ -23,6 +23,6 @@ ai:
 		skill:    {num: 0, den: 0}
 	escort:  {power: 0.0, need: 0.0}
 	build:   {ratio: 0.0}
-portrait:           null
-shield_color:       null
-weapons:            null
+portrait:      null
+shield_color:  null
+weapons:       null

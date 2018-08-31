@@ -13,13 +13,13 @@ animation:
 	direction:  "?"
 	speed:      0.117
 	first:      {begin: 0.0, end: 20.0}
-icon:               {size: 4}
-target:             {base: true}
+icon:    {size: 4}
+target:  {base: true}
 destroy:
 	action:
-		*	type:       "create"
-			reflexive:  true
-			base:       "sfx/explosion/asteroid"
+		*	type:                "create"
+			reflexive:           true
+			base:                "sfx/explosion/asteroid"
 		*	type:                "create"
 			reflexive:           true
 			base:                "ast/otr/medium"

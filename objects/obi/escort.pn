@@ -32,7 +32,7 @@ weapons:
 rotation:
 	sprite:  "obi/escort"
 	frames:  {begin: 0, end: 24}
-icon:               {size: 4}
+icon:  {size: 4}
 destroy:
 	action:
 		*	type:                "create"

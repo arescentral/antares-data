@@ -17,14 +17,14 @@ rotation:
 icon:
 	shape:  "plus"
 	size:   1
-target:             {radar: true, order: true, lock: true}
+target:  {radar: true, order: true, lock: true}
 destroy:
 	action:
 		*	type:       "score"
 			reflexive:  true
 			counter:    {player: 0, which: 2}
 			value:      1
-		*	type:  "check"
+		*	type:       "check"
 create:
 	action:
 		*	type:       "capture"
@@ -38,9 +38,9 @@ collide:
 			if:
 				tags:  {rescue: true}
 			of:
-				*	type:     "score"
-					counter:  {player: 0, which: 0}
-					value:    1
+				*	type:       "score"
+					counter:    {player: 0, which: 0}
+					value:      1
 				*	type:       "remove"
 					reflexive:  true
 		*	type:  "check"
@@ -57,20 +57,20 @@ activate:
 		*	type:       "spin"
 			reflexive:  true
 			value:      {begin: -1.0, end: 0.0}
-		*	type:      "delay"
-			duration:  "20t"
+		*	type:       "delay"
+			duration:   "20t"
 		*	type:       "speed"
 			reflexive:  true
 			relative:   true
 			value:      0.5
-		*	type:      "delay"
-			duration:  "4.5s"
+		*	type:       "delay"
+			duration:   "4.5s"
 		*	type:       "morph"
 			reflexive:  true
 			base:       "obi/etc/obiard/waving"
 			keep_ammo:  true
-		*	type:      "delay"
-			duration:  "4.5s"
+		*	type:       "delay"
+			duration:   "4.5s"
 		*	type:       "morph"
 			reflexive:  true
 			base:       "obi/etc/obiard/turning"

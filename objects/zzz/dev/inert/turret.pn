@@ -14,9 +14,9 @@ activate:
 			base:                "zzz/dev/inert/beam"
 			relative_velocity:   true
 			relative_direction:  true
-		*	type:         "play"
-			reflexive:    true
-			sound:        "zzz/dev/inert"
-			priority:     3
-			persistence:  "10t"
-			volume:       180
+		*	type:                "play"
+			reflexive:           true
+			sound:               "zzz/dev/inert"
+			priority:            3
+			persistence:         "10t"
+			volume:              180

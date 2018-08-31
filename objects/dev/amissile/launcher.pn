@@ -10,12 +10,12 @@ device:
 	restock_cost:  12
 activate:
 	action:
-		*	type:         "play"
-			reflexive:    true
-			sound:        "dev/cm"
-			priority:     3
-			persistence:  "0.25s"
-			volume:       255
+		*	type:                "play"
+			reflexive:           true
+			sound:               "dev/cm"
+			priority:            3
+			persistence:         "0.25s"
+			volume:              255
 		*	type:                "create"
 			reflexive:           true
 			base:                "dev/amissile/missile"

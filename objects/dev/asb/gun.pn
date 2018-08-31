@@ -9,12 +9,12 @@ device:
 	speed:        21.0
 activate:
 	action:
-		*	type:         "play"
-			reflexive:    true
-			sound:        "dev/asb"
-			priority:     3
-			persistence:  "10t"
-			volume:       255
+		*	type:                "play"
+			reflexive:           true
+			sound:               "dev/asb"
+			priority:            3
+			persistence:         "10t"
+			volume:              255
 		*	type:                "create"
 			reflexive:           true
 			base:                "dev/asb/beam"

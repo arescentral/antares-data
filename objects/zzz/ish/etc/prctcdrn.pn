@@ -15,11 +15,11 @@ animation:
 icon:
 	shape:  "plus"
 	size:   4
-target:            {lock: true}
+target:  {lock: true}
 create:
 	action:
-		*	type:      "delay"
-			duration:  "6s"
+		*	type:       "delay"
+			duration:   "6s"
 		*	type:       "message"
 			reflexive:  true
 			id:         5508
@@ -30,19 +30,19 @@ create:
 		*	type:  "target"
 			override:
 				direct:  {initial: 5}
-		*	type:      "delay"
-			duration:  "2s"
+		*	type:       "delay"
+			duration:   "2s"
 		*	type:       "land"
 			reflexive:  true
 			override:
 				direct:  {initial: 5}
 			speed:      128
-		*	type:      "delay"
-			duration:  "40s"
+		*	type:       "delay"
+			duration:   "40s"
 		*	type:       "condition"
 			reflexive:  true
 			enable:     [13]
-		*	type:  "check"
+		*	type:       "check"
 ai:
 	target:
 		prefer:  {local: true}

@@ -10,15 +10,15 @@ initial_velocity:  0.5
 rotation:
 	sprite:  "dev/cm"
 	frames:  {begin: 0, end: 24}
-target:            {radar: true}
+target:  {radar: true}
 destroy:
 	action:
 		*	type:                "create"
 			reflexive:           true
 			base:                "sfx/explosion/energy"
 			relative_direction:  true
-		*	type:       "remove"
-			reflexive:  true
+		*	type:                "remove"
+			reflexive:           true
 expire:
 	after:
 		age:  "0.5s"
@@ -44,8 +44,8 @@ collide:
 			reflexive:           true
 			base:                "sfx/explosion/gas"
 			relative_direction:  true
-		*	type:       "remove"
-			reflexive:  true
+		*	type:                "remove"
+			reflexive:           true
 ai:
 	combat:
 		hated:    true

@@ -5,8 +5,8 @@ notes:         "Gaitori, Fresh (Not Burning)"
 shield_color:  {red: 240}
 animation:
 	sprite:  "gai/etc/lab"
-icon:          {size: 6}
-target:        {base: true}
+icon:    {size: 6}
+target:  {base: true}
 destroy:
 	die:  false
 	action:

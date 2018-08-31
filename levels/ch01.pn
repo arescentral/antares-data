@@ -13,91 +13,91 @@ players:
 		name:           "The Gaitori Union"
 		earning_power:  1.0
 status:
-	*	text:  "Destroy all 5"
+	*	text:       "Destroy all 5"
 	*	text:       "transports."
 		underline:  true
-	*	prefix:   "Remaining: "
-		minuend:  5
-		counter:  {player: 0, which: 0}
-		suffix:   "/5"
-song:     "getalong"
+	*	prefix:     "Remaining: "
+		minuend:    5
+		counter:    {player: 0, which: 0}
+		suffix:     "/5"
+song:  "getalong"
 initials:
-	*	base:     "loc/planet"
-		owner:    1
-		at:       {x: 0, y: -97391}
+	*	base:   "loc/planet"
+		owner:  1
+		at:     {x: 0, y: -97391}
 		override:
 			name:    "Charon Station"
 			sprite:  "loc/bunker"
-		earning:  1.0
-	*	base:    "gai/etc/transport/ch1"
-		owner:   1
-		at:      {x: -694, y: -35129}
-		target:  {initial: 0, lock: true}
-	*	base:    "gai/etc/transport/ch1"
-		owner:   1
-		at:      {x: -347, y: -42782}
-		target:  {initial: 0, lock: true}
-	*	base:    "gai/etc/transport/ch1"
-		owner:   1
-		at:      {x: 0, y: -47999}
-		target:  {initial: 0, lock: true}
-	*	base:    "gai/etc/transport/ch1"
-		owner:   1
-		at:      {x: -173, y: -53564}
-		target:  {initial: 0, lock: true}
-	*	base:    "gai/etc/transport/ch1"
-		owner:   1
-		at:      {x: -522, y: -57565}
-		target:  {initial: 0, lock: true}
+		earning:   1.0
+	*	base:      "gai/etc/transport/ch1"
+		owner:     1
+		at:        {x: -694, y: -35129}
+		target:    {initial: 0, lock: true}
+	*	base:      "gai/etc/transport/ch1"
+		owner:     1
+		at:        {x: -347, y: -42782}
+		target:    {initial: 0, lock: true}
+	*	base:      "gai/etc/transport/ch1"
+		owner:     1
+		at:        {x: 0, y: -47999}
+		target:    {initial: 0, lock: true}
+	*	base:      "gai/etc/transport/ch1"
+		owner:     1
+		at:        {x: -173, y: -53564}
+		target:    {initial: 0, lock: true}
+	*	base:      "gai/etc/transport/ch1"
+		owner:     1
+		at:        {x: -522, y: -57565}
+		target:    {initial: 0, lock: true}
 	*	base:      "ish/cruiser"
 		owner:     0
 		at:        {x: 0, y: -23652}
 		flagship:  true
 		target:    {initial: 5}
-	*	base:    "gai/fighter"
-		owner:   1
-		at:      {x: -87, y: -33912}
-		target:  {initial: 1, lock: true}
-	*	base:    "gai/fighter"
-		owner:   1
-		at:      {x: -782, y: -33651}
-		target:  {initial: 1, lock: true}
-	*	base:    "gai/fighter"
-		owner:   1
-		at:      {x: 87, y: -41390}
-		target:  {initial: 2, lock: true}
-	*	base:    "gai/fighter"
-		owner:   1
-		at:      {x: -695, y: -41129}
-		target:  {initial: 2, lock: true}
-	*	base:    "gai/fighter"
-		owner:   1
-		at:      {x: 0, y: -46607}
-		target:  {initial: 3, lock: true}
-	*	base:    "gai/fighter"
-		owner:   1
-		at:      {x: -43, y: -46869}
-		target:  {initial: 3, lock: true}
-	*	base:    "gai/fighter"
-		owner:   1
-		at:      {x: -348, y: -46345}
-		target:  {initial: 3, lock: true}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: -348, y: -52173}
-		target:  {initial: 4}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: -1217, y: -56172}
-		target:  {initial: 5, lock: true}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: -347, y: -56172}
-		target:  {initial: 5, lock: true}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: 696, y: -55999}
-		target:  {initial: 5, lock: true}
+	*	base:      "gai/fighter"
+		owner:     1
+		at:        {x: -87, y: -33912}
+		target:    {initial: 1, lock: true}
+	*	base:      "gai/fighter"
+		owner:     1
+		at:        {x: -782, y: -33651}
+		target:    {initial: 1, lock: true}
+	*	base:      "gai/fighter"
+		owner:     1
+		at:        {x: 87, y: -41390}
+		target:    {initial: 2, lock: true}
+	*	base:      "gai/fighter"
+		owner:     1
+		at:        {x: -695, y: -41129}
+		target:    {initial: 2, lock: true}
+	*	base:      "gai/fighter"
+		owner:     1
+		at:        {x: 0, y: -46607}
+		target:    {initial: 3, lock: true}
+	*	base:      "gai/fighter"
+		owner:     1
+		at:        {x: -43, y: -46869}
+		target:    {initial: 3, lock: true}
+	*	base:      "gai/fighter"
+		owner:     1
+		at:        {x: -348, y: -46345}
+		target:    {initial: 3, lock: true}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: -348, y: -52173}
+		target:    {initial: 4}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: -1217, y: -56172}
+		target:    {initial: 5, lock: true}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: -347, y: -56172}
+		target:    {initial: 5, lock: true}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: 696, y: -55999}
+		target:    {initial: 5, lock: true}
 conditions:
 	*	when:
 			type:     "score"

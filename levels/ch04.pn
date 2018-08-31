@@ -13,16 +13,16 @@ players:
 		name:           "The Gaitori Union"
 		earning_power:  1.5
 status:
-	*	text:  "Rescue 11"
+	*	text:       "Rescue 11"
 	*	text:       "Obiards"
 		underline:  true
-	*	prefix:   "In transport: "
-		counter:  {player: 0, which: 0}
-		suffix:   "/5"
-	*	prefix:   "Rescued: "
-		counter:  {player: 0, which: 1}
-		suffix:   "/11"
-song:     "eyes-of-fire"
+	*	prefix:     "In transport: "
+		counter:    {player: 0, which: 0}
+		suffix:     "/5"
+	*	prefix:     "Rescued: "
+		counter:    {player: 0, which: 1}
+		suffix:     "/11"
+song:  "eyes-of-fire"
 initials:
 	*	base:   "obi/etc/liner"
 		owner:  0
@@ -33,9 +33,9 @@ initials:
 		owner:   0
 		at:      {x: 695, y: 956}
 		target:  {initial: 0}
-	*	base:     "gai/etc/lab/base"
-		owner:    1
-		at:       {x: -5130, y: -6086}
+	*	base:    "gai/etc/lab/base"
+		owner:   1
+		at:      {x: -5130, y: -6086}
 		override:
 			name:  "Cell 1"
 		earning:  1.0
@@ -50,55 +50,55 @@ initials:
 		at:       {x: -1042, y: -11652}
 		override:
 			name:  "Cell 3"
-		earning:  1.0
+		earning:   1.0
 	*	base:      "ish/hvc"
 		owner:     0
 		at:        {x: -608, y: 956}
 		flagship:  true
 		target:    {initial: 0}
-	*	base:    "obi/escort"
-		owner:   0
-		at:      {x: 260, y: 1826}
-		target:  {initial: 1, lock: true}
-	*	base:   "gai/etc/spawner/obj"
-		owner:  1
-		at:     {x: 520, y: -18956}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: -4175, y: -6610}
-		target:  {initial: 2, lock: true}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: 3129, y: -7566}
-		target:  {initial: 3, lock: true}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: 3998, y: -7566}
-		target:  {initial: 3, lock: true}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: -436, y: -10696}
-		target:  {initial: 4, lock: true}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: -262, y: -11653}
-		target:  {initial: 4, lock: true}
-	*	base:    "gai/gunship"
-		owner:   1
-		at:      {x: -697, y: -9653}
-		target:  {initial: 4, lock: true}
-	*	base:    "gai/cruiser"
-		owner:   1
-		at:      {x: -4175, y: -6610}
-		target:  {initial: 2, lock: true}
-	*	base:    "gai/fighter"
-		owner:   1
-		at:      {x: -3826, y: -7043}
-		target:  {initial: 2, lock: true}
-	*	base:    "gai/fighter"
-		owner:   1
-		at:      {x: 4347, y: -5652}
-		target:  {initial: 9, lock: true}
+	*	base:      "obi/escort"
+		owner:     0
+		at:        {x: 260, y: 1826}
+		target:    {initial: 1, lock: true}
+	*	base:      "gai/etc/spawner/obj"
+		owner:     1
+		at:        {x: 520, y: -18956}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: -4175, y: -6610}
+		target:    {initial: 2, lock: true}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: 3129, y: -7566}
+		target:    {initial: 3, lock: true}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: 3998, y: -7566}
+		target:    {initial: 3, lock: true}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: -436, y: -10696}
+		target:    {initial: 4, lock: true}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: -262, y: -11653}
+		target:    {initial: 4, lock: true}
+	*	base:      "gai/gunship"
+		owner:     1
+		at:        {x: -697, y: -9653}
+		target:    {initial: 4, lock: true}
+	*	base:      "gai/cruiser"
+		owner:     1
+		at:        {x: -4175, y: -6610}
+		target:    {initial: 2, lock: true}
+	*	base:      "gai/fighter"
+		owner:     1
+		at:        {x: -3826, y: -7043}
+		target:    {initial: 2, lock: true}
+	*	base:      "gai/fighter"
+		owner:     1
+		at:        {x: 4347, y: -5652}
+		target:    {initial: 9, lock: true}
 conditions:
 	*	when:
 			type:     "score"
@@ -119,8 +119,8 @@ conditions:
 			value:  223.608
 			from:   {initial: 1}
 			to:     {initial: 0}
-		subject:     {initial: 1}
-		direct:      {initial: 0}
+		subject:  {initial: 1}
+		direct:   {initial: 0}
 		action:
 			*	type:       "condition"
 				reflexive:  true
@@ -131,22 +131,22 @@ conditions:
 			op:       "ge"
 			counter:  {player: 0, which: 0}
 			value:    1
-		subject:   {initial: 1}
+		subject:  {initial: 1}
 		action:
 			*	type:                "create"
 				reflexive:           true
 				base:                "obi/etc/obiard/returning"
 				relative_velocity:   true
 				relative_direction:  true
-			*	type:       "score"
-				reflexive:  true
-				counter:    {player: 0, which: 0}
-				value:      -1
-			*	type:       "condition"
-				reflexive:  true
-				enable:     [0]
-			*	type:       "fire"
-				reflexive:  true
+			*	type:                "score"
+				reflexive:           true
+				counter:             {player: 0, which: 0}
+				value:               -1
+			*	type:                "condition"
+				reflexive:           true
+				enable:              [0]
+			*	type:                "fire"
+				reflexive:           true
 				override:
 					subject:  {initial: 6}
 				which:      "special"
@@ -156,7 +156,7 @@ conditions:
 					subject:  {initial: 1}
 				base:       "obi/etc/transport/rescue"
 				keep_ammo:  true
-			*	type:  "check"
+			*	type:       "check"
 	*	persistent:  true
 		when:
 			type:   "distance"
@@ -164,8 +164,8 @@ conditions:
 			value:  223.608
 			from:   {initial: 1}
 			to:     {initial: 0}
-		subject:     {initial: 1}
-		direct:      {initial: 0}
+		subject:  {initial: 1}
+		direct:   {initial: 0}
 		action:
 			*	type:       "condition"
 				reflexive:  true

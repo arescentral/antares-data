@@ -13,43 +13,43 @@ players:
 		name:           "The Cantharan Order"
 		earning_power:  1.25
 status:
-	*	text:  "Capture Bokleo"
+	*	text:       "Capture Bokleo"
 	*	text:       "Gamma"
 		underline:  true
-	*	text:  "Free Bazidanese"
+	*	text:       "Free Bazidanese"
 	*	text:       "Ship"
 		underline:  true
-song:     "eyes-of-fire"
+song:  "eyes-of-fire"
 initials:
 	*	base:      "ish/hvc"
 		owner:     0
 		at:        {x: 18261, y: 73651}
 		flagship:  true
-	*	base:   "baz/etc/bttlship/moored"
-		owner:  0
-		at:     {x: 0, y: 0}
-	*	base:   "loc/moor"
-		owner:  1
-		at:     {x: -341, y: -85}
-	*	base:   "loc/moor"
-		owner:  1
-		at:     {x: 287, y: -235}
-	*	base:   "loc/moor"
-		owner:  1
-		at:     {x: 173, y: 260}
-	*	base:   "can/hvc"
-		owner:  1
-		at:     {x: -10782, y: -12955}
-	*	base:     "loc/planet"
-		owner:    1
-		at:       {x: 434, y: -869}
+	*	base:      "baz/etc/bttlship/moored"
+		owner:     0
+		at:        {x: 0, y: 0}
+	*	base:      "loc/moor"
+		owner:     1
+		at:        {x: -341, y: -85}
+	*	base:      "loc/moor"
+		owner:     1
+		at:        {x: 287, y: -235}
+	*	base:      "loc/moor"
+		owner:     1
+		at:        {x: 173, y: 260}
+	*	base:      "can/hvc"
+		owner:     1
+		at:        {x: -10782, y: -12955}
+	*	base:      "loc/planet"
+		owner:     1
+		at:        {x: 434, y: -869}
 		override:
 			name:    "Bokleo Beta"
 			sprite:  "loc/planets/bahamas"
 		earning:  1.0
-	*	base:   "can/etc/border-drone"
-		owner:  1
-		at:     {x: -260, y: -608}
+	*	base:     "can/etc/border-drone"
+		owner:    1
+		at:       {x: -260, y: -608}
 	*	base:     "loc/planet"
 		owner:    1
 		at:       {x: -4782, y: -21477}
@@ -63,10 +63,10 @@ initials:
 			*	"transport"
 			*	"gunship"
 			*	"hvc"
-	*	base:     "loc/planet"
-		owner:    0
-		at:       {x: 22783, y: 72259}
-		target:   {lock: true}
+	*	base:    "loc/planet"
+		owner:   0
+		at:      {x: 22783, y: 72259}
+		target:  {lock: true}
 		override:
 			name:    "Bokleo Alpha"
 			sprite:  "loc/planets/lava"
@@ -102,14 +102,14 @@ initials:
 		at:     {x: -15043, y: -14347}
 		override:
 			name:  "CRUISER"
-	*	base:   "can/carrier"
-		owner:  1
-		at:     {x: -10173, y: -15391}
-		hide:   true
-	*	base:   "can/carrier"
-		owner:  1
-		at:     {x: -16434, y: -16259}
-		hide:   true
+	*	base:    "can/carrier"
+		owner:   1
+		at:      {x: -10173, y: -15391}
+		hide:    true
+	*	base:    "can/carrier"
+		owner:   1
+		at:      {x: -16434, y: -16259}
+		hide:    true
 	*	base:    "can/gunship"
 		owner:   1
 		at:      {x: -8869, y: -20086}
@@ -138,8 +138,8 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [2]
-			*	type:    "capture"
-				player:  0
+			*	type:       "capture"
+				player:     0
 	*	when:
 			type:    "owner"
 			op:      "eq"
@@ -151,8 +151,8 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [1]
-			*	type:    "capture"
-				player:  1
+			*	type:       "capture"
+				player:     1
 	*	when:
 			type:      "time"
 			op:        "ge"
@@ -173,7 +173,7 @@ conditions:
 			op:      "eq"
 			object:  {initial: 8}
 			player:  0
-		subject:     {initial: 8}
+		subject:  {initial: 8}
 		action:
 			*	type:    "win"
 				player:  0
@@ -186,7 +186,7 @@ conditions:
 			op:      "eq"
 			object:  {initial: 9}
 			player:  1
-		subject:     {initial: 9}
+		subject:  {initial: 9}
 		action:
 			*	type:    "win"
 				player:  1

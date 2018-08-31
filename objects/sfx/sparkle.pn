@@ -10,4 +10,4 @@ animation:
 	speed:      0.156
 expire:
 	after:  {animation: true}
-collide:     {damage: 100}
+collide:  {damage: 100}

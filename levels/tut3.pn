@@ -13,47 +13,47 @@ players:
 		name:           "The Cantharan Order"
 		earning_power:  0.008
 status:
-	*	text:  "Destroy all 5"
+	*	text:       "Destroy all 5"
 	*	text:       "transports."
 		underline:  true
-	*	prefix:   "Remaining: "
-		minuend:  5
-		counter:  {player: 0, which: 0}
-		suffix:   "/5"
-song:     "autoregret"
+	*	prefix:     "Remaining: "
+		minuend:    5
+		counter:    {player: 0, which: 0}
+		suffix:     "/5"
+song:  "autoregret"
 initials:
 	*	base:      "ish/cruiser"
 		owner:     0
 		at:        {x: 0, y: 0}
 		flagship:  true
-	*	base:   "loc/planet"
-		owner:  0
-		at:     {x: -200, y: -200}
+	*	base:      "loc/planet"
+		owner:     0
+		at:        {x: -200, y: -200}
 		override:
 			name:  "Simulated Planet"
 		build:
 			*	"ish/etc/cruiser/tut3"
 			*	"hvd"
 			*	"carrier"
-	*	base:   "ish/hvc"
-		owner:  0
-		at:     {x: 6000, y: 0}
-	*	base:   "ish/transport"
-		owner:  0
-		at:     {x: 200, y: 200}
-		hide:   true
-	*	base:   "ish/transport"
-		owner:  0
-		at:     {x: 400, y: 400}
-		hide:   true
-	*	base:   "ish/fighter"
-		owner:  0
-		at:     {x: 200, y: 250}
-		hide:   true
-	*	base:   "ish/fighter"
-		owner:  0
-		at:     {x: 250, y: 200}
-		hide:   true
+	*	base:    "ish/hvc"
+		owner:   0
+		at:      {x: 6000, y: 0}
+	*	base:    "ish/transport"
+		owner:   0
+		at:      {x: 200, y: 200}
+		hide:    true
+	*	base:    "ish/transport"
+		owner:   0
+		at:      {x: 400, y: 400}
+		hide:    true
+	*	base:    "ish/fighter"
+		owner:   0
+		at:      {x: 200, y: 250}
+		hide:    true
+	*	base:    "ish/fighter"
+		owner:   0
+		at:      {x: 250, y: 200}
+		hide:    true
 	*	base:    "can/transport"
 		owner:   1
 		at:      {x: 6000, y: -3000}
@@ -125,13 +125,13 @@ conditions:
 					*	"comp_special"
 					*	"comp_build"
 					*	"send_message"
-			*	type:   "zoom"
-				value:  "1:2"
+			*	type:    "zoom"
+				value:   "1:2"
 			*	type:    "pay"
 				value:   12.5
 				player:  0
-			*	type:  "message"
-				id:    5900
+			*	type:    "message"
+				id:      5900
 				pages:
 					*	>	Welcome to Lesson 3.
 						>
@@ -152,14 +152,14 @@ conditions:
 						>
 						>	Select this planet as a Control Object now.
 						|	You can simply click on it with the mouse.
-			*	type:      "delay"
-				duration:  "2s40t"
+			*	type:       "delay"
+				duration:   "2s40t"
 			*	type:       "capture"
 				reflexive:  true
 				override:
 					subject:  {initial: 1}
-				player:     0
-			*	type:  "check"
+				player:  0
+			*	type:    "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -176,7 +176,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {control: 0}
-		subject:   {initial: 1}
+		subject:  {initial: 1}
 		action:
 			*	type:  "message"
 				id:    5905
@@ -292,7 +292,7 @@ conditions:
 			id:      5910
 			page:    6
 		action:
-			*	type:    "pay"
+			*	type:  "pay"
 				override:
 					subject:  {initial: 0}
 					direct:   {initial: 0}
@@ -361,14 +361,14 @@ conditions:
 						|	#SFD.
 			*	type:    "condition"
 				enable:  [11]
-			*	type:  "check"
+			*	type:    "check"
 	*	disabled:  true
 		when:
 			type:  "identity"
 			op:    "eq"
 			a:     {initial: 5}
 			b:     {control: 0}
-		subject:   {initial: 5}
+		subject:  {initial: 5}
 		action:
 			*	type:  "message"
 				id:    5935
@@ -404,8 +404,8 @@ conditions:
 			id:      5935
 			page:    3
 		action:
-			*	type:   "zoom"
-				value:  "all"
+			*	type:    "zoom"
+				value:   "all"
 			*	type:    "condition"
 				enable:  [13]
 	*	when:
@@ -424,14 +424,14 @@ conditions:
 						>
 						>	Watch what happens when the second cruiser
 						|	gets built.
-			*	type:   "zoom"
-				value:  "1:2"
+			*	type:    "zoom"
+				value:   "1:2"
 			*	type:    "select"
 				screen:  "build"
 				line:    3
 			*	type:    "condition"
 				enable:  [14]
-			*	type:  "key"
+			*	type:    "key"
 				disable:
 					*	"select_friend"
 					*	"select_foe"
@@ -486,7 +486,7 @@ conditions:
 		action:
 			*	type:    "condition"
 				enable:  [17]
-			*	type:  "key"
+			*	type:    "key"
 				enable:
 					*	"select_friend"
 					*	"select_foe"
@@ -498,7 +498,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 2}
 			b:     {control: 0}
-		subject:   {initial: 2}
+		subject:  {initial: 2}
 		action:
 			*	type:  "message"
 				id:    5950
@@ -512,18 +512,18 @@ conditions:
 						|	hold down #DST and
 						|	press the Select Base key,
 						|	#SBS.
-			*	type:   "zoom"
-				value:  "1:2"
+			*	type:    "zoom"
+				value:   "1:2"
 			*	type:    "condition"
 				enable:  [18]
-			*	type:  "check"
+			*	type:    "check"
 	*	disabled:  true
 		when:
 			type:  "identity"
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {target: 0}
-		subject:   {initial: 1}
+		subject:  {initial: 1}
 		action:
 			*	type:  "message"
 				id:    5955
@@ -544,11 +544,11 @@ conditions:
 						>
 						>	Press the \i_#ORD_\i key now to order the Control Object, the Heavy
 						>	Cruiser, to go to the Target Object, the planet.
-			*	type:   "zoom"
-				value:  "all"
+			*	type:    "zoom"
+				value:   "all"
 			*	type:    "condition"
 				enable:  [19]
-			*	type:  "key"
+			*	type:    "key"
 				enable:
 					*	"order"
 			*	type:  "check"
@@ -559,8 +559,8 @@ conditions:
 			value:  223.608
 			from:   {initial: 1}
 			to:     {initial: 2}
-		subject:   {initial: 1}
-		direct:    {initial: 2}
+		subject:  {initial: 1}
+		direct:   {initial: 2}
 		action:
 			*	type:  "message"
 				id:    5960
@@ -581,14 +581,14 @@ conditions:
 						|	click on it.
 			*	type:    "condition"
 				enable:  [20]
-			*	type:  "check"
+			*	type:    "check"
 	*	disabled:  true
 		when:
 			type:  "identity"
 			op:    "eq"
 			a:     {initial: 6}
 			b:     {control: 0}
-		subject:   {initial: 6}
+		subject:  {initial: 6}
 		action:
 			*	type:  "message"
 				id:    5965
@@ -606,15 +606,15 @@ conditions:
 						|	now.
 			*	type:    "condition"
 				enable:  [21]
-			*	type:  "check"
+			*	type:    "check"
 	*	disabled:  true
 		when:
 			type:    "target"
 			op:      "eq"
 			object:  {initial: 6}
 			target:  {initial: 1}
-		subject:   {initial: 6}
-		direct:    {initial: 1}
+		subject:  {initial: 6}
+		direct:   {initial: 1}
 		action:
 			*	type:  "message"
 				id:    5970
@@ -665,25 +665,25 @@ conditions:
 					*	type:       "zoom"
 						reflexive:  true
 						value:      "1:16"
-			*	type:    "pay"
-				value:   -64.0
-				player:  1
+			*	type:     "pay"
+				value:    -64.0
+				player:   1
 			*	type:     "reveal"
 				initial:  [3]
-			*	type:    "condition"
-				enable:  [23]
+			*	type:     "condition"
+				enable:   [23]
 	*	disabled:  true
 		when:
 			type:    "owner"
 			op:      "eq"
 			object:  {initial: 1}
 			player:  0
-		subject:   {initial: 1}
+		subject:  {initial: 1}
 		action:
 			*	type:      "delay"
 				duration:  "4s40t"
-			*	type:  "message"
-				id:    5975
+			*	type:      "message"
+				id:        5975
 				pages:
 					*	>	Very good. You recaptured the planet. Transports must have a planet
 						>	targeted in order to capture it. Being near the planet isn’t enough.
@@ -698,7 +698,7 @@ conditions:
 						>	Select it.
 			*	type:     "reveal"
 				initial:  [4]
-			*	type:  "check"
+			*	type:     "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -714,7 +714,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 6}
 			b:     {control: 0}
-		subject:   {initial: 6}
+		subject:  {initial: 6}
 		action:
 			*	type:  "message"
 				id:    5980
@@ -724,14 +724,14 @@ conditions:
 						>	Now target this transport.
 			*	type:    "condition"
 				enable:  [26]
-			*	type:  "check"
+			*	type:    "check"
 	*	disabled:  true
 		when:
 			type:  "identity"
 			op:    "eq"
 			a:     {initial: 4}
 			b:     {target: 0}
-		subject:   {initial: 4}
+		subject:  {initial: 4}
 		action:
 			*	type:  "message"
 				id:    5985
@@ -741,15 +741,15 @@ conditions:
 						>	Press the Order to Go key, #ORD.
 			*	type:    "condition"
 				enable:  [27]
-			*	type:  "check"
+			*	type:    "check"
 	*	disabled:  true
 		when:
 			type:    "target"
 			op:      "eq"
 			object:  {initial: 6}
 			target:  {initial: 4}
-		subject:   {initial: 6}
-		direct:    {initial: 4}
+		subject:  {initial: 6}
+		direct:   {initial: 4}
 		action:
 			*	type:  "message"
 				id:    5990
@@ -764,15 +764,15 @@ conditions:
 						|	to it.
 			*	type:    "condition"
 				enable:  [28]
-			*	type:  "check"
+			*	type:    "check"
 	*	disabled:  true
 		when:
 			type:    "target"
 			op:      "eq"
 			object:  {initial: 5}
 			target:  {initial: 4}
-		subject:   {initial: 5}
-		direct:    {initial: 4}
+		subject:  {initial: 5}
+		direct:   {initial: 4}
 		action:
 			*	type:  "message"
 				id:    5995
@@ -782,15 +782,15 @@ conditions:
 						>	Select it and press #ORD.
 			*	type:    "condition"
 				enable:  [29]
-			*	type:  "check"
+			*	type:    "check"
 	*	disabled:  true
 		when:
 			type:    "target"
 			op:      "eq"
 			object:  {initial: 2}
 			target:  {initial: 4}
-		subject:   {initial: 2}
-		direct:    {initial: 4}
+		subject:  {initial: 2}
+		direct:   {initial: 4}
 		action:
 			*	type:  "message"
 				id:    7000
@@ -820,8 +820,8 @@ conditions:
 			*	type:  "key"
 				disable:
 					*	"mouse"
-			*	type:   "zoom"
-				value:  "1:1"
+			*	type:    "zoom"
+				value:   "1:1"
 			*	type:    "condition"
 				enable:  [31]
 	*	disabled:  true
@@ -830,7 +830,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 0}
 			b:     {target: 0}
-		subject:   {initial: 0}
+		subject:  {initial: 0}
 		action:
 			*	type:  "message"
 				id:    7005
@@ -844,20 +844,20 @@ conditions:
 						>	We’ll continue when all three ships have you as their target.
 			*	type:    "condition"
 				enable:  [32]
-			*	type:  "key"
+			*	type:    "key"
 				enable:
 					*	"mouse"
 			*	type:   "zoom"
 				value:  "all"
-			*	type:  "check"
+			*	type:   "check"
 	*	disabled:  true
 		when:
 			type:    "target"
 			op:      "eq"
 			object:  {initial: 2}
 			target:  {initial: 0}
-		subject:   {initial: 2}
-		direct:    {initial: 0}
+		subject:  {initial: 2}
+		direct:   {initial: 0}
 		action:
 			*	type:    "condition"
 				enable:  [33]
@@ -867,8 +867,8 @@ conditions:
 			op:      "eq"
 			object:  {initial: 5}
 			target:  {initial: 0}
-		subject:   {initial: 5}
-		direct:    {initial: 0}
+		subject:  {initial: 5}
+		direct:   {initial: 0}
 		action:
 			*	type:    "condition"
 				enable:  [34]
@@ -878,8 +878,8 @@ conditions:
 			op:      "eq"
 			object:  {initial: 6}
 			target:  {initial: 0}
-		subject:   {initial: 6}
-		direct:    {initial: 0}
+		subject:  {initial: 6}
+		direct:   {initial: 0}
 		action:
 			*	type:  "message"
 				id:    7010
@@ -906,7 +906,7 @@ conditions:
 			*	type:    "select"
 				screen:  "main"
 				line:    4
-			*	type:  "check"
+			*	type:    "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -958,7 +958,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 2}
 			b:     {control: 0}
-		subject:   {initial: 2}
+		subject:  {initial: 2}
 		action:
 			*	type:  "message"
 				id:    7020
@@ -979,14 +979,14 @@ conditions:
 				line:    1
 			*	type:    "condition"
 				enable:  [39]
-			*	type:  "check"
+			*	type:    "check"
 	*	disabled:  true
 		when:
 			type:  "identity"
 			op:    "eq"
 			a:     {initial: 2}
 			b:     {flagship: 0}
-		subject:   {initial: 2}
+		subject:  {initial: 2}
 		action:
 			*	type:  "message"
 				id:    7025
@@ -1042,13 +1042,13 @@ conditions:
 			id:      7025
 			page:    5
 		action:
-			*	type:     "reveal"
-				initial:  [7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+			*	type:      "reveal"
+				initial:   [7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 			*	type:      "delay"
 				duration:  "6s"
-			*	type:    "condition"
-				enable:  [42]
-			*	type:  "key"
+			*	type:      "condition"
+				enable:    [42]
+			*	type:      "key"
 				enable:
 					*	"up"
 					*	"down"

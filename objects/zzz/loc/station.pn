@@ -11,7 +11,7 @@ animation:
 icon:
 	shape:  "square"
 	size:   7
-target:      {base: true}
-collide:     {damage: 1}
+target:   {base: true}
+collide:  {damage: 1}
 ai:
 	escort:  {class: 10, need: 3.0}

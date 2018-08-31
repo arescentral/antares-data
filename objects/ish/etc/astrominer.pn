@@ -26,7 +26,7 @@ weapons:
 rotation:
 	sprite:  "ish/etc/astrominer"
 	frames:  {begin: 0, end: 24}
-icon:               {size: 5}
+icon:  {size: 5}
 destroy:
 	action:
 		*	type:                "create"

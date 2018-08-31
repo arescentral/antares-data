@@ -16,17 +16,17 @@ items:
 		gamepad:  "Y"
 		hue:      "salmon"
 		style:    "large"
-	*	type:    "text"
-		bounds:  {left: 160, top: 150, right: 480, bottom: 250}
+	*	type:     "text"
+		bounds:   {left: 160, top: 150, right: 480, bottom: 250}
 		text:
 			>	Resume your current game, start this chapter over, or quit to the main
 			>	menu?
-		hue:     "aqua"
-		style:   "large"
-	*	type:    "rect"
-		bounds:  {left: 140, top: 150, right: 500, bottom: 290}
-		hue:     "aqua"
-		style:   "large"
+		hue:      "aqua"
+		style:    "large"
+	*	type:     "rect"
+		bounds:   {left: 140, top: 150, right: 500, bottom: 290}
+		hue:      "aqua"
+		style:    "large"
 	*	type:     "button"
 		id:       4
 		bounds:   {left: 180, top: 190, right: 460, bottom: 200}

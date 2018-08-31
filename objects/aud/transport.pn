@@ -6,6 +6,6 @@ energy:        800
 rotation:
 	sprite:  "aud/transport"
 	frames:  {begin: 0, end: 24}
-target:        {hide: true}
+target:  {hide: true}
 ai:
 	escort:  {power: 0.2}

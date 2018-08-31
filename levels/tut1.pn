@@ -13,40 +13,40 @@ players:
 		name:           "The Cantharan Order"
 		earning_power:  1.0
 status:
-	*	text:  "Destroy all 5"
+	*	text:       "Destroy all 5"
 	*	text:       "transports."
 		underline:  true
-	*	prefix:   "Remaining: "
-		minuend:  5
-		counter:  {player: 0, which: 0}
-		suffix:   "/5"
-song:     "autoregret"
+	*	prefix:     "Remaining: "
+		minuend:    5
+		counter:    {player: 0, which: 0}
+		suffix:     "/5"
+song:  "autoregret"
 initials:
 	*	base:      "ish/cruiser"
 		owner:     0
 		at:        {x: 0, y: 0}
 		flagship:  true
-	*	base:   "ish/cruiser"
-		owner:  0
-		at:     {x: -3000, y: 3000}
-	*	base:   "ish/transport"
-		owner:  0
-		at:     {x: 0, y: 3000}
-	*	base:   "ish/carrier"
-		owner:  0
-		at:     {x: 3000, y: 3000}
-	*	base:  "loc/planet"
-		at:    {x: 5000, y: 0}
+	*	base:      "ish/cruiser"
+		owner:     0
+		at:        {x: -3000, y: 3000}
+	*	base:      "ish/transport"
+		owner:     0
+		at:        {x: 0, y: 3000}
+	*	base:      "ish/carrier"
+		owner:     0
+		at:        {x: 3000, y: 3000}
+	*	base:      "loc/planet"
+		at:        {x: 5000, y: 0}
 		override:
 			name:  "Simulated Planet"
 	*	base:    "can/etc/transport/tut1"
 		owner:   1
 		at:      {x: 3000, y: -1000}
 		target:  {lock: true}
-	*	base:   "ish/cruiser"
-		owner:  0
-		at:     {x: 3000, y: 3000}
-		hide:   true
+	*	base:    "ish/cruiser"
+		owner:   0
+		at:      {x: 3000, y: 3000}
+		hide:    true
 	*	base:    "can/transport"
 		owner:   1
 		at:      {x: 3000, y: -6000}
@@ -85,8 +85,8 @@ conditions:
 					*	"zoom_shortcut"
 					*	"send_message"
 					*	"mouse"
-			*	type:   "zoom"
-				value:  "1:1"
+			*	type:       "zoom"
+				value:      "1:1"
 			*	type:       "stop"
 				reflexive:  true
 				override:
@@ -166,7 +166,7 @@ conditions:
 					*	"mouse"
 			*	type:    "condition"
 				enable:  [22]
-			*	type:  "check"
+			*	type:    "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -174,11 +174,11 @@ conditions:
 			id:      5704
 			page:    6
 		action:
-			*	type:   "zoom"
-				value:  "1:4"
+			*	type:    "zoom"
+				value:   "1:4"
 			*	type:    "condition"
 				enable:  [5]
-			*	type:  "key"
+			*	type:    "key"
 				enable:
 					*	"zoom_in"
 					*	"zoom_out"
@@ -233,8 +233,8 @@ conditions:
 					direct:   {initial: 0}
 			*	type:    "condition"
 				enable:  [7]
-			*	type:   "zoom"
-				value:  "foe"
+			*	type:    "zoom"
+				value:   "foe"
 	*	disabled:  true
 		when:
 			type:   "distance"
@@ -242,8 +242,8 @@ conditions:
 			value:  223.608
 			from:   {initial: 0}
 			to:     {initial: 5}
-		subject:   {initial: 0}
-		direct:    {initial: 5}
+		subject:  {initial: 0}
+		direct:   {initial: 5}
 		action:
 			*	type:  "target"
 				override:
@@ -251,8 +251,8 @@ conditions:
 					direct:   {initial: 4}
 			*	type:      "delay"
 				duration:  "2s"
-			*	type:    "condition"
-				enable:  [8]
+			*	type:      "condition"
+				enable:    [8]
 	*	disabled:  true
 		when:
 			type:   "distance"
@@ -260,8 +260,8 @@ conditions:
 			value:  223.608
 			from:   {initial: 4}
 			to:     {initial: 5}
-		subject:   {initial: 4}
-		direct:    {initial: 5}
+		subject:  {initial: 4}
+		direct:   {initial: 5}
 		action:
 			*	type:  "target"
 				override:
@@ -269,8 +269,8 @@ conditions:
 					direct:   {initial: 0}
 			*	type:      "delay"
 				duration:  "2s"
-			*	type:    "condition"
-				enable:  [7]
+			*	type:      "condition"
+				enable:    [7]
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -356,7 +356,7 @@ conditions:
 				reflexive:  true
 				override:
 					subject:  {initial: 2}
-				value:      -249
+				value:  -249
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -366,7 +366,7 @@ conditions:
 		action:
 			*	type:    "condition"
 				enable:  [14]
-			*	type:  "key"
+			*	type:    "key"
 				enable:
 					*	"zoom_in"
 					*	"zoom_out"
@@ -581,7 +581,7 @@ conditions:
 		action:
 			*	type:     "reveal"
 				initial:  [7, 8]
-			*	type:  "group"
+			*	type:     "group"
 				override:
 					subject:  {initial: 8}
 				of:
@@ -599,7 +599,7 @@ conditions:
 				reflexive:  true
 				override:
 					subject:  {initial: 4}
-				player:     0
+				player:  0
 			*	type:    "condition"
 				enable:  [20]
 	*	disabled:  true
@@ -640,7 +640,7 @@ conditions:
 						>
 			*	type:    "condition"
 				enable:  [23]
-			*	type:  "check"
+			*	type:    "check"
 	*	disabled:  true
 		when:
 			type:    "computer"
@@ -701,7 +701,7 @@ par:
 	time:    "2m"
 	kills:   9
 	losses:  0
-skip:     "ch01"
+skip:  "ch01"
 prologue:
 	>	#+Blog/starfield/a
 	|	\i PROLOGUE 

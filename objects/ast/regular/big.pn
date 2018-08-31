@@ -23,10 +23,10 @@ destroy:
 			relative_direction:  true
 create:
 	action:
-		*	type:       "speed"
-			reflexive:  true
-			relative:   true
-			value:      0.0
+		*	type:                "speed"
+			reflexive:           true
+			relative:            true
+			value:               0.0
 		*	type:                "create"
 			reflexive:           true
 			base:                "zrb/base"

@@ -12,7 +12,7 @@ animation:
 	direction:  "+"
 	speed:      0.117
 	first:      {begin: 18.0, end: 26.0}
-target:             {radar: false}
+target:  {radar: false}
 expire:
 	after:
 		age:
@@ -27,7 +27,7 @@ collide:
 			reflexive:           true
 			base:                "sfx/explosion/energy"
 			relative_direction:  true
-		*	type:       "remove"
-			reflexive:  true
+		*	type:                "remove"
+			reflexive:           true
 ai:
 	combat:  {engaged: true}

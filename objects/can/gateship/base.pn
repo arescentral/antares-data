@@ -28,7 +28,7 @@ rotation:
 	sprite:  "can/gateship"
 	scale:   4.0
 	frames:  {begin: 0, end: 24}
-icon:               {size: 10}
+icon:  {size: 10}
 destroy:
 	die:  false
 	action:
@@ -48,8 +48,8 @@ destroy:
 		*	type:       "heal"
 			reflexive:  true
 			value:      80000
-		*	type:      "delay"
-			duration:  "1s"
+		*	type:       "delay"
+			duration:   "1s"
 		*	type:       "message"
 			reflexive:  true
 			id:         5520

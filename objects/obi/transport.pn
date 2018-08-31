@@ -22,8 +22,8 @@ weapons:
 rotation:
 	sprite:  "obi/transport"
 	frames:  {begin: 0, end: 24}
-icon:          {size: 5}
-target:        {hide: true}
+icon:    {size: 5}
+target:  {hide: true}
 destroy:
 	action:
 		*	type:                "create"
@@ -43,9 +43,9 @@ arrive:
 				tags:   {planet: true}
 				owner:  "different"
 			of:
-				*	type:       "land"
-					reflexive:  true
-					speed:      32
+				*	type:         "land"
+					reflexive:    true
+					speed:        32
 				*	type:         "play"
 					absolute:     true
 					sound:        "tpl/transport/land"

@@ -11,11 +11,11 @@ destroy:
 			reflexive:           true
 			base:                "sfx/explosion/large"
 			relative_direction:  true
-		*	type:       "score"
-			reflexive:  true
-			counter:    {player: 0, which: 0}
-			value:      1
-		*	type:  "check"
+		*	type:                "score"
+			reflexive:           true
+			counter:             {player: 0, which: 0}
+			value:               1
+		*	type:                "check"
 ai:
 	escort:  {class: -256}
 	build:   {legacy_non_builder: true}

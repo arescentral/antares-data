@@ -26,7 +26,7 @@ expire:
 			reflexive:  true
 			counter:    {player: 0, which: 0}
 			value:      1
-		*	type:  "check"
+		*	type:       "check"
 arrive:
 	action:
 		*	type:       "create"
@@ -34,10 +34,10 @@ arrive:
 			if:
 				tags:  {jumpgate: true}
 			base:       "sfx/jump/small"
-		*	type:      "delay"
-			duration:  "2s"
+		*	type:       "delay"
+			duration:   "2s"
 		*	type:       "land"
 			reflexive:  true
 			if:
 				tags:  {jumpgate: true}
-			speed:      80
+			speed:  80

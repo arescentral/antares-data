@@ -11,12 +11,12 @@ device:
 	speed:        15.0
 activate:
 	action:
-		*	type:         "play"
-			reflexive:    true
-			sound:        "dev/trazer"
-			priority:     3
-			persistence:  "0.5s"
-			volume:       255
+		*	type:                "play"
+			reflexive:           true
+			sound:               "dev/trazer"
+			priority:            3
+			persistence:         "0.5s"
+			volume:              255
 		*	type:                "create"
 			reflexive:           true
 			base:                "dev/trazer/beam"

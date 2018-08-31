@@ -25,117 +25,117 @@ status:
 		true:       "Destroy all"
 	*	condition:  3
 		true:       "hostile ships"
-song:     "getalong"
+song:  "getalong"
 initials:
-	*	base:     "aud/etc/device"
-		owner:    1
-		at:       {x: 0, y: 0}
+	*	base:   "aud/etc/device"
+		owner:  1
+		at:     {x: 0, y: 0}
 		override:
 			name:  "Massive Device"
-		earning:  1.0
-	*	base:    "ish/etc/research"
-		owner:   0
-		at:      {x: 174, y: 7739}
-		target:  {initial: 1, lock: true}
+		earning:   1.0
+	*	base:      "ish/etc/research"
+		owner:     0
+		at:        {x: 174, y: 7739}
+		target:    {initial: 1, lock: true}
 	*	base:      "ele/cruiser"
 		owner:     0
 		at:        {x: 86, y: 7826}
 		flagship:  true
 		target:    {initial: 0}
-	*	base:    "ish/hvd"
-		owner:   0
-		at:      {x: 435, y: 8086}
-		target:  {initial: 1, lock: true}
-	*	base:    "ish/hvd"
-		owner:   0
-		at:      {x: -173, y: 6695}
-		target:  {initial: 1, lock: true}
-	*	base:    "aud/fighter"
-		owner:   1
-		at:      {x: 174, y: -2000}
-		target:  {initial: 1, lock: true}
-	*	base:    "aud/fighter"
-		owner:   1
-		at:      {x: -695, y: -2086}
-		target:  {initial: 1, lock: true}
-	*	base:    "aud/fighter"
-		owner:   1
-		at:      {x: -347, y: -2608}
-		target:  {initial: 1, lock: true}
-	*	base:    "aud/fighter"
-		owner:   1
-		at:      {x: -217, y: -1521}
-		target:  {initial: 1, lock: true}
-	*	base:    "aud/fighter"
-		owner:   1
-		at:      {x: -260, y: -2434}
-		target:  {initial: 1, lock: true}
-	*	base:    "aud/carrier"
-		owner:   1
-		at:      {x: -957, y: -174}
-		target:  {initial: 0, lock: true}
-	*	base:    "aud/gunship"
-		owner:   1
-		at:      {x: 1130, y: -43}
-		target:  {initial: 0, lock: true}
-	*	base:    "aud/cruiser"
-		owner:   1
-		at:      {x: 43, y: -391}
-		target:  {initial: 0, lock: true}
-	*	base:   "sfx/jump/small"
-		owner:  0
-		at:     {x: -86, y: 9217}
-		hide:   true
-	*	base:   "ish/carrier"
-		owner:  0
-		at:     {x: -86, y: 9217}
-		hide:   true
-	*	base:   "ish/carrier"
-		owner:  0
-		at:     {x: -86, y: 9217}
-		hide:   true
-	*	base:   "ish/carrier"
-		owner:  0
-		at:     {x: -86, y: 9217}
-		hide:   true
-	*	base:    "ish/hvd"
-		owner:   0
-		at:      {x: -86, y: 9217}
-		hide:    true
-		target:  {initial: 14}
-	*	base:    "ish/hvd"
-		owner:   0
-		at:      {x: -86, y: 9217}
-		hide:    true
-		target:  {initial: 15}
-	*	base:    "ish/hvd"
-		owner:   0
-		at:      {x: -86, y: 9217}
-		hide:    true
-		target:  {initial: 16}
-	*	base:   "aud/carrier"
-		owner:  1
-		at:     {x: 6608, y: -7478}
-		hide:   true
-	*	base:   "aud/carrier"
-		owner:  1
-		at:     {x: 5043, y: -7826}
-		hide:   true
-	*	base:    "aud/cruiser"
-		owner:   1
-		at:      {x: 6000, y: -8173}
-		hide:    true
-		target:  {initial: 20}
-	*	base:    "aud/cruiser"
-		owner:   1
-		at:      {x: 5478, y: -6695}
-		hide:    true
-		target:  {initial: 20}
-	*	base:    "aud/gunship"
-		owner:   1
-		at:      {x: 6434, y: -6347}
-		hide:    true
-		target:  {initial: 21}
+	*	base:      "ish/hvd"
+		owner:     0
+		at:        {x: 435, y: 8086}
+		target:    {initial: 1, lock: true}
+	*	base:      "ish/hvd"
+		owner:     0
+		at:        {x: -173, y: 6695}
+		target:    {initial: 1, lock: true}
+	*	base:      "aud/fighter"
+		owner:     1
+		at:        {x: 174, y: -2000}
+		target:    {initial: 1, lock: true}
+	*	base:      "aud/fighter"
+		owner:     1
+		at:        {x: -695, y: -2086}
+		target:    {initial: 1, lock: true}
+	*	base:      "aud/fighter"
+		owner:     1
+		at:        {x: -347, y: -2608}
+		target:    {initial: 1, lock: true}
+	*	base:      "aud/fighter"
+		owner:     1
+		at:        {x: -217, y: -1521}
+		target:    {initial: 1, lock: true}
+	*	base:      "aud/fighter"
+		owner:     1
+		at:        {x: -260, y: -2434}
+		target:    {initial: 1, lock: true}
+	*	base:      "aud/carrier"
+		owner:     1
+		at:        {x: -957, y: -174}
+		target:    {initial: 0, lock: true}
+	*	base:      "aud/gunship"
+		owner:     1
+		at:        {x: 1130, y: -43}
+		target:    {initial: 0, lock: true}
+	*	base:      "aud/cruiser"
+		owner:     1
+		at:        {x: 43, y: -391}
+		target:    {initial: 0, lock: true}
+	*	base:      "sfx/jump/small"
+		owner:     0
+		at:        {x: -86, y: 9217}
+		hide:      true
+	*	base:      "ish/carrier"
+		owner:     0
+		at:        {x: -86, y: 9217}
+		hide:      true
+	*	base:      "ish/carrier"
+		owner:     0
+		at:        {x: -86, y: 9217}
+		hide:      true
+	*	base:      "ish/carrier"
+		owner:     0
+		at:        {x: -86, y: 9217}
+		hide:      true
+	*	base:      "ish/hvd"
+		owner:     0
+		at:        {x: -86, y: 9217}
+		hide:      true
+		target:    {initial: 14}
+	*	base:      "ish/hvd"
+		owner:     0
+		at:        {x: -86, y: 9217}
+		hide:      true
+		target:    {initial: 15}
+	*	base:      "ish/hvd"
+		owner:     0
+		at:        {x: -86, y: 9217}
+		hide:      true
+		target:    {initial: 16}
+	*	base:      "aud/carrier"
+		owner:     1
+		at:        {x: 6608, y: -7478}
+		hide:      true
+	*	base:      "aud/carrier"
+		owner:     1
+		at:        {x: 5043, y: -7826}
+		hide:      true
+	*	base:      "aud/cruiser"
+		owner:     1
+		at:        {x: 6000, y: -8173}
+		hide:      true
+		target:    {initial: 20}
+	*	base:      "aud/cruiser"
+		owner:     1
+		at:        {x: 5478, y: -6695}
+		hide:      true
+		target:    {initial: 20}
+	*	base:      "aud/gunship"
+		owner:     1
+		at:        {x: 6434, y: -6347}
+		hide:      true
+		target:    {initial: 21}
 conditions:
 	*	when:
 			type:    "destroyed"
@@ -190,9 +190,9 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				disable:    [0]
-			*	type:      "delay"
-				duration:  "20s"
-			*	type:  "target"
+			*	type:       "delay"
+				duration:   "20s"
+			*	type:       "target"
 				override:
 					subject:  {initial: 3}
 					direct:   {initial: 0}
@@ -215,8 +215,8 @@ conditions:
 			*	type:       "condition"
 				reflexive:  true
 				disable:    [2]
-			*	type:      "delay"
-				duration:  "6s"
+			*	type:       "delay"
+				duration:   "6s"
 			*	type:       "message"
 				reflexive:  true
 				pages:
@@ -224,18 +224,18 @@ conditions:
 						|	SOURCE: Human/Ishiman Coord. Control
 						|	The Audemedons are sending additional ships to meet our carriers.
 						>	Destroy all hostile vessels and protect our carriers. \i<EOT>\i 
-			*	type:      "delay"
-				duration:  "6s"
+			*	type:       "delay"
+				duration:   "6s"
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [20, 21, 22, 23, 24]
-			*	type:      "delay"
-				duration:  "6s"
+			*	type:       "delay"
+				duration:   "6s"
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [14, 15, 16, 17, 18, 19]
-			*	type:      "delay"
-				duration:  "6s"
+			*	type:       "delay"
+				duration:   "6s"
 			*	type:       "condition"
 				reflexive:  true
 				enable:     [4]

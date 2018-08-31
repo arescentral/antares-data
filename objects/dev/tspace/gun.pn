@@ -11,11 +11,11 @@ device:
 	speed:        21.0
 activate:
 	action:
-		*	type:         "play"
-			sound:        "dev/tspace"
-			priority:     3
-			persistence:  "0.5s"
-			volume:       255
+		*	type:                "play"
+			sound:               "dev/tspace"
+			priority:            3
+			persistence:         "0.5s"
+			volume:              255
 		*	type:                "create"
 			reflexive:           true
 			base:                "dev/tspace/beam"

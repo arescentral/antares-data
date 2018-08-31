@@ -31,7 +31,7 @@ rotation:
 icon:
 	shape:  "square"
 	size:   3
-target:             {radar: true, select: true}
+target:  {radar: true, select: true}
 destroy:
 	action:
 		*	type:                "create"

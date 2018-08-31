@@ -13,46 +13,46 @@ players:
 		name:           "The Cantharan Order"
 		earning_power:  1.0
 status:
-	*	text:  "Destroy all 5"
+	*	text:       "Destroy all 5"
 	*	text:       "transports."
 		underline:  true
-	*	prefix:   "Remaining: "
-		minuend:  5
-		counter:  {player: 0, which: 0}
-		suffix:   "/5"
-song:     "autoregret"
+	*	prefix:     "Remaining: "
+		minuend:    5
+		counter:    {player: 0, which: 0}
+		suffix:     "/5"
+song:  "autoregret"
 initials:
 	*	base:      "ish/cruiser"
 		owner:     0
 		at:        {x: 0, y: 0}
 		flagship:  true
-	*	base:    "ish/hvc"
-		owner:   0
-		at:      {x: 60, y: -400}
-		target:  {lock: true}
-	*	base:    "ish/gunship"
-		owner:   0
-		at:      {x: 6000, y: -100}
-		hide:    true
-		target:  {initial: 2, lock: true}
-	*	base:    "ish/fighter"
-		owner:   0
-		at:      {x: 6000, y: 0}
-		hide:    true
-		target:  {initial: 3, lock: true}
-	*	base:    "ish/cruiser"
-		owner:   0
-		at:      {x: 6000, y: 100}
-		hide:    true
-		target:  {initial: 4, lock: true}
-	*	base:    "ish/transport"
-		owner:   0
-		at:      {x: 6000, y: 200}
-		hide:    true
-		target:  {initial: 5, lock: true}
-	*	base:   "loc/planet"
-		owner:  0
-		at:     {x: -200, y: -100}
+	*	base:      "ish/hvc"
+		owner:     0
+		at:        {x: 60, y: -400}
+		target:    {lock: true}
+	*	base:      "ish/gunship"
+		owner:     0
+		at:        {x: 6000, y: -100}
+		hide:      true
+		target:    {initial: 2, lock: true}
+	*	base:      "ish/fighter"
+		owner:     0
+		at:        {x: 6000, y: 0}
+		hide:      true
+		target:    {initial: 3, lock: true}
+	*	base:      "ish/cruiser"
+		owner:     0
+		at:        {x: 6000, y: 100}
+		hide:      true
+		target:    {initial: 4, lock: true}
+	*	base:      "ish/transport"
+		owner:     0
+		at:        {x: 6000, y: 200}
+		hide:      true
+		target:    {initial: 5, lock: true}
+	*	base:      "loc/planet"
+		owner:     0
+		at:        {x: -200, y: -100}
 		override:
 			name:  "Simulated Planet"
 	*	base:    "can/etc/transport/tut1"
@@ -114,7 +114,7 @@ conditions:
 					*	"send_message"
 			*	type:   "zoom"
 				value:  "1:2"
-			*	type:  "check"
+			*	type:   "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -131,7 +131,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {control: 0}
-		subject:   {initial: 1}
+		subject:  {initial: 1}
 		action:
 			*	type:  "message"
 				id:    5803
@@ -184,7 +184,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 6}
 			b:     {control: 0}
-		subject:   {initial: 6}
+		subject:  {initial: 6}
 		action:
 			*	type:  "message"
 				id:    5811
@@ -203,7 +203,7 @@ conditions:
 						|	or four times.
 			*	type:     "reveal"
 				initial:  [2, 3, 4, 5]
-			*	type:  "check"
+			*	type:     "check"
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -211,8 +211,8 @@ conditions:
 			id:      5811
 			page:    2
 		action:
-			*	type:     "reveal"
-				initial:  [2, 3, 4, 5]
+			*	type:       "reveal"
+				initial:    [2, 3, 4, 5]
 			*	type:       "zoom"
 				reflexive:  true
 				value:      "all"
@@ -225,7 +225,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 5}
 			b:     {control: 0}
-		subject:   {initial: 5}
+		subject:  {initial: 5}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -272,8 +272,8 @@ conditions:
 				of:
 					*	type:       "remove"
 						reflexive:  true
-					*	type:    "condition"
-						enable:  [8]
+					*	type:       "condition"
+						enable:     [8]
 			*	type:       "zoom"
 				reflexive:  true
 				value:      "1:2"
@@ -293,7 +293,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {control: 0}
-		subject:   {initial: 1}
+		subject:  {initial: 1}
 		action:
 			*	type:  "message"
 				id:    5815
@@ -315,8 +315,8 @@ conditions:
 			id:      5815
 			page:    2
 		action:
-			*	type:     "reveal"
-				initial:  [2, 3, 4, 5]
+			*	type:       "reveal"
+				initial:    [2, 3, 4, 5]
 			*	type:       "move"
 				reflexive:  true
 				override:
@@ -337,8 +337,8 @@ conditions:
 				override:
 					subject:  {initial: 5}
 				to:         {x: 60, y: -800}
-			*	type:    "condition"
-				enable:  [10]
+			*	type:       "condition"
+				enable:     [10]
 			*	type:       "zoom"
 				reflexive:  true
 				value:      "1:4"
@@ -348,7 +348,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 5}
 			b:     {control: 0}
-		subject:   {initial: 5}
+		subject:  {initial: 5}
 		action:
 			*	type:  "message"
 				id:    5817
@@ -371,8 +371,8 @@ conditions:
 			id:      5817
 			page:    2
 		action:
-			*	type:    "condition"
-				enable:  [12]
+			*	type:       "condition"
+				enable:     [12]
 			*	type:       "move"
 				reflexive:  true
 				override:
@@ -402,7 +402,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 2}
 			b:     {control: 0}
-		subject:   {initial: 2}
+		subject:  {initial: 2}
 		action:
 			*	type:  "message"
 				id:    5819
@@ -455,7 +455,7 @@ conditions:
 				reflexive:  true
 				override:
 					subject:  {initial: 5}
-				to:         {x: 500, y: -6300}
+				to:  {x: 500, y: -6300}
 	*	when:
 			type:    "message"
 			op:      "eq"
@@ -475,7 +475,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 5}
 			b:     {control: 0}
-		subject:   {initial: 5}
+		subject:  {initial: 5}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -505,7 +505,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 6}
 			b:     {control: 0}
-		subject:   {initial: 6}
+		subject:  {initial: 6}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -553,7 +553,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {target: 0}
-		subject:   {initial: 1}
+		subject:  {initial: 1}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -598,7 +598,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 6}
 			b:     {target: 0}
-		subject:   {initial: 6}
+		subject:  {initial: 6}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -622,16 +622,16 @@ conditions:
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [7]
-			*	type:    "condition"
-				enable:  [23]
+			*	type:       "condition"
+				enable:     [23]
 	*	disabled:  true
 		when:
 			type:  "identity"
 			op:    "eq"
 			a:     {initial: 7}
 			b:     {target: 0}
-		subject:   {initial: 7}
-		direct:    {initial: 1}
+		subject:  {initial: 7}
+		direct:   {initial: 1}
 		action:
 			*	type:       "message"
 				reflexive:  true
@@ -683,7 +683,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {target: 0}
-		subject:   {initial: 1}
+		subject:  {initial: 1}
 		action:
 			*	type:  "message"
 				id:    5835
@@ -712,7 +712,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 6}
 			b:     {target: 0}
-		subject:   {initial: 6}
+		subject:  {initial: 6}
 		action:
 			*	type:  "message"
 				id:    5836
@@ -741,7 +741,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 7}
 			b:     {target: 0}
-		subject:   {initial: 7}
+		subject:  {initial: 7}
 		action:
 			*	type:  "message"
 				id:    5837
@@ -787,7 +787,7 @@ conditions:
 			op:    "eq"
 			a:     {initial: 1}
 			b:     {target: 0}
-		subject:   {initial: 1}
+		subject:  {initial: 1}
 		action:
 			*	type:  "message"
 				id:    5840
@@ -822,10 +822,10 @@ conditions:
 				override:
 					subject:  {initial: 1}
 					direct:   {initial: 5}
-				value:      "object"
+				value:   "object"
 			*	type:    "condition"
 				enable:  [34]
-			*	type:  "key"
+			*	type:    "key"
 				disable:
 					*	"up"
 					*	"down"
@@ -847,13 +847,13 @@ conditions:
 					*	"mouse"
 			*	type:      "delay"
 				duration:  "2s"
-			*	type:  "target"
+			*	type:      "target"
 				override:
 					subject:  {initial: 1}
 					direct:   {initial: 5}
 			*	type:    "condition"
 				enable:  [34]
-			*	type:  "check"
+			*	type:    "check"
 	*	disabled:  true
 		when:
 			type:   "distance"
@@ -861,8 +861,8 @@ conditions:
 			value:  223.608
 			from:   {initial: 1}
 			to:     {initial: 5}
-		subject:   {initial: 1}
-		direct:    {initial: 5}
+		subject:  {initial: 1}
+		direct:   {initial: 5}
 		action:
 			*	type:  "message"
 				id:    5842
@@ -897,7 +897,7 @@ conditions:
 						enable:  [36]
 			*	type:    "condition"
 				enable:  [35]
-			*	type:  "check"
+			*	type:    "check"
 	*	disabled:  true
 		when:
 			type:   "distance"
@@ -905,10 +905,10 @@ conditions:
 			value:  223.608
 			from:   {flagship: 0}
 			to:     {initial: 6}
-		subject:   {flagship: 0}
-		direct:    {initial: 6}
+		subject:  {flagship: 0}
+		direct:   {initial: 6}
 		action:
-			*	type:    "win"
+			*	type:  "win"
 				override:
 					subject:  {initial: 0}
 					direct:   {initial: 0}

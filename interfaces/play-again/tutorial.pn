@@ -16,17 +16,17 @@ items:
 		gamepad:  "Y"
 		hue:      "salmon"
 		style:    "large"
-	*	type:    "text"
-		bounds:  {left: 160, top: 150, right: 480, bottom: 250}
+	*	type:     "text"
+		bounds:   {left: 160, top: 150, right: 480, bottom: 250}
 		text:
 			>	Resume the tutorial, start the tutorial over, skip the tutorial, or quit
 			>	to the main menu?
-		hue:     "indigo"
-		style:   "large"
-	*	type:    "rect"
-		bounds:  {left: 140, top: 150, right: 500, bottom: 330}
-		hue:     "pale-purple"
-		style:   "large"
+		hue:      "indigo"
+		style:    "large"
+	*	type:     "rect"
+		bounds:   {left: 140, top: 150, right: 500, bottom: 330}
+		hue:      "pale-purple"
+		style:    "large"
 	*	type:     "button"
 		id:       4
 		bounds:   {left: 180, top: 190, right: 460, bottom: 200}

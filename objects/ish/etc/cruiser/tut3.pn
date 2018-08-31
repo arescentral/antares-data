@@ -26,4 +26,4 @@ create:
 			reflexive:  true
 			counter:    {player: 0, which: 0}
 			value:      1
-		*	type:  "check"
+		*	type:       "check"

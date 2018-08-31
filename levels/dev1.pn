@@ -17,11 +17,11 @@ players:
 		race:           "aud"
 		name:           "The Audemedon Axis"
 		earning_power:  2.0
-song:     "targetron"
+song:  "targetron"
 initials:
-	*	base:     "loc/planet"
-		owner:    0
-		at:       {x: 9000, y: 0}
+	*	base:   "loc/planet"
+		owner:  0
+		at:     {x: 9000, y: 0}
 		override:
 			name:    "Proteus Alpha"
 			sprite:  "loc/planets/uglypaint"
@@ -33,9 +33,9 @@ initials:
 			*	"carrier"
 			*	"hvd"
 			*	"transport"
-	*	base:     "loc/planet"
-		owner:    1
-		at:       {x: -9000, y: 0}
+	*	base:   "loc/planet"
+		owner:  1
+		at:     {x: -9000, y: 0}
 		override:
 			name:    "Proteus Beta"
 			sprite:  "loc/planets/calmpurple"
@@ -47,9 +47,9 @@ initials:
 			*	"carrier"
 			*	"hvd"
 			*	"transport"
-	*	base:     "loc/planet"
-		owner:    2
-		at:       {x: 0, y: 9000}
+	*	base:   "loc/planet"
+		owner:  2
+		at:     {x: 0, y: 9000}
 		override:
 			name:    "Proteus Gamma"
 			sprite:  "loc/planets/yerrear"

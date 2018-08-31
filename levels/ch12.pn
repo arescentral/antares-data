@@ -13,63 +13,63 @@ players:
 		name:           "The Cantharan Order"
 		earning_power:  3.0
 status:
-	*	text:  "Capture Fansi"
+	*	text:       "Capture Fansi"
 	*	text:       "Beta"
 		underline:  true
-	*	text:  "Ensure safety"
+	*	text:       "Ensure safety"
 	*	text:       "of 5 cargo ships"
 		underline:  true
-	*	text:  ""
-	*	prefix:   "Docked: "
-		counter:  {player: 0, which: 0}
-		suffix:   "/5"
-song:     "yesterday"
+	*	text:       ""
+	*	prefix:     "Docked: "
+		counter:    {player: 0, which: 0}
+		suffix:     "/5"
+song:  "yesterday"
 initials:
 	*	base:   "loc/shipyard"
 		owner:  0
 		at:     {x: -14609, y: -14259}
 		override:
 			name:  "Orbital Shipyard"
-	*	base:   "uns/etc/bttlship"
-		owner:  0
-		at:     {x: -14609, y: -14259}
-		hide:   true
+	*	base:      "uns/etc/bttlship"
+		owner:     0
+		at:        {x: -14609, y: -14259}
+		hide:      true
 	*	base:      "ish/cruiser"
 		owner:     0
 		at:        {x: -21999, y: -15478}
 		flagship:  true
 		target:    {initial: 9}
-	*	base:    "ish/etc/cargo"
-		owner:   0
-		at:      {x: 0, y: 4347}
-		hide:    true
-		target:  {initial: 0, lock: true}
-	*	base:     "loc/bunker"
-		at:       {x: 3821, y: 9473}
-		target:   {lock: true}
+	*	base:      "ish/etc/cargo"
+		owner:     0
+		at:        {x: 0, y: 4347}
+		hide:      true
+		target:    {initial: 0, lock: true}
+	*	base:      "loc/bunker"
+		at:        {x: 3821, y: 9473}
+		target:    {lock: true}
 		override:
 			name:  "Bunker Station 2"
 		earning:  0.75
-	*	base:    "ish/etc/cargo"
-		owner:   0
-		at:      {x: 0, y: 4347}
-		hide:    true
-		target:  {initial: 0, lock: true}
-	*	base:    "ish/etc/cargo"
-		owner:   0
-		at:      {x: 0, y: 4347}
-		hide:    true
-		target:  {initial: 0, lock: true}
-	*	base:    "ish/etc/cargo"
-		owner:   0
-		at:      {x: 0, y: 4347}
-		hide:    true
-		target:  {initial: 0, lock: true}
-	*	base:    "ish/etc/cargo"
-		owner:   0
-		at:      {x: 0, y: 4347}
-		hide:    true
-		target:  {initial: 0, lock: true}
+	*	base:     "ish/etc/cargo"
+		owner:    0
+		at:       {x: 0, y: 4347}
+		hide:     true
+		target:   {initial: 0, lock: true}
+	*	base:     "ish/etc/cargo"
+		owner:    0
+		at:       {x: 0, y: 4347}
+		hide:     true
+		target:   {initial: 0, lock: true}
+	*	base:     "ish/etc/cargo"
+		owner:    0
+		at:       {x: 0, y: 4347}
+		hide:     true
+		target:   {initial: 0, lock: true}
+	*	base:     "ish/etc/cargo"
+		owner:    0
+		at:       {x: 0, y: 4347}
+		hide:     true
+		target:   {initial: 0, lock: true}
 	*	base:     "loc/planet"
 		owner:    0
 		at:       {x: -11133, y: -18088}
@@ -84,9 +84,9 @@ initials:
 			*	"transport"
 			*	"engineer"
 			*	"aslttran"
-	*	base:     "loc/planet"
-		owner:    1
-		at:       {x: 22957, y: 43826}
+	*	base:   "loc/planet"
+		owner:  1
+		at:     {x: 22957, y: 43826}
 		override:
 			name:    "Fansi Beta"
 			sprite:  "loc/planets/cloudtones"
@@ -98,27 +98,27 @@ initials:
 			*	"transport"
 			*	"engineer"
 			*	"aslttran"
-	*	base:     "loc/bunker"
-		at:       {x: 695, y: 3826}
+	*	base:  "loc/bunker"
+		at:    {x: 695, y: 3826}
 		override:
 			name:  "Bunker Station 1"
 		earning:  0.75
-	*	base:   "can/carrier"
-		owner:  1
-		at:     {x: 20173, y: 4173}
-	*	base:  "loc/flak"
-		at:    {x: -2346, y: 956}
-	*	base:   "loc/flak"
-		owner:  1
-		at:     {x: 6935, y: 14868}
-	*	base:    "can/aslttran"
-		owner:   1
-		at:      {x: 21913, y: 8000}
-		target:  {initial: 11, lock: true}
-	*	base:    "can/aslttran"
-		owner:   1
-		at:      {x: 18086, y: 2434}
-		target:  {initial: 4, lock: true}
+	*	base:     "can/carrier"
+		owner:    1
+		at:       {x: 20173, y: 4173}
+	*	base:     "loc/flak"
+		at:       {x: -2346, y: 956}
+	*	base:     "loc/flak"
+		owner:    1
+		at:       {x: 6935, y: 14868}
+	*	base:     "can/aslttran"
+		owner:    1
+		at:       {x: 21913, y: 8000}
+		target:   {initial: 11, lock: true}
+	*	base:     "can/aslttran"
+		owner:    1
+		at:       {x: 18086, y: 2434}
+		target:   {initial: 4, lock: true}
 conditions:
 	*	when:
 			type:      "time"
@@ -135,28 +135,28 @@ conditions:
 						>	important that you maintain control of the station and its flak drone.
 						>	The first freighter will arrive in two minutes, and the others will
 						>	follow with a minute between each of them.\i<EOT>\i 
-			*	type:      "delay"
-				duration:  "20s"
+			*	type:       "delay"
+				duration:   "20s"
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [3]
-			*	type:      "delay"
-				duration:  "20s"
+			*	type:       "delay"
+				duration:   "20s"
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [5]
-			*	type:      "delay"
-				duration:  "20s"
+			*	type:       "delay"
+				duration:   "20s"
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [6]
-			*	type:      "delay"
-				duration:  "20s"
+			*	type:       "delay"
+				duration:   "20s"
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [7]
-			*	type:      "delay"
-				duration:  "20s"
+			*	type:       "delay"
+				duration:   "20s"
 			*	type:       "reveal"
 				reflexive:  true
 				initial:    [8]

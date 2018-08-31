@@ -10,4 +10,4 @@ animation:
 icon:
 	shape:  "square"
 	size:   7
-collide:     {damage: 1}
+collide:  {damage: 1}

@@ -20,9 +20,9 @@ icon:
 	size:   2
 destroy:
 	action:
-		*	type:       "create"
-			reflexive:  true
-			base:       "sfx/explosion/small"
+		*	type:         "create"
+			reflexive:    true
+			base:         "sfx/explosion/small"
 		*	type:         "play"
 			reflexive:    true
 			sound:        "zrb/destroy"
@@ -45,20 +45,20 @@ collide:
 			priority:     3
 			persistence:  "10t"
 			volume:       255
-		*	type:       "age"
-			reflexive:  true
+		*	type:         "age"
+			reflexive:    true
 			value:
 				begin:  "3s"
 				end:    "6s"
-		*	type:      "delay"
-			duration:  "2s"
+		*	type:       "delay"
+			duration:   "2s"
 		*	type:       "create"
 			reflexive:  true
 			base:       "zrb/spawn"
 			count:      {begin: -1, end: 3}
 			distance:   2
 			within:     "square"
-arrive:        {distance: 0}
+arrive:  {distance: 0}
 ai:
 	target:
 		prefer:  {local: true}

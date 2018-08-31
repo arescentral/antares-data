@@ -13,7 +13,7 @@ animation:
 	direction:  "+"
 	speed:      0.312
 	first:      {begin: 0.0, end: 5.0}
-target:            {radar: true}
+target:  {radar: true}
 expire:
 	after:
 		age:  "5s7t"
@@ -32,8 +32,8 @@ collide:
 			reflexive:           true
 			base:                "sfx/explosion/large-hit"
 			relative_direction:  true
-		*	type:  "push"
-		*	type:  "disable"
+		*	type:                "push"
+		*	type:                "disable"
 			duration:
 				begin:  "-0.1s"
 				end:    "0.1s"

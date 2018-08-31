@@ -9,9 +9,9 @@ weapons:
 			*	{x: -5.0, y: 0.0}
 			*	{x: 0.0, y: 0.0}
 			*	{x: 5.0, y: 0.0}
-target:            {hide: false}
-expire:            {action: null}
-arrive:            {action: null}
+target:  {hide: false}
+expire:  {action: null}
+arrive:  {action: null}
 ai:
 	combat:  {evaded: true}
 	target:
@@ -20,4 +20,4 @@ ai:
 			base:   null
 	escort:  {power: 1.0}
 	build:   {ratio: 0.4, needs_escort: false}
-portrait:          null
+portrait:  null

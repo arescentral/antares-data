@@ -15,10 +15,10 @@ activate:
 			priority:     3
 			persistence:  "14t"
 			volume:       255
-		*	type:       "speed"
-			reflexive:  true
-			value:      -15.0
-		*	type:      "delay"
-			duration:  "7t"
-		*	type:       "stop"
-			reflexive:  true
+		*	type:         "speed"
+			reflexive:    true
+			value:        -15.0
+		*	type:         "delay"
+			duration:     "7t"
+		*	type:         "stop"
+			reflexive:    true

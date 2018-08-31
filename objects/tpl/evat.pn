@@ -14,7 +14,7 @@ rotation:           {scale: 0.5}
 icon:
 	shape:  "triangle"
 	size:   1
-target:             {radar: true, order: true, lock: true}
+target:  {radar: true, order: true, lock: true}
 destroy:
 	release_energy:  true
 	action:
@@ -23,9 +23,9 @@ destroy:
 			priority:     3
 			persistence:  "20t"
 			volume:       255
-		*	type:       "create"
-			reflexive:  true
-			base:       "sfx/explosion/small"
+		*	type:         "create"
+			reflexive:    true
+			base:         "sfx/explosion/small"
 expire:
 	after:
 		age:  "1m6s40t"
@@ -41,19 +41,19 @@ arrive:
 				tags:   {station: true}
 				owner:  "different"
 			of:
-				*	type:       "remove"
-					reflexive:  true
+				*	type:         "remove"
+					reflexive:    true
 				*	type:         "play"
 					absolute:     true
 					sound:        "tpl/evat/board"
 					priority:     4
 					persistence:  "1s"
 					volume:       255
-				*	type:   "occupy"
-					value:  1
+				*	type:         "occupy"
+					value:        1
 ai:
 	combat:
-		hated:    true
+		hated:  true
 		engages:
 			if:
 				tags:  {station: true}

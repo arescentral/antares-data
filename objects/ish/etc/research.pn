@@ -18,7 +18,7 @@ rotation:
 	sprite:  "ish/etc/research"
 	scale:   2.0
 	frames:  {begin: 0, end: 24}
-icon:          {size: 7}
+icon:  {size: 7}
 destroy:
 	action:
 		*	type:                "create"

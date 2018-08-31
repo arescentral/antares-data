@@ -7,5 +7,5 @@ energy:      -1
 animation:
 	sprite:  "loc/planets/marslike"
 	scale:   2.0
-icon:        {size: 8}
-collide:     {damage: 1}
+icon:     {size: 8}
+collide:  {damage: 1}

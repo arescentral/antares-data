@@ -18,12 +18,12 @@ destroy:
 			relative_direction:  true
 expire:
 	action:
-		*	type:         "play"
-			reflexive:    true
-			sound:        "sfx/explosion/small"
-			priority:     5
-			persistence:  "1s"
-			volume:       255
+		*	type:                "play"
+			reflexive:           true
+			sound:               "sfx/explosion/small"
+			priority:            5
+			persistence:         "1s"
+			volume:              255
 		*	type:                "create"
 			reflexive:           true
 			base:                "sfx/debris/a"
@@ -42,8 +42,8 @@ expire:
 			reflexive:           true
 			base:                "sfx/explosion/energy"
 			relative_direction:  true
-		*	type:       "remove"
-			reflexive:  true
+		*	type:                "remove"
+			reflexive:           true
 arrive:
 	distance:  70.714
 	action:
@@ -52,11 +52,11 @@ arrive:
 				tags:   {flak: true}
 				owner:  "different"
 			of:
-				*	type:       "stop"
-					reflexive:  true
-				*	type:       "cap-speed"
-					reflexive:  true
-					value:      0.0
+				*	type:         "stop"
+					reflexive:    true
+				*	type:         "cap-speed"
+					reflexive:    true
+					value:        0.0
 				*	type:         "play"
 					reflexive:    true
 					sound:        "tpl/engineer/arrive"
@@ -65,14 +65,14 @@ arrive:
 					volume:       255
 		*	type:      "delay"
 			duration:  "2s40t"
-		*	type:  "group"
+		*	type:      "group"
 			if:
 				tags:   {flak: true}
 				owner:  "different"
 			of:
 				*	type:       "remove"
 					reflexive:  true
-				*	type:  "capture"
+				*	type:       "capture"
 		*	type:       "cap-speed"
 			reflexive:  true
 ai:

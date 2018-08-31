@@ -7,7 +7,7 @@ shield_color:  {indigo: 240}
 animation:
 	sprite:  "aud/etc/device"
 	scale:   2.0
-icon:          {size: 7}
-target:        {base: true}
+icon:    {size: 7}
+target:  {base: true}
 ai:
 	build:  {legacy_non_builder: true}

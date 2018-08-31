@@ -26,6 +26,6 @@ collide:
 			reflexive:           true
 			base:                "sfx/explosion/energy"
 			relative_direction:  true
-		*	type:       "remove"
-			reflexive:  true
-icon:               null
+		*	type:                "remove"
+			reflexive:           true
+icon:  null

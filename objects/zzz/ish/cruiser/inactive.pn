@@ -12,6 +12,6 @@ collide:
 	as:  {subject: false, direct: false}
 ai:
 	combat:  {hated: false, engages: false, engaged: false, evades: false, evaded: false}
-shield_color:       null
-initial_velocity:   null
-weapons:            null
+shield_color:      null
+initial_velocity:  null
+weapons:           null

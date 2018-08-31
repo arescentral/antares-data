@@ -13,14 +13,14 @@ players:
 		name:           "The Gaitori Union"
 		earning_power:  1.25
 status:
-	*	text:  "Capture Hades"
+	*	text:       "Capture Hades"
 	*	text:       "Beta"
 		underline:  true
-song:     "getalong"
+song:  "getalong"
 initials:
-	*	base:     "loc/power"
-		owner:    0
-		at:       {x: 0, y: 3739}
+	*	base:   "loc/power"
+		owner:  0
+		at:     {x: 0, y: 3739}
 		override:
 			name:  "Power Station O-2"
 		earning:  1.0
@@ -54,24 +54,24 @@ initials:
 		override:
 			name:  "Power Station G-1"
 		earning:  1.0
-	*	base:   "loc/flak"
-		owner:  0
-		at:     {x: 4032, y: 2477}
-	*	base:   "loc/flak"
-		owner:  0
-		at:     {x: -196, y: 3956}
-	*	base:   "loc/flak"
-		owner:  0
-		at:     {x: -5272, y: 2130}
-	*	base:   "loc/flak"
-		owner:  1
-		at:     {x: -6369, y: -7368}
-	*	base:   "loc/flak"
-		owner:  1
-		at:     {x: 141, y: -4282}
-	*	base:   "loc/flak"
-		owner:  1
-		at:     {x: 5532, y: -4716}
+	*	base:     "loc/flak"
+		owner:    0
+		at:       {x: 4032, y: 2477}
+	*	base:     "loc/flak"
+		owner:    0
+		at:       {x: -196, y: 3956}
+	*	base:     "loc/flak"
+		owner:    0
+		at:       {x: -5272, y: 2130}
+	*	base:     "loc/flak"
+		owner:    1
+		at:       {x: -6369, y: -7368}
+	*	base:     "loc/flak"
+		owner:    1
+		at:       {x: 141, y: -4282}
+	*	base:     "loc/flak"
+		owner:    1
+		at:       {x: 5532, y: -4716}
 	*	base:     "loc/planet"
 		owner:    0
 		at:       {x: 0, y: 9478}
@@ -84,9 +84,9 @@ initials:
 			*	"cruiser"
 			*	"transport"
 			*	"engineer"
-	*	base:     "loc/moon"
-		owner:    1
-		at:       {x: 1652, y: -9130}
+	*	base:   "loc/moon"
+		owner:  1
+		at:     {x: 1652, y: -9130}
 		override:
 			name:    "Hades Beta"
 			sprite:  "loc/planets/marble-streakedpurple"
@@ -101,9 +101,9 @@ initials:
 		owner:     0
 		at:        {x: 956, y: 8782}
 		flagship:  true
-	*	base:   "gai/gunship"
-		owner:  1
-		at:     {x: -86, y: -9130}
+	*	base:      "gai/gunship"
+		owner:     1
+		at:        {x: -86, y: -9130}
 conditions:
 	*	when:
 			type:    "owner"

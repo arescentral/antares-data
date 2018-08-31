@@ -31,5 +31,5 @@ collide:
 			reflexive:           true
 			base:                "sfx/explosion/missile-hit"
 			relative_direction:  true
-		*	type:       "remove"
-			reflexive:  true
+		*	type:                "remove"
+			reflexive:           true

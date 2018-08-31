@@ -18,13 +18,13 @@ rotation:
 icon:
 	shape:  "triangle"
 	size:   4
-target:             {radar: true}
+target:  {radar: true}
 expire:
 	after:
 		age:
 			begin:  "1.5s"
 			end:    "3s"
-collide:            {edge: true}
+collide:  {edge: true}
 ai:
 	combat:  {hated: true, engaged: true, evaded: true}
 	escort:  {class: 3, power: 1.0}
