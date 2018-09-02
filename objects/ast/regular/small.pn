@@ -8,11 +8,10 @@ max_velocity:       2.0
 initial_velocity:   {begin: 2.0, end: 3.0}
 initial_direction:  {begin: 0, end: 360}
 animation:
-	sprite:     "ast/regular/small"
-	frames:     {begin: 0.0, end: 21.004}
-	direction:  "+"
-	speed:      0.117
-	first:      {begin: 0.0, end: 20.0}
+	sprite:  "ast/regular/small"
+	frames:  {begin: 0.0, end: 21.004}
+	speed:   0.117
+	first:   {begin: 0.0, end: 20.0}
 destroy:
 	action:
 		*	type:       "create"

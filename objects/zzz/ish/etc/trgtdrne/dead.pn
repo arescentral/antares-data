@@ -12,11 +12,10 @@ mass:               0.797
 thrust:             0.25
 initial_direction:  {begin: 0, end: 360}
 animation:
-	sprite:     "ish/etc/trgtdrne"
-	frames:     {begin: 0.0, end: 23.004}
-	direction:  "+"
-	speed:      0.28
-	first:      {begin: 0.0, end: 22.0}
+	sprite:  "ish/etc/trgtdrne"
+	frames:  {begin: 0.0, end: 23.004}
+	speed:   0.28
+	first:   {begin: 0.0, end: 22.0}
 icon:
 	shape:  "triangle"
 	size:   3

@@ -4,12 +4,11 @@ short_name:    "APULSE 2"
 notes:         "Antimatter Pulse Type II"
 max_velocity:  3.0
 animation:
-	sprite:     "dev/anti"
-	scale:      2.0
-	frames:     {begin: 0.0, end: 3.004}
-	direction:  "+"
-	speed:      0.04
-	first:      {begin: 0.0, end: 3.0}
+	sprite:  "dev/anti"
+	scale:   2.0
+	frames:  {begin: 0.0, end: 3.004}
+	speed:   0.04
+	first:   {begin: 0.0, end: 3.0}
 expire:
 	after:
 		age:  "0.5s"

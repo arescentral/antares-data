@@ -10,11 +10,10 @@ thrust:             0.008
 initial_velocity:   {begin: 0.5, end: 2.0}
 initial_direction:  {begin: 0, end: 360}
 animation:
-	sprite:     "obi/etc/obiard/waving"
-	scale:      0.5
-	frames:     {begin: 0.0, end: 23.004}
-	direction:  "+"
-	speed:      0.47
+	sprite:  "obi/etc/obiard/waving"
+	scale:   0.5
+	frames:  {begin: 0.0, end: 23.004}
+	speed:   0.47
 icon:
 	shape:  "plus"
 target:  {lock: true}

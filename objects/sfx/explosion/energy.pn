@@ -4,12 +4,11 @@ short_name:  "EXPLSN"
 notes:       "Energy Explosion"
 health:      1000
 animation:
-	sprite:     "sfx/explosion/energy"
-	scale:      0.25
-	frames:     {begin: 18.0, end: 20.004}
-	direction:  "+"
-	speed:      0.156
-	first:      18.0
+	sprite:  "sfx/explosion/energy"
+	scale:   0.25
+	frames:  {begin: 18.0, end: 20.004}
+	speed:   0.156
+	first:   18.0
 expire:
 	after:  {animation: true}
 create:

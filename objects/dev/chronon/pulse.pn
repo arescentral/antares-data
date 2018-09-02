@@ -5,11 +5,10 @@ notes:              "Untitled"
 max_velocity:       15.0
 initial_direction:  {begin: -2, end: 2}
 animation:
-	sprite:     "dev/chronon"
-	frames:     {begin: 0.0, end: 5.004}
-	direction:  "+"
-	speed:      0.14
-	first:      {begin: 0.0, end: 4.0}
+	sprite:  "dev/chronon"
+	frames:  {begin: 0.0, end: 5.004}
+	speed:   0.14
+	first:   {begin: 0.0, end: 4.0}
 expire:
 	after:
 		age:  "1s"

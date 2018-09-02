@@ -5,11 +5,10 @@ notes:              "Protopulse 2"
 max_velocity:       13.0
 initial_direction:  {begin: -2, end: 2}
 animation:
-	sprite:     "dev/pp"
-	frames:     {begin: 0.0, end: 5.004}
-	direction:  "+"
-	speed:      0.055
-	first:      {begin: 0.0, end: 5.0}
+	sprite:  "dev/pp"
+	frames:  {begin: 0.0, end: 5.004}
+	speed:   0.055
+	first:   {begin: 0.0, end: 5.0}
 collide:
 	action:
 		*	type:                "create"

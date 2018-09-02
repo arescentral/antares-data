@@ -8,11 +8,10 @@ thrust:            0.098
 initial_velocity:  2.0
 autotarget:        true
 animation:
-	sprite:     "dev/atomic"
-	frames:     {begin: 0.0, end: 5.004}
-	direction:  "+"
-	speed:      0.312
-	first:      {begin: 0.0, end: 5.0}
+	sprite:  "dev/atomic"
+	frames:  {begin: 0.0, end: 5.004}
+	speed:   0.312
+	first:   {begin: 0.0, end: 5.0}
 target:  {radar: true}
 expire:
 	after:

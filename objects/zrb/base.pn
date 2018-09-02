@@ -10,11 +10,10 @@ turn_rate:     0.0
 max_velocity:  6.0
 thrust:        0.098
 animation:
-	sprite:     "zrb/base"
-	frames:     {begin: 0.0, end: 4.004}
-	direction:  "+"
-	speed:      0.156
-	first:      {begin: 0.0, end: 3.0}
+	sprite:  "zrb/base"
+	frames:  {begin: 0.0, end: 4.004}
+	speed:   0.156
+	first:   {begin: 0.0, end: 3.0}
 icon:
 	shape:  "triangle"
 	size:   2

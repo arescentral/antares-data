@@ -15,10 +15,9 @@ mass:               0.098
 max_velocity:       1.5
 initial_direction:  {begin: 0, end: 360}
 animation:
-	sprite:     "ele/etc/escape-pod"
-	frames:     {begin: 0.0, end: 14.004}
-	direction:  "+"
-	speed:      0.047
+	sprite:  "ele/etc/escape-pod"
+	frames:  {begin: 0.0, end: 14.004}
+	speed:   0.047
 icon:
 	shape:  "plus"
 	size:   3

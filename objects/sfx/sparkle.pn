@@ -4,10 +4,9 @@ short_name:  "SPARKLE"
 notes:       "Sparkle"
 health:      1000
 animation:
-	sprite:     "sfx/sparkle"
-	frames:     {begin: 0.0, end: 6.004}
-	direction:  "+"
-	speed:      0.156
+	sprite:  "sfx/sparkle"
+	frames:  {begin: 0.0, end: 6.004}
+	speed:   0.156
 expire:
 	after:  {animation: true}
 collide:  {damage: 100}

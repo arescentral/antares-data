@@ -7,11 +7,10 @@ mass:               0.5
 initial_velocity:   {begin: 0.5, end: 1.5}
 initial_direction:  {begin: 0, end: 360}
 animation:
-	sprite:     "sfx/debris"
-	frames:     {begin: 18.0, end: 23.004}
-	direction:  "+"
-	speed:      0.117
-	first:      {begin: 18.0, end: 26.0}
+	sprite:  "sfx/debris"
+	frames:  {begin: 18.0, end: 23.004}
+	speed:   0.117
+	first:   {begin: 18.0, end: 26.0}
 target:  {radar: false}
 expire:
 	after:

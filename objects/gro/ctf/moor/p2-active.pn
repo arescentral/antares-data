@@ -4,11 +4,10 @@ short_name:    "MOOR 2 Y"
 notes:         "Moor, for CTF, P2 Active"
 shield_color:  {red: 240}
 animation:
-	sprite:     "gro/ctf/moor"
-	frames:     {begin: 0.0, end: 11.004}
-	direction:  "+"
-	speed:      0.156
-	first:      {begin: 0.0, end: 11.0}
+	sprite:  "gro/ctf/moor"
+	frames:  {begin: 0.0, end: 11.004}
+	speed:   0.156
+	first:   {begin: 0.0, end: 11.0}
 icon:
 	shape:  "plus"
 	size:   3

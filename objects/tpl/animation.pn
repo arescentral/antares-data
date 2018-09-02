@@ -4,6 +4,6 @@ animation:
 	layer:      2
 	scale:      1.0
 	frames:     0.0
-	direction:  "0"
+	direction:  "+"
 	speed:      0.0
 	first:      0.0

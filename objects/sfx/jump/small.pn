@@ -4,11 +4,10 @@ short_name:  "JUMPGATE"
 notes:       "Jump Gate Effect"
 health:      1000
 animation:
-	sprite:     "sfx/jump"
-	scale:      2.0
-	frames:     {begin: 0.0, end: 28.004}
-	direction:  "+"
-	speed:      0.06
+	sprite:  "sfx/jump"
+	scale:   2.0
+	frames:  {begin: 0.0, end: 28.004}
+	speed:   0.06
 expire:
 	after:  {animation: true}
 create:

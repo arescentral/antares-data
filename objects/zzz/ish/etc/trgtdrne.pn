@@ -13,11 +13,10 @@ weapons:
 			*	{x: -3.0, y: 0.0}
 			*	{x: 3.0, y: 0.0}
 animation:
-	sprite:     "ish/etc/trgtdrne"
-	frames:     {begin: 0.0, end: 23.004}
-	direction:  "+"
-	speed:      0.547
-	first:      {begin: 0.0, end: 22.0}
+	sprite:  "ish/etc/trgtdrne"
+	frames:  {begin: 0.0, end: 23.004}
+	speed:   0.547
+	first:   {begin: 0.0, end: 22.0}
 icon:
 	shape:  "triangle"
 	size:   3

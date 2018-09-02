@@ -8,11 +8,10 @@ thrust:             0.098
 initial_velocity:   9.0
 initial_direction:  {begin: -3, end: 3}
 animation:
-	sprite:     "dev/atomic"
-	frames:     {begin: 0.0, end: 5.004}
-	direction:  "+"
-	speed:      0.156
-	first:      {begin: 0.0, end: 5.0}
+	sprite:  "dev/atomic"
+	frames:  {begin: 0.0, end: 5.004}
+	speed:   0.156
+	first:   {begin: 0.0, end: 5.0}
 expire:
 	after:
 		age:  "20t"

@@ -4,11 +4,10 @@ short_name:  "WARP IN"
 notes:       "Warp In Flare"
 health:      1000
 animation:
-	sprite:     "sfx/warp"
-	scale:      2.0
-	frames:     {begin: 0.0, end: 2.004}
-	direction:  "+"
-	speed:      0.08
+	sprite:  "sfx/warp"
+	scale:   2.0
+	frames:  {begin: 0.0, end: 2.004}
+	speed:   0.08
 expire:
 	after:  {animation: true}
 create:

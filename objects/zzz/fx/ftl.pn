@@ -10,11 +10,10 @@ thrust:             2.0
 initial_velocity:   {begin: 6.0, end: 12.0}
 initial_direction:  {begin: 0, end: 360}
 animation:
-	sprite:     "zzz/sfx/ftl"
-	frames:     {begin: 0.0, end: 23.004}
-	direction:  "+"
-	speed:      0.156
-	first:      {begin: 0.0, end: 23.0}
+	sprite:  "zzz/sfx/ftl"
+	frames:  {begin: 0.0, end: 23.004}
+	speed:   0.156
+	first:   {begin: 0.0, end: 23.0}
 target:  {select: true}
 expire:
 	after:

@@ -4,11 +4,10 @@ short_name:         "A PULSE"
 notes:              "Antimatter Pulse"
 initial_direction:  {begin: -30, end: 30}
 animation:
-	sprite:     "dev/anti"
-	frames:     {begin: 0.0, end: 4.004}
-	direction:  "+"
-	speed:      0.03
-	first:      {begin: 0.0, end: 4.0}
+	sprite:  "dev/anti"
+	frames:  {begin: 0.0, end: 4.004}
+	speed:   0.03
+	first:   {begin: 0.0, end: 4.0}
 collide:
 	action:
 		*	type:  "group"

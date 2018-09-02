@@ -6,11 +6,10 @@ max_velocity:      9.0
 thrust:            0.2
 initial_velocity:  7.0
 animation:
-	sprite:     "dev/rplasma"
-	frames:     {begin: 0.0, end: 8.004}
-	direction:  "+"
-	speed:      0.133
-	first:      {begin: 0.0, end: 8.0}
+	sprite:  "dev/rplasma"
+	frames:  {begin: 0.0, end: 8.004}
+	speed:   0.133
+	first:   {begin: 0.0, end: 8.0}
 target:  {radar: true}
 expire:
 	after:

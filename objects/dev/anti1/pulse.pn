@@ -3,11 +3,10 @@ long_name:   "Antimatter Pulse"
 short_name:  "A PULSE"
 notes:       "Antimatter Pulse"
 animation:
-	sprite:     "dev/anti"
-	frames:     {begin: 0.0, end: 4.004}
-	direction:  "+"
-	speed:      0.03
-	first:      {begin: 0.0, end: 4.0}
+	sprite:  "dev/anti"
+	frames:  {begin: 0.0, end: 4.004}
+	speed:   0.03
+	first:   {begin: 0.0, end: 4.0}
 create:
 	action:
 		*	type:         "play"

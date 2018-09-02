@@ -7,12 +7,11 @@ max_velocity:       5.0
 initial_velocity:   {begin: 5.0, end: 6.0}
 initial_direction:  {begin: 0, end: 360}
 animation:
-	sprite:     "sfx/debris"
-	scale:      0.5
-	frames:     {begin: 0.0, end: 8.004}
-	direction:  "+"
-	speed:      0.39
-	first:      {begin: 0.0, end: 8.0}
+	sprite:  "sfx/debris"
+	scale:   0.5
+	frames:  {begin: 0.0, end: 8.004}
+	speed:   0.39
+	first:   {begin: 0.0, end: 8.0}
 expire:
 	after:
 		age:

@@ -7,11 +7,10 @@ race:              "ish"
 shield_color:      "white"
 initial_velocity:  0.5
 animation:
-	sprite:     "ish/etc/trgtdrne"
-	frames:     {begin: 0.0, end: 23.004}
-	direction:  "+"
-	speed:      0.547
-	first:      {begin: 0.0, end: 22.0}
+	sprite:  "ish/etc/trgtdrne"
+	frames:  {begin: 0.0, end: 23.004}
+	speed:   0.547
+	first:   {begin: 0.0, end: 22.0}
 icon:
 	shape:  "plus"
 	size:   4

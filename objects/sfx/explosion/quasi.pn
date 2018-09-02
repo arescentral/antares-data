@@ -3,9 +3,8 @@ long_name:   "Quasimatter Exp"
 short_name:  "QUASEXPL"
 notes:       "Quasimatter Explosion"
 animation:
-	sprite:     "sfx/explosion/quasi"
-	frames:     {begin: 0.0, end: 6.004}
-	direction:  "+"
-	speed:      0.117
+	sprite:  "sfx/explosion/quasi"
+	frames:  {begin: 0.0, end: 6.004}
+	speed:   0.117
 expire:
 	after:  {animation: true}

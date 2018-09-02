@@ -9,11 +9,10 @@ thrust:             0.5
 initial_velocity:   {begin: 0.0, end: 2.0}
 initial_direction:  {begin: 0, end: 360}
 animation:
-	sprite:     "sfx/energy"
-	frames:     {begin: 0.0, end: 2.004}
-	direction:  "+"
-	speed:      0.156
-	first:      {begin: 0.0, end: 2.0}
+	sprite:  "sfx/energy"
+	frames:  {begin: 0.0, end: 2.004}
+	speed:   0.156
+	first:   {begin: 0.0, end: 2.0}
 target:  {radar: true}
 expire:
 	after:

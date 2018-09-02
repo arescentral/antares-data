@@ -8,11 +8,10 @@ max_velocity:       4.0
 initial_velocity:   {begin: 0.5, end: 1.5}
 initial_direction:  {begin: 0, end: 360}
 animation:
-	sprite:     "sfx/debris"
-	frames:     {begin: 0.0, end: 8.004}
-	direction:  "+"
-	speed:      0.39
-	first:      {begin: 0.0, end: 8.0}
+	sprite:  "sfx/debris"
+	frames:  {begin: 0.0, end: 8.004}
+	speed:   0.39
+	first:   {begin: 0.0, end: 8.0}
 target:  {radar: false}
 expire:
 	after:
