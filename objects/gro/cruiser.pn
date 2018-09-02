@@ -9,7 +9,7 @@ warp_speed:         0.0
 warp_out_distance:  0
 weapons:
 	pulse:
-		base:  "dev/photo/lgun"
+		base:  "dev/photo/light"
 		positions:
 			*	{x: 0.0, y: -14.0}
 rotation:

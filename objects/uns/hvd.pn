@@ -14,7 +14,7 @@ weapons:
 			*	{x: 0.0, y: 0.0}
 			*	{x: 5.0, y: 0.0}
 	special:
-		base:  "dev/magneto/rgun"
+		base:  "dev/magneto/rapid"
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:

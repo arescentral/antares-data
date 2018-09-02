@@ -6,7 +6,7 @@ shield_color:       {gold: 240}
 warp_out_distance:  3120.0
 weapons:
 	pulse:
-		base:  "dev/anti1/rgun"
+		base:  "dev/anti1/rapid"
 		positions:
 			*	{x: 0.0, y: 0.0}
 	beam:

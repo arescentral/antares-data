@@ -14,7 +14,7 @@ warp_speed:         50.0
 warp_out_distance:  6401.3671
 weapons:
 	pulse:
-		base:  "dev/inasa/rgun"
+		base:  "dev/inasa/rapid"
 		positions:
 			*	{x: 0.0, y: 0.0}
 	beam:

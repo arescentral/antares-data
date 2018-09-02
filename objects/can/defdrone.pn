@@ -9,7 +9,7 @@ weapons:
 		positions:
 			*	{x: 0.0, y: 0.0}
 	beam:
-		base:  "dev/pk/ish/rgun"
+		base:  "dev/pk/ish/rapid"
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:

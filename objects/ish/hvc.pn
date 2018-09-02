@@ -5,11 +5,11 @@ race:          "ish"
 shield_color:  "white"
 weapons:
 	pulse:
-		base:  "dev/fusion/rgun"
+		base:  "dev/fusion/rapid"
 		positions:
 			*	{x: 0.0, y: 0.0}
 	beam:
-		base:  "dev/pk/ish/rgun"
+		base:  "dev/pk/ish/rapid"
 		positions:
 			*	{x: -10.0, y: 0.0}
 			*	{x: 10.0, y: 0.0}

@@ -10,7 +10,7 @@ warp_speed:         20.0
 warp_out_distance:  1080.4686
 weapons:
 	pulse:
-		base:  "dev/magneto/rgun"
+		base:  "dev/magneto/rapid"
 		positions:
 			*	{x: 15.0, y: 0.0}
 			*	{x: -15.0, y: 0.0}
