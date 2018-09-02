@@ -13,7 +13,7 @@ weapons:
 			*	{x: -8.0, y: 0.0}
 			*	{x: 8.0, y: 0.0}
 	special:
-		base:  "dev/assault/uns"
+		base:  "dev/assault/ish"
 		positions:
 			*	{x: 0.0, y: 0.0}
 rotation:
