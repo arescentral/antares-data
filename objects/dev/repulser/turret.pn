@@ -13,6 +13,6 @@ activate:
 	action:
 		*	type:                "create"
 			reflexive:           true
-			base:                "dev/repulser/beam"
+			base:                "dev/repulser/bolt"
 			relative_velocity:   true
 			relative_direction:  true

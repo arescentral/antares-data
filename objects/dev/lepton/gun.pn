@@ -11,6 +11,6 @@ activate:
 	action:
 		*	type:                "create"
 			reflexive:           true
-			base:                "dev/lepton/beam"
+			base:                "dev/lepton/bolt"
 			relative_velocity:   true
 			relative_direction:  true

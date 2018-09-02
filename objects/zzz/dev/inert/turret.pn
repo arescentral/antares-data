@@ -11,7 +11,7 @@ activate:
 	action:
 		*	type:                "create"
 			reflexive:           true
-			base:                "zzz/dev/inert/beam"
+			base:                "zzz/dev/inert/bolt"
 			relative_velocity:   true
 			relative_direction:  true
 		*	type:                "play"

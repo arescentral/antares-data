@@ -12,6 +12,6 @@ activate:
 	action:
 		*	type:                "create"
 			reflexive:           true
-			base:                "dev/pk/can/beam"
+			base:                "dev/pk/can/bolt"
 			relative_velocity:   true
 			relative_direction:  true

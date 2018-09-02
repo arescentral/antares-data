@@ -17,6 +17,6 @@ activate:
 			volume:              255
 		*	type:                "create"
 			reflexive:           true
-			base:                "dev/asb/beam"
+			base:                "dev/asb/bolt"
 			relative_velocity:   true
 			relative_direction:  true

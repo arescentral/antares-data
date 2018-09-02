@@ -11,7 +11,7 @@ activate:
 	action:
 		*	type:                "create"
 			reflexive:           true
-			base:                "dev/kl/beam"
+			base:                "dev/kl/bolt"
 			relative_velocity:   true
 			relative_direction:  true
 			distance:            4

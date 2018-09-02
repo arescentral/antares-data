@@ -18,5 +18,5 @@ activate:
 			volume:              255
 		*	type:                "create"
 			reflexive:           true
-			base:                "dev/tspace/beam"
+			base:                "dev/tspace/ray"
 			relative_direction:  true

@@ -17,6 +17,6 @@ activate:
 			volume:              255
 		*	type:                "create"
 			reflexive:           true
-			base:                "dev/newo/beam"
+			base:                "dev/newo/bolt"
 			relative_velocity:   true
 			relative_direction:  true

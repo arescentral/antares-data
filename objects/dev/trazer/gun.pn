@@ -19,5 +19,5 @@ activate:
 			volume:              255
 		*	type:                "create"
 			reflexive:           true
-			base:                "dev/trazer/beam"
+			base:                "dev/trazer/ray"
 			relative_direction:  true
