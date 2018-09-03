@@ -1,6 +1,12 @@
-template:          "tpl/asteroid"
+template:          "tpl/hazard"
+long_name:         "Asteroid"
+short_name:        "ASTEROID"
 notes:             "Asteroid, regular"
+tags:              {asteroid: true, normal: null}
 portrait:          "ast/regular/big"
+health:            10000
+mass:              10.0
+max_velocity:      3.0
 initial_velocity:  {begin: 3.0, end: 4.0}
 animation:
 	sprite:     "ast/regular/big"
@@ -8,6 +14,8 @@ animation:
 	direction:  "?"
 	speed:      0.117
 	first:      {begin: 0.0, end: 19.0}
+icon:    {size: 4}
+target:  {hide: true}
 destroy:
 	action:
 		*	type:                "create"
@@ -35,3 +43,11 @@ create:
 			relative_direction:  true
 			distance:            2
 			within:              "square"
+collide:  {damage: 10, edge: false}
+ai:
+	combat:
+		hated:  true
+		engaged:
+			if:
+				tags:  {miner: true}
+	escort:  {need: 1.0}

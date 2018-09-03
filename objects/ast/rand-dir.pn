@@ -1,38 +1,5 @@
-template:           "tpl/asteroid"
+template:           "ast/regular/big"
 short_name:         "Asteroid"
 notes:              "Asteroid (random direction)"
-initial_velocity:   {begin: 3.0, end: 4.0}
 initial_direction:  {begin: -45, end: 45}
-animation:
-	sprite:     "ast/regular/big"
-	frames:     {begin: 0.0, end: 20.004}
-	direction:  "?"
-	speed:      0.117
-	first:      {begin: 0.0, end: 19.0}
-destroy:
-	action:
-		*	type:                "create"
-			reflexive:           true
-			base:                "sfx/explosion/asteroid"
-			relative_velocity:   true
-			relative_direction:  true
-		*	type:                "create"
-			reflexive:           true
-			base:                "ast/regular/medium"
-			count:               {begin: 2, end: 4}
-			relative_velocity:   true
-			relative_direction:  true
-create:
-	action:
-		*	type:                "speed"
-			reflexive:           true
-			relative:            true
-			value:               0.0
-		*	type:                "create"
-			reflexive:           true
-			base:                "zrb/base"
-			count:               {begin: -10, end: 2}
-			relative_velocity:   true
-			relative_direction:  true
-			distance:            2
-			within:              "square"
+portrait:           null
