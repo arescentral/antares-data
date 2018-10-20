@@ -58,7 +58,7 @@ initials:
 			*	"fighter"
 			*	"cruiser"
 			*	"gunship"
-			*	"escort"
+			*	"carrier"
 			*	"hvd"
 			*	"transport"
 	*	base:      "hvd"
