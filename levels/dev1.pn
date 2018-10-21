@@ -76,4 +76,27 @@ initials:
 		at:        {x: 0, y: 9000}
 		flagship:  true
 		target:    {initial: 2}
+conditions:
+	*	when:
+			type:   "count"
+			op:     "eq"
+			value:  3
+			of:
+				*	type:    "owner"
+					object:  {initial: 0}
+					op:      "eq"
+					player:  0
+				*	type:    "owner"
+					object:  {initial: 1}
+					op:      "eq"
+					player:  0
+				*	type:    "owner"
+					object:  {initial: 2}
+					op:      "eq"
+					player:  0
+		action:
+			*	type:    "win"
+				player:  0
+				text:
+					>	You conquered Proteus Beta and Gamma.
 starmap:  {left: 5, top: 46, right: 63, bottom: 65}
