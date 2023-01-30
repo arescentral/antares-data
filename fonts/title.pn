@@ -130,40 +130,40 @@
 	"}":       {left: 104, top: 140, right: 111, bottom: 160}
 	"~":       {left: 112, top: 140, right: 119, bottom: 160}
 	"\u007f":  {left: 120, top: 140, right: 130, bottom: 160}
-	"\u00c4":  {left: 0, top: 160, right: 10, bottom: 180}
+	"\u00c4":  {left: 0, top: 160, right: 7, bottom: 180}
 	"\u00c5":  {left: 8, top: 160, right: 15, bottom: 180}
 	"\u00c7":  {left: 16, top: 160, right: 23, bottom: 180}
-	"\u00c9":  {left: 24, top: 160, right: 34, bottom: 180}
-	"\u00d1":  {left: 32, top: 160, right: 42, bottom: 180}
-	"\u00d6":  {left: 40, top: 160, right: 50, bottom: 180}
-	"\u00dc":  {left: 48, top: 160, right: 58, bottom: 180}
-	"\u00e1":  {left: 56, top: 160, right: 66, bottom: 180}
-	"\u00e0":  {left: 64, top: 160, right: 74, bottom: 180}
-	"\u00e2":  {left: 72, top: 160, right: 82, bottom: 180}
-	"\u00e4":  {left: 80, top: 160, right: 90, bottom: 180}
-	"\u00e3":  {left: 88, top: 160, right: 98, bottom: 180}
+	"\u00c9":  {left: 24, top: 160, right: 31, bottom: 180}
+	"\u00d1":  {left: 32, top: 160, right: 39, bottom: 180}
+	"\u00d6":  {left: 40, top: 160, right: 47, bottom: 180}
+	"\u00dc":  {left: 48, top: 160, right: 55, bottom: 180}
+	"\u00e1":  {left: 56, top: 160, right: 63, bottom: 180}
+	"\u00e0":  {left: 64, top: 160, right: 71, bottom: 180}
+	"\u00e2":  {left: 72, top: 160, right: 79, bottom: 180}
+	"\u00e4":  {left: 80, top: 160, right: 87, bottom: 180}
+	"\u00e3":  {left: 88, top: 160, right: 95, bottom: 180}
 	"\u00e5":  {left: 96, top: 160, right: 103, bottom: 180}
 	"\u00e7":  {left: 104, top: 160, right: 111, bottom: 180}
 	"\u00e9":  {left: 112, top: 160, right: 119, bottom: 180}
-	"\u00e8":  {left: 120, top: 160, right: 130, bottom: 180}
-	"\u00ea":  {left: 0, top: 180, right: 10, bottom: 200}
-	"\u00eb":  {left: 8, top: 180, right: 18, bottom: 200}
-	"\u00ed":  {left: 16, top: 180, right: 26, bottom: 200}
-	"\u00ec":  {left: 24, top: 180, right: 34, bottom: 200}
+	"\u00e8":  {left: 120, top: 160, right: 127, bottom: 180}
+	"\u00ea":  {left: 0, top: 180, right: 7, bottom: 200}
+	"\u00eb":  {left: 8, top: 180, right: 15, bottom: 200}
+	"\u00ed":  {left: 16, top: 180, right: 23, bottom: 200}
+	"\u00ec":  {left: 24, top: 180, right: 31, bottom: 200}
 	"\u00ee":  {left: 32, top: 180, right: 39, bottom: 200}
-	"\u00ef":  {left: 40, top: 180, right: 50, bottom: 200}
+	"\u00ef":  {left: 40, top: 180, right: 47, bottom: 200}
 	"\u00f1":  {left: 48, top: 180, right: 55, bottom: 200}
-	"\u00f3":  {left: 56, top: 180, right: 66, bottom: 200}
-	"\u00f2":  {left: 64, top: 180, right: 74, bottom: 200}
-	"\u00f4":  {left: 72, top: 180, right: 82, bottom: 200}
-	"\u00f6":  {left: 80, top: 180, right: 90, bottom: 200}
-	"\u00f5":  {left: 88, top: 180, right: 98, bottom: 200}
-	"\u00fa":  {left: 96, top: 180, right: 106, bottom: 200}
-	"\u00f9":  {left: 104, top: 180, right: 114, bottom: 200}
-	"\u00fb":  {left: 112, top: 180, right: 122, bottom: 200}
+	"\u00f3":  {left: 56, top: 180, right: 63, bottom: 200}
+	"\u00f2":  {left: 64, top: 180, right: 71, bottom: 200}
+	"\u00f4":  {left: 72, top: 180, right: 79, bottom: 200}
+	"\u00f6":  {left: 80, top: 180, right: 87, bottom: 200}
+	"\u00f5":  {left: 88, top: 180, right: 95, bottom: 200}
+	"\u00fa":  {left: 96, top: 180, right: 103, bottom: 200}
+	"\u00f9":  {left: 104, top: 180, right: 111, bottom: 200}
+	"\u00fb":  {left: 112, top: 180, right: 119, bottom: 200}
 	"\u00fc":  {left: 120, top: 180, right: 127, bottom: 200}
 	"\u2020":  {left: 0, top: 200, right: 7, bottom: 220}
-	"\u00b0":  {left: 8, top: 200, right: 18, bottom: 220}
+	"\u00b0":  {left: 8, top: 200, right: 15, bottom: 220}
 	"\u00a2":  {left: 16, top: 200, right: 23, bottom: 220}
 	"\u00a3":  {left: 24, top: 200, right: 31, bottom: 220}
 	"\u00a7":  {left: 32, top: 200, right: 39, bottom: 220}
@@ -173,8 +173,8 @@
 	"\u00ae":  {left: 64, top: 200, right: 71, bottom: 220}
 	"\u00a9":  {left: 72, top: 200, right: 79, bottom: 220}
 	"\u2122":  {left: 80, top: 200, right: 87, bottom: 220}
-	"\u00b4":  {left: 88, top: 200, right: 98, bottom: 220}
-	"\u00a8":  {left: 96, top: 200, right: 106, bottom: 220}
+	"\u00b4":  {left: 88, top: 200, right: 95, bottom: 220}
+	"\u00a8":  {left: 96, top: 200, right: 103, bottom: 220}
 	"\u2260":  {left: 104, top: 200, right: 111, bottom: 220}
 	"\u00c6":  {left: 112, top: 200, right: 119, bottom: 220}
 	"\u00d8":  {left: 120, top: 200, right: 127, bottom: 220}
@@ -192,9 +192,9 @@
 	"\u00aa":  {left: 88, top: 220, right: 95, bottom: 240}
 	"\u00ba":  {left: 96, top: 220, right: 103, bottom: 240}
 	"\u03a9":  {left: 104, top: 220, right: 111, bottom: 240}
-	"\u00e6":  {left: 112, top: 220, right: 122, bottom: 240}
+	"\u00e6":  {left: 112, top: 220, right: 119, bottom: 240}
 	"\u00f8":  {left: 120, top: 220, right: 127, bottom: 240}
-	"\u00bf":  {left: 0, top: 240, right: 10, bottom: 260}
+	"\u00bf":  {left: 0, top: 240, right: 7, bottom: 260}
 	"\u00a1":  {left: 8, top: 240, right: 15, bottom: 260}
 	"\u00ac":  {left: 16, top: 240, right: 23, bottom: 260}
 	"\u221a":  {left: 24, top: 240, right: 31, bottom: 260}
@@ -204,10 +204,10 @@
 	"\u00ab":  {left: 56, top: 240, right: 63, bottom: 260}
 	"\u00bb":  {left: 64, top: 240, right: 71, bottom: 260}
 	"\u2026":  {left: 72, top: 240, right: 79, bottom: 260}
-	"\u00a0":  {left: 80, top: 240, right: 90, bottom: 260}
-	"\u00c0":  {left: 88, top: 240, right: 98, bottom: 260}
-	"\u00c3":  {left: 96, top: 240, right: 106, bottom: 260}
-	"\u00d5":  {left: 104, top: 240, right: 114, bottom: 260}
+	"\u00a0":  {left: 80, top: 240, right: 87, bottom: 260}
+	"\u00c0":  {left: 88, top: 240, right: 95, bottom: 260}
+	"\u00c3":  {left: 96, top: 240, right: 103, bottom: 260}
+	"\u00d5":  {left: 104, top: 240, right: 111, bottom: 260}
 	"\u0152":  {left: 112, top: 240, right: 119, bottom: 260}
 	"\u0153":  {left: 120, top: 240, right: 127, bottom: 260}
 	"\u2013":  {left: 0, top: 260, right: 7, bottom: 280}
@@ -218,42 +218,42 @@
 	"\u2019":  {left: 40, top: 260, right: 47, bottom: 280}
 	"\u00f7":  {left: 48, top: 260, right: 55, bottom: 280}
 	"\u25ca":  {left: 56, top: 260, right: 63, bottom: 280}
-	"\u00ff":  {left: 64, top: 260, right: 74, bottom: 280}
-	"\u0178":  {left: 72, top: 260, right: 82, bottom: 280}
-	"\u2044":  {left: 80, top: 260, right: 90, bottom: 280}
-	"\u20ac":  {left: 88, top: 260, right: 98, bottom: 280}
-	"\u2039":  {left: 96, top: 260, right: 106, bottom: 280}
-	"\u203a":  {left: 104, top: 260, right: 114, bottom: 280}
-	"\ufb01":  {left: 112, top: 260, right: 122, bottom: 280}
-	"\ufb02":  {left: 120, top: 260, right: 130, bottom: 280}
-	"\u2021":  {left: 0, top: 280, right: 10, bottom: 300}
-	"\u00b7":  {left: 8, top: 280, right: 18, bottom: 300}
-	"\u201a":  {left: 16, top: 280, right: 26, bottom: 300}
-	"\u201e":  {left: 24, top: 280, right: 34, bottom: 300}
-	"\u2030":  {left: 32, top: 280, right: 42, bottom: 300}
-	"\u00c2":  {left: 40, top: 280, right: 50, bottom: 300}
-	"\u00ca":  {left: 48, top: 280, right: 58, bottom: 300}
-	"\u00c1":  {left: 56, top: 280, right: 66, bottom: 300}
-	"\u00cb":  {left: 64, top: 280, right: 74, bottom: 300}
-	"\u00c8":  {left: 72, top: 280, right: 82, bottom: 300}
-	"\u00cd":  {left: 80, top: 280, right: 90, bottom: 300}
-	"\u00ce":  {left: 88, top: 280, right: 98, bottom: 300}
-	"\u00cf":  {left: 96, top: 280, right: 106, bottom: 300}
-	"\u00cc":  {left: 104, top: 280, right: 114, bottom: 300}
-	"\u00d3":  {left: 112, top: 280, right: 122, bottom: 300}
-	"\u00d4":  {left: 120, top: 280, right: 130, bottom: 300}
+	"\u00ff":  {left: 64, top: 260, right: 71, bottom: 280}
+	"\u0178":  {left: 72, top: 260, right: 79, bottom: 280}
+	"\u2044":  {left: 80, top: 260, right: 87, bottom: 280}
+	"\u20ac":  {left: 88, top: 260, right: 95, bottom: 280}
+	"\u2039":  {left: 96, top: 260, right: 103, bottom: 280}
+	"\u203a":  {left: 104, top: 260, right: 111, bottom: 280}
+	"\ufb01":  {left: 112, top: 260, right: 119, bottom: 280}
+	"\ufb02":  {left: 120, top: 260, right: 127, bottom: 280}
+	"\u2021":  {left: 0, top: 280, right: 7, bottom: 300}
+	"\u00b7":  {left: 8, top: 280, right: 15, bottom: 300}
+	"\u201a":  {left: 16, top: 280, right: 23, bottom: 300}
+	"\u201e":  {left: 24, top: 280, right: 31, bottom: 300}
+	"\u2030":  {left: 32, top: 280, right: 39, bottom: 300}
+	"\u00c2":  {left: 40, top: 280, right: 47, bottom: 300}
+	"\u00ca":  {left: 48, top: 280, right: 55, bottom: 300}
+	"\u00c1":  {left: 56, top: 280, right: 63, bottom: 300}
+	"\u00cb":  {left: 64, top: 280, right: 71, bottom: 300}
+	"\u00c8":  {left: 72, top: 280, right: 79, bottom: 300}
+	"\u00cd":  {left: 80, top: 280, right: 87, bottom: 300}
+	"\u00ce":  {left: 88, top: 280, right: 95, bottom: 300}
+	"\u00cf":  {left: 96, top: 280, right: 103, bottom: 300}
+	"\u00cc":  {left: 104, top: 280, right: 111, bottom: 300}
+	"\u00d3":  {left: 112, top: 280, right: 119, bottom: 300}
+	"\u00d4":  {left: 120, top: 280, right: 127, bottom: 300}
 	"\uf8ff":  {left: 0, top: 300, right: 7, bottom: 320}
-	"\u00d2":  {left: 8, top: 300, right: 18, bottom: 320}
-	"\u00da":  {left: 16, top: 300, right: 26, bottom: 320}
-	"\u00db":  {left: 24, top: 300, right: 34, bottom: 320}
-	"\u00d9":  {left: 32, top: 300, right: 42, bottom: 320}
-	"\u0131":  {left: 40, top: 300, right: 50, bottom: 320}
-	"\u02c6":  {left: 48, top: 300, right: 58, bottom: 320}
-	"\u02dc":  {left: 56, top: 300, right: 66, bottom: 320}
-	"\u00af":  {left: 64, top: 300, right: 74, bottom: 320}
-	"\u02d8":  {left: 72, top: 300, right: 82, bottom: 320}
-	"\u02d9":  {left: 80, top: 300, right: 90, bottom: 320}
-	"\u02da":  {left: 88, top: 300, right: 98, bottom: 320}
-	"\u00b8":  {left: 96, top: 300, right: 106, bottom: 320}
-	"\u02dd":  {left: 104, top: 300, right: 114, bottom: 320}
-	"\u02db":  {left: 112, top: 300, right: 122, bottom: 320}
+	"\u00d2":  {left: 8, top: 300, right: 15, bottom: 320}
+	"\u00da":  {left: 16, top: 300, right: 23, bottom: 320}
+	"\u00db":  {left: 24, top: 300, right: 31, bottom: 320}
+	"\u00d9":  {left: 32, top: 300, right: 39, bottom: 320}
+	"\u0131":  {left: 40, top: 300, right: 47, bottom: 320}
+	"\u02c6":  {left: 48, top: 300, right: 55, bottom: 320}
+	"\u02dc":  {left: 56, top: 300, right: 63, bottom: 320}
+	"\u00af":  {left: 64, top: 300, right: 71, bottom: 320}
+	"\u02d8":  {left: 72, top: 300, right: 79, bottom: 320}
+	"\u02d9":  {left: 80, top: 300, right: 87, bottom: 320}
+	"\u02da":  {left: 88, top: 300, right: 95, bottom: 320}
+	"\u00b8":  {left: 96, top: 300, right: 103, bottom: 320}
+	"\u02dd":  {left: 104, top: 300, right: 111, bottom: 320}
+	"\u02db":  {left: 112, top: 300, right: 119, bottom: 320}
