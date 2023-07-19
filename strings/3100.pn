@@ -11,3 +11,8 @@
 *	"> CAPS LOCK - PAUSED <"
 *	"> PAUSED BY OTHER PLAYER <"
 *	"> WAITING FOR OTHER PLAYER <"
+*	"WARNING: Shields Low"
+*	"Maximum number of ships built"
+*	"{0} captured by {1}."
+*	"{0} lost by {1}."
+*	"\u00a0{0} destroyed.  {1} remaining.\u00a0"
