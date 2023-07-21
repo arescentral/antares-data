@@ -99,32 +99,32 @@ glyphs:
 	"^":       {left: 224, top: 60, right: 231, bottom: 72}
 	_:         {left: 240, top: 60, right: 247, bottom: 72}
 	"`":       {left: 0, top: 72, right: 7, bottom: 84}
-	a:         {left: 16, top: 48, right: 23, bottom: 60}
-	b:         {left: 32, top: 48, right: 39, bottom: 60}
-	c:         {left: 48, top: 48, right: 55, bottom: 60}
-	d:         {left: 64, top: 48, right: 71, bottom: 60}
-	e:         {left: 80, top: 48, right: 87, bottom: 60}
-	f:         {left: 96, top: 48, right: 103, bottom: 60}
-	g:         {left: 112, top: 48, right: 119, bottom: 60}
-	h:         {left: 128, top: 48, right: 135, bottom: 60}
-	i:         {left: 144, top: 48, right: 151, bottom: 60}
-	j:         {left: 160, top: 48, right: 167, bottom: 60}
-	k:         {left: 176, top: 48, right: 183, bottom: 60}
-	l:         {left: 192, top: 48, right: 199, bottom: 60}
-	m:         {left: 208, top: 48, right: 215, bottom: 60}
-	n:         {left: 224, top: 48, right: 231, bottom: 60}
-	o:         {left: 240, top: 48, right: 247, bottom: 60}
-	p:         {left: 0, top: 60, right: 7, bottom: 72}
-	q:         {left: 16, top: 60, right: 23, bottom: 72}
-	r:         {left: 32, top: 60, right: 39, bottom: 72}
-	s:         {left: 48, top: 60, right: 55, bottom: 72}
-	t:         {left: 64, top: 60, right: 71, bottom: 72}
-	u:         {left: 80, top: 60, right: 87, bottom: 72}
-	v:         {left: 96, top: 60, right: 103, bottom: 72}
-	w:         {left: 112, top: 60, right: 119, bottom: 72}
-	x:         {left: 128, top: 60, right: 135, bottom: 72}
-	y:         {left: 144, top: 60, right: 151, bottom: 72}
-	z:         {left: 160, top: 60, right: 167, bottom: 72}
+	a:         {left: 16, top: 72, right: 23, bottom: 84}
+	b:         {left: 32, top: 72, right: 39, bottom: 84}
+	c:         {left: 48, top: 72, right: 55, bottom: 84}
+	d:         {left: 64, top: 72, right: 71, bottom: 84}
+	e:         {left: 80, top: 72, right: 87, bottom: 84}
+	f:         {left: 96, top: 72, right: 103, bottom: 84}
+	g:         {left: 112, top: 72, right: 119, bottom: 84}
+	h:         {left: 128, top: 72, right: 135, bottom: 84}
+	i:         {left: 144, top: 72, right: 151, bottom: 84}
+	j:         {left: 160, top: 72, right: 167, bottom: 84}
+	k:         {left: 176, top: 72, right: 183, bottom: 84}
+	l:         {left: 192, top: 72, right: 199, bottom: 84}
+	m:         {left: 208, top: 72, right: 215, bottom: 84}
+	n:         {left: 224, top: 72, right: 231, bottom: 84}
+	o:         {left: 240, top: 72, right: 247, bottom: 84}
+	p:         {left: 0, top: 84, right: 7, bottom: 96}
+	q:         {left: 16, top: 84, right: 23, bottom: 96}
+	r:         {left: 32, top: 84, right: 39, bottom: 96}
+	s:         {left: 48, top: 84, right: 55, bottom: 96}
+	t:         {left: 64, top: 84, right: 71, bottom: 96}
+	u:         {left: 80, top: 84, right: 87, bottom: 96}
+	v:         {left: 96, top: 84, right: 103, bottom: 96}
+	w:         {left: 112, top: 84, right: 119, bottom: 96}
+	x:         {left: 128, top: 84, right: 135, bottom: 96}
+	y:         {left: 144, top: 84, right: 151, bottom: 96}
+	z:         {left: 160, top: 84, right: 167, bottom: 96}
 	"{":       {left: 176, top: 84, right: 183, bottom: 96}
 	"|":       {left: 192, top: 84, right: 199, bottom: 96}
 	"}":       {left: 208, top: 84, right: 215, bottom: 96}

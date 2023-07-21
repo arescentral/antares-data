@@ -77,6 +77,6 @@ items:
 	*	type:    "rect"
 		id:      13
 		bounds:  {left: 73, top: 235, right: 567, bottom: 276}
-		label:   "Volume"
+		label:   "VOLUME"
 		hue:     "pale-purple"
 		style:   "small"
