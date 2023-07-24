@@ -2,7 +2,6 @@ fullscreen:  false
 items:
 	start-over:
 		type:     "button"
-		id:       0
 		bounds:   {left: 180, top: 230, right: 460, bottom: 240}
 		label:    "Start Chapter Over"
 		key:      "RTRN"
@@ -11,7 +10,6 @@ items:
 		style:    "large"
 	quit:
 		type:     "button"
-		id:       1
 		bounds:   {left: 180, top: 270, right: 460, bottom: 280}
 		label:    "Quit to Main Menu"
 		key:      "Q"
@@ -33,7 +31,6 @@ items:
 		style:   "large"
 	resume:
 		type:     "button"
-		id:       4
 		bounds:   {left: 180, top: 190, right: 460, bottom: 200}
 		label:    "Resume"
 		key:      "ESC"

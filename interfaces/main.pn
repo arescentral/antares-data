@@ -2,7 +2,6 @@ fullscreen:  true
 items:
 	start-new-game:
 		type:     "button"
-		id:       0
 		bounds:   {left: 207, top: 258, right: 427, bottom: 268}
 		label:    "Start New Game"
 		key:      "S"
@@ -11,7 +10,6 @@ items:
 		style:    "large"
 	start-network-game:
 		type:     "button"
-		id:       1
 		bounds:   {left: 207, top: 284, right: 427, bottom: 294}
 		label:    "Start Network Game"
 		key:      "N"
@@ -20,7 +18,6 @@ items:
 		style:    "large"
 	options:
 		type:     "button"
-		id:       2
 		bounds:   {left: 207, top: 373, right: 427, bottom: 383}
 		label:    "Options"
 		key:      "O"
@@ -29,7 +26,6 @@ items:
 		style:    "large"
 	quit:
 		type:     "button"
-		id:       3
 		bounds:   {left: 207, top: 433, right: 427, bottom: 443}
 		label:    "Quit"
 		key:      "Q"
@@ -38,7 +34,6 @@ items:
 		style:    "large"
 	about-ares:
 		type:     "button"
-		id:       4
 		bounds:   {left: 207, top: 399, right: 427, bottom: 409}
 		label:    "About Ares"
 		key:      "A"
@@ -47,7 +42,6 @@ items:
 		style:    "large"
 	demo:
 		type:     "button"
-		id:       5
 		bounds:   {left: 207, top: 336, right: 427, bottom: 346}
 		label:    "Demo"
 		key:      "D"
@@ -56,7 +50,6 @@ items:
 		style:    "large"
 	replay-intro:
 		type:     "button"
-		id:       6
 		bounds:   {left: 207, top: 310, right: 427, bottom: 320}
 		label:    "Replay Intro"
 		key:      "R"

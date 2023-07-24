@@ -2,7 +2,6 @@ fullscreen:  true
 items:
 	done:
 		type:     "button"
-		id:       0
 		bounds:   {left: 446, top: 435, right: 586, bottom: 445}
 		label:    "Done"
 		key:      "RTRN"
@@ -11,7 +10,6 @@ items:
 		style:    "large"
 	previous:
 		type:     "button"
-		id:       1
 		bounds:   {left: 54, top: 435, right: 194, bottom: 445}
 		label:    "Previous"
 		key:      "LEFT"
@@ -20,7 +18,6 @@ items:
 		style:    "large"
 	next:
 		type:     "button"
-		id:       2
 		bounds:   {left: 234, top: 435, right: 374, bottom: 445}
 		label:    "Next"
 		key:      "RGHT"
@@ -47,7 +44,6 @@ items:
 
 	mission-analysis:
 		type:    "rect"
-		id:      7
 		bounds:  {left: 54, top: 58, right: 587, bottom: 419}
 		label:   "Mission Analysis"
 		hue:     "tan"
