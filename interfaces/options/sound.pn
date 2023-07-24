@@ -1,38 +1,44 @@
 fullscreen:  true
 items:
-	*	type:     "checkbox"
-		id:       0
-		bounds:   {left: 100, top: 111, right: 300, bottom: 121}
-		label:    "Music During Action"
-		hue:      "indigo"
-		style:    "large"
-	*	type:     "checkbox"
-		id:       1
-		bounds:   {left: 100, top: 144, right: 300, bottom: 154}
-		label:    "Music During Interlude"
-		hue:      "indigo"
-		style:    "large"
-	*	type:     "button"
+	music-during-action:
+		type:    "checkbox"
+		id:      0
+		bounds:  {left: 100, top: 111, right: 300, bottom: 121}
+		label:   "Music During Action"
+		hue:     "indigo"
+		style:   "large"
+	music-during-interlude:
+		type:    "checkbox"
+		id:      1
+		bounds:  {left: 100, top: 144, right: 300, bottom: 154}
+		label:   "Music During Interlude"
+		hue:     "indigo"
+		style:   "large"
+	volume-up:
+		type:     "button"
 		id:       2
 		bounds:   {left: 397, top: 111, right: 557, bottom: 121}
 		label:    "Volume Up"
 		gamepad:  "UP"
 		hue:      "pale-purple"
 		style:    "large"
-	*	type:     "button"
+	volume-down:
+		type:     "button"
 		id:       3
 		bounds:   {left: 397, top: 176, right: 557, bottom: 186}
 		label:    "Volume Down"
 		gamepad:  "DOWN"
 		hue:      "pale-purple"
 		style:    "large"
-	*	type:     "checkbox"
-		id:       4
-		bounds:   {left: 100, top: 176, right: 300, bottom: 186}
-		label:    "Speak Network Messages"
-		hue:      "sky-blue"
-		style:    "large"
-	*	type:     "button"
+	speak-network-messages:
+		type:    "checkbox"
+		id:      4
+		bounds:  {left: 100, top: 176, right: 300, bottom: 186}
+		label:   "Speak Network Messages"
+		hue:     "sky-blue"
+		style:   "large"
+	cancel:
+		type:     "button"
 		id:       5
 		bounds:   {left: 60, top: 407, right: 220, bottom: 417}
 		label:    "Cancel"
@@ -40,7 +46,8 @@ items:
 		gamepad:  "B"
 		hue:      "yellow"
 		style:    "large"
-	*	type:     "button"
+	done:
+		type:     "button"
 		id:       6
 		bounds:   {left: 420, top: 407, right: 580, bottom: 417}
 		label:    "Done"
@@ -48,33 +55,40 @@ items:
 		gamepad:  "A"
 		hue:      "pale-green"
 		style:    "large"
-	*	type:     "button"
-		id:       7
-		bounds:   {left: 420, top: 347, right: 580, bottom: 357}
-		label:    "Key Controls"
-		key:      "K"
-		hue:      "aqua"
-		style:    "large"
+	key-controls:
+		type:    "button"
+		id:      7
+		bounds:  {left: 420, top: 347, right: 580, bottom: 357}
+		label:   "Key Controls"
+		key:     "K"
+		hue:     "aqua"
+		style:   "large"
 
-	*	type:     "picture"
+	tablet/left:
+		type:     "picture"
 		bounds:   {left: 2, top: 0, right: 102, bottom: 481}
 		picture:  "gui/tablet/left"
-	*	type:     "picture"
+	tablet/top:
+		type:     "picture"
 		bounds:   {left: 35, top: 0, right: 615, bottom: 100}
 		picture:  "gui/tablet/top"
-	*	type:     "picture"
+	tablet/right:
+		type:     "picture"
 		bounds:   {left: 607, top: 0, right: 707, bottom: 480}
 		picture:  "gui/tablet/right"
-	*	type:     "picture"
+	tablet/bottom:
+		type:     "picture"
 		bounds:   {left: 35, top: 456, right: 615, bottom: 556}
 		picture:  "gui/tablet/bottom"
 
-	*	type:    "rect"
+	sound-options:
+		type:    "rect"
 		bounds:  {left: 53, top: 92, right: 588, bottom: 293}
 		label:   "Sound Options"
 		hue:     "pale-purple"
 		style:   "large"
-	*	type:    "rect"
+	volume:
+		type:    "rect"
 		id:      13
 		bounds:  {left: 73, top: 235, right: 567, bottom: 276}
 		label:   "VOLUME"

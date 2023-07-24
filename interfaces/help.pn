@@ -1,6 +1,7 @@
 fullscreen:  false
 items:
-	*	type:     "button"
+	done:
+		type:     "button"
 		id:       0
 		bounds:   {left: 40, top: 430, right: 440, bottom: 440}
 		label:    "Done"
@@ -8,8 +9,9 @@ items:
 		gamepad:  "A"
 		hue:      "tan"
 		style:    "large"
-	*	type:     "rect"
-		id:       1
-		bounds:   {left: 20, top: 10, right: 460, bottom: 450}
-		hue:      "tan"
-		style:    "large"
+	rect:
+		type:    "rect"
+		id:      1
+		bounds:  {left: 20, top: 10, right: 460, bottom: 450}
+		hue:     "tan"
+		style:   "large"

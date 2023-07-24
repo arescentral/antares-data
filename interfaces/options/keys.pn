@@ -1,321 +1,375 @@
 fullscreen:  true
 items:
-	*	type:    "button"
+	cancel:
+		type:    "button"
 		id:      0
 		bounds:  {left: 46, top: 427, right: 126, bottom: 437}
 		label:   "CANCEL"
 		hue:     "yellow"
 		style:   "small"
-	*	type:    "button"
+	done:
+		type:    "button"
 		id:      1
 		bounds:  {left: 516, top: 427, right: 596, bottom: 437}
 		label:   "DONE"
 		hue:     "green"
 		style:   "small"
-	*	type:    "button"
+	options:
+		type:    "button"
 		id:      2
 		bounds:  {left: 407, top: 427, right: 487, bottom: 437}
 		label:   "OPTIONS"
 		hue:     "green"
 		style:   "small"
 
-	*	type:    "tab-box"
+	tab-box:
+		type:    "tab-box"
 		id:      8
 		bounds:  {left: 56, top: 62, right: 584, bottom: 296}
 		hue:     "aqua"
 		style:   "large"
 
 		tabs:
-			*	id:     3
+			ship:
+				id:     3
 				width:  39
 				label:  "Ship"
 				content:
-					*	type:    "button"
+					accelerate:
+						type:    "button"
 						id:      15
 						bounds:  {left: 101, top: 115, right: 301, bottom: 125}
 						label:   "ACCELERATE"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					decelerate:
+						type:    "button"
 						id:      16
 						bounds:  {left: 101, top: 155, right: 301, bottom: 165}
 						label:   "DECELERATE"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					turn-counter-clockwise:
+						type:    "button"
 						id:      17
 						bounds:  {left: 101, top: 195, right: 301, bottom: 205}
 						label:   "TURN COUNTER-CLOCKWISE"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					turn-clockwise:
+						type:    "button"
 						id:      18
 						bounds:  {left: 101, top: 235, right: 301, bottom: 245}
 						label:   "TURN CLOCKWISE"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					fire-weapon-1:
+						type:    "button"
 						id:      19
 						bounds:  {left: 341, top: 115, right: 541, bottom: 125}
 						label:   "FIRE WEAPON 1"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					fire-weapon-2:
+						type:    "button"
 						id:      20
 						bounds:  {left: 341, top: 155, right: 541, bottom: 165}
 						label:   "FIRE WEAPON 2"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					fire-activate-special:
+						type:    "button"
 						id:      21
 						bounds:  {left: 341, top: 195, right: 541, bottom: 205}
 						label:   "FIRE\/ACTIVATE SPECIAL"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					warp:
+						type:    "button"
 						id:      22
 						bounds:  {left: 341, top: 235, right: 541, bottom: 245}
 						label:   "WARP"
 						hue:     "aqua"
 						style:   "small"
 
-			*	id:     4
+			command:
+				id:     4
 				width:  72
 				label:  "Command"
 				content:
-					*	type:    "button"
+					select-friendly:
+						type:    "button"
 						id:      23
 						bounds:  {left: 80, top: 75, right: 300, bottom: 85}
 						label:   "SELECT FRIENDLY"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					select-hostile:
+						type:    "button"
 						id:      24
 						bounds:  {left: 80, top: 115, right: 300, bottom: 125}
 						label:   "SELECT HOSTILE"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					select-base:
+						type:    "button"
 						id:      25
 						bounds:  {left: 80, top: 155, right: 300, bottom: 165}
 						label:   "SELECT BASE"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					target:
+						type:    "button"
 						id:      26
 						bounds:  {left: 80, top: 196, right: 300, bottom: 206}
 						label:   "TARGET"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					order-to-go:
+						type:    "button"
 						id:      27
 						bounds:  {left: 80, top: 236, right: 300, bottom: 246}
 						label:   "ORDER TO GO"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					scale-in:
+						type:    "button"
 						id:      28
 						bounds:  {left: 339, top: 75, right: 560, bottom: 85}
 						label:   "SCALE IN"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					scale-out:
+						type:    "button"
 						id:      29
 						bounds:  {left: 340, top: 115, right: 560, bottom: 125}
 						label:   "SCALE OUT"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					computer-previous:
+						type:    "button"
 						id:      30
 						bounds:  {left: 339, top: 155, right: 560, bottom: 165}
 						label:   "COMPUTER PREVIOUS"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					computer-next:
+						type:    "button"
 						id:      31
 						bounds:  {left: 339, top: 195, right: 560, bottom: 205}
 						label:   "COMPUTER NEXT"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					computer-accept-select-do:
+						type:    "button"
 						id:      32
 						bounds:  {left: 339, top: 235, right: 560, bottom: 245}
 						label:   "COMPUTER ACCEPT\/SELECT\/DO"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					computer-cancel-back-up:
+						type:    "button"
 						id:      33
 						bounds:  {left: 339, top: 275, right: 560, bottom: 285}
 						label:   "COMPUTER CANCEL\/BACK UP"
 						hue:     "aqua"
 						style:   "small"
 
-			*	id:     5
+			shortcuts:
+				id:     5
 				width:  72
 				label:  "Shortcuts"
 				content:
-					*	type:    "button"
+					transfer-control:
+						type:    "button"
 						id:      34
 						bounds:  {left: 71, top: 95, right: 291, bottom: 105}
 						label:   "TRANSFER CONTROL"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					zoom-to-1-1:
+						type:    "button"
 						id:      35
 						bounds:  {left: 71, top: 135, right: 291, bottom: 145}
 						label:   "ZOOM TO 1:1"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					zoom-to-1-2:
+						type:    "button"
 						id:      36
 						bounds:  {left: 71, top: 175, right: 291, bottom: 185}
 						label:   "ZOOM TO 1:2"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					zoom-to-1-4:
+						type:    "button"
 						id:      37
 						bounds:  {left: 71, top: 215, right: 291, bottom: 225}
 						label:   "ZOOM TO 1:4"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					zoom-to-1-16:
+						type:    "button"
 						id:      38
 						bounds:  {left: 71, top: 255, right: 291, bottom: 265}
 						label:   "ZOOM TO 1:16"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					zoom-to-closest-hostile:
+						type:    "button"
 						id:      39
 						bounds:  {left: 331, top: 95, right: 571, bottom: 105}
 						label:   "ZOOM TO CLOSEST HOSTILE"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					zoom-to-closest-object:
+						type:    "button"
 						id:      40
 						bounds:  {left: 331, top: 135, right: 571, bottom: 145}
 						label:   "ZOOM TO CLOSEST OBJECT"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					zoom-to-all:
+						type:    "button"
 						id:      41
 						bounds:  {left: 331, top: 175, right: 571, bottom: 185}
 						label:   "ZOOM TO ALL"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					message-next-page-clear:
+						type:    "button"
 						id:      42
 						bounds:  {left: 331, top: 215, right: 571, bottom: 225}
 						label:   "MESSAGE NEXT PAGE\/CLEAR"
 						hue:     "aqua"
 						style:   "small"
 
-			*	id:     6
+			utility:
+				id:     6
 				width:  72
 				label:  "Utility"
 				content:
-					*	type:    "button"
+					help:
+						type:    "button"
 						id:      43
 						bounds:  {left: 100, top: 134, right: 300, bottom: 144}
 						label:   "HELP"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					lower-volume:
+						type:    "button"
 						id:      44
 						bounds:  {left: 100, top: 174, right: 300, bottom: 184}
 						label:   "LOWER VOLUME"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					raise-volume:
+						type:    "button"
 						id:      45
 						bounds:  {left: 100, top: 214, right: 300, bottom: 224}
 						label:   "RAISE VOLUME"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					mute-music:
+						type:    "button"
 						id:      46
 						bounds:  {left: 340, top: 134, right: 540, bottom: 144}
 						label:   "MUTE MUSIC"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					expert-net-settings:
+						type:    "button"
 						id:      47
 						bounds:  {left: 340, top: 174, right: 540, bottom: 184}
 						label:   "EXPERT NET SETTINGS"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					fast-motion:
+						type:    "button"
 						id:      48
 						bounds:  {left: 340, top: 214, right: 540, bottom: 224}
 						label:   "FAST MOTION"
 						hue:     "aqua"
 						style:   "small"
 
-			*	id:     7
+			hot-keys:
+				id:     7
 				width:  68
 				label:  "Hot Keys"
 				content:
-					*	type:    "button"
+					hotkey-1:
+						type:    "button"
 						id:      49
 						bounds:  {left: 100, top: 94, right: 300, bottom: 104}
 						label:   "HOTKEY 1"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					hotkey-2:
+						type:    "button"
 						id:      50
 						bounds:  {left: 100, top: 134, right: 300, bottom: 144}
 						label:   "HOTKEY 2"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					hotkey-3:
+						type:    "button"
 						id:      51
 						bounds:  {left: 100, top: 174, right: 300, bottom: 184}
 						label:   "HOTKEY 3"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					hotkey-4:
+						type:    "button"
 						id:      52
 						bounds:  {left: 100, top: 214, right: 300, bottom: 224}
 						label:   "HOTKEY 4"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					hotkey-5:
+						type:    "button"
 						id:      53
 						bounds:  {left: 100, top: 254, right: 300, bottom: 264}
 						label:   "HOTKEY 5"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					hotkey-6:
+						type:    "button"
 						id:      54
 						bounds:  {left: 340, top: 94, right: 540, bottom: 104}
 						label:   "HOTKEY 6"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					hotkey-7:
+						type:    "button"
 						id:      55
 						bounds:  {left: 340, top: 134, right: 540, bottom: 144}
 						label:   "HOTKEY 7"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					hotkey-8:
+						type:    "button"
 						id:      56
 						bounds:  {left: 340, top: 174, right: 540, bottom: 184}
 						label:   "HOTKEY 8"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					hotkey-9:
+						type:    "button"
 						id:      57
 						bounds:  {left: 340, top: 214, right: 540, bottom: 224}
 						label:   "HOTKEY 9"
 						hue:     "aqua"
 						style:   "small"
-					*	type:    "button"
+					hotkey-10:
+						type:    "button"
 						id:      58
 						bounds:  {left: 340, top: 254, right: 540, bottom: 264}
 						label:   "HOTKEY 10"
 						hue:     "aqua"
 						style:   "small"
 
-	*	type:    "text"
+	instructions:
+		type:    "text"
 		bounds:  {left: 44, top: 351, right: 599, bottom: 407}
 		hue:     "tan"
 		style:   "small"
@@ -324,21 +378,26 @@ items:
 			>	WILL BE ASSIGNED TO THAT FUNCTION. THE NEXT BUTTON WILL AUTOMATICALLY BE
 			>	SELECTED. <ESC>, <RETURN>, AND <CAPS LOCK> ARE PRE-ASSIGNED AND CANNOT
 			>	BE USED.
-	*	type:    "text"
+	conflict:
+		type:    "text"
 		id:      10
 		bounds:  {left: 46, top: 313, right: 594, bottom: 339}
 		hue:     "orange"
 		style:   "small"
 
-	*	type:     "picture"
+	tablet/left:
+		type:     "picture"
 		bounds:   {left: 2, top: 0, right: 102, bottom: 481}
 		picture:  "gui/tablet/left"
-	*	type:     "picture"
+	tablet/top:
+		type:     "picture"
 		bounds:   {left: 35, top: 0, right: 615, bottom: 100}
 		picture:  "gui/tablet/top"
-	*	type:     "picture"
+	tablet/right:
+		type:     "picture"
 		bounds:   {left: 607, top: 0, right: 707, bottom: 480}
 		picture:  "gui/tablet/right"
-	*	type:     "picture"
+	tablet/bottom:
+		type:     "picture"
 		bounds:   {left: 35, top: 456, right: 615, bottom: 556}
 		picture:  "gui/tablet/bottom"

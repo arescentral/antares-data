@@ -1,6 +1,7 @@
 fullscreen:  false
 items:
-	*	type:     "button"
+	start-over:
+		type:     "button"
 		id:       0
 		bounds:   {left: 180, top: 230, right: 460, bottom: 240}
 		label:    "Start Tutorial Over"
@@ -8,7 +9,8 @@ items:
 		gamepad:  "X"
 		hue:      "gold"
 		style:    "large"
-	*	type:     "button"
+	quit:
+		type:     "button"
 		id:       1
 		bounds:   {left: 180, top: 310, right: 460, bottom: 320}
 		label:    "Quit to Main Menu"
@@ -16,18 +18,21 @@ items:
 		gamepad:  "Y"
 		hue:      "salmon"
 		style:    "large"
-	*	type:     "text"
-		bounds:   {left: 160, top: 150, right: 480, bottom: 250}
+	question:
+		type:    "text"
+		bounds:  {left: 160, top: 150, right: 480, bottom: 250}
 		text:
 			>	Resume the tutorial, start the tutorial over, skip the tutorial, or quit
 			>	to the main menu?
-		hue:      "indigo"
-		style:    "large"
-	*	type:     "rect"
-		bounds:   {left: 140, top: 150, right: 500, bottom: 330}
-		hue:      "pale-purple"
-		style:    "large"
-	*	type:     "button"
+		hue:    "indigo"
+		style:  "large"
+	rect:
+		type:    "rect"
+		bounds:  {left: 140, top: 150, right: 500, bottom: 330}
+		hue:     "pale-purple"
+		style:   "large"
+	resume:
+		type:     "button"
 		id:       4
 		bounds:   {left: 180, top: 190, right: 460, bottom: 200}
 		label:    "Resume Tutorial"
@@ -35,7 +40,8 @@ items:
 		gamepad:  "A"
 		hue:      "pale-green"
 		style:    "large"
-	*	type:     "button"
+	skip:
+		type:     "button"
 		id:       5
 		bounds:   {left: 180, top: 270, right: 460, bottom: 280}
 		label:    "Skip Tutorial"

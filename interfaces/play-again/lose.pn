@@ -1,6 +1,7 @@
 fullscreen:  false
 items:
-	*	type:     "button"
+	start-over:
+		type:     "button"
 		id:       0
 		bounds:   {left: 180, top: 210, right: 460, bottom: 220}
 		label:    "Start Chapter Over"
@@ -8,7 +9,8 @@ items:
 		gamepad:  "X"
 		hue:      "gold"
 		style:    "large"
-	*	type:     "button"
+	quit:
+		type:     "button"
 		id:       1
 		bounds:   {left: 181, top: 250, right: 461, bottom: 260}
 		label:    "Quit to Main Menu"
@@ -16,13 +18,15 @@ items:
 		gamepad:  "Y"
 		hue:      "salmon"
 		style:    "large"
-	*	type:     "text"
-		bounds:   {left: 160, top: 150, right: 480, bottom: 250}
+	question:
+		type:    "text"
+		bounds:  {left: 160, top: 150, right: 480, bottom: 250}
 		text:
 			>	Start the chapter over, or quit to the main menu?
-		hue:     "orange"
-		style:   "large"
-	*	type:    "rect"
+		hue:    "orange"
+		style:  "large"
+	rect:
+		type:    "rect"
 		bounds:  {left: 140, top: 150, right: 500, bottom: 290}
 		hue:     "orange"
 		style:   "large"
