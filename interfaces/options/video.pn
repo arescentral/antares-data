@@ -1,36 +1,10 @@
 fullscreen:  true
 items:
-	music-during-action:
+	fullscreen:
 		type:    "checkbox"
 		bounds:  {left: 100, top: 111, right: 300, bottom: 121}
-		label:   "Music During Action"
-		hue:     "indigo"
-		style:   "large"
-	music-during-interlude:
-		type:    "checkbox"
-		bounds:  {left: 100, top: 144, right: 300, bottom: 154}
-		label:   "Music During Interlude"
-		hue:     "indigo"
-		style:   "large"
-	volume-up:
-		type:     "button"
-		bounds:   {left: 397, top: 111, right: 557, bottom: 121}
-		label:    "Volume Up"
-		gamepad:  "UP"
-		hue:      "pale-purple"
-		style:    "large"
-	volume-down:
-		type:     "button"
-		bounds:   {left: 397, top: 176, right: 557, bottom: 186}
-		label:    "Volume Down"
-		gamepad:  "DOWN"
-		hue:      "pale-purple"
-		style:    "large"
-	speak-network-messages:
-		type:    "checkbox"
-		bounds:  {left: 100, top: 176, right: 300, bottom: 186}
-		label:   "Speak Network Messages"
-		hue:     "sky-blue"
+		label:   "Fullscreen"
+		hue:     "pale-purple"
 		style:   "large"
 
 	cancel:
@@ -50,11 +24,11 @@ items:
 		hue:      "pale-green"
 		style:    "large"
 
-	video-control:
+	options:
 		type:    "button"
 		bounds:  {left: 420, top: 377, right: 580, bottom: 387}
-		label:   "Video"
-		key:     "V"
+		label:   "Sound"
+		key:     "S"
 		hue:     "aqua"
 		style:   "large"
 	key-controls:
@@ -82,15 +56,9 @@ items:
 		bounds:   {left: 35, top: 456, right: 615, bottom: 556}
 		picture:  "gui/tablet/bottom"
 
-	sound-options:
+	video-options:
 		type:    "rect"
 		bounds:  {left: 53, top: 92, right: 588, bottom: 293}
-		label:   "Sound Options"
-		hue:     "pale-purple"
+		label:   "Video Options"
+		hue:     "indigo"
 		style:   "large"
-	volume:
-		type:    "rect"
-		bounds:  {left: 73, top: 235, right: 567, bottom: 276}
-		label:   "VOLUME"
-		hue:     "pale-purple"
-		style:   "small"
